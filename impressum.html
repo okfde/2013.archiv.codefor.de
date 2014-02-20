@@ -21,9 +21,10 @@
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -158,67 +159,58 @@
         </div>
       </div>
     </div>
-
-
-    <div class="jumbotron fond__white">
-
+ <footer>
+    <div class="jumbotron fond__grey-mid meta-links-foot">
       <div class="container">
-        <footer>
-          <div class="row text-center">
-            <div class="col-lg-12">
-              <p>
-                <a href="impressum.html">Kontakt &amp; Impressum</a>
-              </p>        
-            </div>
+        <div class="row text-center text-uppercase">
+          <div class="col-lg-12">
+            <a href="impressum.html">Kontakt &amp; Impressum</a>
           </div>
-
-          <div class="row text-center">
-            <div class="col-lg-4">
-              <p>
-                <a href="http://www.okfn.de/"><img class="img-responsive partner-shrink" src="img/OKFN.svg" alt="OKFN Logo"  /></a>
-              </p>          
-            </div>
-
-            <div class="col-lg-4">
-              <p>
-                <a href="http://codeforamerica.org/"><img class="img-responsive partner-shrink" src="img/CFA.png" alt="Code for America Logo" /></a>
-              </p>          
-            </div>
-
-            <div class="col-lg-4">
-              <p>
-                <img class="img-responsive partner-shrink" src="img/google.svg"  alt="Google Logo" />
-              </p>          
-            </div>
-          </div>
-
-          <div class="row text-center">
-            <div class="col-lg-12">
-              <p>* Damit meinen wir natürlich auch alle weiblichen Entwicklerinnen und Nerdettes und Leute, denen die klassischen Geschlechterbilder nicht so passen :)</p>
-            </div>
-          </div>
-
-
-        </footer>
-
+        </div>
       </div>
     </div>
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-
+    <div class="jumbotron fond__white partner">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <p>
+            <a href="http://www.okfn.de/"><img class="okfn-logo img-responsive" src="img/OKFN.svg" alt="OKFN Logo"  /></a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+            <a href="http://codeforamerica.org/"><img class="cfa-logo img-responsive" src="img/CFA.png" alt="Code for America Logo" /></a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+            <img class="google-logo img-responsive" src="img/google.svg"  alt="Google Logo" />
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.cookie.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/prettyCheckbox.min.js"></script>
+  <script src="js/Application.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  
+  $(":checkbox").prettyCheckbox();
+  });
   </script>
-      <!-- once you turn this on, we are here... wooot!
-
-      <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src='//www.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-      </script>
-    -->
-  </body>
-  </html>
+  <!-- once you turn this on, we are here... wooot!
+  <script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src='//www.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  -->
+</body>
+</html>
