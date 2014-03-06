@@ -89,7 +89,8 @@ label {
 	margin-top: 0;
 	letter-spacing: -0.05em;
 	text-transform: inherit;
-	font-size: 63px;
+	font-size: 26px;
+
 }
 
 .jumbotron {
@@ -312,12 +313,43 @@ margin-left: 10px;
 .partner img {
 	height: auto;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
+
+    .okfn-logo {
+		max-width: 80%;
+	}
+
+	.cfa-logo {
+		max-width: 80%;
+	}
+
+	.google-logo {
+		max-width: 80%;
+	}
 
 /*-----  End of Home  ------*/
 
+@media screen and (min-width: 481px) {
+	#animation-wrapper h1 {
+		font-size: 63px;
+    }
+
+    .okfn-logo {
+		max-width: 50%;
+	}
+
+	.cfa-logo {
+		max-width: 50%;
+	}
+
+	.google-logo {
+		max-width: 50%;
+	}
+}
+
 @media screen and (min-width: 768px) {
-	
+
 	.navbar .container {
 		max-width: 1320px;
 	}
@@ -330,18 +362,6 @@ margin-left: 10px;
 		padding: 35px ;
 	}
 
-	.okf-logo {
-		max-width: 60%;
-	}
-
-	.cfa-logo {
-		max-width: 60%;
-	}
-
-	.google-logo {
-		max-width: 80%;
-	}
-
 	.navbar {
 		padding: 70px 0;
 	}
@@ -351,5 +371,18 @@ margin-left: 10px;
 	}
 }
 
+@media screen and (min-width: 1200px) {
 
+ 	.okfn-logo {
+		max-width: 100%;
+	}
+
+	.cfa-logo {
+		max-width: 60%;
+	}
+
+	.google-logo {
+		max-width: 80%;
+	}
+}
 
