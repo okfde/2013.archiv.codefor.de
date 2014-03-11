@@ -40,6 +40,22 @@ body {
 	@extend .fond__white; 
 }
 
+/*===============================
+=            Helpers            =
+===============================*/
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/*-----  End of Helpers  ------*/
+
+
+
+
 /*==================================
 =            Typography            =
 ==================================*/
@@ -178,19 +194,16 @@ label {
 
 /* Pretty Checkboxes */
 .prettyCheckbox {
-  background: #efefef;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
+	background: #efefef;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
 
-  -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-      -ms-border-radius: 20px;
-       -o-border-radius: 20px;
-          border-radius: 20px;
+	@include border-radius(20px);
+
 }
 
 .prettyCheckbox.checked { position: relative; }
@@ -198,11 +211,7 @@ label {
 .prettyCheckbox.checked .check {
 
   background: $black;
-  -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-       -o-border-radius: 10px;
-          border-radius: 10px;
+  @include border-radius(10px);
   display: inline-block;
   height: 10px;
   width: 10px;
@@ -310,6 +319,80 @@ margin-left: 10px;
 	}
 }
 
+.event-wrapper {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: left; 
+	padding: 30px;
+	margin: 30px 15px 0 15px;
+
+	h4 { 
+		margin: 30px 0 16px 0;
+	}
+}
+
+.icon-before:before {
+	display: inline-block;
+	content:"";
+	margin-right: 10px;
+}
+
+.event-time {
+	&:before {
+		background-image: url('../img/time.svg');
+		height: 20px;
+		width: 18px;
+	}
+}
+
+.event-location {
+	&:before {
+		background-image: url('../img/place.svg');	
+		height: 21px;
+		width: 17px;
+	}
+}
+
+.event-cta {
+	display: inline-block;
+	padding: 0 10px; 
+	a, a:hover, a:visited, a:active {
+		color: $white;
+		text-decoration: none;
+	};
+}
+
+
+.event-date-cta-wrapper {
+	text-align: center;
+	@extend .text__red;
+	margin: 15px 0 0 0;
+}
+
+$date-circle: 80px;
+.event-date-d {
+	text-transform: uppercase;
+	font-size: 36px;
+	padding-top: 26px;
+	margin: 0 auto;
+	display: inline-block;
+	width: $date-circle;
+	height: $date-circle;
+	border: 2px solid $red;
+
+	@include border-radius($date-circle);
+}
+
+.event-cta {
+	@extend .fond__red;
+	@extend .text__white;
+}
+
+.event-lab, .event-time, .event-location, .event-date-d {
+	display: block;
+}
+
+
 .partner img {
 	height: auto;
 	margin: 0 auto;
@@ -346,6 +429,16 @@ margin-left: 10px;
 	.google-logo {
 		max-width: 50%;
 	}
+
+	.event-description {
+		float: left;
+	}
+
+	.event-date-cta-wrapper {
+		float: right;
+		margin: 0;
+	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -369,6 +462,7 @@ margin-left: 10px;
 	.highlight-hero {
 		margin-left: 10px;
 	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -384,5 +478,13 @@ margin-left: 10px;
 	.google-logo {
 		max-width: 80%;
 	}
+
+	.event-wrapper {
+		margin-bottom: 15px;
+	}
+
 }
+
+
+
 
