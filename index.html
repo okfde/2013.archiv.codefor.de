@@ -1,329 +1,220 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+---
+layout: default
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ____        _       __                     __  __      _                     
-   / __ \____ _(_)___  / /_  ____ _      __   / / / /___  (_)________  _________ 
-  / /_/ / __ `/ / __ \/ __ \/ __ \ | /| / /  / / / / __ \/ / ___/ __ \/ ___/ __ \
- / _, _/ /_/ / / / / / /_/ / /_/ / |/ |/ /  / /_/ / / / / / /__/ /_/ / /  / / / /
-/_/ |_|\__,_/_/_/ /_/_.___/\____/|__/|__/   \____/_/ /_/_/\___/\____/_/  /_/ /_/ 
-                                                                                 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Code for Germany</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <script>
-
-  WebFontConfig = { fontdeck: { id: '41701' } };
-
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-
-  </script>
-
-</head>
-<body>
-  <!--[if lt IE 7]>
-  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]
-  -->
-  <div class="navbar animated">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">
-        <img class="img-responsive" src="img/CFG_logo.svg" alt="Code for Germany">
-        </a>
+<!-- Hero -->
+<div class="jumbotron fond__grey">
+  <div class="container">
+    <div class="row">
+      <div id="animation-wrapper" class="col-lg-11 col-lg-offset-1">
+        <h1 class="cta text__blue animated-claim">Stadt<span class="text__red">&lt;</span>entwickler <span class="text__red">/&gt;</span>*
+        <br />nutzen offene Daten um ihre Stadt zu verbessern<span class="marker"></span></h1>
+        <h5 class="highlight highlight-hero cta-sub">
+        <span class="highlight-red"> Code a difference: Nutz' deine Fähigkeiten um deine Stadt zu verbessern!</span>
+        </h5>
       </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right text-center">
-          <li><a href="https://twitter.com/codeforde" >t</a></li>
-          <li><a href="http://goo.gl/pO9wkS" >g+</a></li>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div class="beneath-sections jumbotron fond__blue animated">
+  <div class="container text-center text__black">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3>Darum geht es:</h3>
+        <p>Du bist Softwareentwickler oder Designer und interessierst Dich für die Themen Open Data, Transparenz und Civic Tech? Du hast Ideen, wie Code dabei helfen kann Deine Stadt und Nachbarschaft zu verbessern? Du hast Lust diese Chancen praktisch zu erforschen und neue Anwendungen und Visualisierungen zu entwickeln? Dann mach mit bei Code for Germany, vernetze Dich mit Gleichgesinnten und entwickele Software, die deine Stadt verändert!</p>
+      </div>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
+
+<!-- Cfa -->
+<div class="jumbotron fond__green text__white cta-news-wrapper">
+  <div class="container">
+    <div class="row text-center ">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3>Mitmachen</h3>
+        <p>Mach mit und werde Teil von Code for Germany in Deiner Stadt:</p>
+        <ul class="cfg-cities list-inline">
+          <li class="highlight-white" >OK Lab Hamburg</li>
+          <li class="highlight-white" >OK Lab Berlin</li>
+          <li class="highlight-white" >OK Lab Münster</li>
+          <li class="highlight-white" >OK Lab Ulm</li>
+          <li class="highlight-white" >OK Lab Heilbronn</li>
+          <li class="highlight-white" >OK Lab Bremen</li>
+          <li class="highlight-white" >OK Lab München</li>
+          <li class="highlight-white" >OK Lab Köln</li>
         </ul>
-      </div>
-      <!--/.navbar-collapse -->
-    </div>
-  </div>
-
-  <!-- Hero -->
-  <div class="jumbotron fond__grey">
-    <div class="container">
-      <div class="row">
-        <div id="animation-wrapper" class="col-lg-11 col-lg-offset-1">
-          <h1 class="cta text__blue animated-claim">Stadt<span class="text__red">&lt;</span>entwickler <span class="text__red">/&gt;</span>*
-          <br />nutzen offene Daten um ihre Stadt zu verbessern<span class="marker"></span></h1>
-          <h5 class="highlight highlight-hero cta-sub">
-          <span class="highlight-red"> Code a difference: Nutz' deine Fähigkeiten um deine Stadt zu verbessern!</span>
-          </h5>
-        </div>
+        <p class="cfg-cities-sub">Deine Stadt ist nicht dabei? Dann trag sie ein und hilf mit Code for Germany zu starten.</p>
       </div>
     </div>
-  </div>
-
-  <!-- About -->
-  <div class="beneath-sections jumbotron fond__blue animated">
-    <div class="container text-center text__black">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
-          <h3>Darum geht es:</h3>
-          <p>Du bist Softwareentwickler oder Designer und interessierst Dich für die Themen Open Data, Transparenz und Civic Tech? Du hast Ideen, wie Code dabei helfen kann Deine Stadt und Nachbarschaft zu verbessern? Du hast Lust diese Chancen praktisch zu erforschen und neue Anwendungen und Visualisierungen zu entwickeln? Dann mach mit bei Code for Germany, vernetze Dich mit Gleichgesinnten und entwickele Software, die deine Stadt verändert!</p>
-        </div>
-      </div>
-      <!--
-      <div class="row">
-        <div class="col-lg-4 highlight">
-          <p class="highlight-red" >Use civic tech to make your community better!</p>
-        </div>
-        <div class="col-lg-4 highlight">
-          <p class="highlight-red" >Use civic tech to make your community better!</p>
-        </div>
-        <div class="col-lg-4 highlight">
-          <p class="highlight-red" >Use civic tech to make your community better!</p>
-        </div>
-      </div>
-      -->
-    </div>
-  </div>
-
-  <!-- Cfa -->
-  <div class="jumbotron fond__green text__white cta-news-wrapper">
-    <div class="container">
-      <div class="row text-center ">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Mitmachen</h3>
-          <p>Mach mit und werde Teil von Code for Germany in Deiner Stadt:</p>
-          <ul class="cfg-cities list-inline">
-            <li class="highlight-white" >OK Lab Hamburg</li>
-            <li class="highlight-white" >OK Lab Berlin</li>
-            <li class="highlight-white" >OK Lab Münster</li>
-            <li class="highlight-white" >OK Lab Ulm</li>
-            <li class="highlight-white" >OK Lab Heilbronn</li>
-            <li class="highlight-white" >OK Lab Bremen</li>
-            <li class="highlight-white" >OK Lab München</li>
-            <li class="highlight-white" >OK Lab Köln</li>
-          </ul>
-          <p class="cfg-cities-sub">Deine Stadt ist nicht dabei? Dann trag sie ein und hilf mit Code for Germany zu starten.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form action="http://okfn.us5.list-manage.com/subscribe/post?u=929f1e07936386d34833e20d1&amp;id=bb63fcab72" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center mc-form" target="_blank" role="form">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="mc-field-group form-group">
-                  <label for="mce-NAME" class="sr-only" >Name</label>
-                  <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="Name" >
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="mc-field-group form-group">
-                  <label for="mce-EMAIL" class="sr-only" >e-mail Addresse</label>
-                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="e-Mail Addresse" required >
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="mc-field-group form-group">
-                  <label for="mce-ORT" class="sr-only" >Ort</label>
-                  <input type="text" value="" name="ORT" class="form-control" id="mce-ORT" placeholder="Ort">
-                </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form action="http://okfn.us5.list-manage.com/subscribe/post?u=929f1e07936386d34833e20d1&amp;id=bb63fcab72" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center mc-form" target="_blank" role="form">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mc-field-group form-group">
+                <label for="mce-NAME" class="sr-only" >Name</label>
+                <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="Name" >
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-lg-8 text-left">
-                <div class="mc-field-group input-group form-group">
-
-                  <input type="checkbox" value="1" name="group[16985][1]" id="mce-group[16985]-16985-0">
-                  <label for="mce-group[16985]-16985-0" id="mce-group[16985]-16985-0" class="" >Ich kann nicht aktiv beitragen, will aber regelm&auml;ßige Updates.</label>
-
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value=""></div>
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen pull-right">Mitmachen!</button>
+            <div class="col-lg-4">
+              <div class="mc-field-group form-group">
+                <label for="mce-EMAIL" class="sr-only" >e-mail Addresse</label>
+                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="e-Mail Addresse" required >
               </div>
             </div>
-
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="jumbotron fond__grey faq">
-    <div class="container text-center text__grey">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3>Info</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="panel-group" id="accordion">
-          
-          <div class="panel">
-            <div>
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-             Was ist Code for Germany?</a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-              <div class="panel-body">
-                <p>Code for Germany ist ein Programm der Open Knowledge Foundation Deutschland (<a href="http://www.okfn.de">www.okfn.de</a>) in Zusammenarbeit mit Code For America (<a href="http://www.codeforamerica.org">www.codeforamerica.org</a>). Ziel ist es, Entwicklungen im Bereich Transparenz, Open Data und Civic Tech zu fördern. Das Programm besteht aus drei Modulen: Den Open Knowledge Labs (OK Labs), dem Stipendium und dem Inkubator. Gestartet wird das Programm im Frühjahr 2014 mit den OK Labs. 
-                <br><br>
-                Das Stipendienprogramm, in dem Entwickler für mehrere Monate aktiv in Verwaltungseinheiten eingebunden werden, bereiten wir für 2015 mit ausgewählten Partnerstädten vor. Interessierte Sädte und Sponsoren können sich gerne bei uns <a href="mailto:info@okfn.de">melden</a>.</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="panel">
-            <div>
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Was ist ein OK Lab?</a>
-              </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>OK Labs (Open Knowledge Labs) sind lokale Arbeitsgruppen, bestehend aus Softwareentwicklern, Designern und Open Data-Interessierten, die in ihrer Stadt praktisch mit offenen Daten arbeiten. Lokal und global vernetzt entwickeln die OK Labs Anwendungen und Visualisierungen, die Einwohnern relevante Informationen zu ihrer Stadt bereitstellen. Die Labs treffen sich regelmäßig zum gemeinsamen Arbeiten und stehen in Kontakt mit städtischen Vertretern. Ziel der Labs ist es, durch die Entwicklung konkreter Anwendungen neue Möglichkeiten und Chancen in Bereichen wie Bürgerservice, Partizipation und staatlicher Transparenz aufzuzeigen und die Öffnung staatlicher Daten weiter voranzutreiben. Gemeinsam bilden alle OK Labs das Code for Germany-Netzwerk.</p>
+            <div class="col-lg-4">
+              <div class="mc-field-group form-group">
+                <label for="mce-ORT" class="sr-only" >Ort</label>
+                <input type="text" value="" name="ORT" class="form-control" id="mce-ORT" placeholder="Ort">
               </div>
             </div>
           </div>
 
-          <div class="panel">
-            <div >
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-              Warum Code for Germany?</a>
-              </h4>
+          <div class="row">
+            <div class="col-lg-8 text-left">
+              <div class="mc-field-group input-group form-group">
+
+                <input type="checkbox" value="1" name="group[16985][1]" id="mce-group[16985]-16985-0">
+                <label for="mce-group[16985]-16985-0" id="mce-group[16985]-16985-0" class="" >Ich kann nicht aktiv beitragen, will aber regelm&auml;ßige Updates.</label>
+
+              </div>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>In vielen Städten gibt es Menschen oder Gruppen, die bereits an Anwendungen und Projekten rund um offene Daten arbeiten. Code for Germany schafft eine Infrastruktur, um sie miteinander zu vernetzen und einen Austausch zu ermöglichen.  Darüber hinaus unterstützt Code for Germany die Entwickler und Enwicklerinnen in der Kommunikation mit Regierung, Institutionen und der Öffentlichkeit. </p><p>
+            <div class="col-lg-4">
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value=""></div>
+              <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen pull-right">Mitmachen!</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron fond__grey faq">
+  <div class="container text-center text__grey">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Info</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="panel-group" id="accordion">
+
+        <div class="panel">
+          <div>
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+           Was ist Code for Germany?</a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <p>Code for Germany ist ein Programm der Open Knowledge Foundation Deutschland (<a href="http://www.okfn.de">www.okfn.de</a>) in Zusammenarbeit mit Code For America (<a href="http://www.codeforamerica.org">www.codeforamerica.org</a>). Ziel ist es, Entwicklungen im Bereich Transparenz, Open Data und Civic Tech zu fördern. Das Programm besteht aus drei Modulen: Den Open Knowledge Labs (OK Labs), dem Stipendium und dem Inkubator. Gestartet wird das Programm im Frühjahr 2014 mit den OK Labs.
+              <br><br>
+              Das Stipendienprogramm, in dem Entwickler für mehrere Monate aktiv in Verwaltungseinheiten eingebunden werden, bereiten wir für 2015 mit ausgewählten Partnerstädten vor. Interessierte Sädte und Sponsoren können sich gerne bei uns <a href="mailto:info@okfn.de">melden</a>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div>
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Was ist ein OK Lab?</a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>OK Labs (Open Knowledge Labs) sind lokale Arbeitsgruppen, bestehend aus Softwareentwicklern, Designern und Open Data-Interessierten, die in ihrer Stadt praktisch mit offenen Daten arbeiten. Lokal und global vernetzt entwickeln die OK Labs Anwendungen und Visualisierungen, die Einwohnern relevante Informationen zu ihrer Stadt bereitstellen. Die Labs treffen sich regelmäßig zum gemeinsamen Arbeiten und stehen in Kontakt mit städtischen Vertretern. Ziel der Labs ist es, durch die Entwicklung konkreter Anwendungen neue Möglichkeiten und Chancen in Bereichen wie Bürgerservice, Partizipation und staatlicher Transparenz aufzuzeigen und die Öffnung staatlicher Daten weiter voranzutreiben. Gemeinsam bilden alle OK Labs das Code for Germany-Netzwerk.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div >
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            Warum Code for Germany?</a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>In vielen Städten gibt es Menschen oder Gruppen, die bereits an Anwendungen und Projekten rund um offene Daten arbeiten. Code for Germany schafft eine Infrastruktur, um sie miteinander zu vernetzen und einen Austausch zu ermöglichen.  Darüber hinaus unterstützt Code for Germany die Entwickler und Enwicklerinnen in der Kommunikation mit Regierung, Institutionen und der Öffentlichkeit. </p><p>
 Inspiriert ist die Idee von Code for America, deren Programme bereits zahlreiche Beispiele dafür liefern, wie offene Daten genutzt werden können, um lokal die Lebensumstände zu verbessern. Code for Germany will das Konzept jetzt auf Deutschland übertragen um auch hier das Potenzial offener Datensätze und kreativer Entwickler auszubauen.
 
 </p>
-              </div>
             </div>
           </div>
-
-          <div class="panel">
-            <div >
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-              Wie kann ich als Entwickler mitmachen?</a>
-              </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>Am wichtigsten ist: komm vorbei und mach mit. Die OK Labs treffen sich regelmäßig, um gemeinsam Projekte zu planen, Code zu schreiben oder Prototypen zu testen. Trag dich in das Formular auf dieser Seite ein, um mit dem OK Lab in deiner Nähe vernetzt zu werden. Sollte es noch kein OK Lab in deiner Stadt geben, benachrichtigen wir dich sobald ein Lab in deiner Nähe aufgebaut wird. Wenn Du selbst eine neue Stadtinitiative leiten willst, dann melde Dich bei [uns]: wir planen, im Sommer eine zweite Gruppe von Labs zu starten. </p>
-                <p>Neben den lokalen Meetups bietet Code for Germany auch eine Reihe von Vernetzungsmöglichekeiten: in den kommenden Monaten wird auf dieser Seite ein Projekt-Katalog entstehen, der sichtbar macht, wer wo an spannenden Projekten arbeitet. Zudem planen wir regelmäßige Hangouts mit internationalen Experten und im Herbst einen Gipfel, bei dem sich Delegierte aus allen Labs treffen.</p>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="panel">
-            <div >
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-              Ich bin kein Techie. Wie kann ich trotzdem mitmachen?</a>
-              </h4>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>In der Startphase suchen wir schwerpunktmäßig nach Leuten, die praktisch an Anwendungen rund um offene Daten und Civic Tech arbeiten können. Doch nur gute Anwendungen entwickeln genügt oft nicht - man muss auch drüber sprechen und Aufmerksamkeit erzeugen. Dafür ist es wichtig, möglichst interdisziplinär aufgestellt zu sein. Kurz: Wir suchen auch Leute, die dabei helfen, die Projekte aufzubereiten, Geschichten rund um die Anwendungen zu erzählen, sie zu erkären und sich um Öffentlichkeitsarbeit, Presse und Community-Aufbau kümmern. Deshalb trag dich ein und hilf mit, deine Stadt zu verändern!</p>
-              </div>
-            </div>
-          </div>
-
-           <div class="panel">
-            <div >
-              <h4>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-              Wie kann ich als MitarbeiterIn der Stadtverwaltung/als PolitikerIn mitmachen?</a>
-              </h4>
-            </div>
-            <div id="collapseSeven" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>Kontakt und aktiver Austausch zwischen lokaler Verwaltung und Politik und den OK Labs ist sehr wichtig für den Erfolg des Programms. Daher laden wir auch Mitarbeiter der lokalen Verwaltung und Politiker ein, mit den OK Labs zusammenarbeiten, um weitere Daten zu öffnen und gemeinsam die Rahmenbedingungen für offenes Regierungshandeln, Transparenz und Beteiligung zu verbessern. Du bist Kommunalpolitiker oder arbeitest in einer Stadtverwaltung und hast Lust, das Thema lokal weiter voranzutreiben? Dann tritt mit uns in <a href=”mailto:info@okfn.de”>Kontakt</a>!</p>
-              </div>
-            </div>
-          </div>
-          
         </div>
-        
-      </div>
-    </div>
-    
-  </div>
 
-<footer>
+        <div class="panel">
+          <div >
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            Wie kann ich als Entwickler mitmachen?</a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Am wichtigsten ist: komm vorbei und mach mit. Die OK Labs treffen sich regelmäßig, um gemeinsam Projekte zu planen, Code zu schreiben oder Prototypen zu testen. Trag dich in das Formular auf dieser Seite ein, um mit dem OK Lab in deiner Nähe vernetzt zu werden. Sollte es noch kein OK Lab in deiner Stadt geben, benachrichtigen wir dich sobald ein Lab in deiner Nähe aufgebaut wird. Wenn Du selbst eine neue Stadtinitiative leiten willst, dann melde Dich bei [uns]: wir planen, im Sommer eine zweite Gruppe von Labs zu starten. </p>
+              <p>Neben den lokalen Meetups bietet Code for Germany auch eine Reihe von Vernetzungsmöglichekeiten: in den kommenden Monaten wird auf dieser Seite ein Projekt-Katalog entstehen, der sichtbar macht, wer wo an spannenden Projekten arbeitet. Zudem planen wir regelmäßige Hangouts mit internationalen Experten und im Herbst einen Gipfel, bei dem sich Delegierte aus allen Labs treffen.</p>
 
-<div class="jumbotron fond__grey-mid meta-links-foot">
-  <div class="container">
-    <div class="row text-center text-uppercase">
-      <div class="col-lg-12">
-        <a href="impressum.html">Kontakt &amp; Impressum</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div >
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+            Ich bin kein Techie. Wie kann ich trotzdem mitmachen?</a>
+            </h4>
+          </div>
+          <div id="collapseSix" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>In der Startphase suchen wir schwerpunktmäßig nach Leuten, die praktisch an Anwendungen rund um offene Daten und Civic Tech arbeiten können. Doch nur gute Anwendungen entwickeln genügt oft nicht - man muss auch drüber sprechen und Aufmerksamkeit erzeugen. Dafür ist es wichtig, möglichst interdisziplinär aufgestellt zu sein. Kurz: Wir suchen auch Leute, die dabei helfen, die Projekte aufzubereiten, Geschichten rund um die Anwendungen zu erzählen, sie zu erkären und sich um Öffentlichkeitsarbeit, Presse und Community-Aufbau kümmern. Deshalb trag dich ein und hilf mit, deine Stadt zu verändern!</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="panel">
+          <div >
+            <h4>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+            Wie kann ich als MitarbeiterIn der Stadtverwaltung/als PolitikerIn mitmachen?</a>
+            </h4>
+          </div>
+          <div id="collapseSeven" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Kontakt und aktiver Austausch zwischen lokaler Verwaltung und Politik und den OK Labs ist sehr wichtig für den Erfolg des Programms. Daher laden wir auch Mitarbeiter der lokalen Verwaltung und Politiker ein, mit den OK Labs zusammenarbeiten, um weitere Daten zu öffnen und gemeinsam die Rahmenbedingungen für offenes Regierungshandeln, Transparenz und Beteiligung zu verbessern. Du bist Kommunalpolitiker oder arbeitest in einer Stadtverwaltung und hast Lust, das Thema lokal weiter voranzutreiben? Dann tritt mit uns in <a href=”mailto:info@okfn.de”>Kontakt</a>!</p>
+            </div>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </div>
+
 </div>
-
-<div class="jumbotron fond__white partner">
-  <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-4">
-          <p>
-          <a href="http://www.okfn.de/"><img class="okfn-logo img-responsive" src="img/OKFN.svg" alt="OKFN Logo"  /></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <p>
-          <a href="http://codeforamerica.org/"><img class="cfa-logo img-responsive" src="img/CFA.png" alt="Code for America Logo" /></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <p>
-          <img class="google-logo img-responsive" src="img/google.svg"  alt="Google Logo" />
-          </p>
-        </div>
-      </div>
-      <div class="row text-center foot-note">
-        <div class="col-lg-12">
-          <p>* Damit meinen wir natürlich auch alle weiblichen Entwicklerinnen und Nerdettes und Leute, denen die klassischen Geschlechterbilder nicht so passen :)</p>
-        </div>
-      </div>
-  </div>
-</div>
-
-</footer>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
 <script src="js/vendor/jquery.cookie.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/prettyCheckbox.min.js"></script>
 
 <script src="js/Application.js"></script>
@@ -336,14 +227,3 @@ $(document).ready(function() {
 
 });
 </script>
-  <!-- once you turn this on, we are here... wooot!
-
-  <script>
-  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src='//www.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
--->
-</body>
-</html>
