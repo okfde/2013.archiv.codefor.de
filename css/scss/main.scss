@@ -22,7 +22,6 @@ $white: #FFFFFF;
 .fond__green { background-color: $green;}
 .fond__grey { background-color: $grey-bright;}
 .fond__grey-mid { background-color: $grey-mid;}
-
 .fond__white { background-color: $white;}
 
 .text__red { color: $red;}
@@ -432,11 +431,13 @@ $date-circle: 80px;
 
 	.event-description {
 		float: left;
+		max-width: 75%;
 	}
 
 	.event-date-cta-wrapper {
 		float: right;
 		margin: 0;
+		max-width: 25%;
 	}
 
 }
@@ -461,6 +462,10 @@ $date-circle: 80px;
 
 	.highlight-hero {
 		margin-left: 10px;
+	}
+
+	.event-date-cta-wrapper {
+		max-width: inherit;
 	}
 
 }
