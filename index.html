@@ -90,10 +90,8 @@ layout: default
           <div class="row">
             <div class="col-lg-8 text-left">
               <div class="mc-field-group input-group form-group">
-
                 <input type="checkbox" value="1" name="group[16985][1]" id="mce-group[16985]-16985-0">
                 <label for="mce-group[16985]-16985-0" id="mce-group[16985]-16985-0" class="" >Ich kann nicht aktiv beitragen, will aber regelm&auml;ßige Updates.</label>
-
               </div>
             </div>
             <div class="col-lg-4">
@@ -113,24 +111,23 @@ layout: default
   <div class="container text-center text__black">
       <h3>Termine</h3>
       <p>Hier findet ihr erste Termine zu Treffen der Labs in den einzelnen Städten.</p>
-       
-      <!-- 1st Event row start-->  
+    
+
       <div class="row">
-        <!-- Event Start -->                      
+      {% for event in site.data.events %}
         <div class="col-lg-6" >
           <div class="event-wrapper fond__white clearfix">
             <div class="event-description">
-              <span class="event-lab">OK Lab Berlin</span>
-              <h4 class="event-title">OK Lab Berlin Coding-Treffen</h4>
-              <span class="event-time icon-before">19:00 - 22:00 h</span>
-              <span class="event-location icon-before">Open Knowledge Foundation DE<br>
-              Gneisenaustraße 52, 10961 Berlin</span>            
+              <span class="event-lab">{{ event.lab }}</span>
+              <h4 class="event-title">{{ event.name }}</h4>
+              <span class="event-time icon-before">{{ event.time }}</span>
+              <span class="event-location icon-before">{{ event.location }}
             </div>
             <div class="event-date-cta-wrapper">
               <div class="event-date">
-                Mittwoch
-                <span class="event-date-d">26</span>
-                März 2014
+               {{ event.day }}
+                <span class="event-date-d"> {{ event.day-nr }}</span>
+                 {{ event.month }}
               </div>
               <div class="event-cta">
                 <a href="http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202/">Anmelden</a>
@@ -138,150 +135,11 @@ layout: default
             </div>
           </div>
         </div>
-        <!-- Event End -->                      
-
-        <!-- Event Start -->                      
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">OK Lab Ulm</span>
-              <h4 class="event-title">OK Lab Ulm Regular Meetup</h4>
-              <span class="event-time icon-before">18:00 - 20:00 h</span>
-              <span class="event-location icon-before">Uni Ulm, Gebäudekreuz o27<br>
-              <a href="http://www.uni-ulm.de/in/vs/anfahrt.html">Besprechungsraum Verteilte Systeme (Raum o27/341)</a></span>            
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-                Montag
-                <span class="event-date-d">31</span>
-                März 2014
-              </div>
-              <div class="event-cta">
-                <a href="http://ulmapi.de">Mehr Info</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Event End -->  
+      {% cycle '', '</div><div class="row">' %} 
+      {% endfor %}
       </div>
-      <!-- 1st Event row end-->  
-       
-      <!-- 2nd Event row start-->  
-      <div class="row">
-        <!-- Event Start -->                      
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">OK Lab Hamburg</span>
-              <h4 class="event-title">OK Lab Hamburg Coding-Treffen</h4>
-              <span class="event-time icon-before">18:00h - 22:00</span>
-              <span class="event-location icon-before">4=1/ OpenDataCity Alter Teichweg 33-35, 22081 Hamburg<br>
-                </span>            
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-                Montag
-                <span class="event-date-d">7</span>
-                April 2014
-              </div>
-              <div class="event-cta">
-                <a href="http://pad.opendatacloud.de/p/OK-Lab-HH">Mehr Info</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Event End -->
-        <!-- Event Start -->                      
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">OK Lab Münster</span>
-              <h4 class="event-title">Hacknight</h4>
-              <span class="event-time icon-before">19:00h - open end</span>
-              <span class="event-location icon-before">TBA<br>
-                </span>            
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-                Mittwoch
-                <span class="event-date-d">9</span>
-                April 2014
-              </div>
-              <div class="event-cta">
-                <a href="http://www.meetup.com/codeforde/Munster-DE/1120812/">Mehr Info</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Event End -->    
-      </div>
-      <!-- 2nd Event row end-->  
-
-       <!-- 
-      <div class="row">
-                             
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">OKF Lab Berlin</span>
-              <h4 class="event-title">Eventname</h4>
-              <span class="event-time icon-before">10:30 - 24:00 h</span>
-              <span class="event-location icon-before">Platz der Kosmonauten</span>            
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-                Freitag
-                <span class="event-date-d">15</span>
-                Okt. 2014
-              </div>
-              <div class="event-cta">
-                <a href="#">Anmelden</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        -->  
-
-        
-        <!--                      
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">OKF Lab Berlin</span>
-              <h4 class="event-title">Eventname</h4>
-              <span class="event-time icon-before">10:30 - 24:00 h</span>
-              <span class="event-location icon-before">Platz der Kosmonauten</span>            
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-                Freitag
-                <span class="event-date-d">15</span>
-                Okt. 2014
-              </div>
-              <div class="event-cta">
-                <a href="#">Zum Meetup</a>
-              </div>
-            </div>
-          </div>
-        </div>
-       
-      </div>
-    -->  
-
+      <!-- Event row end-->  
     
-    <!--
-    <div class="row">
-      <div class="col-lg-4 highlight">
-        <p class="highlight-red" >Use civic tech to make your community better!</p>
-      </div>
-      <div class="col-lg-4 highlight">
-        <p class="highlight-red" >Use civic tech to make your community better!</p>
-      </div>
-      <div class="col-lg-4 highlight">
-        <p class="highlight-red" >Use civic tech to make your community better!</p>
-      </div>
-    </div>
-    -->
   </div>
 </div>
 

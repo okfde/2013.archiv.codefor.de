@@ -1,0 +1,39 @@
+- lab: testABC
+  name: green
+  time: 19-20 Uhr
+  location: OKF
+  day: Mittwoch
+  day-nr: 24
+  month: März 2014
+  link: Anmleden
+
+- lab: ABC
+  name: green
+  time: 19-20 Uhr
+  location: OKF
+  day: Mittwoch
+  day-nr: 24
+  month: März 2014
+  link: Anmleden
+
+- lab: HIJ
+  name: green
+  time: 19-20 Uhr
+  location: OKF
+  day: Mittwoch
+  day-nr: 24
+  month: März 2014
+  link: Anmleden
+
+- lab: HIJ
+  name: green
+  time: 19-20 Uhr
+  location: OKF
+  day: Mittwoch
+  day-nr: 24
+  month: März 2014
+  link: Anmleden
+
+
+
+
