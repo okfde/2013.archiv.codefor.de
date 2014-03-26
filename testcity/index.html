@@ -1,0 +1,119 @@
+---
+layout: default
+title: City of Beta
+lab: OK Lab Berlin
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue.
+
+links:
+- name: link1
+  url: url1
+- name: link2
+  url: url2
+
+---
+
+<!-- Lab Info -->               
+<div class="jumbotron fond__green">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2> {{ page.title }} </h2>
+        <p>{{ page.description }}</p>
+      </div>
+      <div class="col-lg-6">
+        <h2> Basis Info: </h2>
+        <ul>
+        	{% for link in page.links %}
+        	<li>
+        		<a href="{{ link.url }}">{{ link.name }}</a>
+        	</li>
+        	{% endfor %}
+    	</ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Lab Info End -->
+
+
+<!-- Termine & Projekte -->
+<div class="jumbotron fond__grey">
+  <div class="container">
+   		    <h3>Termine</h3>
+
+   	<div class="row">
+
+      {% for event in site.data.events %}
+      	{% if event.lab == page.lab %}
+        <div class="col-lg-6" >
+          <div class="event-wrapper fond__white clearfix">
+            <div class="event-description">
+              <span class="event-lab">{{ event.lab }}</span>
+              <h4 class="event-title">{{ event.name }}</h4>
+              <span class="event-time icon-before">{{ event.time }}</span>
+              <span class="event-location icon-before">{{ event.location }}
+            </div>
+            <div class="event-date-cta-wrapper">
+              <div class="event-date">
+               {{ event.day }}
+                <span class="event-date-d"> {{ event.day-nr }}</span>
+                 {{ event.month }}
+              </div>
+              <div class="event-cta">
+              <!--  {{ event.link }} -->
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% cycle '', '</div><div class="row">' %} 
+      {% endfor %}
+     </div>
+
+  </div>
+</div>
+<!-- Termine & Projekte End -->
+
+<!-- Termine & Projekte -->
+<div class="jumbotron fond__blue">
+  <div class="container">
+    <h3> Projekte </h3>
+
+   	<div class="row">
+    {% for post in site.posts %}
+        <div class="col-lg-6" >
+          <div class="event-wrapper fond__white clearfix">
+              <img src="/assets/{{ post.imgname }}" alt="Project Image" class="project-image img-responsive">
+              <h4 class="project-title"> {{ post.title }}</h4>
+              <p class="project-description">{{ post.content }}</p>
+              <ul>
+              	{% for link in post.links %}
+              	<li>
+              		<a href="{{ link.url }}">{{ link.name }}</a>
+              	</li>
+              	{% endfor %}
+              </ul>
+              <span class="project-collaborators icon-before">Kontributoren</span>
+              <ul>
+              	{% for colaborator in post.colaborators %}
+              	<li>
+              		{{ colaborator.name }} <br> 
+
+              		{% for link in colaborator.links %}
+              			<a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
+              		{% endfor %}
+
+              	</li>
+              	{% endfor %}
+
+              </ul>
+           </div>
+          </div>
+	{% endfor %}
+     </div>
+
+  </div>
+</div>
+<!-- Termine & Projekte End -->
+
+

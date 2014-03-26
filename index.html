@@ -112,7 +112,6 @@ layout: default
       <h3>Termine</h3>
       <p>Hier findet ihr erste Termine zu Treffen der Labs in den einzelnen Städten.</p>
     
-
       <div class="row">
       {% for event in site.data.events %}
         <div class="col-lg-6" >
@@ -130,7 +129,7 @@ layout: default
                  {{ event.month }}
               </div>
               <div class="event-cta">
-                <a href="http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202/">Anmelden</a>
+                {{ event.link }}
               </div>
             </div>
           </div>

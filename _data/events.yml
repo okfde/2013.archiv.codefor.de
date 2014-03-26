@@ -1,39 +1,64 @@
-- lab: testABC
-  name: green
-  time: 19-20 Uhr
-  location: OKF
+- lab: OK Lab Berlin
+  name: OK LAB BERLIN CODING-TREFFEN
+  time: 19-22 Uhr 
+  location: Open Knowledge Foundation DE Gneisenaustraße 52, 10961 Berlin
   day: Mittwoch
-  day-nr: 24
+  day-nr: 26
   month: März 2014
-  link: Anmleden
+  link: [http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202]
 
-- lab: ABC
-  name: green
-  time: 19-20 Uhr
-  location: OKF
+- lab: OK Lab Berlin
+  name: OK LAB BERLIN CODING-TREFFEN
+  time: 19-22 Uhr 
+  location: Open Knowledge Foundation DE Gneisenaustraße 52, 10961 Berlin
   day: Mittwoch
-  day-nr: 24
+  day-nr: 26
   month: März 2014
-  link: Anmleden
+  link: [http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202]
 
-- lab: HIJ
-  name: green
-  time: 19-20 Uhr
-  location: OKF
-  day: Mittwoch
-  day-nr: 24
+- lab: OK Lab Ulm
+  name: OK Lab ULM REGULAR MEETUP
+  time: 18-20 Uhr
+  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
+  day: Montag
+  day-nr: 31
   month: März 2014
-  link: Anmleden
+  link: Mehr Info [http://www.ulmapi.de]
 
-- lab: HIJ
-  name: green
-  time: 19-20 Uhr
-  location: OKF
-  day: Mittwoch
-  day-nr: 24
-  month: März 2014
-  link: Anmleden
+- lab: OK Lab Hamburg
+  name: OK LAB HAMBURG CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg 
+  day: Montag
+  day-nr: 7
+  month: April 2014
+  link: Mehr Info [http://pad.opendatacloud.de/p/OK-Lab-HH]
 
+- lab: OK Lab Münster
+  name: HACKNIGHT
+  time: 19-Open end
+  location: TBA
+  day: Mittwoch 
+  day-nr: 9
+  month: April 2014
+  link: Mehr Info [http://www.meetup.com/codeforde/Munster-DE/1120812/]
 
+- lab: OK Lab Heilbronn
+  name: OK LAB HEILBRONN REGULAR MEETUP
+  time: 18:30-21:30 Uhr
+  location: CC86, e.V. - Schützenstraße 16  
+  day: Donnerstag
+  day-nr: 10
+  month: April 2014
+  link: Mehr Info [http://pad.opendatacloud.de/p/OK-Lab-HN]
+
+- lab: OK Lab Köln 
+  name: OK LAB KÖLN CODING-TREFFEN
+  time: 19-Open end
+  location: CoWoCo, An der Bottmühle 5, 50678 Köln
+  day: Montag
+  day-nr: 14
+  month: April 2014
+  link: Mehr Info [http://pad.opendatacloud.de/p/okLab-koeln]
 
 
