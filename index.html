@@ -129,7 +129,7 @@ layout: default
                  {{ event.month }}
               </div>
               <div class="event-cta">
-                {{ event.link }}
+                <a href="{{ event.link-url }}">{{ event.link-name }}</a>
               </div>
             </div>
           </div>
@@ -137,7 +137,6 @@ layout: default
       {% cycle '', '</div><div class="row">' %} 
       {% endfor %}
       </div>
-      <!-- Event row end-->  
     
   </div>
 </div>
