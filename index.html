@@ -114,27 +114,7 @@ layout: default
     
       <div class="row">
       {% for event in site.data.events %}
-        <div class="col-lg-6" >
-          <div class="event-wrapper fond__white clearfix">
-            <div class="event-description">
-              <span class="event-lab">{{ event.lab }}</span>
-              <h4 class="event-title">{{ event.name }}</h4>
-              <span class="event-time icon-before">{{ event.time }}</span>
-              <span class="event-location icon-before">{{ event.location }}
-            </div>
-            <div class="event-date-cta-wrapper">
-              <div class="event-date">
-               {{ event.day }}
-                <span class="event-date-d"> {{ event.day-nr }}</span>
-                 {{ event.month }}
-              </div>
-              <div class="event-cta">
-                <a href="{{ event.link-url }}">{{ event.link-name }}</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      {% cycle '', '</div><div class="row">' %} 
+          {% include event.html %}
       {% endfor %}
       </div>
     
