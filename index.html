@@ -114,7 +114,21 @@ layout: default
     
       <div class="row">
       {% for event in site.data.events %}
+        <div class="col-lg-6" >
           {% include event.html %}
+        </div>
+
+        {% assign even = forloop.index0 | modulo:2 %}
+        {% if even == 1 %}
+          {% comment %} Unless it is the last iteration {% endcomment %}
+          {% unless forloop.last %}
+            </div><div class="row" >
+          {% endunless %}
+        {% endif %}
+
+        {% if forloop.last %}
+        </div>
+        {% endif %}
       {% endfor %}
       </div>
     

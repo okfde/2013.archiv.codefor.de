@@ -111,12 +111,14 @@ label {
 .jumbotron {
 	font-size: 18px;
 	margin-bottom: 0;
+
+	p {
+		margin: 28px 0;
+		line-height: 1.6em;
+	}
 }
 
-.jumbotron p {
-	margin: 28px 0;
-	line-height: 1.6em;
-}
+
 
 .highlight {
 	font-size: $body-font-size;
@@ -411,6 +413,40 @@ $date-circle: 80px;
 	}
 
 /*-----  End of Home  ------*/
+
+
+/*================================
+=            Lab Page            =
+================================*/
+.jumbotron h1 {
+		@extend .text__red;
+	}
+
+.lab-links a {
+	@extend .highlight-red;
+}
+
+.members {
+	line-height: 26px;
+	.member {
+		margin-bottom: 16px;
+		min-width: 29%;
+	}
+
+	font-size: 16px;
+	.member-avatar {
+		margin-right: 20px;
+		max-width: 80px;
+		max-height: 80px;
+	}
+}
+
+
+
+
+/*-----  End of Lab Page  ------*/
+
+
 
 @media screen and (min-width: 481px) {
 	#animation-wrapper h1 {

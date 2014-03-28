@@ -2,15 +2,15 @@
   <img src="/assets/projects/{{ post.imgname }}" alt="Project Image" class="project-image img-responsive">
   <h4 class="project-title"> {{ post.title }}</h4>
   <p class="project-description">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-  <ul>
+  <ul class="list-unstyled" >
     {% for link in post.links %}
     <li>
       <a href="{{ link.url }}">{{ link.name }}</a>
     </li>
     {% endfor %}
   </ul>
-  <span class="project-collaborators icon-before">Kontributoren</span>
-  <ul>
+  <span class="project-collaborators icon-before">Mitglieder</span>
+  <ul class="list-unstyled" >
     {% for colaborator in post.colaborators %}
     <li>
       {{ colaborator.name }} <br> 
