@@ -455,9 +455,14 @@ $date-circle: 80px;
 
 .members {
 	line-height: 26px;
+	@extend .clearfix;
+
 	.member {
-		margin-bottom: 16px;
-		min-width: 29%;
+		margin-bottom: 26px;
+		min-width: 33%;
+		display: block; 
+		float: left;
+		@extend .clearfix;
 	}
 
 	font-size: 16px;
@@ -483,6 +488,11 @@ $date-circle: 80px;
 	}
 }
 
+.post-image {
+	height: 200px; 
+	width: auto;
+	margin: 5px;
+}
 
 /*-----  End of Blog  ------*/
 

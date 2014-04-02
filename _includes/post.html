@@ -1,16 +1,15 @@
 <div class="event-wrapper fond__white clearfix">
   <div class="post-header clearfix">
-    <h2 class="post-title pull-left" > {{ post.title }}</h2>
+    <h2 class="post-title pull-left" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
     <div class="post-meta text__green text-right pull-right">
-    <h4 class="post-title"> {{ post.author }} </h4>
-      {{ post.date | date_to_string }}
+    <h4 class="post-title"> {{ [include.param]author }} </h4>
+          {{ [include.param]date }}
     </div>
   </div>
-  <p class="post-description">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+  <p class="post-description">{{ [include.param]content | remove: '<p>' | remove: '</p>' }}</p>
   
-
   <ul class="list-unstyled post-links" >
-    {% for link in post.links %}
+    {% for link in [include.param]links %}
     <li>
       <a href="{{ link.url }}">{{ link.name }}</a>
     </li>
@@ -18,9 +17,7 @@
   </ul>
 
   
-  {% for image in post.images %}
-    <img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image img-responsive">
-  {% endfor %}
+  {% for image in [include.param]images %}<img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image">{% endfor %}
 
   </ul>
 </div>

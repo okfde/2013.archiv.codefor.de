@@ -47,7 +47,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="/js/vendor/bootstrap.min.js"></script>
-
+ 
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -74,15 +74,18 @@
 <!-- Blog -->
 <div class="jumbotron fond__grey">
   <div class="container">
-    
-    {% for post in site.categories.blog %}
+
+    <div class="row">
+      <div class="col-lg-12" >
+      <a href="/blog/" class="h4" >Zurück zur Übersicht</a>
+      </div>
+    </div>
     
     <div class="row">
       <div class="col-lg-12" >
-        {% include post.html param='post' %}
+        {% include post.html  param='page'%}
       </div>
-  </div>
-    {% endfor %}
+    </div>
 
 </div>
 </div>
@@ -103,7 +106,6 @@
 
 </footer>
 
-
   <!-- once you turn this on, we are here... wooot!
 
   <script>
@@ -113,5 +115,6 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
 -->
+
 </body>
 </html>
