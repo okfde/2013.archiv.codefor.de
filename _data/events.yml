@@ -1,14 +1,14 @@
 - lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
   time: 19-22 Uhr 
-  location: Open Knowledge Foundation DE Gneisenaustraße 52, 10961 Berlin
+  location: Wikimedia, Tempelhofer Ufer 23-24, 10961 Berlin
   day: Mittwoch
-  day-nr: 26
-  month: März 2014
+  day-nr: 2
+  month: April 2014
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202
   link-name: Mehr Info
 
-- lab: OK Lab Berlin
+- lab: OK Lab Ulm
   name: OK Lab ULM REGULAR MEETUP
   time: 18-20 Uhr
   location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
@@ -19,7 +19,7 @@
   link-name: Mehr Info
 
 
-- lab: OK Lab Berlin
+- lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
   location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
