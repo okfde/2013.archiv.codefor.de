@@ -188,8 +188,7 @@ label {
 .btn-mitmachen {
 	background-color: $red ;
 	color: $white;
-	width: 50%;
-	margin: 0 auto;
+	width: 100%;
 }
 
 
@@ -282,6 +281,12 @@ label {
 margin-left: 10px;
 }
 
+.form-group-newsletter {
+	div {
+		padding: 0;
+	}
+}
+
 
 .cfg-cities li {
 	margin-right: 20px;
@@ -328,7 +333,7 @@ margin-left: 10px;
 	margin: 30px 15px 0 15px;
 
 	h4 { 
-		margin: 30px 0 16px 0;
+		margin: 7px 0 16px 0;
 	}
 }
 
@@ -424,6 +429,28 @@ $date-circle: 80px;
 
 .lab-links a {
 	@extend .highlight-red;
+}
+
+.lab-leads {
+	li {
+	padding: 0;
+	}
+}
+
+.project-links {
+	margin-bottom: 26px;
+}
+
+.project-collaborators {
+	&:before {
+		background-image: url('../img/collaborators.svg');
+		height: 23px;
+		width: 21px;
+	}
+}
+
+.project-collaborators-list {
+	margin-top: 18px;
 }
 
 .members {

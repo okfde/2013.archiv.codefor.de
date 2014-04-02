@@ -95,27 +95,17 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
-    </div>
-    <div class="row">
-      <h3> Mitglieder </h3>
-        <div class="col-lg-12">
-        <ul class="list-inline lab-members members">
-          {% for member in page.members %}
-          <li class="clearfix member">
-             <img src="http://placehold.it/400x400" 
-                data-username-git="{{ member.username-github }}" 
-                data-username-twitter="{{ member.username-twitter }}" alt="" class="img-circle member-avatar pull-left">
-             <div class="member-info ">
-             {{ member.name }} <br> 
-             {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">gh:{{ member.username-github }}</a><br> {% endif %}
-             {% if member.username-twitter %}<a href="https://www.twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
-             </div>
+        <h3> Kontakt </h3>
+        <ul class="list-inline lab-leads" >
+          {% for lead in page.leads %}
+          <li>
+            <a href="{{ lead.url }}">{{ lead.name }}</a>{% unless forloop.last %},{% endunless%} 
           </li>
           {% endfor %}
         </ul>
       </div>
     </div>
+
   </div>
 </div>
 <!-- Lab Info End -->
@@ -205,6 +195,35 @@
 </div>
 </div>
 <!-- Termine & Projekte End -->
+
+<!-- Mitglieder-->
+<div class="jumbotron fond__greymid">
+  <div class="container">
+      
+
+
+      <div class="row">
+      <h3> Mitglieder </h3>
+
+        <div class="col-lg-12">
+        <ul class="list-inline lab-members members">
+          {% for member in page.members %}
+          <li class="clearfix member">
+             <img src="http://placehold.it/400x400" 
+                data-username-git="{{ member.username-github }}" 
+                data-username-twitter="{{ member.username-twitter }}" alt="" class="img-circle member-avatar pull-left">
+             <div class="member-info ">
+             {{ member.name }} <br> 
+             {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">gh:{{ member.username-github }}</a><br> {% endif %}
+             {% if member.username-twitter %}<a href="https://www.twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
+             </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <footer>
 
