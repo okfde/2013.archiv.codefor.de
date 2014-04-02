@@ -8,7 +8,7 @@
     UserProfileImages.prototype.constructor = UserProfileImages;
     UserProfileImages.prototype = {
         git_api: "https://api.github.com/users/",
-        twitter_api :"../php/get_tweets.php"
+        twitter_api :"http://www.wartegarten.de/cfg/php/get_tweets.php"
     }
 
     var ref, $members;

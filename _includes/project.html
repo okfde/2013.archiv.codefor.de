@@ -9,7 +9,11 @@
     </li>
     {% endfor %}
   </ul>
-  <span class="project-collaborators icon-before">Mitglieder</span>
+  
+  {% if post.colaborators %}
+      <span class="project-collaborators icon-before">Mitglieder</span>
+  {% endif %}
+
   <ul class="list-unstyled project-collaborators-list" >
     {% for colaborator in post.colaborators %}
     <li>

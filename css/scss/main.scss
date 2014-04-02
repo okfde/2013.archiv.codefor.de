@@ -437,7 +437,7 @@ $date-circle: 80px;
 	}
 }
 
-.project-links {
+.project-links, .post-links {
 	margin-bottom: 26px;
 }
 
@@ -472,6 +472,20 @@ $date-circle: 80px;
 
 
 /*-----  End of Lab Page  ------*/
+
+/*============================
+=            Blog            =
+============================*/
+
+.post-meta {
+	h4 {
+		margin: 0;
+	}
+}
+
+
+/*-----  End of Blog  ------*/
+
 
 
 
