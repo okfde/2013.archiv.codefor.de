@@ -8,15 +8,15 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1132722/
   link-name: Mehr Info
 
-- lab: OK Lab Ulm
-  name: OK Lab ULM REGULAR MEETUP
-  time: 18-20 Uhr
-  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
-  day: Montag
-  day-nr: 31
-  month: März 2014
-  link-url: http://www.ulmapi.de
-  link-name: Mehr Info
+#- lab: OK Lab Ulm
+#  name: OK Lab ULM REGULAR MEETUP
+#  time: 18-20 Uhr
+#  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
+#  day: Montag
+#  day-nr: 31
+#  month: März 2014
+#  link-url: http://www.ulmapi.de
+#  link-name: Mehr Info
 
 
 - lab: OK Lab Hamburg
