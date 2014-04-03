@@ -1,3 +1,14 @@
+- lab: OK Lab Hamburg
+  name: OK LAB HAMBURG CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
+  day: Montag
+  day-nr: 7
+  month: April 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
+  link-name: Mehr Info
+
+
 - lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
   time: 19-22 Uhr 
@@ -17,18 +28,6 @@
 #  month: März 2014
 #  link-url: http://www.ulmapi.de
 #  link-name: Mehr Info
-
-
-- lab: OK Lab Hamburg
-  name: OK LAB HAMBURG CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
-  day: Montag
-  day-nr: 7
-  month: April 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
-  link-name: Mehr Info
-
 
 - lab: OK Lab Münster
   name: HACKNIGHT
@@ -51,6 +50,15 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
   link-name: Mehr Info
 
+- lab: OK Lab Chemnitz 
+  name: OK LAB CHEMNITZ REGULAR MEETUP
+  time: 19-Open end
+  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: 10
+  month: April 2014
+  link-url: https://chaoschemnitz.de/index.php?title=Event:2014/04/10_Code_for_Chemnitz
+  link-name: Mehr Info
 
 - lab: OK Lab Köln 
   name: OK LAB KÖLN CODING-TREFFEN
@@ -62,14 +70,6 @@
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
 
-- lab: OK Lab Chemnitz 
-  name: OK LAB CHEMNITZ REGULAR MEETUP
-  time: 19-Open end
-  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: 10
-  month: April 2014
-  link-url: https://chaoschemnitz.de/index.php?title=Event:2014/04/10_Code_for_Chemnitz
-  link-name: Mehr Info
+
 
 
