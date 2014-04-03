@@ -3,9 +3,9 @@
   time: 19-22 Uhr 
   location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
   day: Mittwoch
-  day-nr: 2
+  day-nr: 9
   month: April 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1127802/
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1132722/
   link-name: Mehr Info
 
 - lab: OK Lab Ulm
@@ -63,6 +63,7 @@
   link-name: Mehr Info
 
 
+<<<<<<< HEAD
 - lab: OK Lab Chemnitz 
   name: OK LAB CHEMNITZ REGULAR MEETUP
   time: 19-Open end
@@ -74,4 +75,6 @@
   link-name: Mehr Info
 
 
+=======
+>>>>>>> stage
 

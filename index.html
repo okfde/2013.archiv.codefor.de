@@ -64,7 +64,7 @@ layout: default
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-6 col-lg-offset-3">
         <form action="http://okfn.us5.list-manage.com/subscribe/post?u=929f1e07936386d34833e20d1&amp;id=bb63fcab72" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center mc-form" target="_blank" role="form">
           <div class="row">
             <div class="col-lg-4">
@@ -86,7 +86,6 @@ layout: default
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-lg-8 text-left">
               <div class="mc-field-group input-group form-group">
@@ -94,12 +93,8 @@ layout: default
                 <label for="mce-group[16985]-16985-0" id="mce-group[16985]-16985-0" class="" >Ich kann nicht aktiv beitragen, will aber regelm&auml;ßige Updates.</label>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value=""></div>
-              <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen pull-right">Mitmachen!</button>
             </div>
           </div>
-
         </form>
       </div>
     </div>
@@ -115,6 +110,7 @@ layout: default
       <div class="row">
       {% for event in site.data.events %}
         <div class="col-lg-6" >
+<<<<<<< HEAD
           <div class="event-wrapper fond__white clearfix">
             <div class="event-description">
               <span class="event-lab">{{ event.lab }}</span>
@@ -135,6 +131,22 @@ layout: default
           </div>
         </div>
       {% cycle '', '</div><div class="row">' %} 
+=======
+          {% include event.html %}
+        </div>
+
+        {% assign even = forloop.index0 | modulo:2 %}
+        {% if even == 1 %}
+          {% comment %} Unless it is the last iteration {% endcomment %}
+          {% unless forloop.last %}
+            </div><div class="row" >
+          {% endunless %}
+        {% endif %}
+
+        {% if forloop.last %}
+        </div>
+        {% endif %}
+>>>>>>> stage
       {% endfor %}
       </div>
     

@@ -111,12 +111,14 @@ label {
 .jumbotron {
 	font-size: 18px;
 	margin-bottom: 0;
+
+	p {
+		margin: 28px 0;
+		line-height: 1.6em;
+	}
 }
 
-.jumbotron p {
-	margin: 28px 0;
-	line-height: 1.6em;
-}
+
 
 .highlight {
 	font-size: $body-font-size;
@@ -186,8 +188,7 @@ label {
 .btn-mitmachen {
 	background-color: $red ;
 	color: $white;
-	width: 50%;
-	margin: 0 auto;
+	width: 100%;
 }
 
 
@@ -280,6 +281,12 @@ label {
 margin-left: 10px;
 }
 
+.form-group-newsletter {
+	div {
+		padding: 0;
+	}
+}
+
 
 .cfg-cities li {
 	margin-right: 20px;
@@ -326,7 +333,7 @@ margin-left: 10px;
 	margin: 30px 15px 0 15px;
 
 	h4 { 
-		margin: 30px 0 16px 0;
+		margin: 7px 0 16px 0;
 	}
 }
 
@@ -411,6 +418,86 @@ $date-circle: 80px;
 	}
 
 /*-----  End of Home  ------*/
+
+
+/*================================
+=            Lab Page            =
+================================*/
+.jumbotron h1 {
+		@extend .text__red;
+	}
+
+.lab-links a {
+	@extend .highlight-red;
+}
+
+.lab-leads {
+	li {
+	padding: 0;
+	}
+}
+
+.project-links, .post-links {
+	margin-bottom: 26px;
+}
+
+.project-collaborators {
+	&:before {
+		background-image: url('../img/collaborators.svg');
+		height: 23px;
+		width: 21px;
+	}
+}
+
+.project-collaborators-list {
+	margin-top: 18px;
+}
+
+.members {
+	line-height: 26px;
+	@extend .clearfix;
+
+	.member {
+		margin-bottom: 26px;
+		min-width: 33%;
+		display: block; 
+		float: left;
+		@extend .clearfix;
+	}
+
+	font-size: 16px;
+	.member-avatar {
+		margin-right: 20px;
+		max-width: 80px;
+		max-height: 80px;
+	}
+}
+
+
+
+
+/*-----  End of Lab Page  ------*/
+
+/*============================
+=            Blog            =
+============================*/
+
+.post-meta {
+	h4 {
+		margin: 0;
+	}
+}
+
+.post-image {
+	height: 200px; 
+	width: auto;
+	margin: 5px;
+}
+
+/*-----  End of Blog  ------*/
+
+
+
 
 @media screen and (min-width: 481px) {
 	#animation-wrapper h1 {

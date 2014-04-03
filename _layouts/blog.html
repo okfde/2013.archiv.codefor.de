@@ -53,64 +53,53 @@
   <!--[if lt IE 7]>
   <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]
-  -->
-  <div class="navbar animated">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">
+-->
+<div class="navbar animated">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
         <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
-        </a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right text-center">
-          <li><a href="https://twitter.com/codeforde" >t</a></li>
-          <li><a href="http://goo.gl/pO9wkS" >g+</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse -->
+      </a>
     </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right text-center">
+        <li><a href="https://twitter.com/codeforde" >t</a></li>
+        <li><a href="http://goo.gl/pO9wkS" >g+</a></li>
+      </ul>
+    </div>
+    <!--/.navbar-collapse -->
   </div>
+</div>
 
-  {{ content }}
+<!-- Blog -->
+<div class="jumbotron fond__grey">
+  <div class="container">
+    
+    {% for post in site.categories.blog %}
+    
+    <div class="row">
+      <div class="col-lg-12" >
+        {% include post.html param='post' %}
+      </div>
+  </div>
+    {% endfor %}
+
+</div>
+</div>
+<!-- Termine & Projekte End -->
+
 
 <footer>
 
-<div class="jumbotron fond__grey meta-links-foot">
-  <div class="container">
-    <div class="row text-center text-uppercase">
-      <div class="col-lg-12">
-        <a href="impressum.html">Kontakt &amp; Impressum</a>
+  <div class="jumbotron fond__grey meta-links-foot">
+    <div class="container">
+      <div class="row text-center text-uppercase">
+        <div class="col-lg-12">
+          <a href="/impressum.html">Kontakt &amp; Impressum</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="jumbotron fond__white partner">
-  <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-4">
-          <p>
-          <a href="http://www.okfn.de/"><img class="okfn-logo img-responsive" src="/img/OKFN.svg" alt="OKFN Logo"  /></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <p>
-          <a href="http://codeforamerica.org/"><img class="cfa-logo img-responsive" src="/img/CFA.png" alt="Code for America Logo" /></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <p>
-          <img class="google-logo img-responsive" src="/img/google.svg"  alt="Google Logo" />
-          </p>
-        </div>
-      </div>
-      <div class="row text-center foot-note">
-        <div class="col-lg-12">
-          <p>* Damit meinen wir natürlich auch alle Entwicklerinnen und Nerdettes und Leute, denen die klassischen Geschlechterbilder nicht so passen :)</p>
-        </div>
-      </div>
-  </div>
-</div>
 
 </footer>
 
