@@ -7,7 +7,16 @@
   month: April 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
-
+  
+- lab: OK Lab Dresden 
+  name: OK LAB DRESDEN FIRST MEETUP
+  time: 19-Open end
+  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingerallee, 01069 Dresden
+  day: Dienstag
+  day-nr: 8
+  month: April 2014
+  link-url: http://c3d2.de/space.html
+  link-name: Mehr Info
 
 - lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
@@ -69,17 +78,6 @@
   month: April 2014
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
-  
-- lab: OK Lab Dresden 
-  name: OK LAB DRESDEN FIRST MEETUP
-  time: 19-Open end
-  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingerallee, 01069 Dresden
-  day: Dienstag
-  day-nr: 8
-  month: April 2014
-  link-url: http://c3d2.de/space.html
-  link-name: Mehr Info
-
 
 
 
