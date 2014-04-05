@@ -7,7 +7,7 @@
   month: April 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
-  
+
 - lab: OK Lab Dresden 
   name: OK LAB DRESDEN FIRST MEETUP
   time: 19-Open end
@@ -27,16 +27,6 @@
   month: April 2014
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1132722/
   link-name: Mehr Info
-
-#- lab: OK Lab Ulm
-#  name: OK Lab ULM REGULAR MEETUP
-#  time: 18-20 Uhr
-#  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
-#  day: Montag
-#  day-nr: 31
-#  month: März 2014
-#  link-url: http://www.ulmapi.de
-#  link-name: Mehr Info
 
 - lab: OK Lab Münster
   name: HACKNIGHT
@@ -79,5 +69,12 @@
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
 
-
-
+- lab: OK Lab Ulm
+  name: OK Lab ULM REGULAR MEETUP
+  time: 18-20 Uhr
+  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum o27/341)
+  day: Montag
+  day-nr: 14
+  month: April 2014
+  link-url: http://www.ulmapi.de
+  link-name: Mehr Info
