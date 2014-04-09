@@ -1,12 +1,3 @@
-- lab: OK Lab Hamburg
-  name: OK LAB HAMBURG CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
-  day: Mittwoch
-  day-nr: 23
-  month: April 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
-  link-name: Mehr Info
 
 - lab: OK Lab Dresden 
   name: OK LAB DRESDEN FIRST MEETUP
@@ -28,6 +19,16 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1132722/
   link-name: Mehr Info
 
+- lab: OK Lab Stuttgart 
+  name: OK LAB STUTTGART - ERSTES CODING-TREFFEN
+  time: 19:00
+  location: Forum Theater Café, Gymnasiumstraße 21, Stutgart
+  day: Mittwoch 
+  day-nr: 9 
+  month: April 2014
+  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/175832292/ 
+  link-name: Mehr Info
+
 - lab: OK Lab Münster
   name: HACKNIGHT
   time: 19-Open end
@@ -37,7 +38,6 @@
   month: April 2014
   link-url: http://www.meetup.com/codeforde/Munster-DE/1120812/
   link-name: Mehr Info
-
 
 - lab: OK Lab Heilbronn
   name: OK LAB HEILBRONN REGULAR MEETUP
@@ -77,4 +77,14 @@
   day-nr: 14
   month: April 2014
   link-url: http://www.ulmapi.de
+  link-name: Mehr Info
+
+- lab: OK Lab Hamburg
+  name: OK LAB HAMBURG CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
+  day: Mittwoch
+  day-nr: 23
+  month: April 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
