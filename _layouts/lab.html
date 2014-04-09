@@ -21,10 +21,10 @@ layout: base
           {% endfor %}
         </ul>
         <h3> Kontakt </h3>
-        <ul class="list-inline lab-leads" >
+        <ul class="list-unstyled lab-links" >
           {% for lead in page.leads %}
           <li>
-            <a href="{{ lead.url }}">{{ lead.name }}</a>{% unless forloop.last %},{% endunless%}
+            <a href="{{ lead.url }}">{{ lead.name }}</a> 
           </li>
           {% endfor %}
         </ul>
@@ -50,8 +50,13 @@ layout: base
       {% endfor %}
 
       {% assign loop_index = 0 %}
-      {% assign event_count=event_count | minus:1 %}
+      
+    {% unless event_count == 0 %}
       <div class="row">
+    {%endunless%}
+
+      {% assign event_count=event_count | minus:1 %}
+        
         {% for event in site.data.events %}
         {% if event.lab == page.lab %}
           <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
@@ -92,8 +97,13 @@ layout: base
     {% endfor %}
 
     {% assign loop_index = 0 %}
+    {% unless project_count == 0 %}
+      <div class="row">
+    {%endunless%}
+    
+    {% comment %} dirty but compensates for liquid comparison logic wiredness in if clauses later on (around loop_index < project_count) {% endcomment %}
     {% assign project_count=project_count | minus:1 %}
-    <div class="row">
+
       {% for post in site.categories.projects %}
       {% if post.lab == page.lab %}
 
