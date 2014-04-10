@@ -1,6 +1,8 @@
 <div class="event-wrapper fond__white clearfix">
+  {% if post.imgname %}
   <img src="/assets/projects/{{ post.imgname }}" alt="Project Image" class="project-image img-responsive">
-  <h4 class="project-title"> {{ post.title }}</h4>
+  {% endif %}
+  <h4 class="project-title"> {{ post.title }} </h4>
   <p class="project-description">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
   <ul class="list-unstyled project-links" >
     {% for link in post.links %}

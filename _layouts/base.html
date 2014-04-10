@@ -24,7 +24,7 @@
   <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
   <link rel="stylesheet" href="/css/animate.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -56,20 +56,32 @@
   <![endif]
 -->
 
- <div class="navbar animated">
+<div class="navbar animated">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">
-      <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
+    <div class="logo">
+      <a class="" href="/">
+        <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
       </a>
     </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right text-center">
-        <li><a href="https://twitter.com/codeforde" >t</a></li>
-        <li><a href="http://goo.gl/pO9wkS" >g+</a></li>
+    
+    <div class="main-nav-wrapper">
+      <ul class="nav nav-social text-right">
+        <li class="text-center"><a href="https://twitter.com/codeforde" >t</a></li>
+        <li class="text-center"><a href="http://goo.gl/pO9wkS" >g+</a></li>
+      </ul>
+
+      <ul class="nav nav-pills">
+        {% for link in site.data.navigation %}
+        {% assign current = nil %}
+        {% if page.url contains link.url %}
+        {% assign current = 'current' %}
+        {% endif %}
+        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+        {% endfor %}
       </ul>
     </div>
-    <!--/.navbar-collapse -->
   </div>
 </div>
 
