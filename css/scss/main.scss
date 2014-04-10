@@ -37,7 +37,20 @@ body {
 
 .navbar {
 	@extend .fond__white; 
+	padding: 20px 0;
 }
+
+.nav > li > a {
+	padding: 0;
+}
+
+.nav-pills {
+	li {
+		a { border-radius: 0 ;}
+		a:hover { background-color: transparent;}
+	}
+}
+
 
 /*===============================
 =            Helpers            =
@@ -240,25 +253,44 @@ label {
 	margin-bottom: 0;
 }
 
-.nav > li {
+.nav-social {
+	margin-bottom: 20px;
+
+	li {
 	display: inline-block;
-	height: 48px;
-	width: 48px;
-	margin-right: 24px;
+	margin-right: 5px;
 	&:last-child { margin-right: 0 ;}
-	;
-
-	a {
-		background: $red;
-		color: $white;
-	}
-
+		a {
+			background: $red;
+			color: $white;
+			height: 48px;
+			width: 48px;
+			line-height: 48px;
+		}
+	} 
+	display: none;
 }
 
-.nav > li > a:hover {
+.nav-social > li > a:hover {
 	background: $red;
 	color: $white;
 }
+
+.main-nav-wrapper {
+	
+	margin: 20px 0;
+	.nav-pills li {	
+		border: 2px solid transparent;
+		a {
+			padding: 0 10px;
+		}
+	}
+
+	.nav-pills .current {	
+		border: 2px solid $red;
+	}
+}
+
 
 .marker {
 		background-color: $white;
@@ -428,13 +460,17 @@ $date-circle: 80px;
 	}
 
 .lab-links a {
-	@extend .highlight-red;
+	@extend .highlight-white;
 }
 
 .lab-leads {
 	li {
 	padding: 0;
 	}
+}
+
+.project-image {
+	margin-bottom: 28px;
 }
 
 .project-links, .post-links {
@@ -455,21 +491,19 @@ $date-circle: 80px;
 
 .members {
 	line-height: 26px;
-	@extend .clearfix;
+	font-size: 16px;
 
 	.member {
 		margin-bottom: 26px;
 		min-width: 33%;
 		display: block; 
 		float: left;
-		@extend .clearfix;
 	}
 
-	font-size: 16px;
 	.member-avatar {
 		margin-right: 20px;
-		max-width: 80px;
-		max-height: 80px;
+		width: 80px;
+		height: 80px;
 	}
 }
 
@@ -526,7 +560,6 @@ $date-circle: 80px;
 		margin: 0;
 		max-width: 25%;
 	}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -553,6 +586,24 @@ $date-circle: 80px;
 
 	.event-date-cta-wrapper {
 		max-width: inherit;
+	}
+
+	.nav-social {
+		display: inherit;
+	}
+
+	.main-nav-wrapper {
+		float: right;
+		margin: 0;
+	}
+
+	.logo {
+		float: left;
+	}
+
+	.main-nav-wrapper .nav-pills
+	{
+		float: right;
 	}
 
 }
