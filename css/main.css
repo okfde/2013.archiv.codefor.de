@@ -99,6 +99,14 @@ label {
   box-shadow: 10px 0 0 #ff5449, -10px 0 0 #ff5449;
   display: inline; }
 
+  a.contrast {
+  color:#ffffff;
+  display: inline; }
+
+  a.contrast2 {
+  color:#000000;
+  display: inline; }
+
 .highlight-white {
   -webkit-box-shadow: 10px 0 0 white, -10px 0 0 white;
   -moz-box-shadow: 10px 0 0 white, -10px 0 0 white;

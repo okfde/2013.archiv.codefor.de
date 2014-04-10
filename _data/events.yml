@@ -1,45 +1,13 @@
-- lab: OK Lab Berlin #required for events aggregation on Lab-pages
-  name: OK LAB BERLIN CODING-TREFFEN
-  time: 19-22 Uhr 
-  location: Wikimedia, Tempelhofer Ufer 23-24, 10961 Berlin
-  day: Mittwoch
-  day-nr: 2
-  month: April 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1124202
-  link-name: Mehr Info
 
-- lab: OK Lab Ulm
-  name: OK Lab ULM REGULAR MEETUP
-  time: 18-20 Uhr
-  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum 027/341)
-  day: Montag
-  day-nr: 31
-  month: März 2014
-  link-url: http://www.ulmapi.de
-  link-name: Mehr Info
-
-
-- lab: OK Lab Hamburg
-  name: OK LAB HAMBURG CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
-  day: Montag
-  day-nr: 7
-  month: April 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
-  link-name: Mehr Info
-
-
-- lab: OK Lab Münster
-  name: HACKNIGHT
-  time: 19-Open end
-  location: TBA
+- lab: OK Lab Stuttgart 
+  name: OK LAB STUTTGART - ERSTES CODING-TREFFEN
+  time: 19:00
+  location: Forum Theater Café, Gymnasiumstraße 21, Stuttgart
   day: Mittwoch 
-  day-nr: 9
+  day-nr: 9 
   month: April 2014
-  link-url: http://www.meetup.com/codeforde/Munster-DE/1120812/
+  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/175832292/ 
   link-name: Mehr Info
-
 
 - lab: OK Lab Heilbronn
   name: OK LAB HEILBRONN REGULAR MEETUP
@@ -51,6 +19,15 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
   link-name: Mehr Info
 
+- lab: OK Lab Chemnitz 
+  name: OK LAB CHEMNITZ REGULAR MEETUP
+  time: 19-Open end
+  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: 10
+  month: April 2014
+  link-url: https://chaoschemnitz.de/index.php?title=Event:2014/04/10_Code_for_Chemnitz
+  link-name: Mehr Info
 
 - lab: OK Lab Köln 
   name: OK LAB KÖLN CODING-TREFFEN
@@ -62,5 +39,53 @@
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
 
+- lab: OK Lab Ulm
+  name: OK Lab ULM REGULAR MEETUP
+  time: 18-20 Uhr
+  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum o27/341)
+  day: Montag
+  day-nr: 14
+  month: April 2014
+  link-url: http://www.ulmapi.de
+  link-name: Mehr Info
+
+- lab: OK Lab Berlin #required for events aggregation on Lab-pages
+  name: OK LAB BERLIN CODING-TREFFEN
+  time: 19-22 Uhr 
+  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
+  day: Mittwoch
+  day-nr: 16
+  month: April 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1137412/
+  link-name: Mehr Info
 
 
+- lab: OK Lab Hamburg
+  name: OK LAB HAMBURG CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
+  day: Mittwoch
+  day-nr: 23
+  month: April 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
+  link-name: Mehr Info
+
+- lab: OK Lab Dresden 
+  name: OK LAB DRESDEN FIRST MEETUP
+  time: 19-Open end
+  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
+  day: Dienstag
+  day-nr: 24
+  month: April 2014
+  link-url: http://pad.okfn.org/p/oklab-dresden
+  link-name: Mehr Info
+
+- lab: OK Lab Münster
+  name: HACKNIGHT
+  time: 19-Open end
+  location: Produktivhaus Münster, Martinistraße 2
+  day: Mittwoch 
+  day-nr: 14
+  month: Mai 2014
+  link-url: http://www.meetup.com/codeforde/Munster-DE/1137372/
+  link-name: Mehr Info

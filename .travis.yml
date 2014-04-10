@@ -1,0 +1,9 @@
+---
+language: ruby
+rvm:
+  - 1.9.3
+script:
+- jekyll build
+branches:
+  only:
+  - gh-pages

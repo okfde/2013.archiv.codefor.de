@@ -3,7 +3,7 @@
     <h2 class="post-title pull-left" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
     <div class="post-meta text__green text-right pull-right">
     <h4 class="post-title"> {{ [include.param]author }} </h4>
-          {{ [include.param]date }}
+          {{ [include.param]date | date_to_string }}
     </div>
   </div>
   <p class="post-description">{{ [include.param]content | remove: '<p>' | remove: '</p>' }}</p>

@@ -1,84 +1,9 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+---
+layout: base
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ____        _       __                     __  __      _                     
-   / __ \____ _(_)___  / /_  ____ _      __   / / / /___  (_)________  _________ 
-  / /_/ / __ `/ / __ \/ __ \/ __ \ | /| / /  / / / / __ \/ / ___/ __ \/ ___/ __ \
- / _, _/ /_/ / / / / / /_/ / /_/ / |/ |/ /  / /_/ / / / / / /__/ /_/ / /  / / / /
-/_/ |_|\__,_/_/_/ /_/_.___/\____/|__/|__/   \____/_/ /_/_/\___/\____/_/  /_/ /_/ 
-                                                                                 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Code for Germany ~ Stadt&lt;entwickler /&gt;nutzen offene Daten um ihre Stadt zu verbessern</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
-  <link rel="stylesheet" href="/css/animate.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-  <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <script>
-
-  WebFontConfig = { fontdeck: { id: '41701' } };
-
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-
-  </script>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="/js/vendor/bootstrap.min.js"></script>
-  <script src="/js/UserProfileImages.js"></script>
-  <script type="text/javascript">
-        $(document).ready(function() {
-            userimages = new UserProfileImages();
-            userimages.init();
-        });
-  </script>
-
-</head>
-<body>
-  <!--[if lt IE 7]>
-  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]
--->
-<div class="navbar animated">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">
-        <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
-      </a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right text-center">
-        <li><a href="https://twitter.com/codeforde" >t</a></li>
-        <li><a href="http://goo.gl/pO9wkS" >g+</a></li>
-      </ul>
-    </div>
-    <!--/.navbar-collapse -->
-  </div>
-</div>
-
-<!-- Lab Info -->               
+<!-- Lab Info -->
 <div class="jumbotron fond__green text__white">
   <div class="container lab-info">
     <div class="row">
@@ -96,10 +21,10 @@
           {% endfor %}
         </ul>
         <h3> Kontakt </h3>
-        <ul class="list-inline lab-leads" >
+        <ul class="list-unstyled lab-links" >
           {% for lead in page.leads %}
           <li>
-            <a href="{{ lead.url }}">{{ lead.name }}</a>{% unless forloop.last %},{% endunless%} 
+            <a href="{{ lead.url }}">{{ lead.name }}</a> 
           </li>
           {% endfor %}
         </ul>
@@ -114,7 +39,7 @@
 <!-- Termine & Projekte -->
 <div class="jumbotron fond__grey">
   <div class="container">
-    <h3>Termine</h3>
+    <h3>Termine</h3> 
 
       {% comment %} Let's count how many projects we have for this lab (needed for layout columns etc.) {% endcomment %}
       {% assign event_count = 0 %}
@@ -125,8 +50,13 @@
       {% endfor %}
 
       {% assign loop_index = 0 %}
-      {% assign event_count=event_count | minus:1 %}  
+      
+    {% unless event_count == 0 %}
       <div class="row">
+    {%endunless%}
+
+      {% assign event_count=event_count | minus:1 %}
+        
         {% for event in site.data.events %}
         {% if event.lab == page.lab %}
           <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
@@ -144,7 +74,7 @@
         {% if loop_index == event_count %}
         </div>
         {% endif %}
-    {% assign loop_index = loop_index | plus:1 %}   
+    {% assign loop_index = loop_index | plus:1 %}
 
     {% endif %}
     {% endfor %}
@@ -156,19 +86,24 @@
 <!-- Termine & Projekte -->
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3> Projekte </h3>
+    <h3> Projekte </h3> <a class="contrast" href="https://github.com/okfde/codefor.de/tree/gh-pages/projects/_posts"> -> Projekt hinzufügen </a>
 
     {% comment %} Let's count how many events we have for this lab (needed for layout columns etc.) {% endcomment %}
     {% assign project_count = 0 %}
     {% for project in site.categories.projects %}
     {% if project.lab == page.lab %}
-    {% assign project_count=project_count | plus:1 %}   
+    {% assign project_count=project_count | plus:1 %}
     {% endif %}
     {% endfor %}
 
     {% assign loop_index = 0 %}
-    {% assign project_count=project_count | minus:1 %}  
-    <div class="row">
+    {% unless project_count == 0 %}
+      <div class="row">
+    {%endunless%}
+    
+    {% comment %} dirty but compensates for liquid comparison logic wiredness in if clauses later on (around loop_index < project_count) {% endcomment %}
+    {% assign project_count=project_count | minus:1 %}
+
       {% for post in site.categories.projects %}
       {% if post.lab == page.lab %}
 
@@ -187,7 +122,7 @@
     {% if loop_index == project_count %}
   </div>
   {% endif %}
-  {% assign loop_index = loop_index | plus:1 %}   
+  {% assign loop_index = loop_index | plus:1 %}
 
   {% endif %}
   {% endfor %}
@@ -199,21 +134,24 @@
 <!-- Mitglieder-->
 <div class="jumbotron fond__greymid">
   <div class="container">
-      
+
 
 
       <div class="row">
-      <h3> Mitglieder </h3>
+      <h3> Mitglieder </h3><a class="contrast2" href="https://github.com/okfde/codefor.de/edit/gh-pages/berlin/index.html"> -> neues Mitglied hinzufügen</a>
 
         <div class="col-lg-12">
         <ul class="list-inline lab-members members">
           {% for member in page.members %}
           <li class="member">
-             <img src="/img/contributor_placeholder.svg" 
-                data-username-git="{{ member.username-github }}" 
-                data-username-twitter="{{ member.username-twitter }}" alt="" class="img-circle member-avatar pull-left">
+            {% if member.username-github %}
+             {% capture image_url %}/img/avatars/{{ member.username-github }}.jpg{% endcapture %}
+            {% else %}
+              {% capture image_url %}/img/contributor_placeholder.svg{% endcapture %}
+            {% endif %}
+             <img src="{{ image_url }}" alt="{{ member.name }}" class="img-circle member-avatar pull-left">
              <div class="member-info ">
-             {{ member.name }} <br> 
+             {{ member.name }} <br>
              {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">github:{{ member.username-github }}</a><br> {% endif %}
              {% if member.username-twitter %}<a href="https://www.twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
              </div>
@@ -224,30 +162,3 @@
     </div>
   </div>
 </div>
-
-<footer>
-
-  <div class="jumbotron fond__grey meta-links-foot">
-    <div class="container">
-      <div class="row text-center text-uppercase">
-        <div class="col-lg-12">
-          <a href="/impressum.html">Kontakt &amp; Impressum</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</footer>
-
-
-  <!-- once you turn this on, we are here... wooot!
-
-  <script>
-  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src='//www.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
--->
-</body>
-</html>
