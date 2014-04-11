@@ -1,33 +1,33 @@
 
-- lab: OK Lab Stuttgart 
-  name: OK LAB STUTTGART - ERSTES CODING-TREFFEN
-  time: 19:00
-  location: Forum Theater Café, Gymnasiumstraße 21, Stuttgart
-  day: Mittwoch 
-  day-nr: 9 
-  month: April 2014
-  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/175832292/ 
-  link-name: Mehr Info
+- #lab: OK Lab Stuttgart 
+  #name: OK LAB STUTTGART - ERSTES CODING-TREFFEN
+  #time: 19:00
+  #location: Forum Theater Café, Gymnasiumstraße 21, Stuttgart
+  #day: Mittwoch 
+  #day-nr: 9 
+  #month: April 2014
+  #link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/175832292/ 
+  #link-name: Mehr Info
 
-- lab: OK Lab Heilbronn
-  name: OK LAB HEILBRONN REGULAR MEETUP
-  time: 18:30-21:30 Uhr
-  location: CC86, e.V. - Schützenstraße 16  
-  day: Donnerstag
-  day-nr: 10
-  month: April 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
-  link-name: Mehr Info
+- #lab: OK Lab Heilbronn
+  #aname: OK LAB HEILBRONN REGULAR MEETUP
+  #time: 18:30-21:30 Uhr
+  #location: CC86, e.V. - Schützenstraße 16  
+  #day: Donnerstag
+  #day-nr: 10
+  #month: April 2014
+  #link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
+  #link-name: Mehr Info
 
-- lab: OK Lab Chemnitz 
-  name: OK LAB CHEMNITZ REGULAR MEETUP
-  time: 19-Open end
-  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: 10
-  month: April 2014
-  link-url: https://chaoschemnitz.de/index.php?title=Event:2014/04/10_Code_for_Chemnitz
-  link-name: Mehr Info
+- #lab: OK Lab Chemnitz 
+  #name: OK LAB CHEMNITZ REGULAR MEETUP
+  #time: 19-Open end
+  #location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
+  #day: Donnerstag
+  #day-nr: 10
+  #month: April 2014
+  #link-url: https://chaoschemnitz.de/index.php?title=Event:2014/04/10_Code_for_Chemnitz
+  #link-name: Mehr Info
 
 - lab: OK Lab Köln 
   name: OK LAB KÖLN CODING-TREFFEN
