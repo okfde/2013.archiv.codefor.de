@@ -20,3 +20,5 @@ colaborators:
 
 Mit 'Mein Kiez' sieht man alle möglichen Open Data zu Berlin-Lichtenberg plus einer Interaktionsmöglichkeit/ Rückkanal. So kann man alle Spielplätze im Bezirk finden - und wenn man sie besser haben möchte, dann gibt man einen Vorschlag für den Bürgerhaushalt an.
 
+Foto: Angela Monika Arnold
+
