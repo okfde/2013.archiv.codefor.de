@@ -1,5 +1,17 @@
 # CodeFor.de
 
+## Install and run the site
+
+`git clone` the repo and install the dependencies:
+
+    bundle install
+    # or without bundler
+    gem install github-pages
+
+Then build the site and serve it:
+
+    jekyll serve -w
+
 
 ## Download avatars
 
