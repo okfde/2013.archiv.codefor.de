@@ -1,24 +1,4 @@
 
-- lab: OK Lab Köln 
-  name: OK LAB KÖLN CODING-TREFFEN
-  time: 19-Open end
-  location: CoWoCo, An der Bottmühle 5, 50678 Köln
-  day: Montag
-  day-nr: 14
-  month: April 2014
-  link-url: http://pad.opendatacloud.de/p/okLab-koeln
-  link-name: Mehr Info
-
-- lab: OK Lab Ulm
-  name: OK Lab ULM REGULAR MEETUP
-  time: 18-20 Uhr
-  location: Uni Ulm, Gebäudekreuz o27, Besprechungsraum Verteilte Systeme (Raum o27/341)
-  day: Montag
-  day-nr: 14
-  month: April 2014
-  link-url: http://www.ulmapi.de
-  link-name: Mehr Info
-
 - lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
   time: 19-22 Uhr 
