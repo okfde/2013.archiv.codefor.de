@@ -25,8 +25,6 @@ colaborators:
     url-name: twitter
   - url: https://github.com/AndyTheGiant
     url-name: github
-  - url: http://andymensional.com
-    url-name: website
 - name: Christopher Möller 
   links:
   - url: https://github.com/chrtze
@@ -40,5 +38,5 @@ colaborators:
 ---
 
 Berlin ist voll von CCTV Cams. Das visualisieren wir mit unserer interaktiven Karte 'cctvwatch'.
-Neben der Darstellung der Kameras wird es für den Nutzer auch möglich sein neue Kameras hinzuzufügen. Das User Interface ist responsive, damit man auch per Smartphone oder Tablet schauen kann, wo man am besten nicht lang läuft oder neue Kameras einpflegen kann.
+Neben der Darstellung der Kameras wird es für den Nutzer auch möglich sein neue Kameras hinzuzufügen. Das User Interface ist responsive, damit man auch per Smartphone oder Tablet checken kann, wo man am besten nicht lang läuft. Zur Zeit wird die App nur für Berlin entwickelt, da es einen soliden OSM Datensatz gibt, den wir als Grundlage verwenden.
 
