@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: projects/cctvwatch.jpg
+imgname: cctvwatch.jpg
 title: cctvwatch - big brother is watching you
 
 links:
