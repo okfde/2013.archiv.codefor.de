@@ -6,7 +6,7 @@
           {{ [include.param]date | date_to_string }}
     </div>
   </div>
-  <div class="post-description">{{ [include.param]content }}</div>
+  <div class="post-description">{{ [include.param]content | markdownify }}</div>
 
   <ul class="list-unstyled post-links" >
     {% for link in [include.param]links %}
