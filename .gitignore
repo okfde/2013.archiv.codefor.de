@@ -3,3 +3,6 @@ cfg.sublime-project
 css/scss/koala-config.json
 css/main.css.map
 _site/
+.DS_Store
+.idea
+*.iml
