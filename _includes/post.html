@@ -6,8 +6,8 @@
           {{ [include.param]date | date_to_string }}
     </div>
   </div>
-  <p class="post-description">{{ [include.param]content | remove: '<p>' | remove: '</p>' }}</p>
-  
+  <div class="post-description">{{ [include.param]content }}</div>
+
   <ul class="list-unstyled post-links" >
     {% for link in [include.param]links %}
     <li>
