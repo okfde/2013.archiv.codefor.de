@@ -1,10 +1,9 @@
-
 - lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
   time: 19-22 Uhr 
   location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
   day: Mittwoch
-  day-nr: 16
+  day-nr: 23
   month: April 2014
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1137412/
   link-name: Mehr Info
