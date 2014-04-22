@@ -20,7 +20,7 @@ colaborators:
   links:
   - url: https://twitter.com/FalkJan
     url-name: twitter
-    
+
 - name: Henning Brinkmann
   links:
   - url: https://twitter.com/hbrtweets
