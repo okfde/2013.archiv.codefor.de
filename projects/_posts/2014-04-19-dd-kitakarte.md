@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
-imgname: dresden/kitakarte.png
+imgname: dresden/kita.png
 title: Kitakarte Dresden
 
 links: 
