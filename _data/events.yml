@@ -38,6 +38,16 @@
   link-url: http://pad.okfn.org/p/oklab-dresden
   link-name: Mehr Info
 
+- lab: OK Lab Ulm
+  name: OK LAB ULM MEETUP
+  time: 18-Open end
+  location: Uni Ulm, Gebäudekreuz O27, Besprechungsraum Verteilte Systeme (Raum 027/341)
+  day: Montag
+  day-nr: 28
+  month: April 2014
+  link-url: http://ulmapi.de
+  link-name: Mehr Info
+
 - lab: OK Lab Köln
   name: OK LAB KÖLN CODING
   time: 19-Open end
