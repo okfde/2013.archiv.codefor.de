@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: ernteteilen.jpg
+imgname: berlin/ernteteilen.jpg
 title: Ernte Teilen
 
 links: 
