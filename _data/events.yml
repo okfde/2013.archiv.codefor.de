@@ -48,6 +48,16 @@
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
 
+- lab: OK Lab Leipzig
+  name: OK LAB LEIPZIG FIRST MEETUP
+  time: 19-22 
+  location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
+  day: Montag
+  day-nr: 28
+  month: April 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Mehr Info
+
 - lab: OK Lab Chemnitz
   name: OK LAB CHEMNITZ CODING-TREFFEN
   time: 19-Open end
