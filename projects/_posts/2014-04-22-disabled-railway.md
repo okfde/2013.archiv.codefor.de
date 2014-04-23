@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: disabled-railways.png
+imgname: berlin/disabled-railways.png
 title: Disabled Railway
 
 links:

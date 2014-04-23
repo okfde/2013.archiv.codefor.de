@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: lichtenberg.jpg
+imgname: berlin/lichtenberg.jpg
 title: Mein Kiez (Lichtenberg)
 
 links: 
