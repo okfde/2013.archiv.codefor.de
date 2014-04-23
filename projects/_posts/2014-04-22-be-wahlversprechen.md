@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: wahlversprechen2013.jpg
+imgname: berlin/wahlversprechen2013.jpg
 title: Wahlversprechen2013
 
 links: 
