@@ -8,6 +8,16 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1143782/
   link-name: Mehr Info
 
+  lab: OK Lab Stuttgart #required for events aggregation on Lab-pages
+  name: OK LAB  Stuttgart
+  time: 19 Uhr 
+  location: Forum Theater-Café, Gymnasiumstraße 21, 70173 Stuttgart
+  day: Mittwoch
+  day-nr: 23
+  month: April 2014
+  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/176582312/
+  link-name: Mehr Info
+
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
