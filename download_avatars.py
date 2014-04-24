@@ -33,23 +33,24 @@ def main():
             contents = f.read()
             _, frontmatter, _ = contents.split('---\n', 2)
             meta = yaml.load(frontmatter)
-            for member in meta['members']:
-                logging.debug('Processing Lab Member %s', member['name'])
-                for source, get_image in avatar_source:
-                    logging.debug('Checking %s for %s', source, member['name'])
-                    key = 'username-%s' % source
-                    if key in member:
-                        username = member[key]
-                        if username in existing:
+            if len(meta['members']) > 1:
+                for member in meta['members']:
+                    logging.debug('Processing Lab Member %s', member['name'])
+                    for source, get_image in avatar_source:
+                        logging.debug('Checking %s for %s', source, member['name'])
+                        key = 'username-%s' % source
+                        if key in member:
+                            username = member[key]
+                            if username in existing:
+                                break
+                            image_url = get_image(username)
+                            image = requests.get(image_url, stream=True)
+                            image_path = os.path.join(AVATAR_PATH, username + '.jpg')
+                            logging.debug('Downloading image to %s', image_path)
+                            with open(image_path, 'wb') as fd:
+                                for chunk in image.iter_content(1024):
+                                    fd.write(chunk)
                             break
-                        image_url = get_image(username)
-                        image = requests.get(image_url, stream=True)
-                        image_path = os.path.join(AVATAR_PATH, username + '.jpg')
-                        logging.debug('Downloading image to %s', image_path)
-                        with open(image_path, 'wb') as fd:
-                            for chunk in image.iter_content(1024):
-                                fd.write(chunk)
-                        break
 
 if __name__ == '__main__':
     main()
