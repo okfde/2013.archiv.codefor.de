@@ -38,7 +38,7 @@
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Mehr Info
 
-  - lab: OK Lab Berlin #required for events aggregation on Lab-pages
+- lab: OK Lab Berlin #required for events aggregation on Lab-pages
   name: OK LAB BERLIN CODING-TREFFEN
   time: 19-22 Uhr 
   location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
