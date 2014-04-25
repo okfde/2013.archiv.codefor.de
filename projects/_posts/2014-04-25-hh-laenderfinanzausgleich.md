@@ -4,6 +4,10 @@ lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
 imgname: hamburg/LFA.png
 title: Länderfinanzausgleich visualisieren
 
+links:
+- url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
+  name: Datenquelle
+  
 colaborators:
 - name: Patrick Stotz
   links:
@@ -26,9 +30,5 @@ colaborators:
 ---
 
 Im Länderfinanzausgleich werden jährlich riesige Summen bewegt. Daten über die Höhe der Zahlungen liegen seit 1950 durchgehend vor. In dem Projekt sollen verschiedene Visualisierungsansätze und -tools ausprobiert werden um die historische Entwicklung des Länderfinanzausgleichs möglichst anschaulich darzustellen.
-
-links:
-- url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
-  name: Datenquelle
 
 
