@@ -25,4 +25,10 @@ colaborators:
   url-name: github
 ---
 
-Im Länderfinanzausgleich werden jährlich riesige Summen bewegt. Daten über die Höhe der Zahlungen liegen seit 1950 durchgehend vor http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich. In dem Projekt sollen verschiedene Visualisierungsansätze und -tools ausprobiert werden um die historische Entwicklung des Länderfinanzausgleichs möglichst anschaulich darzustellen.
+Im Länderfinanzausgleich werden jährlich riesige Summen bewegt. Daten über die Höhe der Zahlungen liegen seit 1950 durchgehend vor. In dem Projekt sollen verschiedene Visualisierungsansätze und -tools ausprobiert werden um die historische Entwicklung des Länderfinanzausgleichs möglichst anschaulich darzustellen.
+
+links:
+- url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
+  name: Datenquelle
+
+
