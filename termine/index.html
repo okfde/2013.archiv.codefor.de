@@ -1,0 +1,32 @@
+---
+layout: base
+
+---
+<!-- Termine -->
+<div class="beneath-sections jumbotron fond__grey animated">
+  <div class="container text-center text__black">
+      <h3>Termine</h3>
+      <p>Hier findet ihr erste Termine zu Treffen der Labs in den einzelnen Städten.</p>
+    
+      <div class="row">
+      {% for event in site.data.events %}
+        <div class="col-lg-6" >
+          {% include event.html %}
+        </div>
+
+        {% assign even = forloop.index0 | modulo:2 %}
+        {% if even == 1 %}
+          {% comment %} Unless it is the last iteration {% endcomment %}
+          {% unless forloop.last %}
+            </div><div class="row" >
+          {% endunless %}
+        {% endif %}
+
+        {% if forloop.last %}
+        </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    
+  </div>
+</div>
