@@ -16,12 +16,6 @@ colaborators:
   - url: http://github.com/andreas-wienes
     url-name: github
 
-- name: Aurelius Wendelken
-  links:
-  - url: https://twitter.com/webtobesocial
-    url-name: twitter
-  - url: https://github.com/webtobesocial
-    url-name: github
 ---
 
 Visualisierung aller Hamburger Kitas auf einer Karte und die Moeglichkeit nach einer Bestimmten zu suchen.
