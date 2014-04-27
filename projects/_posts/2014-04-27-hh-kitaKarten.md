@@ -32,6 +32,6 @@ colaborators:
 
 ---
 
-Visualisierung aller Hamburger Kitas auf einer Karte und die Moeglichkeit nach einer Bestimmten zu suchen.
+Visualisierung aller Hamburger Kitas auf einer Karte mit der Moeglichkeit nach einer Bestimmten zu suchen.
 
 
