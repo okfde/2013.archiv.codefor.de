@@ -22,18 +22,6 @@ colaborators:
     url-name: twitter
   - url: https://github.com/webtobesocial
     url-name: github
-
-- name: Timo Kessler
-  - url: https://github.com/tike
-    url-name: github
-
-- name: Lukasz Plotnicki
-  links:
-  - url: https://twitter.com/lplotni
-    url-name: twitter
-  - url: https://github.com/lplotni
-    url-name: github
-
 ---
 
 Visualisierung aller Hamburger Kitas auf einer Karte und die Moeglichkeit nach einer Bestimmten zu suchen.
