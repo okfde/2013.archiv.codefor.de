@@ -5,7 +5,7 @@ lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
 title: Die passende Kita in Hamburg finden
 
 #links:
-#- url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
+#- url: http://www.hamburg.de/kita-finden/
 #  name: Datenquelle
   
 colaborators:
@@ -36,5 +36,4 @@ colaborators:
 ---
 
 Visualisierung aller Hamburger Kitas auf einer Karte und die Moeglichkeit nach einer Bestimmten zu suchen.
-
 
