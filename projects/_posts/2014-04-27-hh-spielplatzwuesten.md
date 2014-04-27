@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
-imgname: hamburg/wueste.png
+imgname: hamburg/wueste.jpg
 title: Spielplatzwüsten kartieren
 
 links:
