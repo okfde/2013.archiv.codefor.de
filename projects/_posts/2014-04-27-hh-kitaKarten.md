@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
-imgname: hamburg/wueste.jpg
+imgname: hamburg/kitas.jpg
 title: Die passende Kita in Hamburg finden
 
 links:
