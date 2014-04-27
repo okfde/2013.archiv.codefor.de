@@ -1,12 +1,12 @@
 ---
 layout: post
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
-#imgname: hamburg/LFA.png
+imgname: hamburg/LFA.png
 title: Die passende Kita in Hamburg finden
 
-#links:
-#- url: http://www.hamburg.de/kita-finden/
-#  name: Datenquelle
+links:
+- url: http://www.hamburg.de/kita-finden/
+  name: Datenquelle
   
 colaborators:
 - name: Andreas Wienes
