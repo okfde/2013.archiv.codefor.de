@@ -347,7 +347,8 @@ margin-left: 10px;
 	h4 {
 		margin-top: 0;
 		a , a:hover, a:active , a:visited {
-			@extend .text__grey;
+			@extend .highlight-red ;
+			margin-left: 10px;
 			text-decoration: none; 
 		}
 	}
@@ -355,6 +356,10 @@ margin-left: 10px;
 	p {
 		margin-top: 0;
 	}
+}
+
+.panel-body {
+	padding: 0;
 }
 
 .event-wrapper {
