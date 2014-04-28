@@ -1,9 +1,11 @@
- - title: Über das Projekt
+ - title: Über
    url: /ueber
- - title: Mitmachen/Unterstützen
+ - title: Mitmachen
    url: /mitmachen
  - title: Termine
    url: /termine
  - title: Blog
    url: /blog
+ - title: Resourcen
+   url: /resourcen  
 
