@@ -22,7 +22,7 @@ footerlogos: yes
 <!-- Lab Map -->
 <div class="jumbotron fond__green" style="padding:0px;">
 
-      <div class="lab-map">Map here</div>
+      <div id="lab-map" class="lab-map-home"></div>
 
 </div>
 
@@ -88,11 +88,36 @@ Wo gerade welche Anwendungen und Projekten entstehen, wann das nächste Treffen 
 <script src="js/vendor/prettyCheckbox.min.js"></script>
 
 <script src="js/Application.js"></script>
+<script src="/js/GoogleMaps.js"></script>
+
+
+<script>
+    //the center of map on load
+    var google_map_position = "51.1642292,10.4541194";
+    //zoom level
+    var google_map_zoom = 6;
+    //the markers
+    var google_maps_markers = [
+    {% for lab in site.pages %}
+     {% if lab.lab %}
+        {
+            "latlong": "{{ lab.lat }} , {{ lab.long }}",
+            "url":"{{ lab.url }} ", // leave "" to disable marker clickevent
+            "text": "{{ lab.lab }}"
+        },
+     {% endif %}
+   {% endfor %}
+    ];
+</script>
+
+
+
+
 <script type="text/javascript">
 $(document).ready(function() {
   app = new Application();
   app.init();
-
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
   $(":checkbox").prettyCheckbox();
 
 });

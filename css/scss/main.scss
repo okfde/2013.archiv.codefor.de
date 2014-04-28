@@ -531,6 +531,28 @@ $date-circle: 80px;
 /*-----  End of Blog  ------*/
 
 
+/*================================
+=  Google Map                   =
+================================*/
+
+#lab-map{
+  width: 100%;
+}
+
+.lab-map-home{
+  height: 600px;
+}
+.lab-map-city{
+  height: 400px;
+}
+
+.googleMapsInfoBox{
+  font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+  font-size: 16px;
+  color: $red;
+  background-color: $white;
+}
+
 
 
 @media screen and (min-width: 481px) {
@@ -627,6 +649,7 @@ $date-circle: 80px;
 	}
 
 }
+
 
 
 

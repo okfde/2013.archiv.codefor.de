@@ -5,8 +5,10 @@ layout: base
 
 <!-- Lab Map -->
 <div class="jumbotron fond__gray" style="padding:0px;">
-      <div class="lab-map">Map here</div>
+      <div id="lab-map" class="lab-map-city"></div>
 </div>
+
+
 
 <!-- Lab Info -->
 <div class="jumbotron fond__green text__white">
@@ -167,3 +169,23 @@ layout: base
     </div>
   </div>
 </div>
+
+<script src="/js/GoogleMaps.js"></script>
+<script>
+    //the center of map on load
+    var google_map_position = "{{ page.lat }}, {{ page.long }}";
+    //zoom level
+    var google_map_zoom = 13;
+    //the markers
+    var google_maps_markers = [
+        {
+            "latlong": " {{ page.lat }},  {{ page.long }}",
+            "url":"",   // leave "" to disable marker clickevent
+            "text": "{{ page.lab }}"
+        }];
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+});
+</script>
