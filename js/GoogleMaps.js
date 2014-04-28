@@ -36,6 +36,7 @@
         var map_options = {
             center: pos,
             scrollwheel: false,
+            mapTypeControl: false,
             zoom: google_maps_zoom,
             styles: [
                 {
