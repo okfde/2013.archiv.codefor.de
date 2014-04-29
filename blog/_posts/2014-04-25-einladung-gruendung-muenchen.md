@@ -19,10 +19,10 @@ Wir hoffen, viele von Euch zu sehen und wollen betonen, dass nicht nur "Coders" 
 Wir freuen uns auf Dich!
 Matt Fullerton, Jan Borchardt, Marcus Dapp
 
-PS. Auch wenn Du es nicht schaffst zum ersten Treffen zu kommen, trage Dich auf der [Website][] ein, damit Du in Zukunft eingeladen wirst. Wir wollen uns etwa 2x im Monat treffen...
+PS. Auch wenn Du es nicht schaffst zum ersten Treffen zu kommen, trage Dich auf der [München-Seite][] ein, damit Du in Zukunft eingeladen wirst. Wir wollen uns etwa 2x im Monat treffen...
 
 [WERK1]: http://www.werk1muenchen.de/
 [Karte]: http://osm.org/go/0JA1AfBLk-?node=2344668019
 [MOGDy-Projekts]: http://www.muenchen.de/mogdy
-[Website]: http://codefor.de/
+[München-Seite]: http://codefor.de/muenchen
 
