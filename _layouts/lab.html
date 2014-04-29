@@ -182,6 +182,11 @@ layout: base
 </div>
 {% endif %}
 
+{% if page.showsignup %}
+  {% include join-form-lab.html %}
+{% endif %}
+
+
 <script src="/js/GoogleMaps.js"></script>
 <script>
     //the center of map on load
@@ -196,8 +201,12 @@ layout: base
             "text": "{{ page.lab }}"
         }];
 </script>
+
+<script src="/js/vendor/prettyCheckbox.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
 });
+  $(":checkbox").prettyCheckbox();
+
 </script>
