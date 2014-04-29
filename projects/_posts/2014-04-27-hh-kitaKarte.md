@@ -24,6 +24,7 @@ colaborators:
     url-name: github
 
 - name: Timo Kessler
+  links:
   - url: https://github.com/tike
     url-name: github
 
