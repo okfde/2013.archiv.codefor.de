@@ -19,7 +19,9 @@ layout: base
         <p>{{ page.content }}</p>
       </div>
       <div class="col-lg-6">
-        <h3> Basis Info </h3>
+        
+        {%if page.links %}
+        <h3> Basis Info</h3>
         <ul class="list-unstyled lab-links" >
           {% for link in page.links %}
           <li>
@@ -27,7 +29,10 @@ layout: base
           </li>
           {% endfor %}
         </ul>
-        <h3> Kontakt </h3>
+        {% endif %}
+        
+        {%if page.leads %}
+        <h3> Kontakt</h3>
         <ul class="list-unstyled lab-links" >
           {% for lead in page.leads %}
           <li>
@@ -35,6 +40,9 @@ layout: base
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
+
+
       </div>
     </div>
 
@@ -143,6 +151,8 @@ layout: base
 <!-- Projekte End -->
 
 <!-- Mitglieder-->
+
+{% if page.members %}
 <div class="jumbotron fond__greymid">
   <div class="container">
       <div class="row">
@@ -170,6 +180,7 @@ layout: base
     </div>
   </div>
 </div>
+{% endif %}
 
 <script src="/js/GoogleMaps.js"></script>
 <script>
