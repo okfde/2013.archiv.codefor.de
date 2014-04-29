@@ -27,7 +27,10 @@ $white: #FFFFFF;
 .text__red { color: $red;}
 .text__blue { color: $blue;}
 .text__green { color: $green;}
-.text__grey { color: $grey-dark;}
+.text__grey-dark { color: $grey-dark;}
+.text__grey-mid { color: $grey-mid;}
+.text__grey-bright { color: $grey-bright;}
+
 .text__black { color: $black;}
 .text__white { color: $white;}
 
@@ -107,8 +110,11 @@ a, a:hover, a:visited, a:active {
 }
 
 .fond__green a {
-	@extend .fond__white;
-	@extend .text__red;
+	@extend .text__black;
+}
+
+.fond__blue a {
+	@extend .text__white;
 }
 
 label {
