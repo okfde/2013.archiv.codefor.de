@@ -7,7 +7,7 @@ title: Die passende Kita in Hamburg finden
 links:
 - url: http://www.hamburg.de/kita-finden/
   name: Datenquelle
-  
+
 colaborators:
 - name: Andreas Wienes
   links:
@@ -36,5 +36,5 @@ colaborators:
     url-name: github
 ---
 
-Visualisierung aller Hamburger Kitas auf einer Karte mit der Möglichkeit nach einer Bestimmten zu suchen.
+Visualisierung aller Hamburger Kitas auf einer Karte mit der MÃ¶glichkeit nach einer Bestimmten zu suchen.
 
