@@ -1,0 +1,67 @@
+---
+layout: base
+
+---
+
+<!-- Lab Map -->
+<div class="jumbotron fond__green" style="padding:0px;">
+  <div id="lab-map" class="lab-map-home"></div>
+</div>
+
+<!-- About -->
+<div class="beneath-sections jumbotron fond__blue animated">
+  <div class="container text-center text__black">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <p>
+        In 11 Städten treffen sich regelmäßig Code for Germany Teams, zwei weitere OK Labs befinden sich gerade im Aufbau. Die Teams sind lokal und <a href="http://codeforamerica.org/about/international/">global</a> vernetzt, tauschen sich regelmäßig aus, bekommen Input und Support von Mentoren und arbeiten gemeinsam an Code und Anwendungen. Jedes Lab besteht aus Mitgliedern und Lab Leads. Die Leads organisieren Treffen, kümmern sich um die Kommunikationskanäle des Labs, sind Ansprechpartener und Hub zum weiteren Netzwerk. <br><br>
+
+        Die OK Labs sind eigenständige Gruppen, mit eigenen Kommunikationskanälen wie Websites, Etherpads oder Twitter-Accounts. Auf codefor.de werden das Netzwerk und die Projekte der Labs präsentiert. Für Details zu den Gruppen und Projekten lohnt es sich auf die Websites und in die Pads der einzelnen Gruppen zu schauen und sich dort zu informieren bzw. sich direkt auf der Mailingliste des jeweiligen Labs einzutragen.
+
+        </p>
+      </div>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
+
+
+
+<script src="/js/GoogleMaps.js"></script>
+
+<script>
+    //the center of map on load
+    var google_map_position = "51.1642292,10.4541194";
+    //zoom level
+    var google_map_zoom = 6;
+    //the markers
+    var google_maps_markers = [
+    {% for lab in site.pages %}
+     {% if lab.lab %}
+        {
+            "latlong": "{{ lab.lat }} , {{ lab.long }}",
+            "url":"{{ lab.url }} ", // leave "" to disable marker clickevent
+            "text": "{{ lab.lab }}"
+        },
+     {% endif %}
+   {% endfor %}
+    ];
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+});
+</script>
