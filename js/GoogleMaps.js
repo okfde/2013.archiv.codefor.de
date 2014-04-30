@@ -177,7 +177,8 @@
                 boxText.style.cssText = "white-space: nowrap;margin: 0px 8px;cursor:pointer;";
             } else boxText.style.cssText = "white-space: nowrap;margin: 0px 8px;";
 
-            boxText.innerHTML = obj.text;
+            // offset of 7 is for the removal of "OK Lab" to have less cluttered markers
+            boxText.innerHTML = obj.text.substr(7);
 
             var boxOptions = {
                 content: boxText
