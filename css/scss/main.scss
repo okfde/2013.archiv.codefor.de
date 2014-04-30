@@ -27,7 +27,10 @@ $white: #FFFFFF;
 .text__red { color: $red;}
 .text__blue { color: $blue;}
 .text__green { color: $green;}
-.text__grey { color: $grey-dark;}
+.text__grey-dark { color: $grey-dark;}
+.text__grey-mid { color: $grey-mid;}
+.text__grey-bright { color: $grey-bright;}
+
 .text__black { color: $black;}
 .text__white { color: $white;}
 
@@ -62,6 +65,15 @@ body {
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
+@mixin inline-background($color) {
+	-webkit-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	-moz-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	display: inline; 
+}
+
+
 
 /*-----  End of Helpers  ------*/
 
@@ -106,6 +118,27 @@ a, a:hover, a:visited, a:active {
 	@extend .text__red;
 }
 
+.fond__green a {
+	@extend .text__black;
+}
+
+.fond__blue a {
+	@extend .text__white;
+}
+
+.fond__white a {
+	color: $red;
+}
+
+
+
+.fond__green .lab-links a {
+	@extend .fond__white;	
+	@extend .text__red;
+	@include inline-background($white);
+}
+
+
 label {
 	font-weight: normal;
 }
@@ -139,12 +172,6 @@ label {
 	text-transform: uppercase;
 }
 
-@mixin inline-background($color) {
-	-webkit-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	-moz-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	display: inline; 
-}
 
 .highlight-red {
 	@extend .fond__red;	
@@ -347,7 +374,8 @@ margin-left: 10px;
 	h4 {
 		margin-top: 0;
 		a , a:hover, a:active , a:visited {
-			@extend .text__grey;
+			@extend .highlight-red ;
+			margin-left: 10px;
 			text-decoration: none; 
 		}
 	}
@@ -355,6 +383,10 @@ margin-left: 10px;
 	p {
 		margin-top: 0;
 	}
+}
+
+.panel-body {
+	padding: 0;
 }
 
 .event-wrapper {
@@ -459,10 +491,6 @@ $date-circle: 80px;
 		@extend .text__red;
 	}
 
-.lab-links a {
-	@extend .highlight-white;
-}
-
 .lab-leads {
 	li {
 	padding: 0;
@@ -530,6 +558,28 @@ $date-circle: 80px;
 
 /*-----  End of Blog  ------*/
 
+
+/*================================
+=  Google Map                   =
+================================*/
+
+#lab-map{
+  width: 100%;
+}
+
+.lab-map-home{
+  height: 600px;
+}
+.lab-map-city{
+  height: 400px;
+}
+
+.googleMapsInfoBox{
+  font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+  font-size: 16px;
+  color: $red;
+  background-color: $white;
+}
 
 
 
@@ -627,6 +677,7 @@ $date-circle: 80px;
 	}
 
 }
+
 
 
 
