@@ -1,7 +1,7 @@
 ---
 layout: post
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: https://raw.githubusercontent.com/optionu/stolpersteine-ios/master/Artwork/App-Icon-Berlin.png
+imgname: berlin/platecollect.jpg
 title: Stolpersteine App
 
 links: 
