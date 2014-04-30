@@ -66,6 +66,15 @@ body {
           border-radius: $radius;
 }
 
+@mixin inline-background($color) {
+	-webkit-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	-moz-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	box-shadow: 10px 0 0 $color, -10px 0 0 $color;
+	display: inline; 
+}
+
+
+
 /*-----  End of Helpers  ------*/
 
 
@@ -117,6 +126,19 @@ a, a:hover, a:visited, a:active {
 	@extend .text__white;
 }
 
+.fond__white a {
+	color: $red;
+}
+
+
+
+.fond__green .lab-links a {
+	@extend .fond__white;	
+	@extend .text__red;
+	@include inline-background($white);
+}
+
+
 label {
 	font-weight: normal;
 }
@@ -150,12 +172,6 @@ label {
 	text-transform: uppercase;
 }
 
-@mixin inline-background($color) {
-	-webkit-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	-moz-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	display: inline; 
-}
 
 .highlight-red {
 	@extend .fond__red;	
@@ -474,10 +490,6 @@ $date-circle: 80px;
 .jumbotron h1 {
 		@extend .text__red;
 	}
-
-.lab-links a {
-	@extend .highlight-white;
-}
 
 .lab-leads {
 	li {
