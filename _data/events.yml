@@ -9,16 +9,6 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1144642/
   link-name: Mehr Info
 
-- lab: OK Lab Chemnitz
-  name: OK LAB CHEMNITZ CODING-TREFFEN
-  time: 19-Open end
-  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: 01
-  month: Mai 2014
-  link-url: http://codeforchemnitz.de
-  link-name: Mehr Info
-
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
@@ -77,4 +67,14 @@
   day-nr: 14
   month: Mai 2014
   link-url: http://www.meetup.com/codeforde/Munster-DE/1137372/
+  link-name: Mehr Info
+
+- lab: OK Lab Chemnitz
+  name: OK LAB CHEMNITZ CODING-TREFFEN
+  time: 19-Open end
+  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: 15
+  month: Mai 2014
+  link-url: http://codeforchemnitz.de
   link-name: Mehr Info
