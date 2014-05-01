@@ -523,7 +523,7 @@ $date-circle: 80px;
 
 	.member {
 		margin-bottom: 26px;
-		min-width: 33%;
+		min-width: 100%;
 		display: block; 
 		float: left;
 	}
@@ -567,12 +567,13 @@ $date-circle: 80px;
   width: 100%;
 }
 
-.lab-map-home{
-  height: 600px;
-}
-.lab-map-city{
-  height: 400px;
-}
+	.lab-map-home{
+	  height: 300px;
+	}
+	
+	.lab-map-city{
+	  height: 200px;
+	}
 
 .googleMapsInfoBox{
   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
@@ -610,6 +611,7 @@ $date-circle: 80px;
 		margin: 0;
 		max-width: 25%;
 	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -656,6 +658,17 @@ $date-circle: 80px;
 		float: right;
 	}
 
+	.lab-map-home{
+	  height: 600px;
+	}
+	.lab-map-city{
+	  height: 400px;
+	}
+
+	.members .member {
+		min-width: 50%;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -674,6 +687,10 @@ $date-circle: 80px;
 
 	.event-wrapper {
 		margin-bottom: 15px;
+	}
+
+	.members .member {
+		min-width: 33%;
 	}
 
 }
