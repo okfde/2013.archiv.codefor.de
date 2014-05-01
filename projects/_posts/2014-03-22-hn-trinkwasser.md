@@ -27,6 +27,8 @@ colaborators:
   links:
   - url: https://twitter.com/isa_mue
     url-name: twitter
+  - url: https://github.com/isabellemueller
+    url-name: github
 - name: Heiko Nicht
   links:
   - url: https://twitter.com/HeikoNicht
