@@ -14,6 +14,7 @@ links:
 
 colaborators:
 - name: Eric Kelm
+  links:
   - url: https://github.com/eric2501
     url-name: github
 - name: Markus Zapke-Gründemann
