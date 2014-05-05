@@ -17,7 +17,7 @@ Die Konferenz rund um Social Media, Web und Netzkultur jährt sich morgen schon 
 
 Ein paar Vortragsempfehlungen haben wir auch im Gepäck, für diejenigen, die zuhause bleiben und den Stream gucken und für die Anwesenden, die nicht (nur) wegen der Erfrischungsgetränke da sind. 
 
-Julia Kloiber, die Projektleiterin von Code for Germany hält mit Stefan Kaufmann aus dem OK Lab Ulm einen Vortrag zu ["Civic Tech – of the people, by the people and for the people"][] und am Mittwoch einen Vortrag über den Offenheitsindex [do:index][], ein "Instrument zur Messung des Beitrags öffentlicher Körperschaften zu digitalen Gemeingütern", zusammen mit Walter Palmetshofer und Leonhard Dobusch. 
+Julia Kloiber, die Projektleiterin von Code for Germany, hält mit Stefan Kaufmann aus dem OK Lab Ulm einen Vortrag zu ["Civic Tech – of the people, by the people and for the people"][] und am Mittwoch einen Vortrag über den Offenheitsindex [do:index][], ein "Instrument zur Messung des Beitrags öffentlicher Körperschaften zu digitalen Gemeingütern", zusammen mit Walter Palmetshofer und Leonhard Dobusch. 
 
 Zara Rahman (OKFN) spricht mit Becky Kazansky (Tactical Tech Collective) über die Schnittstelle von Open Data und Entwicklungshilfe. Marco Maas, Christian Heise und Mark Lizar entwirren in ihrem Talk die Begrifflichkeiten rund um ["Open Data", "Small Data", "Big Data"][] und beleuchten die Schnittstelle zu "My Data". 
 
