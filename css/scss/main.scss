@@ -115,27 +115,29 @@ h4, .h4 {
 }
 
 a, a:hover, a:visited, a:active {
-	@extend .text__red;
-}
-
-.fond__green a {
 	@extend .text__black;
 }
 
-.fond__blue a {
+.fond__green a {
 	@extend .text__white;
+	text-decoration: underline;
 }
 
-.fond__white a {
-	color: $red;
+.fond__blue a {
+	@extend .text__black;
+	text-decoration: underline;
 }
 
+.fond__white p a {
+	text-decoration: underline;
+}
 
 
 .fond__green .lab-links a {
 	@extend .fond__white;	
 	@extend .text__red;
 	@include inline-background($white);
+	text-decoration: none;
 }
 
 
@@ -231,7 +233,6 @@ label {
 	width: 100%;
 }
 
-
 /* Pretty Checkboxes */
 .prettyCheckbox {
 	background: #efefef;
@@ -243,7 +244,6 @@ label {
 	margin-right: 10px;
 
 	@include border-radius(20px);
-
 }
 
 .prettyCheckbox.checked { position: relative; }
@@ -310,6 +310,7 @@ label {
 		border: 2px solid transparent;
 		a {
 			padding: 0 10px;
+			color: $red;
 		}
 	}
 
