@@ -7,6 +7,8 @@ title: Länderfinanzausgleich visualisieren
 links:
 - url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
   name: Datenquelle
+- url: http://public.tableausoftware.com/profile/#!/vizhome/LFA_v2/Dashboard1
+  name: Zwischenstand
   
 colaborators:
 - name: Patrick Stotz
@@ -20,13 +22,19 @@ colaborators:
   links:
   - url: https://twitter.com/zelpst
     url-name: twitter
+  - url: https://github.com/philippgeisler
+    url-name: github
 
 - name: Mertin Kleppe
   links:
   - url: https://twitter.com/aemkei
     url-name: twitter
-  -url: https://github.com/aemkei
-  url-name: github
+  - url: https://github.com/aemkei
+    url-name: github
+
+- name: Volker
+
+
 ---
 
 Im Länderfinanzausgleich werden jährlich riesige Summen bewegt. Daten über die Höhe der Zahlungen liegen seit 1950 durchgehend vor. In dem Projekt sollen verschiedene Visualisierungsansätze und -tools ausprobiert werden um die historische Entwicklung des Länderfinanzausgleichs möglichst anschaulich darzustellen.
