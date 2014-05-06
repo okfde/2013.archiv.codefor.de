@@ -2,7 +2,9 @@ cfg.sublime-workspace
 cfg.sublime-project
 css/scss/koala-config.json
 css/main.css.map
+vendor/bundle
 _site/
+.bundle
 .DS_Store
 .idea
 *.iml
