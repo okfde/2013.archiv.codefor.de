@@ -9,7 +9,7 @@ links:
   name: Datenquelle
 - url: https://github.com/CodeforLeipzig/kidsle
   name: GitHub Repository
-- url:http://trollofix.com/map/schulkarte.html
+- url: http://trollofix.com/map/schulkarte.html
   name: Demo
 
 
