@@ -8,16 +8,6 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
-- lab: OK Lab Leipzig
-  name: OK LAB LEIPZIG INPUT-SESSION - Linked Open Data und SPARQL (Ricardo Usbeck)
-  time: 19-22 Uhr
-  location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
-  day: Montag
-  day-nr: "12"
-  month: Mai 2014
-  link-url: http://pad.okfn.org/p/oklab-leipzig
-  link-name: Mehr Info
-
 - lab: OK Lab Berlin
   name: OK Lab Berlin CODING-TREFFEN
   time: 19-22 Uhr
@@ -36,6 +26,16 @@
   day-nr: "08"
   month: Mai 2014
   link-url: http://pad.okfn.org/p/oklab-dresden
+  link-name: Mehr Info
+
+- lab: OK Lab Leipzig
+  name: OK LAB LEIPZIG INPUT-SESSION - Linked Open Data und SPARQL (Ricardo Usbeck)
+  time: 19-22 Uhr
+  location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
+  day: Montag
+  day-nr: "12"
+  month: Mai 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Mehr Info
 
 - lab: OK Lab Ulm
