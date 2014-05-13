@@ -7,6 +7,7 @@ author: Fiona
 images:
 - imgname: board.png
   sub: Interessierte
+  height: auto
 
 ---
 Das Code for Germany Advisory Board 

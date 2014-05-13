@@ -16,6 +16,6 @@
     {% endfor %}
   </ul>
   
-  {% for image in [include.param]images %}<img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image">{% endfor %}
+  {% for image in [include.param]images %}<img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image"{% if image.height %} style="height: {{ image.height }};"{% endif %}>{% endfor %}
 
 </div>
