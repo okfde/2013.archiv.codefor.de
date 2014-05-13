@@ -39,6 +39,16 @@
   link-url: http://pad.okfn.org/p/oklab-chemnitz
   link-name: Mehr Info
 
+- lab: OK Lab Dresden
+  name: "Themenabend: Open Commons Region Dresden"
+  time: "20:00 Uhr"
+  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
+  day: Donnerstag
+  day-nr: "15"
+  month: Mai 2014
+  link-url: http://www.c3d2.de/news/ta-open-commons-region-dresden.html
+  link-name: Ankündigung
+
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
@@ -69,7 +79,6 @@
   link-url: http://pad.okfn.org/p/oklab-dresden
   link-name: Mehr Info
 
-<<<<<<< HEAD
 - lab: OK Lab Ulm
   name: OK LAB ULM MEETUP
   time: 18-Open end
@@ -89,15 +98,3 @@
   month: Mai 2014
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
   link-name: Mehr Info
-=======
-- lab: OK Lab Dresden
-  name: "Themenabend: Open Com­mons Re­gion Dres­den"
-  time: 20:00 Uhr
-  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
-  day: Donnerstag
-  day-nr: "15"
-  month: Mai 2014
-  link-url: http://www.c3d2.de/news/ta-open-commons-region-dresden.html
-  link-name: Ankündigung
->>>>>>> 662abcf556c344280d7e8aa6291cc3be6bc46d5f
-
