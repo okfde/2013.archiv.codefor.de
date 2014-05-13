@@ -5,7 +5,7 @@ title: Unser Advisory Board
 author: Fiona
 
 images:
-- imgname: advisory_board.jpg
+- imgname: board3.png
   sub: Interessierte
 
 ---
