@@ -1,12 +1,21 @@
+- lab: OK Lab Münster
+  name: HACKNIGHT
+  time: 19-Open end
+  location: conterra GmbH, Martin-Luther-King-Weg 24
+  day: Mittwoch
+  day-nr: "14"
+  month: Mai 2014
+  link-url: http://www.meetup.com/codeforde/Munster-DE/1137372/
+  link-name: Mehr Info
 
-- lab: OK Lab Berlin #required for events aggregation on Lab-pages
-  name: OK LAB BERLIN CODING-TREFFEN
-  time: 19-22 Uhr 
+- lab: OK Lab Berlin
+  name: OK Lab Berlin CODING-TREFFEN
+  time: 19-22 Uhr
   location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
   day: Mittwoch
-  day-nr: 30
-  month: April 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1144642/
+  day-nr: "14"
+  month: Mai 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1148542/
   link-name: Mehr Info
 
 - lab: OK Lab Chemnitz
@@ -14,37 +23,47 @@
   time: 19-Open end
   location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
   day: Donnerstag
-  day-nr: 01
+  day-nr: "15"
   month: Mai 2014
-  link-url: http://codeforchemnitz.de
+  link-url: http://pad.okfn.org/p/oklab-chemnitz
   link-name: Mehr Info
+
+- lab: OK Lab Dresden
+  name: "Themenabend: Open Commons Region Dresden"
+  time: "20:00 Uhr"
+  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
+  day: Donnerstag
+  day-nr: "15"
+  month: Mai 2014
+  link-url: http://www.c3d2.de/news/ta-open-commons-region-dresden.html
+  link-name: Ankündigung
 
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
   location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
   day: Montag
-  day-nr: 5
+  day-nr: "19"
   month: Mai 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
-  
+
 - lab: OK Lab Leipzig
-  name: OK LAB LEIPZIG FIRST MEETUP
+  name: OK LAB LEIPZIG INPUT-SESSION - Linked Open Data und SPARQL (Ricardo Usbeck)
   time: 19-22 Uhr
   location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
   day: Montag
-  day-nr: 05
-  month: Mai2014
+  day-nr: "19"
+  month: Mai 2014
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Mehr Info
 
-- lab: OK Lab Dresden 
+- lab: OK Lab Dresden
   name: OK LAB DRESDEN MEETUP
   time: 19-Open end
   location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
   day: Donnerstag
-  day-nr: 08
+  day-nr: "22"
   month: Mai 2014
   link-url: http://pad.okfn.org/p/oklab-dresden
   link-name: Mehr Info
@@ -54,7 +73,7 @@
   time: 18-Open end
   location: Uni Ulm, Gebäudekreuz O27, Besprechungsraum Verteilte Systeme (Raum 027/341)
   day: Montag
-  day-nr: 12
+  day-nr: "26"
   month: Mai 2014
   link-url: http://ulmapi.de
   link-name: Mehr Info
@@ -64,17 +83,7 @@
   time: 19-Open end
   location: Railslove/CoWoCo, An der Bottmühle 5, D-50678 Köln
   day: Montag
-  day-nr: 12
+  day-nr: "26"
   month: Mai 2014
   link-url: http://pad.opendatacloud.de/p/okLab-koeln
-  link-name: Mehr Info
-
-- lab: OK Lab Münster
-  name: HACKNIGHT
-  time: 19-Open end
-  location: Produktivhaus Münster, Martinistraße 2
-  day: Mittwoch 
-  day-nr: 14
-  month: Mai 2014
-  link-url: http://www.meetup.com/codeforde/Munster-DE/1137372/
   link-name: Mehr Info

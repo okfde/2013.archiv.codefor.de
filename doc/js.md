@@ -22,7 +22,7 @@ One approach is to put jQuery plugins inside of a `(function($){ ...
 blanket. Read more about [jQuery plugin
 authoring](http://docs.jquery.com/Plugins/Authoring#Getting_Started)
 
-## vendor
+## lib
 
 This directory can be used to contain all 3rd party library code.
 

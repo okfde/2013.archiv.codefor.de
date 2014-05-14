@@ -7,12 +7,16 @@ title: daten.berlin.de für R
 links:
 - url: http://dirkschumacher.github.io/RBerlinData
   name: Projekt Website
+- url: https://github.com/dirkschumacher/RBerlinData
+  name: GitHub Repository
+- url: http://cran.r-project.org/web/packages/BerlinData/index.html
+  name: CRAN
 
 colaborators:
-- name: Kate
-- name: Dirk
+- name: Kate McCurdy
+- name: Dirk Schumacher
 
 ---
 
 Ein R Paket, um einfach auf die Daten von daten.berlin.de
-zuzugreifen.
+zuzugreifen. Führ nähere Infos, folgt den Links unten:

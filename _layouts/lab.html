@@ -19,7 +19,7 @@ layout: base
     <div class="row">
       <div class="col-lg-6">
         <h1 class="highlight-white"> {{ page.title }} </h1>
-        <p>{{ page.content }}</p>
+        <p>{{ page.content | markdownify }}</p>
       </div>
       <div class="col-lg-6">
         
@@ -203,7 +203,7 @@ layout: base
         }];
 </script>
 
-<script src="/js/vendor/prettyCheckbox.min.js"></script>
+<script src="/js/lib/prettyCheckbox.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');

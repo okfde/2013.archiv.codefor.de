@@ -115,27 +115,29 @@ h4, .h4 {
 }
 
 a, a:hover, a:visited, a:active {
-	@extend .text__red;
-}
-
-.fond__green a {
 	@extend .text__black;
 }
 
-.fond__blue a {
+.fond__green a {
 	@extend .text__white;
+	text-decoration: underline;
 }
 
-.fond__white a {
-	color: $red;
+.fond__blue a {
+	@extend .text__black;
+	text-decoration: underline;
 }
 
+.fond__white p a {
+	text-decoration: underline;
+}
 
 
 .fond__green .lab-links a {
 	@extend .fond__white;	
 	@extend .text__red;
 	@include inline-background($white);
+	text-decoration: none;
 }
 
 
@@ -231,7 +233,6 @@ label {
 	width: 100%;
 }
 
-
 /* Pretty Checkboxes */
 .prettyCheckbox {
 	background: #efefef;
@@ -243,7 +244,6 @@ label {
 	margin-right: 10px;
 
 	@include border-radius(20px);
-
 }
 
 .prettyCheckbox.checked { position: relative; }
@@ -310,6 +310,7 @@ label {
 		border: 2px solid transparent;
 		a {
 			padding: 0 10px;
+			color: $red;
 		}
 	}
 
@@ -523,7 +524,7 @@ $date-circle: 80px;
 
 	.member {
 		margin-bottom: 26px;
-		min-width: 33%;
+		min-width: 100%;
 		display: block; 
 		float: left;
 	}
@@ -567,12 +568,13 @@ $date-circle: 80px;
   width: 100%;
 }
 
-.lab-map-home{
-  height: 600px;
-}
-.lab-map-city{
-  height: 400px;
-}
+	.lab-map-home{
+	  height: 300px;
+	}
+	
+	.lab-map-city{
+	  height: 200px;
+	}
 
 .googleMapsInfoBox{
   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
@@ -610,6 +612,7 @@ $date-circle: 80px;
 		margin: 0;
 		max-width: 25%;
 	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -656,6 +659,17 @@ $date-circle: 80px;
 		float: right;
 	}
 
+	.lab-map-home{
+	  height: 600px;
+	}
+	.lab-map-city{
+	  height: 400px;
+	}
+
+	.members .member {
+		min-width: 50%;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -676,8 +690,17 @@ $date-circle: 80px;
 		margin-bottom: 15px;
 	}
 
+	.members .member {
+		min-width: 33%;
+	}
+
 }
 
+.row.board
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 
