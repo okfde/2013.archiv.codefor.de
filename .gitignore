@@ -8,3 +8,5 @@ _site/
 .DS_Store
 .idea
 *.iml
+
+blog/_posts/2014-05-14-civictechtalk.md
