@@ -17,7 +17,7 @@ Letzte Woche waren Stefan Kaufmann <a href="http://codefor.de/ulm/">(OK Lab Ulm)
 
 Ein Jahr davor habe ich mit Stefan Wehrmeyer erklärt was Open Data mit jedem einzelnen von uns zu tun hat.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/QBSNr6UXIJg?rel=0" frameborder="0" allowfullscreen></iframe> <a href="http://www.slideshare.net/juliakloiber/open-data-und-was-hat-das-mit-mir-zu-tun-republica-2013">Slides</a> <a href="http://stefan.bloggt.es/2014/05/civic-tech-of-the-people-by-the-people-for-the-people/">Linksammlung </a> 
+<iframe width="560" height="315" src="//www.youtube.com/embed/QBSNr6UXIJg?rel=0" frameborder="0" allowfullscreen></iframe> <a href="http://www.slideshare.net/juliakloiber/open-data-und-was-hat-das-mit-mir-zu-tun-republica-2013">Slides</a> <a href="http://stefan.bloggt.es/2014/05/civic-tech-of-the-people-by-the-people-for-the-people/">Linksammlung </a>
 
 
 
