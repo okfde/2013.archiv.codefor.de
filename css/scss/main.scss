@@ -217,6 +217,9 @@ label {
 /*================================
 =  Elements & Modifiers          =
 ================================*/
+.jumbotron {
+	padding: 15px;
+}
 
 .btn {
 	border-radius: 0;
@@ -395,7 +398,7 @@ margin-left: 10px;
 	line-height: 26px;
 	text-align: left; 
 	padding: 30px;
-	margin: 30px 15px 0 15px;
+	margin: 30px 0 0 0;
 
 	h4 { 
 		margin: 7px 0 16px 0;
@@ -635,10 +638,6 @@ $date-circle: 80px;
 
 	.highlight-hero {
 		margin-left: 10px;
-	}
-
-	.event-date-cta-wrapper {
-		max-width: inherit;
 	}
 
 	.nav-social {
