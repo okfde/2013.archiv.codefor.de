@@ -25,7 +25,7 @@ Wer gerne dabei mithelfen möchte, kann sich mit Mila und Daniel kurzschließen 
 Wir wünschen Daniel, Mila und dem Lab viel Erfolg und sind gespannt auf das Wahlergebnis!
 
 
-[OK Lab Münser]: http://codefor.de/muenster
+[OK Lab Münster]: http://codefor.de/muenster
 [Kommunalwahlen in NRW]: http://www.politische-bildung.nrw.de/themen/kommunalwahlen-nrw-2014-2015/index.html
 [Daniel Kirsch]: http://kirelabs.org
 [Mila Frerichs]: http://milafrerichs.de
