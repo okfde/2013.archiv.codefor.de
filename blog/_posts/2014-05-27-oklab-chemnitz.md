@@ -47,7 +47,7 @@ Wir wünschen uns natürlich tatkräftige Mitstreiter und ein offenes Ohr bei de
 
 <b>Ich denke wir haben damit alles! Ah Moment, der Hund auf dem [Bild][] von eurem ersten Treffen. Macht der auch bei euch mit?</b>
 
-Ah stimmt. Der (oder auch der Besitzer - ich weiß das nicht mehr so genau) hatte ein spannendes Projekt vorgeschlagen: Eine Karte mit Hundekotbeutelspendern und Abfalleimern. Um den nächsten Spaziergang entspannter zu machen ￼
+Ah stimmt. Der (oder auch der Besitzer - ich weiß das nicht mehr so genau) hatte ein spannendes Projekt vorgeschlagen: Eine Karte mit Hundekotbeutelspendern und Abfalleimern. Um den nächsten Spaziergang entspannter zu machen.
 
 <b>Hoffentlich bleibt der in eurem Kernteam. Na dann, vielen Dank für die Antworten, Morris.
 Dir noch einen schönen Tag!</b>
