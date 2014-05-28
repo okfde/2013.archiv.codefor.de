@@ -20,4 +20,6 @@ colaborators:
 
 
 ---
-
+Die Ergebnisse je Wahlbezirk live gemappt währen die Stimmzettel
+ausgefüllt wurden.
+Dargestellt werden die Gewinner der Direktmandate.
