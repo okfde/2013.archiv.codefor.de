@@ -15,6 +15,11 @@ colaborators:
   - url: https://twitter.com/graphdigger
     url-name: twitter
 
+- name: Johannes Kröger
+  links:
+  - url: https://twitter.com/cartocalypse
+    url-name: twitter
+
 - name: Achim Tack
   links:
   - url: https://twitter.com/A_Tack
