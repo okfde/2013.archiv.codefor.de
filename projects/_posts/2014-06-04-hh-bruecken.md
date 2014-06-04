@@ -32,3 +32,5 @@ colaborators:
 Wie viele Brücken hat Hamburg? Rund 2500 soll es laut Behörde sein. Das wären mehr als Venedig, Amsterdam und Stockholm zusammen. Damit steht Hamburg als brückenreichste Stadt Europas im Guinness Buch der Rekorde. Doch stimmt das?
 Die offizielle Definition einer Brücke erweckt den Eindruck, dass sich so manche „Brücke“ in die Statistik gemogelt hat. Denn die Definition ist recht großzügig;  alles was zwischen zwei Trägern zwei Meter weit über dem Boden schwebt – etwa Schilderträger über der Autobahn  - gilt als Brücke.  Hamburg hat mehr Autobahnen als Venedig, aber auch mehr ‚echte‘ Brücken?
 Wir haben versucht, uns einmal von der Datenseite diesem Thema zu nähern und nur die Brücken gezählt, die über Wasser führen.
+
+Image by Martin Abegglen
