@@ -5,6 +5,10 @@ imgname: hamburg/baumkataster.jpg
 title: Baumkataster nutzen
 
 links:
+
+- url: http://dl.dropboxusercontent.com/u/2193334/CodeforHH/hh_strassenbaumkataster.html
+  name: Zwischenstand
+
 - url: http://www.hmdk.de/portal/_ns:YTU4fGMwfGQwfGVwbHVnaWQ9MT0vaW5ncmlkLWdyb3VwOmRzYy1zY3JpcHRlZC1pbnRlcm5ldHxlZG9jdXVpZD0xPUQzRkE3OTZGLTNEMTItNDc4NC1CN0YyLUUxOTg1NTQ3MkQyQQ__/search-detail.psml;jsessionid=7079CB7853A5FFD7B935CBEFFF66AD8F
   name: Datenquelle
   
