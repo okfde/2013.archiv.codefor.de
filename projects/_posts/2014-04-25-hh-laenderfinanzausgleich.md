@@ -8,7 +8,7 @@ links:
 - url: http://de.wikipedia.org/wiki/L%C3%A4nderfinanzausgleich
   name: Datenquelle
 - url: http://public.tableausoftware.com/profile/#!/vizhome/LFA_v2/Dashboard1
-  name: Zwischenstand
+  name: aktueller Stand
   
 colaborators:
 - name: Patrick Stotz
