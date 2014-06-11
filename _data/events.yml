@@ -1,63 +1,3 @@
-- lab: OK Lab Berlin
-  name: OK Lab Berlin CODING-TREFFEN
-  time: 19-22 Uhr
-  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
-  day: Mittwoch
-  day-nr: "28"
-  month: Mai 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1148542/
-  link-name: Mehr Info
-  
-- lab: OK Lab Hamburg
-  name: OK LAB HAMBURG CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
-  day: Montag
-  day-nr: "16"
-  month: Juni 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
-  link-name: Mehr Info
-  
-- lab: OK Lab Leipzig
-  name: OK LAB LEIPZIG CODING-TREFFEN
-  time: 19-22 Uhr
-  location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
-  day: Montag
-  day-nr: "2"
-  month: Juni 2014
-  link-url: http://pad.okfn.org/p/oklab-leipzig
-  link-name: Mehr Info
-
-- lab: OK Lab Berlin
-  name: OK Lab Berlin stellt seine Projekte vor für Interessierte, die mitmachen wollen!
-  time: 19-22 Uhr
-  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
-  day: Mittwoch
-  day-nr: "04"
-  month: Juni 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1148542/
-  link-name: Mehr Info
-  
-- lab: OK Lab Dresden
-  name: OK LAB DRESDEN MEETUP
-  time: 20 (ob 18Uhr ist auch schon jemand vor Ort)
-  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
-  day: Mittwoch
-  day-nr: "04"
-  month: Juni 2014
-  link-url: http://pad.okfn.org/p/oklab-dresden
-  link-name: Mehr Info
-
-- lab: OK Lab Köln
-  name: OK LAB KÖLN MEETUP
-  time: 19-Open end
-  location:  Railslove/CoWoCo, An der Bottmühle 5, D-50678 Köln
-  day: Montag
-  day-nr: "09"
-  month: Juni 2014
-  link-url: http://meetup.com/OKLab-Koln-Meetup
-  link-name: Mehr Info
-
 - lab: OK Lab Münster
   name: 4. Hacknight
   time: 19 - Open End
@@ -66,7 +6,7 @@
   day-nr: "11"
   month: Juni 2014
   link-url: http://www.meetup.com/codeforde/Munster-DE/1162012/
-  link-name: Mehr Info  
+  link-name: Mehr Info
 
 - lab: OK Lab Chemnitz
   name: OK LAB CHEMNITZ CODING-TREFFEN
@@ -96,6 +36,16 @@
   day-nr: "13"
   month: Juni 2014
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
+  link-name: Mehr Info
+
+- lab: OK Lab Hamburg
+  name: OK LAB HAMBURG CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
+  day: Montag
+  day-nr: "16"
+  month: Juni 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
 
