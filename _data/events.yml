@@ -28,16 +28,6 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
   link-name: Mehr Info
 
-- lab: OK Lab Gießen
-  name: OK LAB GIEßEN 2. Treffen
-  time: 17:30-19:00
-  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
-  day: Montag
-  day-nr: "30"
-  month: Juni 2014
-  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
@@ -48,4 +38,12 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
-
+- lab: OK Lab Gießen
+  name: OK LAB GIEßEN 2. Treffen
+  time: 17:30-19:00
+  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
+  day: Montag
+  day-nr: "30"
+  month: Juni 2014
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
+  link-name: Mehr Info
