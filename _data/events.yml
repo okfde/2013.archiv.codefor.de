@@ -1,31 +1,38 @@
+- lab: OK Lab Ulm
+  name: Meet-Up
+  time: 16 - Open End
+  location: Universität Ulm - O27/341
+  day-nr: "16"
+  month: Juni 2014
+  link-url: http://www.ulmapi.de
+  link-name: Mehr Info
+  
+- lab: OK Lab Leipzig
+  name: Meet-Up
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "16"
+  month: Juni 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Pad
+  
+- lab: OK Lab Berlin
+  name: Meet-Up mit Wolfgang Both 
+  time: 19 - 22
+  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
+  day-nr: "18"
+  month: Juni 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1171802/
+  link-name: Meet-Up
+        
 - lab: OK Lab Münster
-  name: 4. Hacknight
+  name: 5. Hacknight
   time: 19 - Open End
   location: Institut für Geoinformatik, Heisenbergstraße 2
-  day: Mittwoch
-  day-nr: "11"
+  day: Samstag
+  day-nr: "28"
   month: Juni 2014
   link-url: http://www.meetup.com/codeforde/Munster-DE/1162012/
-  link-name: Mehr Info
-
-- lab: OK Lab Chemnitz
-  name: OK LAB CHEMNITZ CODING-TREFFEN
-  time: 19-Open end
-  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "12"
-  month: Juni 2014
-  link-url: http://pad.okfn.org/p/oklab-chemnitz
-  link-name: Mehr Info
-
-- lab: OK Lab Heilbronn
-  name: OK LAB HEILBRONN CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Computer Club 86 e.V., Schützenstraße 16, 74072 Heilbronn
-  day: Donnerstag
-  day-nr: "12"
-  month: Juni 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
   link-name: Mehr Info
 
 - lab: OK Lab Hamburg
