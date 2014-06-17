@@ -103,54 +103,23 @@ layout: base
 <!-- Termine End -->
 
 <!-- Projekte -->
-
-{% comment %} Let's count how many events we have for this lab (needed for layout columns etc.) {% endcomment %}
-{% assign project_count = 0 %}
-
-{% for project in site.categories.projects %}
-  {% if project.lab == page.lab %}
-    {% assign project_count=project_count | plus:1 %}
-  {% endif %}
-{% endfor %}
-
-{% assign loop_index = 0 %}
 {% unless project_count == 0 %}
-
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3 id="projects"> Projekte </h3> 
-      <div class="row">
-    
-    {% comment %} dirty but compensates for liquid comparison logic wiredness in if clauses later on (around loop_index < project_count) {% endcomment %}
-    {% assign project_count=project_count | minus:1 %}
-
+    <h3 id="projects">Projekte</h3> 
+    <div class="packery-container">
+      <div class="packery-item-gutter"></div>
       {% for post in site.categories.projects %}
-      {% if post.lab == page.lab %}
-
-      <div class="col-lg-6" >
-        {% include project.html %}
-      </div>
-
-      {% comment %} Every second project close row and open new {% endcomment %}
-      {% if 1 == loop_index | modulo:2 %}
-      {% comment %} Unless it is the last iteration {% endcomment %}
-      {% if loop_index < project_count %}
-    </div><div class="row" >
-    {% endif %}
-    {% endif %}
-
-    {% if loop_index == project_count %}
+        {% if post.lab == page.lab %}
+        <div class="packery-item" >
+          {% include project.html %}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
-  {% endif %}
-  {% assign loop_index = loop_index | plus:1 %}
-
-  {% endif %}
-  {% endfor %}
-
-</div>
 </div>
 {%endunless%}
-
 <!-- Projekte End -->
 
 <!-- Mitglieder-->
@@ -187,6 +156,9 @@ layout: base
 
 {% endif %}
 
+<script src="/js/lib/packery.pkgd.min.js"></script>
+<script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+<script src="/js/PackeryGrid.js"></script>
 
 <script src="/js/GoogleMaps.js"></script>
 <script>
@@ -205,9 +177,13 @@ layout: base
 
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 <script type="text/javascript">
+
 $(document).ready(function() {
+  
   gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+  packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
+  // $(":checkbox").prettyCheckbox();
+
 });
-  $(":checkbox").prettyCheckbox();
 
 </script>

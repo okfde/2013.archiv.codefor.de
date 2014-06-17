@@ -390,16 +390,20 @@ margin-left: 10px;
 	padding: 0;
 }
 
-.event-wrapper {
+.event-wrapper, .project-wrapper  {
 	font-size: 16px;
 	line-height: 26px;
 	text-align: left; 
 	padding: 30px;
-	margin: 30px 15px 0 15px;
+	margin: 30px 0 0 0;
 
 	h4 { 
 		margin: 7px 0 16px 0;
 	}
+}
+
+.project-wrapper {
+  margin: 0 0 32px 0;
 }
 
 .icon-before:before {
@@ -496,6 +500,18 @@ $date-circle: 80px;
 	li {
 	padding: 0;
 	}
+}
+
+.packery-container{
+  opacity: 0;
+}
+
+.packery-item-gutter{
+  width: 5%;
+}
+
+.packery-item{
+  width: 100%;
 }
 
 .project-image {
@@ -686,8 +702,8 @@ $date-circle: 80px;
 		max-width: 80%;
 	}
 
-	.event-wrapper {
-		margin-bottom: 15px;
+	.packery-item{
+	 	width: 47.5%;
 	}
 
 	.members .member {
