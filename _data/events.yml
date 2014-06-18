@@ -1,21 +1,3 @@
-- lab: OK Lab Ulm
-  name: Meet-Up
-  time: 16 - Open End
-  location: Universität Ulm - O27/341
-  day-nr: "16"
-  month: Juni 2014
-  link-url: http://www.ulmapi.de
-  link-name: Mehr Info
-  
-- lab: OK Lab Leipzig
-  name: Meet-Up
-  time: 19 - 22
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day-nr: "16"
-  month: Juni 2014
-  link-url: http://pad.okfn.org/p/oklab-leipzig
-  link-name: Pad
-  
 - lab: OK Lab Berlin
   name: Meet-Up mit Wolfgang Both 
   time: 19 - 22
@@ -33,7 +15,16 @@
   month: Juni 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
-
+  
+- lab: OK Lab Leipzig
+  name: Meet-Up
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "23"
+  month: Juni 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Pad
+  
 - lab: OK Lab Münster
   name: 5. Hacknight
   time: 19 - Open End
@@ -53,6 +44,16 @@
   month: Juni 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
+  
+- lab: OK Lab Ulm
+  name: Meet-Up
+  time: 16 - Open End
+  location: Universität Ulm - O27/341
+  day-nr: "30"
+  month: Juni 2014
+  link-url: http://www.ulmapi.de
+  link-name: Mehr Info
+  
 
 - lab: OK Lab Gießen
   name: OK LAB GIEßEN 2. Treffen
