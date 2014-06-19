@@ -6,6 +6,9 @@ title: Wie viele Brücken hat Hamburg?
 
 links:
 
+- url: http://hathamburgmehrbrueckenalsvenedig.tumblr.com/
+  name: aktueller Stand
+
 - url: http://www.openstreetmap.de/
   name: Datenquelle
   
