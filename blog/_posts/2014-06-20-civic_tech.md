@@ -2,7 +2,7 @@
 layout: post
 
 title: Civic Tech und Open Government auf dem Transparency Camp 2014
-author: Fiona
+author: Julia
 
 images:
 - imgname:
@@ -26,7 +26,7 @@ Einmal im Jahr organisiert die [Sunlight Foundation] eine Un-Konferenz auf der s
 ![poplus](/assets/blog/govtw.png)
 
 
-Israel und Taiwan sind die Länder mit den weltweit größten Open Source und Civic Tech-Communities. [Chia-liang Kao] aus Taiwan berichtete in seiner Session "Scaling civic hacking community to 1000+ contributors" darüber wie sich die Community organisiert bzw. an welchen Tools sie gerade arbeitet. Vor einem Jahr wurde von der Open Gov Community [G0V.tw] gestartet.
+Israel und Taiwan sind die Länder mit den weltweit größten Open Source und Civic Tech-Communities. [Chia-liang Kao] aus Taiwan berichtete in seiner Session "Scaling civic hacking community to 1000+ contributors" darüber, wie sich die Community organisiert bzw. an welchen Tools sie gerade arbeitet. Vor einem Jahr wurde von der Open Gov Community [G0V.tw] gestartet.
 
 G0V.tw definiert sich wie folgt: *"a civic movement by informed netizens toward participatory self-government. Borne out of frustration at the government’s blithe lack of transparency at the end of 2012"*
 
@@ -37,7 +37,7 @@ Die Community organisiert sich um einzelne Projekte und trifft sich auf Hackatho
 
 
 In den USA, die als Vorreiter im Bereich Open Data gelten, entwächst die Civic Tech Community langsam den Kinderschuhen. In den letzten Jahren sind einige nützliche Tools aus der Community heraus entstanden, die zeigen, was möglich ist bzw. mit welchen technischen Lösungen staatliche Einrichtungen effizienter und transparenter werden können. Auch einige Startups und kleine Tech-Firmen haben sich gegründet. Der Großteil dieser nützlichen IT Lösungen wird aber leider nie implementiert. Das liegt laut [Mark Headd], seines Zeichens "Recovering Chief Data Officer" der Stadt Philadelphia, an den öffentlichen Ausschreibungsverfahren.
-Er sieht die aufwendigen, teuren und langsamen Verfahren als Haupt-Hinderniss dafür, dass nützliche Technologien von Startups, kleinen Unternehmen oder der Civic Tech Community es nicht bis in die Verwaltungen schaffen. Mehr zu Ausschreibungen und dringend benötigten Reformen, kann man in Marks aktuellen Blogpost <a href="http://civic.io/2014/06/18/built-to-fail/">Built to fail" </a> nachlesen.
+Er sieht die aufwendigen, teuren und langsamen Verfahren als Haupt-Hinderniss dafür, dass nützliche Technologien von Startups, kleinen Unternehmen oder der Civic Tech Community es nicht bis in die Verwaltungen schaffen. Mehr zu Ausschreibungen und dringend benötigten Reformen, kann man in Marks aktuellen Blogpost <a href="http://civic.io/2014/06/18/built-to-fail/">"Built to fail" </a> nachlesen.
 
 **<a href="http://poplus.org/">POPLUS:</a>**
 
@@ -57,6 +57,7 @@ Poplus wurde vor Kurzem in Santiago de Chile von der britischen Organisation <a 
 
 Die indische Open Data Community [Data{Meet}] in Bangalore, Delhi, Hyderabad, Chennai.
 
+*Anmerkung: Sobald die Videos online sind folgt auch ein kurzer Rückblick auf das Personal Democracy Forum.*
 
 
 
