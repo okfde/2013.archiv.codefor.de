@@ -10,9 +10,9 @@ long: 13.381215
 <div class="beneath-sections jumbotron fond__blue">
   <div class="container text__black">
     <div class="row">
-              <img src="/assets/projects/launch_visual.png" alt="Launch Visual" height="150" width="600"></img>
       <div class="col-lg-10 col-lg-offset-1">
 
+        <img src="/assets/projects/launch_visual.png" alt="Launch Visual" height="150" width="600"></img>
 
         <h3>Einladung zum Launch Event</h3>
         <p>Nach dem erfolgreichen Start von Code for Germany mit 12 aktiven OK Labs in ganz Deutschland, ist es an der Zeit das Programm auch offiziell zu launchen und die ersten Erfolge in den Städten gemeinsam zu feiern. 
@@ -79,4 +79,8 @@ long: 13.381215
             "url":"",   // leave "" to disable marker clickevent
             "text": "{{ page.lab }}"
         }];
+
+    $(document).ready(function() {
+        gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+    });
 </script>
