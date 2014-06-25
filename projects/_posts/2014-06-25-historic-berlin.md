@@ -5,7 +5,7 @@ imgname: berlin/entwicklung-berlin.png
 title: Historische Entwicklung Berlins
 
 links: 
-- url: http://community.codefor.de/wms/
+- url: http://community.codefor.de/entwicklung-berlins/
   name: Website
 - url: https://github.com/jochenklar/entwicklung-berlins
   name: Page on Github
