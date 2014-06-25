@@ -1,0 +1,82 @@
+---
+layout: base
+lat: 52.498493
+long: 13.381215
+---
+
+<!-- Hier entsteht eine Einladungspage für das Launch Event. Da wir nur begrenzt Platz haben, wird das Event Invite-only sein, deshlab wird die Seite auch nicht auf CFG verlinkt. -->
+
+<!-- About -->
+<div class="beneath-sections jumbotron fond__blue">
+  <div class="container text__black">
+    <div class="row">
+              <img src="/assets/projects/launch_visual.png" alt="Launch Visual" height="150" width="600"></img>
+      <div class="col-lg-10 col-lg-offset-1">
+
+
+        <h3>Einladung zum Launch Event</h3>
+        <p>Nach dem erfolgreichen Start von Code for Germany mit 12 aktiven OK Labs in ganz Deutschland, ist es an der Zeit das Programm auch offiziell zu launchen und die ersten Erfolge in den Städten gemeinsam zu feiern. 
+        Für einen solchen Launch gibt es keinen besseren Zeitpunkt als rund um das <a href="http://2014.okfestival.org/">Open Knowledge Festival</a> zu dem auch alle unseren internationalen Partner von Code for America, Laboratorio para la Ciudad aus Mexiko, Code for the Carribean und viele mehr zu Gast sein werden.
+          <br>
+          <br>
+        Wir möchten Sie/Euch hiermit recht herzlich zum Code for Germany Launch Event einladen!
+        <br><br>
+        <b>Wann:</b> Montag, den 14. Juli 2014 | von 18.00 Uhr bis 20.00 Uhr 
+        <br>
+        <b>Wo:</b><a href="http://www.gls-sprachenzentrum.de/">GLS Sprachenzentrum</a> | Kastanienallee 82 in Berlin Mitte
+      </div>
+    </div>
+  </div>
+ </div>
+ <div class="jumbotron fond__gray" style="padding:0px;">
+    <div id="lab-map" class="lab-map-city"></div>
+</div>
+  
+<div class="beneath-sections jumbotron fond__green">
+    <div class="container text__black">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        </p>
+        <h3>Ablauf</h3>
+        <b>18.00 Uhr</b>
+        <br>
+        > <b>Begrüßung und Kurzvorstellung des Programms Code for Germany</b> <br>>> Julia Kloiber (Projektleitung Code for Germany)
+        <br><br><b>18.20 Uhr</b>
+        <br>
+        > <b>Kurzpräsentationen/Lightning talks</b> – Vier Beiträge à 10 Minuten
+        <br>
+        >> Lynn Fine (Code for America)
+        <br>
+        >> Prof. Dr. Gesche Joost (Digital Champion Germany; CFG Advisory Board Mitglied)
+        <br>
+        >> Gabriella Gómez-Mont (Laboratorio para La Ciudad, Mexico City)
+        <br>
+        >> Nicolas Zimmer (Technologiestiftung Berlin; CFG Advisory Board Mitglied)
+        <br><br>
+        <b>19.15 Uhr</b>
+        <br>
+        > <b>Get-together mit Getränken und Snacks </b>
+        <b>   
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/lib/packery.pkgd.min.js"></script>
+<script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+<script src="/js/PackeryGrid.js"></script>
+
+<script src="/js/GoogleMaps.js"></script>
+<script>
+    //the center of map on load
+    var google_map_position = "{{ page.lat }}, {{ page.long }}";
+    //zoom level
+    var google_map_zoom = 13;
+    //the markers
+    var google_maps_markers = [
+        {
+            "latlong": " {{ page.lat }},  {{ page.long }}",
+            "url":"",   // leave "" to disable marker clickevent
+            "text": "{{ page.lab }}"
+        }];
+</script>
