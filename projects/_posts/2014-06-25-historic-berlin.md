@@ -26,4 +26,4 @@ colaborators:
 
 ---
 
-Historsiche Berlin-Karten aus dem FIS-Broker zur Benutzung in anderen Projekten. 
+Historische Berlin-Karten aus dem FIS-Broker zur Benutzung in anderen Projekten. 
