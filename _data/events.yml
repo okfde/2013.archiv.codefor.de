@@ -1,12 +1,3 @@
-- lab: OK Lab Berlin
-  name: Meet-Up
-  time: 19 - 22
-  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
-  day-nr: "25"
-  month: Juni 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1173722/
-  link-name: Meet-Up
-  
 - lab: OK Lab Chemnitz
   name: Reguläres Treffen
   time: 19 - 22
@@ -64,6 +55,15 @@
   month: Juni 2014
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Pad
+  
+- lab: OK Lab Berlin
+  name: Meet-Up
+  time: 19 - 22
+  location: Google, Unter den Linden 14,  10117 Berlin 
+  day-nr: "02" 
+  month: Juli 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1177002/
+  link-name: Meet-Up
   
 - lab: OK Lab Köln
   name: Besuch im Wikipedia:Lokal K 
