@@ -36,17 +36,6 @@
   link-url: http://www.ulmapi.de
   link-name: Mehr Info
   
-
-- lab: OK Lab Gießen
-  name: OK LAB GIEßEN 2. Treffen
-  time: 17:30-19:00
-  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
-  day: Montag
-  day-nr: "30"
-  month: Juni 2014
-  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
 - lab: OK Lab Leipzig
   name: Meet-Up
   time: 19 - 22
@@ -73,4 +62,14 @@
   month: Juli 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
+
+- lab: OK Lab Gießen
+  name: OK LAB GIEßEN 2. Treffen
+  time: 17:30-19:00
+  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
+  day: Montag
+  day-nr: "7"
+  month: Juli 2014
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
+  link-name: Mehr Info
   
