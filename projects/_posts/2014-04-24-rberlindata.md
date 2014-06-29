@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
 imgname: berlin/rberlindata.png
 title: daten.berlin.de für R

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Köln #needed for Aggregation on Lab-Page
 imgname: koeln/wasser.png
 title: Trinkwasser in Köln

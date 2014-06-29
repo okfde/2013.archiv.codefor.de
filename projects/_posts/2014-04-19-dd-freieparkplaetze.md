@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
 imgname: dresden/parkhaeuser.PNG
 title: Freie Parkplätze Dresden

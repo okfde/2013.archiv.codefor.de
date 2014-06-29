@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Heilbronn #needed for Aggregation on Lab-Page
 imgname: hn-muellabfuhrtermine.png
 title: Mobiler Abfallkalender

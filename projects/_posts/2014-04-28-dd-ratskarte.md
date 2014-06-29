@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
 imgname: dresden/ratskarte.png
 title: Ratskarte Dresden
@@ -19,5 +19,4 @@ colaborators:
 
 ---
 
-Finde Dokumente aus dem städtischen Ratsinfosystem welche Straßen in
-deiner Umgebung erwähnen.
+Finde Dokumente aus dem städtischen Ratsinfosystem welche Straßen in deiner Umgebung erwähnen.

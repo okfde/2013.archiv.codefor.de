@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Leipzig #needed for Aggregation on Lab-Page
 imgname: leipzig/messstation.jpg
 title: Luftqualität Sachsen

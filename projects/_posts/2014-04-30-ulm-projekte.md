@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Ulm #needed for Aggregation on Lab-Page
 imgname: ulm/Projekte.png
 title: Projekte rund um Ulm

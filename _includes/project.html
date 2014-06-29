@@ -1,33 +1,54 @@
 <div class="project-wrapper fond__white clearfix">
   
-  {% if post.imgname %}
-  <img src="/assets/projects/{{ post.imgname }}" alt="Project Image" class="project-image img-responsive">
-  {% endif %}
-  <h4 class="project-title"> {{ post.title }} </h4>
-  <p class="project-description">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-  <ul class="list-unstyled project-links" >
-    {% for link in post.links %}
-    <li>
-      <a href="{{ link.url }}">{{ link.name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-  
-  {% if post.colaborators %}
-      <span class="project-collaborators icon-before">Mitglieder</span>
-  {% endif %}
+  {% if include.type == 'page' %}
+     {% assign classCols = 'col-lg-6' %}
+     {% assign classColLeft = 'col-lg-push-6' %}
+     {% assign classColRight = 'col-lg-pull-6' %}
+  {% endif%}
 
-  <ul class="list-unstyled project-collaborators-list" >
-    {% for colaborator in post.colaborators %}
-    <li>
-      {{ colaborator.name }} <br> 
+  <div class="row">
+    <div class="{{ classCols }} {{ classColLeft }}">
+      {% if [include.type]imgname %}
+      <img src="/assets/projects/{{ [include.type]imgname }}" alt="Project Image" class="project-image img-responsive">
+      {% endif %}
+    </div>
+    
+    <div class="{{ classCols }} {{ classColRight }}">
+      <h4 class="project-title"> {{ [include.type]title }} </h4>
+      <p class="project-description">{{ [include.type]content | remove: '<p>' | remove: '</p>' }}</p>
+      <ul class="list-unstyled project-links" >
+        {% for link in [include.type]links %}
+        <li>
+          <a href="{{ link.url }}">{{ link.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      
+      {% for sitepage in site.pages %}
+        {% if sitepage.lab == [include.type]lab %}
+         {% assign lab = sitepage.url %}
+        {% endif %}
+      {% endfor%}
 
-      {% for link in colaborator.links %}
-      <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
-      {% endfor %}
+       <p class="event-location icon-before"> <a href="{{ lab }}">{{ [include.type]lab }}</a></p>
 
-    </li>
-    {% endfor %}
+      {% if [include.type]colaborators %}
+          <span class="project-collaborators icon-before">Mitglieder</span>
+      {% endif %}
 
-  </ul>
+      <ul class="list-unstyled project-collaborators-list" >
+        {% for colaborator in [include.type]colaborators %}
+        <li>
+          {{ colaborator.name }} <br> 
+
+          {% for link in colaborator.links %}
+          <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
+          {% endfor %}
+
+        </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
 </div>

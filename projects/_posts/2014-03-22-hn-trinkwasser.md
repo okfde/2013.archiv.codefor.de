@@ -1,5 +1,6 @@
+
 ---
-layout: post
+layout: project
 lab: OK Lab Heilbronn #needed for Aggregation on Lab-Page
 imgname: hn-trinkwasser.jpg
 title: Was steckt in meinem Leitungswasser?

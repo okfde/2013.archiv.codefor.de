@@ -112,7 +112,7 @@ layout: base
       {% for post in site.categories.projects %}
         {% if post.lab == page.lab %}
         <div class="packery-item" >
-          {% include project.html %}
+          {% include project-teaser.html type='post' %}
         </div>
         {% endif %}
       {% endfor %}
@@ -155,6 +155,7 @@ layout: base
 {% endif %}
 
 {% endif %}
+
 
 <script src="/js/lib/packery.pkgd.min.js"></script>
 <script src="/js/lib/imagesloaded.pkgd.min.js"></script>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
 imgname: hamburg/LFA.png
 title: Länderfinanzausgleich visualisieren

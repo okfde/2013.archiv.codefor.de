@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Münster #needed for Aggregation on Lab-Page
 imgname: #TODO
 title: Offener Rat Münster
