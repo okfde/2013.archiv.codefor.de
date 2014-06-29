@@ -1,0 +1,22 @@
+---
+layout: post
+lab: OK Lab Berlin #needed for Aggregation on Lab-Page
+imgname: berlin/tempelhofer-feld.png
+title: Feld - die Bebauung des Tempelhofer Felds in 3D
+
+links:
+- url: https://github.com/stefanw/feld
+  name: Github Repository
+
+colaborators:
+- name: Stefan Wehrmeyer
+- name: Ulrike Thalheim
+- name: Michael Hörz
+- name: Moritz Klack
+
+---
+
+Am 25. Mai 2014 ist Volksabstimmung zur Bebauung des Tempelhofer Felds.
+Was wo gebaut werden soll erklärt dieses Projekt des OK Lab Berlin.
+
+Die Morgenpost hat das Projekt aufgegriffen und mit ein bisschen Unterstützung in eine [schönes interaktives Feature](http://interaktiv.morgenpost.de/tempelhofer-feld/) verwandelt.

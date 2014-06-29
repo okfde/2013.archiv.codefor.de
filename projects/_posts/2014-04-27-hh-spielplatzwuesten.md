@@ -5,6 +5,8 @@ imgname: hamburg/wueste.jpg
 title: Spielplatzwüsten kartieren
 
 links:
+- url: http://dl.dropboxusercontent.com/u/2193334/CodeforHH/hh_spielplatzwuesten.html
+  name: aktueller Stand
 - url: http://www.openstreetmap.org/
   name: Datenquelle
   

@@ -30,7 +30,12 @@
 
   <script>
 
-  WebFontConfig = { fontdeck: { id: '41701' } };
+  WebFontConfig = { 
+    fontdeck: { id: '41701' },
+    active : function() {
+      if(typeof packery !== 'undefined') packery.layout();
+    }
+  };
 
   (function() {
     var wf = document.createElement('script');

@@ -5,6 +5,8 @@ imgname: berlin/cctvwatch.jpg
 title: cctvwatch - big brother is watching you
 
 links:
+- url: http://cctv.antares.uberspace.de
+  name: cctvwatch (in progress)
 - url: https://github.com/moklick/cctvwatch
   name: Github Repository (Frontend)
 - url: https://github.com/moklick/cctvwatch-api

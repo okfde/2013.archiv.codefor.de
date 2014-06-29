@@ -1,89 +1,84 @@
-- lab: OK Lab Münster
-  name: HACKNIGHT
-  time: 19-Open end
-  location: conterra GmbH, Martin-Luther-King-Weg 24
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn - Treffen #4
+  time: 19 - Open End
+  location: Nahe der Fachschaft E1.311, Universität, Warburger Str. 100, 330398 Paderborn
   day: Mittwoch
-  day-nr: "14"
-  month: Mai 2014
-  link-url: http://www.meetup.com/codeforde/Munster-DE/1137372/
-  link-name: Mehr Info
-
-- lab: OK Lab Berlin
-  name: OK Lab Berlin CODING-TREFFEN
-  time: 19-22 Uhr
-  location: Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin
-  day: Mittwoch
-  day-nr: "14"
-  month: Mai 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1148542/
+  day-nr: "02"
+  month: Juni 2014
+  link-url: http://www.meetup.com/codeforpb/events/191935552/
   link-name: Mehr Info
 
 - lab: OK Lab Chemnitz
-  name: OK LAB CHEMNITZ CODING-TREFFEN
-  time: 19-Open end
-  location: ChaosTreff Chemnitz, Augustusburger Straße 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "15"
-  month: Mai 2014
-  link-url: http://pad.okfn.org/p/oklab-chemnitz
+  name: Reguläres Treffen
+  time: 19 - 22
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day-nr: "26"
+  month: Juni 2014
+  link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
 
-- lab: OK Lab Dresden
-  name: "Themenabend: Open Commons Region Dresden"
-  time: "20:00 Uhr"
-  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
-  day: Donnerstag
-  day-nr: "15"
-  month: Mai 2014
-  link-url: http://www.c3d2.de/news/ta-open-commons-region-dresden.html
-  link-name: Ankündigung
+- lab: OK Lab Münster
+  name: 5. Hacknight
+  time: 19 - Open End
+  location: Institut für Geoinformatik, Heisenbergstraße 2
+  day: Samstag
+  day-nr: "28"
+  month: Juni 2014
+  link-url: http://www.meetup.com/codeforde/Munster-DE/1162012/
+  link-name: Mehr Info
 
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
   location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
   day: Montag
-  day-nr: "19"
-  month: Mai 2014
+  day-nr: "30"
+  month: Juni 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
-- lab: OK Lab Leipzig
-  name: OK LAB LEIPZIG INPUT-SESSION - Linked Open Data und SPARQL (Ricardo Usbeck)
-  time: 19-22 Uhr
-  location: BIC, Karl-Heine-Str. 99, 04229 Leipzig
-  day: Montag
-  day-nr: "19"
-  month: Mai 2014
-  link-url: http://pad.okfn.org/p/oklab-leipzig
-  link-name: Mehr Info
-
-- lab: OK Lab Dresden
-  name: OK LAB DRESDEN MEETUP
-  time: 19-Open end
-  location: C3D2 Hackerspace (Bürohaus Lingnerallee — Zimmer 3021), Lingnerallee 3, 01069 Dresden
-  day: Donnerstag
-  day-nr: "22"
-  month: Mai 2014
-  link-url: http://pad.okfn.org/p/oklab-dresden
-  link-name: Mehr Info
-
 - lab: OK Lab Ulm
-  name: OK LAB ULM MEETUP
-  time: 18-Open end
-  location: Uni Ulm, Gebäudekreuz O27, Besprechungsraum Verteilte Systeme (Raum 027/341)
-  day: Montag
-  day-nr: "26"
-  month: Mai 2014
-  link-url: http://ulmapi.de
+  name: Meet-Up
+  time: 16 - Open End
+  location: Universität Ulm - O27/341
+  day-nr: "30"
+  month: Juni 2014
+  link-url: http://www.ulmapi.de
   link-name: Mehr Info
+
+- lab: OK Lab Leipzig
+  name: Meet-Up
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "30"
+  month: Juni 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Pad
+
+- lab: OK Lab Berlin
+  name: Meet-Up
+  time: 19 - 22
+  location: Google, Unter den Linden 14,  10117 Berlin 
+  day-nr: "02" 
+  month: Juli 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1177002/
+  link-name: Meet-Up
 
 - lab: OK Lab Köln
-  name: OK LAB KÖLN CODING
-  time: 19-Open end
-  location: Railslove/CoWoCo, An der Bottmühle 5, D-50678 Köln
+  name: Besuch im Wikipedia:Lokal K 
+  time: 19 - 22
+  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
+  day-nr: "7"
+  month: Juli 2014
+  link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Meet-Up
+
+- lab: OK Lab Gießen
+  name: OK LAB GIEßEN 2. Treffen
+  time: 17:30-19:00
+  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
   day: Montag
-  day-nr: "26"
-  month: Mai 2014
-  link-url: http://pad.opendatacloud.de/p/okLab-koeln
+  day-nr: "7"
+  month: Juli 2014
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
