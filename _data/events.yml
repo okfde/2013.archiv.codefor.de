@@ -1,3 +1,13 @@
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn - Treffen #4
+  time: 19 - Open End
+  location: Nahe der Fachschaft E1.311, Universität, Warburger Str. 100, 330398 Paderborn
+  day: Mittwoch
+  day-nr: "02"
+  month: Juni 2014
+  link-url: http://www.meetup.com/codeforpb/events/191935552/
+  link-name: Mehr Info
+
 - lab: OK Lab Chemnitz
   name: Reguläres Treffen
   time: 19 - 22
@@ -26,7 +36,7 @@
   month: Juni 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
-  
+
 - lab: OK Lab Ulm
   name: Meet-Up
   time: 16 - Open End
@@ -35,7 +45,7 @@
   month: Juni 2014
   link-url: http://www.ulmapi.de
   link-name: Mehr Info
-  
+
 - lab: OK Lab Leipzig
   name: Meet-Up
   time: 19 - 22
@@ -44,7 +54,7 @@
   month: Juni 2014
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Pad
-  
+
 - lab: OK Lab Berlin
   name: Meet-Up
   time: 19 - 22
@@ -53,7 +63,7 @@
   month: Juli 2014
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1177002/
   link-name: Meet-Up
-  
+
 - lab: OK Lab Köln
   name: Besuch im Wikipedia:Lokal K 
   time: 19 - 22
@@ -72,4 +82,3 @@
   month: Juli 2014
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
-  
