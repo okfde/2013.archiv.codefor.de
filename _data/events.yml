@@ -64,18 +64,20 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn - Treffen #4
+- lab: OK Lab Münster
+  name: 5. Hacknight
   time: 19 - Open End
-  location: TBA
+  location: tba
   day: Mittwoch
-  day-nr: "16"
+  day-nr: "9"
   month: Juli 2014
+  link-url: http://www.meetup.com/codeforde/Munster-DE/1173962/
+  link-name: Mehr Info
 
 - lab: OK Lab Paderborn
-  name: OK Lab Paderborn - Treffen #6
+  name: OK Lab Paderborn - Treffen #5
   time: 19 - Open End
-  location: TBA
+  location: tba
   day: Mittwoch
-  day-nr: "30"
+  day-nr: "16"
   month: Juli 2014
