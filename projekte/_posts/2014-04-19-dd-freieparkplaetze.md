@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
 imgname: dresden/parkhaeuser.PNG
 title: Freie Parkplätze Dresden
+showcase: 1
 
 links: 
 - url: http://ubahn.draco.uberspace.de/opendata/ui/

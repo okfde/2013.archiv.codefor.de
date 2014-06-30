@@ -3,7 +3,6 @@ layout: project
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
 imgname: dresden/kita.png
 title: Kitakarte Dresden
-showcase: 1
 
 links: 
   - url: http://kitakarte.okdd.de
