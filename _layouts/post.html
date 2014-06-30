@@ -8,14 +8,11 @@ layout: base
   <div class="container">
 
     <div class="row">
-      <div class="col-lg-12" >
-      <a href="/blog/" class="h4" >Zurück zur Übersicht</a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12" >
+      <div class="col-lg-6" >
         {% include post.html  param='page'%}
+      </div>
+      <div class="col-lg-6" >
+        {% include news-sidebar.html %}
       </div>
     </div>
 

@@ -5,5 +5,22 @@
   {% endif %}
   <h4 class="project-title"><a href="{{ post.url }}"> {{ post.title }}</a></h4>
   <p class="project-description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+  <div class="project-footer clearfix">
+  
+	  {% for sitepage in site.pages %}
+        {% if sitepage.lab == post.lab %}
+         {% assign lab = sitepage.url %}
+        {% endif %}
+      {% endfor%}
+
+  	<div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ post.lab }}</a></div>
+  	{% if post.status %}
+        {% assign status = post.status %}
+    {% else %}
+    	{% assign status = 'In Progress' %}
+    {% endif %}
+  	<div class="project-status pull-right">{{ status }}</div>
+  	  
+  </div>
 
 </div>

@@ -3,6 +3,8 @@ layout: project
 lab: OK Lab Köln #needed for Aggregation on Lab-Page
 imgname: koeln/wasser.png
 title: Trinkwasser in Köln
+showcase: 1
+
 
 links: 
 - url: http://www.webeifer.de/trinkwasser/

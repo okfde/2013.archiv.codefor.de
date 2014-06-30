@@ -3,6 +3,8 @@ layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
 imgname: berlin/tempelhofer-feld.png
 title: Feld - die Bebauung des Tempelhofer Felds in 3D
+showcase: 1
+
 
 links:
 - url: https://github.com/stefanw/feld

@@ -9,11 +9,14 @@ title: Projects
 {% unless project_count == 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3>Projekte</h3>
+    <div class="clearfix">
+    <h3 class="pull-left">Alle Projekte</h3>
+    <span class="h4 pull-right"><a href="/projekte">Projekt Showcase</a></span>
+    </div>
 
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for post in site.categories.projects %}
+      {% for post in site.categories.projekte %}
         <div class="packery-item" >
           {% include project-teaser.html %}
         </div>

@@ -3,6 +3,8 @@ layout: project
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
 imgname: hamburg/wueste.jpg
 title: Spielplatzwüsten kartieren
+showcase: 1
+
 
 links:
 - url: http://dl.dropboxusercontent.com/u/2193334/CodeforHH/hh_spielplatzwuesten.html

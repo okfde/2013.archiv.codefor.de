@@ -24,6 +24,14 @@
         {% endfor %}
       </ul>
       
+          {% if post.status %}
+        {% assign status = post.status %}
+    {% else %}
+      {% assign status = 'In Progress' %}
+    {% endif %}
+    <div class="project-status">{{ status }}</div>
+
+
       {% for sitepage in site.pages %}
         {% if sitepage.lab == [include.type]lab %}
          {% assign lab = sitepage.url %}

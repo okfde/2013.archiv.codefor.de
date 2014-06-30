@@ -1,9 +1,8 @@
 <div class="event-wrapper fond__white clearfix">
   <div class="post-header clearfix">
-    <h2 class="post-title pull-left" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
-    <div class="post-meta text__green text-right pull-right">
-    <h4 class="post-title"> {{ [include.param]author }} </h4>
-          {{ [include.param]date | date_to_string }}
+    <h2 class="post-title" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
+    <div class="post-meta text__green">
+      von {{ [include.param]author }} am {{ [include.param]date | date: "%d.%m.%y" }}      
     </div>
   </div>
   <div class="post-description">{{ [include.param]content | markdownify }}</div>

@@ -3,6 +3,8 @@ layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
 imgname: berlin/stolpersteine-app.jpg
 title: Stolpersteine App
+showcase: 1
+
 
 links: 
   - url: https://github.com/optionu/stolpersteine-ios

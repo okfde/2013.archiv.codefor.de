@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Münster #needed for Aggregation on Lab-Page
 imgname: # TODO
 title: Wahlprogrgamm-Matrix Kommunalwahl Münster 2014
+showcase: 1
 
 links: 
 - url: http://codeformuenster.org/wahlprogramm-matrix

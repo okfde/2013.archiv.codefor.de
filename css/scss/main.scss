@@ -419,6 +419,17 @@ margin-left: 10px;
   margin: 0 0 32px 0;
 }
 
+.project-status {
+	&:before {
+		font-family: 'FontAwesome';
+		content: "\f135";
+		font-size: 19px;
+		color: black;
+		margin-right: 10px;
+	} 
+}
+
+
 .icon-before:before {
 	display: inline-block;
 	content:"";
@@ -458,6 +469,7 @@ margin-left: 10px;
 }
 
 $date-circle: 80px;
+
 .event-date-d {
 	text-transform: uppercase;
 	font-size: 36px;
@@ -569,6 +581,9 @@ $date-circle: 80px;
 
 
 /*-----  End of Lab Page  ------*/
+
+
+
 
 /*============================
 =            Blog            =

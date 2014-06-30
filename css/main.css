@@ -308,6 +308,13 @@ label {
 .project-wrapper {
   margin: 0 0 32px 0; }
 
+.project-status:before {
+  font-family: 'FontAwesome';
+  content: "\f135";
+  font-size: 19px;
+  color: black;
+  margin-right: 10px; }
+
 .icon-before:before {
   display: inline-block;
   content: "";
