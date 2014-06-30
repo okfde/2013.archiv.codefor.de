@@ -1,0 +1,25 @@
+---
+layout: project
+lab: OK Lab Berlin #needed for Aggregation on Lab-Page
+imgname: berlin/lichtenberg.jpg
+title: Kiez-Karte (Lichtenberg)
+
+links: 
+- url: http://kiez-karte.berlin
+  name: Website
+- url: https://github.com/tursics/kiez-karte
+  name: Page on Github
+
+colaborators:
+- name: Thomas Tursics
+  links:
+  - url: https://twitter.com/tursics
+    url-name: twitter
+  - url: http://github.com/tursics
+    url-name: github
+
+---
+
+Auf der Kiez-Karte sieht man alle möglichen Open Data zu Berlin-Lichtenberg plus einer Interaktionsmöglichkeit/ Rückkanal. So kann man alle Spielplätze im Bezirk finden - und wenn man sie besser haben möchte, dann gibt man einen Vorschlag für den Bürgerhaushalt an.
+<p> Foto: Angela Monika Arnold </p>
+

@@ -56,7 +56,7 @@ layout: base
 
 <!-- Termine  -->
 
-{% comment %} Let's count how many projects we have for this lab (needed for layout columns etc.) {% endcomment %}
+{% comment %} Let's count how many events we have for this lab (needed for layout columns etc.) {% endcomment %}
 {% assign event_count = 0 %}
 {% for event in site.data.events %}
   {% if event.lab == page.lab %}
@@ -109,10 +109,10 @@ layout: base
     <h3 id="projects">Projekte</h3> 
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for post in site.categories.projects %}
+      {% for post in site.categories.projekte %}
         {% if post.lab == page.lab %}
         <div class="packery-item" >
-          {% include project.html %}
+          {% include project-teaser.html type='post' %}
         </div>
         {% endif %}
       {% endfor %}
@@ -155,6 +155,7 @@ layout: base
 {% endif %}
 
 {% endif %}
+
 
 <script src="/js/lib/packery.pkgd.min.js"></script>
 <script src="/js/lib/imagesloaded.pkgd.min.js"></script>

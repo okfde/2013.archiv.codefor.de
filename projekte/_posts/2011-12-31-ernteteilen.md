@@ -1,0 +1,29 @@
+---
+layout: project
+lab: OK Lab Berlin #needed for Aggregation on Lab-Page
+imgname: berlin/ernteteilen.jpg
+title: Ernte Teilen
+
+links: 
+- url: https://beta.ernte-teilen.org
+  name: Website
+
+colaborators:
+- name: Simon Jockers
+  links:
+  - url: twitter.com/sjockers
+    url-name: Twitter
+  - url: github.com/sjockers
+    url-name: github
+- name: Daniel Mack
+  links:
+  - url: twitter.com/zonque
+    url-name: Twitter
+  - url: github.com/zonque
+    url-name: github
+
+
+
+---
+
+Ernte-teilen.org bietet eine Plattform, die Landwirte und Verbraucherinnen, die sich an Solidarischer Landwirtschaft beteiligen möchten, zusammenfinden lässt.
