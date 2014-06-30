@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Leipzig #needed for Aggregation on Lab-Page
 imgname: leipzig/kidsle.png
 title: Kitas und Schulen Verzeichnis Leipzig
+showcase: 1
 
 links:
 - url: http://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/
