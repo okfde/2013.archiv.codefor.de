@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Hamburg #needed for Aggregation on Lab-Page
 imgname: hamburg/LFA.png
 title: Länderfinanzausgleich visualisieren
+showcase: 1
 
 links:
 - url: http://public.tableausoftware.com/profile/#!/vizhome/LFA_v2/Dashboard1

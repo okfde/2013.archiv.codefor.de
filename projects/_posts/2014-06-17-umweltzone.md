@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
 imgname: berlin/umweltzone.png
 title: Umweltzone Android App
+showcase: 1
 
 links:
 

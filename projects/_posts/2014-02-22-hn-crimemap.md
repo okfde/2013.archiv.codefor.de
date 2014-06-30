@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Heilbronn #needed for Aggregation on Lab-Page
 imgname: hn-crimemap.jpg
 title: Diebstähle Region Heilbronn
+showcase: 1
 
 links: 
 - url: http://opendata-heilbronn.github.io/crimemap/

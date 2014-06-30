@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Projekte
+
 ---
 
 
@@ -8,16 +9,14 @@ title: Projekte
 {% unless project_count == 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3 id="projects">Projekte</h3>
-    <p>Eine kleine Auswahl verschiedener Projekte. Eine <a href="alle.html">Liste mit allen Projekten</a> gibt es auch.</p>
+    <h3>Projekte</h3>
+    <p><a href="index.html">Zum Showcase</a></p>
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
       {% for post in site.categories.projects %}
-        {% if 1 == post.showcase %}
         <div class="packery-item" >
           {% include project-teaser.html %}
         </div>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -25,12 +24,9 @@ title: Projekte
 {%endunless%}
 <!-- Projekte End -->
 
-
-
 <script src="/js/lib/packery.pkgd.min.js"></script>
 <script src="/js/lib/imagesloaded.pkgd.min.js"></script>
 <script src="/js/PackeryGrid.js"></script>
-
 
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 <script type="text/javascript">

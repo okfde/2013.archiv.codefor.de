@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
 imgname: berlin/accessmap.jpg
 title: Access Map
+showcase: 1
 
 links: 
 - url: http://arduina.github.io/access_map/
