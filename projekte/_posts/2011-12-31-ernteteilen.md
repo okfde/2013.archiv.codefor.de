@@ -1,10 +1,10 @@
 ---
 layout: project
 lab: OK Lab Berlin #needed for Aggregation on Lab-Page
-imgname: berlin/ernteteilen.jpg
+imgname: berlin/ernteteilen.png
 title: Ernte Teilen
 
-links: 
+links:
 - url: https://beta.ernte-teilen.org
   name: Website
 
