@@ -4,11 +4,6 @@ layout: post
 title: Code for Germany beim Elektrischen Reporter
 author: Fiona
 
-images:
-- imgname:
-  sub: Interessierte
-  height: auto
-
 ---
 
 Der Elektrische Reporter, ein Format auf ZDF von Mario Sixtus, begleitet die Netzkultur schon seit vielen Jahren 
