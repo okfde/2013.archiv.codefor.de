@@ -42,7 +42,7 @@
 .text__grey-bright {
   color: #f2f2f2; }
 
-.text__black, a, a:hover, a:visited, a:active, .fond__blue a {
+.text__black, a, a:hover, a:visited, a:active, .fond__blue p a, .fond__blue li a {
   color: black; }
 
 .text__white, .fond__green a, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
@@ -91,7 +91,7 @@ h4, .h4 {
 .fond__green a {
   text-decoration: underline; }
 
-.fond__blue a {
+.fond__blue p a, .fond__blue li a {
   text-decoration: underline; }
 
 .fond__white p a, .navbar p a, .fond__green .lab-links a p a, .highlight-white p a {
@@ -102,6 +102,9 @@ h4, .h4 {
   -moz-box-shadow: 10px 0 0 white, -10px 0 0 white;
   box-shadow: 10px 0 0 white, -10px 0 0 white;
   display: inline;
+  text-decoration: none; }
+
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
   text-decoration: none; }
 
 label {
@@ -159,6 +162,9 @@ label {
 /*================================
 =  Elements & Modifiers          =
 ================================*/
+.jumbotron {
+  padding: 15px; }
+
 .btn {
   border-radius: 0;
   border: 0; }
@@ -290,23 +296,24 @@ label {
 .panel-body {
   padding: 0; }
 
-.project-wrapper {
+.event-wrapper, .project-wrapper {
   font-size: 16px;
   line-height: 26px;
   text-align: left;
   padding: 30px;
-  margin-bottom: 32px; }
-  .project-wrapper h4 {
+  margin: 30px 0 0 0; }
+  .event-wrapper h4, .project-wrapper h4 {
     margin: 7px 0 16px 0; }
 
-.event-wrapper {
-  font-size: 16px;
-  line-height: 26px;
-  text-align: left;
-  padding: 30px;
-  margin: 30px 15px 0 15px; }
-  .event-wrapper h4 {
-    margin: 7px 0 16px 0; }
+.project-wrapper {
+  margin: 0 0 32px 0; }
+
+.project-status:before {
+  font-family: 'FontAwesome';
+  content: "\f135";
+  font-size: 19px;
+  color: black;
+  margin-right: 10px; }
 
 .icon-before:before {
   display: inline-block;
@@ -376,8 +383,7 @@ label {
   width: 5%; }
 
 .packery-item {
-  width: 100%;
-  display: none; }
+  width: 100%; }
 
 .project-image {
   margin-bottom: 28px; }
@@ -474,9 +480,6 @@ label {
   .highlight-hero {
     margin-left: 10px; }
 
-  .event-date-cta-wrapper {
-    max-width: inherit; }
-
   .nav-social {
     display: inherit; }
 
@@ -505,14 +508,11 @@ label {
   .cfa-logo {
     max-width: 60%; }
 
-  .packery-item {
-    width: 47.5%; }
-
   .google-logo {
     max-width: 80%; }
 
-  .event-wrapper {
-    margin-bottom: 15px; }
+  .packery-item {
+    width: 47.5%; }
 
   .members .member {
     min-width: 33%; } }
