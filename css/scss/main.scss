@@ -7,7 +7,6 @@
                                                                                  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-
 $red: #FF5449;
 $blue: #00ABFA;
 $green: #22D790;
@@ -106,7 +105,6 @@ h1, .h1,.jumbotron h1,  h2, .h2, h3, .h3 {
 	margin: 24px 0;
 	text-transform: uppercase;
 	font-size: 24px;
-
 }
 
 h4, .h4 {
@@ -124,11 +122,9 @@ a, a:hover, a:visited, a:active {
 	text-decoration: underline;
 }
 
-.fond__blue {
-	p a, li a {
+.fond__blue a {
 	@extend .text__black;
 	text-decoration: underline;
-	}
 }
 
 .fond__white p a {
@@ -141,13 +137,6 @@ a, a:hover, a:visited, a:active {
 	@extend .text__red;
 	@include inline-background($white);
 	text-decoration: none;
-}
-
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
-	a {
-		text-decoration: none;
-	}
 }
 
 
@@ -227,9 +216,6 @@ label {
 /*================================
 =  Elements & Modifiers          =
 ================================*/
-.jumbotron {
-	padding: 15px;
-}
 
 .btn {
 	border-radius: 0;
@@ -403,32 +389,29 @@ margin-left: 10px;
 	padding: 0;
 }
 
-.event-wrapper, .project-wrapper  {
+.project-wrapper {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  padding: 30px;
+  margin-bottom:32px;
+
+  h4 {
+    margin: 7px 0 16px 0;
+  }
+}
+
+.event-wrapper {
 	font-size: 16px;
 	line-height: 26px;
 	text-align: left; 
 	padding: 30px;
-	margin: 30px 0 0 0;
+	margin: 30px 15px 0 15px;
 
 	h4 { 
 		margin: 7px 0 16px 0;
 	}
 }
-
-.project-wrapper {
-  margin: 0 0 32px 0;
-}
-
-.project-status {
-	&:before {
-		font-family: 'FontAwesome';
-		content: "\f135";
-		font-size: 19px;
-		color: black;
-		margin-right: 10px;
-	} 
-}
-
 
 .icon-before:before {
 	display: inline-block;
@@ -469,7 +452,6 @@ margin-left: 10px;
 }
 
 $date-circle: 80px;
-
 .event-date-d {
 	text-transform: uppercase;
 	font-size: 36px;
@@ -528,7 +510,7 @@ $date-circle: 80px;
 }
 
 .packery-container{
-  opacity: 0;
+
 }
 
 .packery-item-gutter{
@@ -537,6 +519,7 @@ $date-circle: 80px;
 
 .packery-item{
   width: 100%;
+  display: none;
 }
 
 .project-image {
@@ -581,9 +564,6 @@ $date-circle: 80px;
 
 
 /*-----  End of Lab Page  ------*/
-
-
-
 
 /*============================
 =            Blog            =
@@ -681,6 +661,10 @@ $date-circle: 80px;
 		margin-left: 10px;
 	}
 
+	.event-date-cta-wrapper {
+		max-width: inherit;
+	}
+
 	.nav-social {
 		display: inherit;
 	}
@@ -722,12 +706,16 @@ $date-circle: 80px;
 		max-width: 60%;
 	}
 
+  .packery-item{
+    width: 47.5%;
+  }
+
 	.google-logo {
 		max-width: 80%;
 	}
 
-	.packery-item{
-	 	width: 47.5%;
+	.event-wrapper {
+		margin-bottom: 15px;
 	}
 
 	.members .member {
