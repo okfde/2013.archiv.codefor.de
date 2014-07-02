@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 lab: OK Lab Leipzig #needed for Aggregation on Lab-Page
 imgname: leipzig/polizei.jpg
 title: Visualisierung der Polizeiticker Meldungen der Leipziger Volkszeitung
@@ -9,7 +9,6 @@ links:
   name: Datenquelle
 - url: https://github.com/CodeforLeipzig/lvz-viz
   name: GitHub Repository
-
 
 colaborators:
 - name: Ricardo Usbeck
@@ -25,6 +24,6 @@ colaborators:
   - url: https://github.com/ManuPogo
     url-name: github
 
-
 ---
+
 Eine Weboberfläche zur Visualisierung von Tickermeldungen aus der Leipziger Volkszeitung samt Crawler, Named Entity Recognition, Elastic Search und LeafletJS.
