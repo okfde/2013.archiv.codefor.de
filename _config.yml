@@ -1,3 +1,4 @@
 markdown: kramdown
 exclude: ["vendor"]
 permalink: /:categories/:title
+excerpt_separator: "\n"

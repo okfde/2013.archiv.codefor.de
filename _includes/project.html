@@ -1,9 +1,9 @@
 <div class="project-wrapper fond__white clearfix">
-  
+
   {% if include.type == 'page' %}
-     {% assign classCols = 'col-lg-6' %}
-     {% assign classColLeft = 'col-lg-push-6' %}
-     {% assign classColRight = 'col-lg-pull-6' %}
+  {% assign classCols = 'col-lg-6' %}
+  {% assign classColLeft = 'col-lg-push-6' %}
+  {% assign classColRight = 'col-lg-pull-6' %}
   {% endif%}
 
   <div class="row">
@@ -16,47 +16,63 @@
     <div class="{{ classCols }} {{ classColRight }}">
       <h4 class="project-title"> {{ [include.type]title }} </h4>
       <p class="project-description">{{ [include.type]content | remove: '<p>' | remove: '</p>' }}</p>
-      <ul class="list-unstyled project-links" >
-        {% for link in [include.type]links %}
-        <li>
-          <a href="{{ link.url }}">{{ link.name }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+
       
-          {% if post.status %}
-        {% assign status = post.status %}
-    {% else %}
-      {% assign status = 'In Progress' %}
-    {% endif %}
-    <div class="project-status">{{ status }}</div>
-
-
       {% for sitepage in site.pages %}
-        {% if sitepage.lab == [include.type]lab %}
-         {% assign lab = sitepage.url %}
-        {% endif %}
+      {% if sitepage.lab == [include.type]lab %}
+      {% assign lab = sitepage.url %}
+      {% endif %}
       {% endfor%}
 
-       <p class="event-location icon-before"> <a href="{{ lab }}">{{ [include.type]lab }}</a></p>
+      <div class="project-footer clearfix">
+        <div class="row">
+          <div class="additional col-lg-6">
 
-      {% if [include.type]colaborators %}
-          <span class="project-collaborators icon-before">Mitglieder</span>
-      {% endif %}
+            {% for sitepage in site.pages %}
+            {% if sitepage.lab == post.lab %}
+            {% assign lab = sitepage.url %}
+            {% endif %}
+            {% endfor%}
+            <div class="event-location  icon-before project-lab">
+              <a href="{{ lab }}">{{ [include.type]lab }}</a>
+            </div>
+            <br>
+            {% if [include.type]colaborators %}
+            <span class="project-collaborators icon-before">Mitglieder</span>
+            {% endif %}
+            <ul class="list-unstyled project-collaborators-list" >
+              {% for colaborator in [include.type]colaborators %}
+              <li>
+                {{ colaborator.name }} <br> 
+                {% for link in colaborator.links %}
+                <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
+                {% endfor %}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
 
-      <ul class="list-unstyled project-collaborators-list" >
-        {% for colaborator in [include.type]colaborators %}
-        <li>
-          {{ colaborator.name }} <br> 
-
-          {% for link in colaborator.links %}
-          <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
-          {% endfor %}
-
-        </li>
-        {% endfor %}
-
-      </ul>
+          <div class="status col-lg-6">
+            {% if post.status %}
+            {% assign status = post.status %}
+            {% else %}
+            {% assign status = 'In Progress' %}
+            {% endif %}
+            <div class="project-status ">{{ status }}</div>
+            <br>
+            <div class="project-links links project-lab">
+             Links
+           </div>
+           <ul class="list-unstyled project-link-list" >
+            {% for link in [include.type]links %}
+            <li>
+              <a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 </div>

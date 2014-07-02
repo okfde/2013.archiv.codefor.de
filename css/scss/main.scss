@@ -429,6 +429,15 @@ margin-left: 10px;
 	} 
 }
 
+.project-links {
+		&:before {
+		font-family: 'FontAwesome';
+		content: "\f14c";
+		font-size: 19px;
+		color: black;
+		margin-right: 10px;
+	} 
+}
 
 .icon-before:before {
 	display: inline-block;
@@ -542,7 +551,7 @@ $date-circle: 80px;
 	margin-bottom: 28px;
 }
 
-.project-links, .post-links {
+.project-link-list, .post-links {
 	margin-bottom: 26px;
 }
 
@@ -580,6 +589,42 @@ $date-circle: 80px;
 
 
 /*-----  End of Lab Page  ------*/
+
+/*================================
+=            Projects            =
+================================*/
+
+
+
+.project-teaser-slim .image-crop {
+		
+		position: relative;
+		height: 245px;
+		overflow: hidden;
+
+		.project-image {
+	
+		position:absolute;
+	    left: -100%;
+	    right: -100%;
+	    top: -100%;
+	    bottom: -100%;
+	    margin: auto; 
+	    height: auto;
+	    width: 100%;
+
+		}
+
+	}
+	
+
+
+
+
+
+
+
+/*-----  End of Projects  ------*/
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Projects
+title: Alle Projekte
 
 ---
 
@@ -14,31 +14,10 @@ title: Projects
     <span class="h4 pull-right"><a href="/projekte">Projekt Showcase...</a></span>
     </div>
 
-    <div class="packery-container">
-      <div class="packery-item-gutter"></div>
       {% for post in site.categories.projekte %}
-        <div class="packery-item" >
-          {% include project-teaser.html %}
-        </div>
+          {% include project-teaser-slim.html %}
       {% endfor %}
-    </div>
   </div>
 </div>
 {%endunless%}
 <!-- Projekte End -->
-
-<script src="/js/lib/packery.pkgd.min.js"></script>
-<script src="/js/lib/imagesloaded.pkgd.min.js"></script>
-<script src="/js/PackeryGrid.js"></script>
-
-<script src="/js/lib/prettyCheckbox.min.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function() {
-  
-  packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
-  // $(":checkbox").prettyCheckbox();
-
-});
-
-</script>

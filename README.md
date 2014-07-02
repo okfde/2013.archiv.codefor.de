@@ -25,3 +25,11 @@ And then just execute:
     python download_avatars.py
 
 Don't forget to commit the downloaded images.
+
+## Projects 
+
+Text on project teasers is cut off after \n\n. Include a dedicated "excerpt:" in the frontmatter to override. 
+Images are crop-centered. You can fine tune by providing a specific crop image through "imgname-teaser:" in frontmatter.   
+
+Please use mobile friendly filesizes for images.
+
