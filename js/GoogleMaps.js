@@ -26,7 +26,7 @@
     GoogleMaps.prototype.initializeMap = function()
     {
         var map_canvas = document.getElementById('lab-map');
-        console.log("map_canvas -> " + map_canvas);
+        //console.log("map_canvas -> " + map_canvas);
 
         var _index = google_maps_position.indexOf(',');
         var lat = parseFloat(google_maps_position.substr(0,_index-1));
@@ -162,7 +162,7 @@
                 clickable: clickable
             });
 
-            console.log("obj.url.length -----------> " + obj.url.length);
+            //console.log("obj.url.length -----------> " + obj.url.length);
 
             if(obj.url.length>0){
                 google.maps.event.addListener(marker, 'click', function() {
