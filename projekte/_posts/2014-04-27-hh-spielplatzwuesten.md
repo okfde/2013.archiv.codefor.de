@@ -6,7 +6,7 @@ title: Spielplatzwüsten kartieren
 showcase: 1
 
 links:
-- url: http://dl.dropboxusercontent.com/u/2193334/CodeforHH/hh_spielplatzwuesten.html
+- url: http://community.codefor.de/hamburg/spielplatzwuesten.html
   name: aktueller Stand
 - url: http://www.openstreetmap.org/
   name: Datenquelle
