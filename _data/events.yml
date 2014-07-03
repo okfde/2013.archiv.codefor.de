@@ -36,6 +36,15 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
+- lab: OK Lab Leipzig
+  name: Meet-Up
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "7"
+  month: Juli 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Pad
+
 - lab: OK Lab Münster
   name: 5. Hacknight
   time: 19 - Open End
