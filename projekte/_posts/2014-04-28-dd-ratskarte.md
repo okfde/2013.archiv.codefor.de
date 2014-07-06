@@ -3,6 +3,7 @@ layout: project
 lab: OK Lab Dresden #needed for Aggregation on Lab-Page
 imgname: dresden/ratskarte.png
 title: Ratskarte Dresden
+status: Zwonull
 
 links: 
 - url: http://ratskarte.offenesdresden.de/
