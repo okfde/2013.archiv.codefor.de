@@ -1,20 +1,18 @@
 <div class="event-wrapper fond__white clearfix">
   <div class="post-header clearfix">
-    <h2 class="post-title" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
+    <h2 class="post-title" ><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <div class="post-meta text__green">
-      von {{ [include.param]author }} am {{ [include.param]date | date: "%d.%m.%y" }}      
+      von {{ page.author }} am {{ page.date | date: "%d.%m.%y" }}      
     </div>
   </div>
-  <div class="post-description">{{ [include.param]content | markdownify }}</div>
+  <div class="post-description">{{ page.content | markdownify }}</div>
 
   <ul class="list-unstyled post-links" >
-    {% for link in [include.param]links %}
+    {% for link in page.links %}
     <li>
       <a href="{{ link.url }}">{{ link.name }}</a>
     </li>
     {% endfor %}
   </ul>
   
-  {% for image in [include.param]images %}<img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image"{% if image.height %} style="height: {{ image.height }};"{% endif %}>{% endfor %}
-
 </div>

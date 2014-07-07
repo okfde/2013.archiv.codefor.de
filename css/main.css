@@ -422,10 +422,14 @@ label {
 .post-meta h4 {
   margin: 0; }
 
-.post-image {
-  height: 200px;
-  width: auto;
-  margin: 5px; }
+.post-description p:last-child {
+  margin-bottom: 0; }
+
+.post-description img {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70%;
+  height: auto; }
 
 /*-----  End of Blog  ------*/
 /*================================

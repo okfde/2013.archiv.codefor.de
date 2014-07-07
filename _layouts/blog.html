@@ -9,14 +9,13 @@ layout: base
     <div class="row">
       <div class="col-lg-6" >
       	<h3>Blog</h3>
-
   	    {% for post in site.categories.news %}
-    		{% include post.html param='post' %}
+    		  {% include post-teaser.html param='post' %}
         {% endfor %}
       </div>
 
       <div class="col-lg-6" >
-		{% include news-sidebar.html %}
+		    {% include news-sidebar.html %}
       </div>
   </div>
 

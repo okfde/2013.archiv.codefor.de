@@ -1,0 +1,14 @@
+<div class="event-wrapper fond__white clearfix">
+  <div class="post-header clearfix">
+    <h2 class="post-title" ><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="post-meta text__green">
+      von {{ post.author }} am {{ post.date | date: "%d.%m.%y" }}      
+    </div>
+  </div>
+  
+  {% if post.images %}
+    <a href="{{ post.url }}"><img src="/assets/blog/{{ post.images[0].imgname }}" alt="{{ post.images[0].alt }}" class="img-responsive"></a>
+  {% endif %}
+
+  <div class="post-description">{{ post.excerpt | markdownify }}</div>
+</div>
