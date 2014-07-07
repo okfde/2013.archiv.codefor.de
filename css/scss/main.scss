@@ -60,10 +60,10 @@ body {
 ===============================*/
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
 }
 
 @mixin inline-background($color) {
@@ -126,8 +126,8 @@ a, a:hover, a:visited, a:active {
 
 .fond__blue {
 	p a, li a {
-	@extend .text__black;
-	text-decoration: underline;
+		@extend .text__black;
+		text-decoration: underline;
 	}
 }
 
@@ -263,15 +263,15 @@ label {
 
 .prettyCheckbox.checked .check {
 
-  background: $black;
-  @include border-radius(10px);
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  z-index: 100;
+	background: $black;
+	@include border-radius(10px);
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	z-index: 100;
 
 }
 
@@ -297,9 +297,9 @@ label {
 	margin-bottom: 20px;
 
 	li {
-	display: inline-block;
-	margin-right: 5px;
-	&:last-child { margin-right: 0 ;}
+		display: inline-block;
+		margin-right: 5px;
+		&:last-child { margin-right: 0 ;}
 		a {
 			background: $red;
 			color: $white;
@@ -334,24 +334,24 @@ label {
 
 
 .marker {
-		background-color: $white;
-		color: $white;
-	}
+	background-color: $white;
+	color: $white;
+}
 
 
 .form-control {
 
-  height: 40px;
-  padding: 6px 12px;
-  color: $black;
-  border: none; 
-  border-radius: 0;
+	height: 40px;
+	padding: 6px 12px;
+	color: $black;
+	border: none; 
+	border-radius: 0;
 
 }
 
 
 .form-group .prettyCheckbox{
-margin-left: 10px;
+	margin-left: 10px;
 }
 
 .form-group-newsletter {
@@ -383,7 +383,7 @@ margin-left: 10px;
 	border: none;
 	border-radius: 0;
 	-webkit-box-shadow: none;
-	 		box-shadow: none;
+	box-shadow: none;
 
 	h4 {
 		margin-top: 0;
@@ -416,7 +416,7 @@ margin-left: 10px;
 }
 
 .project-wrapper {
-  margin: 0 0 32px 0;
+	margin: 0 0 32px 0;
 }
 
 .project-status {
@@ -499,17 +499,17 @@ $date-circle: 80px;
 	margin-bottom: 50px;
 }
 
-    .okfn-logo {
-		max-width: 80%;
-	}
+.okfn-logo {
+	max-width: 80%;
+}
 
-	.cfa-logo {
-		max-width: 80%;
-	}
+.cfa-logo {
+	max-width: 80%;
+}
 
-	.google-logo {
-		max-width: 80%;
-	}
+.google-logo {
+	max-width: 80%;
+}
 
 /*-----  End of Home  ------*/
 
@@ -518,34 +518,36 @@ $date-circle: 80px;
 =            Lab Page            =
 ================================*/
 .jumbotron h1 {
-		@extend .text__red;
-	}
+	@extend .text__red;
+}
 
 .lab-leads {
 	li {
-	padding: 0;
+		padding: 0;
 	}
 }
 
 .packery-container{
-  opacity: 0;
+	opacity: 0;
 }
 
 .packery-item-gutter{
-  width: 5%;
+	width: 5%;
 }
 
 .packery-item{
-  width: 100%;
+	width: 100%;
 }
 
 .project-image {
 	margin-bottom: 28px;
 }
 
-.project-links, .post-links {
+.project-links {
 	margin-bottom: 26px;
 }
+
+
 
 .project-collaborators {
 	&:before {
@@ -589,6 +591,27 @@ $date-circle: 80px;
 =            Blog            =
 ============================*/
 
+.post {
+	.event-wrapper {
+		padding: 80px;
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+
+	h2, h3 {
+		font-size: 18px;
+	}
+}
+
+.post-links {
+	margin: 26px 0 0 0 ;
+	a {
+		text-decoration: underline;
+	}
+}
+
 .post-meta {
 	h4 {
 		margin: 0;
@@ -602,11 +625,33 @@ $date-circle: 80px;
 }
 
 .post-description img {
-	text-align: center;
-	margin: 0 auto;
+	margin: 30px auto;
 	max-width: 70%;
 	height: auto;
+	display: block;
 }
+
+
+.twitter-feed {
+	.twitter-head {
+
+		h3 {
+			float:left;
+			margin-bottom: 0;
+		}
+
+		.follow-twitter {
+			float: right;
+			margin-top: 24px;
+		}
+	}
+
+	.event-wrapper {
+		margin-top: 18px;
+	}
+}
+
+
 
 /*-----  End of Blog  ------*/
 
@@ -616,22 +661,22 @@ $date-circle: 80px;
 ================================*/
 
 #lab-map{
-  width: 100%;
+	width: 100%;
 }
 
-	.lab-map-home{
-	  height: 300px;
-	}
-	
-	.lab-map-city{
-	  height: 200px;
-	}
+.lab-map-home{
+	height: 300px;
+}
+
+.lab-map-city{
+	height: 200px;
+}
 
 .googleMapsInfoBox{
-  font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-  font-size: 16px;
-  color: $red;
-  background-color: $white;
+	font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+	font-size: 16px;
+	color: $red;
+	background-color: $white;
 }
 
 
@@ -639,9 +684,9 @@ $date-circle: 80px;
 @media screen and (min-width: 481px) {
 	#animation-wrapper h1 {
 		font-size: 63px;
-    }
+	}
 
-    .okfn-logo {
+	.okfn-logo {
 		max-width: 50%;
 	}
 
@@ -707,10 +752,10 @@ $date-circle: 80px;
 	}
 
 	.lab-map-home{
-	  height: 600px;
+		height: 600px;
 	}
 	.lab-map-city{
-	  height: 400px;
+		height: 400px;
 	}
 
 	.members .member {
@@ -721,7 +766,7 @@ $date-circle: 80px;
 
 @media screen and (min-width: 1200px) {
 
- 	.okfn-logo {
+	.okfn-logo {
 		max-width: 100%;
 	}
 
@@ -734,7 +779,7 @@ $date-circle: 80px;
 	}
 
 	.packery-item{
-	 	width: 47.5%;
+		width: 47.5%;
 	}
 
 	.members .member {

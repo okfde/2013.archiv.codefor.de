@@ -391,7 +391,7 @@ label {
 .project-image {
   margin-bottom: 28px; }
 
-.project-links, .post-links {
+.project-links {
   margin-bottom: 26px; }
 
 .project-collaborators:before {
@@ -419,6 +419,18 @@ label {
 /*============================
 =            Blog            =
 ============================*/
+.post .event-wrapper {
+  padding: 80px; }
+.post h1 {
+  margin-top: 0; }
+.post h2, .post h3 {
+  font-size: 18px; }
+
+.post-links {
+  margin: 26px 0 0 0; }
+  .post-links a {
+    text-decoration: underline; }
+
 .post-meta h4 {
   margin: 0; }
 
@@ -426,10 +438,19 @@ label {
   margin-bottom: 0; }
 
 .post-description img {
-  text-align: center;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 70%;
-  height: auto; }
+  height: auto;
+  display: block; }
+
+.twitter-feed .twitter-head h3 {
+  float: left;
+  margin-bottom: 0; }
+.twitter-feed .twitter-head .follow-twitter {
+  float: right;
+  margin-top: 24px; }
+.twitter-feed .event-wrapper {
+  margin-top: 18px; }
 
 /*-----  End of Blog  ------*/
 /*================================
