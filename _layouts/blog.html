@@ -9,9 +9,11 @@ layout: base
     <div class="row">
       <div class="col-lg-6" >
       	<h3>Blog</h3>
-       {% for post in site.categories.news %}
-       {% include post-teaser.html %}
-       {% endfor %}
+         {% for post in paginator.posts %}
+            {% include post-teaser.html %}
+         {% endfor %}
+         <a href="{{ paginator.previous_page_path }}">Neuere Einträge</a> ~ <a href="{{ paginator.next_page_path }}">Ältere Einträge</a>
+
      </div>
 
      <div class="col-lg-6" >
@@ -21,7 +23,7 @@ layout: base
       <h3>Termine</h3>
 
       {% for event in site.data.events limit:3 %}
-      {% include event.html %}
+        {% include event.html %}
       {% endfor %}
       <p><a href="/termine/index.html">weitere Termine... </a>
 
