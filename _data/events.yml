@@ -1,13 +1,3 @@
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn - Treffen #4
-  time: 19 - Open End
-  location: Nahe der Fachschaft E1.311, Universität, Warburger Str. 100, 330398 Paderborn
-  day: Mittwoch
-  day-nr: "02"
-  month: Juli 2014
-  link-url: http://www.meetup.com/codeforpb/events/191935552/
-  link-name: Mehr Info
-
 - lab: OK Lab Köln
   name: Besuch im Wikipedia:Lokal K 
   time: 19 - 22
@@ -36,6 +26,16 @@
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Pad
 
+- lab: OK Lab München
+  name: OK LAB MAPPING PROJEKT
+  time: 19-21 Uhr
+  location: Königin 43 (http://barer61.de/konigin/) 
+  day: Dienstag
+  day-nr: "8"
+  month: Juli 2014
+  link-url: http://codefor.de/blog/muenchen-projekte/
+  link-name: Blog Post
+
 - lab: OK Lab Münster
   name: 5. Hacknight
   time: 19 - Open End
@@ -54,6 +54,16 @@
   month: Juli 2014
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1181512/
   link-name: Meet-Up
+  
+- lab: OK Lab München
+  name: OK LAB MÜNCHEN TREFFEN
+  time: 19-21 Uhr
+  location: Hubert Burda Media (Burda Bar) im Arabellapark (Arabellastraße 23) 
+  day: Donnerstag
+  day-nr: "10"
+  month: Juli 2014
+  link-url: http://codefor.de/blog/muenchen-projekte/
+  link-name: Blog Post
 
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
@@ -82,3 +92,5 @@
   month: Juli 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
   link-name: Mehr Info
+  
+
