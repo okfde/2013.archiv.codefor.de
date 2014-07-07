@@ -4,11 +4,6 @@ layout: post
 title: Civic Tech und Open Government auf dem Transparency Camp 2014
 author: Julia
 
-images:
-- imgname:
-  sub: Interessierte
-  height: auto
-
 ---
 
 Im Mai war ein Team von Code for Germany zu Besuch auf zwei spannenden Konferenzen in den USA: dem [Transparency Camp] in Washington DC und dem [Personal Democracy Forum] in New York. Der folgender Post liefert einen kurzen Überblick über die spannendsten Themen, Tools und Diskussionen zum Thema Civic Tech auf dem Transparency Camp in Washington.
