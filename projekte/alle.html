@@ -6,7 +6,6 @@ title: Projects
 
 
 <!-- Projekte -->
-{% unless project_count == 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
     <div class="clearfix">
@@ -16,7 +15,7 @@ title: Projects
 
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for post in site.categories.projekte %}
+      {% for post in site.projekte %}
         <div class="packery-item" >
           {% include project-teaser.html %}
         </div>
@@ -24,7 +23,6 @@ title: Projects
     </div>
   </div>
 </div>
-{%endunless%}
 <!-- Projekte End -->
 
 <script src="/js/lib/packery.pkgd.min.js"></script>

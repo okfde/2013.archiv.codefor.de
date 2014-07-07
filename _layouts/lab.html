@@ -109,7 +109,7 @@ layout: base
     <h3 id="projects">Projekte</h3> 
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for post in site.categories.projekte %}
+      {% for post in site.projekte %}
         {% if post.lab == page.lab %}
         <div class="packery-item" >
           {% include project-teaser.html type='post' %}
