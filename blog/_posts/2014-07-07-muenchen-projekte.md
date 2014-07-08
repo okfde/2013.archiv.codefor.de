@@ -10,11 +10,11 @@ Am 17. Juni 2014 haben wir uns im [Chaos Computer Club (CCC)][CCC] getroffen (vi
 
 ![Ankündigung](/assets/blog/muenchen/JuneEventSign.jpg)
 
-Der Ort war perfekt geeignet zum Brainstorming, und daraus sind zwei konkrete Projektumsetzungen begonnen:
+Der Ort war perfekt geeignet zum Brainstorming und daraus sind zwei konkrete Projekte entstanden:
 
 ## Mapping-Projekt
   
-  Ziel ist es, ein generische Web-App, die mit einen Schnellzugriff auf eine Datenbasis aus OpenStreetMap (evtl. via [Overpass-API][overpass]) ausgestattet ist. Die App sollte nicht noch eine 'Punkte auf einer Karte' App sein, sondern etwas dass den aktuellen Standort ermittelt und sofort das nächste verfügbare Objekt anzeigt. 
+  Ziel ist eine generische Web-App, die mit einem Schnellzugriff auf eine Datenbasis aus OpenStreetMap (evtl. via [Overpass-API][overpass]) ausgestattet ist. Die App sollte nicht noch eine weitere 'Punkte auf einer Karte' App sein, sondern etwas, dass den aktuellen Standort ermittelt und sofort das nächste verfügbare Objekt anzeigt. 
   
   Ein zusätzliches Treffen zum Thema findet morgen (Dienstag, 8.7) um 19.00 Uhr, in der [Königin 43][koenigen43] statt.
   
@@ -22,11 +22,11 @@ Der Ort war perfekt geeignet zum Brainstorming, und daraus sind zwei konkrete Pr
   
 ## Stadtpolitik transparent machen
   
-  Hiermit wollen wir Kommunalpolitische Entscheidungen und Planungen in einem Stadtplan zu visualisieren, ähnlich wie [frankfurt-gestalten.de][frankfurtgestalten]. Eventuell kann das in einem zweiten Schritt um eine Bürgerbeteiligungskomponente erweitert werden.
+  Hiermit wollen wir Kommunalpolitische Entscheidungen und Planungen in einem Stadtplan visualisieren, ähnlich wie [frankfurt-gestalten.de][frankfurtgestalten]. Eventuell kann das in einem zweiten Schritt um eine Bürgerbeteiligungskomponente erweitert werden.
   
   ![Stadtpolitik Gruppe](/assets/blog/muenchen/JuneRISGroup.jpg)
 
-Die Protokolle von den Termine findet man in unserem [Pad][orgapad] und getrennt aufgelistet die Projektpläne in einem [zweitem Pad][projektpad].
+Die Protokolle der Termine findet man in unserem [Pad][orgapad]. Die Projektpläne sind getrennt aufgelistet in einem [zweiten Pad][projektpad].
 
 # Nächstes Treffen
 Unser nächstes Treffen findet am 10.7 bei Hubert Burda Media (Burda Bar) im Arabellapark ([Arabellastraße 23][arabellastrasse]) statt.
