@@ -4,6 +4,10 @@ layout: post
 title: Lab Profiles
 author: Fiona
 
+images:
+- imgname: hamburg.jpg
+  sub: Hamburger Fischmarkt (CC-by-sa-3.0-de von Henrike http://commons.wikimedia.org/wiki/User:Hendrike)
+
 ---
 
 

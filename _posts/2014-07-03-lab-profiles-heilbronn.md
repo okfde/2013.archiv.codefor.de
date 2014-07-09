@@ -4,6 +4,10 @@ layout: post
 title: Lab Profiles
 author: Fiona
 
+images:
+- imgname: heilbronn.jpg
+  sub:  (CC-by-sa-3.0-de K. Jähne)
+
 ---
 
 
