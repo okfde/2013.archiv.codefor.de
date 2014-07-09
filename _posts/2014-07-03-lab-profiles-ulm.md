@@ -4,6 +4,10 @@ layout: post
 title: Lab Profiles
 author: Fiona
 
+images:
+- imgname: ulm.jpg
+  sub: Ulmer Neutorbruecke (CC-by-sa-3.0-de Wolfgang Pehlemann)
+
 ---
 
 
