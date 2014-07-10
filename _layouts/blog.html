@@ -7,27 +7,27 @@ layout: base
 <div class="jumbotron fond__grey">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6" >
+      <div class="col-lg-8" >
       	<h3>Blog</h3>
          {% for post in paginator.posts %}
             {% include post-teaser.html %}
          {% endfor %}
-         <a href="{{ paginator.previous_page_path }}">Neuere Einträge</a> ~ <a href="{{ paginator.next_page_path }}">Ältere Einträge</a>
+         
+         <div class="blog-page-nav clearfix">
+          {% if paginator.previous_page_path %}
+           <a class="newer" href="{{ paginator.previous_page_path }}">Neuere Einträge</a>
+          {% endif %}
 
+          {% if paginator.next_page_path %}
+           <a class="older" href="{{ paginator.next_page_path }}">Ältere Einträge</a>
+          {% endif %}
+
+
+         </div>
      </div>
 
-     <div class="col-lg-6" >
-
+     <div class="col-lg-4" >
        {% include twitter-feed.html  %}
-
-      <h3>Termine</h3>
-
-      {% for event in site.data.events limit:3 %}
-        {% include event.html %}
-      {% endfor %}
-      <p><a href="/termine/index.html">weitere Termine... </a>
-
-
       </div>
     </div>
 

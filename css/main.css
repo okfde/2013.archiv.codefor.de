@@ -416,6 +416,10 @@ label {
     height: 80px; }
 
 /*-----  End of Lab Page  ------*/
+/*===============================
+=            Project            =
+===============================*/
+/*-----  End of Project  ------*/
 /*============================
 =            Blog            =
 ============================*/
@@ -431,8 +435,27 @@ label {
   .post-links a {
     text-decoration: underline; }
 
-.post-meta h4 {
-  margin: 0; }
+.post-title {
+  float: left; }
+
+.post-meta {
+  float: right;
+  text-align: right; }
+  .post-meta h4 {
+    margin: 0; }
+
+.post-page-nav {
+  text-align: center !important;
+  margin-top: 26px; }
+  .post-page-nav a:hover {
+    text-decoration: none; }
+
+.blog-page-nav {
+  margin-top: 26px; }
+  .blog-page-nav .newer {
+    float: left; }
+  .blog-page-nav .older {
+    float: right; }
 
 .post-description p:last-child {
   margin-bottom: 0; }

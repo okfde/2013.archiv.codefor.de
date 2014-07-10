@@ -584,6 +584,16 @@ $date-circle: 80px;
 
 /*-----  End of Lab Page  ------*/
 
+/*===============================
+=            Project            =
+===============================*/
+
+
+
+
+
+/*-----  End of Project  ------*/
+
 
 
 
@@ -612,11 +622,44 @@ $date-circle: 80px;
 	}
 }
 
+
+.post-title {
+	float: left;
+}
+
 .post-meta {
+	
+	float:right;
+	text-align: right; 
+
 	h4 {
 		margin: 0;
 	}
 }
+
+.post-page-nav {
+	text-align: center !important;
+	margin-top: 26px;
+	
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+.blog-page-nav {
+	
+	margin-top: 26px;
+
+	.newer { 
+		float: left;
+	}
+
+	.older { 
+		float: right;
+	}
+
+}
+
 
 .post-description {
 	p:last-child {
@@ -630,7 +673,6 @@ $date-circle: 80px;
 	height: auto;
 	display: block;
 }
-
 
 .twitter-feed {
 	.twitter-head {

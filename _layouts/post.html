@@ -14,26 +14,8 @@ layout: base
 		</div>
 		
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1" >
-				<div class="row">
-					<div class="col-lg-6 twitter-feed">
-						{% include twitter-feed.html  %}
-					</div>
-
-					<div class="col-lg-6">
-						<h3>Newsletter</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1" >
-				<h3>Termine</h3>
-				{% for event in site.data.events limit:3 %}
-				{% include event.html %}
-				{% endfor %}
-				<a href="/termine/index.html">weitere Termine... </a>
+			<div class="col-lg-10 col-lg-offset-1 post-page-nav" >
+					<a href="/news">~ Zurück zum Blog ~</a>	
 			</div>
 		</div>
 
