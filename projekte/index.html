@@ -12,8 +12,14 @@ title: Projekt Showcase
     <h3 class="pull-left">Projekt Showcase</h3>
     <span class="h4 pull-right"><a href="/projekte/alle.html">Alle Projekte...</a></span>
     </div>
+     <h3 id="projects"> Projekte </h3>
+      <div class="loading">
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <div>...laden...</div>
+      </div>
+     <div class="packery-container">
 
-    <div class="packery-container">
+
       <div class="packery-item-gutter"></div>
       {% for sitepage in site.pages %}
       {% if sitepage.showcase AND sitepage.layout == 'project' %}

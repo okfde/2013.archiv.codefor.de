@@ -539,6 +539,9 @@ $date-circle: 80px;
 	}
 }
 
+.packery-container {
+	visibility: hidden;
+}
 
 .packery-item-gutter{
 	width: 5%;
@@ -553,7 +556,6 @@ $date-circle: 80px;
 }
 
 .project-link-list, .post-links, .project-links {
-
 	margin-bottom: 26px;
 }
 
@@ -641,6 +643,17 @@ $date-circle: 80px;
 /*============================
 =            Blog            =
 ============================*/
+
+.blog-header {
+	
+	&:after {
+		content: 'A';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+}
 
 .blog-post-teaser {
 	

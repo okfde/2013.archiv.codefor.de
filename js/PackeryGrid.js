@@ -7,7 +7,7 @@
 
     PackeryGrid.prototype.constructor = PackeryGrid;
 
-    var ref, $container, itemClass, itemGutterClass, $items,initialized;
+    var ref, $container, itemClass, itemGutterClass, $items,initialized, $loading;
     function PackeryGrid(pContainerClass,pItemClass, pItemGutterClass){
 
         ref = this;
@@ -15,6 +15,8 @@
         itemGutterClass = pItemGutterClass;
         $container = $(pContainerClass);
         $items = $(itemClass);
+        $loading = $('.loading');
+
         ref.layout();
 
 
@@ -22,9 +24,8 @@
 
     PackeryGrid.prototype.layout = function()
     {
-
+        /*
         ref.pack();
-
         $items.each(function(i){
             var $img = $('img');
             var $that = $(this);
@@ -42,14 +43,20 @@
                 $that.css('display','block');
             }
 
-        });
-
-        /*
-        $container.imagesLoaded( function() {
-
         });*/
+
+        $container.imagesLoaded( function() {
+            $container.packery({
+                // options...
+                itemSelector: itemClass,
+                columnWidth: itemGutterClass
+            }).packery('bindResize').css({visibility: 'visible'});
+            $loading.css({display: 'none'});
+            initialized=true;
+        });
     }
 
+    /*
     PackeryGrid.prototype.pack = function()
     {
         if(initialized)$container.packery('destroy');
@@ -59,7 +66,7 @@
             columnWidth: itemGutterClass
         }).packery('bindResize');
         initialized=true;
-    }
+    }*/
 
     window.PackeryGrid = PackeryGrid;
 
