@@ -10,7 +10,7 @@ tags:
 
 images: 
 - imgname: lab_profiles/berlin.jpg
-  sub: CC-BY-AT-2.0 von Thomas Quinet https://www.flickr.com/photos/quinet/
+  sub: CC-BY-AT-2.0 von Wolfgang Staudt
 ---
 
 Berlin
@@ -20,7 +20,8 @@ Es waren zu einem Treffen bereits Vertreter aus der Berliner Senatsverwaltung un
 Eines der Projekte war die Visualisierung der Bebauungspläne für das Tempelhofer Feld, eine große Naherholungsfläche auf dem Gelände des ehemaligen Tempelhofer Flughafens. Über die weitere Nutzung des Geländes gab es eine Volksabstimmung, in der Bürger und Bürgerinnen entscheiden sollten. Die Visualisierung half dabei, greifbarer zu machen, welche Optionen zur Auswahl stehen. Das Projekt war so überzeugend, dass es [von einer Berliner Zeitung adaptiert][] und weiterentwickelt und zog eine Menge positives Feedback nach sich. 
 Das Lab in Berlin sprudelt nur so von Ideen und es kommen auch immer wieder neue Leute hinzu, die neuen Input mit sich bringen. Also: Stay Tuned - es bleibt wie immer spannend in Berlin! 
 
-
+[CC-BY-AT-2.0]: https://creativecommons.org/licenses/by/2.0/deed.de
+[Wolfgang Staudt]: https://www.flickr.com/photos/wolfgangstaudt/
 [Berliner OK Lab]: http://codefor.de/berlin
 [solidarischer Landwirtschaft]: https://ernte-teilen.org
 [Bebauungspläne]: http://buergerbautstadt.de
