@@ -528,8 +528,7 @@ label {
     text-decoration: none; }
 
 .twitter-feed .twitter-head h3 {
-  float: left;
-  margin-bottom: 0; }
+  float: left; }
 .twitter-feed .twitter-head .follow-twitter {
   float: right;
   margin-top: 24px; }
