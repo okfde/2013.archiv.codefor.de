@@ -3,12 +3,16 @@ layout: post
 
 title: "Letztes und nächstes Treffen: Projekte!"
 author: Matt
+excerpt: Ein kleines Update aus dem OK Lab München - was war, was ist, was kommt?
 
+tags:
+- aus-den-labs
+
+images:
+- imgname: muenchen/JuneEventSign.jpg
 ---
 
 Am 17. Juni 2014 haben wir uns im [Chaos Computer Club (CCC)][CCC] getroffen (vielen Dank an Andi und die CCC-Mitglieder, dass wir dort zu Gast sein dürfen!).
-
-![Ankündigung](/assets/blog/muenchen/JuneEventSign.jpg)
 
 Der Ort war perfekt geeignet zum Brainstorming und daraus sind zwei konkrete Projekte entstanden:
 

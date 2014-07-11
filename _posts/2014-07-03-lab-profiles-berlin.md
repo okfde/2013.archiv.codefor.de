@@ -1,11 +1,17 @@
 ---
 layout: post
 
-title: Lab Profiles
+title: Das OK Lab Berlin
 author: Fiona
+excerpt: Das OK Lab Berlin das größte der bisher vierzehn Labs. Bei so vielen kreativen Köpfen lohnt es sich, einmal genauer hinzuschauen und in den Projekten zu stöbern.
 
+tags:
+- aus-den-labs
+
+images: 
+- imgname: lab_profiles/berlin.jpg
+  sub: CC-BY-AT-2.0 von Thomas Quinet https://www.flickr.com/photos/quinet/
 ---
-
 
 Berlin
 
