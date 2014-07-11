@@ -7,16 +7,6 @@
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Pad
 
-- lab: OK Lab München
-  name: OK LAB MAPPING PROJEKT
-  time: 19-21 Uhr
-  location: Königin 43 (http://barer61.de/konigin/) 
-  day: Dienstag
-  day-nr: "8"
-  month: Juli 2014
-  link-url: http://codefor.de/blog/muenchen-projekte/
-  link-name: Blog Post
-
 - lab: OK Lab Münster
   name: 5. Hacknight
   time: 19 - Open End
@@ -30,10 +20,10 @@
 - lab: OK Lab München
   name: OK LAB MÜNCHEN TREFFEN
   time: 19-21 Uhr
-  location: Hubert Burda Media (Burda Bar) im Arabellapark (Arabellastraße 23) 
+  location: noch offen
   day: Donnerstag
-  day-nr: "10"
-  month: Juli 2014
+  day-nr: "14"
+  month: August 2014
   link-url: http://codefor.de/blog/muenchen-projekte/
   link-name: Blog Post
 
