@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Lab Profiles
+title: Das Hamburger OK Lab
 author: Fiona
 excerpt: Die Jungs und Mädels aus Hamburg sind absolute Experten auf dem Gebiet der Datenvisualisierung und unheimlich gut vernetzt. Wir wollen sie näher vorstellen...
 
