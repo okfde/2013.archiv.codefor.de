@@ -3,12 +3,26 @@ layout: base
 
 ---
 
+
 <!-- Blog -->
+
 <div class="jumbotron fond__grey">
   <div class="container">
     <div class="row">
+      <div id="animation-wrapper" class="col-lg-12">
+     <h1 class="cta text__blue animated-claim"><span class="text__red">![</span>Blog<span class="text__red">]</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="fond__grey">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8" >
-      	<h3>Blog</h3>
+        
          {% for post in paginator.posts %}
             {% include post-teaser.html %}
          {% endfor %}
@@ -26,8 +40,33 @@ layout: base
          </div>
      </div>
 
-     <div class="col-lg-4" >
+     <div class="col-lg-4 blog-sidebar" >
        {% include twitter-feed.html  %}
+
+      <img src="http://placehold.it/444x333&text=flyer1" class="img-responsive" alt="">
+
+      <img src="http://placehold.it/444x333&text=flyer2" class="img-responsive" alt="">
+
+      <div class="blog-sidebar-nl-signup">
+        <form action="http://okfn.us5.list-manage.com/subscribe/post?u=929f1e07936386d34833e20d1&amp;id=bb63fcab72" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center mc-form" target="_blank" role="form">
+            <h3>Newsletter</h3>
+            <p> Du möchtest auf dem Laufenden bleiben über Code for Germany? <br> Dann trag Dich in unseren monatlichen Newsletter ein: </p>
+            <div class="mc-field-group form-group form-group-newsletter text-left">
+                <label for="mce-EMAIL" class="sr-only" >E-Mail</label>
+                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="E-Mail" required >
+                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen">Abonnieren!</button>
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value="">
+                    <!-- set to newsletter only-->
+                    <input type="checkbox" value="1" checked="checked" name="group[16985][1]" id="mce-group[16985]-16985-0" style="display:none;">
+                  </div>
+            </div>
+          </form>
+      </div>
+    
+      <div class="rss-feed">
+        <h3><a href="#">RSS Feed <i class="fa fa-rss-square"></i></a></h3>
+      </div>
+
       </div>
     </div>
 
