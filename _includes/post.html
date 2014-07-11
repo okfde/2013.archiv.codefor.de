@@ -1,21 +1,19 @@
 <div class="event-wrapper fond__white clearfix">
   <div class="post-header clearfix">
-    <h2 class="post-title pull-left" ><a href="{{ [include.param]url }}">{{ [include.param]title }}</a></h2>
-    <div class="post-meta text__green text-right pull-right">
-    <h4 class="post-title"> {{ [include.param]author }} </h4>
-          {{ [include.param]date | date_to_string }}
+    <h1 class="post-title" ><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <div class="post-meta">
+      <span class="blog-author-and-date"> von {{ page.author }} am {{ page.date | date: "%d.%m.%y" }}</span><br>
+      <span class="blog-tags"> in {% for tag in page.tags %} {{ tag }}{% unless forloop.last %}, {% endunless %} {% endfor %} </span>
     </div>
   </div>
-  <div class="post-description">{{ [include.param]content | markdownify }}</div>
+  <div class="post-description">{{ page.content | markdownify }}</div>
 
   <ul class="list-unstyled post-links" >
-    {% for link in [include.param]links %}
+    {% for link in page.links %}
     <li>
       <a href="{{ link.url }}">{{ link.name }}</a>
     </li>
     {% endfor %}
   </ul>
   
-  {% for image in [include.param]images %}<img src="/assets/blog/{{ image.imgname }}" alt="{{ image.alt }}" class="post-image"{% if image.height %} style="height: {{ image.height }};"{% endif %}>{% endfor %}
-
 </div>
