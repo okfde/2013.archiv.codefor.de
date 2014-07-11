@@ -4,9 +4,7 @@ title: Alle Projekte
 
 ---
 
-
 <!-- Projekte -->
-{% unless project_count == 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
     <div class="clearfix">
@@ -14,10 +12,12 @@ title: Alle Projekte
     <span class="h4 pull-right"><a href="/projekte">Projekt Showcase...</a></span>
     </div>
 
-      {% for post in site.projekte %}
-          {% include project-teaser-slim.html %}
+      {% for sitepage in site.pages %}
+		{% if sitepage.layout == 'project' %}
+       	 {% include project-teaser-slim.html %}
+       	{% endif %}
+
       {% endfor %}
   </div>
 </div>
-{%endunless%}
 <!-- Projekte End -->

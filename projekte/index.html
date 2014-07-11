@@ -6,7 +6,6 @@ title: Projekt Showcase
 
 
 <!-- Projekte -->
-{% unless project_count == 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
     <div class="clearfix">
@@ -16,12 +15,11 @@ title: Projekt Showcase
 
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for post in site.projekte %}
-      {% if post.showcase %}
+      {% for sitepage in site.pages %}
+      {% if sitepage.showcase AND sitepage.layout == 'project' %}
         <div class="packery-item" >
           {% include project-teaser.html %}
         </div>
-
       {% endif %}
       {% endfor %}
 
@@ -29,7 +27,6 @@ title: Projekt Showcase
     <span class="h4"><a href="/projekte/alle.html">Alle Projekte...</a></span>
   </div>
 </div>
-{%endunless%}
 <!-- Projekte End -->
 
 <script src="/js/lib/packery.pkgd.min.js"></script>

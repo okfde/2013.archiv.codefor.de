@@ -1,24 +1,24 @@
 <div class="project-wrapper fond__white clearfix">
 
-  {% if post.imgname %}
-  <a href="{{ post.url }}"><img src="/assets/projects/{{ post.imgname }}" alt="Project Image" class="project-image img-responsive"></a>
+  {% if sitepage.imgname %}
+  <a href="{{ sitepage.url }}"><img src="/assets/projects/{{ sitepage.imgname }}" alt="Project Image" class="project-image img-responsive"></a>
   {% endif %}
   
-  <h4 class="project-title"><a href="{{ post.url }}"> {{ post.title }}</a></h4>
-  <p class="project-description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+  <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
+  <p class="project-description">{{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
   
   <div class="project-footer clearfix">
 
     {% for sitepage in site.pages %}
-    {% if sitepage.lab == post.lab %}
-    {% assign lab = sitepage.url %}
+    {% if sitesitepage.lab == sitepage.lab %}
+    {% assign lab = sitesitepage.url %}
     {% endif %}
     {% endfor%}
 
-    <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ post.lab }}</a></div>
+    <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
     
-    {% if post.status %}
-    {% assign status = post.status %}
+    {% if sitepage.status %}
+    {% assign status = sitepage.status %}
     {% else %}
     {% assign status = 'In Progress' %}
     {% endif %}
