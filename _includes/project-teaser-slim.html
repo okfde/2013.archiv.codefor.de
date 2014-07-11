@@ -1,22 +1,22 @@
 <div class="project-wrapper project-teaser-slim fond__white clearfix">
   <div class="row">
     <div class="col-lg-6">
-      <h4 class="project-title"><a href="{{ post.url }}"> {{ post.title }}</a></h4>
-      <p class="project-description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+      <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
+      <p class="project-description">{{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
       <div class="project-footer clearfix">
 
         {% for sitepage in site.pages %}
-        {% if sitepage.lab == post.lab %}
-        {% assign lab = sitepage.url %}
+        {% if sitesitepage.lab == sitepage.lab %}
+        {% assign lab = sitesitepage.url %}
         {% endif %}
         {% endfor%}
 
-        <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ post.lab }}</a></div>
+        <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
 
-        {% if post.status %}
-        {% assign status = post.status %}
+        {% if sitepage.status %}
+          {% assign status = sitepage.status %}
         {% else %}
-        {% assign status = 'In Progress' %}
+          {% assign status = 'In Progress' %}
         {% endif %}
 
         <div class="project-status pull-right">{{ status }}</div>
@@ -25,15 +25,15 @@
 
     <div class="col-lg-6">
 
-      {% if post.imgname-teaser %}
-      {% assign imgname = post.imgname-teaser %}
-      {% elsif post.imgname %}
-      {% assign imgname = post.imgname %}
+      {% if sitepage.imgname-teaser %}
+        {% assign imgname = sitepage.imgname-teaser %}
+      {% elsif sitepage.imgname %}
+        {% assign imgname = sitepage.imgname %}
       {% endif %}
 
 
-      {% if post.imgname OR post.imgname-teaser %}
-      <a href="{{ post.url }}">
+      {% if sitepage.imgname OR sitepage.imgname-teaser %}
+      <a href="{{ sitepage.url }}">
         <div class="image-crop">
           <img src="/assets/projects/{{ imgname }}" alt="Project Image" class="project-image img-responsive">
         </div>

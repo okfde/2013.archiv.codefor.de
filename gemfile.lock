@@ -1,0 +1,4 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll (1.5.1)
