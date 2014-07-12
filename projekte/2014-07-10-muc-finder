@@ -1,0 +1,47 @@
++---
+ +layout: project
+ +lab: OK Lab München
+ #+imgname: munich/finder.png
+ +title: Web-App zur Auffindung von Defibrillatoren (AEDs) in direkter Umgebung
+ +
+ +#for future links
+ +#links: 
+ +#- url: http://community.codefor.de/entwicklung-berlins/
+ +#  name: Website
+ +
+ +colaborators:
+ +- name: Mario Haim
+ +  links:
+ +  - url: http://twitter.com/DrFollowMario
+ +    url-name: twitter
+ +  - url: http://github.com/MarHai
+ +    url-name: github
+ +
+ +- name: Maximilian Hackenschmied
+ +  links:
+ +  - url: http://twitter.com/mazemilian
+ +    url-name: twitter
+ +  - url: http://github.com/mazemilian
+ +    url-name: github
+ +    
+ +- name: Andreas Hubel
+ +  links:
+ +  - url: http://twitter.com/saerdnaer
+ +    url-name: twitter
+ +  - url: http://github.com/saerdnaer
+ +    url-name: github
+ +    
+ +- name: Sebastian Rehm
+ +  links:
+ +  - url: http://twitter.com/_bastiRe
+ +    url-name: twitter
+ +  - url: http://github.com/bastiRe
+ +    url-name: github
+ +    
+ +---
+ +
+ +Das Projekt ist zweigleisig organisiert:
+ +1. Generische Web-App
+ +Ziel ist eine Web-App, die es ermöglicht, aus OpenStreetMap zur Verfügung gestellten Daten das geografisch nächste Objekt (Node) unmittelbar anzuzeigen. Der Code soll mit einer Daten-Anbindung (vermutlich via Overpass API) und einigen Einstellungen einfach zu einer Lokalisierungsapp zusammengestellt werden können.
+ +2. Konkrete Anwendung mit Defi-Daten
+ +Als erste Vorzeige-App soll die Web-App mit lokalen Daten zu Defibrillator-Standorten in München gefüllt werden.
