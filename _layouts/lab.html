@@ -103,7 +103,7 @@ layout: base
 <!-- Termine End -->
 
 <!-- Projekte -->
-{% unless project_count == 0 %}
+{% if project_count > 0 %}
 <div class="jumbotron fond__blue">
   <div class="container">
     <h3 id="projects">Projekte</h3> 
@@ -125,7 +125,7 @@ layout: base
     </div>
   </div>
 </div>
-{%endunless%}
+{% endif %}
 <!-- Projekte End -->
 
 <!-- Mitglieder-->
