@@ -1,13 +1,7 @@
 +---
  +layout: project
- +lab: OK Lab München
- #+imgname: munich/finder.png
+ +lab: OK Lab München #needed for event and project aggregation
  +title: Web-App zur Auffindung von Defibrillatoren (AEDs) in direkter Umgebung
- +
- +#for future links
- +#links: 
- +#- url: http://community.codefor.de/entwicklung-berlins/
- +#  name: Website
  +
  +colaborators:
  +- name: Mario Haim
