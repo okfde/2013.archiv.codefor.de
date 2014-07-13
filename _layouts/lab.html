@@ -103,7 +103,15 @@ layout: base
 <!-- Termine End -->
 
 <!-- Projekte -->
-{% if project_count > 0 %}
+{% assign project_count = 0 %}
+{% for sitepage in site.pages %}
+ {% if page.lab == sitepage.lab %}
+   {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+<!-- remove the ok lab's page -->
+{% capture project_count %}{{ project_count | minus:1 }}{% endcapture %}
+{% unless project_count == '0' %}
 <div class="jumbotron fond__blue">
   <div class="container">
     <h3 id="projects">Projekte</h3> 
@@ -125,7 +133,8 @@ layout: base
     </div>
   </div>
 </div>
-{% endif %}
+{% endunless %}
+
 <!-- Projekte End -->
 
 <!-- Mitglieder-->
