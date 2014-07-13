@@ -24,4 +24,4 @@ colaborators:
 
 Dokumente aus dem elektronischen Ratsinformationssystem (eRIS) der Stadt
 Leipzig werden auf einer Karte verortet. Eine Übersicht über Anträge und
-Beschlüsse die dein Viertel betreffen.
+Beschlüsse, die dein Viertel betreffen.
