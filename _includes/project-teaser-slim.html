@@ -1,4 +1,4 @@
-<div class="project-wrapper project-teaser-slim fond__white clearfix">
+<div class="project-wrapper project-teaser project-teaser-slim fond__white clearfix">
   <div class="row">
     <div class="col-sm-6 col-sm-push-6">
       {% if sitepage.imgname-teaser %}
@@ -21,11 +21,14 @@
       <p class="project-description">{{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
       <div class="project-footer clearfix">
 
-        {% for sitepage in site.pages %}
-        {% if sitesitepage.lab == sitepage.lab %}
-        {% assign lab = sitesitepage.url %}
-        {% endif %}
+        {% for labpage in site.pages %}
+          {% if labpage.lab == sitepage.lab %}
+            {% if labpage.layout == 'lab' %}
+              {% assign lab = labpage.url %}
+            {% endif %}
+          {% endif %}
         {% endfor%}
+
 
         <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
 

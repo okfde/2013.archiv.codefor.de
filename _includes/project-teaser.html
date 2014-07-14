@@ -9,18 +9,21 @@
   
   <div class="project-footer clearfix">
 
-    {% for sitepage in site.pages %}
-    {% if sitesitepage.lab == sitepage.lab %}
-    {% assign lab = sitesitepage.url %}
-    {% endif %}
+    {% for labpage in site.pages %}
+      {% if labpage.lab == sitepage.lab %}
+        {% if labpage.layout == 'lab' %}
+          {% assign lab = labpage.url %}
+        {% endif %}
+      {% endif %}
     {% endfor%}
+
 
     <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
     
     {% if sitepage.status %}
-    {% assign status = sitepage.status %}
+      {% assign status = sitepage.status %}
     {% else %}
-    {% assign status = 'In Progress' %}
+      {% assign status = 'In Progress' %}
     {% endif %}
 
     <div class="project-status">{{ status }}</div>

@@ -17,21 +17,16 @@
       <h4 class="project-title"> {{ [include.type]title }} </h4>
       <p class="project-description">{{ [include.type]content | remove: '<p>' | remove: '</p>' }}</p>
 
-      
-      {% for sitepage in site.pages %}
-      {% if sitepage.lab == [include.type]lab %}
-      {% assign lab = sitepage.url %}
-      {% endif %}
-      {% endfor%}
-
       <div class="project-footer clearfix">
         <div class="row">
           <div class="additional col-lg-6">
 
             {% for sitepage in site.pages %}
-            {% if sitepage.lab == post.lab %}
-            {% assign lab = sitepage.url %}
-            {% endif %}
+              {% if sitepage.lab == [include.type]lab %}
+                {% if sitepage.layout == 'lab' %}
+                  {% assign lab = sitepage.url %}
+                {% endif %}
+              {% endif %}
             {% endfor%}
             <div class="event-location  icon-before project-lab">
               <a href="{{ lab }}">{{ [include.type]lab }}</a>
