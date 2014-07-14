@@ -6,7 +6,7 @@ author: Fiona
 excerpt: Das OK Lab Berlin ist das größte der bisher vierzehn Labs. Bei so vielen kreativen Köpfen lohnt es sich, einmal genauer hinzuschauen und in den Projekten zu stöbern.
 
 tags:
-- aus-den-labs
+- Aus den Labs
 
 images: 
 - imgname: lab_profiles/berlin.jpg

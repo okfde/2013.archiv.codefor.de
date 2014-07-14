@@ -3,7 +3,7 @@ description: "Stadt&lt;entwickler /&gt;nutzen offene Daten um ihre Stadt zu verb
 url: http://codefor.de
 markdown: kramdown
 exclude: ["vendor"]
-permalink: /:categories/:title
+permalink: /blog/:title
 excerpt_separator: "\n"
 paginate: 5
 paginate_path: "blog/:num"

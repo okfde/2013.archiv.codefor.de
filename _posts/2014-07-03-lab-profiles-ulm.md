@@ -9,8 +9,8 @@ images:
 - imgname: ulm.jpg
   sub: Ulmer Neutorbruecke (CC-by-sa-3.0-de Wolfgang Pehlemann)
 
-tags:
-  - aus-den-labs
+tags: 
+  - Aus den Labs
 
 ---
 ![ulm](/assets/blog/lab_profiles/ulm.jpg)

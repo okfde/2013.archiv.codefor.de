@@ -6,7 +6,7 @@ author: Fiona
 excerpt: Das OK Lab in Heilbronn ist eines dieser kleinen, aber umwerfend feinen Labs. Eine Handvoll Interessierter hat gemeinsam eine informative Anwendung zur Trinkwasserqualität in der Region gebaut.
 
 tags: 
-- aus-den-labs
+- Aus den Labs
 
 images:
 - imgname: heilbronn.jpg

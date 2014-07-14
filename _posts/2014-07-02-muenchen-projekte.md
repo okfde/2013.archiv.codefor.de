@@ -6,7 +6,7 @@ author: Matt
 excerpt: Ein kleines Update aus dem OK Lab München - was war, was ist, was kommt?
 
 tags:
-- aus-den-labs
+- Aus den Labs
 
 images:
 - imgname: muenchen/JuneEventSign.jpg
