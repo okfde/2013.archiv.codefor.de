@@ -15,7 +15,7 @@
     {% endif %}
     {% endfor%}
 
-    <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
+    <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
     
     {% if sitepage.status %}
     {% assign status = sitepage.status %}
@@ -23,6 +23,6 @@
     {% assign status = 'In Progress' %}
     {% endif %}
 
-    <div class="project-status pull-right">{{ status }}</div>
+    <div class="project-status">{{ status }}</div>
   </div>
 </div>

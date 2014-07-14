@@ -222,6 +222,11 @@ label {
 	font-size: 16px;
 }
 
+.page-title {
+	font-size: 63px;
+	margin: 60px 0;
+}
+
 /*-----  End of Typography  ------*/
 
 
@@ -604,24 +609,12 @@ $date-circle: 80px;
 
 .project-teaser-slim .image-crop {
 		
-		position: relative;
-		height: 245px;
-		overflow: hidden;
+	position: relative;
 
-		.project-image {
-	
-		position:absolute;
-	    left: -100%;
-	    right: -100%;
-	    top: -100%;
-	    bottom: -100%;
-	    margin: auto; 
-	    height: auto;
+	.project-image {
 	    width: 100%;
-
-		}
-
 	}
+}
 	
 
 
@@ -659,15 +652,13 @@ $date-circle: 80px;
 		margin-top: 0;
 	}
 
-	h2 {
-		width: 60%;
-	}
-
 	img {
 		max-width: 80%;
 		margin: 30px auto;
-
 	}
+
+	overflow: hidden;
+
 }
 
 .blog-sidebar {
@@ -708,12 +699,15 @@ $date-circle: 80px;
 
 .post {
 	.event-wrapper {
-		padding: 80px;
+		&:first-child {
+			margin-top: 0;
+		}
 	}
 
 	h2, h3 {
 		font-size: 18px;
 	}
+	
 }
 
 .post-links {
@@ -724,32 +718,17 @@ $date-circle: 80px;
 }
 
 .post-title {
-	float: left;
 	margin-top: 0;
 }
 
 .post-meta {
 
-	float:right;
-	text-align: right; 
 	font-size: 14px;
 	line-height: 16px;
 	color: gray;
-	width: 40%;
 
 	a {
 		color: gray;
-	}
-
-
-}
-
-
-
-
-.post-description {
-	p:last-child {
-		margin-bottom: 0;
 	}
 }
 
@@ -761,6 +740,11 @@ $date-circle: 80px;
 	height: auto;
 	display: block;
 	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
 }
 
 .post-img-caption {
@@ -859,6 +843,44 @@ $date-circle: 80px;
 		max-width: 25%;
 	}
 
+	.post-title {
+		float: left;
+		width: 60%;
+
+	}
+
+	.post-meta {
+		float:right;
+		width: 40%;
+		text-align: right; 
+	}
+
+	.project-status {
+		float: right;
+	}
+
+	.project-lab {
+		float: left;
+	}
+
+	.project-teaser-slim .image-crop {
+		
+	height: 245px;
+	overflow: hidden;
+
+	.project-image {
+		position:absolute;
+	    left: -100%;
+	    right: -100%;
+	    top: -100%;
+	    bottom: -100%;
+	    margin: auto; 
+	    height: auto;
+	}
+}
+	
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -912,6 +934,11 @@ $date-circle: 80px;
 		min-width: 50%;
 	}
 
+	.post {
+		.event-wrapper {
+			padding: 80px;	
+		}
+	}
 }
 
 @media screen and (min-width: 1200px) {
