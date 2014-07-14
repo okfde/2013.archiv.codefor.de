@@ -574,10 +574,9 @@ label {
     width: 40%;
     text-align: right; }
 
-  .project-status {
+  .project-teaser .project-status {
     float: right; }
-
-  .project-lab {
+  .project-teaser .project-lab {
     float: left; }
 
   .project-teaser-slim .image-crop {

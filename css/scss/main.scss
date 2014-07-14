@@ -855,12 +855,15 @@ $date-circle: 80px;
 		text-align: right; 
 	}
 
-	.project-status {
-		float: right;
-	}
+	.project-teaser {
 
-	.project-lab {
-		float: left;
+		.project-status {
+			float: right;
+		}
+
+		.project-lab {
+			float: left;
+		}
 	}
 
 	.project-teaser-slim .image-crop {

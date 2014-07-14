@@ -59,10 +59,14 @@
             {% assign status = 'In Progress' %}
             {% endif %}
             <div class="project-status ">{{ status }}</div>
-            <br>
+           
+
+            {% if [include.type]links  %}
+              <br>
             <div class="project-links links project-lab">
              Links
            </div>
+           
            <ul class="list-unstyled project-link-list" >
             {% for link in [include.type]links %}
             <li>
@@ -70,6 +74,8 @@
             </li>
             {% endfor %}
           </ul>
+          {% endif%}
+
         </div>
       </div>
     </div>
