@@ -617,7 +617,14 @@ $date-circle: 80px;
 	}
 }
 	
-
+.project-description {
+	p {
+		margin: 0 0 10px 0;
+		&:last-child {
+			margin-bottom: 26px;
+		}
+	}
+}
 
 .loading {
 	text-align: center;
@@ -656,6 +663,10 @@ $date-circle: 80px;
 	img {
 		max-width: 80%;
 		margin: 30px auto;
+	}
+
+	a {
+		text-decoration: none !important;
 	}
 
 	overflow: hidden;

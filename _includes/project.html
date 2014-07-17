@@ -15,7 +15,7 @@
     
     <div class="{{ classCols }} {{ classColRight }}">
       <h4 class="project-title"> {{ [include.type]title }} </h4>
-      <p class="project-description">{{ [include.type]content | remove: '<p>' | remove: '</p>' }}</p>
+      <div class="project-description">{{ [include.type]content | markdownify }}</div>
 
       <div class="project-footer clearfix">
         <div class="row">

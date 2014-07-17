@@ -12,8 +12,14 @@
   
   {% if post.images %}
     <a href="{{ post.url }}"><img src="/assets/blog/{{ post.images[0].imgname }}" alt="{{ post.images[0].alt }}" class="img-responsive"></a>
-    <span class="post-img-caption">{{ post.images[0].sub }}</span>
+    {% if post.images[0].sub %}<span class="post-img-caption">{{ post.images[0].sub }}</span>{% endif %}
   {% endif %}
 
-  <div class="post-description">{{ post.excerpt | markdownify }}</div>
+  <div class="post-description">
+    <p>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+        <a href="{{ post.url }}">Mehr...</a>
+
+    </p>
+  </div>
 </div>

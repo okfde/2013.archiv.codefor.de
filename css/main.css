@@ -435,6 +435,11 @@ label {
   .project-teaser-slim .image-crop .project-image {
     width: 100%; }
 
+.project-description p {
+  margin: 0 0 10px 0; }
+  .project-description p:last-child {
+    margin-bottom: 26px; }
+
 .loading {
   text-align: center; }
   .loading i {
@@ -459,6 +464,8 @@ label {
   .blog-post-teaser img {
     max-width: 80%;
     margin: 30px auto; }
+  .blog-post-teaser a {
+    text-decoration: none !important; }
 
 .blog-sidebar img {
   margin: 26px 0; }
