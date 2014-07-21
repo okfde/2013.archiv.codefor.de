@@ -54,15 +54,6 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1187922/
   link-name: Meet-Up
 
-- lab: OK Lab Köln
-  name: OK Lab Köln Treffen
-  time: 19 - 22
-  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
-  day-nr: "21"
-  month: Juli 2014
-  link-url: http://www.meetup.com/OKLab-Koln-Meetup
-  link-name: Meet-Up
-
 - lab: OK Lab Gießen
   name: OK LAB GIEßEN 3. Treffen
   time: 18:30-19:30
@@ -92,3 +83,12 @@
   month: Juli 2014
   link-url: http://www.tu-chemnitz.de/urz/stammtisch/
   link-name: Mehr Info
+
+- lab: OK Lab Köln
+  name: OK Lab Köln Treffen
+  time: 19 - 22
+  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
+  day-nr: "4"
+  month: August 2014
+  link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Meet-Up
