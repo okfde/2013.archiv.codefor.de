@@ -63,16 +63,6 @@
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
 
-- lab: OK Lab Heilbronn
-  name: OK LAB HEILBRONN CODING-TREFFEN
-  time: 18-22 Uhr
-  location: Computer Club 86 e.V., Schützenstraße 16, 74072 Heilbronn
-  day: Donnerstag
-  day-nr: "24"
-  month: Juli 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
-  link-name: Mehr Info
-
 - lab: OK Lab Gießen
   name: OK LAB GIEßEN 3. Treffen
   time: 18:30-19:30
@@ -83,5 +73,22 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
-  
+- lab: OK Lab Heilbronn
+  name: OK LAB HEILBRONN CODING-TREFFEN
+  time: 18-22 Uhr
+  location: Computer Club 86 e.V., Schützenstraße 16, 74072 Heilbronn
+  day: Donnerstag
+  day-nr: "24"
+  month: Juli 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
+  link-name: Mehr Info
 
+- lab: OK Lab Chemnitz
+  name: UNIX-Stammtisch
+  time: "17:30"
+  location: Altes Heizhaus im Innenhof der TU Chemnitz, Str. der Nationen 62
+  day: Dienstag
+  day-nr: "29"
+  month: Juli 2014
+  link-url: http://www.tu-chemnitz.de/urz/stammtisch/
+  link-name: Mehr Info
