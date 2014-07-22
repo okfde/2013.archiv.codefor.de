@@ -12,7 +12,11 @@ BLACKLIST = ('blog', '_site',)
 
 def get_github(username):
     response = requests.get('https://api.github.com/users/' + username)
-    return response.json()['avatar_url']
+    response_json = response.json()
+    if 'avatar_url' in response_json:
+        return response_json['avatar_url']
+    else:
+        return False
 
 
 avatar_source = [
@@ -45,13 +49,14 @@ def main():
                                 if username in existing:
                                     break
                                 image_url = get_image(username)
-                                image = requests.get(image_url, stream=True)
-                                image_path = os.path.join(AVATAR_PATH, username + '.jpg')
-                                logging.debug('Downloading image to %s', image_path)
-                                with open(image_path, 'wb') as fd:
-                                    for chunk in image.iter_content(1024):
-                                        fd.write(chunk)
-                                break
+                                if image_url:
+                                    image = requests.get(image_url, stream=True)
+                                    image_path = os.path.join(AVATAR_PATH, username + '.jpg')
+                                    logging.debug('Downloading image to %s', image_path)
+                                    with open(image_path, 'wb') as fd:
+                                        for chunk in image.iter_content(1024):
+                                            fd.write(chunk)
+                                    break
 
 if __name__ == '__main__':
     main()
