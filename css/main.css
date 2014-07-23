@@ -508,6 +508,9 @@ label {
   max-width: 70%;
   height: auto;
   display: block; }
+.post-description iframe {
+  margin: 30px auto;
+  display: block; }
 .post-description p:last-child {
   margin-bottom: 0; }
 

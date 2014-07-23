@@ -747,10 +747,17 @@ $date-circle: 80px;
 .post-description {
 	
 	img {
-	margin: 30px auto;
-	max-width: 70%;
-	height: auto;
-	display: block;
+		margin: 30px auto;
+		max-width: 70%;
+		height: auto;
+		display: block;
+	}
+
+	iframe {
+
+		margin: 30px auto;
+		display: block;
+
 	}
 
 	p:last-child {
