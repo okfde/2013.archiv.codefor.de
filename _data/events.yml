@@ -54,16 +54,6 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1187922/
   link-name: Meet-Up
 
-- lab: OK Lab Gießen
-  name: OK LAB GIEßEN 3. Treffen
-  time: 18:30-19:30
-  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
-  day: Montag
-  day-nr: "21"
-  month: Juli 2014
-  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
 - lab: OK Lab Heilbronn
   name: OK LAB HEILBRONN CODING-TREFFEN
   time: 18-22 Uhr
@@ -82,6 +72,16 @@
   day-nr: "29"
   month: Juli 2014
   link-url: http://www.tu-chemnitz.de/urz/stammtisch/
+  link-name: Mehr Info
+
+- lab: OK Lab Gießen
+  name: OK LAB GIEßEN Meetup
+  time: 18:30-19:30
+  location: A12.1.16, Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen
+  day: Montag
+  day-nr: "04"
+  month: August 2014
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
 - lab: OK Lab Köln
