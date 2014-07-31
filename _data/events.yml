@@ -65,13 +65,13 @@
   link-name: Mehr Info
 
 - lab: OK Lab Chemnitz
-  name: UNIX-Stammtisch
-  time: "17:30"
-  location: Altes Heizhaus im Innenhof der TU Chemnitz, Str. der Nationen 62
-  day: Dienstag
-  day-nr: "29"
-  month: Juli 2014
-  link-url: http://www.tu-chemnitz.de/urz/stammtisch/
+  name: Reguläres Treffen
+  time: 19 - 22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "07"
+  month: August 2014
+  link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
 
 - lab: OK Lab Gießen
