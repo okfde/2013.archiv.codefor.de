@@ -36,14 +36,6 @@
   month: Juli 2014
   link-url: http://pad.okfn.org/p/oklab-leipzig
   link-name: Pad
-
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn - Treffen #5
-  time: 19 - Open End
-  location: tba
-  day: Mittwoch
-  day-nr: "16"
-  month: Juli 2014
   
 - lab: OK Lab Berlin
   name: Meet-Up
@@ -92,3 +84,35 @@
   month: August 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: Nahe Raum E1.311, Universität Paderborn
+  day: Mittwoch
+  day-nr: "13"
+  month: August 2014
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: Nahe Raum E1.311, Universität Paderborn
+  day: Mittwoch
+  day-nr: "27"
+  month: August 2014
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: Nahe Raum E1.311, Universität Paderborn
+  day: Mittwoch
+  day-nr: "10"
+  month: September 2014
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: Nahe Raum E1.311, Universität Paderborn
+  day: Mittwoch
+  day-nr: "24"
+  month: September 2014
