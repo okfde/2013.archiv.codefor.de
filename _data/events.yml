@@ -18,6 +18,15 @@
   link-url: http://codefor.de/blog/treffen-muenchen/
   link-name: Blog Post
 
+- lab: OK Lab Leipzig
+  name: Wir arbeiten gemeinsam an Civic Apps für Leipzig
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "14"
+  month: August 2014
+  link-url: http://pad.okfn.org/p/oklab-leipzig
+  link-name: Pad
+
 - lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
@@ -27,15 +36,6 @@
   month: August 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
-
-- lab: OK Lab Leipzig
-  name: Treffen mit Herr Wollschläger von der Lecos GmbH
-  time: 19 - 22
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day-nr: "14"
-  month: Juli 2014
-  link-url: http://pad.okfn.org/p/oklab-leipzig
-  link-name: Pad
 
 - lab: OK Lab Paderborn
   name: OK Lab Paderborn - Treffen #5
