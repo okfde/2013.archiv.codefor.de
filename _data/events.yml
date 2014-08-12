@@ -84,6 +84,15 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
+- lab: OK Lab Ulm
+  name: OK Lab Ulm Treffen
+  time: 18 - Open End
+  location: Universität Ulm, O27/341 (Besprechungsraum Verteilte Systeme)
+  day-nr: "18"
+  month: August 2014
+  link-url: http://ulmapi.de
+  link-name: Mehr Info
+
 - lab: OK Lab Köln
   name: OK Lab Köln Treffen
   time: 19 - 22
