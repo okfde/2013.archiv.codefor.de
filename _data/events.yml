@@ -37,14 +37,6 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn - Treffen #5
-  time: 19 - Open End
-  location: tba
-  day: Mittwoch
-  day-nr: "16"
-  month: Juli 2014
-
 - lab: OK Lab Berlin
   name: Meet-Up
   time: 19 - 22
@@ -104,7 +96,16 @@
   link-url: http://ulmapi.de
   link-name: Mehr Info
 
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: E1.311, Universität Paderborn, Warburger Str. 100, 33098 Paderborn
+  day: Mittwoch
+  day-nr: "27"
+  month: August 2014
+
 - lab: OK Lab Köln
+
   name: OK Lab Köln Treffen
   time: 19 - 22
   location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
@@ -112,3 +113,21 @@
   month: September 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: E1.311, Universität Paderborn, Warburger Str. 100, 33098 Paderborn
+  day: Mittwoch
+  day-nr: "10"
+  month: September 2014
+
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 - Open End
+  location: E1.311, Universität Paderborn, Warburger Str. 100, 33098 Paderborn
+  day: Mittwoch
+  day-nr: "24"
+  month: September 2014
+
