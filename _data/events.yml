@@ -11,12 +11,10 @@
 - lab: OK Lab München
   name: OK LAB MÜNCHEN TREFFEN
   time: 19-21 Uhr
-  location: WERK1
+  location: tbd
   day: Donnerstag
-  day-nr: "14"
-  month: August 2014
-  link-url: http://codefor.de/blog/treffen-muenchen/
-  link-name: Blog Post
+  day-nr: "11"
+  month: September 2014
 
 - lab: OK Lab Leipzig
   name: Wir arbeiten gemeinsam an Civic Apps für Leipzig
