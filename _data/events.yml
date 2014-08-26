@@ -65,25 +65,14 @@
   link-name: Mehr Info
 
 - lab: OK Lab Gießen
-  name: Pizzathon einmal doodlen bitte
+  name: Pizzathon Bitte anmelden (Mail an Vincent)
   time: 18:30-19:30
   location: Pizzeria Karlsruh, Marburger Straße 200, 35396 Gießen
   day: Montag
   day-nr: "1"
   month: September 2014
-  link-url: http://doodle.com/hn2qbvtiqenxxn84
-  link-name: Doodle
-
-- lab: OK Lab Gießen
-  name: Pizzathon einmal doodlen bitte
-  time: 18:30-19:30
-  location: Pizzeria Karlsruh, Marburger Straße 200, 35396 Gießen
-  day: Montag
-  day-nr: "15"
-  month: September 2014
-  link-url: http://doodle.com/hn2qbvtiqenxxn84
-  link-name: Doodle
-
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
+  link-name: Mehr Info
 
 - lab: OK Lab Ulm
   name: OK Lab Ulm Treffen
