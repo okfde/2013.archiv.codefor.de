@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Links und News aus dem August in unserem Newsletter
+title: Der Code for Germany Newsletter
 author: Fiona
 excerpt: Wir haben wieder spannende News und Links für unseren Newsletter gesammelt.
 
