@@ -17,7 +17,7 @@
   link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1201482/
   link-name: Meet-Up
 
-  - lab: OK Lab Hamburg
+- lab: OK Lab Hamburg
   name: OK LAB HAMBURG CODING-TREFFEN
   time: 18-22 Uhr
   location: Open Data City, Alter Teichweg 33-35, 22081 Hamburg
@@ -35,7 +35,7 @@
   day-nr: "11"
   month: September 2014
 
-  - lab: OK Lab Paderborn
+- lab: OK Lab Paderborn
   name: OK Lab Paderborn
   time: 19 - Open End
   location: E1.311, Universität Paderborn, Warburger Str. 100, 33098 Paderborn
@@ -69,4 +69,3 @@
   day: Mittwoch
   day-nr: "24"
   month: September 2014
-
