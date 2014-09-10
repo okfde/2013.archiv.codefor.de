@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Code for Poland - Code for Freedom!
+title: Code for Freedom!
 author: Fiona
 excerpt: Ein kleiner Ausblick über den Tellerrand Richtung Polen und dem Hackathon "Code for Freedom" am 27. September. Jetzt noch schnell anmelden!
 
