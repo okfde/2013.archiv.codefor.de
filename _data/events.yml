@@ -42,15 +42,6 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
-- lab: OK Lab Köln
-  name: OK Lab Köln Treffen
-  time: 19 - 22
-  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
-  day-nr: "15"
-  month: September 2014
-  link-url: http://www.meetup.com/OKLab-Koln-Meetup
-  link-name: Meet-Up
-
 - lab: OK Lab Paderborn
   name: OK Lab Paderborn
   time: 19 - Open End
@@ -58,6 +49,15 @@
   day: Mittwoch
   day-nr: "24"
   month: September 2014
+
+- lab: OK Lab Köln
+  name: OK Lab Köln Treffen
+  time: 19 - 22
+  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
+  day-nr: "29"
+  month: September 2014
+  link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Meet-Up
 
 - lab: OK Lab Heilbronn
   name: OK LAB HEILBRONN CODING-TREFFEN
