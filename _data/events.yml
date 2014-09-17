@@ -31,6 +31,15 @@
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
+- lab: OK Lab Stuttgart
+  name: Meet-Up
+  time: 18:30-20:00
+  location: Stadtbibliothek Stuttgart, Mailänder Platz 1, U-Bahn: Türlenstr.
+  day-nr: "23"
+  month: September 2014
+  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/207771772/
+  link-name: Meet-Up
+
 - lab: OK Lab Gießen
   name: OK Lab Gießen Treffen
   time: 18:30-19:30
