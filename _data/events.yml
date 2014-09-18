@@ -1,12 +1,3 @@
-- lab: OK Lab Berlin
-  name: Meet-Up
-  time: 19 - 22
-  location: Wikimedia, 23 Tempelhofer Ufer, Berlin, DE 10963
-  day-nr: "17"
-  month: September 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1209712/
-  link-name: Meet-Up
-
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
   time: 19 - Open End
@@ -34,7 +25,7 @@
 - lab: OK Lab Stuttgart
   name: Meet-Up
   time: 18:30-20:00
-  location: Stadtbibliothek Stuttgart, Mailänder Platz 1, U-Bahn: Türlenstr.
+  location: Stadtbibliothek Stuttgart, Mailänder Platz 1, U-Bahn Türlenstr.
   day-nr: "23"
   month: September 2014
   link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/207771772/
@@ -57,6 +48,15 @@
   day: Mittwoch
   day-nr: "24"
   month: September 2014
+
+- lab: OK Lab Berlin
+  name: Meet-Up
+  time: 19 - 22
+  location: Wikimedia, 23 Tempelhofer Ufer, Berlin, DE 10963
+  day-nr: "24"
+  month: September 2014
+  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1209712/
+  link-name: Meet-Up
 
 - lab: OK Lab Köln
   name: OK Lab Köln Treffen
