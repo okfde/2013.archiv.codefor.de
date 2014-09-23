@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/okfde/codefor.de.svg?branch=gh-pages)](https://travis-ci.org/okfde/codefor.de)
+
 # CodeFor.de
 
 ## Installation
