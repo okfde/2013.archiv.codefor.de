@@ -34,6 +34,26 @@ On OS X you have to configure the following options to build `nokogiri` before r
 
 After that you can just run `bundle install` every time you want to reinstall or update the installation because Bundler will remember the options you configured.
 
+
+## RVM
+
+You can use [RVM](http://rvm.io) to sandbox the Gems needed for this project
+in a Gemset. To do so you will need to install RVM first. When you successfully
+installed RVM make sure you also installed the Ruby version defined for this
+project in [`.ruby-version`](.ruby-version).
+
+To initialize the Gemset environment leave the project folder once and then
+return back to it:
+
+```bash
+$ cd ..
+$ cd codefor.de
+```
+
+Finally, after pulling the latest commits from the remote repository run the
+`bundle` command to ensure you have the latest Gems installed into you Gemset.
+
+
 ## Build and serve the site
 
 Now build the site and serve it:
