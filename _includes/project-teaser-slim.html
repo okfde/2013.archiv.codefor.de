@@ -18,7 +18,14 @@
 
     <div class="col-sm-6 col-sm-pull-6">
       <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
-      <p class="project-description">{{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
+      <p class="project-description"> 
+          {% if sitepage.excerpt %}
+            {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
+          {% else %}
+            {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 25 }} 
+          {% endif %}
+      </p>    
+
       <div class="project-footer clearfix">
 
         {% for labpage in site.pages %}
