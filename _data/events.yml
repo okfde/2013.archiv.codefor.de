@@ -5,13 +5,6 @@
   day-nr: "18"
   month: September 2014
 
-- lab: OK Lab Leipzig
-  name: OK Lab Leipzig - Arbeit an unseren Projekten
-  time: 19 - 22
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day-nr: "22"
-  month: September 2014
-
 - lab: OK Lab Hamburg
   name: PODIUMSDISKUSSION TRANSPARENZPORTAL
   time: 19-21 Uhr
@@ -66,6 +59,13 @@
   month: September 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
+
+- lab: OK Lab Leipzig
+  name: OK Lab Leipzig - Arbeit an unseren Projekten
+  time: 19 - 22
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day-nr: "29"
+  month: September 2014
 
 - lab: OK Lab Ulm
   name: TREFFEN
