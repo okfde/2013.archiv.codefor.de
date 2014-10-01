@@ -1,71 +1,3 @@
-- lab: OK Lab Chemnitz
-  name: OK Lab Chemnitz Treffen
-  time: 19 - Open End
-  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  day-nr: "18"
-  month: September 2014
-
-- lab: OK Lab Hamburg
-  name: PODIUMSDISKUSSION TRANSPARENZPORTAL
-  time: 19-21 Uhr
-  location: betahaus hamburg, Eifflerstraße 43,  22769 Hamburg
-  day: Montag
-  day-nr: "6"
-  month: Oktober 2014
-  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
-  link-name: Mehr Info
-
-- lab: OK Lab Stuttgart
-  name: Meet-Up
-  time: 18:30-20:00
-  location: Stadtbibliothek Stuttgart, Mailänder Platz 1, U-Bahn Türlenstr.
-  day-nr: "23"
-  month: September 2014
-  link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/207771772/
-  link-name: Meet-Up
-
-- lab: OK Lab Gießen
-  name: OK Lab Gießen Treffen
-  time: 18:30-19:30
-  location: Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen, A20.008
-  day: Montag
-  day-nr: "29"
-  month: September 2014
-  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn
-  time: 19 - Open End
-  location: E1.311<br/>Warburger Str. 100, 33098 Paderborn
-  day: Mittwoch
-  day-nr: "24"
-  month: September 2014
-
-- lab: OK Lab Berlin
-  name: Meet-Up
-  time: 19 - 22
-  location: Wikimedia, 23 Tempelhofer Ufer, Berlin, DE 10963
-  day-nr: "24"
-  month: September 2014
-  link-url: http://www.meetup.com/OpenKnowledgeFoundation/Berlin-DE/1213402/
-  link-name: Meet-Up
-
-- lab: OK Lab Leipzig
-  name: OK Lab Leipzig - Arbeit an unseren Projekten
-  time: 19 - 22
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day-nr: "29"
-  month: September 2014
-
-- lab: OK Lab Ulm
-  name: TREFFEN
-  time: 16–18
-  location: Universität Ulm, O27/341, James-Franck-Ring, Ulm, DE 89081
-  day-nr: "29"
-  month: September 2014
-  link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
-  link-name: Wegbeschreibung
 
 - lab: OK Lab Heilbronn
   name: OK LAB HEILBRONN CODING-TREFFEN
@@ -75,6 +7,16 @@
   day-nr: "02"
   month: Oktober 2014
   link-url: http://pad.opendatacloud.de/p/OK-Lab-HN
+  link-name: Mehr Info
+
+- lab: OK Lab Hamburg
+  name: PODIUMSDISKUSSION TRANSPARENZPORTAL
+  time: 19-21 Uhr
+  location: betahaus hamburg, Eifflerstraße 43,  22769 Hamburg
+  day: Montag
+  day-nr: "6"
+  month: Oktober 2014
+  link-url: http://pad.opendatacloud.de/p/OK-Lab-HH
   link-name: Mehr Info
 
 - lab: OK Lab München
