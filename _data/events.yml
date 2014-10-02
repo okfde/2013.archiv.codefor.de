@@ -36,16 +36,6 @@
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
 
-- lab: OK Lab Ulm und MFG Baden-Württemberg
-  name: OPEN CITY CAMP STUTTGART 2014
-  time: 10-21 Uhr
-  location: Literaturhaus, Breitscheidstraße 4, 70174 Stuttgart
-  day: Samstag
-  day-nr: "29"
-  month: November 2014
-  link-url: http://www.opencitycamp.de
-  link-name: opencitycamp.de
-
 - lab: OK Lab Gießen
   name: OK Lab Gießen Treffen
   time: 18:30-19:30
@@ -55,3 +45,33 @@
   month: Oktober 2014
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
+
+- lab: OK Lab Ulm
+  name: CodeWeek.EU: Deine Stadt entwickeln mit offenen Daten
+  time: 14-21 Uhr
+  location: Universität Ulm, Hörsaal 21 (O28/H21), James-Franck-Ring, 89081 Ulm
+  day: Freitag
+  day-nr: "17"
+  month: Oktober 2014
+  link-url: http://www.ulmapi.de/codeweek
+  link-name: Mehr Info
+
+- lab: OK Lab Ulm
+  name: OK Lab Ulm Treffen
+  time: 18-21 Uhr
+  location: Universität Ulm, O27/341, James-Franck-Ring, 89081 Ulm 
+  day: Montag
+  day-nr: "20"
+  month: Oktober 2014
+  link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
+  link-name: Wegbeschreibung
+
+- lab: OK Lab Ulm und MFG Baden-Württemberg
+  name: OPEN CITY CAMP STUTTGART 2014
+  time: 10-21 Uhr
+  location: Literaturhaus, Breitscheidstraße 4, 70174 Stuttgart
+  day: Samstag
+  day-nr: "29"
+  month: November 2014
+  link-url: http://www.opencitycamp.de
+  link-name: opencitycamp.de
