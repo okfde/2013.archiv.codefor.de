@@ -6,7 +6,7 @@ author: Fiona
 excerpt: Die Codeweek EU steht vor der Tür - und wir machen mit! 
 
 images:
-- imgname: jugendhackt.jpg
+- imgname: codeweek.jpg
 
 ---
 ![codeweek-eu](/assets/blog/codeweek.jpg)
