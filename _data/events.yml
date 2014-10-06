@@ -56,6 +56,16 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
+- lab: OK Lab Leipzig
+  name: Europe Code Week - Wie kann ich mit Open Data meine Stadt verbessern?
+  time: 18 - 22 Uhr
+  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
+  day: Montag
+  day-nr: "13"
+  month: Oktober 2014
+  link-url: http://events.codeweek.eu/view/349/ok-lab-leipzig-meetup/
+  link-name: Mehr Info
+
 - lab: OK Lab Ulm
   name: CodeWeek.EU - Deine Stadt entwickeln mit offenen Daten
   time: 14-21 Uhr
