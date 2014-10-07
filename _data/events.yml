@@ -68,6 +68,16 @@
   link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
   link-name: Wegbeschreibung
 
+- lab: OK Lab Hamburg
+  name: Transparenzstadt Hamburg - Aktionstag
+  time: 12-20 Uhr
+  location: OpenDataCity HH, Alter Teichweg 33, 22081 Hamburg
+  day: Sonntag
+  day-nr: "23"
+  month: November 2014
+  link-url: http://codefor.de/hamburg
+  link-name: OK Lab Hamburg 
+
 - lab: OK Lab Ulm und MFG Baden-Württemberg
   name: OPEN CITY CAMP STUTTGART 2014
   time: 10-21 Uhr
