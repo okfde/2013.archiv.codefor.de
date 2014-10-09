@@ -85,3 +85,21 @@
   month: November 2014
   link-url: http://www.opencitycamp.de
   link-name: opencitycamp.de
+
+
+- lab: OK Lab Paderborn
+  name: Hackathon
+  time: 10-18 Uhr
+  location: Etage H1, Uni Paderborn, Warburger Str. 100, 30098 Paderborn
+  day: Samstag
+  day-nr: "11"
+  month: Oktober 2014
+
+
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 Uhr
+  location: Grill | Cafe, Uni Paderborn, Warburger Str. 100, 30098 Paderborn
+  day: Mittwoch
+  day-nr: "22"
+  month: Oktober 2014
