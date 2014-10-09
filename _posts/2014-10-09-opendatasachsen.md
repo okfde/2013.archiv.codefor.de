@@ -2,13 +2,13 @@
 layout: post
 
 title: Feedback Open Data Portal Sachssen
-author: Fiona
+author: Walther
 excerpt: Feedback zum kommenden Open Data Sachsen Portal ist von uns gewünscht! 
 
 ---
-Hey Lab-Mitglieder, vorallem Lab-Mitglieder in Sachsen,
+Hey Lab-Mitglieder, vor allem Lab-Mitglieder in Sachsen,
 
-es gibt gute Neuigkeiten aus Sachsen [Sachsen][]!
+es gibt gute Neuigkeiten aus [Sachsen][]!
 
 Ein landesweites Open Data Portal wird in Sachsen vom Staatsbetrieb Sächsische Informatik Dienste vorbereitet. Der neue Projektleiter von Open Data Sachsen ist Dietmar Gattwinkel und er freut sich über euer Feedback. 
 
