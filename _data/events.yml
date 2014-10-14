@@ -1,4 +1,4 @@
-  
+
 - lab: OK Lab Berlin
   name: OK Lab Berlin (Vorstellungsrunde)
   time: 19-22 Uhr
@@ -37,6 +37,16 @@
   link-url: http://events.codeweek.eu/view/349/ok-lab-leipzig-meetup/
   link-name: Mehr Info
 
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19 - 22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "16"
+  month: Oktober 2014
+  link-url: http://codeforchemnitz.de/
+  link-name: Mehr Info
+
 - lab: OK Lab Ulm
   name: CodeWeek.EU - Deine Stadt entwickeln mit offenen Daten
   time: 14-21 Uhr
@@ -66,6 +76,16 @@
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
 
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19 - 22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "30"
+  month: Oktober 2014
+  link-url: http://codeforchemnitz.de/
+  link-name: Mehr Info
+
 - lab: OK Lab Hamburg
   name: Transparenzstadt Hamburg - Aktionstag
   time: 12-20 Uhr
@@ -74,7 +94,7 @@
   day-nr: "23"
   month: November 2014
   link-url: http://codefor.de/hamburg
-  link-name: OK Lab Hamburg 
+  link-name: OK Lab Hamburg
 
 - lab: OK Lab Ulm und MFG Baden-Württemberg
   name: OPEN CITY CAMP STUTTGART 2014
