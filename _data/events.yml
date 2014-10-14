@@ -7,6 +7,14 @@
   day-nr: "15"
   month: Oktober 2014
 
+- lab: OK Lab Münster
+  name: Hacknight
+  time: 18:30 Uhr
+  location: drei:klang | Wolbecker Str. 36, 48155 Münster
+  day: Mittwoch
+  day-nr: "15"
+  month: Oktober 2014
+
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
   time: 19-22 Uhr
@@ -95,11 +103,3 @@
   month: Oktober 2014
   link-url: http://www.studentenwerk-pb.de/gastronomie/speiseplaene/grill-cafe/
   link-name: Grill | Café
-
-- lab: OK Lab Münster
-  name: Hacknight
-  time: 18:30 Uhr
-  location: drei:klang | Wolbecker Str. 36, 48155 Münster
-  day: Mittwoch
-  day-nr: "15"
-  month: Oktober 2014
