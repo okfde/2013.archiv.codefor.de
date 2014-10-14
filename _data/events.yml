@@ -45,6 +45,26 @@
   link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
   link-name: Wegbeschreibung
 
+- lab: OK Lab Paderborn
+  name: OK Lab Paderborn
+  time: 19 Uhr
+  location: Grill | Café, Uni Paderborn, Warburger Str. 100, 33098 Paderborn
+  day: Mittwoch
+  day-nr: "22"
+  month: Oktober 2014
+  link-url: http://www.studentenwerk-pb.de/gastronomie/speiseplaene/grill-cafe/
+  link-name: Grill | Café
+
+- lab: OK Lab Hamburg
+  name: Transparenzstadt Hamburg - Aktionstag
+  time: 12-20 Uhr
+  location: OpenDataCity HH, Alter Teichweg 33, 22081 Hamburg
+  day: Sonntag
+  day-nr: "23"
+  month: November 2014
+  link-url: http://codefor.de/hamburg
+  link-name: OK Lab Hamburg
+
 - lab: OK Lab Köln
   name: OK Lab Köln Treffen
   time: 19-22 Uhr
@@ -64,26 +84,6 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
-- lab: OK Lab Chemnitz
-  name: OK Lab Chemnitz Treffen
-  time: 19-22 Uhr
-  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "30"
-  month: Oktober 2014
-  link-url: http://codeforchemnitz.de/
-  link-name: Mehr Info
-
-- lab: OK Lab Hamburg
-  name: Transparenzstadt Hamburg - Aktionstag
-  time: 12-20 Uhr
-  location: OpenDataCity HH, Alter Teichweg 33, 22081 Hamburg
-  day: Sonntag
-  day-nr: "23"
-  month: November 2014
-  link-url: http://codefor.de/hamburg
-  link-name: OK Lab Hamburg
-
 - lab: OK Lab Ulm und MFG Baden-Württemberg
   name: OPEN CITY CAMP STUTTGART 2014
   time: 10-21 Uhr
@@ -94,12 +94,12 @@
   link-url: http://www.opencitycamp.de
   link-name: opencitycamp.de
 
-- lab: OK Lab Paderborn
-  name: OK Lab Paderborn
-  time: 19 Uhr
-  location: Grill | Café, Uni Paderborn, Warburger Str. 100, 33098 Paderborn
-  day: Mittwoch
-  day-nr: "22"
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19-22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "30"
   month: Oktober 2014
-  link-url: http://www.studentenwerk-pb.de/gastronomie/speiseplaene/grill-cafe/
-  link-name: Grill | Café
+  link-url: http://codeforchemnitz.de/
+  link-name: Mehr Info
