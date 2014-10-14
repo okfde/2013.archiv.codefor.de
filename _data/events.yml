@@ -7,39 +7,9 @@
   day-nr: "15"
   month: Oktober 2014
 
-- lab: OK Lab München
-  name: OK LAB MÜNCHEN TREFFEN UND INFOABEND
-  time: 19-21 Uhr
-  location: WERK1, München
-  day: Donnerstag
-  day-nr: "09"
-  month: Oktober 2014
-  link-url: http://codefor.de/blog/muenchen-codeweek-eu/
-  link-name: Mehr Info
-
-- lab: OK Lab Gießen
-  name: OK Lab Gießen Treffen
-  time: 18:30-19:30
-  location: Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen, A12.116
-  day: Montag
-  day-nr: "27"
-  month: Oktober 2014
-  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
-- lab: OK Lab Leipzig
-  name: Europe Code Week - Wie kann ich mit Open Data meine Stadt verbessern?
-  time: 18 - 22 Uhr
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day: Montag
-  day-nr: "13"
-  month: Oktober 2014
-  link-url: http://events.codeweek.eu/view/349/ok-lab-leipzig-meetup/
-  link-name: Mehr Info
-
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
-  time: 19 - 22 Uhr
+  time: 19-22 Uhr
   location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
   day: Donnerstag
   day-nr: "16"
@@ -69,16 +39,26 @@
 
 - lab: OK Lab Köln
   name: OK Lab Köln Treffen
-  time: 19 - 22
+  time: 19-22 Uhr
   location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
   day-nr: "27"
   month: Oktober 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
 
+- lab: OK Lab Gießen
+  name: OK Lab Gießen Treffen
+  time: 18:30-19:30 Uhr
+  location: Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen, A12.116
+  day: Montag
+  day-nr: "27"
+  month: Oktober 2014
+  link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
+  link-name: Mehr Info
+
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
-  time: 19 - 22 Uhr
+  time: 19-22 Uhr
   location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
   day: Donnerstag
   day-nr: "30"
