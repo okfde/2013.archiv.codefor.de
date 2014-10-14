@@ -56,6 +56,16 @@
   link-name: Grill | Café
 
 - lab: OK Lab Hamburg
+  name: OK Lab Hamburg
+  time: 18 Uhr
+  location: OpenDataCity HH, Alter Teichweg 33, 22081 Hamburg
+  day: Montag
+  day-nr: "20"
+  month: Oktober 2014
+  link-url: http://codefor.de/hamburg
+  link-name: OK Lab Hamburg
+
+- lab: OK Lab Hamburg
   name: Transparenzstadt Hamburg - Aktionstag
   time: 12-20 Uhr
   location: OpenDataCity HH, Alter Teichweg 33, 22081 Hamburg
