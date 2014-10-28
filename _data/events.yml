@@ -15,15 +15,6 @@
   day-nr: "29"
   month: Oktober 2014
 
-- lab: OK Lab Köln
-  name: OK Lab Köln Treffen
-  time: 19-22 Uhr
-  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
-  day-nr: "27"
-  month: Oktober 2014
-  link-url: http://www.meetup.com/OKLab-Koln-Meetup
-  link-name: Meet-Up
-
 - lab: OK Lab Gießen
   name: OK Lab Gießen Treffen
   time: 18:30-19:30 Uhr
@@ -51,6 +42,15 @@
   day: Mittwoch
   day-nr: "5"
   month: November 2014
+
+- lab: OK Lab Köln
+  name: OK Lab Köln Treffen
+  time: 19-22 Uhr
+  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
+  day-nr: "10"
+  month: November 2014
+  link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Meet-Up
 
 - lab: OK Lab Hamburg
   name: Transparenzstadt Hamburg - Aktionstag
