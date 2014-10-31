@@ -11,7 +11,7 @@ images:
 ---
 ![codeweek-eu](/assets/blog/codeweek-okfn.png)
  
-Vom 11. bis 17. Oktober fanden im Rahmen der [Codeweek][] über 1000 Events in ganz Europa rund ums Coden statt. Die OK Labs haben ordentlich mitgemischt mit zahlreichen tollen Events. 
+Vom 11. bis 17. Oktober fanden im Rahmen der [Codeweek][] über 1000 Events in ganz Europa rund ums Coden statt. Die OK Labs haben ordentlich mitgemischt mit zahlreichen tollen Events. Ein kleiner Auszug:
 
 In Dresden beispielsweise fand ein Hackathon für Kids statt und ein paar Tage später gleich noch ein Grundlagenkurs über Datenvisualisierung für Journalisten und Journalistinnen. Der Workshop wurde aufgezeichnet und kann [hier][] nachgeschaut werden.
 
