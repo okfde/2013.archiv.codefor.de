@@ -3,9 +3,13 @@ layout: post
 
 title: Code for Munich Hack Day
 author: Matt
-excerpt: Unser erstes Hackathon - mach mit! 
+excerpt: Unser erster Hackathon - mach mit! 
+
+images:
+- imgname: hackathon-muenchen.png
 
 ---
+![hackathon-muenchen](/assets/blog/hackathon-muenchen.png)
 
 Einen Tag lang kreativ offene Daten aufbereiten und in Grundzügen nützliche Apps bzw. Websiten programmieren. Nur einen München-Bezug sollte es haben.
 
