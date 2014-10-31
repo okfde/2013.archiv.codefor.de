@@ -7,6 +7,7 @@ excerpt: Die Codeweek fand vom 11. bis 17. Oktober in ganz Europa statt. Da habe
 
 images:
 - imgname: codeweek-okfn.png
+- imgname: dresden-codeweek.png
 
 ---
 ![codeweek-eu](/assets/blog/codeweek-okfn.png)
@@ -21,7 +22,7 @@ In Ulm wurde ebenfalls fleißig mit Offenen Daten gehackt. Wir sind ein großer 
 
 Wir hatten eine Menge Spaß und freuen uns schon auf die nächste Codeweek, die bestimmt noch größer und noch toller wird ;-) 
 
-
+![codeweek-dresden](/assets/blog/dresden-codeweek.png)
 
 
 [Codeweek]: http://codeweek.eu
