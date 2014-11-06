@@ -66,7 +66,6 @@
   link-url: http://codefor.de/hamburg
   link-name: OK Lab Hamburg
 
-
 - lab: OK Lab Ulm und MFG Baden-Württemberg
   name: OPEN CITY CAMP STUTTGART 2014
   time: 10-21 Uhr
@@ -99,11 +98,11 @@
 
 - lab: OK Lab Ulm
   name: OK Lab Ulm Treffen
-  time: 18-21 Uhr
+  time: 19:00 Uhr
   location: Universität Ulm, O27/341, James-Franck-Ring, 89081 Ulm
-  day: Montag
-  day-nr: "20"
-  month: Oktober 2014
+  day: Dienstag
+  day-nr: "18"
+  month: November 2014
   link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
   link-name: Wegbeschreibung
 
