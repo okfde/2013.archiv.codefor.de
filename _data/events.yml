@@ -54,15 +54,6 @@
   link-url: http://www.meetup.com/codeforde/Munster-DE/
   link-name: Mehr Info
 
-- lab: OK Lab Köln
-  name: OK Lab Köln Treffen
-  time: 19-22 Uhr
-  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
-  day-nr: "10"
-  month: November 2014
-  link-url: http://www.meetup.com/OKLab-Koln-Meetup
-  link-name: Meet-Up
-
 - lab: OK Lab Hamburg
   name: Transparenzstadt Hamburg - Aktionstag
   time: 12-20 Uhr
@@ -72,6 +63,15 @@
   month: November 2014
   link-url: http://codefor.de/hamburg
   link-name: OK Lab Hamburg
+
+- lab: OK Lab Köln
+  name: OK Lab Köln Treffen
+  time: 19-22 Uhr
+  location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
+  day-nr: "24"
+  month: November 2014
+  link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Meet-Up
 
 - lab: OK Lab Ulm und MFG Baden-Württemberg
   name: OPEN CITY CAMP STUTTGART 2014
