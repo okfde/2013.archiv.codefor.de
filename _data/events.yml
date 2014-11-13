@@ -5,7 +5,7 @@
   day: Mittwoch
   day-nr: "12"
   month: November 2014
-  
+
 - lab: OK Lab Münster
   name: Open Data Night
   time: 18:30 Uhr
@@ -15,17 +15,7 @@
   month: November 2014
   link-url: http://www.meetup.com/codeforde/Munster-DE/
   link-name: Mehr Info
-  
-- lab: OK Lab Chemnitz
-  name: OK Lab Chemnitz Treffen
-  time: 19-22 Uhr
-  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "13"
-  month: November 2014
-  link-url: http://codeforchemnitz.de/
-  link-name: Mehr Info
-  
+
 - lab: OK Lab München
   name: OK LAB Munich Treffen
   time: 19-21 Uhr
@@ -35,7 +25,7 @@
   month: November 2014
   link-url: http://codefor.de/muenchen
   link-name: Mehr Info
-  
+
 - lab: OK Lab Hamburg
   name: OK Lab Hamburg
   time: 18 Uhr
@@ -45,7 +35,7 @@
   month: November 2014
   link-url: http://codefor.de/hamburg
   link-name: OK Lab Hamburg
-  
+
 - lab: OK Lab Ulm
   name: OK Lab Ulm Treffen
   time: 19:00 Uhr
@@ -55,7 +45,7 @@
   month: November 2014
   link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
   link-name: Wegbeschreibung
-  
+
 - lab: OK Lab Paderborn
   name: OK Lab Paderborn
   time: 19 Uhr
@@ -65,7 +55,7 @@
   month: Oktober 2014
   link-url: http://www.studentenwerk-pb.de/gastronomie/speiseplaene/grill-cafe/
   link-name: Grill | Café
-  
+
 - lab: OK Lab Hamburg
   name: Transparenzstadt Hamburg - Aktionstag
   time: 12-20 Uhr
@@ -94,7 +84,7 @@
   month: November 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
   link-name: Meet-Up
-  
+
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
   time: 19-22 Uhr
@@ -114,7 +104,7 @@
   month: November 2014
   link-url: http://www.opencitycamp.de
   link-name: opencitycamp.de
-  
+
 - lab: OK Lab München
   name: Code for Munich Hack Day
   time: 10-19 Uhr
@@ -124,4 +114,15 @@
   month: November 2014
   link-url: /muenchen/hackathon
   link-name: Info & Anmeldung
+
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19-22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "11"
+  month: Dezember 2014
+  link-url: http://codeforchemnitz.de/
+  link-name: Mehr Info
+
 
