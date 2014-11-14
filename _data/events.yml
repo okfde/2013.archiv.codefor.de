@@ -1,31 +1,3 @@
-- lab: OK Lab Berlin
-  name: OK Lab Berlin (Vorstellungsrunde)
-  time: 19-22 Uhr
-  location: Wikimedia, Tempelhofer Ufer 23, 10963 Berlin
-  day: Mittwoch
-  day-nr: "12"
-  month: November 2014
-
-- lab: OK Lab Münster
-  name: Open Data Night
-  time: 18:30 Uhr
-  location: tba
-  day: Mittwoch
-  day-nr: "12"
-  month: November 2014
-  link-url: http://www.meetup.com/codeforde/Munster-DE/
-  link-name: Mehr Info
-
-- lab: OK Lab München
-  name: OK LAB Munich Treffen
-  time: 19-21 Uhr
-  location: Chaos Computer Club (CCC) München, Schleißheimer Str. 41, 80797 München
-  day: Donnerstag
-  day-nr: "13"
-  month: November 2014
-  link-url: http://codefor.de/muenchen
-  link-name: Mehr Info
-
 - lab: OK Lab Hamburg
   name: OK Lab Hamburg
   time: 18 Uhr
@@ -124,5 +96,13 @@
   month: Dezember 2014
   link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
-
-
+  
+- lab: OK Lab München
+  name: OK LAB Munich Treffen
+  time: 19-21 Uhr
+  location: Raum A004, Institut für Kommunikationswissenschaft der LMU, Oettingenstraße 67, 80538 München
+  day: Donnerstag
+  day-nr: "18"
+  month: Dezember 2014
+  link-url: http://codefor.de/muenchen
+  link-name: Mehr Info
