@@ -37,7 +37,7 @@
   month: November 2014
   link-url: http://www.einundleipzig.de/
   link-name: einundleipzig
-  
+
 - lab: OK Lab Berlin
   name: OK Lab Berlin
   time: 19 - 22 Uhr
@@ -45,7 +45,7 @@
   day: Mittwoch
   day-nr: "26"
   month: November 2014
-  link-url: http://codefor.de/berlin/index.html
+  link-url: /berlin
   link-name: Mehr
 
 - lab: OK Lab Chemnitz
@@ -96,7 +96,7 @@
   month: Dezember 2014
   link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
-  
+
 - lab: OK Lab München
   name: OK LAB Munich Treffen
   time: 19-21 Uhr
