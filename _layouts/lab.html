@@ -22,7 +22,7 @@ layout: base
         {{ page.content | markdownify }}
       </div>
       <div class="col-lg-6">
-        
+
         {%if page.links %}
         <h3> Basis Info</h3>
         <ul class="list-unstyled lab-links" >
@@ -33,13 +33,13 @@ layout: base
           {% endfor %}
         </ul>
         {% endif %}
-        
+
         {%if page.leads %}
         <h3> Kontakt</h3>
         <ul class="list-unstyled lab-links" >
           {% for lead in page.leads %}
           <li>
-            <a href="{{ lead.url }}">{{ lead.name }}</a> 
+            <a href="{{ lead.url }}">{{ lead.name }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -73,7 +73,7 @@ layout: base
       <div class="row">
 
       {% assign event_count=event_count | minus:1 %}
-        
+
         {% for event in site.data.events %}
         {% if event.lab == page.lab %}
           <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
@@ -114,7 +114,7 @@ layout: base
 {% unless project_count == '0' %}
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3 id="projects">Projekte</h3> 
+    <h3 id="projects">Projekte</h3>
     <div class="loading">
         <i class="fa fa-circle-o-notch fa-spin"></i>
         <div>...laden...</div>
@@ -158,7 +158,7 @@ layout: base
              <div class="member-info ">
              {{ member.name }} <br>
              {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">github:{{ member.username-github }}</a><br> {% endif %}
-             {% if member.username-twitter %}<a href="https://www.twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
+             {% if member.username-twitter %}<a href="https://twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
              </div>
           </li>
           {% endfor %}
@@ -195,7 +195,7 @@ layout: base
 <script type="text/javascript">
 
 $(document).ready(function() {
-  
+
   gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   // $(":checkbox").prettyCheckbox();
