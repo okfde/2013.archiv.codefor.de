@@ -1,12 +1,22 @@
-- lab: OK Lab Ulm
-  name: OK Lab Ulm Treffen
-  time: 19:00 Uhr
-  location: Universität Ulm, O27/341, James-Franck-Ring, 89081 Ulm
-  day: Dienstag
-  day-nr: "18"
+- lab: OK Lab München
+  name: Code for Munich Hack Day
+  time: 10-19 Uhr
+  location: WERK1 München, Grafinger Straße 6 (dort Reiberdatschiweg 3), 81671 München
+  day: Samstag
+  day-nr: "29"
   month: November 2014
-  link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
-  link-name: Wegbeschreibung
+  link-url: /muenchen/hackathon
+  link-name: Mehr Info
+  
+- lab: OK Lab Ulm und MFG Baden-Württemberg
+  name: OPEN CITY CAMP STUTTGART 2014
+  time: 10-21 Uhr
+  location: Literaturhaus, Breitscheidstraße 4, 70174 Stuttgart
+  day: Samstag
+  day-nr: "29"
+  month: November 2014
+  link-url: http://www.opencitycamp.de
+  link-name: Mehr Info
 
 - lab: OK Lab Hamburg
   name: OK Lab Hamburg Treffen
@@ -16,7 +26,17 @@
   day-nr: "1"
   month: Dezember 2014
   link-url: http://codefor.de/hamburg
-  link-name: OK Lab Hamburg
+  link-name: Mehr Info
+  
+- lab: OK Lab Berlin
+  name: OK Lab Berlin
+  time: 19 - 22 Uhr
+  location: Wikimedia, Tempelhofer Ufer 23-24, 10963
+  day: Mittwoch
+  day-nr: "3"
+  month: Dezember 2014
+  link-url: /berlin
+  link-name: Mehr Info
 
 - lab: OK Lab Gießen
   name: OK Lab Gießen Treffen
@@ -28,64 +48,24 @@
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
   link-name: Mehr Info
 
-- lab: OK Lab Leipzig
-  name: Das Projekt einundleipzig stellt sich vor
-  time: 19 - 22 Uhr
-  location: BIC Leipzig, Karl-Heine-Straße 99, 04229 Leipzig
-  day: Montag
-  day-nr: "24"
-  month: November 2014
-  link-url: http://www.einundleipzig.de/
-  link-name: einundleipzig
-
-- lab: OK Lab Berlin
-  name: OK Lab Berlin
-  time: 19 - 22 Uhr
-  location: Wikimedia, Tempelhofer Ufer 23-24, 10963
-  day: Mittwoch
-  day-nr: "26"
-  month: November 2014
-  link-url: /berlin
-  link-name: Mehr
-
-- lab: OK Lab Chemnitz
-  name: OK Lab Chemnitz Treffen
-  time: 19-22 Uhr
-  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "27"
-  month: November 2014
-  link-url: http://codeforchemnitz.de/
-  link-name: Mehr Info
-
-- lab: OK Lab Ulm und MFG Baden-Württemberg
-  name: OPEN CITY CAMP STUTTGART 2014
-  time: 10-21 Uhr
-  location: Literaturhaus, Breitscheidstraße 4, 70174 Stuttgart
-  day: Samstag
-  day-nr: "29"
-  month: November 2014
-  link-url: http://www.opencitycamp.de
-  link-name: opencitycamp.de
-
-- lab: OK Lab München
-  name: Code for Munich Hack Day
-  time: 10-19 Uhr
-  location: WERK1 München, Grafinger Straße 6 (dort Reiberdatschiweg 3), 81671 München
-  day: Samstag
-  day-nr: "29"
-  month: November 2014
-  link-url: /muenchen/hackathon
-  link-name: Info & Anmeldung
+#- lab: OK Lab Chemnitz
+  #name: OK Lab Chemnitz Treffen
+  #time: 19-22 Uhr
+  #location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  #day: Donnerstag
+  #day-nr: "27"
+  #month: November 2014
+  #link-url: http://codeforchemnitz.de/
+  #link-name: Mehr Info
 
 - lab: OK Lab Köln
   name: OK Lab Köln Treffen
   time: 19-22 Uhr
   location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
-  day-nr: "8"
+  day-nr: "08"
   month: Dezember 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
-  link-name: Meet-Up
+  link-name: Mehr Info
 
 - lab: OK Lab Chemnitz
   name: OK Lab Chemnitz Treffen
