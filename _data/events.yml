@@ -7,7 +7,7 @@
   month: Dezember 2014
   link-url: http://www.uni-ulm.de/in/vs/anfahrt.html
   link-name: Wegbeschreibung
-  
+
 - lab: OK Lab Berlin
   name: OK Lab Berlin
   time: 19 - 22 Uhr
@@ -26,26 +26,6 @@
   day-nr: "05"
   month: Januar 2015
   link-url: http://pad.opendatacloud.de/p/OK-LAB-Gie%C3%9Fen
-  link-name: Mehr Info
-
-#- lab: OK Lab Chemnitz
-  #name: OK Lab Chemnitz Treffen
-  #time: 19-22 Uhr
-  #location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  #day: Donnerstag
-  #day-nr: "27"
-  #month: November 2014
-  #link-url: http://codeforchemnitz.de/
-  #link-name: Mehr Info
-
-- lab: OK Lab Chemnitz
-  name: OK Lab Chemnitz Treffen
-  time: 19-22 Uhr
-  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
-  day: Donnerstag
-  day-nr: "11"
-  month: Dezember 2014
-  link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
 
 - lab: OK Lab München
@@ -75,4 +55,24 @@
   day-nr: "22"
   month: Dezember 2014
   link-url: http://www.meetup.com/OKLab-Koln-Meetup
+  link-name: Mehr Info
+
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19-22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "08"
+  month: Januar 2015
+  link-url: http://codeforchemnitz.de/
+  link-name: Mehr Info
+
+- lab: OK Lab Chemnitz
+  name: OK Lab Chemnitz Treffen
+  time: 19-22 Uhr
+  location: Chaostreff Chemnitz, Augustusburger Str. 102, 09126 Chemnitz
+  day: Donnerstag
+  day-nr: "22"
+  month: Januar 2015
+  link-url: http://codeforchemnitz.de/
   link-name: Mehr Info
