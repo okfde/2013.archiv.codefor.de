@@ -708,6 +708,13 @@ $date-circle: 80px;
 	}
 }
 
+#infscr-loading {
+	padding: 15px 0;
+	text-align: center;
+	img {
+		display:none;
+	}
+}
 
 .post {
 	.event-wrapper {

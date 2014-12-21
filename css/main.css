@@ -483,6 +483,12 @@ label {
   .blog-page-nav .older {
     float: right; }
 
+#infscr-loading {
+  padding: 15px 0;
+  text-align: center; }
+  #infscr-loading img {
+    display: none; }
+
 .post .event-wrapper:first-child {
   margin-top: 0; }
 .post h2, .post h3 {

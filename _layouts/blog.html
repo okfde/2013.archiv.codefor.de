@@ -13,7 +13,7 @@ layout: base
     <h1 class="text__blue page-title"><span class="text__red">![</span>Blog{% if page.tagpage %}: {{ page.title }}{% endif %}<span class="text__red">]</span></h1>
 
     <div class="row">
-      <div class="col-lg-8" >
+      <div class="col-lg-8 blog-main" >
 
         {{ content }}
 
@@ -50,3 +50,20 @@ layout: base
   </div>
 </div>
 </div>
+
+<script src="/js/lib/jquery.infinitescroll.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  $('.blog-page-nav').css('display','none');
+
+  $('.blog-main').infinitescroll({
+    navSelector  : ".blog-page-nav",            
+    nextSelector : ".blog-page-nav .older",    
+    itemSelector : ".blog-main .blog-post-teaser",
+  });
+
+});
+</script>
+
