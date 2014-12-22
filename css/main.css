@@ -558,7 +558,8 @@ label {
   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
   font-size: 16px;
   color: #ff5449;
-  background-color: white; }
+  background-color: white;
+  background-color: RGBA(255, 255, 255, 0.7); }
 
 @media screen and (min-width: 481px) {
   #animation-wrapper h1 {
