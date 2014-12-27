@@ -56,12 +56,19 @@ layout: base
 
 <!-- Termine  -->
 
-{% comment %} Let's count how many events we have for this lab (needed for layout columns etc.) {% endcomment %}
 {% assign event_count = 0 %}
-{% for event in site.data.events %}
+{% assign events = site.termine | sort: 'date' %}
+
+{% for event in events %}
+
   {% if event.lab == page.lab %}
-   {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
+    {% assign date = event.date | date: '%s' %}
+    {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+    {% unless date < now %}  
+      {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
+    {% endunless %}
   {% endif %}
+
 {% endfor %}
 {% assign loop_index = 0 %}
 
@@ -74,24 +81,28 @@ layout: base
 
       {% assign event_count=event_count | minus:1 %}
 
-        {% for event in site.data.events %}
+        {% for event in events %}
         {% if event.lab == page.lab %}
-          <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
-            {% include event.html %}
-          </div>
+            {% assign date = event.date | date: '%s' %}
+            {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+            {% unless date < now %}  
+                <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
+                  {% include event.html %}
+                </div>
 
-          {% comment %} Every second event close row and open new {% endcomment %}
-          {% if 1 == loop_index | modulo:2 %}
-            {% comment %} Unless it is the last iteration {% endcomment %}
-            {% if loop_index < event_count %}
-              </div><div class="row" >
-            {% endif %}
-          {% endif %}
+                {% comment %} Every second event close row and open new {% endcomment %}
+                {% if 1 == loop_index | modulo:2 %}
+                  {% comment %} Unless it is the last iteration {% endcomment %}
+                  {% if loop_index < event_count %}
+                    </div><div class="row" >
+                  {% endif %}
+                {% endif %}
 
-        {% if loop_index == event_count %}
-        </div>
-        {% endif %}
-    {% assign loop_index = loop_index | plus:1 %}
+              {% if loop_index == event_count %}
+              </div>
+              {% endif %}
+              {% assign loop_index = loop_index | plus:1 %}
+            {% endunless %}
 
     {% endif %}
     {% endfor %}
