@@ -3,7 +3,7 @@ layout: post
 
 title: Code for Germany - der Jahresrueckblick
 author: Fiona
-excerpt: 
+excerpt: Wir wünschen allen Lesern und Leserinnen ein wunderschönes neues Jahr!
 
 images:
 - imgname: jahresrueckblick.png
