@@ -48,10 +48,10 @@
           </div>
 
           <div class="status col-lg-6">
-            {% if post.status %}
-            {% assign status = post.status %}
+            {% if [include.type]status %}
+              {% assign status = [include.type]status %}
             {% else %}
-            {% assign status = 'In Progress' %}
+              {% assign status = 'In Progress' %}
             {% endif %}
             <div class="project-status ">{{ status }}</div>
            
