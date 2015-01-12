@@ -39,6 +39,10 @@ body {
 	@extend .fond__grey;
 }
 
+.logo {
+	margin-bottom: 20px;
+}
+
 .navbar {
 	@extend .fond__white; 
 	padding: 20px 0;
@@ -299,32 +303,47 @@ label {
 	margin-bottom: 0;
 }
 
-.nav-social {
+.nav-meta li {
+	display: block;
+	margin-right: 5px;
 	margin-bottom: 20px;
+	width: 100%;
+	&:last-child { margin-right: 0 ;}
+} 
 
-	li {
-		display: inline-block;
-		margin-right: 5px;
-		&:last-child { margin-right: 0 ;}
-		a {
-			background: $red;
-			color: $white;
-			height: 48px;
-			width: 48px;
-			line-height: 48px;
-		}
-	} 
-	display: none;
+.nav-meta > li > a {
+	height: 44px;
+	line-height: 42px;
+	color: $red;
+	padding: 0 10px;
+	border: 2px solid $red;
+	white-space: nowrap;
 }
 
-.nav-social > li > a:hover {
+.nav-meta > li > a:hover, .nav-meta > li > a:focus {
+	color: $red;
+	background: $white;
+}
+
+.nav-meta > li.nav-meta-social {
+	display: inline-block;
+	width: inherit;
+}
+
+.nav-meta > li.nav-meta-social > a {
+	background: $red;
+	color: $white;
+	width: 44px;
+	padding: 0;
+}
+
+.nav-meta > li.nav-meta-social > a:hover {
 	background: $red;
 	color: $white;
 }
 
 .main-nav-wrapper {
-	
-	margin: 20px 0;
+		
 	.nav-pills li {	
 		border: 2px solid transparent;
 		a {
@@ -843,6 +862,12 @@ $date-circle: 80px;
 
 
 @media screen and (min-width: 481px) {
+	
+	.nav-meta li {
+		display: inline-block;
+		width: inherit;
+	}
+
 	#animation-wrapper h1 {
 		font-size: 63px;
 	}
@@ -915,6 +940,14 @@ $date-circle: 80px;
 
 @media screen and (min-width: 768px) {
 
+	.nav-meta {
+		text-align: right;
+	}
+
+	.logo {
+		float: left;
+	}
+
 	.navbar .container {
 		max-width: 1320px;
 	}
@@ -935,22 +968,8 @@ $date-circle: 80px;
 		margin-left: 10px;
 	}
 
-	.nav-social {
+	.nav-meta {
 		display: inherit;
-	}
-
-	.main-nav-wrapper {
-		float: right;
-		margin: 0;
-	}
-
-	.logo {
-		float: left;
-	}
-
-	.main-nav-wrapper .nav-pills
-	{
-		float: right;
 	}
 
 	.lab-map-home{
@@ -972,6 +991,15 @@ $date-circle: 80px;
 }
 
 @media screen and (min-width: 1200px) {
+	
+	.main-nav-wrapper {
+		float: right;
+	}
+
+	.main-nav-wrapper .nav-pills
+	{
+		float: right;
+	}
 
 	.okfn-logo {
 		max-width: 100%;
