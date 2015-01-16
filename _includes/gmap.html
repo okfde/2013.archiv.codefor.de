@@ -12,14 +12,18 @@
         {
             "latlong": "{{ lab.lat }} , {{ lab.long }}",
             "url":"{{ lab.url }} ", // leave "" to disable marker clickevent
-            "text": "{{ lab.lab }}"
+            "text": "{{ lab.lab }}",
+            "markerposition": "{{ lab.markerposition }}"
         },
       {% endif %}
     {% endfor %}
     ];
 
+    //the page on which the map is implemented
+    var google_maps_page = 'home';
+
     $(document).ready(function() {
-      gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+      gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page,'/img/lab_marker_home.png');
     });
 
 </script>

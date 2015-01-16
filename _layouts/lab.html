@@ -200,6 +200,9 @@ layout: base
             "url":"",   // leave "" to disable marker clickevent
             "text": "{{ page.lab }}"
         }];
+
+    var google_maps_page = 'lab';
+
 </script>
 
 <script src="/js/lib/prettyCheckbox.min.js"></script>
@@ -207,7 +210,7 @@ layout: base
 
 $(document).ready(function() {
 
-  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page, '/img/lab_marker.png');
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   $(":checkbox").prettyCheckbox();
 

@@ -852,11 +852,16 @@ $date-circle: 80px;
 }
 
 .googleMapsInfoBox{
-	font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-	font-size: 16px;
-	color: $red;
-	background-color: white;
-	background-color: RGBA(255,255,255,0.7);
+   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+   color: $red;
+   background-color: white;
+ }
+
+.googleMapsInfoBox_home{
+  font-size: 13px;
+}
+.googleMapsInfoBox_lab{
+  font-size: 16px;
 }
 
 
@@ -1020,7 +1025,6 @@ $date-circle: 80px;
 	.members .member {
 		min-width: 33%;
 	}
-
 }
 
 .row.board
@@ -1028,7 +1032,3 @@ $date-circle: 80px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
-
-
-

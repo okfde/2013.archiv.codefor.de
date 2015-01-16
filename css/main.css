@@ -572,10 +572,14 @@ label {
 
 .googleMapsInfoBox {
   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-  font-size: 16px;
   color: #ff5449;
-  background-color: white;
-  background-color: RGBA(255, 255, 255, 0.7); }
+  background-color: white; }
+
+.googleMapsInfoBox_home {
+  font-size: 13px; }
+
+.googleMapsInfoBox_lab {
+  font-size: 16px; }
 
 @media screen and (min-width: 481px) {
   .nav-meta li {
