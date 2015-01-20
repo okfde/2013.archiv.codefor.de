@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Berlin
 name: OK Lab Berlin
-date: 2015-01-19 #YYYY-MM-DD
+date: 2015-01-26 #YYYY-MM-DD
 time: 19 - 22 Uhr
-location: Wikimedia, Tempelhofer Ufer 23-24, 10963
-link-url: http://www.meetup.com/OK-Lab-Berlin/
+location: Mozilla Berlin, Voltastr. 5, 13355 Berlin
+link-url: http://www.meetup.com/OpenXLab/events/219548435/
 ---
