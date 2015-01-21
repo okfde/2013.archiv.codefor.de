@@ -7,4 +7,6 @@ _site/
 .bundle
 .DS_Store
 .idea
+.pyenv
 *.iml
+.sass-cache

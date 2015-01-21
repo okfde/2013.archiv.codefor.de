@@ -3,14 +3,23 @@
     <h2 class="post-title" ><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <div class="post-meta">
       <span class="blog-author-and-date"> von {{ post.author }} am {{ post.date | date: "%d.%m.%y" }}</span><br>
-      <span class="blog-tags"> in {% for tag in post.tags %} <a href="#">{{ tag }}</a> {% unless forloop.last %}, {% endunless %} {% endfor %} </span>
+      {% unless post.tags == empty %}
+        <span class="blog-tags"> in: {% for tag in post.tags %} <a href="/blog/{{ tag | replace:' ','-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %}</span>
+      {% endunless %}
+
     </div>
   </div>
   
   {% if post.images %}
     <a href="{{ post.url }}"><img src="/assets/blog/{{ post.images[0].imgname }}" alt="{{ post.images[0].alt }}" class="img-responsive"></a>
-    <span class="post-img-caption">{{ post.images[0].sub }}</span>
+    {% if post.images[0].sub %}<span class="post-img-caption">{{ post.images[0].sub }}</span>{% endif %}
   {% endif %}
 
-  <div class="post-description">{{ post.excerpt | markdownify }}</div>
+  <div class="post-description">
+    <p>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+        <font color="#C0C0C0"><a href="{{ post.url }}">Mehr...</a></font>
+
+    </p>
+  </div>
 </div>

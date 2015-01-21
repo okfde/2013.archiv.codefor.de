@@ -51,18 +51,14 @@
         $container.css({minHeight: minHeight});
         $animationWrapper.css({minHeight: $animationWrapper.outerHeight()});
 
-        console.log("$animationWrapper -> " + $animationWrapper.outerHeight());
-
         initialText = $container.html();
 
-        console.log("initialText -> " + initialText);
         $container.html(headline);
 
         $container.css('display','none');
         $subline.css('display','none');
 
         $(window).resize(function() {
-            console.log("resize");
             resetting=true;
             clearTimeout(this.id);
             this.id = setTimeout(ref.reset, 200);
@@ -101,7 +97,6 @@
         $container.html(initialText);
 
         minHeight = $container.outerHeight();
-        console.log("reset -> " + minHeight);
         $container.css({minHeight: minHeight, height:minHeight});
 
         setTimeout(function() {

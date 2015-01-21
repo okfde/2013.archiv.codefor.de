@@ -4,12 +4,22 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Jon Richter -- volunteer -- almereyda
+    ...
 
 # THANKS
 
     <name>
+    Magdalena Noffke
+    Tobias Preuss
+    Julia Kloiber
+    Thomas Tursics
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+
+# MIND COLOPHON
+
+    Indywebbing the netosphere > http://codefor.de

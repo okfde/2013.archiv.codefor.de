@@ -3,73 +3,67 @@ layout: base
 
 ---
 
-
 <!-- Blog -->
-
-<div class="jumbotron fond__grey">
-  <div class="container">
-    <div class="row">
-      <div id="animation-wrapper" class="col-lg-12">
-     <h1 class="cta text__blue animated-claim"><span class="text__red">![</span>Blog<span class="text__red">]</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
 <div class="fond__grey">
   <div class="container">
+
+    <h1 class="text__blue page-title"><span class="text__red">![</span>Blog{% if page.tagpage %}: {{ page.title }}{% endif %}<span class="text__red">]</span></h1>
+
     <div class="row">
-      <div class="col-lg-8" >
-        
-         {% for post in paginator.posts %}
-            {% include post-teaser.html %}
-         {% endfor %}
-         
-         <div class="blog-page-nav clearfix">
-          {% if paginator.previous_page_path %}
-           <a class="newer" href="{{ paginator.previous_page_path }}">Neuere Einträge</a>
-          {% endif %}
+      <div class="col-lg-8 blog-main" >
 
-          {% if paginator.next_page_path %}
-           <a class="older" href="{{ paginator.next_page_path }}">Ältere Einträge</a>
-          {% endif %}
+        {{ content }}
 
+      </div>
 
-         </div>
-     </div>
-
-     <div class="col-lg-4 blog-sidebar" >
+      <div class="col-lg-4 blog-sidebar" >
        {% include twitter-feed.html  %}
 
-      <img src="/assets/blog/flyer1.jpg" class="img-responsive" alt="">
+       <img src="/assets/blog/flyer1.jpg" class="img-responsive" alt="">
 
-      <img src="/assets/blog/flyer2.jpg" class="img-responsive" alt="">
+       <img src="/assets/blog/flyer2.jpg" class="img-responsive" alt="">
 
-      <div class="blog-sidebar-nl-signup">
+       <div class="blog-sidebar-nl-signup">
         <form action="http://okfn.us5.list-manage.com/subscribe/post?u=929f1e07936386d34833e20d1&amp;id=bb63fcab72" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center mc-form" target="_blank" role="form">
-            <h3>Newsletter</h3>
-            <p> Du möchtest auf dem Laufenden bleiben über Code for Germany? <br> Dann trag Dich in unseren monatlichen Newsletter ein: </p>
-            <div class="mc-field-group form-group form-group-newsletter text-left">
-                <label for="mce-EMAIL" class="sr-only" >E-Mail</label>
-                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="E-Mail" required >
-                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen">Abonnieren!</button>
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value="">
-                    <!-- set to newsletter only-->
-                    <input type="checkbox" value="1" checked="checked" name="group[16985][1]" id="mce-group[16985]-16985-0" style="display:none;">
-                  </div>
+          <h3>Newsletter</h3>
+          <p> Du möchtest auf dem Laufenden bleiben über Code for Germany? <br> Dann trag Dich in unseren monatlichen Newsletter ein: </p>
+          <div class="mc-field-group form-group form-group-newsletter text-left">
+            <label for="mce-EMAIL" class="sr-only" >E-Mail</label>
+            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="E-Mail" required >
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen">Abonnieren!</button>
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value="">
+              <!-- set to newsletter only-->
+              <input type="checkbox" value="1" checked="checked" name="group[16985][1]" id="mce-group[16985]-16985-0" style="display:none;">
             </div>
-          </form>
+          </div>
+        </form>
       </div>
-    
+
       <div class="rss-feed">
-        <h3><a href="#">RSS Feed <i class="fa fa-rss-square"></i></a></h3>
+        <h3><a href="/feed.xml">RSS Feed <i class="fa fa-rss-square"></i></a></h3>
       </div>
 
-      </div>
     </div>
-
   </div>
 </div>
-<!-- Termine & Projekte End -->
+</div>
+
+<script src="/js/lib/jquery.infinitescroll.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  $('.blog-page-nav').css('display','none');
+
+  $('.blog-main').infinitescroll({
+    navSelector  : ".blog-page-nav",            
+    nextSelector : ".blog-page-nav .older",    
+    itemSelector : ".blog-main .blog-post-teaser",
+  });
+
+});
+</script>
+

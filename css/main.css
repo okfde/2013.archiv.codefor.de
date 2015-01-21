@@ -48,6 +48,9 @@
 .text__white, .fond__green a, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
   color: white; }
 
+.logo {
+  margin-bottom: 20px; }
+
 .navbar {
   padding: 20px 0; }
 
@@ -158,6 +161,10 @@ label {
   color: #999999;
   font-size: 16px; }
 
+.page-title {
+  font-size: 63px;
+  margin: 60px 0; }
+
 /*-----  End of Typography  ------*/
 /*================================
 =  Elements & Modifiers          =
@@ -221,34 +228,47 @@ label {
   box-shadow: none;
   margin-bottom: 0; }
 
-.nav-social {
+.nav-meta li {
+  display: block;
+  margin-right: 5px;
   margin-bottom: 20px;
-  display: none; }
-  .nav-social li {
-    display: inline-block;
-    margin-right: 5px; }
-    .nav-social li:last-child {
-      margin-right: 0; }
-    .nav-social li a {
-      background: #ff5449;
-      color: white;
-      height: 48px;
-      width: 48px;
-      line-height: 48px; }
+  width: 100%; }
+  .nav-meta li:last-child {
+    margin-right: 0; }
 
-.nav-social > li > a:hover {
+.nav-meta > li > a {
+  height: 44px;
+  line-height: 42px;
+  color: #ff5449;
+  padding: 0 10px;
+  border: 2px solid #ff5449;
+  white-space: nowrap; }
+
+.nav-meta > li > a:hover, .nav-meta > li > a:focus {
+  color: #ff5449;
+  background: white; }
+
+.nav-meta > li.nav-meta-social {
+  display: inline-block;
+  width: inherit; }
+
+.nav-meta > li.nav-meta-social > a {
+  background: #ff5449;
+  color: white;
+  width: 44px;
+  padding: 0; }
+
+.nav-meta > li.nav-meta-social > a:hover {
   background: #ff5449;
   color: white; }
 
-.main-nav-wrapper {
-  margin: 20px 0; }
-  .main-nav-wrapper .nav-pills li {
-    border: 2px solid transparent; }
-    .main-nav-wrapper .nav-pills li a {
-      padding: 0 10px;
-      color: #ff5449; }
-  .main-nav-wrapper .nav-pills .current {
-    border: 2px solid #ff5449; }
+.main-nav-wrapper .nav-pills li {
+  border: 2px solid transparent; }
+  .main-nav-wrapper .nav-pills li a {
+    padding: 0 10px;
+    color: #ff5449; }
+.main-nav-wrapper .nav-pills .current {
+  border: 2px solid #ff5449; }
 
 .marker {
   background-color: white;
@@ -319,8 +339,7 @@ label {
   font-family: 'FontAwesome';
   content: "\f14c";
   font-size: 19px;
-  color: black;
-  margin-right: 10px; }
+  color: black; }
 
 .icon-before:before {
   display: inline-block;
@@ -368,7 +387,8 @@ label {
 .partner img {
   height: auto;
   margin: 0 auto;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: inherit; }
 
 .okfn-logo {
   max-width: 80%; }
@@ -427,18 +447,14 @@ label {
 =            Projects           =
 ===============================*/
 .project-teaser-slim .image-crop {
-  position: relative;
-  height: 245px;
-  overflow: hidden; }
+  position: relative; }
   .project-teaser-slim .image-crop .project-image {
-    position: absolute;
-    left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-    margin: auto;
-    height: auto;
     width: 100%; }
+
+.project-description p {
+  margin: 0 0 10px 0; }
+  .project-description p:last-child {
+    margin-bottom: 26px; }
 
 .loading {
   text-align: center; }
@@ -457,13 +473,15 @@ label {
   height: 100%;
   background-color: white; }
 
-.blog-post-teaser:first-child {
-  margin-top: 0; }
-.blog-post-teaser h2 {
-  width: 60%; }
-.blog-post-teaser img {
-  max-width: 80%;
-  margin: 30px auto; }
+.blog-post-teaser {
+  overflow: hidden; }
+  .blog-post-teaser:first-child {
+    margin-top: 0; }
+  .blog-post-teaser img {
+    max-width: 80%;
+    margin: 30px auto; }
+  .blog-post-teaser a {
+    text-decoration: none !important; }
 
 .blog-sidebar img {
   margin: 26px 0; }
@@ -481,8 +499,14 @@ label {
   .blog-page-nav .older {
     float: right; }
 
-.post .event-wrapper {
-  padding: 80px; }
+#infscr-loading {
+  padding: 15px 0;
+  text-align: center; }
+  #infscr-loading img {
+    display: none; }
+
+.post .event-wrapper:first-child {
+  margin-top: 0; }
 .post h2, .post h3 {
   font-size: 18px; }
 
@@ -492,27 +516,25 @@ label {
     text-decoration: underline; }
 
 .post-title {
-  float: left;
   margin-top: 0; }
 
 .post-meta {
-  float: right;
-  text-align: right;
   font-size: 14px;
   line-height: 16px;
-  color: gray;
-  width: 40%; }
+  color: gray; }
   .post-meta a {
     color: gray; }
-
-.post-description p:last-child {
-  margin-bottom: 0; }
 
 .post-description img {
   margin: 30px auto;
   max-width: 70%;
   height: auto;
   display: block; }
+.post-description iframe {
+  margin: 30px auto;
+  display: block; }
+.post-description p:last-child {
+  margin-bottom: 0; }
 
 .post-img-caption {
   display: block;
@@ -550,11 +572,20 @@ label {
 
 .googleMapsInfoBox {
   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-  font-size: 16px;
   color: #ff5449;
   background-color: white; }
 
+.googleMapsInfoBox_home {
+  font-size: 13px; }
+
+.googleMapsInfoBox_lab {
+  font-size: 16px; }
+
 @media screen and (min-width: 481px) {
+  .nav-meta li {
+    display: inline-block;
+    width: inherit; }
+
   #animation-wrapper h1 {
     font-size: 63px; }
 
@@ -574,8 +605,40 @@ label {
   .event-date-cta-wrapper {
     float: right;
     margin: 0;
-    max-width: 25%; } }
+    max-width: 25%; }
+
+  .post-title {
+    float: left;
+    width: 60%; }
+
+  .post-meta {
+    float: right;
+    width: 40%;
+    text-align: right; }
+
+  .project-teaser .project-status {
+    float: right; }
+  .project-teaser .project-lab {
+    float: left; }
+
+  .project-teaser-slim .image-crop {
+    height: 245px;
+    overflow: hidden; }
+    .project-teaser-slim .image-crop .project-image {
+      position: absolute;
+      left: -100%;
+      right: -100%;
+      top: -100%;
+      bottom: -100%;
+      margin: auto;
+      height: auto; } }
 @media screen and (min-width: 768px) {
+  .nav-meta {
+    text-align: right; }
+
+  .logo {
+    float: left; }
+
   .navbar .container {
     max-width: 1320px; }
 
@@ -591,18 +654,8 @@ label {
   .highlight-hero {
     margin-left: 10px; }
 
-  .nav-social {
+  .nav-meta {
     display: inherit; }
-
-  .main-nav-wrapper {
-    float: right;
-    margin: 0; }
-
-  .logo {
-    float: left; }
-
-  .main-nav-wrapper .nav-pills {
-    float: right; }
 
   .lab-map-home {
     height: 600px; }
@@ -611,8 +664,17 @@ label {
     height: 400px; }
 
   .members .member {
-    min-width: 50%; } }
+    min-width: 50%; }
+
+  .post .event-wrapper {
+    padding: 80px; } }
 @media screen and (min-width: 1200px) {
+  .main-nav-wrapper {
+    float: right; }
+
+  .main-nav-wrapper .nav-pills {
+    float: right; }
+
   .okfn-logo {
     max-width: 100%; }
 

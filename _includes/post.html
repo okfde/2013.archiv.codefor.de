@@ -3,7 +3,9 @@
     <h1 class="post-title" ><a href="{{ page.url }}">{{ page.title }}</a></h1>
     <div class="post-meta">
       <span class="blog-author-and-date"> von {{ page.author }} am {{ page.date | date: "%d.%m.%y" }}</span><br>
-      <span class="blog-tags"> in {% for tag in page.tags %} {{ tag }}{% unless forloop.last %}, {% endunless %} {% endfor %} </span>
+      {% unless page.tags == empty %}
+        <span class="blog-tags"> in: {% for tag in page.tags %} <a href="/blog/{{ tag | replace:' ','-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %}</span> 
+      {% endunless %}
     </div>
   </div>
   <div class="post-description">{{ page.content | markdownify }}</div>

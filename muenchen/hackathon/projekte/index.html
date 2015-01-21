@@ -1,0 +1,57 @@
+---
+layout: base
+---
+<div class="jumbotron fond__blue">
+  <div class="container text__white">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3>Code for Munich Hack Day - Projekte</h3>
+        <p>
+        In den unten stehenden Kisten sieht man die vorgeschlagene Projekte vom Lab. Aber auch neue Ideen sind willkommen und gefragt (gerne können wir sie hier mit aufnehmen)!</p>
+       </div> 
+     </div>
+  </div>     
+</div>
+
+<!-- Projekte -->
+<div class="jumbotron fond__blue">
+  <div class="container text__black">
+    <div class="clearfix">
+    </div>
+      <div class="loading">
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <div>...laden...</div>
+      </div>
+     <div class="packery-container">
+
+
+      <div class="packery-item-gutter"></div>
+      {% for sitepage in site.pages %}
+      {% if sitepage.layout == 'project-hackathon' %}
+        <div class="packery-item" >
+          {% include project-hackathon.html %}
+        </div>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+<!-- Projekte End -->
+<script src="/js/lib/packery.pkgd.min.js"></script>
+<script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+<script src="/js/PackeryGrid.js"></script>
+
+<script src="/js/lib/prettyCheckbox.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
+  // $(":checkbox").prettyCheckbox();
+
+});
+
+</script>
+
+

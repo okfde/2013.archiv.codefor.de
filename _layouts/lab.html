@@ -19,10 +19,10 @@ layout: base
     <div class="row">
       <div class="col-lg-6">
         <h1 class="highlight-white"> {{ page.title }} </h1>
-        <p>{{ page.content | markdownify }}</p>
+        {{ page.content | markdownify }}
       </div>
       <div class="col-lg-6">
-        
+
         {%if page.links %}
         <h3> Basis Info</h3>
         <ul class="list-unstyled lab-links" >
@@ -33,13 +33,13 @@ layout: base
           {% endfor %}
         </ul>
         {% endif %}
-        
+
         {%if page.leads %}
         <h3> Kontakt</h3>
         <ul class="list-unstyled lab-links" >
           {% for lead in page.leads %}
           <li>
-            <a href="{{ lead.url }}">{{ lead.name }}</a> 
+            <a href="{{ lead.url }}">{{ lead.name }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -56,12 +56,19 @@ layout: base
 
 <!-- Termine  -->
 
-{% comment %} Let's count how many events we have for this lab (needed for layout columns etc.) {% endcomment %}
 {% assign event_count = 0 %}
-{% for event in site.data.events %}
+{% assign events = site.termine | sort: 'date' %}
+
+{% for event in events %}
+
   {% if event.lab == page.lab %}
-   {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
+    {% assign date = event.date | date: '%s' %}
+    {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+    {% unless date < now %}  
+      {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
+    {% endunless %}
   {% endif %}
+
 {% endfor %}
 {% assign loop_index = 0 %}
 
@@ -73,25 +80,29 @@ layout: base
       <div class="row">
 
       {% assign event_count=event_count | minus:1 %}
-        
-        {% for event in site.data.events %}
+
+        {% for event in events %}
         {% if event.lab == page.lab %}
-          <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
-            {% include event.html %}
-          </div>
+            {% assign date = event.date | date: '%s' %}
+            {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+            {% unless date < now %}  
+                <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
+                  {% include event.html %}
+                </div>
 
-          {% comment %} Every second event close row and open new {% endcomment %}
-          {% if 1 == loop_index | modulo:2 %}
-            {% comment %} Unless it is the last iteration {% endcomment %}
-            {% if loop_index < event_count %}
-              </div><div class="row" >
-            {% endif %}
-          {% endif %}
+                {% comment %} Every second event close row and open new {% endcomment %}
+                {% if 1 == loop_index | modulo:2 %}
+                  {% comment %} Unless it is the last iteration {% endcomment %}
+                  {% if loop_index < event_count %}
+                    </div><div class="row" >
+                  {% endif %}
+                {% endif %}
 
-        {% if loop_index == event_count %}
-        </div>
-        {% endif %}
-    {% assign loop_index = loop_index | plus:1 %}
+              {% if loop_index == event_count %}
+              </div>
+              {% endif %}
+              {% assign loop_index = loop_index | plus:1 %}
+            {% endunless %}
 
     {% endif %}
     {% endfor %}
@@ -103,10 +114,18 @@ layout: base
 <!-- Termine End -->
 
 <!-- Projekte -->
-{% unless project_count == 0 %}
+{% assign project_count = 0 %}
+{% for sitepage in site.pages %}
+ {% if page.lab == sitepage.lab %}
+   {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+<!-- remove the ok lab's page -->
+{% capture project_count %}{{ project_count | minus:1 }}{% endcapture %}
+{% unless project_count == '0' %}
 <div class="jumbotron fond__blue">
   <div class="container">
-    <h3 id="projects">Projekte</h3> 
+    <h3 id="projects">Projekte</h3>
     <div class="loading">
         <i class="fa fa-circle-o-notch fa-spin"></i>
         <div>...laden...</div>
@@ -125,7 +144,8 @@ layout: base
     </div>
   </div>
 </div>
-{%endunless%}
+{% endunless %}
+
 <!-- Projekte End -->
 
 <!-- Mitglieder-->
@@ -149,7 +169,7 @@ layout: base
              <div class="member-info ">
              {{ member.name }} <br>
              {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">github:{{ member.username-github }}</a><br> {% endif %}
-             {% if member.username-twitter %}<a href="https://www.twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
+             {% if member.username-twitter %}<a href="https://twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
              </div>
           </li>
           {% endfor %}
@@ -180,16 +200,19 @@ layout: base
             "url":"",   // leave "" to disable marker clickevent
             "text": "{{ page.lab }}"
         }];
+
+    var google_maps_page = 'lab';
+
 </script>
 
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function() {
-  
-  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers,'/img/lab_marker.png');
+
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page, '/img/lab_marker.png');
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
-  // $(":checkbox").prettyCheckbox();
+  $(":checkbox").prettyCheckbox();
 
 });
 

@@ -6,7 +6,7 @@ author: Fiona
 excerpt: Die Jungs und Mädels aus Hamburg sind absolute Experten auf dem Gebiet der Datenvisualisierung und unheimlich gut vernetzt. Wir wollen sie näher vorstellen...
 
 tags: 
-- aus-den-labs
+- Aus den Labs
 
 images:
 - imgname: hamburg.jpg

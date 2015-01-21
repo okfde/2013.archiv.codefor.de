@@ -39,6 +39,10 @@ body {
 	@extend .fond__grey;
 }
 
+.logo {
+	margin-bottom: 20px;
+}
+
 .navbar {
 	@extend .fond__white; 
 	padding: 20px 0;
@@ -222,6 +226,11 @@ label {
 	font-size: 16px;
 }
 
+.page-title {
+	font-size: 63px;
+	margin: 60px 0;
+}
+
 /*-----  End of Typography  ------*/
 
 
@@ -294,32 +303,47 @@ label {
 	margin-bottom: 0;
 }
 
-.nav-social {
+.nav-meta li {
+	display: block;
+	margin-right: 5px;
 	margin-bottom: 20px;
+	width: 100%;
+	&:last-child { margin-right: 0 ;}
+} 
 
-	li {
-		display: inline-block;
-		margin-right: 5px;
-		&:last-child { margin-right: 0 ;}
-		a {
-			background: $red;
-			color: $white;
-			height: 48px;
-			width: 48px;
-			line-height: 48px;
-		}
-	} 
-	display: none;
+.nav-meta > li > a {
+	height: 44px;
+	line-height: 42px;
+	color: $red;
+	padding: 0 10px;
+	border: 2px solid $red;
+	white-space: nowrap;
 }
 
-.nav-social > li > a:hover {
+.nav-meta > li > a:hover, .nav-meta > li > a:focus {
+	color: $red;
+	background: $white;
+}
+
+.nav-meta > li.nav-meta-social {
+	display: inline-block;
+	width: inherit;
+}
+
+.nav-meta > li.nav-meta-social > a {
+	background: $red;
+	color: $white;
+	width: 44px;
+	padding: 0;
+}
+
+.nav-meta > li.nav-meta-social > a:hover {
 	background: $red;
 	color: $white;
 }
 
 .main-nav-wrapper {
-	
-	margin: 20px 0;
+		
 	.nav-pills li {	
 		border: 2px solid transparent;
 		a {
@@ -437,10 +461,8 @@ label {
 		content: "\f14c";
 		font-size: 19px;
 		color: black;
-		margin-right: 10px;
 	} 
 }
-
 
 .icon-before:before {
 	display: inline-block;
@@ -509,6 +531,7 @@ $date-circle: 80px;
 	height: auto;
 	margin: 0 auto;
 	margin-bottom: 50px;
+	width: inherit;
 }
 
 .okfn-logo {
@@ -606,26 +629,21 @@ $date-circle: 80px;
 
 .project-teaser-slim .image-crop {
 		
-		position: relative;
-		height: 245px;
-		overflow: hidden;
+	position: relative;
 
-		.project-image {
-	
-		position:absolute;
-	    left: -100%;
-	    right: -100%;
-	    top: -100%;
-	    bottom: -100%;
-	    margin: auto; 
-	    height: auto;
+	.project-image {
 	    width: 100%;
-
-		}
-
 	}
+}
 	
-
+.project-description {
+	p {
+		margin: 0 0 10px 0;
+		&:last-child {
+			margin-bottom: 26px;
+		}
+	}
+}
 
 .loading {
 	text-align: center;
@@ -661,15 +679,17 @@ $date-circle: 80px;
 		margin-top: 0;
 	}
 
-	h2 {
-		width: 60%;
-	}
-
 	img {
 		max-width: 80%;
 		margin: 30px auto;
-
 	}
+
+	a {
+		text-decoration: none !important;
+	}
+
+	overflow: hidden;
+
 }
 
 .blog-sidebar {
@@ -707,15 +727,25 @@ $date-circle: 80px;
 	}
 }
 
+#infscr-loading {
+	padding: 15px 0;
+	text-align: center;
+	img {
+		display:none;
+	}
+}
 
 .post {
 	.event-wrapper {
-		padding: 80px;
+		&:first-child {
+			margin-top: 0;
+		}
 	}
 
 	h2, h3 {
 		font-size: 18px;
 	}
+	
 }
 
 .post-links {
@@ -726,43 +756,40 @@ $date-circle: 80px;
 }
 
 .post-title {
-	float: left;
 	margin-top: 0;
 }
 
 .post-meta {
 
-	float:right;
-	text-align: right; 
 	font-size: 14px;
 	line-height: 16px;
 	color: gray;
-	width: 40%;
 
 	a {
 		color: gray;
-	}
-
-
-}
-
-
-
-
-.post-description {
-	p:last-child {
-		margin-bottom: 0;
 	}
 }
 
 .post-description {
 	
 	img {
-	margin: 30px auto;
-	max-width: 70%;
-	height: auto;
-	display: block;
+		margin: 30px auto;
+		max-width: 70%;
+		height: auto;
+		display: block;
 	}
+
+	iframe {
+
+		margin: 30px auto;
+		display: block;
+
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
 }
 
 .post-img-caption {
@@ -825,15 +852,27 @@ $date-circle: 80px;
 }
 
 .googleMapsInfoBox{
-	font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-	font-size: 16px;
-	color: $red;
-	background-color: $white;
+   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+   color: $red;
+   background-color: white;
+ }
+
+.googleMapsInfoBox_home{
+  font-size: 13px;
+}
+.googleMapsInfoBox_lab{
+  font-size: 16px;
 }
 
 
 
 @media screen and (min-width: 481px) {
+	
+	.nav-meta li {
+		display: inline-block;
+		width: inherit;
+	}
+
 	#animation-wrapper h1 {
 		font-size: 63px;
 	}
@@ -861,9 +900,58 @@ $date-circle: 80px;
 		max-width: 25%;
 	}
 
+	.post-title {
+		float: left;
+		width: 60%;
+
+	}
+
+	.post-meta {
+		float:right;
+		width: 40%;
+		text-align: right; 
+	}
+
+	.project-teaser {
+
+		.project-status {
+			float: right;
+		}
+
+		.project-lab {
+			float: left;
+		}
+	}
+
+	.project-teaser-slim .image-crop {
+		
+	height: 245px;
+	overflow: hidden;
+
+	.project-image {
+		position:absolute;
+	    left: -100%;
+	    right: -100%;
+	    top: -100%;
+	    bottom: -100%;
+	    margin: auto; 
+	    height: auto;
+	}
+}
+	
+
+
 }
 
 @media screen and (min-width: 768px) {
+
+	.nav-meta {
+		text-align: right;
+	}
+
+	.logo {
+		float: left;
+	}
 
 	.navbar .container {
 		max-width: 1320px;
@@ -885,22 +973,8 @@ $date-circle: 80px;
 		margin-left: 10px;
 	}
 
-	.nav-social {
+	.nav-meta {
 		display: inherit;
-	}
-
-	.main-nav-wrapper {
-		float: right;
-		margin: 0;
-	}
-
-	.logo {
-		float: left;
-	}
-
-	.main-nav-wrapper .nav-pills
-	{
-		float: right;
 	}
 
 	.lab-map-home{
@@ -914,9 +988,23 @@ $date-circle: 80px;
 		min-width: 50%;
 	}
 
+	.post {
+		.event-wrapper {
+			padding: 80px;	
+		}
+	}
 }
 
 @media screen and (min-width: 1200px) {
+	
+	.main-nav-wrapper {
+		float: right;
+	}
+
+	.main-nav-wrapper .nav-pills
+	{
+		float: right;
+	}
 
 	.okfn-logo {
 		max-width: 100%;
@@ -937,7 +1025,6 @@ $date-circle: 80px;
 	.members .member {
 		min-width: 33%;
 	}
-
 }
 
 .row.board
@@ -945,7 +1032,3 @@ $date-circle: 80px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
-
-
-

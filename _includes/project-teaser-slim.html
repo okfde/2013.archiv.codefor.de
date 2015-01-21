@@ -1,36 +1,11 @@
-<div class="project-wrapper project-teaser-slim fond__white clearfix">
+<div class="project-wrapper project-teaser project-teaser-slim fond__white clearfix">
   <div class="row">
-    <div class="col-lg-6">
-      <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
-      <p class="project-description">{{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
-      <div class="project-footer clearfix">
-
-        {% for sitepage in site.pages %}
-        {% if sitesitepage.lab == sitepage.lab %}
-        {% assign lab = sitesitepage.url %}
-        {% endif %}
-        {% endfor%}
-
-        <div class="event-location pull-left icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
-
-        {% if sitepage.status %}
-          {% assign status = sitepage.status %}
-        {% else %}
-          {% assign status = 'In Progress' %}
-        {% endif %}
-
-        <div class="project-status pull-right">{{ status }}</div>
-      </div>
-    </div>
-
-    <div class="col-lg-6">
-
+    <div class="col-sm-6 col-sm-push-6">
       {% if sitepage.imgname-teaser %}
         {% assign imgname = sitepage.imgname-teaser %}
       {% elsif sitepage.imgname %}
         {% assign imgname = sitepage.imgname %}
       {% endif %}
-
 
       {% if sitepage.imgname OR sitepage.imgname-teaser %}
       <a href="{{ sitepage.url }}">
@@ -39,9 +14,41 @@
         </div>
       </a>
       {% endif %}
-
-
-
     </div>
+
+    <div class="col-sm-6 col-sm-pull-6">
+      <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
+      <p class="project-description"> 
+          {% if sitepage.excerpt %}
+            {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' }} 
+          {% else %}
+            {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 25 }} 
+          {% endif %}
+      </p>    
+
+      <div class="project-footer clearfix">
+
+        {% for labpage in site.pages %}
+          {% if labpage.lab == sitepage.lab %}
+            {% if labpage.layout == 'lab' %}
+              {% assign lab = labpage.url %}
+            {% endif %}
+          {% endif %}
+        {% endfor%}
+
+
+        <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
+
+        {% if sitepage.status %}
+          {% assign status = sitepage.status %}
+        {% else %}
+          {% assign status = 'In Progress' %}
+        {% endif %}
+
+        <div class="project-status">{{ status }}</div>
+      </div>
+    </div>
+
+
   </div>
 </div>
