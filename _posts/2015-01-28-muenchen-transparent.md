@@ -1,17 +1,17 @@
 ---
 layout: post
 
-title: "München Transparent" heute gestartet!
+title: "München Transparent"
 author: Fiona
 excerpt: Das OK Lab München hat einen Vorstoß in Richtung mehr Transparenz gewagt und das Portal "München Transparent" gestartet. 
 
 images:
-- imgname: muenchen-transparent.png
+- imgname: muenchen-transparent-launch.png
 
 ---
 
  
-![muenchen-transparent](/assets/blog/muenchen-transparent.png)
+![muenchen-transparent-launch](/assets/blog/muenchen-transparent-launch.png)
 
 Heute ging das Projekt "[München Transparent][]" an den Start. Die unabhängige Plattform ermöglicht es Münchener BürgerInnen, schnell und einfach Einblicke in die Kommunalpolitik zu bekommen, indem normalerweise nur schwer zugängliche Daten aus dem Münchener [Ratsinformationssystem][] übersichtlich und ansprechend aufbereitet werden. Insgesamt über 160.000 gescannte Dokumente umfasst die Datenbank derzeit, von Stadtratsanträgen über Beschlussvorlagen bis hin zum täglich erscheinenden Rathaus-Magazin „Rathausumschau“. So lässt sich erfahren, was eigentlich der Münchner Stadtrat gerade macht und welche Themen in den lokalen Stadtteilparlamenten oder den Bezirksausschüssen anstehen. 
 
