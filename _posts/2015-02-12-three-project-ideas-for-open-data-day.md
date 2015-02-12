@@ -67,7 +67,7 @@ Click-that-hood is a very quick project once you find the data. It's definitely 
 
 Last year in Denver, Colorado I made a twitter bot called [@CutePetsDenver](https://twitter.com/CutePetsDenver). Every few hours it gets data about adoptable animals and tweets adorable pics and info. As a part of their intake procedure, most city shelters & non-profit shelters take photos and record data about homeless animals. Generally this data rarely ever ends up in online places where people can see it, which is shame because it means animals stay homeless longer. Sometimes the data ends up on a shelter website, but it almost never ends up on social spaces online like twitter, facebook, instagram, and so on. The CutePets bot bridges that gap by taking info about adoptable animals and periodically sharing it on social media.
 
-## 15 redeploys in the US, now let's bring redeploy it in Germany
+## 15 redeploys in the US, now let's redeploy it in Germany
  ![cutepets across america](/assets/blog/cutepets-across-america.png)
 
 Only a few months after launching the first bot in Denver, people in other cities were working with the code and got it working with their city's animal shelter data. It has now been redeployed in 15 different US cities, including [Boston](https://twitter.com/CutePetsBoston), [San Francisco](https://twitter.com/CutePetsSF), [Austin](https://twitter.com/CutePetsAustin), and [Minneapolis](https://twitter.com/CutePetsMPLS). Now let's bring it to Germany!
