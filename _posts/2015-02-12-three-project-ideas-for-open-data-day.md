@@ -5,6 +5,10 @@ title: Three ideas for Open Data Day 2015
 author: Drew
 excerpt: With one week until Open Data Day, here are three project ideas to jumpstart your creativity
 
+
+images:
+- imgname: redeploy-icon.png
+
 ---
 
 [Open Data Day](http://de.opendataday.org) is only 7 days away, [the countdown has begun](http://de.opendataday.org/countdown)! With events in 13 cities across Germany, we're definitely going to see some new data sets published, new open data projects created and apps redeployed. But many people going to these events aren't going with a specific project in mind. So here are five ideas for what you can work on next Saturday.
