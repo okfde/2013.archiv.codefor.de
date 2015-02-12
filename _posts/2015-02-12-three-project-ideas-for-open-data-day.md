@@ -11,7 +11,7 @@ images:
 
 ---
 
-[Open Data Day](http://de.opendataday.org) is only 7 days away, [the countdown has begun](http://de.opendataday.org/countdown)! With events in 13 cities across Germany, we're definitely going to see some new data sets published, new open data projects created and apps redeployed. But many people going to these events aren't going with a specific project in mind. So here are five ideas for what you can work on next Saturday.
+[Open Data Day](http://de.opendataday.org) is only 7 days away, [the countdown has begun](http://de.opendataday.org/countdown)! With events in 13 cities across Germany, we're definitely going to see some new data sets published, new open data projects created and apps redeployed. But many people going to these events aren't going with a specific project in mind. So here are three ideas for what you can work on next Saturday.
 
 # 3 Project ideas:
  1. [Add your hood to Click-that-Hood](#clickthathood)
