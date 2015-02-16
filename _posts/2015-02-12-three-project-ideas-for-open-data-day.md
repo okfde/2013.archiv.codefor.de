@@ -34,7 +34,9 @@ There are [detailed howto instructions](https://github.com/codeforamerica/click_
 ## Where in Germany has Click-that-hood already been deployed?
 Here's where it has already been deployed:
 
- * German States, Augsburg, Bayern, Berlin, Cologne, Dresden, Hamburg, Nordrhein-Westfalen Municipalities, Ulm, Unna
+ * German States, Augsburg, Bayern, Berlin, Cologne, Dresden, Hamburg, Nordrhein-Westfalen Municipalities
+ * Ulm
+ * Unna
  * Berlin
  * Koln
  * Hamburg
@@ -57,7 +59,6 @@ This Open Data Day, you can add geo data for any of these German cities:
  * München (Bayern States is done, could do neighborhoods)
  * Karlsruhe
  * Freiburg
- * Ulm
 
 Click-that-hood is a very quick project once you find the data. It's definitely a project that you can start and finish during the event.
 
