@@ -7,46 +7,46 @@
                                                                                  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .fond__red, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
-  background-color: #ff5449; }
+  background-color: #FF5449; }
 
 .fond__blue {
-  background-color: #00abfa; }
+  background-color: #00ABFA; }
 
 .fond__green {
-  background-color: #22d790; }
+  background-color: #22D790; }
 
 .fond__grey, body {
-  background-color: #f2f2f2; }
+  background-color: #F2F2F2; }
 
 .fond__grey-mid {
-  background-color: #e7e7e7; }
+  background-color: #E7E7E7; }
 
 .fond__white, .navbar, .fond__green .lab-links a, .highlight-white {
-  background-color: white; }
+  background-color: #FFFFFF; }
 
 .text__red, .fond__green .lab-links a, .highlight-white, .event-date-cta-wrapper, .jumbotron h1 {
-  color: #ff5449; }
+  color: #FF5449; }
 
 .text__blue, #animation-wrapper h1 {
-  color: #00abfa; }
+  color: #00ABFA; }
 
 .text__green {
-  color: #22d790; }
+  color: #22D790; }
 
 .text__grey-dark {
   color: #999999; }
 
 .text__grey-mid {
-  color: #e7e7e7; }
+  color: #E7E7E7; }
 
 .text__grey-bright {
-  color: #f2f2f2; }
+  color: #F2F2F2; }
 
 .text__black, a, a:hover, a:visited, a:active, .fond__blue p a, .fond__blue li a {
-  color: black; }
+  color: #000000; }
 
 .text__white, .fond__green a, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
-  color: white; }
+  color: #FFFFFF; }
 
 .logo {
   margin-bottom: 20px; }
@@ -101,9 +101,9 @@ h4, .h4 {
   text-decoration: underline; }
 
 .fond__green .lab-links a {
-  -webkit-box-shadow: 10px 0 0 white, -10px 0 0 white;
-  -moz-box-shadow: 10px 0 0 white, -10px 0 0 white;
-  box-shadow: 10px 0 0 white, -10px 0 0 white;
+  -webkit-box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
+  -moz-box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
+  box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
   display: inline;
   text-decoration: none; }
 
@@ -133,15 +133,15 @@ label {
   text-transform: uppercase; }
 
 .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited {
-  -webkit-box-shadow: 10px 0 0 #ff5449, -10px 0 0 #ff5449;
-  -moz-box-shadow: 10px 0 0 #ff5449, -10px 0 0 #ff5449;
-  box-shadow: 10px 0 0 #ff5449, -10px 0 0 #ff5449;
+  -webkit-box-shadow: 10px 0 0 #FF5449, -10px 0 0 #FF5449;
+  -moz-box-shadow: 10px 0 0 #FF5449, -10px 0 0 #FF5449;
+  box-shadow: 10px 0 0 #FF5449, -10px 0 0 #FF5449;
   display: inline; }
 
 .highlight-white {
-  -webkit-box-shadow: 10px 0 0 white, -10px 0 0 white;
-  -moz-box-shadow: 10px 0 0 white, -10px 0 0 white;
-  box-shadow: 10px 0 0 white, -10px 0 0 white;
+  -webkit-box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
+  -moz-box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
+  box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF;
   display: inline; }
 
 .form-control, .btn {
@@ -154,7 +154,7 @@ label {
 .meta-links-foot {
   text-transform: uppercase; }
   .meta-links-foot a, .meta-links-foot a:hover, .meta-links-foot a:visited, .meta-links-foot a:active {
-    color: black;
+    color: #000000;
     text-decoration: none; }
 
 .foot-note {
@@ -177,11 +177,11 @@ label {
   border: 0; }
 
 .btn:hover {
-  color: white; }
+  color: #FFFFFF; }
 
 .btn-mitmachen {
-  background-color: #ff5449;
-  color: white;
+  background-color: #FF5449;
+  color: #FFFFFF;
   width: 100%; }
 
 /* Pretty Checkboxes */
@@ -202,7 +202,7 @@ label {
   position: relative; }
 
 .prettyCheckbox.checked .check {
-  background: black;
+  background: #000000;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -239,45 +239,45 @@ label {
 .nav-meta > li > a {
   height: 44px;
   line-height: 42px;
-  color: #ff5449;
+  color: #FF5449;
   padding: 0 10px;
-  border: 2px solid #ff5449;
+  border: 2px solid #FF5449;
   white-space: nowrap; }
 
 .nav-meta > li > a:hover, .nav-meta > li > a:focus {
-  color: #ff5449;
-  background: white; }
+  color: #FF5449;
+  background: #FFFFFF; }
 
 .nav-meta > li.nav-meta-social {
   display: inline-block;
   width: inherit; }
 
 .nav-meta > li.nav-meta-social > a {
-  background: #ff5449;
-  color: white;
+  background: #FF5449;
+  color: #FFFFFF;
   width: 44px;
   padding: 0; }
 
 .nav-meta > li.nav-meta-social > a:hover {
-  background: #ff5449;
-  color: white; }
+  background: #FF5449;
+  color: #FFFFFF; }
 
 .main-nav-wrapper .nav-pills li {
   border: 2px solid transparent; }
   .main-nav-wrapper .nav-pills li a {
     padding: 0 10px;
-    color: #ff5449; }
+    color: #FF5449; }
 .main-nav-wrapper .nav-pills .current {
-  border: 2px solid #ff5449; }
+  border: 2px solid #FF5449; }
 
 .marker {
-  background-color: white;
-  color: white; }
+  background-color: #FFFFFF;
+  color: #FFFFFF; }
 
 .form-control {
   height: 40px;
   padding: 6px 12px;
-  color: black;
+  color: #000000;
   border: none;
   border-radius: 0; }
 
@@ -360,7 +360,7 @@ label {
   display: inline-block;
   padding: 0 10px; }
   .event-cta a, .event-cta a:hover, .event-cta a:visited, .event-cta a:active {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none; }
 
 .event-date-cta-wrapper {
@@ -375,7 +375,7 @@ label {
   display: inline-block;
   width: 80px;
   height: 80px;
-  border: 2px solid #ff5449;
+  border: 2px solid #FF5449;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
   -ms-border-radius: 80px;
@@ -559,7 +559,7 @@ label {
 
 /*-----  End of Blog  ------*/
 /*================================
-=  Google Map                   =
+=  Leaflet Map                   =
 ================================*/
 #lab-map {
   width: 100%; }
@@ -570,17 +570,37 @@ label {
 .lab-map-city {
   height: 200px; }
 
-.googleMapsInfoBox {
-  font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-  color: #ff5449;
-  background-color: white; }
+.leaflet-label {
+  background: white;
+  background: rgba(255, 255, 255, 0.81);
+  background-clip: padding-box;
+  border-color: #777;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border-style: none;
+  border-width: 4px;
+  color: #FF5449;
+  display: block;
+  font-family: sans-serif;
+  font-weight: normal;
+  padding: 1px 6px;
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 6; }
 
-.googleMapsInfoBox_home {
-  font-size: 13px; }
+.leaflet-label:hover {
+  background: white;
+  background: white; }
 
-.googleMapsInfoBox_lab {
-  font-size: 16px; }
+.leaflet-container .leaflet-label a {
+  color: #FF5449;
+  text-decoration: none; }
 
+/*-----  End of Leaflet Map  ------*/
 @media screen and (min-width: 481px) {
   .nav-meta li {
     display: inline-block;
@@ -692,3 +712,5 @@ label {
 .row.board {
   margin-top: 10px;
   margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */

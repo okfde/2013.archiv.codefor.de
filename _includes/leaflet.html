@@ -1,0 +1,55 @@
+<script>
+$(document).ready(function() {
+    // initiaize map, set position and zoom level
+    var map = L.map('lab-map').setView([51.1642292, 10.4541194], 6);
+
+    // basemap 
+    var mapboxLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v4/codeforgermany.cc5365b0/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmdlcm1hbnkiLCJhIjoiMVg2ZGdSSSJ9.JsM4S0LZpeNmI1rHQnCxig', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> Map tiles by &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+        minZoom: 5,
+        maxZoom: 10
+        });
+
+    // define Awesome Markers style
+    var myIcon = L.AwesomeMarkers.icon({
+        icon: 'code',
+        markerColor: 'red',
+        prefix: 'fa'
+    });
+
+    // define Leaflet-Label styles - use direction parameter to prevent overlapping
+    var myLabelLeft = {
+        noHide: true,
+        clickable: true,
+        offset: [20,-36],
+        direction: 'left'
+    };
+
+    var myLabelRight = {
+        noHide: true,
+        clickable: true,
+        offset: [20,-36],
+        direction: 'right'
+    };
+
+    // load sample markers and labels
+    {% for lab in site.pages %}
+     {% if lab.layout == 'lab' %}
+        var marker = L.marker( 
+            [{{ lab.lat }}, {{ lab.long }}], 
+            { icon: myIcon, riseOnHover: true })
+        .bindLabel('<a href="{{ lab.url }}">{{ lab.lab }}</a>', 
+            {% if lab.markerposition == 'right' %}
+                myLabelRight
+            {% else %}
+                myLabelLeft
+            {% endif %}
+            )
+        .addTo(map)
+     {% endif %}
+    {% endfor %}
+
+    // load basemaps
+    mapboxLayer.addTo(map);
+});
+</script>

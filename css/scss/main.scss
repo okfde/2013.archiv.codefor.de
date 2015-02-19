@@ -836,7 +836,7 @@ $date-circle: 80px;
 
 
 /*================================
-=  Google Map                   =
+=  Leaflet Map                   =
 ================================*/
 
 #lab-map{
@@ -851,20 +851,40 @@ $date-circle: 80px;
 	height: 200px;
 }
 
-.googleMapsInfoBox{
-   font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-   color: $red;
-   background-color: white;
- }
-
-.googleMapsInfoBox_home{
-  font-size: 13px;
+.leaflet-label {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.81);
+	background-clip: padding-box;
+	border-color: #777;
+	border-color: rgba(0,0,0,0.25);
+	border-radius: 4px;
+	border-style: none;
+	border-width: 4px;
+	color: $red;
+	display: block;
+	font-family: sans-serif;
+	font-weight: normal;
+	padding: 1px 6px;
+	position: absolute;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	white-space: nowrap;
+	z-index: 6;
 }
-.googleMapsInfoBox_lab{
-  font-size: 16px;
+
+.leaflet-label:hover {
+  background:rgb(255, 255, 255);
+  background:rgba(255, 255, 255, 1);
 }
 
+.leaflet-container .leaflet-label a {
+  color: $red;
+  text-decoration: none;
+}
 
+/*-----  End of Leaflet Map  ------*/
 
 @media screen and (min-width: 481px) {
 	
