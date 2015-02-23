@@ -1,6 +1,6 @@
 ---
 layout: base
-
+title: "Übersicht der OK Labs"
 ---
 
 <!-- Lab Map -->
@@ -12,14 +12,21 @@ layout: base
 <div class="beneath-sections jumbotron fond__blue animated">
   <div class="container text-center text__black">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
         <p>
-        In 13 Städten treffen sich regelmäßig Code for Germany Teams. Die Teams sind lokal und <a href="http://codeforamerica.org/about/international/">global</a> vernetzt, tauschen sich regelmäßig aus, bekommen Input und Support von Mentoren und arbeiten gemeinsam an Code und Anwendungen. Jedes Lab besteht aus Mitgliedern und Lab Leads. Die Leads organisieren Treffen, kümmern sich um die Kommunikationskanäle des Labs, sind Ansprechpartener und Hub zum weiteren Netzwerk. Im Januar 2015 sind 5 weitere Labs hinzugekommen, die gerade Teil des Netzwerks werden.<br><br>
+        In 13 Städten treffen sich regelmäßig Code for Germany Teams. Die Teams sind lokal und <a href="http://codeforamerica.org/about/international/">global</a> vernetzt, tauschen sich regelmäßig aus, bekommen Input und Support von Mentoren und arbeiten gemeinsam an Code und Anwendungen. Jedes Lab besteht aus Mitgliedern und Lab Leads. Die Leads organisieren Treffen, kümmern sich um die Kommunikationskanäle des Labs, sind Ansprechpartener und Hub zum weiteren Netzwerk. Im Januar 2015 sind 5 weitere Labs hinzugekommen, die gerade Teil des Netzwerks werden.</p>
 
-        Die OK Labs sind eigenständige Gruppen, mit eigenen Kommunikationskanälen wie Websites, Etherpads oder Twitter-Accounts. Auf codefor.de werden das Netzwerk und die Projekte der Labs präsentiert. Für Details zu den Gruppen und Projekten lohnt es sich auf die Websites und in die Pads der einzelnen Gruppen zu schauen und sich dort zu informieren bzw. sich direkt auf der Mailingliste des jeweiligen Labs einzutragen.
-
-        </p>
+        <p>Die OK Labs sind eigenständige Gruppen, mit eigenen Kommunikationskanälen wie Websites, Etherpads oder Twitter-Accounts. Auf codefor.de werden das Netzwerk und die Projekte der Labs präsentiert. Für Details zu den Gruppen und Projekten lohnt es sich auf die Websites und in die Pads der einzelnen Gruppen zu schauen und sich dort zu informieren bzw. sich direkt auf der Mailingliste des jeweiligen Labs einzutragen.</p>
       </div>
+      <ul class="col-lg-12 list-inline">
+        {% assign siteArray = site.pages | sort: 'lab' %}
+        {% for lab in siteArray %}
+          {% if lab.layout == 'lab' %}
+            {% assign city =  lab.lab | remove: "OK Lab " %}
+            <li><a href="{{ lab.url }}">{{ city }}{% if city != lab.title %} ({{ lab.title }}){% endif %}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
     <!--
     <div class="row">
