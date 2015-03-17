@@ -9,7 +9,8 @@ images:
 - imgname: newsletter-februar.png
 
 ---
-![newsletter](/assets/blog/newsletter-februar.png)
+![newsletter-febuar](/assets/blog/newsletter-februar.png)
+
 
 Diesen Monat gibt es wieder einen Newsletter mit aktuellen Updates aus den Labs, zum Open Data Day 2015 und zu spannenden Initiativen und Visualisierungen. 
 
