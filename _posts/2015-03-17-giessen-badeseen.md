@@ -12,7 +12,7 @@ Wo ist ist der nächste Badesee? Würde ich mein Kind darin schwimmen lassen? Wa
 
 ![image](/assets/blog/cfgibadeseen2.jpg)
 
-Nach einem ersten Treffen mit dem `Hessischen Landesamt für Umwelt und Geologie´ (HLUG). Natürlich ging es um das Öffnen von Daten, speziell um Daten zu den hessischen Badegewässern.
+Nach einem ersten Treffen mit dem `Hessischen Landesamt für Umwelt und Geologie´ (HLUG) dessen Thema das Öffnen der Daten für Badegewässer war, wurde unser Lab zum Erfahrungsaustausch für Badegewässer eingeladen.
 
 Am 17. März haben 4 Mitglieder des OK Labs in Gießen (Martin, Vincent, Florian und Julian) am Event teilgenommen und den Protoypen der App präsentiert, welche alle verfügbaren Informationen über die Badeseen bereitstellt. Dazu gehören nicht nur die Entfernung zum nächsten Badesee und das aktuelle Badewetter, sondern auch historische Messwerte und aktuelle Nachrichten zu den Seen.
 
