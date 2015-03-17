@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Der neuste Newsletter Code for Germany Newsletter
+title: Der neuste Code for Germany Newsletter
 author: Sonia
 excerpt: Wir haben wieder spannende News und Links für unseren Newsletter gesammelt.
 
