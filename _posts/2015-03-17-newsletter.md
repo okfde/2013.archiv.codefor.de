@@ -6,7 +6,7 @@ author: Sonia
 excerpt: Wir haben wieder spannende News und Links für unseren Newsletter gesammelt.
 
 images:
-- imgname: newsletter.png
+- imgname: newsletter-februar.png
 
 ---
 ![newsletter](/assets/blog/newsletter.png)
