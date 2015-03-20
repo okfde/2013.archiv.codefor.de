@@ -10,41 +10,40 @@ $(document).ready(function() {
         maxZoom: 10
         });
 
-    // define Awesome Markers style
-    var myIcon = L.AwesomeMarkers.icon({
-        icon: 'code',
-        markerColor: 'red',
-        prefix: 'fa'
+    // define left-aligned and right-aligned labels and icons
+    var labelRight = L.Icon.Label.extend({
+        options: {
+            iconUrl: '/img/lab_marker_home.png',
+            shadowUrl: null,
+            iconSize: new L.Point(21, 35),
+            iconAnchor: new L.Point(0, 0),
+            labelAnchor: new L.Point(25, 2),
+            wrapperAnchor: new L.Point(10, 35)
+        }
+    });
+    var labelLeft = L.Icon.Label.extend({
+        options: {
+            iconUrl: '/img/lab_marker_home.png',
+            shadowUrl: null,
+            iconSize: new L.Point(21, 35),
+            iconAnchor: new L.Point(0, 0),
+            labelAnchor: new L.Point(25, 2),
+            wrapperAnchor: new L.Point(10, 35),
+            labelClassName: 'label-left'
+        }
     });
 
-    // define Leaflet-Label styles - use direction parameter to prevent overlapping
-    var myLabelLeft = {
-        noHide: true,
-        clickable: true,
-        offset: [20,-36],
-        direction: 'left'
-    };
-
-    var myLabelRight = {
-        noHide: true,
-        clickable: true,
-        offset: [20,-36],
-        direction: 'right'
-    };
-
-    // load sample markers and labels
+    // load markers and put on map
     {% for lab in site.pages %}
      {% if lab.layout == 'lab' %}
-        var marker = L.marker( 
-            [{{ lab.lat }}, {{ lab.long }}], 
-            { icon: myIcon, riseOnHover: true })
-        .bindLabel('<a href="{{ lab.url }}">{{ lab.lab }}</a>', 
-            {% if lab.markerposition == 'right' %}
-                myLabelRight
-            {% else %}
-                myLabelLeft
-            {% endif %}
-            )
+        var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon: 
+        {% if lab.markerposition == 'left' %}
+            new labelLeft(
+        {% else %}
+            new labelRight(
+        {% endif %}
+            { labelText:'<a href="{{ lab.url }}">{{ lab.lab }}</a>'}), 
+            riseOnHover: true })
         .addTo(map)
      {% endif %}
     {% endfor %}

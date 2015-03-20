@@ -1,11 +1,11 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ____        _       __                     __  __      _                     
+	____        _       __                     __  __      _                     
    / __ \____ _(_)___  / /_  ____ _      __   / / / /___  (_)________  _________ 
   / /_/ / __ `/ / __ \/ __ \/ __ \ | /| / /  / / / / __ \/ / ___/ __ \/ ___/ __ \
  / _, _/ /_/ / / / / / /_/ / /_/ / |/ |/ /  / /_/ / / / / / /__/ /_/ / /  / / / /
 /_/ |_|\__,_/_/_/ /_/_.___/\____/|__/|__/   \____/_/ /_/_/\___/\____/_/  /_/ /_/ 
-                                                                                 
+																				 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
@@ -632,7 +632,7 @@ $date-circle: 80px;
 	position: relative;
 
 	.project-image {
-	    width: 100%;
+		width: 100%;
 	}
 }
 	
@@ -839,49 +839,54 @@ $date-circle: 80px;
 =  Leaflet Map                   =
 ================================*/
 
-#lab-map{
-	width: 100%;
+#lab-map {
+	width: 100%; 
 }
 
-.lab-map-home{
-	height: 300px;
+.lab-map-home {
+	height: 300px; 
 }
 
-.lab-map-city{
-	height: 200px;
+.lab-map-city {
+	height: 200px; 
 }
 
-.leaflet-label {
-	background: rgb(255, 255, 255);
-	background: rgba(255, 255, 255, 0.81);
-	background-clip: padding-box;
-	border-color: #777;
-	border-color: rgba(0,0,0,0.25);
-	border-radius: 4px;
-	border-style: none;
-	border-width: 4px;
-	color: $red;
+.leaflet-marker-icon-wrapper {
+	position: absolute
+}
+
+.leaflet-marker-iconlabel {
+	background: white;
+	background: rgba(255, 255, 255, 0.75);
 	display: block;
-	font-family: sans-serif;
+	color: $red;
+	font-family: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+	font-size: 13px;
 	font-weight: normal;
-	padding: 1px 6px;
-	position: absolute;
+	padding: 4px 6px;
+	-ms-user-select: none;
+	-moz-user-select: none;
 	-webkit-user-select: none;
-	   -moz-user-select: none;
-	    -ms-user-select: none;
-	        user-select: none;
+	user-select: none;
 	white-space: nowrap;
-	z-index: 6;
 }
 
-.leaflet-label:hover {
-  background:rgb(255, 255, 255);
-  background:rgba(255, 255, 255, 1);
+.leaflet-marker-iconlabel.city-marker {
+	font-size: 16px;
 }
 
-.leaflet-container .leaflet-label a {
-  color: $red;
-  text-decoration: none;
+.leaflet-marker-iconlabel.label-left {
+	right: 4px;
+	position: absolute;
+}
+
+.leaflet-marker-icon-wrapper:hover .leaflet-marker-iconlabel {
+	background: white;
+}
+
+.leaflet-container .leaflet-marker-iconlabel a {
+	color: $red;
+	text-decoration: none;
 }
 
 /*-----  End of Leaflet Map  ------*/
@@ -950,12 +955,12 @@ $date-circle: 80px;
 
 	.project-image {
 		position:absolute;
-	    left: -100%;
-	    right: -100%;
-	    top: -100%;
-	    bottom: -100%;
-	    margin: auto; 
-	    height: auto;
+		left: -100%;
+		right: -100%;
+		top: -100%;
+		bottom: -100%;
+		margin: auto; 
+		height: auto;
 	}
 }
 	

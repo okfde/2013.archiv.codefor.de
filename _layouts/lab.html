@@ -186,31 +186,14 @@ layout: base
 <script src="/js/lib/packery.pkgd.min.js"></script>
 <script src="/js/lib/imagesloaded.pkgd.min.js"></script>
 <script src="/js/PackeryGrid.js"></script>
-
-<script src="/js/GoogleMaps.js"></script>
-<script>
-    //the center of map on load
-    var google_map_position = "{{ page.lat }}, {{ page.long }}";
-    //zoom level
-    var google_map_zoom = 13;
-    //the markers
-    var google_maps_markers = [
-        {
-            "latlong": " {{ page.lat }},  {{ page.long }}",
-            "url":"",   // leave "" to disable marker clickevent
-            "text": "{{ page.lab }}"
-        }];
-
-    var google_maps_page = 'lab';
-
-</script>
-
 <script src="/js/lib/prettyCheckbox.min.js"></script>
+
+{% include leaflet-city.html %}
+
 <script type="text/javascript">
 
 $(document).ready(function() {
 
-  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page, '/img/lab_marker.png');
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   $(":checkbox").prettyCheckbox();
 

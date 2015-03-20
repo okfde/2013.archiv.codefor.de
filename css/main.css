@@ -1,10 +1,10 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ____        _       __                     __  __      _                     
+	____        _       __                     __  __      _                     
    / __ \____ _(_)___  / /_  ____ _      __   / / / /___  (_)________  _________ 
   / /_/ / __ `/ / __ \/ __ \/ __ \ | /| / /  / / / / __ \/ / ___/ __ \/ ___/ __ \
  / _, _/ /_/ / / / / / /_/ / /_/ / |/ |/ /  / /_/ / / / / / /__/ /_/ / /  / / / /
 /_/ |_|\__,_/_/_/ /_/_.___/\____/|__/|__/   \____/_/ /_/_/\___/\____/_/  /_/ /_/ 
-                                                                                 
+																				 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .fond__red, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
   background-color: #FF5449; }
@@ -570,33 +570,35 @@ label {
 .lab-map-city {
   height: 200px; }
 
-.leaflet-label {
-  background: white;
-  background: rgba(255, 255, 255, 0.81);
-  background-clip: padding-box;
-  border-color: #777;
-  border-color: rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  border-style: none;
-  border-width: 4px;
-  color: #FF5449;
-  display: block;
-  font-family: sans-serif;
-  font-weight: normal;
-  padding: 1px 6px;
-  position: absolute;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  z-index: 6; }
+.leaflet-marker-icon-wrapper {
+  position: absolute; }
 
-.leaflet-label:hover {
+.leaflet-marker-iconlabel {
   background: white;
+  background: rgba(255, 255, 255, 0.75);
+  display: block;
+  color: #FF5449;
+  font-family: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 4px 6px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap; }
+
+.leaflet-marker-iconlabel.city-marker {
+  font-size: 16px; }
+
+.leaflet-marker-iconlabel.label-left {
+  right: 4px;
+  position: absolute; }
+
+.leaflet-marker-icon-wrapper:hover .leaflet-marker-iconlabel {
   background: white; }
 
-.leaflet-container .leaflet-label a {
+.leaflet-container .leaflet-marker-iconlabel a {
   color: #FF5449;
   text-decoration: none; }
 
