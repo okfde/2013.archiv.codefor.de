@@ -2,12 +2,12 @@
 $(document).ready(function() {
     // initiaize map, set position and zoom level
     var map = L.map('lab-map').setView([{{ page.lat }}, {{ page.long }}], 13);
+    map.attributionControl.setPrefix("");
 
     // basemap 
     var mapboxLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v4/codeforgermany.cc5365b0/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmdlcm1hbnkiLCJhIjoiMVg2ZGdSSSJ9.JsM4S0LZpeNmI1rHQnCxig', {
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> Map tiles by &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-        minZoom: 5,
-        maxZoom: 16
+        attribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">&copy; Mapbox &copy; OpenStreetMap</a> | <a href="https://www.mapbox.com/map-feedback/ target="_blank">Improve this map</a>',
+        minZoom: 5
         });
 
     // define custom marker style
