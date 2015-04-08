@@ -10,13 +10,12 @@
     var ref, googlemap, $mapContainer,
     google_maps_position, google_maps_zoom, google_maps_markers, google_maps_icon, google_maps_page,
     markerArray,highestZIndex,opac;
-    function GoogleMaps(pPos,pZoom,pMarkers,pPage,pIcon){
+    function GoogleMaps(pPos,pZoom,pMarkers,pPage){
         ref = this;
         google_maps_position = pPos;
         google_maps_zoom = pZoom;
         google_maps_markers = pMarkers;
         google_maps_page = pPage;
-        google_maps_icon = pIcon;
 
         highestZIndex = 0;
         opac = 0.7;
@@ -149,45 +148,22 @@
         for(var a=0;a<markerArray.length;++a){
             var marker = markerArray[a];
             var ibox = marker.ibox;
-            var jbox = marker.jbox;
-            
             /*when map is fully loaded we reposition map markers based
               on their markerpositionsettings from lab config
              */
-            var widthH4c = $('.markerh4cBox_'+a,"#lab-map").width();
-
             if(google_maps_page == "home"){
                 var width = $('.markerInfoBox_'+a,"#lab-map").width();
                 var markerposition = marker.obj.markerposition;
-                    
                 if(markerposition == "left"){
                     var pixelOffset = new google.maps.Size((16+width)*-1, -31);
                     ibox.setOptions({'pixelOffset':pixelOffset});
-                } else {
-                    // if there is a h4c marker
-                    if(jbox){
-                        var pixelOffsetH4c = new google.maps.Size((16+widthH4c)*-1, -31);
-                        jbox.setOptions({'pixelOffset':pixelOffsetH4c});
-                    }
                 }
-            
             }
-
-            if(jbox && (google_maps_page == 'lab')) {
-                    var pixelOffsetH4c = new google.maps.Size((25+widthH4c)*-1, -43);
-                    jbox.setOptions({'pixelOffset':pixelOffsetH4c});
-             }
 
             //done alignment, lets show the boxes
             if(google_maps_page == "home"){
                 $('.markerInfoBox_'+a,"#lab-map").css('opacity',opac);
-                $('.markerh4cBox_'+a,"#lab-map").css('opacity',opac);
-
-            } else {
-                $('.markerInfoBox_'+a,"#lab-map").css('opacity',1);
-                $('.markerh4cBox_'+a,"#lab-map").css('opacity',1);
-
-            }
+            } else $('.markerInfoBox_'+a,"#lab-map").css('opacity',1);
 
 
         }
@@ -210,6 +186,26 @@
                 clickable = true;
             } else clickable = false;
 
+            if(google_maps_page == "home" ) {
+                
+                if( obj.h4c == 'true' ) {
+                    google_maps_icon = '/img/lab_marker_home_h4c.png';
+                } else {
+                    google_maps_icon = '/img/lab_marker_home.png';
+                }
+
+            } 
+
+            if (google_maps_page == "lab") {
+
+                if( obj.h4c == 'true' ) {
+                    google_maps_icon = '/img/lab_marker_h4c.png';
+                } else {
+                    google_maps_icon = '/img/lab_marker.png';
+                }
+
+            }
+
             //the marker
             var marker = new google.maps.Marker({
                 position: pos,
@@ -228,14 +224,10 @@
                     if(marker){
                         marker.ibox.setOptions({'zIndex':highestZIndex++});
                         $('.markerInfoBox_'+this.myIndex,"#lab-map").css('opacity',1);
-                        $('.markerh4cBox_'+this.myIndex,"#lab-map").css('opacity',1);
-
                     }
                 });
                 google.maps.event.addListener(marker, 'mouseout', function() {
                     $('.markerInfoBox_'+this.myIndex,"#lab-map").css('opacity',opac);
-                    $('.markerh4cBox_'+this.myIndex,"#lab-map").css('opacity',opac);
-
                 });
             }
 
@@ -261,6 +253,7 @@
 
             } else {
                 //marker on HOME page
+
                 if(obj.url.length>0){
                     boxText.style.cssText = "white-space: nowrap;margin: 0px 8px;cursor:pointer;";
                 } else boxText.style.cssText = "white-space: nowrap;margin: 0px 8px;";
@@ -299,14 +292,12 @@
 
                             var myIndex = $(this).data('myIndex');
                             markerArray[myIndex].ibox.setOptions({'zIndex':highestZIndex++});
-                            $('.markerInfoBox_'+myIndex,"#lab-map").css('opacity',1);
-                            $('.markerh4cBox_'+myIndex,"#lab-map").css('opacity',1);
+                            $(this).css('opacity',1);
+
                         },
                         function() {
                             //out
-                            var myIndex = $(this).data('myIndex');
-                           $('.markerInfoBox_'+myIndex,"#lab-map").css('opacity',opac);
-                           $('.markerh4cBox_'+myIndex,"#lab-map").css('opacity',opac);
+                            $(this).css('opacity',opac);
                         }
                     );
                 }
@@ -321,92 +312,11 @@
                 });
             }
 
-            
-            // The H4C badge
-
-            if(obj.h4cIcon.length>0){
-            
-                var h4cBox = document.createElement("div");
-                h4cBox.url = obj.url;
-
-                var pixelOffset;
-                if(google_maps_page == "lab"){
-                    //marker on LABS page
-                    if(obj.url.length>0){
-                        h4cBox.style.cssText = "cursor:pointer;";
-                    } else h4cBox.style.cssText = "";
-
-                    pixelOffset = new google.maps.Size(25, -43);
-
-                } else {
-                    //marker on HOME page
-
-                    if(obj.url.length>0){
-                        h4cBox.style.cssText = "cursor:pointer;";
-                    } else h4cBox.style.cssText = "";
-
-                    pixelOffset = new google.maps.Size(16, -31);
-
-                }
-
-                h4cBox.innerHTML = '<img src="' + obj.h4cIcon + '" />';
-
-                var boxOptions = {
-                    content: h4cBox
-                    ,disableAutoPan: false
-                    ,maxWidth: 0
-                    ,pixelOffset: pixelOffset
-                    ,zIndex: null
-                    ,closeBoxURL: ""
-                    ,infoBoxClearance: new google.maps.Size(1, 1)
-                    ,isHidden: false
-                    ,enableEventPropagation: true
-                    ,boxClass: "googleMapsh4cBox googleMapsh4cBox_"+google_maps_page+ " markerh4cBox_"+a
-                    ,position: marker.position
-                    ,pane: "floatPane"
-                };
-
-                var jbox = new InfoBox(boxOptions);
-                jbox.myIndex = a;
-                google.maps.event.addListener(jbox, 'domready', function() {
-
-                    var $marker = $('.markerh4cBox_'+this.myIndex,"#lab-map");
-                    $marker.data('myIndex', this.myIndex);
-
-                    //if(google_maps_page == "home"){
-                        $marker.css('opacity',0).hover(
-                            function() {
-
-                                var myIndex = $(this).data('myIndex');
-                                markerArray[myIndex].jbox.setOptions({'zIndex':highestZIndex++});
-                                $('.markerInfoBox_'+myIndex,"#lab-map").css('opacity',1);
-                                $('.markerh4cBox_'+myIndex,"#lab-map").css('opacity',1);
-                            },
-                            function() {
-                                //out
-                                var myIndex = $(this).data('myIndex');
-                            $('.markerInfoBox_'+myIndex,"#lab-map").css('opacity',opac);
-                            $('.markerh4cBox_'+myIndex,"#lab-map").css('opacity',opac);                            }
-                        );
-                    }
-
-
-                );
-                
-                jbox.open(googlemap, marker);
-
-                if(obj.url.length>0){
-                    google.maps.event.addDomListener(h4cBox, 'click', function() {
-                        window.location.href = this.url;
-                    });
-                }
-
-                marker.jbox = jbox;
-            }
-
             //store for later use
             marker.obj = obj;
             marker.ibox = ibox;
+
+
 
             //console.log("index -> " + $('.markerInfoBox_'+a,"#lab-map").data('index'));
 

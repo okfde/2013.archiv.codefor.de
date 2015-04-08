@@ -14,7 +14,7 @@
             "url":"{{ lab.url }} ", // leave "" to disable marker clickevent
             "text": "{{ lab.lab }}",
             "markerposition": "{{ lab.markerposition }}",
-            "h4cIcon": "{{ lab.h4c-icon }}"
+            "h4c": "{{ lab.h4c }}"
         },
       {% endif %}
     {% endfor %}
@@ -24,7 +24,7 @@
     var google_maps_page = 'home';
 
     $(document).ready(function() {
-      gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page,'/img/lab_marker_home.png');
+      gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page);
     });
 
 </script>

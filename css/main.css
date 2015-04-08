@@ -403,6 +403,13 @@ label {
 /*================================
 =            Lab Page            =
 ================================*/
+.h4c-teaser {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 5px 20px 10px 0; }
+
 .lab-leads li {
   padding: 0; }
 
@@ -561,6 +568,9 @@ label {
 /*================================
 =  Google Map                   =
 ================================*/
+.map-container {
+  position: relative; }
+
 #lab-map {
   width: 100%; }
 
@@ -580,6 +590,16 @@ label {
 
 .googleMapsInfoBox_lab {
   font-size: 16px; }
+
+.h4c-map-legend-wrap {
+  padding: 20px;
+  position: absolute;
+  left: 70px;
+  bottom: 0; }
+
+.h4c-map-legend-text {
+  padding: 0 8px;
+  display: inline-block; }
 
 @media screen and (min-width: 481px) {
   .nav-meta li {
