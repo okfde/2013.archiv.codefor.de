@@ -19,7 +19,7 @@ In den kommenden Monaten wird in den Labs viel gelötet, programmiert und gefors
 <br>
 Der Startschuss fällt am 09. Mai in Berlin. Mehr Infos gibt es auf der neu gelaunchten Website "<a href="http://hackyourcity.de">Hack Your City</a>".<br><br>
  
-![citizenme](/assets/blog/citizenme.png)]
+![citizenme](/assets/blog/citizenme.png)
 
 <h3>Projektbeispiele und Ressourcen</h3>
 
@@ -42,4 +42,4 @@ Für alle Einsteiger lohnt sich ein Blick ins <a href="https://medium.com/openex
 
 </ul>
  
- ![balloon](/assets/blog/balloon.png)]
+ ![balloon](/assets/blog/balloon.png)
