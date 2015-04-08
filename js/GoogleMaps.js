@@ -10,13 +10,12 @@
     var ref, googlemap, $mapContainer,
     google_maps_position, google_maps_zoom, google_maps_markers, google_maps_icon, google_maps_page,
     markerArray,highestZIndex,opac;
-    function GoogleMaps(pPos,pZoom,pMarkers,pPage,pIcon){
+    function GoogleMaps(pPos,pZoom,pMarkers,pPage){
         ref = this;
         google_maps_position = pPos;
         google_maps_zoom = pZoom;
         google_maps_markers = pMarkers;
         google_maps_page = pPage;
-        google_maps_icon = pIcon;
 
         highestZIndex = 0;
         opac = 0.7;
@@ -186,6 +185,26 @@
             if(obj.url.length>0){
                 clickable = true;
             } else clickable = false;
+
+            if(google_maps_page == "home" ) {
+                
+                if( obj.h4c == 'true' ) {
+                    google_maps_icon = '/img/lab_marker_home_h4c.png';
+                } else {
+                    google_maps_icon = '/img/lab_marker_home.png';
+                }
+
+            } 
+
+            if (google_maps_page == "lab") {
+
+                if( obj.h4c == 'true' ) {
+                    google_maps_icon = '/img/lab_marker_h4c.png';
+                } else {
+                    google_maps_icon = '/img/lab_marker.png';
+                }
+
+            }
 
             //the marker
             var marker = new google.maps.Marker({

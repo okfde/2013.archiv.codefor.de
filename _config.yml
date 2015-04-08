@@ -3,6 +3,8 @@ description: "Stadt&lt;entwickler /&gt; nutzen offene Daten um ihre Stadt zu ver
 url: http://codefor.de
 markdown: kramdown
 exclude: ["vendor"]
+# dev - speed up jekyll building
+# exclude: ["vendor","projekte","blog"]
 permalink: /blog/:title
 excerpt_separator: "\n"
 paginate: 5
