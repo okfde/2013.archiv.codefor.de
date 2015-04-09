@@ -11,7 +11,7 @@ images:
 ---
 [![hackyourcity](/assets/blog/hackyourcity.png)](http://hackyourcity.de/)
 
-Im Zuge der Initiative <a href="http://www.wissenschaftsjahr-zukunftsstadt.de">“Wissenschaftsjahr – Zukunftsstadt” </a> wird Code for Germany im Jahr 2015 einen speziellen Fokus auf Citizen-Science-Projekte haben. Als Teil des Projektes “Hack your City” werden die OK Labs in Berlin, Wuppertal, Karlsruhe und Leipzig mit lokalen Wissenschaftseinrichtungen und HobbyforscherInnen kooperieren, um gemeinsam neue Ansätze und Hacks für die Probleme unserer Städte zu erproben. Das Projekt ist eine Kollaboration zwischen <a href="http://www.wissenschaft-im-dialog.de">“Wissenschaft im Dialog”</a> und der Open Knowledge Foundation. Als Kickoff des Citizen Science Schwerpunkts werden Hackdays mit lokalen Partnern und Institutionen veranstaltet.
+Im Zuge des <a href="http://www.wissenschaftsjahr-zukunftsstadt.de">Wissenschaftsjahr – Zukunftsstadt </a> wird Code for Germany im Jahr 2015 einen speziellen Fokus auf Citizen-Science-Projekte haben. Als Teil des Projektes “Hack your City” werden die OK Labs in Berlin, Wuppertal, Karlsruhe und Leipzig mit lokalen Wissenschaftseinrichtungen und HobbyforscherInnen kooperieren, um gemeinsam neue Ansätze und Hacks für die Probleme unserer Städte zu erproben. Das Projekt ist eine Kollaboration zwischen <a href="http://www.wissenschaft-im-dialog.de">Wissenschaft im Dialog</a> und der <a href="http://okfn.de/">Open Knowledge Foundation Deutschland</a>. Als Kickoff des Citizen Science Schwerpunkts werden Hackdays mit lokalen Partnern und Institutionen veranstaltet.
 
 Feinstaubmessungen via selbstentwickelter Hardware, Apps, die Fahrradrouten tracken, Erhebung von Wasserqualitätsdaten, Datenanalyse zu Lichtverschmutzung – die Themenbereiche für Citizen Science Projekte sind vielseitig. 
 
@@ -21,7 +21,7 @@ Der Startschuss fällt am 09. Mai in Berlin. Mehr Infos gibt es auf der neu gela
  
 ![citizenme](/assets/blog/citizenme.png)
 
-<h3>Projektbeispiele und Ressourcen</h3>
+<h3>Citizen Science Projektbeispiele und Ressourcen</h3>
 
 Es gibt bereits einige spannende Projekte und Initiativen rund um Citizen Science, wie beispielsweise <a href="http://www.cyclephilly.org">"Cycle Philly"</a>: Eine App, die per GPS Daten entgegen nimmt, um herauszufinden, wo Menschen am Liebsten Fahrrad fahren. Das Ziel ist es, mit diesen Daten StadtplanerInnen die Möglichkeit zu geben, auf die Bedürfnisse der Fahrradfahrer besser einzugehen. 
 
