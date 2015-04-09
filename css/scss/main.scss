@@ -526,24 +526,26 @@ $date-circle: 80px;
 	display: block;
 }
 
+.partner {
 
-.partner img {
-	height: auto;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	width: inherit;
-}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
 
-.okfn-logo {
-	max-width: 80%;
-}
+	li {
+		padding: 28px 0;
 
-.cfa-logo {
-	max-width: 80%;
-}
-
-.google-logo {
-	max-width: 80%;
+	}
+	
+	img {
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		width: inherit;
+		width: 80%;
+	}
 }
 
 /*-----  End of Home  ------*/
@@ -904,16 +906,10 @@ $date-circle: 80px;
 		font-size: 63px;
 	}
 
-	.okfn-logo {
-		max-width: 50%;
-	}
-
-	.cfa-logo {
-		max-width: 50%;
-	}
-
-	.google-logo {
-		max-width: 50%;
+	.partner {
+		img {
+			width: 50%;
+		}
 	}
 
 	.event-description {
@@ -1020,6 +1016,41 @@ $date-circle: 80px;
 			padding: 80px;	
 		}
 	}
+
+	.partner {
+
+		ul {
+
+		}
+
+		li {
+			float: left; 
+			display: block;
+			width: 18%;
+			margin-right: 2.5%;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		img {
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+		.okfn-logo {
+			max-width: 100%;
+		}
+
+		.cfa-logo, .bmbf-logo, .wj-logo {
+			max-width: 60%;
+		}
+
+		.google-logo {
+			max-width: 80%;
+		}
+
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -1031,18 +1062,6 @@ $date-circle: 80px;
 	.main-nav-wrapper .nav-pills
 	{
 		float: right;
-	}
-
-	.okfn-logo {
-		max-width: 100%;
-	}
-
-	.cfa-logo {
-		max-width: 60%;
-	}
-
-	.google-logo {
-		max-width: 80%;
 	}
 
 	.packery-item{
