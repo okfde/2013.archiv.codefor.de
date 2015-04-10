@@ -844,6 +844,28 @@ $date-circle: 80px;
 }
 
 
+/**
+*
+* Presse
+*
+**/
+
+
+.press-clippings {
+	margin-top: 50px;
+	padding: 0;
+	list-style-type: none;
+	
+	li {
+		margin-bottom: 40px;
+	}
+
+	.press-clipping-meta {
+		margin-bottom: 0;
+	}
+
+}
+
 
 /*-----  End of Blog  ------*/
 

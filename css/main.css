@@ -562,6 +562,20 @@ label {
 .twitter-feed .event-wrapper {
   margin-top: 18px; }
 
+/**
+*
+* Presse
+*
+**/
+.press-clippings {
+  margin-top: 50px;
+  padding: 0;
+  list-style-type: none; }
+  .press-clippings li {
+    margin-bottom: 40px; }
+  .press-clippings .press-clipping-meta {
+    margin-bottom: 0; }
+
 /*-----  End of Blog  ------*/
 /*================================
 =  Google Map                   =
