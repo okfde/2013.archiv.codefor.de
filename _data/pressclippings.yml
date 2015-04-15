@@ -1,11 +1,110 @@
+- title: Das gläserne Rathaus
+  url: http://www.sueddeutsche.de/muenchen/onlineportal-muenchen-transparent-das-glaeserne-rathaus-1.2328588
+  date: 09.02.15
+  media: Sueddeutsche Zeitung
+
 - title: 2014 deutlich weniger neue Wohnungen
   url: http://www.wn.de/Muenster/1854174-Statistik-der-Stadt-Muenster-2014-deutlich-weniger-neue-Wohnungen
   date: 21.01.15
   media: WN
-
+  
+- title: Studenten wollen schnell ans Ziel
+  url: http://www.volksstimme.de/nachrichten/magdeburg/1416811_Studenten-wollen-schnell-ans-Ziel.html
+  date: 31.01.15
+  media: Volkstimme  
+  
 - title: Julias TED Talk
   url: http://www.ted.com/watch/ted-institute/ted-bcg/julia-kloiber-let-s-build-better-digital-tools-for-our-cities
   date: 22.12.14
   media: TED
+  
+- title: Ordnung im Datendschungel
+  url: https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2014/dezember/ordnung-im-datendschungel/
+  date: 18.12.14
+  media: Change der Magazine Bertelsmann Stiftung
 
+- title: Zur Sache: Open Data – welche Chancen und Herausforderungen für die regionale Entwicklung stecken in offenen Daten?
+  url: http://www.rnf.de/mediathek/video/zur-sache-open-data-welche-chancen-und-herausforderungen-fuer-die-regionale-entwicklung-stecken-in-offenen-daten/#.VNIDrMZpWSU
+  date: 11.12.2014
+  media: RNF Rhein-Neckar Fernsehen
 
+- title: 1. und 3. Platz in der Kategorie „Interaktiv“ / Drittes Jahr in Folge ausgezeichnet
+  url: http://www.funkemedien.de/export/sites/fmg/.content/downloads/newsdownloads/20141020_MM_Berliner-Morgenpost-gewinnt-dpa-Infografik-Award.pdf
+  date: 20.10.14
+  media: Berliner Morgenpost
+  
+- title: Transparente Städte
+  url: http://www.taz.de/1/archiv/digitaz/artikel/?ressort=hi&dig=2014%2F09%2F27%2Fa0139&cHash=185a34215b21838a9efa7b96e07fd0bc
+  date: 27.09.14
+  media: TAZ
+  
+- title: Die Programmiererinnen Fiona Krakenbürger und Julia Kloiber hacken den Code deutscher Städte
+  url: https://www.wired.de/collection/latest/ausgabe-0215-fiona-krakenburger-julia-kloiber
+  date: n/a
+  media: Wired Magazine
+  
+- title: Code for Germany: Bürger besser informieren
+  url: http://www.techtag.de/netzkultur/code-for-germany-buerger-besser-informieren/
+  date: 29.08.14
+  media: Techtag
+
+- title: Elektrischer Reporter: Migranten im Netz
+  url: http://www.zdf.de/ZDFmediathek/beitrag/video/2184628/Elektrischer-Reporter-Migranten-im-Netz#/beitrag/video/2184628/Elektrischer-Reporter-Migranten-im-Netz
+  date: 28.07.14
+  media: ZDFmediathek
+  
+- title: Open-Data-Bewegung: Code for Germany
+  url: http://www.fluxfm.de/open-data-bewegung-code-for-germany/
+  date: 24.07.14
+  media: FluxFM
+  
+- title: Öffentliche Daten sollen mit Apps leichter auffindbar sein
+  url: http://www.welt.de/print/die_welt/wirtschaft/article130415045/Oeffentliche-Daten-sollen-mit-Apps-leichter-auffindbar-sein.html
+  date: 22.07.14
+  media: Die Welt
+  
+- title: «Code for Germany»: Öffentliche Daten sollen zu Apps werden
+  url: http://www.augsburger-allgemeine.de/digital/Code-for-Germany-Oeffentliche-Daten-sollen-zu-Apps-werden-id30715002.html
+  date: 21.07.14
+  media: Augsburger Allgemeine
+  
+- title: Öffentliche Daten sollen wirklich öffentlich werden
+  url: http://www.golem.de/news/projekt-code-for-germany-oeffentliche-daten-sollen-wirklich-oeffentlich-werden-1407-108018.html
+  date: 21.07.14
+  media: Golem 
+  
+- title: Code for Germany: Öffentliche Daten sollen zu Apps werden
+  url: http://www.focus.de/digital/computer/internet-code-for-germany-oeffentliche-daten-sollen-zu-apps-werden_id_4006291.html
+  date: 21.07.14
+  media: Focus Online
+  
+- title: TRB 388: Twitterausstieg, @bundesedit, WM-Rückblick, Code for Germany, @Mareicares
+  url: http://trackback.fritz.de/2014/07/19/trb-388-twitterausstieg-bundesedit-wm-rueckblick-code-for-germany-mareicares/
+  date: 19.07.14
+  media: RBB Fritz
+  
+- title: Video: Code for Germany
+  url: http://www.daserste.de/information/politik-weltgeschehen/mittagsmagazin/videos/code-for-germany-100.html
+  date: 16.07.2014
+  media: Das Erste
+  
+- title: Aktivisten rufen zum "Programmieren für Deutschland" auf
+  url: http://www.heise.de/developer/meldung/Aktivisten-rufen-zum-Programmieren-fuer-Deutschland-auf-2260561.html
+  date: 15.07.14
+  media: Heise Online
+  
+- title: Code For Germany – Let code make German Cities a better Place
+  url: http://venturevillage.eu/code-for-germany-let-code-make-german-cities-a-better-place
+  date: 15.07.14
+  media: Venture Village
+  
+- title: Aktivisten rufen zum «Programmieren für Deutschland» auf
+  url: http://www.n-tv.de/ticker/Aktivisten-rufen-zum-Programmieren-fuer-Deutschland-auf-article13212556.html
+  date: 15.07.14
+  media: n-tv
+
+- title: Code for Germany: Mit offenen Daten zu besseren Städten
+  url: http://t3n.de/news/code-germany-open-data-civic-tech-557030/
+  date: 14.07.14
+  media: t3n
+  
