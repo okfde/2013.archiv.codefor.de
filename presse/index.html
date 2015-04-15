@@ -42,6 +42,13 @@ title: "Presse / Ressourcen"
        Wir freuen uns über Presseanfragen! Gerne via E-Mail an info[at]codefor.de oder per Telefon +49 30 57703666-0.</h5>
        <br>
 
+       <h3>Presse</h3>
+       <ul class="press-clippings">
+         {% for clip in site.data.pressclippings %}
+          {% include pressclipping.html %}
+         {% endfor %}
+       </ul>
+
 
       </div>
     </div>
