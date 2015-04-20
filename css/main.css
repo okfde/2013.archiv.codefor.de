@@ -384,25 +384,30 @@ label {
 .event-lab, .event-time, .event-location, .event-date-d {
   display: block; }
 
+.partner ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.partner li {
+  padding: 28px 0; }
 .partner img {
   height: auto;
   margin: 0 auto;
   margin-bottom: 50px;
-  width: inherit; }
-
-.okfn-logo {
-  max-width: 80%; }
-
-.cfa-logo {
-  max-width: 80%; }
-
-.google-logo {
-  max-width: 80%; }
+  width: inherit;
+  width: 80%; }
 
 /*-----  End of Home  ------*/
 /*================================
 =            Lab Page            =
 ================================*/
+.h4c-teaser {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 5px 20px 10px 0; }
+
 .lab-leads li {
   padding: 0; }
 
@@ -557,10 +562,27 @@ label {
 .twitter-feed .event-wrapper {
   margin-top: 18px; }
 
+/**
+*
+* Presse
+*
+**/
+.press-clippings {
+  margin-top: 50px;
+  padding: 0;
+  list-style-type: none; }
+  .press-clippings li {
+    margin-bottom: 40px; }
+  .press-clippings .press-clipping-meta {
+    margin-bottom: 0; }
+
 /*-----  End of Blog  ------*/
 /*================================
 =  Google Map                   =
 ================================*/
+.map-container {
+  position: relative; }
+
 #lab-map {
   width: 100%; }
 
@@ -581,6 +603,16 @@ label {
 .googleMapsInfoBox_lab {
   font-size: 16px; }
 
+.h4c-map-legend-wrap {
+  padding: 20px;
+  position: absolute;
+  left: 70px;
+  bottom: 0; }
+
+.h4c-map-legend-text {
+  padding: 0 8px;
+  display: inline-block; }
+
 @media screen and (min-width: 481px) {
   .nav-meta li {
     display: inline-block;
@@ -589,14 +621,8 @@ label {
   #animation-wrapper h1 {
     font-size: 63px; }
 
-  .okfn-logo {
-    max-width: 50%; }
-
-  .cfa-logo {
-    max-width: 50%; }
-
-  .google-logo {
-    max-width: 50%; }
+  .partner img {
+    width: 50%; }
 
   .event-description {
     float: left;
@@ -667,22 +693,30 @@ label {
     min-width: 50%; }
 
   .post .event-wrapper {
-    padding: 80px; } }
+    padding: 80px; }
+
+  .partner li {
+    float: left;
+    display: block;
+    width: 18%;
+    margin-right: 2.5%; }
+    .partner li:last-child {
+      margin-right: 0; }
+  .partner img {
+    width: 100%;
+    margin-bottom: 0; }
+  .partner .okfn-logo {
+    max-width: 100%; }
+  .partner .cfa-logo, .partner .bmbf-logo, .partner .wj-logo {
+    max-width: 60%; }
+  .partner .google-logo {
+    max-width: 80%; } }
 @media screen and (min-width: 1200px) {
   .main-nav-wrapper {
     float: right; }
 
   .main-nav-wrapper .nav-pills {
     float: right; }
-
-  .okfn-logo {
-    max-width: 100%; }
-
-  .cfa-logo {
-    max-width: 60%; }
-
-  .google-logo {
-    max-width: 80%; }
 
   .packery-item {
     width: 47.5%; }

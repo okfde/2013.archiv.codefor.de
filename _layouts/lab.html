@@ -4,8 +4,11 @@ layout: base
 ---
 
 <!-- Lab Map -->
-<div class="jumbotron fond__gray" style="padding:0px;">
+<div class="jumbotron fond__gray map-container" style="padding:0px;">
       <div id="lab-map" class="lab-map-city"></div>
+      {% if page.h4c %}
+        {% include h4c-map-legend.html %}
+      {% endif %}
 </div>
 
 
@@ -198,7 +201,8 @@ layout: base
         {
             "latlong": " {{ page.lat }},  {{ page.long }}",
             "url":"",   // leave "" to disable marker clickevent
-            "text": "{{ page.lab }}"
+            "text": "{{ page.lab }}",
+            "h4c": "{{ page.h4c }}"
         }];
 
     var google_maps_page = 'lab';
@@ -210,7 +214,7 @@ layout: base
 
 $(document).ready(function() {
 
-  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page, '/img/lab_marker.png');
+  gmap = new GoogleMaps(google_map_position, google_map_zoom, google_maps_markers, google_maps_page);
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   $(":checkbox").prettyCheckbox();
 
