@@ -6,10 +6,10 @@ author: Sonia
 excerpt: Wir haben wieder spannende News und Links für unseren Newsletter gesammelt.
 
 images:
-- imgname: newsletter-märz.png
+- imgname: newsletter-maerz.png
 
 ---
-![newsletter-september](/assets/blog/newsletter-märz.png)
+![newsletter-september](/assets/blog/newsletter-maerz.png)
 
 Wir haben wieder einen Newsletter versendet mit Neuigkeiten aus den Labs, zu spannenden Initiativen, Events und Links rund um Open Data und Civic Tech. Dieser Newsletter ist eine Citizen Science Spezialausgabe. 
 
