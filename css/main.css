@@ -1,10 +1,10 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ____        _       __                     __  __      _                     
+	____        _       __                     __  __      _                     
    / __ \____ _(_)___  / /_  ____ _      __   / / / /___  (_)________  _________ 
   / /_/ / __ `/ / __ \/ __ \/ __ \ | /| / /  / / / / __ \/ / ___/ __ \/ ___/ __ \
  / _, _/ /_/ / / / / / /_/ / /_/ / |/ |/ /  / /_/ / / / / / /__/ /_/ / /  / / / /
 /_/ |_|\__,_/_/_/ /_/_.___/\____/|__/|__/   \____/_/ /_/_/\___/\____/_/  /_/ /_/ 
-                                                                                 
+																				 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .fond__red, .highlight-red, .faq .panel h4 a, .faq .panel h4 a:hover, .faq .panel h4 a:active, .faq .panel h4 a:visited, .panel-group .panel h4 a, .panel-group .panel h4 a:hover, .panel-group .panel h4 a:active, .panel-group .panel h4 a:visited, .event-cta {
   background-color: #ff5449; }
@@ -578,7 +578,7 @@ label {
 
 /*-----  End of Blog  ------*/
 /*================================
-=  Google Map                   =
+=  Leaflet Map                   =
 ================================*/
 .map-container {
   position: relative; }
@@ -592,27 +592,52 @@ label {
 .lab-map-city {
   height: 200px; }
 
-.googleMapsInfoBox {
-  font: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+.leaflet-marker-icon-wrapper {
+  position: absolute; }
+
+.leaflet-marker-iconlabel {
+  background: white;
+  background: rgba(255, 255, 255, 0.75);
+  display: block;
   color: #ff5449;
-  background-color: white; }
+  font-family: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 4px 6px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap; }
 
-.googleMapsInfoBox_home {
-  font-size: 13px; }
-
-.googleMapsInfoBox_lab {
+.leaflet-marker-iconlabel.city-marker {
   font-size: 16px; }
+
+.leaflet-marker-iconlabel.label-left {
+  right: 4px;
+  position: absolute; }
+
+.leaflet-marker-icon-wrapper:hover .leaflet-marker-iconlabel {
+  background: white;
+  display: inline-block; }
+
+.leaflet-container .leaflet-marker-iconlabel a {
+  color: #ff5449;
+  text-decoration: none; }
 
 .h4c-map-legend-wrap {
   padding: 20px;
   position: absolute;
-  left: 70px;
   bottom: 0; }
 
 .h4c-map-legend-text {
+  font-size: 13px;
   padding: 0 8px;
-  display: inline-block; }
+  display: inline-block;
+  background: white;
+  color: #ff5449; }
 
+/*-----  End of Leaflet Map  ------*/
 @media screen and (min-width: 481px) {
   .nav-meta li {
     display: inline-block;
@@ -621,8 +646,13 @@ label {
   #animation-wrapper h1 {
     font-size: 63px; }
 
-  .partner img {
-    width: 50%; }
+  .partner {
+    max-width: 50%; }
+    .partner img {
+      width: 50%; }
+
+  .google-logo {
+    max-width: 50%; }
 
   .event-description {
     float: left;
