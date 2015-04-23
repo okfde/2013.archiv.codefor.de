@@ -646,10 +646,8 @@ label {
   #animation-wrapper h1 {
     font-size: 63px; }
 
-  .partner {
-    max-width: 50%; }
-    .partner img {
-      width: 50%; }
+  .partner img {
+    width: 50%; }
 
   .google-logo {
     max-width: 50%; }
