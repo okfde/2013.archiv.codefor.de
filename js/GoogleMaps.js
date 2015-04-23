@@ -2,6 +2,9 @@
  * Author: gnomjogson
  * Date: 30.09.13
  * Created: 13:29
+ *
+ * DEPRECATED 
+ *
  **/
 (function(window){
 
