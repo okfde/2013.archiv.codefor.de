@@ -40,7 +40,7 @@ Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 * Dir sind die Themen Open Data und Civic Tech gut bekannt und du hast Interesse daran, inhaltlich an diesen Themen zu arbeiten
 * Du arbeitest eigenständig und strukturiert, bist proaktiv, kannst Chancen erkennen und hast keine Angst, Initiativen zu ergreifen
 * Du arbeitest gerne im Team und in Kollaboration mit Anderen
-* Du hast Erfahrung mit administrativen Prozessen und du ergreifst beim Wort “Buchhaltung” nicht panisch die Flucht
+* Du hast Erfahrung mit administrativen Prozessen und du ergreifst beim Wort „Buchhaltung“ nicht panisch die Flucht
 * Du hast kein Problem damit, administrative, manchmal nicht so spannende aber wichtige Aufgaben zu übernehmen
 * Im Herzen bist du ein Nerd <3 <br>
 
