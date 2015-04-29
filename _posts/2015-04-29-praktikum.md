@@ -6,10 +6,10 @@ author: Fiona
 excerpt: Wir suchen eine Praktikantin oder einen Praktikanten ab Juni 2015
 
 images:
-- imgname: praktikum.jpg
+- imgname: praktikum.png
 
 ---
-![praktikum](/assets/blog/praktikum.jpg)
+![praktikum](/assets/blog/praktikum.png)
 
 <strong>Wir suchen eine/n Praktikant/in zum 01. Juni.</strong>
 
@@ -18,14 +18,12 @@ Du interessierst dich für Technologie, Politik, Design und Aktivismus. Storytel
 Trifft auf dich zu? Dann freuen wir uns darauf, dich kennenzulernen. Wir bieten dir ein spannendes Projekt, viel Freiraum für persönliche Entwicklung, flache Hierarchien und die Möglichkeit auch längerfristig Teil des Teams zu werden.
 
 Start: Juni 2015<br>
-Laufzeit: Mindestens 3, besser Monate<br>
 Zeit: Mindestens 20h/Woche<br>
 Gehalt: Das Praktikum wird vergütet. <br>
 
 
-
 <hr>
-Profil:
+<strong>Profil:</strong>
 
 * Du hast bereits Erfahrung im Bereich Kommunikation und Öffentlichkeitsarbeit und dir sind auch privat die gängigen Plattformen bekannt. 
 * Du hast exzellente Kommunikationsfähigkeiten und verfügst über sehr gute Englischkenntnisse in Wort und Schrift
@@ -33,6 +31,7 @@ Profil:
 * Du kennst dich mit den gängigen CMS Systemen aus
 * Du kennst dich mit mindestens einem Design-Programm aus 
 * Du hast deinen Bachelor oder Master abgeschlossen
+* Du hast Interesse daran, über dein Praktikum hinaus bei der Open Knowledge Foundation zu arbeiten
 
 <hr> 
 <strong>Wichtig für uns ist</strong>
