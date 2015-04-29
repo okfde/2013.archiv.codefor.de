@@ -55,7 +55,7 @@ Gehalt: Das Praktikum wird vergütet. <br>
 * Die Möglichkeit dich persönlich und professionell weiterzuentwickeln <br>
 
 <hr>
-Wenn du Interesse hast, dann schick uns deine Bewerbung per E-Mail an <strong><a href="mailto:info@codefor.de">info@codefor.de</a></strong>.<br>
+Wenn du Interesse hast, dann schick uns deine Bewerbung bis zum 12. Mai per E-Mail an <strong><a href="mailto:info@codefor.de">info@codefor.de</a>.</strong>.<br>
 Wir freuen uns auf dich!<br>
 Julia & Fiona 
 
