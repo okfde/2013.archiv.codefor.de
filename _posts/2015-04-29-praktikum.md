@@ -18,7 +18,7 @@ Du interessierst dich für Technologie, Politik, Design und Aktivismus. Storytel
 Trifft auf dich zu? Dann freuen wir uns darauf, dich kennenzulernen. Wir bieten dir ein spannendes Projekt, viel Freiraum für persönliche Entwicklung, flache Hierarchien und die Möglichkeit auch längerfristig Teil des Teams zu werden.
 
 Start: Juni 2015<br>
-Laufzeit: Mindestens 3 Monate<br>
+Laufzeit: Mindestens 3, besser Monate<br>
 Zeit: Mindestens 20h/Woche<br>
 Gehalt: Das Praktikum wird vergütet. <br>
 
