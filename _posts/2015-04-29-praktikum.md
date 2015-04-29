@@ -11,7 +11,7 @@ images:
 ---
 ![praktikum](/assets/blog/praktikum.png)
 
-<strong>Wir suchen eine/n Praktikant/in zum 01. Juni.</strong>
+<strong>Wir suchen eine/n Praktikanten/in zum 01. Juni.</strong>
 
 Du interessierst dich für Technologie, Politik, Design und Aktivismus. Storytelling ist deine Leidenschaft und das Internet dein Zuhause. Bloggen, schreiben und twittern machen dir Spaß. Du wolltest schon immer mal für eine NGO arbeiten, hast eine eigenständige Arbeitsweise, Lust viel zu lernen und dich weiterzuentwickeln. 
 
