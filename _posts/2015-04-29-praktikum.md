@@ -15,12 +15,12 @@ images:
 
 Du interessierst dich für Technologie, Politik, Design und Aktivismus. Storytelling ist deine Leidenschaft und das Internet dein Zuhause. Bloggen, schreiben und twittern machen dir Spaß. Du wolltest schon immer mal für eine NGO arbeiten, hast eine eigenständige Arbeitsweise, Lust viel zu lernen und dich weiterzuentwickeln. 
 
-Trifft auf dich zu? Dann freuen wir uns darauf, dich kennenzulernen. Wir bieten dir ein spannendes Projekt, viel Freiraum für persönliche Entwicklung, flache Hierarchien und die Möglichkeit auch längerfristig Teil des Teams zu werden.
+Trifft auf dich zu? Dann freuen wir uns darauf, dich kennenzulernen. Wir bieten dir ein spannendes Projekt, viel Freiraum für persönliche Entwicklung, flache Hierarchien und die Möglichkeit auch längerfristig Teil des Teams zu werden. 
 
 Start: Juni 2015<br>
 Zeit: Mindestens 20h/Woche<br>
 Gehalt: Das Praktikum wird vergütet. <br>
-
+Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 
 <hr>
 <strong>Profil:</strong>
