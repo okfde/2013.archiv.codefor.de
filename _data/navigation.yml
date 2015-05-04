@@ -1,17 +1,30 @@
- - title: Über
-   url: /ueber
- - title: Mitmachen
-   url: /mitmachen
- - title: OK Labs
-   url: /oklabs 
- - title: Termine
-   url: /termine
- - title: Projekte
-   url: /projekte
- - title: Blog
-   url: /blog
- - title: Presse
-   url: /presse
-
-
-
+de:
+  - title: Über
+    url: /ueber
+  - title: Mitmachen
+    url: /mitmachen
+  - title: OK Labs
+    url: /oklabs
+  - title: Termine
+    url: /termine
+  - title: Projekte
+    url: /projekte
+  - title: Blog
+    url: /blog
+  - title: Presse
+    url: /presse
+en:
+  - title: About
+    url: /en/about
+  - title: Contribute
+    url: /en/contribute
+  - title: OK Labs
+    url: /en/oklabs
+  - title: Calendar
+    url: /en/calendar
+  - title: Projects
+    url: /en/projects
+  - title: Blog
+    url: /blog
+  - title: Press
+    url: /press

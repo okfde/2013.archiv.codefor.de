@@ -1,7 +1,7 @@
 <script>
 $(document).ready(function() {
     // initiaize map, set position and zoom level
-    var map = L.map('lab-map').setView([{{ page.lat }}, {{ page.long }}], 13);
+    var map = L.map('lab-map').setView([{{ meta.lat }}, {{ meta.long }}], 13);
     map.attributionControl.setPrefix("");
     map.scrollWheelZoom.disable();
 
@@ -29,13 +29,13 @@ $(document).ready(function() {
         options: { iconUrl: '/img/lab_marker_h4c.png'}
     });
 
-    var marker = L.marker( [{{ page.lat }}, {{ page.long }}], { icon: 
-        {% if page.h4c %}
+    var marker = L.marker( [{{ meta.lat }}, {{ meta.long }}], { icon:
+        {% if meta.h4c %}
             new cityMarkerH4C(
         {% else %}
             new cityMarker(
         {% endif %}
-            { labelText:'{{ page.lab }}'}) })
+            { labelText:'{{ meta.title }}'}) })
     .addTo(map)
 
     // load basemaps
