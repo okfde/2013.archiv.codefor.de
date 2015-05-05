@@ -23,7 +23,7 @@ Gehalt: Das Praktikum wird vergütet. <br>
 Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 
 <hr>
-<strong>Profil:</strong>
+**Profil:**
 
 * Du hast bereits Erfahrung im Bereich Kommunikation und Öffentlichkeitsarbeit und dir sind auch privat die gängigen Plattformen bekannt. 
 * Du hast exzellente Kommunikationsfähigkeiten und verfügst über sehr gute Englischkenntnisse in Wort und Schrift
@@ -34,28 +34,28 @@ Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 * Du hast Interesse daran, über dein Praktikum hinaus bei der Open Knowledge Foundation zu arbeiten
 
 <hr> 
-<strong>Wichtig für uns ist</strong>
+**Wichtig für uns ist**
 
 * Du hast dich mit Code for Germany auseinandergesetzt und kennst das Programm gut
 * Dir sind die Themen Open Data und Civic Tech gut bekannt und du hast Interesse daran, inhaltlich an diesen Themen zu arbeiten
 * Du arbeitest eigenständig und strukturiert, bist proaktiv, kannst Chancen erkennen und hast keine Angst, Initiativen zu ergreifen
 * Du arbeitest gerne im Team und in Kollaboration mit Anderen
-* Du hast Erfahrung mit administrativen Prozessen und du ergreifst beim Wort “Buchhaltung” nicht panisch die Flucht
+* Du hast Erfahrung mit administrativen Prozessen und du ergreifst beim Wort „Buchhaltung“ nicht panisch die Flucht
 * Du hast kein Problem damit, administrative, manchmal nicht so spannende aber wichtige Aufgaben zu übernehmen
 * Im Herzen bist du ein Nerd <3 <br>
 
 <hr>
-<strong>Wir bieten Dir</strong>
+**Wir bieten Dir**
 
 * Arbeit in einer etablierten non-profit Organisation, mit einem vielseitigen Projektportfolio
 * Die Mitarbeit an einem spannenden Projekt mit einer großartigen Community
 * Die Zusammenarbeit mit einem professionellen und sehr netten Team
 * Zugang zu unserem deutschen und internationalen Netzwerk 
 * Die Möglichkeit, dich aktiv mit eigenen Ideen einzubringen
-* Die Möglichkeit dich persönlich und professionell weiterzuentwickeln <br>
+* Die Möglichkeit dich persönlich und professionell weiterzuentwickeln
 
 <hr>
-Wenn du Interesse hast, dann schick uns deine Bewerbung bis zum 12. Mai per E-Mail an <strong><a href="mailto:info@codefor.de">info@codefor.de</a>.</strong>.<br>
+Wenn du Interesse hast, dann schick uns deine Bewerbung bis zum 12. Mai per E-Mail an **[info@codefor.de](mailto:info@codefor.de)**.<br>
 Wir freuen uns auf dich!<br>
 Julia & Fiona 
 
