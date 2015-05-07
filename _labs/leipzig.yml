@@ -1,2 +1,73 @@
 ---
 key: leipzig
+title: OK Lab Leipzig
+lab: OK Lab Leipzig
+lat: 51.329594
+long: 12.327738
+markerposition: right
+h4c: true
+
+members:
+
+- name: Markus Zapke-Gründemann
+  username-github: keimlink
+  username-twitter: keimlink
+- name: Thomas Kandler
+  username-github: tkan
+  username-twitter: geolibre
+- name: Matthias Petzold
+  username-github: videomatze
+- name: Olf
+  username-github: olf42
+  username-twitter: eigenfnord
+- name: Max Brauer
+  username-github: debvortex
+  username-twitter: deb_vortex
+- name: Pascal Müller
+  username-github: paesku
+  username-twitter: contextstudio
+- name: Hans-Gert Gräbe
+  username-github: hg-graebe
+- name: Marcello Ceschia
+  username-github: marcelloceschia
+- name: Ricardo Usbeck
+  username-github: RicardoUsbeck
+- name: Lars Wesemann
+  username-github: spinner0815
+  username-twitter: spinner0815
+- name: Lars Mai
+  username-github: lhm
+- name: Andreas Haller
+  username-github: ahx
+- name: Martin Feige
+  username-github: kater169
+  username-twitter: kater169
+- name: Eric Kelm
+  username-github: eric2501
+- name: Manuel Stößel
+  username-github: ManuPogo
+- name: Robert Schmidt
+  username-github: NucsuM
+
+links:
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Leipzig/
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforleipzig
+- name: Twitter
+  url: https://twitter.com/codeforleipzig
+- name: GitHub
+  url: https://github.com/CodeforLeipzig
+- name: Etherpad
+  url: http://pad.okfn.org/p/oklab-leipzig
+
+
+leads:
+- name: Lars Mai
+  url: mailto:lars@pingfm.org
+- name: Markus Zapke-Gründemann
+  url: mailto:markus@keimlink.de
+- name: Max Brauer
+  url: mailto:max@max-brauer.de
+- name: Pascal Müller
+  url: mailto:pascal@contextstudio.de

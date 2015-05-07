@@ -39,8 +39,7 @@ $(document).ready(function() {
     });
 
     // load markers and put on map
-    {% for lab in site.pages %}
-     {% if lab.layout == 'lab' %}
+    {% for lab in site.labs %}
         var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon: 
         {% if lab.markerposition == 'left' %}
             {% if lab.h4c %}
@@ -58,7 +57,6 @@ $(document).ready(function() {
             { labelText:'<a href="{{ lab.url }}">{{ lab.lab }}</a>'}), 
             riseOnHover: true })
         .addTo(map)
-     {% endif %}
     {% endfor %}
 
     // load basemaps

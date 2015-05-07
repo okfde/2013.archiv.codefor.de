@@ -1,2 +1,53 @@
 ---
 key: muenster
+title: OK Lab Münster
+lab: OK Lab Münster
+lat: 51.964928
+long: 7.630490
+markerposition: left
+
+members: 
+
+- name: Mila Frerichs
+  username-github: milafrerichs
+  username-twitter: mila_frerichs
+
+- name: Daniel Kirsch
+  username-github: kirel
+  username-twitter: kirel
+
+- name: Gerald Pape
+  username-github: ubergesundheit
+  username-twitter: ubergesundheit
+  
+- name: Martin Honermeyer
+  username-github: djmaze
+  
+- name: Tobias Bradtke
+  username-github: webwurst
+
+- name: Yannic Schencking
+  username-github: jahnique
+  
+- name: Steffen Schildknecht
+  username-github: stsc3000
+
+links:
+- name: Webseite
+  url: http://codeformuenster.org
+
+- name: Forum
+  url: http://forum.codeformuenster.org
+
+- name: Meetup
+  url: http://meetup.com/OK-Lab-Munster/
+
+- name: Jahresrückblick 2014
+  url: http://codeformuenster.org/blog/2014/12/10/review-2014/
+
+leads:
+- name: Mila Frerichs
+  url: mailto:muenster@codefor.de
+- name: Gerald Pape
+  url: mailto:muenster@codefor.de
+  

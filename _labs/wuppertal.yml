@@ -1,2 +1,58 @@
 ---
 key: wuppertal
+title: OK Lab Wuppertal
+lab: OK Lab Wuppertal
+lat: 51.26687
+long: 7.14539
+markerposition: right
+h4c: true
+
+members:
+
+- name: Nico Heßler
+  username-github: exmatrikulator
+  username-twitter: Exmatrikulat0r
+- name: Daniel Fisher
+  username-github: lennybacon
+  username-twitter: lennybacon
+- name: Christopher Reinbothe
+  username-github: phsieben
+  username-twitter: phneutral
+- name: Bastian Pertz
+  username-github: Samisdat
+  username-twitter: Samisdat
+- name: Sam Zeini
+  username-github: SamZeini
+  username-twitter: SZeini
+- name: Ralf Glörfeld
+  username-github: sn0wdiver
+  username-twitter: sn0wdiwer
+- name: Cathy Klappert
+  username-twitter: CathyKlappert
+- name: Jan Niko Kirschbaum
+
+
+links:
+- name: Webseite
+  url: https://opendatal.de/
+- name: Mailingliste
+  url: http://lists.oddw.de/cgi-bin/mailman/listinfo/liste
+- name: GitHub
+  url: https://github.com/Opendatal
+- name: Etherpad
+  url: https://utopiastadt.etherpad.mozilla.org/6
+- name: Treffen, jeden 3. Donnerstag im Monat
+  url: http://neu.clownfisch.eu/utopia-stadt/
+- name: Location/Netzwerk
+  url: http://neu.clownfisch.eu/utopia-stadt/
+
+
+leads:
+- name: Cathy Klappert
+  url: https://songbirdintherain.wordpress.com/
+- name: Christopher Reinbothe
+  url: mailto:info@opendatal.de
+- name: Ralf Glörfeld
+  url: https://twitter.com/sn0wdiver
+- name: Sam Zeini
+  url: mailto:zeini[at]collide.info

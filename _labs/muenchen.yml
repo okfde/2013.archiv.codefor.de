@@ -1,2 +1,100 @@
 ---
 key: muenchen
+title: OK Lab München
+lab: OK Lab München
+## muCCC, Schleißheimer Str.
+lat: 48.153701 
+long: 11.560801
+markerposition: right
+
+## LMU Oettingenstr
+#lat: 48.150638 
+#long: 11.594601
+## Werk1
+#48.125022947 11.605757474
+
+
+members: 
+
+- name: Marcus Dapp
+  username-github: digisus
+  username-twitter: digisus 
+
+- name: Matt Fullerton
+  username-github: mattfullerton
+  username-twitter: mattfullerton
+
+- name: Jan-Christoph Borchardt
+  username-github: jancborchardt
+  username-twitter: jancborchardt
+  
+- name: Dora Dzvonyar
+  username-github: dzdora
+  username-twitter: dzdorie
+  
+- name: Sebastian Rehm
+  username-github: bastiRe
+  username-twitter: _bastiRe
+  
+- name: Birgit Fullerton
+  username-github: birgitfullerton
+  username-twitter: bbfullerton
+  
+- name: Andreas Hubel
+  username-github: saerdnaer
+  username-twitter: saerdnaer
+  
+- name: Benedikt Köhler
+  username-github: furukama
+  username-twitter: furukama
+
+- name: Johanna Fulda
+  username-github: jo-fu
+  username-twitter: jofu_
+
+- name: Mario Haim
+  username-github: MarHai
+  username-twitter: DrFollowMario
+
+- name: Bernd Oswald
+  username-github: nepomunich
+  username-twitter: berndoswald
+  
+- name: Gerald Maurer
+  username-github: mwebtechnik
+  username-twitter: mwebtechnik 
+  
+- name: Maximilian Hackenschmied
+  username-github: mazemilian
+  username-twitter: mazemilian 
+
+- name: Steffen Kühne
+  username-github: stekhn
+  username-twitter: stekhn
+
+- name: Oliver Schnuck
+  username-github: schnuko
+  username-twitter: schnuko
+  
+links:
+- name: Orga-Pad
+  url: http://pad.okfn.org/p/oklab-muc
+
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeformunich
+
+- name: Twitter
+  url: https://twitter.com/codeformuenchen
+
+- name: MOGDy Community Site (revive?)
+  url: http://www.muenchen-mogdy.de/
+
+leads:
+- name: Bernd Oswald
+  url: https://twitter.com/berndoswald
+  
+- name: Matt Fullerton
+  url: mailto:matt.fullerton@gmail.com
+
+- name: Mario Haim
+  url: https://twitter.com/drfollowmario

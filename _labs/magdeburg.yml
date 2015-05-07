@@ -1,2 +1,36 @@
 ---
 key: magdeburg
+title: OK Lab Magdeburg
+lab: OK Lab Magdeburg
+lat: 52.11946
+long: 11.62941
+markerposition: right
+
+members:
+
+- name: Johannes Filter
+  username-github: filter1
+  username-twitter: fil_ter
+  
+- name: Rosario Raulin
+  username-github: rosario-raulin
+  username-twitter: rosario_raulin
+
+links:
+
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Magdeburg/
+
+- name: Twitter
+  url: https://twitter.com/CodeForMD
+
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeformagdeburg
+
+leads:
+
+- name: Johannes
+  url: mailto:hi@jfilter.de
+  
+- name: Rosario
+  url: mailto:hi@raulin.biz

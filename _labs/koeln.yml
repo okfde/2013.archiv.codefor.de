@@ -1,2 +1,47 @@
 ---
 key: koeln
+title: OK Lab Köln
+lab: OK Lab Köln
+lat: 50.9554784
+long: 6.9104529,17
+markerposition: left
+
+
+members: 
+
+- name: Marian Steinbach
+  username-github: marians
+  username-twitter: MarianSteinbach
+
+- name: Marcel Belledin
+  username-github: marcel12bell
+  username-twitter: MarcelBelledin
+
+- name: Ingrid Bluoss
+  username-github: datenvisualisierung
+
+- name: Thomas Liebig
+  username-github: thomasliebig
+
+- name: Rene Drexler
+  username-github: nifix777
+
+- name: Alex Brand
+  username-github: alinx
+
+- name: Woflram Eberius
+  username-github: weberius
+
+- name: Horst Meyer
+  username-github: horald
+
+- name: Patrick Maué
+  username-github: pajoma
+
+links:
+- name: Meetup
+  url: http://meetup.com/OKLab-Koln-Meetup
+
+leads:
+- name: Marcel Belledin
+  url: mailto:info@codingcologne.de
