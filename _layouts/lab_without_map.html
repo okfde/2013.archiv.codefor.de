@@ -3,15 +3,6 @@ layout: base
 
 ---
 
-<!-- Lab Map -->
-<div class="jumbotron fond__gray map-container" style="padding:0px;">
-      <div id="lab-map" class="lab-map-city"></div>
-      {% if page.h4c %}
-        {% include h4c-map-legend.html %}
-      {% endif %}
-</div>
-
-
 {% if page.showsignup %}
   {% include join-form-lab.html %}
 {% else %}
