@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Praktikum bei Code for Germany - Bewerbungsfrist verlängert bis zum 01. Mai
+title: Praktikum bei Code for Germany - Bewerbungsfrist verlängert bis zum 31. Mai
 author: Fiona
 excerpt: Wir suchen eine Praktikantin oder einen Praktikanten ab Juni 2015
 
