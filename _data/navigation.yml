@@ -15,15 +15,15 @@ de:
     url: /presse
 en:
   - title: About
-    url: /en/about
+    url: /en/ueber
   - title: Contribute
-    url: /en/contribute
+    url: /en/mitmachen
   - title: OK Labs
     url: /en/oklabs
   - title: Calendar
-    url: /en/calendar
+    url: /en/termine
   - title: Projects
-    url: /en/projects
+    url: /en/projekte
   - title: Blog
     url: /blog
   - title: Press

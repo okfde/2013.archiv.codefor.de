@@ -1,14 +1,15 @@
 ---
 layout: base
-title: "Termine"
-
+title: Calendar
+lang: en
 ---
+
 <!-- Termine -->
 <div class="beneath-sections jumbotron fond__grey animated">
   <div class="container text__black">
 
       <h3>{{ page.title }}</h3>
-      <p>Hier findet ihr eine Übersicht aller Termine zu Treffen der Labs in den einzelnen Städten.</p>
+      <p>This is an overview of all meetups of the OK labs in the different cities.</p>
 
       {% assign events = site.termine | sort: 'date' %}
 
