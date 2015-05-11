@@ -84,6 +84,13 @@
       <ul class="nav nav-meta">
         <li class="text-center">
         {% if page.lang == 'en' %}
+        <a href="/">Deutsche Version</a>
+        {% else %}
+        <a href="/en/about">English version</a>
+        {% endif%}
+        </li>
+        <li class="text-center">
+        {% if page.lang == 'en' %}
         <a href="http://2014.codefor.de" target="_blank">Highlights 2014</a>
         {% else %}
         <a href="http://2014de.codefor.de" target="_blank">Rückblick 2014</a>
