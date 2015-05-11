@@ -1,0 +1,51 @@
+---
+layout: base
+title: Projekt Showcase
+
+---
+
+
+<!-- Projekte -->
+<div class="jumbotron fond__blue">
+  <div class="container">
+    <div class="clearfix">
+    <h3 class="pull-left">Projekt Showcase</h3>
+    <span class="h4 pull-right"><a href="/projekte/alle">Alle Projekte...</a></span>
+    </div>
+      <div class="loading">
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <div>...laden...</div>
+      </div>
+     <div class="packery-container">
+
+
+      <div class="packery-item-gutter"></div>
+      {% for sitepage in site.pages %}
+      {% if sitepage.showcase AND sitepage.layout == 'project' %}
+        <div class="packery-item" >
+          {% include project-teaser.html %}
+        </div>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+    <span class="h4"><a href="/projekte/alle">Alle Projekte...</a></span>
+  </div>
+</div>
+<!-- Projekte End -->
+
+<script src="/js/lib/packery.pkgd.min.js"></script>
+<script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+<script src="/js/PackeryGrid.js"></script>
+
+<script src="/js/lib/prettyCheckbox.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+  packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
+  // $(":checkbox").prettyCheckbox();
+
+});
+
+</script>
