@@ -84,9 +84,9 @@
       <ul class="nav nav-meta">
         <li class="text-center">
         {% if page.lang == 'en' %}
-        <a href="/de{{page.url}}">Deutsche Version</a>
+        <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">Deutsche Version</a>
         {% else %}
-        <a href="/en{{page.url}}">English version</a>
+        <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
         {% endif%}
         </li>
         <li class="text-center">
