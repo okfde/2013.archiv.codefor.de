@@ -6,14 +6,24 @@
         <div class="row">
           <h3>Newsletter</h3>
           <div class="col-lg-10 col-lg-offset-1">
-            <p> Du möchtest auf dem Laufenden bleiben über Code for Germany? <br> Dann trag Dich in unseren monatlichen Newsletter ein: </p>
+          {% if page.lang == 'en' %}
+            <p>Would you like to stay up to date on Code for Germany? <br /> Then sign up for our newsletter here:</p>
+          {% else %}
+            <p> Du möchtest auf dem Laufenden bleiben über Code for Germany? <br /> Dann trag Dich in unseren monatlichen Newsletter ein:</p>
+          {% endif %}
           </div>
           <div class="mc-field-group form-group form-group-newsletter text-left">
             <div class="col-lg-5 col-lg-offset-2">
               <label for="mce-EMAIL" class="sr-only" >E-Mail</label>
               <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="E-Mail" required ></div>
               <div class="col-lg-3">
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen">Abonnieren!</button>
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mitmachen">
+                {% if page.lang == 'en' %}
+                  Subscribe!
+                {% else %}
+                  Abonnieren!
+                {% endif %}
+                </button>
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_929f1e07936386d34833e20d1_bb63fcab72" value="">
                   <!-- set to newsletter only-->
                   <input type="checkbox" value="1" checked="checked" name="group[16985][1]" id="mce-group[16985]-16985-0" style="display:none;">
