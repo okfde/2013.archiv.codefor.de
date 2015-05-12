@@ -1,18 +1,21 @@
 <div class="project-wrapper project-teaser fond__white clearfix">
 
   {% if sitepage.imgname %}
-  <a href="{{ sitepage.url }}"><img src="/assets/projects/{{ sitepage.imgname }}" alt="Project Image" class="project-image img-responsive"></a>
+  <a href="{{ sitepage.url }}">
+    <img src="/assets/projects/{{ sitepage.imgname }}" alt="Project Image" class="project-image img-responsive">
+  </a>
   {% endif %}
-  
+
   <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
-      <p class="project-description"> 
-          {% if sitepage.excerpt %}
-            {{ sitepage.excerpt | remove: '<p>' | remove: '</p>'  | markdownify }} 
-          {% else %}
-            {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 10  | markdownify }} 
-          {% endif %}
-      </p>    
-  <div class="project-footer clearfix">
+    <p class="project-description">
+        {% if sitepage.excerpt %}
+          {{ sitepage.excerpt | remove: '<p>' | remove: '</p>'  | markdownify }}
+        {% else %}
+          {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 10  | markdownify }}
+        {% endif %}
+    </p>
+
+    <div class="project-footer clearfix">
 
     {% for labpage in site.pages %}
       {% if labpage.lab == sitepage.lab %}
@@ -22,9 +25,8 @@
       {% endif %}
     {% endfor%}
 
-
     <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
-    
+
     {% if sitepage.status %}
       {% assign status = sitepage.status %}
     {% else %}

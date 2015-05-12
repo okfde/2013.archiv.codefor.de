@@ -5,7 +5,7 @@
       <p class="project-description"><span class="fond__red">Thema:</span> {{ sitepage.description }}</p>
       <p class="project-data"><span class="fond__red">Daten:</span> {{ sitepage.data }}</p>
       <p class="project-skills"><span class="fond__red">Nötige Skills im Team:</span> {{ sitepage.skills }}</p>
-      <p class="project-potential"><span class="fond__red">Machbarkeit:</span> {{ sitepage.potential }}</p>           
+      <p class="project-potential"><span class="fond__red">Machbarkeit:</span> {{ sitepage.potential }}</p>
       </div>
     </div>
     <div class="row">
@@ -17,16 +17,14 @@
         <ul class="list-unstyled project-collaborators-list" >
           {% for colaborator in sitepage.colaborators %}
           <li>
-            {{ colaborator.name }} <br> 
+            {{ colaborator.name }} <br>
             {% for link in colaborator.links %}
-            <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
+            <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           </li>
           {% endfor %}
         </ul>
       </div>
     </div>
-
-
   </div>
 </div>
