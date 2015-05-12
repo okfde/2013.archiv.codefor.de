@@ -1,0 +1,77 @@
+---
+layout: default
+footerlogos: yes
+
+---
+
+<!-- Hero -->
+<div class="jumbotron fond__grey">
+  <div class="container">
+    <div class="row">
+      <div id="animation-wrapper" class="col-lg-11 col-lg-offset-1">
+        <h1 class="cta text__blue animated-claim">city<span class="text__red">&lt;</span>developer <span class="text__red">/&gt;</span>*
+        <br />building digital tools for your community<span class="marker"></span></h1>
+        <h5 class="highlight highlight-hero cta-sub">
+        <span class="highlight-red">Code a difference: Use your skills to improve your city!</span>
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lab Map -->
+<div class="jumbotron fond__green map-container" style="padding:0px;">
+      <div id="lab-map" class="lab-map-home"></div>
+      {% include h4c-map-legend.html %}
+
+</div>
+
+<!-- About -->
+<div class="beneath-sections jumbotron fond__blue animated">
+  <div class="container text-center text__black">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <p>
+          Every week, Code for Germany teams meet throughout the country to come together to use open data to build  useful applications, visualizations, and other tools for citizens.<br>
+          Local groups consist of programmers, designers, and open data enthusiasts.  Together, they prove how Code and Software can help improve their cities and community. <br><br>
+
+          Current projects and applications as well as upcoming meetings to participate can be found by clicking on a city near you.
+        </p>
+      </div>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+      <div class="col-lg-4 highlight">
+        <p class="highlight-red" >Use civic tech to make your community better!</p>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
+
+
+<!-- Newsletter -->
+{% include newsletter-form.html %}
+
+<script src="js/lib/jquery.cookie.js"></script>
+<script src="js/lib/prettyCheckbox.min.js"></script>
+
+<script src="js/Application.js"></script>
+
+{% include leaflet.html %}
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+  app = new Application();
+  app.init();
+  $(":checkbox").prettyCheckbox();
+
+});
+</script>
