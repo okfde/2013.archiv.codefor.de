@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Praktikum bei Code for Germany - Bewerbungsfrist bis Ende Mai
+title: Praktikum bei Code for Germany 
 author: Fiona
 excerpt: Wir suchen Verstärkung für unser Team zum nächstmöglichen Zeitpunkt.
 
@@ -44,7 +44,7 @@ Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 * Im Herzen bist du ein Nerd <3 <br>
 
 <hr>
-**Wir bieten Dir**
+**Wir bieten dir**
 
 * Arbeit in einer etablierten non-profit Organisation, mit einem vielseitigen Projektportfolio
 * Die Mitarbeit an einem spannenden Projekt mit einer großartigen Community
@@ -54,7 +54,7 @@ Ort: Berlin, Büro des Open Knowledge Foundation Deutschland e.V.
 * Die Möglichkeit dich persönlich und professionell weiterzuentwickeln
 
 <hr>
-Wenn du Interesse hast, dann schick uns deine Bewerbung bis zum 31. Mai per E-Mail an **[info@codefor.de](mailto:info@codefor.de)**.<br>
+Wenn du Interesse hast, dann schick uns deine <b>Bewerbung bis zum 31. Mai</b> per E-Mail an **[info@codefor.de](mailto:info@codefor.de)**.<br>
 Wir freuen uns auf dich!<br>
 Julia & Fiona 
 
