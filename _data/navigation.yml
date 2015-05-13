@@ -16,7 +16,7 @@ de:
 en:
   - title: About
     url: /en/ueber
-  - title: Join
+  - title: Join 
     url: /en/mitmachen
   - title: OK Labs
     url: /en/oklabs
@@ -24,7 +24,7 @@ en:
     url: /en/termine
   - title: Projects
     url: /en/projekte
-  - title: Blog
+  - title: Blog (de)
     url: /blog
-  - title: Press
-    url: /press
+  - title: Press (de)
+    url: /presse
