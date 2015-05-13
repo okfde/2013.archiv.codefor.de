@@ -29,6 +29,11 @@ Wir sind gespannt auf die weiteren Hackdays in [Karlsruhe][], [Dresden/Leipzig][
 
 ![hackyourcity-turnbeutel](/assets/blog/hackyourcity-turnbeutel.jpg)
 
+<div align="center">
+Fotos: <a href="http://cargocollective.com/marcelmaffei">Marcel Maffai</a>
+</div>
+
+
 
 [Hack Your City]: https://hackyourcity.de/
 [infarm]: http://infarm.de
