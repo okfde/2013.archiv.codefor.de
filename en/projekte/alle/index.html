@@ -1,0 +1,21 @@
+---
+layout: base
+title: All Projects
+lang: en
+---
+
+<!-- Projekte -->
+<div class="jumbotron fond__blue">
+  <div class="container">
+    <div class="clearfix">
+    <h3 class="pull-left">All Projects</h3>
+    <span class="h4 pull-right"><a href="/projekte">Project Showcase...</a></span>
+    </div>
+    {% for sitepage in site.pages %}
+		  {% if sitepage.layout == 'project' %}
+    	  {% include project-teaser-slim.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<!-- Projekte End -->

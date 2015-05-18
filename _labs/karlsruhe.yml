@@ -1,0 +1,53 @@
+---
+key: karlsruhe
+title: OK Lab Karlsruhe
+lab: OK Lab Karlsruhe
+lat: 49.0067
+long: 8.407438
+markerposition: left
+h4c: true
+
+members:
+
+- name: Olf
+  username-github: olf42
+  username-twitter: trollofix
+
+- name: Kai
+  username-github: kawie
+  username-twitter: kawie
+
+- name: Torf
+  username-github: torfuspolymorphus
+  username-twitter: torfsen
+
+- name: JackMcCrack
+  username-github: jackmccrack
+  username-twitter: JackMcCrack
+
+- name: Antonina
+
+links:
+
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforkarlsruhe
+
+- name: Twitter
+  url: https://twitter.com/CodeforKA
+
+- name: GitHub
+  url: https://github.com/CodeforKarlsruhe
+
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Karlsruhe/
+
+- name: Protokolle
+  url: https://pad.okfn.org/p/codeforka
+
+leads:
+
+- name: olf
+  url: mailto:olf@subsignal.org
+
+- name: Kai
+  url: mailto:post@kai.gs

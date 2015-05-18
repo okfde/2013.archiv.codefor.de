@@ -20,12 +20,11 @@ title: "Übersicht der OK Labs"
         <p>Die OK Labs sind eigenständige Gruppen, mit eigenen Kommunikationskanälen wie Websites, Etherpads oder Twitter-Accounts. Auf codefor.de werden das Netzwerk und die Projekte der Labs präsentiert. Für Details zu den Gruppen und Projekten lohnt es sich auf die Websites und in die Pads der einzelnen Gruppen zu schauen und sich dort zu informieren bzw. sich direkt auf der Mailingliste des jeweiligen Labs einzutragen.</p>
       </div>
       <ul class="col-lg-12 list-inline">
-        {% assign siteArray = site.pages | sort: 'lab' %}
-        {% for lab in siteArray %}
-          {% if lab.layout == 'lab' %}
-            {% assign city =  lab.lab | remove: "OK Lab " %}
-            <li><a href="{{ lab.url }}">{{ city }}{% if city != lab.title %} ({{ lab.title }}){% endif %}</a></li>
-          {% endif %}
+        {% for lab in site.labs %}
+          {% assign city =  lab.lab | remove: "OK Lab " %}
+          <li>
+            <a href="/{{ lab.key }}/">{{ city }}{% if lab.lab != lab.title %} ({{ lab.title }}){% endif %}</a>
+          </li>
         {% endfor %}
       </ul>
     </div>

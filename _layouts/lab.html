@@ -3,16 +3,23 @@ layout: base
 
 ---
 
+<!-- Get metadata from collection -->
+{% for lab in site.labs %}
+  {% if page.key == lab.key %}
+    {% assign meta = lab %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <!-- Lab Map -->
 <div class="jumbotron fond__gray map-container" style="padding:0px;">
       <div id="lab-map" class="lab-map-city"></div>
-      {% if page.h4c %}
+      {% if meta.h4c %}
         {% include h4c-map-legend.html %}
       {% endif %}
 </div>
 
-
-{% if page.showsignup %}
+{% if meta.showsignup %}
   {% include join-form-lab.html %}
 {% else %}
 
@@ -21,26 +28,39 @@ layout: base
   <div id="lab" class="container lab-info">
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="highlight-white"> {{ page.title }} </h1>
+        <h1 class="highlight-white"> {{ meta.title }} </h1>
         {{ page.content | markdownify }}
       </div>
       <div class="col-lg-6">
 
-        {%if page.links %}
-        <h3> Basis Info</h3>
+        {% if meta.links %}
+
+        {% if page.lang == 'en' %}
+        <h3>Basic Info</h3>
+        {% else %}
+        <h3>Basis Info</h3>
+        {% endif%}
+
         <ul class="list-unstyled lab-links" >
-          {% for link in page.links %}
+          {% for link in meta.links %}
           <li>
             <a href="{{ link.url }}">{{ link.name }}</a>
           </li>
           {% endfor %}
         </ul>
+
         {% endif %}
 
-        {%if page.leads %}
-        <h3> Kontakt</h3>
+        {% if meta.leads %}
+
+        {% if page.lang == 'en' %}
+        <h3>Contact</h3>
+        {% else %}
+        <h3>Kontakt</h3>
+        {% endif%}
+
         <ul class="list-unstyled lab-links" >
-          {% for lead in page.leads %}
+          {% for lead in meta.leads %}
           <li>
             <a href="{{ lead.url }}">{{ lead.name }}</a>
           </li>
@@ -64,7 +84,7 @@ layout: base
 
 {% for event in events %}
 
-  {% if event.lab == page.lab %}
+  {% if event.lab == meta.lab %}
     {% assign date = event.date | date: '%s' %}
     {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
     {% unless date < now %}  
@@ -85,7 +105,7 @@ layout: base
       {% assign event_count=event_count | minus:1 %}
 
         {% for event in events %}
-        {% if event.lab == page.lab %}
+        {% if event.lab == meta.lab %}
             {% assign date = event.date | date: '%s' %}
             {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
             {% unless date < now %}  
@@ -119,16 +139,23 @@ layout: base
 <!-- Projekte -->
 {% assign project_count = 0 %}
 {% for sitepage in site.pages %}
- {% if page.lab == sitepage.lab %}
+ {% if meta.lab == sitepage.lab %}
    {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
   {% endif %}
 {% endfor %}
+
 <!-- remove the ok lab's page -->
 {% capture project_count %}{{ project_count | minus:1 }}{% endcapture %}
 {% unless project_count == '0' %}
 <div class="jumbotron fond__blue">
   <div class="container">
+
+    {% if page.lang == 'en' %}
+    <h3 id="projects">Projects</h3>
+    {% else %}
     <h3 id="projects">Projekte</h3>
+    {% endif%}
+
     <div class="loading">
         <i class="fa fa-circle-o-notch fa-spin"></i>
         <div>...laden...</div>
@@ -136,7 +163,7 @@ layout: base
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
       {% for sitepage in site.pages  %}
-        {% if page.lab == sitepage.lab %}
+        {% if meta.lab == sitepage.lab %}
           {% if sitepage.layout == 'project' %}
           <div class="packery-item" >
            {% include project-teaser.html type='page' %}
@@ -153,15 +180,20 @@ layout: base
 
 <!-- Mitglieder-->
 
-{% if page.members %}
+{% if meta.members %}
 <div class="jumbotron fond__greymid">
   <div class="container">
       <div class="row">
+
+      {% if page.lang == 'en' %}
+      <h3 id="members"> Members </h3>
+      {% else %}
       <h3 id="members"> Mitglieder </h3>
+      {% endif%}
 
         <div class="col-lg-12">
         <ul class="list-inline lab-members members clearfix">
-          {% for member in page.members %}
+          {% for member in meta.members %}
           <li class="member clearfix">
             {% if member.username-github %}
              {% capture image_url %}/img/avatars/{{ member.username-github }}.jpg{% endcapture %}

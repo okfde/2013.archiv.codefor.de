@@ -1,0 +1,46 @@
+---
+layout: base
+title: Calendar
+lang: en
+---
+
+<!-- Termine -->
+<div class="beneath-sections jumbotron fond__grey animated">
+  <div class="container text__black">
+
+      <h3>{{ page.title }}</h3>
+      <p>This is an overview of all meetups of the OK labs in the different cities.</p>
+
+      {% assign events = site.termine | sort: 'date' %}
+
+      <div class="row">
+
+      {% assign i = 0 %}
+      {% for event in events %}
+
+        {% assign date = event.date | date: '%s' %}
+        {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+
+        {% unless date < now %}
+          <div class="col-lg-6" >
+            {% include event.html %}
+          </div>
+
+          {% assign even = i | modulo:2 %}
+
+          {% if even == 1 %}
+            {% comment %} Unless it is the last iteration {% endcomment %}
+            {% unless forloop.last %}
+              </div><div class="row" >
+            {% endunless %}
+          {% endif %}
+          {% if forloop.last %}
+          </div>
+          {% endif %}
+          {% assign i = i | plus: 1 %}
+
+        {% endunless%}
+      {% endfor %}
+      </div>
+
+  </div>

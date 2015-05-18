@@ -1,0 +1,46 @@
+---
+key: jena
+title: OK Lab Jena
+lab: OK Lab Jena
+lat: 50.9223394
+long: 11.5762312
+markerposition: left
+
+members:
+
+- name: Achim
+  username-github: ahzf
+  username-twitter: ahzf
+- name: Andreas
+  username-twitter: nunAmen
+- name: Melanie
+- name: Mirko
+  username-twitter: fnchh
+- name: Robert
+  username-twitter: p1ng0ut
+- name: Richardo
+
+links:
+
+- name: Website
+  url: http://offenes-jena.de
+
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Jena/
+
+- name: Twitter
+  url: http://twitter.com/OffenesJena
+
+- name: GitHub
+  url: http://github.com/OffenesJena
+
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforjena
+
+- name: Pad
+  url: https://pad.okfn.org/p/OffenesJena
+
+leads:
+
+- name: Achim
+  url: mailto:mail@offenes-jena.de
