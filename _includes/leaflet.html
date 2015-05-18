@@ -58,7 +58,7 @@ $(document).ready(function() {
             {% if page.lang == 'en' %}
             { labelText:'<a href="/en/{{ lab.key }}/">{{ lab.lab }}</a>'}),
             {% else %}
-            { labelText:'<a href="{{ lab.key }}/">{{ lab.lab }}</a>'}),
+            { labelText:'<a href="/{{ lab.key }}/">{{ lab.lab }}</a>'}),
             {% endif%}
             riseOnHover: true })
         .addTo(map)
