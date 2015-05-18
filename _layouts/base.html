@@ -86,9 +86,11 @@
         {% if page.lang == 'en' %}
         <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">Deutsche Version</a>
         {% else %}
-        {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' and page.url != '/impressum/index.html' %}
-        <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
-        {% endif %}
+          {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' and page.url != '/impressum/index.html' %}
+          <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
+          {% else %}
+          <a href="/en/">English version</a>
+          {% endif %}
         {% endif%}
         </li>
         <li class="text-center">
