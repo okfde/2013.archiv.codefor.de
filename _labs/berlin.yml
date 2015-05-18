@@ -2,6 +2,7 @@
 key: berlin
 title: OK Lab Berlin
 lab: OK Lab Berlin
+
 lat: 52.498493
 long: 13.381215
 markerposition: right
@@ -176,7 +177,6 @@ members:
 
 
 links:
-
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Berlin/
 - name: Twitter
@@ -194,4 +194,5 @@ leads:
   url: mailto:jochen.klar@gmail.com
 - name: Thomas
   url: mailto:thomas@tursics.de
-
+- name: Knut
+  url: mailto:knut@k-nut.eu
