@@ -1,12 +1,12 @@
 <script>
 $(document).ready(function() {
-    
+
     // initiaize map, set position and zoom level
     var map = L.map('lab-map').setView([51.1642292, 10.4541194], 6);
     map.attributionControl.setPrefix("");
     map.scrollWheelZoom.disable();
 
-    // basemap 
+    // basemap
     var mapboxLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v4/codeforgermany.cc5365b0/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmdlcm1hbnkiLCJhIjoiMVg2ZGdSSSJ9.JsM4S0LZpeNmI1rHQnCxig', {
         attribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">&copy; Mapbox &copy; OpenStreetMap</a> | <a href="https://www.mapbox.com/map-feedback/ target="_blank">Improve this map</a>',
         minZoom: 5
@@ -27,20 +27,21 @@ $(document).ready(function() {
     });
 
     var labelRightH4C = labelRight.extend({
-        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }    
+        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }
     });
 
     var labelLeft = labelRight.extend({
-        options:  { labelClassName: 'label-left'}    
+        options:  { labelClassName: 'label-left'}
     });
 
     var labelLeftH4C = labelLeft.extend({
-        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }    
+        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }
     });
 
     // load markers and put on map
     {% for lab in site.labs %}
-        var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon: 
+        {% if lab.lat and lab.long %}
+        var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon:
         {% if lab.markerposition == 'left' %}
             {% if lab.h4c %}
                 new labelLeftH4C(
@@ -54,9 +55,14 @@ $(document).ready(function() {
                 new labelRight(
             {% endif %}
         {% endif %}
-            { labelText:'<a href="{{ lab.url }}">{{ lab.lab }}</a>'}), 
+            {% if page.lang == 'en' %}
+            { labelText:'<a href="/en/{{ lab.key }}/">{{ lab.lab }}</a>'}),
+            {% else %}
+            { labelText:'<a href="{{ lab.key }}/">{{ lab.lab }}</a>'}),
+            {% endif%}
             riseOnHover: true })
         .addTo(map)
+        {% endif%}
     {% endfor %}
 
     // load basemaps
