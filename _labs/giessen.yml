@@ -10,7 +10,7 @@ showsignup: false
 
 members:
 - name: Jan Ameli
-  username-github: jpameli 
+  username-github: jpameli
 
 - name: Christian Schulze
   username-github: ChristianSch
@@ -40,7 +40,7 @@ members:
 - name: Vincent Elliott Wagner
   username-github: serofax
 
-links:  
+links:
 - name: Twitter
   url: https://twitter.com/codeforgi
 
