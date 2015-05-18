@@ -86,9 +86,11 @@
         {% if page.lang == 'en' %}
         <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">Deutsche Version</a>
         {% else %}
-        {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' %}
-        <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
-        {% endif %}
+          {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' and page.url != '/impressum/index.html' %}
+          <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
+          {% else %}
+          <a href="/en/">English version</a>
+          {% endif %}
         {% endif%}
         </li>
         <li class="text-center">
@@ -133,7 +135,7 @@
     <div class="row text-center text-uppercase">
       <div class="col-lg-12">
         {% if page.lang == 'en' %}
-        <a href="/impressum">Contact &amp; Imprint</a> &bull; <a href="/code-of-conduct">Code of Conduct</a>
+        <a href="/impressum">Contact &amp; Imprint (de)</a> &bull; <a href="/en/code-of-conduct">Code of Conduct</a>
         {% else %}
         <a href="/impressum">Kontakt &amp; Impressum</a> &bull; <a href="/code-of-conduct">Code of Conduct</a>
         {% endif%}
