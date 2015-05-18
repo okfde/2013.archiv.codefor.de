@@ -6,9 +6,9 @@ lat: 50.9223394
 long: 11.5762312
 markerposition: left
 
-members: 
+members:
 
-- name: Achim 
+- name: Achim
   username-github: ahzf
   username-twitter: ahzf
 - name: Andreas
@@ -24,7 +24,7 @@ links:
 
 - name: Website
   url: http://offenes-jena.de
-  
+
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Jena/
 

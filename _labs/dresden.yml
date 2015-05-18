@@ -1,17 +1,16 @@
 ---
 key: dresden
-title: OK Lab Dresden
+title: Open Data Dresden
 lab: OK Lab Dresden
 lat: 51.047072
 long: 13.747552
 h4c: true
 
-
-members: 
+members:
 
 - name: rob tranquillo
   username-github: robtranquillo
-  username-twitter: robtranquillo 
+  username-twitter: robtranquillo
 - name: Marc
 - name: Astro
   url: http://spaceboyz.net/~astro/
@@ -44,4 +43,3 @@ leads:
   url: https://twitter.com/robtranquillo
 - name: Marc Hempelmann
   url: mailto:marc@okdd.de
-
