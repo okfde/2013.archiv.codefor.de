@@ -15,23 +15,17 @@ members:
 - name: Benedikt Groß
   username-twitter: bndktgrs
   username-github: b-g
+  
+- name: Andreas Madsack
+  username-twitter: mfandreas
+  username-github: mfa
 
-- name: Daniel Schmid
-
-- name: Andi Weiss
-  username-twitter: noerdhummel
-  username-github: noerdhummel
-
-- name: Hauke Luebbers
-
-- name: Philip Fieber
-
-- name: Stefan Landsbek
-  username-github: slandsbek
-
-- name: Darius Morawiec
-  username-twitter: darius_morawiec
-  username-github: voidplus
+- name: Arne Schauf
+  username-twitter: asmaps
+  username-github: asmaps
+  
+- name: Michael Käufl
+  username-github: michael-k
 
 links:
 - name: Meetup
