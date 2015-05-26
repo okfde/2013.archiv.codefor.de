@@ -144,8 +144,6 @@ layout: base
   {% endif %}
 {% endfor %}
 
-<!-- remove the ok lab's page -->
-{% capture project_count %}{{ project_count | minus:1 }}{% endcapture %}
 {% unless project_count == '0' %}
 <div class="jumbotron fond__blue">
   <div class="container">
