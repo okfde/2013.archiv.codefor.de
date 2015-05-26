@@ -30,6 +30,8 @@ members:
 links:
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/
+- name: Twitter
+  url: https://twitter.com/codeforS
 - name: Etherpad
   url: http://pad.okfn.org/p/OK-Lab-Stuttgart
 
