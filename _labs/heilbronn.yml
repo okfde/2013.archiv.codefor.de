@@ -1,0 +1,48 @@
+---
+key: heilbronn
+title: OK Lab Heilbronn
+lab: OK Lab Heilbronn
+lat: 49.139059
+long: 9.220404
+markerposition: right
+
+members:
+- name: Felix Ebert
+  username-github: felixebert
+  username-twitter: femeb
+- name: Adrian Stabiszewski
+  username-github: grundid
+  username-twitter: nitegate
+- name: Vanessa Wormer
+  username-github: vwormer
+  username-twitter: remrow
+- name: Isabelle Müller
+  username-github: isabellemueller
+  username-twitter: isa_mue
+- name: Daniel Stahl
+  username-github: stahlniel
+  username-twitter: stahlniel
+- name: Tom Görner
+  username-github: masterX244
+- name: Detlef Kreuz
+  username-github: implizit
+  username-twitter: dkreuz
+- name: Christian
+  username-github: Nachtfux
+  username-twitter: AppProjectX
+
+links:
+- name: Etherpad
+  url: http://pad.opendatacloud.de/p/OK-Lab-HN
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Heilbronn/
+- name: Twitter
+  url: https://twitter.com/codeforhn
+
+leads:
+- name: Felix Ebert
+  url: mailto:felix@opendatalab.de
+- name: Adrian Stabiszewski
+  url: mailto:adrian@opendatalab.de
+- name: Vanessa Wormer
+  url: mailto:vanessa.wormer@stimme.de

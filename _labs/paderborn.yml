@@ -1,0 +1,45 @@
+---
+key: paderborn
+title: CodeforPB
+lab: OK Lab Paderborn #needed for event and project aggregation
+markerposition: right
+
+members:
+
+- name: Arndt Heuvel
+  username-github: arndot
+
+- name: Arjun
+  username-github: Mellkor
+
+- name: Henrik Hüttemann
+  username-github: HerHde
+  username-twitter: herhde
+
+- name: Jan Lippert
+  username-github: ironjan
+  username-twitter: lippertsjan
+
+- name: Michael
+  username-github: MichaelWhi
+
+
+links:
+- name: Git
+  url: https://github.com/codeforpb
+
+- name: Pad
+  url: http://pad.okfn.org/p/codeforpb
+
+- name: Twitter
+  url: https://twitter.com/codeforpb
+
+- name: Meetup
+  url: http://www.meetup.com/OKLab-Paderborn/
+
+leads:
+- name: Jan
+  url: mailto:ljan@mail.upb.de
+
+- name: Mailing-List
+  url: mailto:list@codeforpb.de

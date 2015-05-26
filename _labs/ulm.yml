@@ -1,0 +1,57 @@
+---
+key: ulm
+title: OK Lab Ulm
+lab: OK Lab Ulm
+lat: 48.424004
+long: 9.953050
+markerposition: left
+
+
+members: 
+
+- name: Benjamin Erb
+  username-github: berb
+  username-twitter: b_erb
+
+- name: Stefan Kaufmann
+  username-github: stkdiretto
+  username-twitter: _stk
+
+- name: Falco Nogatz
+  username-github: fnogatz
+  username-twitter: ulmerleben
+
+- name: Rens van der Heijden
+  username-github: namnatulco
+  username-twitter: namnatulco
+
+- name: Vincent Grünberg
+  username-github: e-drei
+  username-twitter: _e_drei
+
+- name: Simon Fuchs
+  username-github: Taxilof
+  username-twitter: taxilof
+
+- name: Henning Kopp
+  username-github: hkopp
+
+
+links:
+- name: Website
+  url: http://ulmapi.de
+- name: Twitter
+  url: https://twitter.com/UlmAPI
+- name: Facebook
+  url: https://www.facebook.com/datalove.ulm
+- name: Mailinglist
+  url: https://imap.uni-ulm.de/lists/info/datalove
+- name: Meetup
+  url: http://www.meetup.com/datalove-OK-Lab-Ulm
+- name: Etherpad
+  url: https://datalove.edupad.uni-konstanz.de/start
+
+
+leads:
+- name: Benjamin
+  url: mailto:mail@benjamin-erb.de

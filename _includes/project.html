@@ -12,7 +12,7 @@
       <img src="/assets/projects/{{ [include.type]imgname }}" alt="Project Image" class="project-image img-responsive">
       {% endif %}
     </div>
-    
+
     <div class="{{ classCols }} {{ classColRight }}">
       <h4 class="project-title"> {{ [include.type]title }} </h4>
       <div class="project-description">{{ [include.type]content | markdownify }}</div>
@@ -28,6 +28,7 @@
                 {% endif %}
               {% endif %}
             {% endfor%}
+
             <div class="event-location  icon-before project-lab">
               <a href="{{ lab }}">{{ [include.type]lab }}</a>
             </div>
@@ -38,9 +39,9 @@
             <ul class="list-unstyled project-collaborators-list" >
               {% for colaborator in [include.type]colaborators %}
               <li>
-                {{ colaborator.name }} <br> 
+                {{ colaborator.name }} <br>
                 {% for link in colaborator.links %}
-                <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %} 
+                <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
               </li>
               {% endfor %}
@@ -54,15 +55,15 @@
               {% assign status = 'In Progress' %}
             {% endif %}
             <div class="project-status ">{{ status }}</div>
-           
 
             {% if [include.type]links  %}
-              <br>
-            <div class="project-links links project-lab">
-             Links
-           </div>
-           
-           <ul class="list-unstyled project-link-list" >
+          <br>
+
+          <div class="project-links links project-lab">
+            Links
+          </div>
+
+          <ul class="list-unstyled project-link-list" >
             {% for link in [include.type]links %}
             <li>
               <a href="{{ link.url }}">{{ link.name }}</a>
