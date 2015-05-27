@@ -16,7 +16,7 @@ L.Icon.Label = L.Icon.extend({
 		*/
 		labelClassName: ''
 	},
-	
+
 	initialize: function (options) {
 		L.Util.setOptions(this, options);
 		L.Icon.prototype.initialize.call(this, this.options);
@@ -29,7 +29,7 @@ L.Icon.Label = L.Icon.extend({
 	createIcon: function () {
 		return this._createLabel(L.Icon.prototype.createIcon.call(this));
 	},
-	
+
 	createShadow: function () {
 		if (!this.options.shadowUrl) {
 			return null;
@@ -46,7 +46,6 @@ L.Icon.Label = L.Icon.extend({
 	updateLabel: function (icon, text) {
 		if (icon.nodeName.toUpperCase() === 'DIV') {
 			icon.childNodes[1].innerHTML = text;
-			
 			this.options.labelText = text;
 		}
 	},
@@ -94,17 +93,17 @@ L.Icon.Label = L.Icon.extend({
 			// Ensure that the pointer cursor shows
 			img.style.cursor = 'pointer';
 		}
-		
+
 		//reset icons margins (as super makes them -ve)
 		img.style.marginLeft = this.options.iconAnchor.x + 'px';
 		img.style.marginTop = this.options.iconAnchor.y + 'px';
-		
+
 		wrapper.appendChild(img);
 		wrapper.appendChild(label);
 
 		return wrapper;
 	},
-	
+
 	_labelTextIsSet: function () {
 		return typeof this.options.labelText !== 'undefined' && this.options.labelText !== null;
 	}
@@ -117,19 +116,19 @@ L.Icon.Label.Default = L.Icon.Label.extend({
 		//If the icon height is greater than the label height you will need to set the y value.
 		//y = (icon height - label height) / 2
 		labelAnchor: new L.Point(29, 8),
-		
+
 		//This is the position of the wrapper div. Use this to position icon + label relative to the Lat/Lng.
 		//By default the point of the default icon is anchor
 		wrapperAnchor: new L.Point(13, 41),
-		
+
 		//This is now the top left position of the icon within the wrapper.
 		//If the label height is greater than the icon you will need to set the y value.
 		//y = (label height - icon height) / 2
 		iconAnchor: new L.Point(0, 0),
-		
+
 		//label's text component, if this is null the element will not be created
 		labelText: null,
-		
+
 		/* From L.Icon.Default */
 		iconUrl: L.Icon.Default.imagePath + '/marker-icon.png',
 		iconSize: new L.Point(25, 41),

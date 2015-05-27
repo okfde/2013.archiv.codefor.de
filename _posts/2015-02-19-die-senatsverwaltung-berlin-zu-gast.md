@@ -77,4 +77,3 @@ Weiterhin wurde darüber diskutiert, wie man den [FIS-Broker][fis-broker] ins ak
 [oklab-mit-herrn-both]: /blog/OK-Lab-mit-Herrn-Both/
 [datenquellen]: /blog/Datenquellen/
 [transparenz-in-hh]: /blog/Transparenz-in-Hamburg/
-

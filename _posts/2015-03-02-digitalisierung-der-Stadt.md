@@ -17,4 +17,4 @@ Der Bericht untersucht, inwieweit die neuen Technologien wirkliche Teilhabe, Mit
 
 ![image](/assets/blog/stadtdernerds3.jpg)
 
-Die anderen im Report vertretenen Beiträge beschäftigen sich mit den Folgen von Smartphone und mobiler Navigation auf menschliche Raumwahrnehmung sowie dem sich verändernden Gesicht des Einzelhandel im Zeitalter von Amazon und Zalando. Der kompletten Bericht kann <a href="http://florianstrenge.com/dwnlds/Kapitel-STADT%5BMIT%5DMACHEN_Stadt%20der%20Nerds.pdf">hier</a> heruntergeladen werden. 
+Die anderen im Report vertretenen Beiträge beschäftigen sich mit den Folgen von Smartphone und mobiler Navigation auf menschliche Raumwahrnehmung sowie dem sich verändernden Gesicht des Einzelhandel im Zeitalter von Amazon und Zalando. Der kompletten Bericht kann <a href="http://florianstrenge.com/dwnlds/Kapitel-STADT%5BMIT%5DMACHEN_Stadt%20der%20Nerds.pdf">hier</a> heruntergeladen werden.
