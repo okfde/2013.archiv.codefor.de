@@ -11,40 +11,32 @@ members:
 - name: Jan A. Lutz
   username-twitter: Jan_sagt
   username-github: fuergestalten
-  
+
 - name: Benedikt Groß
   username-twitter: bndktgrs
   username-github: b-g
 
-- name: Daniel Schmid
+- name: Andreas Madsack
+  username-twitter: mfandreas
+  username-github: mfa
 
-- name: Andi Weiss
-  username-twitter: noerdhummel
-  username-github: noerdhummel
+- name: Arne Schauf
+  username-twitter: asmaps
+  username-github: asmaps
 
-- name: Hauke Luebbers
-
-- name: Philip Fieber
-
-- name: Stefan Landsbek
-  username-github: slandsbek
-
-- name: Darius Morawiec
-  username-twitter: darius_morawiec
-  username-github: voidplus
+- name: Michael Käufl
+  username-github: michael-k
 
 links:
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/
+- name: Twitter
+  url: https://twitter.com/codeforS
 - name: Etherpad
   url: http://pad.okfn.org/p/OK-Lab-Stuttgart
-
 
 leads:
 - name: Jan A. Lutz
   url: mailto:jan.lutz@buero-fuer-gestalten.de
   username-twitter: fuergestalten
   username-github: fuergestalten
-
-- name: Daniel Schmid
-  url: mailto:dany.schmid@googlemail.com
