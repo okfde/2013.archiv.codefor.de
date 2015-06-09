@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Frankfurt
-name: OK Lab Frankfurt Treffen
-date: 2015-06-01 #YYYY-MM-DD
+name: Open Data in Frankfurt am Main
+date: 2015-07-06 #YYYY-MM-DD
 time: 19-22 Uhr
-location: Die Zentrale, Berger Straße 175, Frankfurt
-link-url: http://www.meetup.com/OKLabFfm/events/219667144/
+location: [MAINRAUM] – Gründerhaus Kreativwirtschaft, Ostbahnhofstraße 15, Frankfurt
+link-url: http://www.meetup.com/OKLabFfm/events/219667158/
 ---
