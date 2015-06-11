@@ -12,7 +12,6 @@ title: "Termine"
 
       <div class="row">
 
-      {% assign i = 0 %}
       {% assign events = site.termine | sort: 'date' %}
       {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
 
@@ -21,20 +20,15 @@ title: "Termine"
         {% assign date = event.date | date: '%s' %}
 
         {% unless date < now %}
-          <div class="col-lg-6" >
+          <div class="col-lg-6">
             {% include event.html %}
           </div>
-
-          {% assign even = i | modulo:2 %}
 
           {% if forloop.last %}
             </div>
           {% else %}
-            {% if even == 1 %}
-              </div><div class="row" >
-            {% endif %}
+            {% cycle '', '</div><div class="row" >' %}
           {% endif %}
-          {% assign i = i | plus: 1 %}
 
         {% endunless%}
       {% endfor %}
