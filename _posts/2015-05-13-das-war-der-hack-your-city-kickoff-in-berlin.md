@@ -38,7 +38,7 @@ Fotos: <a href="http://cargocollective.com/marcelmaffei">Marcel Maffai</a>
 [Hack Your City]: https://hackyourcity.de/
 [infarm]: http://infarm.de
 [Thomas Tursics]: http://twitter.com/tursics
-[Hans]: http:/twitter.com/hanswashere
+[Hans]: http://twitter.com/hanswashere
 [neue Gesichter]: https://twitter.com/codeforbe/status/597832053124669442
 [Storify]: https://storify.com/Yannick11/hack-your-city-berlin
 [Karlsruhe]: http://hackyourcity.de/karlsruhe

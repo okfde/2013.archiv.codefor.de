@@ -33,4 +33,4 @@ Die Software hinter „München Transparent“ ist Open Source (den Quellcode gi
 [benachrichtigen]: https://www.muenchen-transparent.de/benachrichtigungen
 [GitHub]: https://github.com/codeformunich/Muenchen-Transparent
 [OParl]: http://oparl.org
-[okfn.de]: http://okfn.de/2015/01/code-for-muenchen-launcht-muenchen-transparent/
+[okfn.de]: http://okfn.de/blog/2015/01/code-for-muenchen-launcht-muenchen-transparent/
