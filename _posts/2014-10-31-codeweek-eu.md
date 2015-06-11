@@ -11,7 +11,7 @@ images:
 
 ---
 ![codeweek-eu](/assets/blog/codeweek-okfn.png)
- 
+
 Vom 11. bis 17. Oktober fanden im Rahmen der [Codeweek][] über 1000 Events in ganz Europa rund ums Coden statt. Die OK Labs haben ordentlich mitgemischt mit zahlreichen tollen Events. Ein kleiner Auszug:
 
 In Dresden beispielsweise fand ein Hackathon für Kids statt und ein paar Tage später gleich noch ein Grundlagenkurs über Datenvisualisierung für Journalisten und Journalistinnen. Der Workshop wurde aufgezeichnet und kann [hier][] nachgeschaut werden.
@@ -20,7 +20,7 @@ Das OK Lab in Leipzig hat die Veranstaltung "Gutes tun mit Offenen Daten" organi
 
 In Ulm wurde ebenfalls fleißig mit Offenen Daten gehackt. Wir sind ein großer Fan der dabei entstandenen Anwendung "[Streetdudes][]", eine Visualisierung, die das Geschlechterverhältnis der Straßenbenennung in der Stadt Ulm aufzeigt. Dringende Redeploy-Empfehlung!
 
-Wir hatten eine Menge Spaß und freuen uns schon auf die nächste Codeweek, die bestimmt noch größer und noch toller wird ;-) 
+Wir hatten eine Menge Spaß und freuen uns schon auf die nächste Codeweek, die bestimmt noch größer und noch toller wird. ;-)
 
 ![codeweek-dresden](/assets/blog/dresden-codeweek.png)
 

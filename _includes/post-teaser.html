@@ -9,7 +9,7 @@
 
     </div>
   </div>
-  
+
   {% if post.images %}
     <a href="{{ post.url }}"><img src="/assets/blog/{{ post.images[0].imgname }}" alt="{{ post.images[0].alt }}" class="img-responsive"></a>
     {% if post.images[0].sub %}<span class="post-img-caption">{{ post.images[0].sub }}</span>{% endif %}
@@ -17,9 +17,8 @@
 
   <div class="post-description">
     <p>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
-        <font color="#C0C0C0"><a href="{{ post.url }}">Mehr...</a></font>
-
+      {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+      <font color="#C0C0C0"><a href="{{ post.url }}">Mehr...</a></font>
     </p>
   </div>
 </div>

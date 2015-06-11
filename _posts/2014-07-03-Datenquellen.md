@@ -33,4 +33,3 @@ Immer mal wieder werden wir gefragt, wo denn welche Daten zu finden sind. Daher 
 [Was ist eigentlich der Fisbroker]: http://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/
 [Wie kann man die Daten aus dem Fisbroker nutzen]: http://blog.buergerbautstadt.de/daten-aus-dem-fis-broker-nutzen/
 [VBB-API]: http://www.vbb.de/de/article/webservices/schnittstellen-fuer-webentwickler/5070.html
-

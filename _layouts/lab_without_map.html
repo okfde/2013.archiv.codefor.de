@@ -58,7 +58,7 @@ layout: base
   {% if event.lab == page.lab %}
     {% assign date = event.date | date: '%s' %}
     {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-    {% unless date < now %}  
+    {% unless date < now %}
       {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
     {% endunless %}
   {% endif %}
@@ -79,7 +79,7 @@ layout: base
         {% if event.lab == page.lab %}
             {% assign date = event.date | date: '%s' %}
             {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-            {% unless date < now %}  
+            {% unless date < now %}
                 <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
                   {% include event.html %}
                 </div>
@@ -183,12 +183,8 @@ layout: base
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 
 <script type="text/javascript">
-
 $(document).ready(function() {
-
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   $(":checkbox").prettyCheckbox();
-
 });
-
 </script>

@@ -14,5 +14,3 @@ Der CFA Summit ist eine Art Klassentreffen der Civic Tech Community. An drei Tag
 [Hier geht´s zum Live Stream!][] Das Programm verspricht jede Menge Abwechslung und spannende Insights. Tune in :)
 Twitter: #cfasummit
 [Hier geht´s zum Live Stream!]: https://cfasummit2014.pathable.com/meetings
-
-

@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: post
 
 title: Hamburg Lab is the latest stop on civic tech across borders tour
 author: Drew

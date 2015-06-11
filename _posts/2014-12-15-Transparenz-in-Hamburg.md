@@ -9,11 +9,11 @@ images:
 - imgname: transparenz-hamburg.png
 
 ---
-![maas-tweet](/assets/blog/maas-tweet.png) 
+![maas-tweet](/assets/blog/maas-tweet.png)
 
 Hamburg ist mittlerweile eine richtige Vorreiter-Stadt in Sachen Transparenz geworden. Dank der Initiative "Transparenz schafft Vertrauen" gibt es seit Oktober ein umfangreiches Transparenzgesetz und ein Open-Data-Portal. Anlässlich des Launches haben sich vor einiger Zeit Journalisten, Coderinnen und Designer getroffen, um mit den frisch geöffneten Daten zu arbeiten.
 
-Eines der Ergebnisse ist in einem Artikel von Marcel Pauly und Christina Elmer auf Spiegel Online nachzulesen: [Jung und schusselig - was die Deutschen verlieren][]. Sie haben sich Daten über Fundbüros und deren teils kuriose Schätze angeschaut. 
+Eines der Ergebnisse ist in einem Artikel von Marcel Pauly und Christina Elmer auf Spiegel Online nachzulesen: [Jung und schusselig - was die Deutschen verlieren][]. Sie haben sich Daten über Fundbüros und deren teils kuriose Schätze angeschaut.
 
 Benjamin Laufer hat einen Artikel über unvollständige Datensätze und Korellationen von Datensätzen geschrieben und welchen Spielraum für Interpretationen sie geben: "[Das könnte so eine schöne Leerstandskarte sein][]"
 
