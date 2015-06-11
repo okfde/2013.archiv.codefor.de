@@ -27,14 +27,12 @@ title: "Termine"
 
           {% assign even = i | modulo:2 %}
 
-          {% if even == 1 %}
-            {% comment %} Unless it is the last iteration {% endcomment %}
-            {% unless forloop.last %}
-              </div><div class="row" >
-            {% endunless %}
-          {% endif %}
           {% if forloop.last %}
-          </div>
+            </div>
+          {% else %}
+            {% if even == 1 %}
+              </div><div class="row" >
+            {% endif %}
           {% endif %}
           {% assign i = i | plus: 1 %}
 
