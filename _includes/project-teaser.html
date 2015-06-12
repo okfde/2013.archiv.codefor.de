@@ -9,7 +9,7 @@
   <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
     <p class="project-description">
         {% if sitepage.excerpt %}
-          {{ sitepage.excerpt | remove: '<p>' | remove: '</p>'  | markdownify }}
+          {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' | markdownify }}
         {% else %}
           {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 10  | markdownify }}
         {% endif %}
