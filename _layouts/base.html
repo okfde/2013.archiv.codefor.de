@@ -84,17 +84,6 @@
       <ul class="nav nav-meta">
         <li class="text-center">
         {% if page.lang == 'en' %}
-        <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">Deutsche Version</a>
-        {% else %}
-          {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' and page.url != '/impressum/index.html' %}
-          <a href="/en{{page.url | replace:'index.html',''}}">English version</a>
-          {% else %}
-          <a href="/en/">English version</a>
-          {% endif %}
-        {% endif%}
-        </li>
-        <li class="text-center">
-        {% if page.lang == 'en' %}
         <a href="http://2014.codefor.de" target="_blank">Highlights 2014</a>
         {% else %}
         <a href="http://2014de.codefor.de" target="_blank">Rückblick 2014</a>
@@ -103,6 +92,17 @@
         <li class="text-center nav-meta-social"><a href="https://twitter.com/codeforde" >t</a></li>
         <li class="text-center nav-meta-social"><a href="http://goo.gl/pO9wkS" >g+</a></li>
         <li class="text-center nav-meta-social"><a href="https://github.com/okfde/codefor.de" ><img src="/img/GitHub-Mark-Light-32px.png" alt="The infamous Octocat" width="32" height="32" ></a></li>
+        <li class="text-center nav-meta-lang">
+        {% if page.lang == 'en' %}
+        <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">DE</a>
+        {% else %}
+          {% if page.url != '/blog/index.html' and page.url != '/presse/index.html' and page.url != '/impressum/index.html' and != '/stories/index.html' %}
+          <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
+          {% else %}
+          <a href="/en/">EN</a>
+          {% endif %}
+        {% endif%}
+        </li>
       </ul>
 
       <ul class="nav nav-pills">

@@ -1,0 +1,10 @@
+---
+layout: base
+title: Termine
+
+---
+
+{% for story in site.stories %}
+	<a href="{{ story.url }}" >{{ story.title }}</a><br>
+{% endfor %}
+

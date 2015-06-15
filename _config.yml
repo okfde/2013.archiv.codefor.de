@@ -10,8 +10,8 @@ exclude:
   - "mission"
   - "README.md"
   - "doc/"
-  #- "projekte" # uncomment line to speed up jekyll build for development
-  #- "blog" # uncomment line to speed up jekyll build for development
+  - "projekte" # uncomment line to speed up jekyll build for development
+  # - "blog" # uncomment line to speed up jekyll build for development
 permalink: /blog/:title
 excerpt_separator: "\n"
 paginate: 5
@@ -19,3 +19,6 @@ paginate_path: "blog/:num"
 collections:
   labs:
   termine:
+  stories:
+    output: true
+    permalink: /stories/:path/

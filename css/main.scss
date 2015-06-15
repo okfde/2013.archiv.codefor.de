@@ -14,11 +14,13 @@
 $red: #FF5449;
 $blue: #00ABFA;
 $green: #22D790;
+$cyan: #82E0D9;
 $grey-bright: #F2F2F2;
 $grey-mid: #E7E7E7;
 $grey-dark: #999999;
 $black: #000000;
 $white: #FFFFFF;
+
 
 .fond__red { background-color: $red;}
 .fond__blue { background-color: $blue;}
@@ -795,10 +797,12 @@ $date-circle: 80px;
 	}
 }
 
+/*-----  End of Blog  ------*/
 
-/**
- * Presse
- **/
+
+/*==============================
+=            Presse            =
+==============================*/
 
 .press-clippings {
 	margin-top: 50px;
@@ -815,7 +819,55 @@ $date-circle: 80px;
 
 }
 
-/*-----  End of Blog  ------*/
+/*-----  End of Presse  ------*/
+
+
+/*===============================
+=            Stories            =
+===============================*/
+
+.story {
+	padding-top: 160px;
+	position: relative;
+}
+
+.story-head {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.story-wrapper {
+	position: relative;
+	padding: 80px;
+}
+
+.hero-pattern__red {
+	background-color: $red;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__blue {
+	background-color: $blue;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__cyan {
+	background-color: $cyan;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+
+/*-----  End of Stories  ------*/
+
+
 
 
 /*================================
@@ -892,6 +944,10 @@ $date-circle: 80px;
 }
 
 /*-----  End of Leaflet Map  ------*/
+
+/*=====================================
+=            MEDIA QUERIES            =
+=====================================*/
 
 @media screen and (min-width: 481px) {
 	.nav-meta li {
@@ -1064,6 +1120,9 @@ $date-circle: 80px;
 		min-width: 33%;
 	}
 }
+
+/*-----  End of MEDIA QUERIES  ------*/
+
 
 .row.board {
 	margin-top: 10px;
