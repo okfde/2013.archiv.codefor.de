@@ -1,13 +1,16 @@
 ---
 layout: story
-title: Magdego
-color: red #red, blue, green, cyan
+title: Cyan
+color: cyan #red, blue, green, cyan
 
 lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. [Anfang 2015](http://#) waren Web-App und iOS-App fertig.
 
 images:
-- src: /assets/stories/magdego-icon.png
+- src: assets/stories/magdego-icon.jpg
   alt: Icon der App
+
+- src: assets/stories/magdego-screenshot.jpg
+  alt: Screenshot der App
 
 ---
 
