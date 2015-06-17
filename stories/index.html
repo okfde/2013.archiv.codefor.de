@@ -1,10 +1,29 @@
 ---
 layout: base
-title: Termine
+title: Stories
 
 ---
 
 {% for story in site.stories %}
-	<a href="{{ story.url }}" >{{ story.title }}</a><br>
-{% endfor %}
 
+<div class="fond__grey story-index">  
+
+	<div class="story-head hero-pattern hero-pattern__{{ story.color }}">
+	    {% include wallpaper_pattern.min.svg %}
+	</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+	      <div class="text-center">
+	      	<a href="{{ story.url }}" ><h2>{{ story.title }}</h2></a>
+	      	{% if story.subline %}
+	      	<p>{{ story.subline | markdownify }}</p>
+	      	{% endif story.subline %}
+	      </div>
+      </div>
+     </div>
+   </div>
+</div>
+
+{% endfor %}

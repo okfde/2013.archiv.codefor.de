@@ -39,6 +39,14 @@ layout: base
   </div>
 </div>
 
+
+{% if page.members %}
+<div class="story-members">
+  {% assign members = page.members %}
+  {% include section-members.html %}
+</div> 
+{% endif %}
+
 <script src="/js/lib/fluidvids.min.js"></script>
 <script type="text/javascript">
   fluidvids.init({

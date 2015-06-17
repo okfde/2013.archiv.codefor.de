@@ -1,11 +1,26 @@
 ---
 layout: story
 title: Inspiration durch Bauzaun
+subline: Bürger können bei Bauprojekten in ihrer Gegend durchaus mitreden – wenn sie denn rechtzeitig davon hören.
+
 color: blue #red, blue, green, cyan
 
 lead: Wenn im eigenen [Kiez](http://#) gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. “Wir haben versucht, uns über diese ganzen Baustellen zu informieren”, sagt Magdalena. Doch das war gar nicht so einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online nur eingescannt werden. Durchsuchen kann man sie nicht.
 
 embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+members:
+
+- name: Julia Kloiber
+  username-twitter: j_kloiber
+
+- name: Stefan Wehrmeyer
+  username-github: stefanw
+  username-twitter: stefanwehrmeyer‎
+
+- name: Magdalena Noffke
+  username-github: MagdaN
+  username-twitter: MagdalenaNoffke
 
 ---
 

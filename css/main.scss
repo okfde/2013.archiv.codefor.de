@@ -921,21 +921,63 @@ $date-circle: 80px;
 	position: relative;
 }
 
+.story-index {
+	padding: 100px 0 100px 0;
+	position: relative;
+	overflow: hidden;
+}
+
 .story-head {
 	position: absolute;
 	text-align: center;
-	overflow: hidden;
+	// overflow: hidden;
 	width: 100%;
 	top: 0;
 	left: 0;
+
+	svg {
+		height: 100%;
+		width: 100%;
+	}
 }
+
+
+
+.hero-pattern__red {
+	background-color: $red;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__green {
+	background-color: $green;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__blue {
+	background-color: $blue;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__cyan {
+	background-color: $cyan;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
 
 .story-wrapper {
 	position: relative;
 	padding: 50px;
 }
 
-.story {
+.story , .story-index {
 
 	h1, h2, h3, h4, h5 {	
 		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
@@ -983,34 +1025,22 @@ $date-circle: 80px;
 	}
 }
 
-.hero-pattern__red {
-	background-color: $red;
-	svg * {
-		stroke: #FFFFFF;
+.story-members {
+	.fond__greymid {
+		background-color: $grey-bright;
+	}
+
+	#members {
+		text-align: center;
+	}
+
+	.lab-members .member {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 33%;
 	}
 }
-
-.hero-pattern__green {
-	background-color: $green;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
-.hero-pattern__blue {
-	background-color: $blue;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
-.hero-pattern__cyan {
-	background-color: $cyan;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
 
 /*-----  End of Stories  ------*/
 
