@@ -5,7 +5,7 @@ layout: base
 
 <!-- Story -->
 <div class="fond__grey story">
-  <div class="text-center font__grey story-head hero-pattern hero-pattern__{{ page.color }}">
+  <div class="text-center font__grey story-head svg-wrap hero-pattern hero-pattern__{{ page.color }}">
       {% include wallpaper_pattern.min.svg %}
   </div>
   <div class="container">
@@ -48,9 +48,20 @@ layout: base
 {% endif %}
 
 <script src="/js/lib/fluidvids.min.js"></script>
+<script src="/js/lib/snap.svg-min.js"></script>
+<script src="/js/lib/velocity.min.js"></script>
+<script src="/js/SVGanim.js"></script>
+
 <script type="text/javascript">
-  fluidvids.init({
-  selector: ['iframe', 'object'], // runs querySelectorAll()
-  players: ['www.youtube.com', 'player.vimeo.com'] // players to support
-});
+
+  $(document).ready(function () {
+      var svganim = new SVGanim();
+      svganim.init();
+
+      fluidvids.init({
+        selector: ['iframe', 'object'], // runs querySelectorAll()
+        players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+      });
+    });
+
 </script>
