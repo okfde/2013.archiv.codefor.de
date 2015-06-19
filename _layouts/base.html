@@ -100,14 +100,25 @@
         {% else %}
           {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
           {% assign urllength = page.url | size %}
-          {% if topdir == 'blog' or topdir == 'presse' or topdir == 'impressum' or topdir == 'stadtgeschichten' %}
+	  {% case topdir %}
+          {% when 'blog' or 'presse' or 'impressum' or 'ressourcen' or 'stadtgeschichten' %}
             <a href="/en/">EN</a>
-          {% elsif topdir == 'projekte' and urllength > 25 %}
-            <a href="/en/">EN</a>
+          {% when 'projekte' %}
+            {% if urllength > 25 %}
+              <a href="/en/">EN</a>
+            {% else %}
+              <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
+            {% endif %}
+          {% when 'muenchen' %}
+            {% if urllength > 20 %}
+              <a href="/en/">EN</a>
+            {% else %}
+              <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
+            {% endif %}
           {% else %}
             <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
-          {% endif %}
-        {% endif%}
+          {% endcase %}
+        {% endif %}
         </li>
       </ul>
 
