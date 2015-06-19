@@ -35,7 +35,7 @@ Fotos: <a href="http://cargocollective.com/marcelmaffei">Marcel Maffai</a>
 
 
 
-[Hack Your City]: https://hackyourcity.de/
+[Hack Your City]: http://hackyourcity.de/
 [infarm]: http://infarm.de
 [Thomas Tursics]: http://twitter.com/tursics
 [Hans]: http://twitter.com/hanswashere
