@@ -99,10 +99,13 @@
           <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">DE</a>
         {% else %}
           {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
-          {% if topdir != 'blog' and topdir != 'presse' and topdir != 'impressum' and topdir != 'stadtgeschichten' %}
-            <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
-          {% else %}
+          {% assign urllength = page.url | size %}
+          {% if topdir == 'blog' or topdir == 'presse' or topdir == 'impressum' or topdir == 'stadtgeschichten' %}
             <a href="/en/">EN</a>
+          {% elsif topdir == 'projekte' and urllength > 25 %}
+            <a href="/en/">EN</a>
+          {% else %}
+            <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
           {% endif %}
         {% endif%}
         </li>
