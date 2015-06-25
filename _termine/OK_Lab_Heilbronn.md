@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Heilbronn
-name: Coding-Abend
-date: 2015-06-25 #YYYY-MM-DD
-time: 18-22 Uhr
+name: Open Data Informationsveranstaltung
+date: 2015-07-01 #YYYY-MM-DD
+time: 18-20 Uhr
 location: Coworkingspace HN, Am Wollhaus 1 im 5. Stock, 74072 Heilbronn
-link-url: http://coworking-heilbronn.org/events/coding-abend-2/
+link-url: http://coworking-heilbronn.org/events/open-data-kickoff/
 ---
