@@ -7,25 +7,27 @@
   {% endif %}
 
   <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
-    <p class="project-description">
+    <div class="project-description">
         {% if sitepage.excerpt %}
-          {{ sitepage.excerpt | remove: '<p>' | remove: '</p>'  | markdownify }}
+          {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' | markdownify }}
         {% else %}
           {{ sitepage.content | remove: '<p>' | remove: '</p>' | truncatewords: 10  | markdownify }}
         {% endif %}
-    </p>
+    </div>
 
     <div class="project-footer clearfix">
 
-    {% for labpage in site.pages %}
-      {% if labpage.lab == sitepage.lab %}
-        {% if labpage.layout == 'lab' %}
-          {% assign lab = labpage.url %}
-        {% endif %}
+    {% for lab in site.labs %}
+      {% if lab.lab == sitepage.lab  %}
+        {% assign laburl = lab.key %}
+        {% break %}
       {% endif %}
     {% endfor%}
+    {% if page.lang == 'en' %}
+      {% capture laburl %}en/{{ laburl }}{% endcapture %}
+    {% endif %}
 
-    <div class="event-location icon-before project-lab"><a href="{{ lab }}">{{ sitepage.lab }}</a></div>
+    <div class="event-location icon-before project-lab"><a href="/{{ laburl }}">{{ sitepage.lab }}</a></div>
 
     {% if sitepage.status %}
       {% assign status = sitepage.status %}
