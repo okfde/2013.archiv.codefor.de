@@ -6,26 +6,29 @@ teaser: 1 #one of: 1, 2, 3, 4
 title: Magdego
 subline: Die App für den Nahverkehr in Magdeburg und Sachsen-Anhalt
 
-where: Berlin
+where: Magdeburg
 when: Juni, 2015
-website:
-- name: buergerbautstadt.de
-  url: http://buergerbautstadt.de/
+links:
+- name: magdego.de
+  url: http://magdego.de
+- name: magdego.de/demo
+  url: http://magdego.de/demo
 
-header-image:
-- src: /assets/stories/bbs-hero.jpg
-  alt: Magdalena Nofke, Credits: CC BY
-  caption: Magdalena Nofke
+header-images:
+- src: /assets/stories/magdego-hero.jpg
+  alt: Rosario Raulin und Johannes Filter zeigen Smartphones mit ihrer App vor einer Strassenbahn
+  caption: Rosario Raulin und Johannes Filter
 
 lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
 
 ---
-
 ## Die Idee
 Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
 
-
 ## Weniger ist mehr
+<div class="inline-image inline-image__portrait inline-image__right">
+	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App">
+</div>
 Klar könnte die App noch mehr Funktionen bekommen, sagt Johannes. Aber für ihn ist gerade das die Stärke von Magdego: “Das Minimalistische macht die Sache aus.”
 
 ## Nervigster Umweg 

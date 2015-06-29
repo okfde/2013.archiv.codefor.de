@@ -5,32 +5,41 @@ layout: base
 
 <!-- Story -->
 <div class="fond__grey story">
-  <div class="text-center font__grey story-head svg-wrap hero-pattern hero-pattern__{{ page.color }}">
-      {% include wallpaper_pattern.min.svg %}
+  
+  <div class="story--head svg-wrap hero-pattern hero-pattern__{{ page.color }}">
+      {% include story_wallpaper.svg %}
+    <div>
+      <h1 class="story--title">
+        {{ page.title }} {% if page.subline %} - {{ page.subline }} {% endif page.subline %} 
+      </h1>
+      <p class="story--meta"> {{ page.where }} / {{ page.when }} / 
+        {% for link in page.links | limit: 1 %}
+          <a href="{{ website.url }}">{{ link.name }}</a>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="story--hero">
+        {% for image in page.header-images | limit: 1 %}
+        <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" />
+        {% endfor %}
+    </div>
+
   </div>
+
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">  
         <div class="story-wrapper fond__white">
-          <h1 class="story-title">
-            {{ page.title }}
-          </h1>
           
-          <div class="text__{{ page.color }} story-lead">
+          <div class="text__{{ page.color }} story--lead">
               {{ page.lead | markdownify }}
           </div>
         
-          <div class="story-embed">
+          <div class="story--embed">
               {{ page.embed }}
           </div>
 
-          <div class="story-images">
-              {% for image in page.images %}
-                <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
-              {% endfor %}
-          </div>
-
-          <div class="story-body">
+          <div class="story--body">
               {{ content }}
           </div>
         </div>
@@ -41,7 +50,7 @@ layout: base
 
 
 {% if page.members %}
-<div class="story-members">
+<div class="story--members">
   {% assign members = page.members %}
   {% include section-members.html %}
 </div> 

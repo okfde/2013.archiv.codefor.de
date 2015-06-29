@@ -7,25 +7,19 @@ title: Bürger baut Stadt
 subline: Finde geplante Bauvorhaben in deinem Kiez.
 where: Berlin
 when: Juni, 2015
-website:
+
+links:
 - name: buergerbautstadt.de
   url: http://buergerbautstadt.de/
 
-header-image:
+header-images:
 - src: /assets/stories/bbs-hero.jpg
-  alt: Magdalena Nofke, Credits: CC BY
+  alt: Magdalena Nofke, Credits CC BY
   caption: Magdalena Nofke
 
 embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 lead: Wenn im eigenen Kiez gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. “Wir haben versucht, uns über diese ganzen Baustellen zu informieren”, sagt Magdalena. Doch das war gar nicht so einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online nur eingescannt werden. Durchsuchen kann man sie nicht.
-
-links:
-- name: magdego.de
-  url: http://magdego.de
-
-- name: magdego.de
-  url: http://magdego.de
 
 members:
 
@@ -41,7 +35,6 @@ members:
   username-twitter: MagdalenaNoffke
 
 ---
-
 ## Inspiration durch Bauzaun
 Inspiration durch Bauzaun: Wenn im eigenen Kiez gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. “Wir haben versucht, uns über diese ganzen Baustellen zu informieren”, sagt Magdalena. Doch das war gar nicht so einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online nur eingescannt werden. Durchsuchen kann man sie nicht.
 

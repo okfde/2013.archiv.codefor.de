@@ -909,9 +909,32 @@ $date-circle: 80px;
 =            Stories            =
 ===============================*/
 
-.story {
-	padding-top: 220px;
-	position: relative;
+.hero-pattern__red {
+	background-color: $red;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__green {
+	background-color: $green;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__blue {
+	background-color: $blue;
+	svg * {
+		stroke: #FFFFFF;
+	}
+}
+
+.hero-pattern__cyan {
+	background-color: $cyan;
+	svg * {
+		stroke: #FFFFFF;
+	}
 }
 
 .story-teaser {
@@ -947,43 +970,18 @@ $date-circle: 80px;
 	}
 }
 
-.story-head {
+.story {
+	position: relative;
+}
+
+
+.story--head {
 	text-align: center;
 	width: 100%;
 
 	svg {
 		height: 100%;
 		width: 100%;
-	}
-}
-
-
-
-.hero-pattern__red {
-	background-color: $red;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
-.hero-pattern__green {
-	background-color: $green;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
-.hero-pattern__blue {
-	background-color: $blue;
-	svg * {
-		stroke: #FFFFFF;
-	}
-}
-
-.hero-pattern__cyan {
-	background-color: $cyan;
-	svg * {
-		stroke: #FFFFFF;
 	}
 }
 
@@ -1007,7 +1005,7 @@ $date-circle: 80px;
 }
 
 
-.story-title , .story-lead p {
+.story--title , .story--lead p {
 	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
 	line-height: 1.5;
 	font-size: 30px;
@@ -1015,14 +1013,18 @@ $date-circle: 80px;
 	margin-bottom: 50px;
 }
 
-.story-embed, .story-images {
+.story--meta {
+	text-transform: uppercase;
+}
+
+.story--embed, .story--images {
 	margin-top: 80px;
 	margin-bottom: 80px;
 	max-width: 500px; 
 	margin: 0 auto;
 }
 
-.story-images {
+.story--images {
 	
 	img {
 		margin:0 auto;
@@ -1035,13 +1037,13 @@ $date-circle: 80px;
 
 }
 
-.story-body {
+.story--body {
 	h1, h2 {
 		margin-top: 60px;
 	}
 }
 
-.story-members {
+.story--members {
 	.fond__greymid {
 		background-color: $grey-bright;
 	}
