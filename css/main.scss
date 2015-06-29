@@ -159,15 +159,10 @@ body {
 ===============================*/
 
 @mixin border-radius($radius) {
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-ms-border-radius: $radius;
 	border-radius: $radius;
 }
 
 @mixin inline-background($color) {
-	-webkit-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
-	-moz-box-shadow: 10px 0 0 $color, -10px 0 0 $color;
 	box-shadow: 10px 0 0 $color, -10px 0 0 $color;
 	display: inline;
 }
@@ -377,7 +372,6 @@ label {
 .navbar {
 	background-image: none;
 	border-radius: 0;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	margin-bottom: 0;
 }
@@ -479,7 +473,6 @@ label {
 	background-color: transparent;
 	border: none;
 	border-radius: 0;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 
 	h4 {
@@ -921,19 +914,42 @@ $date-circle: 80px;
 	position: relative;
 }
 
-.story-index {
-	padding: 100px 0 100px 0;
+.story-teaser {
 	position: relative;
 	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.story-teaser--image {
+
+}
+
+.story-teaser--title {
+	
+	position: absolute;
+	max-width: 60%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+
+	h1,h2,h3,h4 {
+		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+		font-size: 1.5em;
+		line-height: 1.5;
+		text-transform: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
 }
 
 .story-head {
-	position: absolute;
 	text-align: center;
-	// overflow: hidden;
 	width: 100%;
-	top: 0;
-	left: 0;
 
 	svg {
 		height: 100%;

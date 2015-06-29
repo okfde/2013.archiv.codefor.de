@@ -1,16 +1,29 @@
 ---
 layout: story
+color: red #one of: red, blue, green, cyan
+teaser: 1 #one of: 1, 2, 3, 4 
+
 title: Magdego
-subline: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt.
-color: red #red, blue, green, cyan
+subline: Die App für den Nahverkehr in Magdeburg und Sachsen-Anhalt
 
-lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. [Anfang 2015](http://#) waren Web-App und iOS-App fertig.
+where: Berlin
+when: Juni, 2015
+website:
+- name: buergerbautstadt.de
+  url: http://buergerbautstadt.de/
 
-images:
-- src: /assets/stories/magdego-icon.png
-  alt: Icon der App
+header-image:
+- src: /assets/stories/bbs-hero.jpg
+  alt: Magdalena Nofke, Credits: CC BY
+  caption: Magdalena Nofke
+
+lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
 
 ---
+
+## Die Idee
+Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
+
 
 ## Weniger ist mehr
 Klar könnte die App noch mehr Funktionen bekommen, sagt Johannes. Aber für ihn ist gerade das die Stärke von Magdego: “Das Minimalistische macht die Sache aus.”

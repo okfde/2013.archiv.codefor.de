@@ -1,7 +1,8 @@
 ---
 layout: story
-title: Cyan
+title: Die nächste Stadtgeschichte kommt im September 2015!
 color: cyan #red, blue, green, cyan
+teaser: 3 #one of: 1, 2, 3, 4
 
 lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. [Anfang 2015](http://#) waren Web-App und iOS-App fertig.
 

@@ -4,26 +4,31 @@ title: Stories
 
 ---
 
-{% for story in site.stories %}
+<div class="container-fluid">
+	{% for story in site.stories %}
+	<div class="col-md-6 fond__grey story-teaser">  
 
-<div class="fond__grey story-index">  
+		<div class="story-teaser--image hero-pattern hero-pattern__{{ story.color }}">
+			{% case story.teaser %}
+			    {% when 1 %}
+					{% include story_teaser_1.svg %}
+			    {% when 2 %}
+			    	{% include story_teaser_2.svg %}
+			    {% when 3 %}
+			    	{% include story_teaser_3.svg %}
+			    {% when 4 %}
+			    	{% include story_teaser_4.svg %}
+			{% endcase %}
+		</div>
 
-	<div class="story-head hero-pattern hero-pattern__{{ story.color }}">
-	    {% include wallpaper_pattern.min.svg %}
+		<div class="story-teaser--title text-center">
+			<a href="{{ story.url }}" >
+			<h2>{{ story.title }} {% if story.subline %} - {{ story.subline }} {% endif story.subline %} 
+			</h2>
+			</a>
+		</div>
+
 	</div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-	      <div class="text-center">
-	      	<a href="{{ story.url }}" ><h2>{{ story.title }}</h2></a>
-	      	{% if story.subline %}
-	      	<p>{{ story.subline | markdownify }}</p>
-	      	{% endif story.subline %}
-	      </div>
-      </div>
-     </div>
-   </div>
+	{% endfor %}
+	</div>
 </div>
-
-{% endfor %}

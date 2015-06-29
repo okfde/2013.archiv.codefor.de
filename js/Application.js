@@ -13,7 +13,7 @@
         delay_before_start: 500,
         delay_before_add: 500,
         delay_before_remove: 3000,
-        headline : 'Stadt<span class="text__red">&lt;</span>entwickler <span class="text__red">/&gt;</span>*<br>',
+        headline : 'Stadt<span class="text__red">&lt;</span>geschichten <span class="text__red">/&gt;</span>*<br>',
         claims: ["nutzen offene Daten um ihre Stadt zu verbessern",
                  "bauen Digitale Werkzeuge für ihre Community",
                  "entwickeln Civic Tech für ihre Stadt"
@@ -71,21 +71,6 @@
                 }, ref.delay_before_start);
             });
         }, ref.delay_before_fadein);
-
-        //
-        // $.removeCookie('cfa_intro_cookie');
-        $cookie = $.cookie('cfa_intro_cookie');
-
-        if($cookie){
-
-        } else {
-            //no cookie yet
-            $.cookie('cfa_intro_cookie', true, { expires: 7 });
-            $header.addClass('init-hidden');
-            $beneath.addClass('init-hidden');
-            fadeInSite=true;
-        }
-
 
     };
 
