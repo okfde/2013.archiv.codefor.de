@@ -911,29 +911,49 @@ $date-circle: 80px;
 
 .hero-pattern__red {
 	background-color: $red;
+	
 	svg * {
 		stroke: #FFFFFF;
+	}
+
+	.story--header--hero {
+		background-color: $red;
 	}
 }
 
 .hero-pattern__green {
 	background-color: $green;
+	
 	svg * {
 		stroke: #FFFFFF;
+	}
+
+	.story--header--hero {
+		background-color: $green;
 	}
 }
 
 .hero-pattern__blue {
 	background-color: $blue;
+	
 	svg * {
 		stroke: #FFFFFF;
+	}
+
+	.story--header--hero {
+		background-color: $blue;
 	}
 }
 
 .hero-pattern__cyan {
 	background-color: $cyan;
+	
 	svg * {
 		stroke: #FFFFFF;
+	}
+
+	.story--header--hero {
+		background-color: $cyan;
 	}
 }
 
@@ -970,12 +990,10 @@ $date-circle: 80px;
 	}
 }
 
-.story {
-	position: relative;
-}
-
+.story {}
 
 .story--head {
+	position: relative;
 	text-align: center;
 	width: 100%;
 
@@ -985,36 +1003,58 @@ $date-circle: 80px;
 	}
 }
 
+.story--header {
+	position: absolute;
+	width: 60%;
+	top: 0;
+	margin: 0 auto;
+	left: 0; right: 0;
+	padding-top: 11%;
 
-.story-wrapper {
-	position: relative;
-	padding: 50px;
+	color: white; 
 }
 
-.story , .story-index {
+.story--header--hero {
 
-	h1, h2, h3, h4, h5 {	
-		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
-		font-size: 30px;
-		text-transform: none;
+	position: absolute;
+	width: 37%;
+	left:0; right: 0;
+	margin: 0 auto;
+	bottom: 24%; 
+
+	padding: 10px;
+	border: 2px solid white; 
+
+	.caption {
+		color: white;
+		position: absolute;
+		bottom: 0; 
+		width: 100%;
+		text-transform: uppercase;
 	}
 
-	p {
-		font-family: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
-	}
 }
 
+.story--header--title {
+	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+	font-size: 36px;
+	line-height: 1.5;
+	text-transform: none;
+}
 
-.story--title , .story--lead p {
+.story--lead p {
 	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
 	line-height: 1.5;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-.story--meta {
+.story--header--meta {
 	text-transform: uppercase;
+	a {
+		color: white; 
+	}
 }
 
 .story--embed, .story--images {
@@ -1037,10 +1077,45 @@ $date-circle: 80px;
 
 }
 
+.story-wrapper {
+	position: relative;
+	padding: 50px;
+}
+
 .story--body {
+
+	h1, h2, h3, h4, h5 {	
+		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+		font-size: 24px;
+		text-transform: none;
+	}
+
 	h1, h2 {
 		margin-top: 60px;
 	}
+
+	p {
+		font-family: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+	}
+
+	.inline-image__right {
+		float: left; 
+		padding: 0 50px 50px 0;
+	}
+
+	.inline-image__left {
+		float: right; 
+		padding: 0 0 50px 50px;
+	}
+
+	.inline-image__landscape {
+		width: 50%;
+	}
+
+	.inline-image__portrait {
+		width: 33%;
+	}
+
 }
 
 .story--members {
@@ -1048,15 +1123,8 @@ $date-circle: 80px;
 		background-color: $grey-bright;
 	}
 
-	#members {
-		text-align: center;
-	}
-
 	.lab-members .member {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		width: 33%;
+		// float: none;
 	}
 }
 

@@ -1,0 +1,16 @@
+<div class="jumbotron fond__greymid">
+  <div class="container">
+      <div class="row">
+        <h3 id="links"> Links </h3>
+          <div class="col-lg-12">
+            <ul class="list-unstyled">
+              {% for link in links %}
+              <li class="member clearfix">
+                <a href="{{ link.url }}">{{ link.name }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>

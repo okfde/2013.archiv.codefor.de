@@ -8,7 +8,7 @@ subline: Die App für den Nahverkehr in Magdeburg und Sachsen-Anhalt
 
 where: Magdeburg
 when: Juni, 2015
-links:
+links: # first one is used in subline
 - name: magdego.de
   url: http://magdego.de
 - name: magdego.de/demo
@@ -21,13 +21,22 @@ header-images:
 
 lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
 
+members:
+- name: Julia Kloiber
+  username-twitter: j_kloiber
+
+- name: Stefan Wehrmeyer
+  username-github: stefanw
+  username-twitter: stefanwehrmeyer‎
+
+
 ---
 ## Die Idee
 Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. Anfang 2015 waren Web-App und iOS-App fertig.
 
 ## Weniger ist mehr
 <div class="inline-image inline-image__portrait inline-image__right">
-	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App">
+	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App" class="img-responsive">
 </div>
 Klar könnte die App noch mehr Funktionen bekommen, sagt Johannes. Aber für ihn ist gerade das die Stärke von Magdego: “Das Minimalistische macht die Sache aus.”
 
@@ -39,6 +48,3 @@ Nachmachen. Eine ähnliche App gab vorher bereits einmal, doch das Projekt war e
 
 ## Was nicht funktioniert 
 Über offene Daten reden. “Open Data ist so abstrakt”, sagt Johannes. Mit einem Beispiel wird es einfacher. Da wären etwa die Programmierer, die selbst mit der Bahn fahren und eine Idee für einen Bahn-Dienst haben… “Wenn die Daten offen sind, können die selbst Apps bauen. Das ist der Vorteil: Die Bürger sollen einfach die Apps für sich selbst machen.”
-
-[Zur Website von Magdego](http://magdego.de)  
-[außerhalb von Sachsen-Anhalt](http://magdego.de/demo)

@@ -5,10 +5,10 @@ teaser: 3 #one of: 1, 2, 3, 4
 
 title: Bürger baut Stadt
 subline: Finde geplante Bauvorhaben in deinem Kiez.
+
 where: Berlin
 when: Juni, 2015
-
-links:
+links: # first one is used in subline
 - name: buergerbautstadt.de
   url: http://buergerbautstadt.de/
 
@@ -17,12 +17,11 @@ header-images:
   alt: Magdalena Nofke, Credits CC BY
   caption: Magdalena Nofke
 
-embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 lead: Wenn im eigenen Kiez gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. “Wir haben versucht, uns über diese ganzen Baustellen zu informieren”, sagt Magdalena. Doch das war gar nicht so einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online nur eingescannt werden. Durchsuchen kann man sie nicht.
 
-members:
+embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+members:
 - name: Julia Kloiber
   username-twitter: j_kloiber
 
@@ -40,7 +39,7 @@ Inspiration durch Bauzaun: Wenn im eigenen Kiez gebaut wird, fragt man sich oft,
 
 ## Die Erkenntnis
 <div class="inline-image inline-image__portrait inline-image__left">
-	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App">
+	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App" class="img-responsive">
 </div>
 Bürger können bei Bauprojekten in ihrer Gegend durchaus mitreden – wenn sie denn rechtzeitig davon hören. “Es gibt eigentlich viel Bürgerbeteiligung, von der man aber nichts mitkriegt”, sagt Magdalena. Denn meist erfahren Bewohnerinnen erst von Bauplänen, wenn die Bauzäune aufgestellt werden. Dann ist es aber schon zu spät, um sich einzubringen.
 

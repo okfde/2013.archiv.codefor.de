@@ -7,15 +7,24 @@ teaser: 2 #one of: 1, 2, 3, 4
 
 where: Berlin
 when: Juni, 2015
-links:
+links: # first one is used in subline
 - name: buergerbautstadt.de
   url: http://buergerbautstadt.de/
 
+header-images:
+- src: /assets/stories/parkendd-hero.jpg
+  alt: 'Johannes Kliemann und Kilian Költzsch zeigen ihre App, Credit: ...'
+  caption: Johannes Kliemann und Kilian Költzsch
+
 lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. [Anfang 2015](http://#) waren Web-App und iOS-App fertig.
 
-header-images:
-- src: assets/stories/magdego-icon.jpg
-  alt: Icon der App
+members:
+- name: Julia Kloiber
+  username-twitter: j_kloiber
+
+- name: Stefan Wehrmeyer
+  username-github: stefanw
+  username-twitter: stefanwehrmeyer‎
 
 ---
 ## Weniger ist mehr
@@ -25,8 +34,9 @@ Klar könnte die App noch mehr Funktionen bekommen, sagt Johannes. Aber für ihn
 Johannes und Rosario mussten sich erstmal die Daten suchen. Das dauerte, denn die ursprüngliche API der Magdeburger Verkehrsbetriebe war stillgelegt worden. Sie ziehen sich die Infos jetzt von der öffentlichen Fahrplanauskunft in Sachsen-Anhalt, INSA.de. Was sie erst später herausfanden: Der Entwickler der Öffi-App für Bus und Bahn hat eine Liste von Datenquellen auf Github zusammen getragen. “Wir hätten uns viel Arbeit erspart, hätten wir das gewusst”, sagt Johannes.
 
 ## Was funktioniert
-<div class="inline-image inline-image__landscape inline-image__right">
-	<img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App">
+<div class="inline-image inline-image__landscape inline-image__left">
+	<img src="http://placehold.it/600x400" alt="Screenshot der Magdego App" class="img-responsive">
+	<p class="caption">credit: CC BY John Doe</p>
 </div>
 Nachmachen. Eine ähnliche App gab vorher bereits einmal, doch das Projekt war eingeschlafen. “Wir dachten, wir können das besser”, sagt Johannes. Mittlerweile wird ihre App 10 bis 20 mal am Tag heruntergeladen.
 
