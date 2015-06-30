@@ -4,10 +4,18 @@ layout: base
 ---
 
 <!-- Story -->
-<div class="story">
+<div class="story story__{{ page.color }}">
   
-  <div class="story--head svg-wrap hero-pattern hero-pattern__{{ page.color }}">
-      {% include story_wallpaper.svg %}
+  <div class="story--head">
+    {% case page.pattern %}
+        {% when 1 %}
+        {% include inline-svg/story_wallpaper_1.svg %}
+        {% when 2 %}
+          {% include inline-svg/story_wallpaper_2.svg %}
+        {% when 3 %}
+          {% include inline-svg/story_wallpaper_3.svg %}
+    {% endcase %}
+
     <div class="story--header">
       <h1 class="story--header--title">
         {{ page.title }} {% if page.subline %} - {{ page.subline }} {% endif page.subline %} 
@@ -27,7 +35,7 @@ layout: base
 
   </div>
 
-  <div class="container">
+  <div class="container story--container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">  
         <div class="story-wrapper fond__white">
@@ -40,29 +48,38 @@ layout: base
               {{ page.embed }}
           </div>
 
-          <div class="story--body">
+          <div class="story--body clearfix">
               {{ content }}
           </div>
         </div>
+
+        {% if page.links %}
+        <div class="story--links">
+          <h3 id="links"> Links </h3>
+          <ul class="list-unstyled">
+            {% for link in page.links %}
+            <li>
+              <a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if page.members %}
+          {% assign members = page.members %}
+          <div class="story--members">
+            <h3 id="members"> Mitglieder </h3>
+            {% include members-list.html %}
+          </div>
+        {% endif %}
+
       </div>
     </div>
   </div>
 </div>
 
-{% if page.links %}
-<div class="story--links">
-  {% assign links = page.links %}
-  {% include section-links.html %}
-</div> 
-{% endif %}
 
-
-{% if page.members %}
-<div class="story--members">
-  {% assign members = page.members %}
-  {% include section-members.html %}
-</div> 
-{% endif %}
 
 <script src="/js/lib/fluidvids.min.js"></script>
 <script src="/js/lib/snap.svg-min.js"></script>
@@ -72,13 +89,15 @@ layout: base
 <script type="text/javascript">
 
   $(document).ready(function () {
-      var svganim = new SVGanim();
-      svganim.init();
 
       fluidvids.init({
         selector: ['iframe', 'object'], // runs querySelectorAll()
         players: ['www.youtube.com', 'player.vimeo.com'] // players to support
       });
+
+      //var svganim = new SVGanim();
+      //svganim.init();
+
     });
 
 </script>

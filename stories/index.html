@@ -6,29 +6,32 @@ title: Stories
 
 <div class="container-fluid">
 	{% for story in site.stories %}
-	<div class="col-md-6 fond__grey story-teaser">  
+	<div class="col-md-6 story-teaser story__{{ story.color }}">  
 
-		<div class="story-teaser--image hero-pattern hero-pattern__{{ story.color }}">
-			{% case story.teaser %}
+		<div class="story-teaser--image">
+			{% case story.pattern %}
 			    {% when 1 %}
-					{% include story_teaser_1.svg %}
+					{% include inline-svg/story_teaser_1.svg %}
 			    {% when 2 %}
-			    	{% include story_teaser_2.svg %}
+			    	{% include inline-svg/story_teaser_2.svg %}
 			    {% when 3 %}
-			    	{% include story_teaser_3.svg %}
+			    	{% include inline-svg/story_teaser_3.svg %}
 			    {% when 4 %}
-			    	{% include story_teaser_4.svg %}
+			    	{% include inline-svg/story_teaser_4.svg %}
 			{% endcase %}
 		</div>
 
 		<div class="story-teaser--title text-center">
 			<a href="{{ story.url }}" >
-			<h2>{{ story.title }} {% if story.subline %} - {{ story.subline }} {% endif story.subline %} 
-			</h2>
+				<h2>{{ story.title }} {% if story.subline %} - {{ story.subline }} {% endif story.subline %} </h2>
 			</a>
 		</div>
 
 	</div>
 	{% endfor %}
+
+	{% include story-teaser-fillin.html %}
+
+
 	</div>
 </div>

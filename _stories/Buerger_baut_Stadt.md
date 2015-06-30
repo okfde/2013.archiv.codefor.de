@@ -1,7 +1,7 @@
 ---
 layout: story
 color: blue #red, blue, green, cyan
-teaser: 3 #one of: 1, 2, 3, 4
+pattern: 3 #one of: 1, 2, 3, 4
 
 title: Bürger baut Stadt
 subline: Finde geplante Bauvorhaben in deinem Kiez.
@@ -12,7 +12,7 @@ links: # first one is used in subline
 - name: buergerbautstadt.de
   url: http://buergerbautstadt.de/
 
-header-images:
+header-images: #use 3:2 proportioned image
 - src: /assets/stories/bbs-hero.jpg
   alt: Magdalena Nofke, Credits CC BY
   caption: Magdalena Nofke
@@ -46,15 +46,15 @@ Bürger können bei Bauprojekten in ihrer Gegend durchaus mitreden – wenn sie 
 ## Die Idee
 Auf einer Webseite Bauvorhaben übersichtlich darstellen. Wer seine E-Mail-Adresse einträgt, kann Nachrichten zu Bauplänen in bestimmten Bezirken erhalten. So können Bürgerinnen und Bürger schon früh mitreden, wie ihr Kiez in Zukunft aussehen soll.
 
-## Schlimmstes Wort
 
 <div class="quote">
-	<blockquote>
-		<p>Wir hätten uns viel Arbeit erspart, hätten wir das gewusst.</p>
-	</blockquote>
-	<p class="attribute">Johannes B.</p>
+  <blockquote>
+    <p>Wir hätten uns viel Arbeit erspart, hätten wir das gewusst. So haben wir gelernt.</p>
+  </blockquote>
+  <p class="attribute">Johannes B.</p>
 </div>
 
+## Schlimmstes Wort
 Bebauungsplanverfahren. Baupläne sind in eine dicke Schicht Behördendeutsch eingepackt. Dabei geht es eigentlich nur darum, dass ein Gebiet für eine bestimmte Nutzung ausgewiesen ist – etwas als Wohngegend oder Einkaufszone. Wird diese Zuschreibung (im Behördendeutsch: Widmung) geändert, kann man mitreden. “Eigentlich ist es gar nicht so kompliziert”, sagt auch Magdalena. “Aber es hört sich alles so kompliziert an, dass man als Bürger abgeschreckt ist." 
 
 ## Nächster Schritt

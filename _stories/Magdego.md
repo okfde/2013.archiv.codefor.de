@@ -1,7 +1,7 @@
 ---
 layout: story
 color: red #one of: red, blue, green, cyan
-teaser: 1 #one of: 1, 2, 3, 4 
+pattern: 1 #one of: 1, 2, 3, 4 
 
 title: Magdego
 subline: Die App für den Nahverkehr in Magdeburg und Sachsen-Anhalt
@@ -14,7 +14,7 @@ links: # first one is used in subline
 - name: magdego.de/demo
   url: http://magdego.de/demo
 
-header-images:
+header-images: #use 3:2 proportioned image
 - src: /assets/stories/magdego-hero.jpg
   alt: Rosario Raulin und Johannes Filter zeigen Smartphones mit ihrer App vor einer Strassenbahn
   caption: Rosario Raulin und Johannes Filter
@@ -46,5 +46,13 @@ Johannes und Rosario mussten sich erstmal die Daten suchen. Das dauerte, denn di
 ## Was funktioniert
 Nachmachen. Eine ähnliche App gab vorher bereits einmal, doch das Projekt war eingeschlafen. “Wir dachten, wir können das besser”, sagt Johannes. Mittlerweile wird ihre App 10 bis 20 mal am Tag heruntergeladen.
 
-## Was nicht funktioniert 
+
+<div class="quote">
+	<blockquote>
+		<p>Wir hätten uns viel Arbeit erspart, hätten wir das gewusst.</p>
+	</blockquote>
+	<p class="attribute">Johannes B.</p>
+</div>  
+
+## Was nicht funktioniert
 Über offene Daten reden. “Open Data ist so abstrakt”, sagt Johannes. Mit einem Beispiel wird es einfacher. Da wären etwa die Programmierer, die selbst mit der Bahn fahren und eine Idee für einen Bahn-Dienst haben… “Wenn die Daten offen sind, können die selbst Apps bauen. Das ist der Vorteil: Die Bürger sollen einfach die Apps für sich selbst machen.”

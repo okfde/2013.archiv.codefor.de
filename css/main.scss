@@ -909,52 +909,50 @@ $date-circle: 80px;
 =            Stories            =
 ===============================*/
 
-.hero-pattern__red {
-	background-color: $red;
-	
-	svg * {
+.story-teaser--image, .story--head {
+	svg {
+		display: block;
 		stroke: #FFFFFF;
+		height: 100%;
+		width: 100%;
 	}
+}
 
-	.story--header--hero {
+.story__red {
+	svg, .story--header--title, .story--header--hero {
 		background-color: $red;
 	}
+	.story--links a, .quote {
+		color: $red;
+	}
 }
 
-.hero-pattern__green {
-	background-color: $green;
-	
-	svg * {
-		stroke: #FFFFFF;
-	}
-
-	.story--header--hero {
+.story__green {
+	svg, .story--header--title, .story--header--hero {
 		background-color: $green;
 	}
+	.story--links a, .quote {
+		color: $green;
+	}
 }
 
-.hero-pattern__blue {
-	background-color: $blue;
-	
-	svg * {
-		stroke: #FFFFFF;
-	}
-
-	.story--header--hero {
+.story__blue {
+	svg, .story--header--title, .story--header--hero {
 		background-color: $blue;
 	}
+	.story--links a, .quote {
+		color: $blue;
+	}
 }
 
-.hero-pattern__cyan {
-	background-color: $cyan;
-	
-	svg * {
-		stroke: #FFFFFF;
-	}
-
-	.story--header--hero {
+.story__cyan {
+	svg, .story--header--title, .story--header--hero {
 		background-color: $cyan;
 	}
+	.story--links a, .quote {
+		color: $cyan;
+	}
+
 }
 
 .story-teaser {
@@ -962,10 +960,6 @@ $date-circle: 80px;
 	overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
-}
-
-.story-teaser--image {
-
 }
 
 .story-teaser--title {
@@ -976,6 +970,8 @@ $date-circle: 80px;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
 	        transform: translate(-50%,-50%);
+
+	color: white;
 
 	h1,h2,h3,h4 {
 		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
@@ -995,12 +991,10 @@ $date-circle: 80px;
 .story--head {
 	position: relative;
 	text-align: center;
-	width: 100%;
+}
 
-	svg {
-		height: 100%;
-		width: 100%;
-	}
+.story--container {
+	margin-top: -10%;
 }
 
 .story--header {
@@ -1057,28 +1051,14 @@ $date-circle: 80px;
 	}
 }
 
-.story--embed, .story--images {
+.story--embed {
 	margin-top: 80px;
 	margin-bottom: 80px;
 	max-width: 500px; 
 	margin: 0 auto;
 }
 
-.story--images {
-	
-	img {
-		margin:0 auto;
-		margin-bottom: 50px;
-	}
-
-	img:last-child {
-		margin-bottom: 0;
-	}
-
-}
-
 .story-wrapper {
-	position: relative;
 	padding: 50px;
 }
 
@@ -1090,12 +1070,9 @@ $date-circle: 80px;
 		text-transform: none;
 	}
 
-	h1, h2 {
-		margin-top: 60px;
-	}
-
 	p {
 		font-family: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+		margin-bottom: 40px;
 	}
 
 	.inline-image__right {
@@ -1116,7 +1093,51 @@ $date-circle: 80px;
 		width: 33%;
 	}
 
+	.inline-image .caption {
+		font-size: 14px;
+	}
+
+	.quote {
+		
+		width: 40%;
+		float: left;
+		padding: 0 25px 15px 0;
+
+		blockquote {
+			position: relative;
+			padding: 0; margin: 0;
+			border: 0;
+			
+			p {
+				font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+				font-size: 24px;
+				text-indent: 36px;
+			}
+
+			p:before {
+				/* left double quotation mark */
+				content: "\201C";
+				font-size: 60px;
+				display: block;
+				position: absolute;
+				top: -12px;
+				left: -36px;
+			}
+		}
+
+		.attribute {
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+	}
+
 }
+
+.story--links, .story--members {
+	padding: 50px 50px 0 50px;
+}
+
+.stors--links__
 
 .story--members {
 	.fond__greymid {
