@@ -95,9 +95,13 @@ layout: base
         players: ['www.youtube.com', 'player.vimeo.com'] // players to support
       });
 
-      //var svganim = new SVGanim();
-      //svganim.init();
-
+      var svganim = new SVGanim();
+      svganim.init({
+          'svgSelector' : '.story--head svg',
+          'iconGroupSelector' : '#Ebene_1 > g',
+          'centerRatioX' : 0.5,
+          'centerRatioY' : 0.22
+        });
     });
 
 </script>

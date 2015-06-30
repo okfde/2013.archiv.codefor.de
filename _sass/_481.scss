@@ -1,0 +1,65 @@
+.nav-meta li {
+	display: inline-block;
+	width: inherit;
+}
+
+#animation-wrapper h1 {
+	// font-size: 63px;
+}
+
+.partner {
+	img {
+		width: 50%;
+	}
+}
+
+.google-logo {
+	max-width: 50%;
+}
+
+.event-description {
+	float: left;
+	max-width: 75%;
+}
+
+.event-date-cta-wrapper {
+	float: right;
+	margin: 0;
+	max-width: 25%;
+}
+
+.post-title {
+	float: left;
+	width: 60%;
+}
+
+.post-meta {
+	float:right;
+	width: 40%;
+	text-align: right;
+}
+
+.project-teaser {
+	.project-status {
+		float: right;
+	}
+
+	.project-lab {
+		float: left;
+	}
+}
+
+.project-teaser-slim .image-crop {
+	height: 245px;
+	overflow: hidden;
+
+	.project-image {
+		position:absolute;
+		left: -100%;
+		right: -100%;
+		top: -100%;
+		bottom: -100%;
+		margin: auto;
+		height: auto;
+	}
+}

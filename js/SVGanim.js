@@ -3,26 +3,43 @@
     SVGanim.prototype.constructor = SVGanim;
     
     function SVGanim(){
-    	ref = this;
-    	this.centerOrigin = [];
+		ref = this;
+		this.centerOrigin = [];
     }
 
-	var s, icons, svg, svgBounds, height, width,m, XY, XYstart;
+	var s, icons, svg, svgBounds, height, width,m;
 	var multiplier = 3;
-	var svgSelector = '.svg-wrap svg';
-	var iconGroupSelector = '#layer1 > g';
+
 	var XY = [], XYnorm , XYstart = [];
 
-	SVGanim.prototype.init = function() {
+	SVGanim.prototype.init = function( args ) {
+
+		svgSelector = args.svgSelector;
+		iconGroupSelector = args.iconGroupSelector;
+		
+		if( typeof args.centerRatioX !== 'undefined') {
+		ref.centerRatioX = args.centerRatioX;
+		} else { ref.centerRatioX = 0.5; }
+		
+		if( typeof args.centerRatioY !== 'undefined') {
+		ref.centerRatioY = args.centerRatioY;
+		} else { ref.centerRatioY = 0.5; }
+
+		ref.debug = args.debug;
 
 		s = Snap(svgSelector);
 		icons = s.selectAll(iconGroupSelector);
 
-	    var viewBox = s.attr('viewBox');
+		var viewBox = s.attr('viewBox');
 
 		// cords for new origin center center of svg, not upper left corner
-		ref.centerOrigin['x'] = viewBox.width / 2;
-		ref.centerOrigin['y'] = viewBox.height / 2;
+		ref.centerOrigin['x'] = viewBox.width * ref.centerRatioX;
+		ref.centerOrigin['y'] = viewBox.height * ref.centerRatioY;
+
+		if(ref.debug) {
+			ref.renderCenterHelpers (s,ref.centerOrigin['x'],ref.centerOrigin['y']);
+		}
+
 		
 		for ( var i = icons.length - 1; i >= 0; i--) {
 			
@@ -43,8 +60,10 @@
 			XYstart['y'] = m * XYstart['x']; 
 			XYstart = ref.transformToSVGOrigin(XYstart);
 
-			// ref.renderHelpers(s,XY['x'],XY['y'],XYstart['x'],XYstart['y']);
-			
+			if(ref.debug) {
+				ref.renderDirectionHelpers(s,XY['x'],XY['y'],XYstart['x'],XYstart['y']);
+			}
+
 			$(icons[i].node).velocity({ 
 			properties : {
 					translateZ: 0, // Force HA by animating a 3D property
@@ -68,7 +87,7 @@
 		}
 
 		return InitalCoords; 
-	}
+	};
 
 	SVGanim.prototype.transformToCenterOrigin = function(cords) {
 		var newcords = [];
@@ -76,17 +95,17 @@
 		newcords['y'] = cords['y'] - ref.centerOrigin['y'];
 		return newcords;
 	
-	}
+	};
 
 	SVGanim.prototype.transformToSVGOrigin = function(cords) {
 		var newcords = [];
 		newcords['x'] = cords['x'] + ref.centerOrigin['x'];
 		newcords['y'] = cords['y'] + ref.centerOrigin['y'];
 		return newcords;
-	}
+	};
 
 
-	SVGanim.prototype.renderHelpers = function(s,x,y,x1,y1) {
+	SVGanim.prototype.renderDirectionHelpers = function(s,x,y,x1,y1) {
 
 		var dot = s.circle(x , y , 4);
 		var dot1 = s.circle(x1 , y1 , 2);
@@ -106,7 +125,17 @@
 			'stroke' : "red",
 			'stroke-width' : "1"
 		});
-	}
+	};
+
+	SVGanim.prototype.renderCenterHelpers = function(s,x,y) {
+
+		var dot = s.circle(x , y , 6);
+		dot.attr({
+			'stroke' : "red",
+			'stroke-width' : "3",
+			'fill' : "black"
+		});
+	};
 
     window.SVGanim = SVGanim;
 

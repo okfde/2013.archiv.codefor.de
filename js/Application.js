@@ -38,9 +38,9 @@
         });
 
         index = 0;
-        $container = $('.animated-claim', '.container');
-        $subline = $('.cta-sub', '.container');
-        $animationWrapper = $('#animation-wrapper','.container');
+        $container = $('.animated-claim', '.hero-container');
+        $subline = $('.cta-sub', '.hero-container');
+        $animationWrapper = $('#animation-wrapper','.hero-container');
         headline = ref.headline;
         initialized=false;
 
@@ -92,7 +92,7 @@
 
 
     }
-
+    
     Application.prototype.fadeInSite = function()
     {
         if(fadeInSite){

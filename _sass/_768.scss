@@ -1,0 +1,83 @@
+.nav-meta {
+	text-align: right;
+}
+
+.logo {
+	float: left;
+}
+
+.navbar .container {
+	max-width: 1320px;
+}
+
+.jumbotron {
+	padding: 70px;
+}
+
+.meta-links-foot {
+	padding: 35px ;
+}
+
+.navbar {
+	padding: 70px 0;
+}
+
+.highlight-hero {
+	margin-left: 10px;
+}
+
+.nav-meta {
+	display: inherit;
+}
+
+.lab-map-home {
+	height: 600px;
+}
+
+.lab-map-city {
+	height: 400px;
+}
+
+.members .member {
+	min-width: 50%;
+}
+
+.post {
+	.event-wrapper {
+		padding: 80px;
+	}
+}
+
+.partner {
+
+	ul {
+	}
+
+	li {
+		float: left;
+		display: block;
+		width: 18%;
+		margin-right: 2.5%;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.okfn-logo {
+		max-width: 100%;
+	}
+
+	.cfa-logo, .bmbf-logo, .wj-logo {
+		max-width: 60%;
+	}
+
+	.google-logo {
+		max-width: 80%;
+	}
+
+}

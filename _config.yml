@@ -14,7 +14,8 @@ exclude:
   - "blog" # uncomment line to speed up jekyll build for development
   - "termine" # uncomment line to speed up jekyll build for development
   - "presse" # uncomment line to speed up jekyll build for development
-
+sass:
+    style: :compressed
 permalink: /blog/:title
 excerpt_separator: "\n"
 paginate: 5

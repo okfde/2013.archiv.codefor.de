@@ -240,7 +240,7 @@ label {
 }
 
 #animation-wrapper h1 {
-	@extend .text__blue;
+	@extend .text__white;
 	line-height: 1.4em ;
 	margin-top: 0;
 	letter-spacing: -0.05em;
@@ -368,7 +368,6 @@ label {
 	visibility: hidden;
 }
 
-
 .navbar {
 	background-image: none;
 	border-radius: 0;
@@ -434,6 +433,20 @@ label {
 	color: $white;
 }
 
+.hero-container {
+	position: relative;
+}
+
+#animation-wrapper {
+	position: absolute;
+	top: 0; left: 0; right: 0; 
+	margin: 0 auto; 
+	width: 40%;
+	padding-top: 11%;
+}
+
+/* Newsletter Signup */
+
 .form-control {
 	height: 40px;
 	padding: 6px 12px;
@@ -452,6 +465,9 @@ label {
 		padding: 0;
 	}
 }
+
+/* Newsletter Signup END */
+
 
 .cfg-cities li {
 	margin-right: 20px;
@@ -1014,10 +1030,10 @@ $date-circle: 80px;
 	width: 37%;
 	left:0; right: 0;
 	margin: 0 auto;
-	bottom: 24%; 
+	bottom: 23%; 
 
 	padding: 10px;
-	border: 2px solid white; 
+	border: 3px solid white; 
 
 	.caption {
 		color: white;
@@ -1234,175 +1250,15 @@ $date-circle: 80px;
 =====================================*/
 
 @media screen and (min-width: 481px) {
-	.nav-meta li {
-		display: inline-block;
-		width: inherit;
-	}
-
-	#animation-wrapper h1 {
-		font-size: 63px;
-	}
-
-	.partner {
-		img {
-			width: 50%;
-		}
-	}
-
-	.google-logo {
-		max-width: 50%;
-	}
-
-	.event-description {
-		float: left;
-		max-width: 75%;
-	}
-
-	.event-date-cta-wrapper {
-		float: right;
-		margin: 0;
-		max-width: 25%;
-	}
-
-	.post-title {
-		float: left;
-		width: 60%;
-	}
-
-	.post-meta {
-		float:right;
-		width: 40%;
-		text-align: right;
-	}
-
-	.project-teaser {
-		.project-status {
-			float: right;
-		}
-
-		.project-lab {
-			float: left;
-		}
-	}
-
-	.project-teaser-slim .image-crop {
-		height: 245px;
-		overflow: hidden;
-
-		.project-image {
-			position:absolute;
-			left: -100%;
-			right: -100%;
-			top: -100%;
-			bottom: -100%;
-			margin: auto;
-			height: auto;
-		}
-	}
+	@import "481";
 }
 
 @media screen and (min-width: 768px) {
-	.nav-meta {
-		text-align: right;
-	}
-
-	.logo {
-		float: left;
-	}
-
-	.navbar .container {
-		max-width: 1320px;
-	}
-
-	.jumbotron {
-		padding: 70px;
-	}
-
-	.meta-links-foot {
-		padding: 35px ;
-	}
-
-	.navbar {
-		padding: 70px 0;
-	}
-
-	.highlight-hero {
-		margin-left: 10px;
-	}
-
-	.nav-meta {
-		display: inherit;
-	}
-
-	.lab-map-home {
-		height: 600px;
-	}
-
-	.lab-map-city {
-		height: 400px;
-	}
-
-	.members .member {
-		min-width: 50%;
-	}
-
-	.post {
-		.event-wrapper {
-			padding: 80px;
-		}
-	}
-
-	.partner {
-
-		ul {
-		}
-
-		li {
-			float: left;
-			display: block;
-			width: 18%;
-			margin-right: 2.5%;
-			&:last-child {
-				margin-right: 0;
-			}
-		}
-
-		img {
-			width: 100%;
-			margin-bottom: 0;
-		}
-
-		.okfn-logo {
-			max-width: 100%;
-		}
-
-		.cfa-logo, .bmbf-logo, .wj-logo {
-			max-width: 60%;
-		}
-
-		.google-logo {
-			max-width: 80%;
-		}
-
-	}
+	@import "768";
 }
 
 @media screen and (min-width: 1200px) {
-	.main-nav-wrapper {
-		float: right;
-	}
-
-	.main-nav-wrapper .nav-pills {
-		float: right;
-	}
-
-	.packery-item {
-		width: 47.5%;
-	}
-
-	.members .member {
-		min-width: 33%;
-	}
+	@import "1200";
 }
 
 /*-----  End of MEDIA QUERIES  ------*/
