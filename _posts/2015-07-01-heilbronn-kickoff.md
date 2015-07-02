@@ -14,7 +14,7 @@ Was ist Open Data? Wie können Daten überhaupt geöffnet werden? Welchen Nutzen
 
 Am 01. Juli 2015 um 18 Uhr haben wir von Code for Heilbronn zu einer Open Data Informationsveranstaltung in den [Coworking Space Heilbronn](http://coworking-heilbronn.org/) eingeladen, um diese Fragen gemeinsam mit den Teilnehmern zu erörtern.
 
-Insgesamt hatten wir 20 Teilnehmer, darunter auch einige Stadträte aus Heilbronn und Neckarsulm. Die Rückmeldungen waren sehr positiv und vielversprechend. 
+Insgesamt hatten wir 20 Teilnehmer, darunter auch einige Stadträte aus Heilbronn und Neckarsulm sowie Mitarbeiter der Pressestelle der Stadt Heilbronn. Die Rückmeldungen waren sehr positiv und vielversprechend.
 
 Gezeigte Präsentationen & Programm:
 
