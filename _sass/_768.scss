@@ -81,3 +81,74 @@
 	}
 
 }
+
+/*=============================
+=            Stories          =
+=============================*/
+
+.story-wrapper {
+	padding: 50px;
+}
+
+.story--header {
+	width: 60%;
+	padding-top: 11%;
+}
+
+.story--container {
+	margin-top: -10%;
+}
+
+.story--header--hero {
+	position: absolute;
+	width: 37%;
+	bottom: 23%; 
+	border: 3px solid white; 
+}
+
+.story--header--title {
+	font-size: 28px;
+	margin-bottom: 6px;
+	padding: 0;
+}
+
+.story--embed {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	max-width: 500px; 
+}
+
+.story--body {
+	
+	.inline-image__right {
+		float: left; 
+		padding: 0 50px 50px 0;
+	}
+
+	.inline-image__left {
+		float: right; 
+		padding: 0 0 50px 50px;
+	}
+
+	.inline-image__landscape {
+		width: 50%;
+	}
+
+	.inline-image__portrait {
+		width: 33%;
+	}
+
+	.quote {
+		width: 40%;
+		float: left;
+	}
+
+}
+
+.story--links, .story--members {
+	padding: 50px 50px 0 50px;
+}
+
+
+
+/*-----  End of Story  ------*/
