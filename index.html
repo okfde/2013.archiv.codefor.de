@@ -23,7 +23,6 @@ footerlogos: yes
 <div class="jumbotron fond__green map-container" style="padding:0px;">
       <div id="lab-map" class="lab-map-home"></div>
       {% include h4c-map-legend.html %}
-
 </div>
 
 <!-- About -->
@@ -31,14 +30,9 @@ footerlogos: yes
   <div class="container text-center text__black">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
-        <p>
-        Jede Woche treffen sich in ganz Deutschland Code for Germany Teams, die gemeinsam an nützlichen Anwendungen und Visualisierungen rund um offene Daten und digitale Werkzeuge für Bürgerinnen arbeiten. <br><br>
-        Die lokalen Gruppen, bestehend aus Programmiererinnen, Designern und Open Data Interessierten, erproben, wie Code und Software dabei helfen können ihre Stadt und Nachbarschaft zu verbessern. <br><br>
-
-Wo gerade welche Anwendungen und Projekte entstehen, wann das nächste Treffen stattfindet und wie man mitmachen kann, erfährst Du durch einen Klick auf die jeweilige Stadt.
-
-
-        </p>
+        <p>Jede Woche treffen sich in ganz Deutschland Teams zu ihren Projekten für Code for Germany. Sie arbeiten gemeinsam an nützlichen Anwendungen und Visualisierungen rund um offene Daten und digitale Werkzeuge für Bürgerinnen. Diese lokalen Gruppen und ihr Treffen nennen wir Labs.</p>
+        <p>Die Labs bestehen aus Interessierten zu Open Data. Dazu gehören auch Programmiererinnen und Designern. Sie erproben, wie Daten und Software dabei helfen können die Städte und Nachbarschaften zu verbessern. Dazu wird Code für Dienste geschrieben und bestehende Daten so aufbereitet, dass sie für alle genutzt werden können.</p>
+        <p>Wo gerade welche Anwendungen bei welchen Projekten entstehen, wann das nächste Treffen stattfindet und wie Du dort mitmachen kannst, erfährst Du nach einen Klick auf das Lab der jeweilige Stadt.</p>
       </div>
     </div>
     <!--
@@ -63,17 +57,14 @@ Wo gerade welche Anwendungen und Projekte entstehen, wann das nächste Treffen s
 
 <script src="js/lib/jquery.cookie.js"></script>
 <script src="js/lib/prettyCheckbox.min.js"></script>
-
 <script src="js/Application.js"></script>
 
 {% include leaflet.html %}
 
 <script type="text/javascript">
-
 $(document).ready(function() {
   app = new Application();
   app.init();
   $(":checkbox").prettyCheckbox();
-
 });
 </script>
