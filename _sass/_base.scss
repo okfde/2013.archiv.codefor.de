@@ -922,7 +922,7 @@ $date-circle: 80px;
 }
 
 .story__red {
-	svg, .story--header--title, .story--header--hero, .story--header--meta {
+	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $red;
 	}
 	.story--links a, .quote {
@@ -931,7 +931,7 @@ $date-circle: 80px;
 }
 
 .story__green {
-	svg, .story--header--title, .story--header--hero, .story--header--meta {
+	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $green;
 	}
 	.story--links a, .quote {
@@ -940,7 +940,7 @@ $date-circle: 80px;
 }
 
 .story__blue {
-	svg, .story--header--title, .story--header--hero, .story--header--meta {
+	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $blue;
 	}
 	.story--links a, .quote {
@@ -949,7 +949,7 @@ $date-circle: 80px;
 }
 
 .story__cyan {
-	svg, .story--header--title, .story--header--hero, .story--header--meta {
+	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $cyan;
 	}
 	.story--links a, .quote {
@@ -968,17 +968,18 @@ $date-circle: 80px;
 .story-teaser--title {
 	
 	position: absolute;
-	max-width: 60%;
+	width: 100%;
+	padding: 0 25px;
+
 	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
+	-webkit-transform: translate(0,-50%);
+	        transform: translate(0,-50%);
 
 	color: white;
 
-	h1,h2,h3,h4 {
+	h2 {
 		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
-		font-size: 1.5em;
+		font-size: 18px;
 		line-height: 1.5;
 		text-transform: none;
 	}
@@ -996,14 +997,19 @@ $date-circle: 80px;
 	text-align: center;
 }
 
-.story--header {
-	position: absolute;
-	width: 80%;
-	top: 0;
-	margin: 0 auto;
-	left: 0; right: 0;
-	padding-top: 6%;
+.story--pattern {
+	height: 100px;
+	overflow: hidden;
+	svg {
+		height: initial;
+		width: 200%;
+		-webkit-transform: translateX(-25%);	
+		transform: translateX(-25%);
+	}
+}
 
+.story--header {
+	width: 100%;
 	color: white; 
 }
 
@@ -1028,9 +1034,20 @@ $date-circle: 80px;
 	font-size: 24px;
 	line-height: 1.5;
 	text-transform: none;
-	margin-bottom: 0;
+	margin: 0;
 	padding: 25px;
 }
+
+.story--header--meta {
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	margin-bottom: 0;
+
+	a {
+		color: white; 
+	}
+}
+
 
 .story--lead p {
 	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
@@ -1038,15 +1055,6 @@ $date-circle: 80px;
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 50px;
-}
-
-.story--header--meta {
-	text-transform: uppercase;
-	padding-bottom: 25px;
-	font-size
-	a {
-		color: white; 
-	}
 }
 
 .story--embed {
@@ -1057,7 +1065,7 @@ $date-circle: 80px;
 }
 
 .story-wrapper {
-	padding: 15px;
+	padding: 25px 15px 15px 15px;
 }
 
 .story--body {

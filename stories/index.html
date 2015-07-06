@@ -3,7 +3,6 @@ layout: base
 title: Stories
 
 ---
-
 <div class="container-fluid clearfix">
 	{% for story in site.stories %}
 	<div class="col-md-6 story-teaser story__{{ story.color }}">  
@@ -11,13 +10,13 @@ title: Stories
 		<div class="story-teaser--image">
 			{% case story.pattern %}
 			    {% when 1 %}
-					{% include inline-svg/story_teaser_1.svg %}
+					{% include inline-svg/optimized/story_teaser_1.svg %}
 			    {% when 2 %}
-			    	{% include inline-svg/story_teaser_2.svg %}
+			    	{% include inline-svg/optimized/story_teaser_2.svg %}
 			    {% when 3 %}
-			    	{% include inline-svg/story_teaser_3.svg %}
+			    	{% include inline-svg/optimized/story_teaser_3.svg %}
 			    {% when 4 %}
-			    	{% include inline-svg/story_teaser_4.svg %}
+			    	{% include inline-svg/optimized/story_teaser_4.svg %}
 			{% endcase %}
 		</div>
 
@@ -31,7 +30,6 @@ title: Stories
 	{% endfor %}
 
 	{% include story-teaser-fillin.html %}
-
 
 	</div>
 </div>

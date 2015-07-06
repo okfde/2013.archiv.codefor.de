@@ -86,13 +86,38 @@
 =            Stories          =
 =============================*/
 
+.story-teaser--title {
+	width: 60%;
+	left: 50%;
+	padding: 0;
+	-webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+}
+
 .story-wrapper {
 	padding: 50px;
 }
 
+.story--pattern {
+	height: 100%;
+	
+	svg {
+		width: 100%;
+		-webkit-transform: translateX(0);	
+		transform: translateX(0);
+	}
+}
+
 .story--header {
+
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	margin: 0 auto;
 	width: 60%;
 	padding-top: 11%;
+
+	color: white; 
+
 }
 
 .story--container {
@@ -109,7 +134,12 @@
 .story--header--title {
 	font-size: 28px;
 	margin-bottom: 6px;
+	margin-top: 24px;
 	padding: 0;
+}
+
+.story--header--meta {
+	padding-bottom: 0;
 }
 
 .story--embed {
