@@ -41,7 +41,8 @@ members:
 ## Die Idee
 Wenn im eigenen Kiez gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. „Wir haben versucht, uns über diese ganzen Baustellen zu informieren“, sagt Magdalena. Doch das war überhaupt nicht einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online eingescannt werden. Das heißt, durchsuchen kann man sie nicht.
 
-## Die Erkenntni
+
+## Die Erkenntnis
 Bürger können bei Bauprojekten in ihrer Gegend durchaus mitreden – wenn sie denn rechtzeitig davon hören. „Es gibt eigentlich viel Bürgerbeteiligung, von der man aber nichts mitkriegt“, sagt Magdalena. Meistens erfahren BewohnerInnen erst von Bauplänen, wenn die Bauzäune aufgestellt werden. Dann ist es aber schon zu spät, um sich einzubringen.
 
 ## Die Lösung
@@ -59,3 +60,7 @@ Auf einer Webseite Bauvorhaben übersichtlich darstellen. Wer seine E-Mail-Adres
 
 ## Der nächste Schritt
 Die Bauvorhaben lassen sich übersichtlich finden, nun will Magdalena es auch einfacher machen, sich tatsächlich zu beteiligen. Dazu will sie eine Art Vorlage erstellen. Will eine Bürgerin ihre Meinung zu einem geplanten Bauvorhaben sagen, kann sie ihre eigenen Kommentare in die Vorlage einbauen und das ganze an das zuständige Amt schicken.
+
+<div class="inline-image inline-image__portrait inline-image__right">
+  <img src="/assets/stories/bbs-screenshot.png" alt="Screenshot der Webapp" class="img-responsive">
+</div>

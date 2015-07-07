@@ -39,13 +39,19 @@ members:
   username-twitter: balzer82
 
 ---
+
+<figure>
+  <img src="/assets/stories/parkendd.jpg" alt="Stau geht alle etwas an">
+  <figcaption>Stau geht alle etwas an - Bild von <a href="https://www.flickr.com/people/libaer2002/">Hellebardius</a> unter <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC-BY-NC-ND 3.0</a></figcaption>
+</figure><br><br>
+
 ## Die Idee 
 Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.
 Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der Stadt betrifft alle“, sagt der Software-Entwickler Paul Balzer. So kam die Idee einer App auf, die freie Parkplätze in den Parkhäusern der Stadt anzeigt.
 
 <div class="quote">
   <blockquote>
-    <p>Wir haben uns selbst Open Data gemacht.</p>
+    <p>Wir haben selbst Open Data gemacht.</p>
   </blockquote>
   <p class="attribute">Paul B.</p>
 </div>
@@ -55,6 +61,7 @@ Die Stadt veröffentlicht zwar die Zahlen über freie Parkhaus-Plätze auf ihrer
 
 ## Guter Tipp
 Teamarbeit „Die Leute hatten einfach Bock darauf“, sagt Paul. Die ParkenDD-App gibt es inzwischen für iPhones und Android-Handys, die Teammitglieder hängten sich jeweils in ihren Fachgebieten rein. „Jeder hat einen kleinen Teil übernommen, wie ein Zahnrädchen“, erzählt Paul. Eine Freundin übersetzte die App sogar auf Tschechisch, damit Touristen aus der nahen Grenzregion besser durch die Stadt kommen.
+
 
 ## Der nächste Schritt
 Paul wünscht sich mehr Daten, mit denen Programmierer direkt arbeiten können: „Manche sagen, ich seh's doch im Internet, es ist doch offen.“ Doch mit einem PDF-Dokument fängt die Arbeit für Entwickler erst an. Schließlich liest ein Programm Daten anders als eine Person es tut. „Wir verwenden 80 Prozent unserer Zeit dafür, das maschinenlesbar zu machen“, sagt Paul. Eine technische Schnittstelle würde viel weiterhelfen: „Da schickst du eine Anfrage hin und bekommst eine Antwort.“
