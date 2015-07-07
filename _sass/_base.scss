@@ -228,11 +228,11 @@ label {
 
 #animation-wrapper h1 {
 	@extend .text__white;
-	line-height: 1.4em ;
-	margin-top: 0;
+	line-height: 1.4em;
+	margin: 15px 0;
 	letter-spacing: -0.05em;
 	text-transform: inherit;
-	font-size: 26px;
+	font-size: 22px;
 
 }
 
@@ -422,14 +422,19 @@ label {
 
 .hero-container {
 	position: relative;
+	a {
+		text-decoration: none;
+	}
 }
 
 #animation-wrapper {
-	position: absolute;
+
+	background: $blue;
+	padding: 5% 0;
 	top: 0; left: 0; right: 0; 
 	margin: 0 auto; 
-	width: 40%;
-	padding-top: 11%;
+	width: 100%;
+
 }
 
 /* Newsletter Signup */
@@ -913,6 +918,11 @@ $date-circle: 80px;
 ===============================*/
 
 .story-teaser--image, .story--head {
+	
+	a {
+		text-decoration: none;
+	}
+
 	svg {
 		display: block;
 		stroke: #FFFFFF;
@@ -997,15 +1007,30 @@ $date-circle: 80px;
 	text-align: center;
 }
 
-.story--pattern {
-	height: 100px;
+.story--pattern, .hero-pattern {
+	
 	overflow: hidden;
+	position: relative;
+
+	&:before {
+		content: "";
+		display: block;
+		padding-top: 17%;
+	}
+
 	svg {
 		height: initial;
 		width: 200%;
 		-webkit-transform: translateX(-25%);	
 		transform: translateX(-25%);
 	}
+}
+
+.hero-pattern-wrap, .story--pattern-wrap {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
 }
 
 .story--header {

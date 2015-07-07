@@ -5,14 +5,16 @@ layout: base
 <div class="story story__{{ page.color }}">
   <div class="story--head">
     <div class="story--pattern">
-      {% case page.pattern %}
-          {% when 1 %}
-            {% include inline-svg/story_wallpaper_1.svg %}
-          {% when 2 %}
-            {% include inline-svg/story_wallpaper_2.svg %}
-          {% when 3 %}
-            {% include inline-svg/story_wallpaper_3.svg %}
-      {% endcase %}
+      <div class="story--pattern-wrap">
+        {% case page.pattern %}
+            {% when 1 %}
+              {% include inline-svg/story_wallpaper_1.svg %}
+            {% when 2 %}
+              {% include inline-svg/story_wallpaper_2.svg %}
+            {% when 3 %}
+              {% include inline-svg/story_wallpaper_3.svg %}
+        {% endcase %}
+      </div>
     </div>
     <div class="story--header">
       <h1 class="story--header--title">

@@ -10,6 +10,18 @@
 	max-width: 1320px;
 }
 
+#animation-wrapper {
+	width: 40%;
+	margin-top: 11%;
+	padding: 0;
+	position: absolute;
+
+	h1 {
+		font-size: 26px;
+		margin: 0;
+	}
+}
+
 .jumbotron {
 	padding: 70px;
 }
@@ -18,12 +30,10 @@
 	padding: 35px ;
 }
 
-.navbar {
-	padding: 70px 0;
-}
+
 
 .highlight-hero {
-	margin-left: 10px;
+	// margin-left: 10px;
 }
 
 .nav-meta {
@@ -98,14 +108,22 @@
 	padding: 50px;
 }
 
-.story--pattern {
+.story--pattern, .hero-pattern {
 	height: 100%;
+
+	&:before {
+		display: none;
+	}
 	
 	svg {
 		width: 100%;
 		-webkit-transform: translateX(0);	
 		transform: translateX(0);
 	}
+}
+
+.hero-pattern-wrap, .story--pattern-wrap {
+	position: relative;
 }
 
 .story--header {
