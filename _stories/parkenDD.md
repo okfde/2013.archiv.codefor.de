@@ -1,51 +1,61 @@
 ---
 layout: story
 title: ParkenDD 
-subline: Hier wird noch an einer Subline gearbeitet
+subline: Vorausschauendes Parken in Dresden
 color: green #red, blue, green, cyan
 pattern: 2 #one of: 1, 2, 3, 4 
 
-where: Berlin
+where: Dresden
 when: Juni, 2015
 links: # first one is used in subline
-- name: buergerbautstadt.de
-  url: http://buergerbautstadt.de/
+- name: parkenDD
+  url: http://jkliemann.de/parkendd/
+- name: Android-App
+  url: https://play.google.com/store/apps/details?id=de.jkliemann.parkendd
+- name: iPhone-App
+  url: https://itunes.apple.com/de/app/parkendd/id957165041
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/parkendd-hero.jpg
   alt: 'Johannes Kliemann und Kilian Költzsch zeigen ihre App, Credit: ...'
   caption: Johannes Kliemann und Kilian Költzsch
 
-lead: Eine App für Sachsen-Anhalt, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt. Wer vor Ort wohnt, weiß schließlich oft schon, wo er hinwill. „Wir wollten keinen Schnickschnack, wir wollten nur die Abfahrtszeiten haben", sagt Johannes Filter. Entstanden ist MagdeGo, die Johannes gemeinsam mit Rosario Raulin programmiert hat. [Anfang 2015](http://#) waren Web-App und iOS-App fertig.
+lead: Freie Parkplätze in Dresden können nun auf dem Smartphone angezeigt werden. Das OK Lab von Dresden wollte damit zeigen, wie man mit öffentlichen Daten den Alltag erleichtern kann. Ihre App kann inzwischen sogar Parkmöglichkeiten Monate im Voraus vorhersagen. Das Geheimnis? Teamwork!
 
 members:
-- name: Julia Kloiber
-  username-twitter: j_kloiber
+- name: Consti
+  username-twitter: ubahnverleih
 
-- name: Stefan Wehrmeyer
-  username-github: stefanw
-  username-twitter: stefanwehrmeyer‎
+- name: rob
+  username-twitter: robtranquillo
+
+- name: jklmnn
+  username-twitter: JK70523
+
+- name: kiliankoe
+  username-twitter: kiliankoe
+
+- name: balzer82
+  username-twitter: balzer82
 
 ---
-## Weniger ist mehr
-Klar könnte die App noch mehr Funktionen bekommen, sagt Johannes. Aber für ihn ist gerade das die Stärke von Magdego: “Das Minimalistische macht die Sache aus.”
-
-## Nervigster Umweg 
-<div class="inline-image inline-image__landscape inline-image__left">
-	<img src="http://placehold.it/600x400" alt="Screenshot der Magdego App" class="img-responsive">
-	<p class="caption">© John Doe</p>
-</div>
-Johannes und Rosario mussten sich erstmal die Daten suchen. Das dauerte, denn die ursprüngliche API der Magdeburger Verkehrsbetriebe war stillgelegt worden. Sie ziehen sich die Infos jetzt von der öffentlichen Fahrplanauskunft in Sachsen-Anhalt, INSA.de. Was sie erst später herausfanden: Der Entwickler der Öffi-App für Bus und Bahn hat eine Liste von Datenquellen auf Github zusammen getragen. “Wir hätten uns viel Arbeit erspart, hätten wir das gewusst”, sagt Johannes.
-
-## Was funktioniert
-Nachmachen. Eine ähnliche App gab vorher bereits einmal, doch das Projekt war eingeschlafen. “Wir dachten, wir können das besser”, sagt Johannes. Mittlerweile wird ihre App 10 bis 20 mal am Tag heruntergeladen.
+## Die Idee 
+Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.
+Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der Stadt betrifft alle“, sagt der Software-Entwickler Paul Balzer. So kam die Idee einer App auf, die freie Parkplätze in den Parkhäusern der Stadt anzeigt.
 
 <div class="quote">
-	<blockquote>
-		<p>Wir hätten uns viel Arbeit erspart, hätten wir das gewusst und ein anders Zitat.</p>
-	</blockquote>
-	<p class="attribute">Johannes B.</p>
-</div> 
+  <blockquote>
+    <p>Wir haben uns selbst Open Data gemacht.</p>
+  </blockquote>
+  <p class="attribute">Paul B.</p>
+</div>
 
-## Was nicht funktioniert
-Über offene Daten reden. “Open Data ist so abstrakt”, sagt Johannes. Mit einem Beispiel wird es einfacher. Da wären etwa die Programmierer, die selbst mit der Bahn fahren und eine Idee für einen Bahn-Dienst haben… “Wenn die Daten offen sind, können die selbst Apps bauen. Das ist der Vorteil: Die Bürger sollen einfach die Apps für sich selbst machen.”
+## Das erste Hindernis 
+Die Stadt veröffentlicht zwar die Zahlen über freie Parkhaus-Plätze auf ihrer Seite, aber nicht in der Form, wie das Team sie brauchte: die Daten sind nicht maschinenlesbar. „Wir haben ein Programm geschrieben, dass diese Zahlen von der Webseite der Stadt runterholt und speichert“, sagt Paul. “Wir haben uns daraus selbst Open Data gemacht.“ Er geht davon aus, dass die Stadt die Datenabfragen einfach duldet. Das Team hat noch mehr geleistet: nicht nur werden die Daten angezeigt, sie werden auch durch ein Programm analysiert und visualisiert. Ihr Vorhersagemodell kann dadurch die Belegung eines Parkhauses in Zukunft sogar vorherzusagen.
+
+## Guter Tipp
+Teamarbeit „Die Leute hatten einfach Bock darauf“, sagt Paul. Die ParkenDD-App gibt es inzwischen für iPhones und Android-Handys, die Teammitglieder hängten sich jeweils in ihren Fachgebieten rein. „Jeder hat einen kleinen Teil übernommen, wie ein Zahnrädchen“, erzählt Paul. Eine Freundin übersetzte die App sogar auf Tschechisch, damit Touristen aus der nahen Grenzregion besser durch die Stadt kommen.
+
+## Der nächste Schritt
+Paul wünscht sich mehr Daten, mit denen Programmierer direkt arbeiten können: „Manche sagen, ich seh's doch im Internet, es ist doch offen.“ Doch mit einem PDF-Dokument fängt die Arbeit für Entwickler erst an. Schließlich liest ein Programm Daten anders als eine Person es tut. „Wir verwenden 80 Prozent unserer Zeit dafür, das maschinenlesbar zu machen“, sagt Paul. Eine technische Schnittstelle würde viel weiterhelfen: „Da schickst du eine Anfrage hin und bekommst eine Antwort.“
+Das würde die Arbeit verkürzen und mehr Möglichkeiten für interessante Ideen öffnen. „Sowas wie die Mittelvergabe bei der EU oder ein Haushalt einer Stadt, oder die Auftragsvergabe – man könnte wunderbare Visualisierungen erstellen, was wohin fließt. Das ware möglich, wenn es maschinenlesbare Schnittstellen gäbe.“
