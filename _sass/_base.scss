@@ -975,6 +975,19 @@ $date-circle: 80px;
 	padding-right: 0;
 }
 
+// IE responsive SVG fix
+.story-teaser--image {
+	
+	padding-top: ( 415 / 640 ) * 100%;
+	
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+
 .story-teaser--title {
 	
 	position: absolute;
@@ -1032,6 +1045,34 @@ $date-circle: 80px;
 	left: 0;
 	top: 0;
 }
+
+// IE responsive SVG fix
+.hero-pattern-wrap {
+
+	padding-top: ( 415 / 1280 ) * 100%;
+	
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+
+
+
+// IE responsive SVG fix
+.story--pattern-wrap {
+	
+	padding-top: ( 1030 / 1280 ) * 100%;
+	
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
 
 .story--header {
 	width: 100%;
