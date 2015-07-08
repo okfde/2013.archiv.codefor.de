@@ -25,4 +25,4 @@ collections:
   termine:
   stories:
     output: true
-    permalink: /stories/:path/
+    permalink: /stadtgeschichten/:path/
