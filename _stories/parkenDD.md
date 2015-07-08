@@ -9,7 +9,7 @@ subline: Vorausschauendes Parken in Dresden
 where: Dresden
 when: Juni, 2015
 links: # first one is used in subline
-- name: Website der Entwickler
+- name: Website
   url: http://jkliemann.de/parkendd/
 
 - name: Die App für Android-Systeme
@@ -24,9 +24,9 @@ links: # first one is used in subline
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/parkendd-hero.jpg
   alt: Johannes Kliemann und Kilian Költzsch zeigen ihre App.
-  caption: Johannes und Kilian  © 
+  caption: Johannes und Kilian  © Norbert Millauer
 
-lead: Freie Parkplätze in Dresden können nun auf dem Smartphone angezeigt werden. Das OK Lab von Dresden wollte damit zeigen, wie man mit öffentlichen Daten den Alltag erleichtern kann. Ihre App kann inzwischen sogar Parkmöglichkeiten Monate im Voraus vorhersagen. Das Geheimnis? Teamwork!
+lead: Freie Parkplätze in Dresden können nun auf dem Smartphone angezeigt werden. Das OK Lab Dresden wollte damit zeigen, wie man mit öffentlichen Daten den Alltag erleichtern kann. Ihre App kann inzwischen sogar Parkmöglichkeiten Monate im Voraus vorhersagen. Das Geheimnis? Teamwork!
 
 members:
 - name: Consti
