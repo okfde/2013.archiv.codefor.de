@@ -5,18 +5,21 @@ lang: en
 ---
 
 <!-- Hero -->
-<div class="jumbotron fond__grey">
-  <div class="container">
-    <div class="row">
-      <div id="animation-wrapper" class="col-lg-11 col-lg-offset-1">
-        <h1 class="cta text__blue animated-claim">city<span class="text__red">&lt;</span>developer <span class="text__red">/&gt;</span>*
-        <br />building digital tools for your community<span class="marker"></span></h1>
-        <h5 class="highlight highlight-hero cta-sub">
-        <span class="highlight-red">Code a difference: Use your skills to improve your city!</span>
-        </h5>
+<div class="hero-container fond__blue">
+    <div class="hero-pattern">
+      <div class="hero-pattern-wrap">
+        {% include inline-svg/optimized/stories_header.svg %}
       </div>
+   </div>
+    <div id="animation-wrapper" class="text-center">
+      <h1 class="cta text__white animated-claim">
+      {{ site.data.homehero.en.headline }}
+      {{ site.data.homehero.en.claims[0] }}<span class="marker"></span>
+      </h1>
+      <h5 class="highlight highlight-hero cta-sub">
+      <a href="/stadtgeschichten" ><span class="highlight-white">Read now (de)</span></a>
+      </h5>
     </div>
-  </div>
 </div>
 
 <!-- Lab Map -->
@@ -70,7 +73,21 @@ lang: en
 
 $(document).ready(function() {
   app = new Application();
-  app.init();
+  
+  {% if page.lang == 'en' %}
+    {% assign homehero = site.data.homehero.en %}
+  {% else %} 
+    {% assign homehero = site.data.homehero.de %}
+  {% endif %}
+
+  /* {{ homehero }} */ 
+
+  herodata = {
+    headline : '{{ homehero.headline }}',
+    claims: [{% for claim in homehero.claims %}'{{ claim }}',{% endfor %}]
+  }
+
+  app.init(herodata);
   $(":checkbox").prettyCheckbox();
 
 });

@@ -12,12 +12,7 @@
         delay_before_fadein: 500,
         delay_before_start: 3000,
         delay_before_add: 500,
-        delay_before_remove: 3000,
-        headline : 'Stadt<span class="text__red">&lt;</span>/geschichten<span class="text__red">&gt;</span><br>',
-        claims: [   "aus München, Dresden, Berlin und Magdeburg",
-                    "wie Entwicklerinnen mit Code ihre Stadt verbessern",
-                    "von der Idee bis zum Ergebnis",
-                ]
+        delay_before_remove: 3000
     }
 
     var ref, headline, $container, $subline, index, initialText, $header, $beneath, $cookie,
@@ -27,8 +22,12 @@
         ref = this;
     };
 
-    Application.prototype.init = function()
-    {
+    Application.prototype.init = function( pHeroData )
+    {   
+
+        ref.headline = pHeroData.headline;
+        ref.claims = pHeroData.claims;
+
         if (!Modernizr.svg) {
             $(".navbar-brand img").attr("src", "img/logo.png");
         }
