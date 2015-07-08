@@ -15,7 +15,7 @@ links: # first one is used in subline
 - name: Die App für Android-Systeme
   url: https://play.google.com/store/apps/details?id=de.jkliemann.parkendd
 
-- name: Die App im iOS Store
+- name: Die App für's iPhone
   url: https://itunes.apple.com/de/app/parkendd/id957165041
 
 - name: Bericht in der Sächsischen Zeitung
