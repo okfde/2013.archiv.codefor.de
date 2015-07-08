@@ -8,10 +8,6 @@ h4c: true
 
 members:
 
-- name: rob tranquillo
-  username-github: robtranquillo
-  username-twitter: robtranquillo
-- name: Marc
 - name: Astro
   url: http://spaceboyz.net/~astro/
   username-github: astro
@@ -21,12 +17,25 @@ members:
   username-twitter: thomersch
   username-github: thomersch
 - name: Consti
+  username-github: ubahnverleih
+  username-twitter: ubahnverleih
 - name: Erik
   username-github: erikmitk
   username-twitter: erikmitk
 - name: Paul
   username-github: balzer82
   username-twitter: balzer82
+- name: jklmnn
+  username-github: jklmnn
+  username-twitter: JK70523
+- name: Paul
+  username-github: balzer82
+  username-twitter: balzer82
+- name: kiliankoe
+  username-github: kiliankoe
+  username-twitter: kiliankoe
+
+
 
 links:
 - name: twitter

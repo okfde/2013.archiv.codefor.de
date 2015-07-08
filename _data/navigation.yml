@@ -1,9 +1,11 @@
 de:
   - title: Über
     url: /ueber
+  - title: Stadtgeschichten
+    url: /stadtgeschichten
   - title: Mitmachen
     url: /mitmachen
-  - title: OK Labs
+  - title: Labs
     url: /oklabs
   - title: Termine
     url: /termine
@@ -16,9 +18,11 @@ de:
 en:
   - title: About
     url: /en/ueber
+  - title: Stories (de)
+    url: /stadtgeschichten
   - title: Join
     url: /en/mitmachen
-  - title: OK Labs
+  - title: Labs
     url: /en/oklabs
   - title: Calendar
     url: /en/termine

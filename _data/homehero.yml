@@ -1,0 +1,18 @@
+de:
+  headline: 'Stadt<span class="text__red">&lt;/</span>geschichten<span class="text__red">&gt;</span><br>'
+  claims:
+    - "aus München, Dresden, Berlin und Magdeburg"
+    - "wie Entwicklerinnen mit Code ihre Stadt verbessern"
+    - "von der Idee bis zum Ergebnis"
+
+en:
+  headline: 'urban<span class="text__red">&lt;/</span>stories<span class="text__red">&gt;</span><br>'
+  claims:
+    - "from Munich, Dresden, Berlin and Magdeburg"
+    - "how developers are using their skills to improve their city"
+    - "from the first idea to implementation"
+
+
+
+
+
