@@ -10,10 +10,10 @@ exclude:
   - "mission"
   - "README.md"
   - "doc/"
-  - "projekte" # uncomment line to speed up jekyll build for development
-  - "blog" # uncomment line to speed up jekyll build for development
-  - "termine" # uncomment line to speed up jekyll build for development
-  - "presse" # uncomment line to speed up jekyll build for development
+  #- "projekte" # uncomment line to speed up jekyll build for development
+  #- "blog" # uncomment line to speed up jekyll build for development
+  #- "termine" # uncomment line to speed up jekyll build for development
+  #- "presse" # uncomment line to speed up jekyll build for development
 sass:
     style: :compressed
 permalink: /blog/:title
