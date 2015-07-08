@@ -9,15 +9,18 @@ subline: Mitbestimmung statt Baubestimmung
 where: Berlin
 when: Juni, 2015
 links: # first one is used in subline
-- name: Website
+- name: Projektseite
   url: http://buergerbautstadt.de/
+
+- name: Beitrag vom Elektrischen Reporter (video)
+  url: https://youtu.be/4xJCP3eecG8
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/bbs-hero.jpg
-  alt: Magdalena Noffke, Credits CC BY
+  alt: Magdalena Noffke, Elektrischer Reporter
   caption: Magda © Elektrischer Reporter
 
-lead: Magdalena Noffke und ihre MitstreiterInnen wollten wissen, was genau in ihrem Kiez gebaut wird. Die Informationen sind zwar öffentlich, aber nur schwer zugänglich. Also haben sie kurzerhand eine Website gebaut, die alle Bauvorhaben in Berlin zusammenstellt. Finden wir toll!
+lead: Magdalena Noffke und ihre MitstreiterInnen wollten wissen, was genau in ihrem Kiez gebaut wird. Die Informationen sind zwar öffentlich, aber nur schwer zugänglich. Also haben sie kurzerhand eine Website programmiert, die alle Bauvorhaben in Berlin zusammenstellt. Finden wir toll!
 
 embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

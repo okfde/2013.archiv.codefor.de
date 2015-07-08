@@ -13,7 +13,7 @@
         delay_before_start: 3000,
         delay_before_add: 500,
         delay_before_remove: 3000,
-        headline : 'Stadt<span class="text__red">&lt;</span>geschichten<span class="text__red">/&gt;</span><br>',
+        headline : 'Stadt<span class="text__red">&lt;</span>/geschichten<span class="text__red">&gt;</span><br>',
         claims: [   "aus München, Dresden, Berlin und Magdeburg",
                     "wie Entwicklerinnen mit Code ihre Stadt verbessern",
                     "von der Idee bis zum Ergebnis",

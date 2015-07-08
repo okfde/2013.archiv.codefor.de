@@ -1,7 +1,7 @@
 ---
 layout: story
 color: red #one of: red, blue, green, cyan
-pattern: 3 #one of: 1, 2, 3, 4 
+pattern: 2 #one of: 1, 2, 3, 4 
 
 title: MagdeGo
 subline: Nahverkehr, schnell und einfach.
@@ -9,18 +9,17 @@ subline: Nahverkehr, schnell und einfach.
 where: Magdeburg
 when: Juni, 2015
 links: # first one is used in subline
-- name: Website
+- name: Website von MadgeGo
   url: http://magdego.de
 
-- name: Demo
+- name: Eine Web-Demo
   url: http://magdego.de/demo
 
-- name: iPhone-App
+- name: Die App im iOS Store
   url: https://itunes.apple.com/de/app/magdego-die-app-fur-den-nahverkehr/id926337785
 
 - name: Bericht der Uni Magdeburg
   url: http://www.fokus-du.de/front_content.php?idcat=362&idart=880&page=2&page_begin=0
-
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/magdego-hero.jpg
