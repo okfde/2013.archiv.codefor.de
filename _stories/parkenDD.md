@@ -14,11 +14,13 @@ links: # first one is used in subline
   url: https://play.google.com/store/apps/details?id=de.jkliemann.parkendd
 - name: iPhone-App
   url: https://itunes.apple.com/de/app/parkendd/id957165041
+- name: Bericht in der Sächsischen Zeitung
+  url: http://www.sz-online.de/nachrichten/studenten-helfen-bei-der-parkplatzsuche-3128007.html
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/parkendd-hero.jpg
   alt: 'Johannes Kliemann und Kilian Költzsch zeigen ihre App, Credit: ...'
-  caption: Johannes Kliemann und Kilian Költzsch
+  caption: Johannes und Kilian  © 
 
 lead: Freie Parkplätze in Dresden können nun auf dem Smartphone angezeigt werden. Das OK Lab von Dresden wollte damit zeigen, wie man mit öffentlichen Daten den Alltag erleichtern kann. Ihre App kann inzwischen sogar Parkmöglichkeiten Monate im Voraus vorhersagen. Das Geheimnis? Teamwork!
 
@@ -39,11 +41,6 @@ members:
   username-twitter: balzer82
 
 ---
-
-<figure>
-  <img src="/assets/stories/parkendd.jpg" alt="Stau geht alle etwas an">
-  <figcaption>Stau geht alle etwas an - Bild von <a href="https://www.flickr.com/people/libaer2002/">Hellebardius</a> unter <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC-BY-NC-ND 3.0</a></figcaption>
-</figure><br><br>
 
 ## Die Idee 
 Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.

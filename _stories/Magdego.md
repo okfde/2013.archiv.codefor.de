@@ -18,11 +18,14 @@ links: # first one is used in subline
 - name: iPhone-App
   url: https://itunes.apple.com/de/app/magdego-die-app-fur-den-nahverkehr/id926337785
 
+- name: Bericht der Uni Magdeburg
+  url: http://www.fokus-du.de/front_content.php?idcat=362&idart=880&page=2&page_begin=0
+
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/magdego-hero.jpg
   alt: Rosario Raulin und Johannes Filter zeigen Smartphones mit ihrer App vor einer Strassenbahn
-  caption: Rosario Raulin und Johannes Filter
+  caption: Rosario und Johannes © Stefan Berger
 
 lead: Johannes und Rosario wollten eine Nahverkehr-App, die einfach nur anzeigt, wann an der nächsten Haltestelle die nächste Bahn kommt – ohne Schnickschnack. Entstanden ist MagdeGo, und das ist ihre Geschichte.
 

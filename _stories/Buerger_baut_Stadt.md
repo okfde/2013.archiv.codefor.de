@@ -14,8 +14,8 @@ links: # first one is used in subline
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/bbs-hero.jpg
-  alt: Magdalena Nofke, Credits CC BY
-  caption: Magdalena Nofke
+  alt: Magdalena Noffke, Credits CC BY
+  caption: Magda © Elektrischer Reporter
 
 lead: Magdalena Noffke und ihre MitstreiterInnen wollten wissen, was genau in ihrem Kiez gebaut wird. Die Informationen sind zwar öffentlich, aber nur schwer zugänglich. Also haben sie kurzerhand eine Website gebaut, die alle Bauvorhaben in Berlin zusammenstellt. Finden wir toll!
 
