@@ -50,12 +50,10 @@ Jahrelang hat Tobias versucht, das Projekt mit der Stadtverwaltung abzusprechen.
 
 Doch dann kam eine Überraschung: neue Gesichter aus der Stadtverwaltung besuchten eines Tages das [OK Lab München](../../muenchen/) So ging die Zusammenarbeit doch noch voran. Dass MitarbeiterInnen sich für Open Data und Programmieren interessieren, sei aber eher ein glücklicher Zufall, meint Tobias.
 
-<div class="quote">
-  <blockquote>
-    <p>Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.</p>
-  </blockquote>
-  <p class="attribute">Tobias H.</p>
-</div>
+<blockquote>
+  <p>Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.</p>
+  <footer>Tobias H.</footer>
+</blockquote>
 
 ## Die Einsicht
 Das Projekt trägt direkt zu mehr Transparenz in der Kommunalpolitik bei. „Transparenz ist ja die Voraussetzung für effektive Bürgerbeteiligung,“ sagt Tobias. München Transparent wird oft als Quelle verlinkt, gerade in Blogs und Foren, bei denen Sachthemen diskutiert werden – etwa zu Fahrradwegen und zum Erhalt denkmalschutzwürdiger Altbauten. „Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.“
