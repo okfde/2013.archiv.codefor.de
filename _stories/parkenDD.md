@@ -26,18 +26,23 @@ lead: Freie Parkplätze in Dresden können nun auf dem Smartphone angezeigt werd
 
 members:
 - name: Consti
+  username-github: ubahnverleih
   username-twitter: ubahnverleih
 
-- name: rob
+- name: Rob
+  username-github: robtranquillo
   username-twitter: robtranquillo
 
 - name: jklmnn
+  username-github: jklmnn
   username-twitter: JK70523
 
 - name: kiliankoe
+  username-github: kiliankoe
   username-twitter: kiliankoe
 
-- name: balzer82
+- name: Paul
+  username-github: balzer82
   username-twitter: balzer82
 
 ---
