@@ -42,10 +42,12 @@
         $subline = $('.cta-sub', '.hero-container');
         
         headline = ref.headline;
-
         currentIndex = ref.claims[0].split('').length;
-
         initialized=false;
+
+        minHeight = $container.outerHeight();
+        $container.css({minHeight: minHeight});
+        initialText = $container.html();
 
         $(window).resize(function() {
             resetting=true;
