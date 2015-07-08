@@ -13,6 +13,8 @@ layout: base
               {% include inline-svg/story_wallpaper_2.svg %}
             {% when 3 %}
               {% include inline-svg/story_wallpaper_3.svg %}
+            {% else %}
+              {% include inline-svg/story_wallpaper_1.svg %}
         {% endcase %}
       </div>
     </div>
@@ -28,7 +30,7 @@ layout: base
     </div>
     <div class="story--header--hero">
         {% for image in page.header-images | limit: 1 %}
-          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" />
+          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
           <p class="caption"> {{ image.caption }} </p>
         {% endfor %}
     </div>
@@ -40,9 +42,11 @@ layout: base
           <div class="text__{{ page.color }} story--lead">
               {{ page.lead | markdownify }}
           </div>
+          {% if page.embed %}
           <div class="story--embed">
               {{ page.embed }}
           </div>
+          {% endif %}
           <div class="story--body clearfix">
               {{ content }}
           </div>

@@ -41,26 +41,24 @@ members:
 ## Die Idee
 Wenn im eigenen Kiez gebaut wird, fragt man sich oft, was dort genau entsteht. So ginge es auch Magdalena Noffke und ihren Mitstreiterinnen. „Wir haben versucht, uns über diese ganzen Baustellen zu informieren“, sagt Magdalena. Doch das war überhaupt nicht einfach. Viele Informationen sind zwar öffentlich, aber schwer zugänglich. Sie verstecken sich in Amtsblättern, die online eingescannt werden. Das heißt, durchsuchen kann man sie nicht.
 
-
 ## Die Erkenntnis
+
+<figure class="landscape right">
+  <img src="/assets/stories/bbs-screenshot.png" alt="Screenshot der Webapp" >
+</figure>
+
 Bürger können bei Bauprojekten in ihrer Gegend durchaus mitreden – wenn sie denn rechtzeitig davon hören. „Es gibt eigentlich viel Bürgerbeteiligung, von der man aber nichts mitkriegt“, sagt Magdalena. Meistens erfahren BewohnerInnen erst von Bauplänen, wenn die Bauzäune aufgestellt werden. Dann ist es aber schon zu spät, um sich einzubringen.
 
 ## Die Lösung
 Auf einer Webseite Bauvorhaben übersichtlich darstellen. Wer seine E-Mail-Adresse einträgt, kann Nachrichten zu Bauplänen in bestimmten Bezirken erhalten. So können Bürgerinnen und Bürger schon früh mitreden, wie ihr Kiez in Zukunft aussehen soll.
 
-<div class="quote">
-  <blockquote>
-    <p>Es hört sich alles so kompliziert an, dass man als Bürger abgeschreckt ist.</p>
-  </blockquote>
-  <p class="attribute">Magdalena N.</p>
-</div>
+<blockquote>
+  <p>Es hört sich alles so kompliziert an, dass man als Bürger abgeschreckt ist.</p>
+  <footer>Magdalena N.</footer>
+</blockquote>  
 
 ## Schlimmstes Wort
 *Bebauungsplanverfahren*. Baupläne sind in eine dicke Schicht Behördendeutsch eingepackt. Dabei geht es eigentlich nur darum, dass ein Gebiet für eine bestimmte Nutzung ausgewiesen ist – etwas als Wohngegend oder Einkaufszone. Wird diese Zuschreibung (im Behördendeutsch: Widmung) geändert, kann man mitreden. „Eigentlich ist es gar nicht so kompliziert“, sagt auch Magdalena. „Aber es hört sich alles so kompliziert an, dass man als Bürger abgeschreckt ist.“
 
 ## Der nächste Schritt
 Die Bauvorhaben lassen sich übersichtlich finden, nun will Magdalena es auch einfacher machen, sich tatsächlich zu beteiligen. Dazu will sie eine Art Vorlage erstellen. Will eine Bürgerin ihre Meinung zu einem geplanten Bauvorhaben sagen, kann sie ihre eigenen Kommentare in die Vorlage einbauen und das ganze an das zuständige Amt schicken.
-
-<div class="inline-image inline-image__portrait inline-image__right">
-  <img src="/assets/stories/bbs-screenshot.png" alt="Screenshot der Webapp" class="img-responsive">
-</div>

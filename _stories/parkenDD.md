@@ -51,19 +51,17 @@ members:
 Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.
 Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der Stadt betrifft alle“, sagt der Software-Entwickler Paul Balzer. So kam die Idee einer App auf, die freie Parkplätze in den Parkhäusern der Stadt anzeigt.
 
-<div class="quote">
-  <blockquote>
-    <p>Wir haben selbst Open Data gemacht.</p>
-  </blockquote>
-  <p class="attribute">Paul B.</p>
-</div>
+<blockquote>
+  <p>Wir haben selbst Open Data gemacht.</p>
+  <footer>Paul B.</footer>
+</blockquote>
+
 
 ## Das erste Hindernis 
 Die Stadt veröffentlicht zwar die Zahlen über freie Parkhaus-Plätze auf ihrer Seite, aber nicht in der Form, wie das Team sie brauchte: die Daten sind nicht maschinenlesbar. „Wir haben ein Programm geschrieben, dass diese Zahlen von der Webseite der Stadt runterholt und speichert“, sagt Paul. “Wir haben uns daraus selbst Open Data gemacht.“ Er geht davon aus, dass die Stadt die Datenabfragen einfach duldet. Das Team hat noch mehr geleistet: nicht nur werden die Daten angezeigt, sie werden auch durch ein Programm analysiert und visualisiert. Ihr Vorhersagemodell kann dadurch die Belegung eines Parkhauses in Zukunft sogar vorherzusagen.
 
 ## Guter Tipp
 Teamarbeit „Die Leute hatten einfach Bock darauf“, sagt Paul. Die ParkenDD-App gibt es inzwischen für iPhones und Android-Handys, die Teammitglieder hängten sich jeweils in ihren Fachgebieten rein. „Jeder hat einen kleinen Teil übernommen, wie ein Zahnrädchen“, erzählt Paul. Eine Freundin übersetzte die App sogar auf Tschechisch, damit Touristen aus der nahen Grenzregion besser durch die Stadt kommen.
-
 
 ## Der nächste Schritt
 Paul wünscht sich mehr Daten, mit denen Programmierer direkt arbeiten können: „Manche sagen, ich seh's doch im Internet, es ist doch offen.“ Doch mit einem PDF-Dokument fängt die Arbeit für Entwickler erst an. Schließlich liest ein Programm Daten anders als eine Person es tut. „Wir verwenden 80 Prozent unserer Zeit dafür, das maschinenlesbar zu machen“, sagt Paul. Eine technische Schnittstelle würde viel weiterhelfen: „Da schickst du eine Anfrage hin und bekommst eine Antwort.“

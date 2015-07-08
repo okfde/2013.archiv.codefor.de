@@ -167,26 +167,31 @@
 }
 
 .story--body {
-	
-	.inline-image__right {
+
+	figure {
+		max-width: 75%;
+		margin: 80px auto;
+	}
+
+	figure.landscape {
+		max-width: 50%;
+	}
+
+	figure.portrait {
+		max-width: 33%;
+	}
+
+	figure.left {
 		float: left; 
-		padding: 0 50px 50px 0;
+		margin: 0 50px 50px 0;
 	}
 
-	.inline-image__left {
+	figure.right {
 		float: right; 
-		padding: 0 0 50px 50px;
+		margin: 0 0 50px 50px;
 	}
 
-	.inline-image__landscape {
-		width: 50%;
-	}
-
-	.inline-image__portrait {
-		width: 33%;
-	}
-
-	.quote {
+	blockquote {
 		width: 40%;
 		float: left;
 	}

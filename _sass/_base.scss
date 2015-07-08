@@ -935,7 +935,7 @@ $date-circle: 80px;
 	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $red;
 	}
-	.story--links a, .quote {
+	.story--links a, blockquote {
 		color: $red;
 	}
 }
@@ -944,7 +944,7 @@ $date-circle: 80px;
 	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $green;
 	}
-	.story--links a, .quote {
+	.story--links a, blockquote {
 		color: $green;
 	}
 }
@@ -953,7 +953,7 @@ $date-circle: 80px;
 	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $blue;
 	}
-	.story--links a, .quote {
+	.story--links a, blockquote {
 		color: $blue;
 	}
 }
@@ -962,7 +962,7 @@ $date-circle: 80px;
 	svg, .story--header--title, .story-teaser--title, .story--header--hero, .story--header--meta {
 		background-color: $cyan;
 	}
-	.story--links a, .quote {
+	.story--links a, blockquote {
 		color: $cyan;
 	}
 
@@ -1147,52 +1147,56 @@ $date-circle: 80px;
 		margin-bottom: 40px;
 	}
 
-	.inline-image__right {
-		padding: 0 0 25px 0;
+	figure {
+		img {
+			display: block;
+			height: auto;
+			max-width: 100%;
+		}
 	}
 
-	.inline-image__left {
-		padding: 0 0 25px 0;
+	figure.right {
+		margin: 0 0 25px 0;
 	}
 
-	.inline-image__landscape {
+	figure.left {
+		margin: 0 0 25px 0;
 	}
 
-	.inline-image__portrait {
-	}
-
-	.inline-image .caption {
+	figcaption {
+		font-family: 'Junction', Helvetica, Arial, sans-serif;
 		font-size: 14px;
+		line-height: 1.5;
 		margin-bottom: 0;
 	}
 
-	.quote {
+
+	blockquote {
+		position: relative;
+		padding: 0; 
+		margin: 0 25px 15px 0;
+
+		border: 0;
 		
-		padding: 0 25px 15px 0;
-
-		blockquote {
-			position: relative;
-			padding: 0; margin: 0;
-			border: 0;
-			
-			p {
-				font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
-				font-size: 24px;
-				text-indent: 36px;
-			}
-
-			p:before {
-				/* left double quotation mark */
-				content: "\201C";
-				font-size: 60px;
-				display: block;
-				position: absolute;
-				top: -12px;
-				left: -36px;
-			}
+		p {
+			font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+			font-size: 24px;
+			text-indent: 36px;
+			margin: 0;
 		}
 
-		.attribute {
+		p:before {
+			/* left double quotation mark */
+			content: "\201C";
+			font-size: 60px;
+			display: block;
+			position: absolute;
+			top: -12px;
+			left: -36px;
+		}
+
+		footer {
+			font-family: 'Junction', Helvetica, Arial, sans-serif;
 			font-size: 14px;
 			margin-bottom: 0;
 		}
