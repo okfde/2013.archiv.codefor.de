@@ -9,7 +9,7 @@ title: München Transparent - Kommunalpolitik leicht gemacht
 where: München
 when: Juni, 2015
 links: # first one is used in subline
-- name: München Transparent
+- name: www.muenchen-transparent.de
   url: https://www.muenchen-transparent.de/
 
 - name: Bericht in der Süddeutschen Zeitung

@@ -9,7 +9,7 @@ title: ParkenDD - Vorausschauendes Parken in Dresden
 where: Dresden
 when: Juni, 2015
 links: # first one is used in subline
-- name: Website
+- name: jkliemann.de/parkendd
   url: http://jkliemann.de/parkendd/
 
 - name: Die App für Android-Systeme

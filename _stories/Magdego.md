@@ -9,7 +9,7 @@ title: MagdeGo - Nahverkehr, schnell und einfach.
 where: Magdeburg
 when: Juni, 2015
 links: # first one is used in subline
-- name: Website von MadgeGo
+- name: magdego.de
   url: http://magdego.de
 
 - name: Eine Web-Demo

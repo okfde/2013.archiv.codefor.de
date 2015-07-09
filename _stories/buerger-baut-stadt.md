@@ -8,7 +8,7 @@ title: Bürger baut Stadt - Mitbestimmung statt Baubestimmung
 where: Berlin
 when: Juni, 2015
 links: # first one is used in subline
-- name: Projektseite
+- name: buergerbautstadt.de
   url: http://buergerbautstadt.de/
 
 - name: Beitrag vom Elektrischen Reporter (video)
