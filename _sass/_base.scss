@@ -1032,7 +1032,7 @@ $date-circle: 80px;
 	}
 
 	svg {
-		height: 100%;
+		height: initial;
 		width: 200%;
 		-webkit-transform: translateX(-25%);	
 		transform: translateX(-25%);

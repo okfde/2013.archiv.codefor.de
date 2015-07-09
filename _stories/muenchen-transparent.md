@@ -2,10 +2,10 @@
 layout: story
 color: cyan #one of: red, blue, green, cyan
 pattern: 4 #one of: 1, 2, 3, 4 
+og-image: /assets/projects/muenchen/Muenchen-Transparent.png # used for facebook & twitter card
 
-title: München Transparent
-subline: Kommunalpolitik leicht gemacht
 
+title: München Transparent - Kommunalpolitik leicht gemacht
 where: München
 when: Juni, 2015
 links: # first one is used in subline

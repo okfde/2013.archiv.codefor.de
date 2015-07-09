@@ -22,20 +22,30 @@
   {% else %}
     {{ site.title }}  ~ {{ site.description }}
   {% endif %}</title>
-  <meta name="description" content="">
+
+  <meta name="description" content="{{ page.excerpt }}">
   <meta name="viewport" content="width=device-width">
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  {% include head-social-og.html %}
 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
   <link rel="stylesheet" href="/css/animate.css">
   <link rel="stylesheet" href="/css/main.css?v=1.0">
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Blog | {{ site.title }}" href="/feed.xml">
 
   <script src="/js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/lib/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="/js/lib/bootstrap.min.js"></script>
 
+  <!-- leaflet map -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+  <script src='/js/lib/leaflet.iconlabel.js'></script>
+
+  <!-- webfont  -->
   <script>
 
   WebFontConfig = {
@@ -55,16 +65,8 @@
     s.parentNode.insertBefore(wf, s);
   })();
 
-  </script>
+  </script> 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/lib/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="/js/lib/bootstrap.min.js"></script>
-
-  <!-- leaflet map -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
-  <script src='/js/lib/leaflet.iconlabel.js'></script>
 </head>
 
 <body>

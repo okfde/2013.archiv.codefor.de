@@ -2,10 +2,10 @@
 layout: story
 color: red #one of: red, blue, green, cyan
 pattern: 2 #one of: 1, 2, 3, 4 
+og-image: /assets/stories/magdego-hero.jpg # used for facebook & twitter card
 
-title: MagdeGo
-subline: Nahverkehr, schnell und einfach.
 
+title: MagdeGo - Nahverkehr, schnell und einfach.
 where: Magdeburg
 when: Juni, 2015
 links: # first one is used in subline

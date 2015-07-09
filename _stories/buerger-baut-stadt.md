@@ -2,10 +2,9 @@
 layout: story
 color: blue #red, blue, green, cyan
 pattern: 1 #one of: 1, 2, 3, 4
+og-image: /assets/stories/bbs-hero.jpg # used for facebook & twitter card
 
-title: Bürger baut Stadt
-subline: Mitbestimmung statt Baubestimmung
-
+title: Bürger baut Stadt - Mitbestimmung statt Baubestimmung
 where: Berlin
 when: Juni, 2015
 links: # first one is used in subline

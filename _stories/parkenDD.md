@@ -2,10 +2,10 @@
 layout: story
 color: green #red, blue, green, cyan
 pattern: 3 #one of: 1, 2, 3, 4 
+og-image: /assets/stories/parkendd-hero.jpg # used for facebook & twitter card
 
-title: ParkenDD 
-subline: Vorausschauendes Parken in Dresden
 
+title: ParkenDD - Vorausschauendes Parken in Dresden
 where: Dresden
 when: Juni, 2015
 links: # first one is used in subline
