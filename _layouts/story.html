@@ -24,7 +24,7 @@ layout: base
       </h1>
       <p class="story--header--meta"> {{ page.where }} / {{ page.when }} / 
         {% for link in page.links | limit: 1 %}
-          <a href="{{ website.url }}">{{ link.name }}</a>
+          <a href="{{ link.url }}">{{ link.name }}</a>
         {% endfor %}
       </p>
     </div>
