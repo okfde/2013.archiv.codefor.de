@@ -917,7 +917,7 @@ $date-circle: 80px;
 =            Stories            =
 ===============================*/
 
-.story-teaser--image, .story--head {
+.story-teaser--image, .story--head, .hero-pattern {
 	
 	a {
 		text-decoration: none;
@@ -1032,7 +1032,7 @@ $date-circle: 80px;
 	}
 
 	svg {
-		height: initial;
+		height: 100%;
 		width: 200%;
 		-webkit-transform: translateX(-25%);	
 		transform: translateX(-25%);
@@ -1057,8 +1057,6 @@ $date-circle: 80px;
 		left: 0;
 	}
 }
-
-
 
 
 // IE responsive SVG fix
