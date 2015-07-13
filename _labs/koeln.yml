@@ -16,6 +16,10 @@ members:
   username-github: marcel12bell
   username-twitter: MarcelBelledin
 
+- name: Patricia Ennenbach
+  username-github: P3nny
+  username-twitter: pen1710
+
 - name: Ingrid Bluoss
   username-github: datenvisualisierung
 
@@ -47,3 +51,6 @@ links:
 leads:
 - name: Marcel Belledin
   url: mailto:info@codingcologne.de
+
+- name: Patricia Ennenbach
+  url: mailto:ennenbach@worthandlung.de
