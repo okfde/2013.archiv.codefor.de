@@ -5,6 +5,7 @@ rvm:
 script:
 - script/cibuild
 sudo: false
+cache: bundler
 branches:
   only:
   - gh-pages
