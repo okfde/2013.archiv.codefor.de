@@ -4,6 +4,7 @@ rvm:
   - 2.1.2
 script:
 - script/cibuild
+sudo: false
 branches:
   only:
   - gh-pages
