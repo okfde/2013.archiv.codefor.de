@@ -1,0 +1,25 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@codeforde" />
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+
+{% if page.layout == 'story' %}
+	{% assign description = page.lead %}
+{% else %}
+	{% if page.og-description %}
+		{% assign description = page.og-description | strip_html | strip_newlines %}
+	{% else %}
+		{% assign description = site.description | strip_html | strip_newlines %}
+	{% endif %}
+{% endif %}
+
+<meta property="og:description" content="{{ description }}">
+
+{% if page.og-image %}
+<meta property="og:image" content="{{ page.og-image | prepend: site.url }}" />
+{% else %}
+<meta content="/img/CFG_logo.png" property="og:image">
+{% endif %}
+
+

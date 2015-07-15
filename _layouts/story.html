@@ -1,0 +1,105 @@
+---
+layout: base
+
+---
+<div class="story story__{{ page.color }}">
+  <div class="story--head">
+    <div class="story--pattern">
+      <div class="story--pattern-wrap">
+        {% case page.pattern %}
+            {% when 1 %}
+              {% include inline-svg/story_wallpaper_1.svg %}
+            {% when 2 %}
+              {% include inline-svg/story_wallpaper_2.svg %}
+            {% when 3 %}
+              {% include inline-svg/story_wallpaper_3.svg %}
+            {% else %}
+              {% include inline-svg/story_wallpaper_1.svg %}
+        {% endcase %}
+      </div>
+    </div>
+    <div class="story--header">
+      <h1 class="story--header--title">
+        {{ page.title }}
+      </h1>
+      <p class="story--header--meta"> {{ page.where }} / {{ page.when }} / 
+        {% for link in page.links | limit: 1 %}
+          <a href="{{ link.url }}">{{ link.name }}</a>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="story--header--hero">
+        {% for image in page.header-images | limit: 1 %}
+          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
+          <p class="caption"> {{ image.caption }} </p>
+        {% endfor %}
+    </div>
+  </div>
+  <div class="container story--container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">  
+        <div class="story-wrapper fond__white">
+          <div class="text__{{ page.color }} story--lead">
+              {{ page.lead | markdownify }}
+          </div>
+          {% if page.embed %}
+          <div class="story--embed">
+              {{ page.embed }}
+          </div>
+          {% endif %}
+          <div class="story--body clearfix">
+              {{ content }}
+          </div>
+        </div>
+
+        {% if page.links %}
+        <div class="story--links">
+          <h3 id="links"> Links </h3>
+          <ul class="list-unstyled">
+            {% for link in page.links %}
+            <li>
+              <a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if page.members %}
+          {% assign members = page.members %}
+          <div class="story--members">
+            <h3 id="members"> Mitglieder </h3>
+            {% include members-list.html %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/lib/fluidvids.min.js"></script>
+<script src="/js/lib/snap.svg-min.js"></script>
+<script src="/js/lib/velocity.min.js"></script>
+<script src="/js/SVGanim.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+
+      fluidvids.init({
+        selector: ['iframe', 'object'], // runs querySelectorAll()
+        players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+      });
+
+    var responsive_viewport = $(window).width();
+    
+    if(responsive_viewport >= 481){
+      var svganim = new SVGanim();
+      svganim.init({
+          'svgSelector' : '.story--pattern svg',
+          'iconGroupSelector' : '#Ebene_1 > g',
+          'centerRatioX' : 0.5,
+          'centerRatioY' : 0.22
+        });
+      }
+    });
+</script>

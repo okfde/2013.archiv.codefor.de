@@ -10,25 +10,24 @@
         speed_add: 55,
         speed_remove: 15,
         delay_before_fadein: 500,
-        delay_before_start: 500,
+        delay_before_start: 3000,
         delay_before_add: 500,
-        delay_before_remove: 3000,
-        headline : 'Stadt<span class="text__red">&lt;</span>entwickler <span class="text__red">/&gt;</span>*<br>',
-        claims: ["nutzen offene Daten um ihre Stadt zu verbessern",
-                 "bauen Digitale Werkzeuge für ihre Community",
-                 "entwickeln Civic Tech für ihre Stadt"
-                ]
+        delay_before_remove: 3000
     }
 
-    var ref, headline, $container, $subline, index, initialText, $animationWrapper, $header, $beneath, $cookie,
-        currentText, currentIndex, currentState, interval, markerText, fadeInSite,
+    var ref, headline, $container, $subline, index, initialText, $header, $beneath, $cookie,
+        currentText, currentIndex, currentState, interval, markerText,
         initialized, minHeight, faq_open, resetting;
     function Application(){
         ref = this;
     };
 
-    Application.prototype.init = function()
-    {
+    Application.prototype.init = function( pHeroData )
+    {   
+
+        ref.headline = pHeroData.headline;
+        ref.claims = pHeroData.claims;
+
         if (!Modernizr.svg) {
             $(".navbar-brand img").attr("src", "img/logo.png");
         }
@@ -38,25 +37,16 @@
         });
 
         index = 0;
-        $container = $('.animated-claim', '.container');
-        $subline = $('.cta-sub', '.container');
-        $animationWrapper = $('#animation-wrapper','.container');
+        $container = $('.animated-claim', '.hero-container');
+        $subline = $('.cta-sub', '.hero-container');
+        
         headline = ref.headline;
+        currentIndex = ref.claims[0].split('').length;
         initialized=false;
-
-        $header = $('.navbar');
-        $beneath = $('.beneath-sections')
 
         minHeight = $container.outerHeight();
         $container.css({minHeight: minHeight});
-        $animationWrapper.css({minHeight: $animationWrapper.outerHeight()});
-
         initialText = $container.html();
-
-        $container.html(headline);
-
-        $container.css('display','none');
-        $subline.css('display','none');
 
         $(window).resize(function() {
             resetting=true;
@@ -67,25 +57,10 @@
         setTimeout(function() {
             $container.fadeIn( 'slow', function(){
                 setTimeout(function() {
-                    ref.displayClaim();
+                    ref.removeClaim();
                 }, ref.delay_before_start);
             });
         }, ref.delay_before_fadein);
-
-        //
-        // $.removeCookie('cfa_intro_cookie');
-        $cookie = $.cookie('cfa_intro_cookie');
-
-        if($cookie){
-
-        } else {
-            //no cookie yet
-            $.cookie('cfa_intro_cookie', true, { expires: 7 });
-            $header.addClass('init-hidden');
-            $beneath.addClass('init-hidden');
-            fadeInSite=true;
-        }
-
 
     };
 
@@ -107,15 +82,7 @@
 
 
     }
-
-    Application.prototype.fadeInSite = function()
-    {
-        if(fadeInSite){
-            $header.removeClass('init-hidden').addClass('fadeInDown');
-            $beneath.removeClass('init-hidden').addClass('fadeInUp');
-        }
-    }
-
+    
     Application.prototype.displayClaim = function()
     {
         currentText = ref.claims[index].split('');
@@ -141,7 +108,6 @@
                 if(!initialized){
                     $subline.fadeIn( 'slow', function(){
                         initialized=true;
-                        ref.fadeInSite();
                         setTimeout(function() {
                             ref.removeClaim();
                         }, ref.delay_before_remove);
@@ -176,8 +142,10 @@
         currentState = remains;
 
         $container.html(headline + remains + '<span class="marker">' + markerText + '</span>');
+        
         currentIndex--;
-        if(currentIndex== 0){
+
+        if(currentIndex == 0){
             clearInterval(interval);
             setTimeout(function() {
                 if(index < ref.claims.length-1){ index++;} else index = 0;

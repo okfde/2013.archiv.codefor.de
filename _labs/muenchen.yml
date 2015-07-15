@@ -85,6 +85,15 @@ members:
   username-github: schnuko
   username-twitter: schnuko
 
+- name: Tobias Hößl
+  username-twitter: tobiasHoessl
+  username-github: catoth
+
+- name: Konstantin Schütze
+  username-twitter: konstinx
+  username-github: konstin
+
+
 links:
 - name: Orga-Pad
   url: http://pad.okfn.org/p/oklab-muc
