@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Bonn
 name: Treffen und Hacking
-date: 2015-07-16 #YYYY-MM-DD
+date: 2015-08-20
 time: 19-21 Uhr
-location: Biergarten "Am alten Zoll", Brassertufer
+location: Stadthaus Bonn, Sitzungsraum 1/2, Berliner Platz 2, D-53111 Bonn
 link-url: http://www.meetup.com/OKLab-Bonn/
 ---
