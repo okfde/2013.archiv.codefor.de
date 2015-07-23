@@ -101,7 +101,7 @@
           {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
           {% assign urllength = page.url | size %}
 	  {% case topdir %}
-          {% when 'blog' or 'presse' or 'impressum' or 'ressourcen' or 'stadtgeschichten' %}
+          {% when 'blog' or 'presse' or 'impressum' or 'ressourcen' %}
             <a href="/en/">EN</a>
           {% when 'projekte' %}
             {% if urllength > 25 %}

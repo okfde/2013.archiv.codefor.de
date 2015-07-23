@@ -26,3 +26,6 @@ collections:
   stories:
     output: true
     permalink: /stadtgeschichten/:path/
+  stories_en:
+    output: true
+    permalink: /en/stadtgeschichten/:path/
