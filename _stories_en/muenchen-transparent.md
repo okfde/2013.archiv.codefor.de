@@ -6,9 +6,9 @@ pattern: 4 #one of: 1, 2, 3, 4
 og-image: /assets/projects/muenchen/Muenchen-Transparent.png # used for facebook & twitter card
 
 
-title: EN München Transparent - Kommunalpolitik leicht gemacht
-where: München
-when: Juni, 2015
+title: Munich Transparent – Local Politics Made Easy
+where: Munich
+when: June, 2015
 links: # first one is used in subline
 - name: www.muenchen-transparent.de
   url: https://www.muenchen-transparent.de/
@@ -20,7 +20,7 @@ header-images: #use 3:2 proportioned image
 - src: /assets/projects/muenchen/Muenchen-Transparent.png
   alt: Die Website von München Transparent
 
-lead: Tobias Hößl hat sich über das Ratsinformationssystem der Stadtverwaltung geärgert. Daraufhin baute er seine eigene Website, die viele wichtige Funktionen liefert. Inzwischen ist das Projekt eine Transparenz-Plattform für ganz München geworden. Die Nutzer sind begeistert.
+lead: Tobias Hößl was annoyed by the local administration's council information system. He decided to make his own website that provided crucial features. This project has now become a platform for transparency in Munich. The users are thrilled.
 
 members:
 - name: Tobias Hößl
@@ -36,29 +36,31 @@ members:
   username-github: konstin
 
 ---
-## Das Problem
-Tobias Hößl interessiert sich für Themen in der Kommunalpolitik, die oft nicht in der Presse diskutiert werden. Open Source Programme für die Stadtverwaltung zum Beispiel. Die Anträge dazu kann man sich aber im Internet ansehen, denn die Stadt München stellt  bestimmte Verwaltungsdokumente öffentlich zur Verfügung. Das geschieht durch ein Ratsinformationssystem (RIS).
+## The Problem
 
-Das RIS von München ist seit zwölf Jahren online. Dort kann man Beschlüsse, Anfragen und Sitzungsvorlagen vom Stadtrat direkt ansehen. Doch was 2003 gut gemeint war, ist heute wenig hilfreich: die Volltextsuche erfasst keine eingescannten Dokumente, man kann den Prozess um einen Antrag nicht wirklich verfolgen, und allgemein ist das Portal sehr unübersichtlich. Daher musste Tobias monatelang eine Linkliste in Textform pflegen.  „Und das ist eben die Situation, wo sich dann schon so etwas wie der ‘innere Nerd’ in mir rührt und ‘das kann ich besser!’ ruft.“
+Tobias Hößl is interested in local political issues, for instance open source programs for the city administration. Even though these issues are being discussed in the local government, they are not always talked about in the media. The current proposals, however, are available on the internet, since the City of Munich has made certain administrative documents publicly available. This is done via a council information system (CIS).
 
-## Die Idee
-Am Anfang wollte Tobias nur einen kleinen RSS-Feed für den Eigenbedarf – das ist ein Dienst, der einen über bestimmte Änderungen auf einer Website benachrichtigt. “Das war dann doch komplizierter als gedacht, und nachdem schon eine ganze Menge an Arbeit reingeflossen ist, dachte ich, das ganze doch gleich auch als etwas Öffentliches aufzuziehen, von dem auch andere etwas haben.” So entstand nach und nach eine komplette Website, die nicht nur funktional ist, sondern auch gut ausschaut. Bei Code for München gab es viel Unterstützung von Mitstreitern, und natürlich auch Druck, das Projekt tatsächlich irgendwann zu veröffentlichen.
+The CIS of Munich has been online for twelve years now. Orders, inquiries, and session papers from the City Council are directly accessible. But what was a well-meaning attempt for more openness in 2003 is now less helpful: the full-text search does not include scanned documents, and it's almost impossible to follow the decision process of any particular application. In general, the portal is not very user friendly. Tobias had to maintain a list of links as a text file for months just to stay informed. "And that's the situation in which my 'inner nerd' awakened and said, 'I can do better!'"
 
-Das Ergebnis ist beeindruckend. Ihre Website lädt die Datensätze vom RIS täglich herunter und präsentiert sie so, dass man gut damit arbeiten kann. Die neue Seite bietet einen Überblick von aktuellen und vergangenen Terminen und eine Liste aller KommunalpolitikerInnen mit ihren entsprechenden Social Media Links. Die Volltextsuche kann nun auch eingescannte Dokumente lesen. Was das System einzigartig macht: man kann sich durch E-Mail-Benachrichtigung über neue Anträge und Anfragen informieren, und auch darüber, ob Anfragen beantwortet wurden bzw. wann es zu einem konkreten Antrag eine Entscheidungsvorlage gibt. Die Unterlagen werden zudem auf einer Karte abgebildet – so weiß man sofort, was gerade im Kiez beschlossen wird.
+## The Idea
 
-## Eine Überraschung
-Jahrelang hat Tobias versucht, das Projekt mit der Stadtverwaltung abzusprechen. Das war ein zäher Prozess und hat der Motivation viel geschadet. Doch dann hat Tobias aufgehört, auf die Stadtverwaltung zu warten: „Das hätte ich vermutlich gleich von Anfang an machen sollen.“
+Initially Tobias only wanted a small RSS feed for personal use - that's a service that notifies subscribers of certain changes on a website. "That became more complicated than expected, and after a lot of work had gone in, I thought I might as well make it public so more people can benefit from it." Gradually, a complete website came to life, functional and beautifully designed. Code for Munich offered manpower and of course, pressure to eventually publish the project.
 
-Doch dann kam eine Überraschung: neue Gesichter aus der Stadtverwaltung besuchten eines Tages das [OK Lab München](../../muenchen/) So ging die Zusammenarbeit doch noch voran. Dass MitarbeiterInnen sich für Open Data und Programmieren interessieren, sei aber eher ein glücklicher Zufall, meint Tobias.
+Their result is impressive. The site downloads all records from the CIS daily and presents them in a clear and workable format. The new platform provides an overview of past and current appointments, and a list of local politicians with their respective social media links. The full-text search now incorporates scanned documents. What's unique to this system: users can be notified by e-mail of new requests and inquiries that concern them. It also allows them to follow whether and when inquiries were answered, and informs them of existing decision papers. The documents are also displayed on a map, so one can see immediately what is being decided in a neighborhood.
+
+## A Surprise
+
+For years Tobias tried to work with the city administration on the project. It was a long and tiring process, and didn't exactly help with the motivation. Eventually, Tobias decided to stop waiting for the city council: "I should probably have done that from the very beginning."
+
+To his surprise, however, new employees of the municipality visited the OK Lab Munich one day. This enabled a cooperation between the Lab and the City Council after all. While Tobias applauds this new development, he adds that it is more of a lucky coincidence and certainly not common.
+
+## The Insight
 
 <blockquote>
-  <p>Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.</p>
+  <p>I think that alone is worth something, that such public discussions are better informed through our platform.</p>
   <footer>Tobias H.</footer>
 </blockquote>
 
-## Die Einsicht
-Das Projekt trägt direkt zu mehr Transparenz in der Kommunalpolitik bei. „Transparenz ist ja die Voraussetzung für effektive Bürgerbeteiligung,“ sagt Tobias. München Transparent wird oft als Quelle verlinkt, gerade in Blogs und Foren, bei denen Sachthemen diskutiert werden – etwa zu Fahrradwegen und zum Erhalt denkmalschutzwürdiger Altbauten. „Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.“
+The project has contributed to greater transparency in local politics. "Transparency is a prerequisite for effective citizen participation," says Tobias. Munich Transparent is often linked as a source, especially in blogs and forums where specific local issues are discussed (for example: protection of monuments or bike paths). "I think that alone is worth something, that such public discussions are better informed through our platform."
 
-Für die Zukunft erhoffen sich Tobias und seine MitstreiterInnen einen neuen Standard für die deutschlandweiten RIS. Da wäre unter anderem das Projekt [OParl](http://oparl.org/), das nun bald eine erste Version herausgeben wird.
-
-
+For the future, Tobias and his colleagues hope to set a new standard for all German CISs. One example is OParl, which will release its first version soon.
