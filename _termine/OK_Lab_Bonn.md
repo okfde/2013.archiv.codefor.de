@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Bonn
 name: Treffen und Hacking
-date: 2015-08-20
+date: 2015-08-19
 time: 19-21 Uhr
-location: Stadthaus Bonn, Sitzungsraum 1/2, Berliner Platz 2, D-53111 Bonn
+location: Ermekeilkaserne, Eingang bei den Gärten in der Ermekeilstraße
 link-url: http://www.meetup.com/OKLab-Bonn/
 ---
