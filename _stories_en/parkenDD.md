@@ -6,9 +6,9 @@ pattern: 3 #one of: 1, 2, 3, 4
 og-image: /assets/stories/parkendd-hero.jpg # used for facebook & twitter card
 
 
-title: EN ParkenDD - Vorausschauendes Parken in Dresden
+title: ParkenDD - Efficient Parking in Dresden
 where: Dresden
-when: Juni, 2015
+when: June, 2015
 links: # first one is used in subline
 - name: jkliemann.de/parkendd
   url: http://jkliemann.de/parkendd/
@@ -51,23 +51,21 @@ members:
   username-twitter: balzer82
 
 ---
-
-## Die Idee 
-Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.
-Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der Stadt betrifft alle“, sagt der Software-Entwickler Paul Balzer. So kam die Idee einer App auf, die freie Parkplätze in den Parkhäusern der Stadt anzeigt.
+## The Idea
+The OK Lab team in Dresden wanted to show what open data can do. After all, the topic is quite abstract for most people. Therefore, they focused on something ordinary: transportation.
+Many people use cars on a regular basis and thus depend on parking spaces. "Parking in the city concerns everybody", says Paul Balzer, software developer. This is how the idea of ​​an app that indicated free parking spaces in Dresden's car parks came up.
 
 <blockquote>
-  <p>Wir haben selbst Open Data gemacht.</p>
+  <p>We have made ourselves open data, so to say.</p>
   <footer>Paul B.</footer>
 </blockquote>
 
 
-## Das erste Hindernis 
-Die Stadt veröffentlicht zwar die Zahlen über freie Parkhaus-Plätze auf ihrer Seite, aber nicht in der Form, wie das Team sie brauchte: Die Daten sind nicht maschinenlesbar. „Wir haben ein Programm geschrieben, das diese Zahlen von der Webseite der Stadt runterholt und speichert“, sagt Paul. “Wir haben uns daraus selbst Open Data gemacht.“ Er geht davon aus, dass die Stadt die Datenabfragen einfach duldet. Das Team hat noch mehr geleistet: nicht nur werden die Daten angezeigt, sie werden auch durch ein Programm analysiert und visualisiert. Ihr Vorhersagemodell kann dadurch die Belegung eines Parkhauses in Zukunft sogar vorherzusagen.
+## The First Obstacle
+Although the city releases the figures for free parking places, they weren't presented in the format that the team needed. "We wrote a program that downloads and stores the figures from the city's website," says Paul. "We have made ourselves open data, so to say." He believes that the city tolarates these data queries. What's more: not only are the data displayed, they are also analyzed and visualized by a software. Their model can even predict the availability of a parking space in the future.
 
-## Guter Tipp
-Teamarbeit „Die Leute hatten einfach Bock darauf“, sagt Paul. Die ParkenDD-App gibt es inzwischen für iPhones und Android-Handys, die Teammitglieder hängten sich jeweils in ihren Fachgebieten rein. „Jeder hat einen kleinen Teil übernommen, wie ein Zahnrädchen“, erzählt Paul. Eine Freundin übersetzte die App sogar auf Tschechisch, damit Touristen aus der nahen Grenzregion besser durch die Stadt kommen.
+## Good Tips
+Teamwork. "The people just wanted in," says Paul. The ParkenDD app is now available for both iOS and Android phones. The team members each drew from their areas of expertise: "Everyone took a small part, like a toothed wheel." A friend even translated the app into Czech, so that tourists from the nearby border region can better come through town.
 
-## Der nächste Schritt
-Paul wünscht sich mehr Daten, mit denen Programmierer direkt arbeiten können: „Manche sagen, ich seh's doch im Internet, es ist doch offen.“ Doch mit einem PDF-Dokument fängt die Arbeit für Entwickler erst an. Schließlich liest ein Programm Daten anders als eine Person es tut. „Wir verwenden 80 Prozent unserer Zeit dafür, das maschinenlesbar zu machen“, sagt Paul. Eine technische Schnittstelle würde viel weiterhelfen: „Da schickst du eine Anfrage hin und bekommst eine Antwort.“
-Das würde die Arbeit verkürzen und mehr Möglichkeiten für interessante Ideen öffnen. „Sowas wie die Mittelvergabe bei der EU oder ein Haushalt einer Stadt, oder die Auftragsvergabe – man könnte wunderbare Visualisierungen erstellen, was wohin fließt. Das ware möglich, wenn es maschinenlesbare Schnittstellen gäbe.“
+## The Next Step
+Paul wants more data with which programmers can work directly: "Some might say, 'but I see it on the internet, it's open!'" But a PDF document is merely the starting point for developers. Ultimately, a program reads data differently from a person. "We use 80 percent of our time to make things machine-readable," says Paul. A technical interface would help immensely: "You send a request, and get a reply." That would decrease the work and open up more opportunities for interesting ideas. "Something like the allocation of funds in the EU, budgeting for a city, or perhaps an overview of comissions - you could create wonderful visualizations for cash flows. That would be possible if there were better machine interfaces."
