@@ -20,7 +20,7 @@ header-images: #use 3:2 proportioned image
   alt: Magdalena Noffke, Elektrischer Reporter
   caption: Magda © Elektrischer Reporter
 
-lead: Magdalena Noffke and her team wanted to know what exactly was being built in their neighbourhood. Though the information is public, it isn't easily accessible. So they built a website that showed all construction plans for Berlin. Pretty neat, we think!
+lead: Magdalena Noffke and her team wanted to know what exactly was being built in their neighbourhood. Though the information is public, it isn't easily accessible. So they created a website that showed all construction plans for Berlin. Pretty neat, we think!
 
 embed: <iframe src="https://player.vimeo.com/video/65678345?color=004cff&title=0&byline=0&portrait=0" width="610" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -42,7 +42,7 @@ members:
 
 ---
 ## The Idea
-Construction sites open up in Berlin all the time. Whenever that happens in a neighbourhood, residents would like to learn what exactly is being built. This is what prompted Magdalena Noffke and her fellow activists to inquire into official documents concerning construction plans. But that was not at all simple. Much information is indeed publicly available. Yet availability and accessibility are not the same: the information is hidden in official journals that are scanned and uploaded, which means they cannot be searched.
+Construction sites open up in Berlin all the time. Whenever that happens in a neighbourhood, residents would no doubt like to learn what exactly is being built. This is what prompted Magdalena Noffke and her fellow activists to inquire into official documents concerning construction plans. But that was not at all simple. Though the information is publicly available, it is buried in official journals that are scanned and uploaded, which means they cannot be searched. Availability unfortunately doens't imply accessibility.
 
 ## The Insight
 
@@ -58,10 +58,10 @@ Presenting all construction projects on a single website. By entering your email
 <blockquote>
   <p>It all sounds so complicated that it scares off citizens.</p>
   <footer>Magdalena N.</footer>
-</blockquote> 
+</blockquote>
 
 ## Worst Jargon
-"Bebauungsplanverfahren" (zoning procedure). Construction plans are presented in a terrible administrative jargon. This word simply means that an area is designated for a specific use, for example as a residential or commercial area. If changes are made to the zoning, citizens have a right to participate in the decision-making process. "It's not that complicated, actually," says Magdalena, "but it all sounds so complicated that it scares off citizens."
+"Bebauungsplanverfahren" (zoning procedure). Construction plans are presented in a terrible administrative jargon. This word simply means to designate a specific use for an area, for example a residential or commercial use. If changes are made to the zoning, citizens have a right to participate in the decision-making process. "It's not that complicated, actually," says Magdalena, "but it all sounds so complicated that it scares off citizens."
 
 ## The Next Step
-The construction projects can now be found easily. Next, Magdalena wants to make participation easy as well. To do so, she wants to create a template that allows citizens to effectively communicate their input on scheduled construction projects. The platform would automatically forward these comments to the corresponding offices.
+The construction projects can now be found easily. Next, Magdalena wants to make participation easy as well. To do so, she wants to create a template that allows citizens to effectively communicate their input on scheduled construction projects. The platform would automatically forward these comments to the responsible offices.

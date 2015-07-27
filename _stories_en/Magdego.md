@@ -41,20 +41,20 @@ members:
 ---
 
 ## The Idea
-An app for the federal state Saxony-Anhalt that only displays when the next train arrives at the closest stop. This is how MadgeGo, built by Johannes Filter and Rosario Raulin, came to life. Both web and iOS version were ready in early 2015.
+The thought is simple: an app for the federal state Saxony-Anhalt that only shows when the next train or bus arrives at the closest stop. This is how MadgeGo, built by Johannes Filter and Rosario Raulin, came to life. Both web and iOS version were ready in early 2015.
 
 <figure class="portrait right">
   <img src="/assets/stories/magdego-screenshot.png" alt="Screenshot der Magdego App" >
 </figure>
 
 ## Less is More
-The majority of users know where to go and which route to take. "We wanted only the departure times, no frills," says Johannes. The app could no doubt get more features, but the minimalist design is precisely its strength.
+The majority of users know where to go and which route to take. "We wanted only the departure times, no frills," says Johannes. The app could no doubt get more features, he says, but the minimalist design is precisely its strength.
 
 ## Annoying Detours
-Johannes and Rosario had to find the data first. That took more time than expected because the original API of the transportation services from Magdeburg had been shut down. So they pulled the information from the public timetable information in Saxony-Anhalt, INSA.de. What they then found out: the developers of the Öffi app for busses and trains had compiled a list of data sources on Github. "We could have saved ourselves a lot of work, if only we had known," says Johannes.
+First, Johannes and Rosario had to find the data. That took longer than expected because the original API of the transportation services from Magdeburg had been shut down. So they pulled the information from the public timetable system in Saxony-Anhalt, INSA.de. What they then found out: the developers of the Öffi app for busses and trains had compiled a list of data sources on Github. "We could have saved ourselves a lot of work, if only we had known," says Johannes.
 
 <blockquote>
-  <p>If the data is openly available, they can build the apps themselves. That's the advantage.</p>
+  <p>If the data is openly available, citizens can build the apps themselves. That's the advantage.</p>
   <footer>Johannes F.</footer>
 </blockquote>
 
@@ -62,4 +62,4 @@ Johannes and Rosario had to find the data first. That took more time than expect
 Imitation. A similar app existed before, but the project was put to a halt. "We thought we can do better," says Johannes. Meanwhile their app is downloaded 10 to 20 times a day.
 
 ## What doesn't
-Talking about open data. "Open data is very abstract," says Johannes. An example like this can help illustrate the idea. Consider the programmers who use public transport and get an idea for a web service... "If the data is openly available, they can build the apps themselves. That's the advantage."
+Talking about open data. "Open data is very abstract," says Johannes. An example like this can help illustrate the idea. Consider the programmers who use public transport and get an idea for a web-based service. "If the data is openly available, they can build the apps themselves. That's the advantage."
