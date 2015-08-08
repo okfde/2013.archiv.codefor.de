@@ -23,7 +23,7 @@ offenen Daten oft als Argument heran gezogen werden muss, um Entscheidungsträge
 zu überzeugen. Herr Askar stellt sich vor, dass auf jeder Bezirkswebseite ein
 eigener Bereich für Daten existieren könnte. Dann würde das Datenportal diese
 Daten einfach katalogisieren. Von den 12 Berliner Bezirken hat nur Steglitz-
-Zehlendorf mit Christian Hanuscke einen eigenen Open Data Beauftragten.
+Zehlendorf mit [Christian Hanuschke][christian-hanuschke] einen eigenen Open Data Beauftragten.
 
 # Erste Taten und Ziele
 
@@ -134,3 +134,4 @@ mit der Verabschiedung des E-Government-Gesetzes zeitnah stattfinden.
 [daniel-dietrich-twitter]: https://twitter.com/ddie
 [boddy]: http://berlin.opendataday.de
 [internationaler-open-data-day]: /blog/open-data-day-de
+[christian-hanuschke]: http://www.stadtrand-nachrichten.de/wordpress/das-unbekannte-bezirksamt-christian-hanuschke-herrscht-als-internetbauftragter-uber-imperia-9/
