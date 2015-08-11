@@ -68,7 +68,13 @@ layout: base
         {% if page.members %}
           {% assign members = page.members %}
           <div class="story--members">
-            <h3 id="members"> Mitglieder </h3>
+            <h3 id="members"> 
+              {% if page.lang == 'en' %}
+                Members
+              {% else %} 
+                Mitglieder
+              {% endif %}
+            </h3>
             {% include members-list.html %}
           </div>
         {% endif %}
