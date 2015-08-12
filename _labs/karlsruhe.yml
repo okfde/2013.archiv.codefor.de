@@ -9,24 +9,6 @@ h4c: true
 
 members:
 
-- name: Olf
-  username-github: olf42
-  username-twitter: trollofix
-
-- name: Kai
-  username-github: kawie
-  username-twitter: kawie
-
-- name: Torf
-  username-github: torfuspolymorphus
-  username-twitter: torfsen
-
-- name: JackMcCrack
-  username-github: jackmccrack
-  username-twitter: JackMcCrack
-
-- name: Antonina
-
 links:
 
 - name: Mailingliste
