@@ -1,6 +1,6 @@
 ---
 layout: story
-color: green #red, blue, green, cyan
+color: red #red, blue, green, cyan
 pattern: 3 #one of: 1, 2, 3, 4 
 og-image: /assets/stories/parkendd-hero.jpg # used for facebook & twitter card
 
@@ -20,6 +20,9 @@ links: # first one is used in subline
 
 - name: Bericht in der Sächsischen Zeitung
   url: http://www.sz-online.de/nachrichten/studenten-helfen-bei-der-parkplatzsuche-3128007.html
+
+- name: Abgeordnetenwatch für Wuppertal
+  url: https://www.abgeordnetenwatch.de/oberb%C3%BCrgermeisterwahl%20nrw/profile?field_user_constituency_tid=19705
 
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/parkendd-hero.jpg
