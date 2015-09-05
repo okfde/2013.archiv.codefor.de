@@ -15,7 +15,10 @@ members:
 
 - name: Stefan Wehrmeyer
   username-github: stefanw
-  username-twitter: stefanwehrmeyer‎
+  username-twitter: stefanwehrmeyer
+
+- name: Lucas Jacob
+  username-github: LucasJ
 
 - name: Magdalena Noffke
   username-github: MagdaN
@@ -174,6 +177,10 @@ members:
 - name: Katharina Albers
   username-github: fuzzylogic2000
   username-twitter: fuzzylogic2020
+
+- name: Zhuo-Fei Hui
+  username-github: zfhui
+  username-twitter: zfhui
 
 
 links:

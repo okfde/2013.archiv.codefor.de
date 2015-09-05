@@ -2,7 +2,7 @@
 
 # CodeFor.de
 
-These are the source files for the [Code for Germany Website](http://codefor.de).  
+These are the source files for the [Code for Germany Website](http://codefor.de).
 This readme will guide you to use them and collaborate with us on its contents.
 
 <!-- [TOC] TODO: Jekyll TOC Plugin -->
@@ -16,7 +16,7 @@ on your shell interpreter (*console*, *terminal*, *command line*, *REPL*),
 
     $ git clone https://github.com/okfde/codefor.de.git
 
-You can also append another ` foldername` of your desire to the command.  
+You can also append another ` foldername` of your desire to the command.
 Then change into the folder, i.e.:
 
     $ cd codefor.de
@@ -26,7 +26,7 @@ Then change into the folder, i.e.:
 
 ## Meeting Jekyll + Ruby
 
-Now it is about time to install the required gems.  
+Now it is about time to install the required gems.
 There are several ways to accomplish this.
 
 ### Ruby
@@ -159,7 +159,7 @@ dependencies.
 ## Some words about Projects
 
 Text on project teasers is cut off after `\n\n`. Alternatively, include a dedicated `excerpt: "<TEXT>"`
-in the frontmatter to override.  
+in the frontmatter to override.
 Images are crop-centered. You can fine tune their appearance by providing a specific crop image
 through `imgname-teaser: "<[RELATIVE] PATH TO IMAGE>"` in the same frontmatter.
 

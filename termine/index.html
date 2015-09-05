@@ -10,33 +10,25 @@ title: "Termine"
       <h3>{{ page.title }}</h3>
       <p>Hier findet ihr eine Übersicht aller Termine zu Treffen der Labs in den einzelnen Städten.</p>
 
-      {% assign events = site.termine | sort: 'date' %}
-
       <div class="row">
 
-      {% assign i = 0 %}
+      {% assign events = site.termine | sort: 'date' %}
+      {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
+
       {% for event in events %}
 
         {% assign date = event.date | date: '%s' %}
-        {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
 
         {% unless date < now %}
-          <div class="col-lg-6" >
+          <div class="col-lg-6">
             {% include event.html %}
           </div>
 
-          {% assign even = i | modulo:2 %}
-
-          {% if even == 1 %}
-            {% comment %} Unless it is the last iteration {% endcomment %}
-            {% unless forloop.last %}
-              </div><div class="row" >
-            {% endunless %}
-          {% endif %}
           {% if forloop.last %}
-          </div>
+            </div>
+          {% else %}
+            {% cycle '', '</div><div class="row" >' %}
           {% endif %}
-          {% assign i = i | plus: 1 %}
 
         {% endunless%}
       {% endfor %}

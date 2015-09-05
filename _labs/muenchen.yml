@@ -2,23 +2,32 @@
 key: muenchen
 title: OK Lab München
 lab: OK Lab München
-## muCCC, Schleißheimer Str.
-lat: 48.153701 
-long: 11.560801
+lat: 48.1442919
+long: 11.5683318
 markerposition: right
 
 ## LMU Oettingenstr
-#lat: 48.150638 
+#lat: 48.150638
 #long: 11.594601
+
 ## Werk1
-#48.125022947 11.605757474
+#lat: 48.125022947
+#long: 11.605757474
+
+## Münchner Merkur
+#lat: 48.1442919
+#long: 11.5683318
+
+## muCCC, Schleißheimer Str.
+#lat: 48.153701
+#long: 11.560801
 
 
-members: 
+members:
 
 - name: Marcus Dapp
   username-github: digisus
-  username-twitter: digisus 
+  username-twitter: digisus
 
 - name: Matt Fullerton
   username-github: mattfullerton
@@ -27,23 +36,23 @@ members:
 - name: Jan-Christoph Borchardt
   username-github: jancborchardt
   username-twitter: jancborchardt
-  
+
 - name: Dora Dzvonyar
   username-github: dzdora
   username-twitter: dzdorie
-  
+
 - name: Sebastian Rehm
   username-github: bastiRe
   username-twitter: _bastiRe
-  
+
 - name: Birgit Fullerton
   username-github: birgitfullerton
   username-twitter: bbfullerton
-  
+
 - name: Andreas Hubel
   username-github: saerdnaer
   username-twitter: saerdnaer
-  
+
 - name: Benedikt Köhler
   username-github: furukama
   username-twitter: furukama
@@ -59,14 +68,14 @@ members:
 - name: Bernd Oswald
   username-github: nepomunich
   username-twitter: berndoswald
-  
+
 - name: Gerald Maurer
   username-github: mwebtechnik
-  username-twitter: mwebtechnik 
-  
+  username-twitter: mwebtechnik
+
 - name: Maximilian Hackenschmied
   username-github: mazemilian
-  username-twitter: mazemilian 
+  username-twitter: mazemilian
 
 - name: Steffen Kühne
   username-github: stekhn
@@ -75,7 +84,16 @@ members:
 - name: Oliver Schnuck
   username-github: schnuko
   username-twitter: schnuko
-  
+
+- name: Tobias Hößl
+  username-twitter: tobiasHoessl
+  username-github: catoth
+
+- name: Konstantin Schütze
+  username-twitter: konstinx
+  username-github: konstin
+
+
 links:
 - name: Orga-Pad
   url: http://pad.okfn.org/p/oklab-muc
@@ -92,7 +110,7 @@ links:
 leads:
 - name: Bernd Oswald
   url: https://twitter.com/berndoswald
-  
+
 - name: Matt Fullerton
   url: mailto:matt.fullerton@gmail.com
 

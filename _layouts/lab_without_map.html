@@ -58,7 +58,7 @@ layout: base
   {% if event.lab == page.lab %}
     {% assign date = event.date | date: '%s' %}
     {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-    {% unless date < now %}  
+    {% unless date < now %}
       {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
     {% endunless %}
   {% endif %}
@@ -79,7 +79,7 @@ layout: base
         {% if event.lab == page.lab %}
             {% assign date = event.date | date: '%s' %}
             {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-            {% unless date < now %}  
+            {% unless date < now %}
                 <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
                   {% include event.html %}
                 </div>
@@ -144,34 +144,24 @@ layout: base
 
 <!-- Mitglieder-->
 
-{% if page.members %}
-<div class="jumbotron fond__greymid">
-  <div class="container">
-      <div class="row">
-      <h3 id="members"> Mitglieder </h3>
+{% if meta.members %}
+  {% assign members = meta.members %}
+  <div class="jumbotron fond__greymid">
+    <div class="container">
+        <div class="row">
+
+        {% if page.lang == 'en' %}
+        <h3 id="members"> Members </h3>
+        {% else %}
+        <h3 id="members"> Mitglieder </h3>
+        {% endif%}
 
         <div class="col-lg-12">
-        <ul class="list-inline lab-members members clearfix">
-          {% for member in page.members %}
-          <li class="member clearfix">
-            {% if member.username-github %}
-             {% capture image_url %}/img/avatars/{{ member.username-github }}.jpg{% endcapture %}
-            {% else %}
-              {% capture image_url %}/img/contributor_placeholder.svg{% endcapture %}
-            {% endif %}
-             <img src="{{ image_url }}" alt="{{ member.name }}" class="img-circle member-avatar pull-left">
-             <div class="member-info ">
-             {{ member.name }} <br>
-             {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">github:{{ member.username-github }}</a><br> {% endif %}
-             {% if member.username-twitter %}<a href="https://twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
-             </div>
-          </li>
-          {% endfor %}
-        </ul>
+          {% include members-list.html %}
+        </div>
       </div>
     </div>
   </div>
-</div>
 {% endif %}
 
 {% endif %}
@@ -183,12 +173,8 @@ layout: base
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 
 <script type="text/javascript">
-
 $(document).ready(function() {
-
   packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
   $(":checkbox").prettyCheckbox();
-
 });
-
 </script>

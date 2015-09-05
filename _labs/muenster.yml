@@ -6,7 +6,7 @@ lat: 51.964928
 long: 7.630490
 markerposition: left
 
-members: 
+members:
 
 - name: Mila Frerichs
   username-github: milafrerichs
@@ -19,16 +19,16 @@ members:
 - name: Gerald Pape
   username-github: ubergesundheit
   username-twitter: ubergesundheit
-  
+
 - name: Martin Honermeyer
   username-github: djmaze
-  
+
 - name: Tobias Bradtke
   username-github: webwurst
 
 - name: Yannic Schencking
   username-github: jahnique
-  
+
 - name: Steffen Schildknecht
   username-github: stsc3000
 
@@ -50,4 +50,3 @@ leads:
   url: mailto:muenster@codefor.de
 - name: Gerald Pape
   url: mailto:muenster@codefor.de
-  

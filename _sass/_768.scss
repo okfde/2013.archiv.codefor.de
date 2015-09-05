@@ -1,0 +1,207 @@
+.nav-meta {
+	text-align: right;
+}
+
+.logo {
+	float: left;
+}
+
+.navbar .container {
+	max-width: 1320px;
+}
+
+#animation-wrapper {
+	width: 40%;
+	margin-top: 11%;
+	padding: 0;
+	position: absolute;
+
+	h1 {
+		font-size: 26px;
+		margin: 0;
+	}
+}
+
+.jumbotron {
+	padding: 70px;
+}
+
+.meta-links-foot {
+	padding: 35px ;
+}
+
+
+
+.highlight-hero {
+	// margin-left: 10px;
+}
+
+.nav-meta {
+	display: inherit;
+}
+
+.lab-map-home {
+	height: 600px;
+}
+
+.lab-map-city {
+	height: 400px;
+}
+
+.members .member {
+	min-width: 50%;
+}
+
+.post {
+	.event-wrapper {
+		padding: 80px;
+	}
+}
+
+.partner {
+
+	ul {
+	}
+
+	li {
+		float: left;
+		display: block;
+		width: 18%;
+		margin-right: 2.5%;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.okfn-logo {
+		max-width: 100%;
+	}
+
+	.cfa-logo, .bmbf-logo, .wj-logo {
+		max-width: 60%;
+	}
+
+	.google-logo {
+		max-width: 80%;
+	}
+
+}
+
+/*=============================
+=            Stories          =
+=============================*/
+
+.story-teaser--title {
+	width: 60%;
+	left: 50%;
+	padding: 0;
+	-webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+}
+
+.story-wrapper {
+	padding: 50px;
+}
+
+.story--pattern, .hero-pattern {
+	height: 100%;
+
+	&:before {
+		display: none;
+	}
+	
+	svg {
+		width: 100%;
+		-webkit-transform: translateX(0);	
+		transform: translateX(0);
+	}
+}
+
+.hero-pattern-wrap, .story--pattern-wrap {
+	position: relative;
+}
+
+.story--header {
+
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 11%;
+
+	color: white; 
+
+}
+
+.story--container {
+	margin-top: -10%;
+}
+
+.story--header--hero {
+	position: absolute;
+	width: 37%;
+	bottom: 23%; 
+	border: 3px solid white; 
+}
+
+.story--header--title {
+	font-size: 28px;
+	margin-bottom: 6px;
+	margin-top: 24px;
+	padding: 0;
+}
+
+.story--header--meta {
+	padding-bottom: 0;
+}
+
+.story--embed {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	max-width: 500px; 
+}
+
+.story--body {
+
+	figure {
+		max-width: 75%;
+		margin: 80px auto;
+	}
+
+	figure.landscape {
+		max-width: 50%;
+	}
+
+	figure.portrait {
+		max-width: 33%;
+	}
+
+	figure.left {
+		float: left; 
+		margin: 0 50px 50px 0;
+	}
+
+	figure.right {
+		float: right; 
+		margin: 0 0 50px 50px;
+	}
+
+	blockquote {
+		width: 40%;
+		float: left;
+	}
+
+}
+
+.story--links, .story--members {
+	padding: 50px 50px 0 50px;
+}
+
+
+
+/*-----  End of Story  ------*/

@@ -36,8 +36,10 @@ members:
 links:
 - name: Webseite
   url: https://opendatal.de/
+- name: Meetup
+  url: http://www.meetup.com/de/OKLab-Wuppertal-Meetup/
 - name: Mailingliste
-  url: http://lists.oddw.de/cgi-bin/mailman/listinfo/liste
+  url: http://lists.devtal.de/mailman/listinfo/opendatal
 - name: GitHub
   url: https://github.com/Opendatal
 - name: Etherpad

@@ -23,7 +23,7 @@ Dazu sind geladen: Nerds und Technikverliebte und die Hamburger hyperlokale Jour
 
 Der erste Transparenztag Hamburg findet am 23. November 2014 ab 12 Uhr bei 4=1/OpenDataCity, Alter Teichweg 33, 22081 Hamburg statt (S-Bahn Barmbek, Ausgang Globetrotter, ca. 8 Minuten Fußweg).
 
-Die Anmeldung und mehr Informationen findet ihr [hier][] 
+Die Anmeldung und mehr Informationen findet ihr [hier][]
 
 ![openhamburg](/assets/blog/openhamburg.png)
 

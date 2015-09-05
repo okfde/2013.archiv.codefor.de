@@ -1,5 +1,5 @@
 # Events moved to collection /_termine
-# Each event hat it's own file now. 
+# Each event hat it's own file now.
 
 # Past events are excluded and don't need to be deleted. (on build)
 # Remove a date by either deleting it or simply 'jekyll build' after the event and push.

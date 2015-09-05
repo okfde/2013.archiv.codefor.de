@@ -82,22 +82,26 @@ There are [detailed deployment instructions](https://github.com/codeforamerica/c
   1. Fork the code and customize it for your shelter
   1. Deploy to heroku for free
 
-Right now there is only one barrier to redeploying this project in German cities: we need pet data. If you're looking for a project for Open Data Day, you could work on getting the data opened up and deploy the first CutePets bot in your city.
+Right now there is only one barrier to redeploying this project in German cities: we need pet data. If you're looking for a project for Open Data Day, you could work on getting the data opened up and deploy the first CutePets bot in your city.
 
 ## What exactly do we need?
 In short, we need a simple API. The ideal solution would be an API that connects to a database for a shelter. If that's not possible, you can hack it together with scrapping. That's how I made the first version in Denver. Your API endpoint can be populated entirely by scraped data. In Denver we just scraped the data from a webpage, put it into a json API, then had wrote the twitter bot to consume that API. Later when I was able to get in touch with the owners of the data, we were able to create an API direct from their database.
 
 If you take on this project for Open Data Day, check out [this specification that I wrote for pet data](https://github.com/drewrwilson/pet-data-format/blob/master/animals.json#L7-L20). If the data comes out fitting that json api, you would just need to connect the CutePets code to your API and (tada!) you have a twitter bot.
 
-## More resources
- Background on CutePets bot project here: [Raise Your Paws If You Like Open Data](http://www.codeforamerica.org/blog/2014/04/28/raise-your-paws-if-you-like-open-data/). The code is available here, with step-by-step instructions for redeployment: [https://github.com/codeforamerica/cutepets](https://github.com/codeforamerica/cutepets).
+## More resources Background on CutePets bot project here: [Raise Your
+ Paws If You Like Open
+ Data](http://www.codeforamerica.org/blog/2014/04/28/raise-your-paws-if-you-like-open-data/). The
+ code is available here, with step-by-step instructions for
+ redeployment:
+ [https://github.com/codeforamerica/cutepets](https://github.com/codeforamerica/cutepets).
 
 
 
 # Contribute to an existing Code for Germany app<a name="contribute"></a>
 ![altglascontainer app](/assets/blog/altglascontainermap.png)
 
-There are [dozens of apps from Code for Germany](https://codefor.de/projekte), some of them just need more data. For example, last year a team from Berlin's Open Data Day cleaned up some data about Altglascontainer and made [a filterable map of Altglascontainer locations](odd14.hackdash.org/projects/530749eba1777f9331000001). The problem is that they were only able to get data for one neighborhood in Berlin.
+There are [dozens of apps from Code for Germany](http://codefor.de/projekte), some of them just need more data. For example, last year a team from Berlin's Open Data Day cleaned up some data about Altglascontainer and made [a filterable map of Altglascontainer locations](http://odd14.hackdash.org/projects/530749eba1777f9331000001). The problem is that they were only able to get data for one neighborhood in Berlin.
 
 ## How can you help?
  * *Add data to Berlin:* Living in Berlin? You could work on getting more of that data into the app. Maybe you can find a way to get the data for your neighborhood. Or maybe someone else's neighborhood? Or maybe all the neighborhoods in Berlin? :)

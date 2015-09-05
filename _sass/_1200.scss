@@ -1,0 +1,40 @@
+.main-nav-wrapper {
+	float: right;
+}
+
+.main-nav-wrapper .nav-pills {
+	float: right;
+}
+
+#animation-wrapper {
+	background: transparent;
+}
+
+.packery-item {
+	width: 47.5%;
+}
+
+.members .member {
+	min-width: 33%;
+}
+
+/*===============================
+=            Stories            =
+===============================*/
+
+.story--header--title {
+	font-size: 36px;
+}
+
+.story-teaser--title {
+	background: transparent !important;
+}
+
+.story {
+	.members .member {
+		min-width: 50%;
+	}
+}
+
+/*-----  End of Stories  ------*/
+

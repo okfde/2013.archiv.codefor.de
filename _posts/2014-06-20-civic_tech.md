@@ -25,7 +25,7 @@ Israel und Taiwan sind die Länder mit den weltweit größten Open Source und Ci
 
 G0V.tw definiert sich wie folgt: *"a civic movement by informed netizens toward participatory self-government. Borne out of frustration at the government’s blithe lack of transparency at the end of 2012"*
 
-Die Community organisiert sich um einzelne Projekte und trifft sich auf Hackathons. Ein Portfolio aller Projekte findet man auf <a href="http://g0v.github.io/g0vis/#!/project/0">g0v.tw</a>. Besonders spannend zu lesen ist ein <a href="http://g0v.asia/tw/">Rückblick</a> auf das letzte Jahr und die Ereignisse, die dazu geführt haben, dass es einen Aufschwung bzw. zunehmendes Interesse für den Bereich Civic Tech in Taiwan gab. 
+Die Community organisiert sich um einzelne Projekte und trifft sich auf Hackathons. Ein Portfolio aller Projekte findet man auf <a href="http://g0v.github.io/g0vis/#!/project/0">g0v.tw</a>. Besonders spannend zu lesen ist ein <a href="http://g0v.asia/tw/">Rückblick</a> auf das letzte Jahr und die Ereignisse, die dazu geführt haben, dass es einen Aufschwung bzw. zunehmendes Interesse für den Bereich Civic Tech in Taiwan gab.
 
 
 ### Open Data from the Inside
@@ -64,4 +64,3 @@ Die indische Open Data Community [Data{Meet}] in Bangalore, Delhi, Hyderabad, Ch
 [Mark Headd]: https://twitter.com/mheadd
 [Derek Eder]: http://derekeder.com/
 [Data{Meet}]: http://datameet.org/
-

@@ -16,6 +16,10 @@ members:
   username-github: marcel12bell
   username-twitter: MarcelBelledin
 
+- name: Patricia Ennenbach
+  username-github: P3nny
+  username-twitter: pen1710
+
 - name: Ingrid Bluoss
   username-github: datenvisualisierung
 
@@ -37,6 +41,9 @@ members:
 - name: Patrick Maué
   username-github: pajoma
 
+- name: Karen Schwane
+  username-github: karen-sch
+
 links:
 - name: Meetup
   url: http://meetup.com/OKLab-Koln-Meetup
@@ -44,3 +51,6 @@ links:
 leads:
 - name: Marcel Belledin
   url: mailto:info@codingcologne.de
+
+- name: Patricia Ennenbach
+  url: mailto:ennenbach@worthandlung.de

@@ -16,4 +16,3 @@ Am 13.05 in [WERK1] hat das [OK Lab München][OKLAB] sich zum ersten Mal getroff
 [OKLAB]: http://codefor.de/muenchen/
 [OKFNDE]: http://www.okfn.de/
 [ORGA]: http://pad.okfn.org/p/oklab-muc
-

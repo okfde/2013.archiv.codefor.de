@@ -1,0 +1,37 @@
+---
+layout: base
+title: urban stories
+lang: en
+
+og-description: from Munich, Dresden, Berlin and Magdeburg
+og-image: /img/stories-wallpaper-og-img.png
+---
+<div class="container-fluid clearfix">
+  {% for story in site.stories_en %}
+  <div class="col-md-6 story-teaser story__{{ story.color }}">
+    <a href="{{ story.url }}" >
+      <div class="story-teaser--image">
+        {% case story.pattern %}
+        {% when 1 %}
+          {% include inline-svg/optimized/story_teaser_1.svg %}
+        {% when 2 %}
+          {% include inline-svg/optimized/story_teaser_2.svg %}
+        {% when 3 %}
+          {% include inline-svg/optimized/story_teaser_3.svg %}
+        {% when 4 %}
+          {% include inline-svg/optimized/story_teaser_4.svg %}
+        {% else %}
+          {% include inline-svg/optimized/story_teaser_1.svg %}
+        {% endcase %}
+      </div>
+      <div class="story-teaser--title text-center">
+        <h2>{{ story.title }}{% if story.subline %} – {{ story.subline }}{% endif %}</h2>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+
+  {% comment %}
+  {% include story-teaser-fillin.html %}
+  {% endcomment %}
+</div>

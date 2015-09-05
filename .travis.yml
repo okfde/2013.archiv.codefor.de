@@ -1,9 +1,11 @@
 ---
 language: ruby
 rvm:
-  - 2.1.2
+  - 2.2.2
 script:
-- bundle exec jekyll build
+- script/cibuild
+sudo: false
+cache: bundler
 branches:
   only:
   - gh-pages
