@@ -35,14 +35,14 @@
               <a href="/{{ laburl }}">{{ [include.type]lab }}</a>
             </div>
             <br>
-            {% if [include.type]colaborators %}
+            {% if [include.type]collaborators %}
             <span class="project-collaborators icon-before">Mitglieder</span>
             {% endif %}
             <ul class="list-unstyled project-collaborators-list" >
-              {% for colaborator in [include.type]colaborators %}
+              {% for collaborator in [include.type]collaborators %}
               <li>
-                {{ colaborator.name }} <br>
-                {% for link in colaborator.links %}
+                {{ collaborator.name }} <br>
+                {% for link in collaborator.links %}
                 <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
               </li>
