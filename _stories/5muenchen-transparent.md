@@ -1,7 +1,7 @@
 ---
 layout: story
-color: cyan #one of: red, blue, green, cyan
-pattern: 4 #one of: 1, 2, 3, 4 
+color: blue #one of: red, blue, green, cyan
+pattern: 2 #one of: 1, 2, 3, 4 
 og-image: /assets/projects/muenchen/Muenchen-Transparent.png # used for facebook & twitter card
 
 

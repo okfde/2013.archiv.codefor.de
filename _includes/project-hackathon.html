@@ -11,14 +11,14 @@
     <div class="row">
     <div class="col-sm-12">
       <div class="project-footer clearfix">
-        {% if sitepage.colaborators %}
+        {% if sitepage.collaborators %}
           <span class="project-collaborators icon-before">Kontakte</span>
         {% endif %}
         <ul class="list-unstyled project-collaborators-list" >
-          {% for colaborator in sitepage.colaborators %}
+          {% for collaborator in sitepage.collaborators %}
           <li>
-            {{ colaborator.name }} <br>
-            {% for link in colaborator.links %}
+            {{ collaborator.name }} <br>
+            {% for link in collaborator.links %}
             <a href="{{ link.url }}">{{ link.url-name }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           </li>
