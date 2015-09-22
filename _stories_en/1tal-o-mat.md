@@ -5,7 +5,7 @@ pattern: 2 #one of: 1, 2, 3, 4
 og-image: /assets/stories/talomat.jpg # used for facebook & twitter card
 
 
-title: Tal-O-Mat – taking participation seriously
+title: Tal-O-Mat – Taking Participation Seriously
  
 where: Wuppertal
 when: August, 2015
