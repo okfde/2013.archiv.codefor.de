@@ -32,8 +32,9 @@ members:
 - name: Alex Brand
   username-github: alinx
 
-- name: Woflram Eberius
+- name: Wolfram Eberius
   username-github: weberius
+  username-twitter: eberius
 
 - name: Horst Meyer
   username-github: horald
@@ -43,10 +44,14 @@ members:
 
 - name: Karen Schwane
   username-github: karen-sch
+  username-twitter: hi_i_am_karen
 
 links:
 - name: Meetup
   url: http://meetup.com/OKLab-Koln-Meetup
+
+- name: Twitter
+  url: http://twitter.com/codeforcologne
 
 leads:
 - name: Marcel Belledin
