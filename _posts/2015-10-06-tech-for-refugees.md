@@ -32,7 +32,7 @@ Derzeit erfasse ich bei “Tech for Refugees” Projekte über mehrere Aspekte w
 
 <b>Ausblick</b>
 
-Die Datenbank braucht Einträge. Also tragt Projekte ein, die ihr schon kennt oder an denen ihr gerade sitzt. Geht zu Hackathons und macht tolle Projekte, die Flüchtlingen helfen können! Eine Übersicht zu den Refugee Hackathons gibt es auf der Webseite, einige OK Labs sind auch mit am Start. 
+Die Datenbank braucht Einträge. Also tragt Projekte ein, die ihr schon kennt oder an denen ihr gerade sitzt. Geht zu Hackathons und macht tolle Projekte, die Flüchtlingen helfen können! Eine Übersicht zu den Refugee Hackathons gibt es auf der [Webseite][], einige OK Labs sind auch mit am Start. 
 
 Habt ihr Ideen, wie wir die Datenbank besser gestalten können? Dann schreibt mir. Ich bin auf [Twitter][] und [per mail][] zu erreichen. Außerdem bin ich fast [jeden Montag im Berliner OK Lab][] und arbeite dort an der Datenbank weiter. 
 
@@ -42,6 +42,7 @@ Habt ihr Ideen, wie wir die Datenbank besser gestalten können? Dann schreibt mi
 [WG-Zimmervermittlungsbörse]: http://www.fluechtlinge-willkommen.de
 [Berliner OK Lab]: http://codefor.de/berlin
 [https://goo.gl/QGHxGy]: https://goo.gl/QGHxGy
+[Webseite]: http://refugeehackathon.de
 [Twitter]: http://twitter.com/didumdida
 [per mail]: mailto:dataista@gmail.com
 [jeden Montag im Berliner OK Lab]: http://www.meetup.com/de/OK-Lab-Berlin/
