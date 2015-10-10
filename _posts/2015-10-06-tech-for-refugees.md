@@ -24,7 +24,7 @@ Im [Berliner OK Lab][] haben wir auch schon mehrfach über mögliche Projekte un
 
 <b>Umsetzung</b>
 
-Für's Erste habe ich die Übersicht mit Google Spreadsheets umgesetzt: [https://goo.gl/QGHxGy][]. Ein Pad, wie ursprünglich geplant, wäre zu unübersichtlich geworden. Für das Aufsetzen einer Datenbank mit ordentlichem Frontend fehlen mir die Programmierkenntnisse und auch die Zeit. Der Pragmatismus siegte. Zudem setze ich auf Crowdsourcing: Die Datenbank kann von jedem erweitert und korrigiert werden. 
+Fürs Erste habe ich die Übersicht mit Google Spreadsheets umgesetzt: [https://goo.gl/QGHxGy][]. Ein Pad, wie ursprünglich geplant, wäre zu unübersichtlich geworden. Für das Aufsetzen einer Datenbank mit ordentlichem Frontend fehlen mir die Programmierkenntnisse und auch die Zeit. Der Pragmatismus siegte. Zudem setze ich auf Crowdsourcing: Die Datenbank kann von jedem erweitert und korrigiert werden. 
 
 Derzeit erfasse ich bei “Tech for Refugees” Projekte über mehrere Aspekte wie Sprache, Zweck oder Region. Dabei stieß ich auf Systematisierungsfragen, wie zum Beispiel: Welche Projekte sollen in der Datenbank überhaupt abgebildet werden? Soll sie Webseiten umfassen, die Informationen zur Verfügung stellen, aber sonst keine Interaktion erfordern? Ich habe mich zunächst dafür entschieden, alle Projekte aufzunehmen, auch wenn die Datenbank dadurch schnell größer werden kann (und damit evtl. unübersichtlicher wird). Um nicht den Überblick zu verlieren, liegt der Fokus auf Projekte aus Deutschland. Aber auch andere auf den europäischen Raum bezogene Projekte können mit aufgenommen werden. <br>
 
