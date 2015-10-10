@@ -12,20 +12,19 @@ images:
 
 <b>Worum geht's?</b> 
 
-Die derzeitige Flüchtlingswelle ist eines der derzeit gesellschaftlich relevantesten Themen. Dabei geht es unter anderem darum, wie die Zivilgesellschaft helfen kann. Staat und Verwaltung können nicht alles leisten, was benötigt wird, um den bei uns ankommenden Menschen einen würdigen Anfang zu bereiten. Unterstützung für Flüchtlinge gibt es primär als Zeit-, Sach- und Geldspenden. Auch Techprojekte sind inzwischen entstanden, um Flüchtlinge primär und sekundär zu unterstützen. So gibt es Webseiten, über die sich Ehrenamtliche in Flüchtlingsunterkünften koordinieren, Onlinesprachkurse und [Wörterbücher][] oder eine [WG-Zimmervermittlungsbörse][] speziell für Flüchtlinge. In der nächsten Zeit werden noch etliche neue Projekte hinzukommen.
+Die derzeitige Flüchtlingswelle ist eines der derzeit gesellschaftlich relevantesten Themen. Dabei geht es unter anderem darum, wie die Zivilgesellschaft helfen kann. Staat und Verwaltung können nicht alles leisten, was benötigt wird, um den bei uns ankommenden Menschen einen würdigen Anfang zu bereiten. Unterstützung für Flüchtlinge gibt es primär als Zeit-, Sach- und Geldspenden. Auch Techprojekte sind inzwischen entstanden, um Flüchtlinge primär und sekundär zu unterstützen. So gibt es Webseiten, über die sich Ehrenamtliche in Flüchtlingsunterkünften koordinieren, Onlinesprachkurse und [Wörterbücher][] oder eine [WG-Zimmer-Vermittlungsbörse][] speziell für Flüchtlinge. In der nächsten Zeit werden noch etliche neue Projekte hinzukommen.
 
 Im [Berliner OK Lab][] haben wir auch schon mehrfach über mögliche Projekte und schon bestehende Projekte diskutiert. Zuletzt hatte ich dabei den Eindruck, dass einige Apps und Webseiten ähnliches oder gleiches erzielen möchten und dies auch ähnlich umsetzen. Was fehlt, ist der Überblick über all diese Projekte. Eine Auflistung über den derzeitigen Stand kann verschiedenes bieten:
 
 * Bekanntmachung/Verbreitung: Je stärker ein Projekt bekannt ist, desto größer ist die potenzielle Reichweite.
 * Anregungen zum Redeployment und Vernetzung von ähnlichen Projekten und Ideen 
-* Vermeidung von zu vielen ähnlichen Projekten
-*Recherchegrundlage für Hackathons. 
+* Vermeidung von zu vielen ähnlichen Projekten und Recherchegrundlage für Hackathons. 
 
 <br>
 
 <b>Umsetzung</b>
 
-Fürs Erste habe ich die Übersicht mit Google Spreadsheets umgesetzt: [https://goo.gl/QGHxGy][]. Ein Pad, wie ursprünglich geplant, wäre zu unübersichtlich geworden. Für das Aufsetzen einer Datenbank mit ordentlichem Frontend fehlen mir die Programmierkenntnisse und auch die Zeit. Der Pragmatismus siegte. Zudem setze ich auf Crowdsourcing: Die Datenbank kann von jedem erweitert und korrigiert werden. 
+Für's Erste habe ich die Übersicht mit Google Spreadsheets umgesetzt: [https://goo.gl/QGHxGy][]. Ein Pad, wie ursprünglich geplant, wäre zu unübersichtlich geworden. Für das Aufsetzen einer Datenbank mit ordentlichem Frontend fehlen mir die Programmierkenntnisse und auch die Zeit. Der Pragmatismus siegte. Zudem setze ich auf Crowdsourcing: Die Datenbank kann von jedem erweitert und korrigiert werden. 
 
 Derzeit erfasse ich bei “Tech for Refugees” Projekte über mehrere Aspekte wie Sprache, Zweck oder Region. Dabei stieß ich auf Systematisierungsfragen, wie zum Beispiel: Welche Projekte sollen in der Datenbank überhaupt abgebildet werden? Soll sie Webseiten umfassen, die Informationen zur Verfügung stellen, aber sonst keine Interaktion erfordern? Ich habe mich zunächst dafür entschieden, alle Projekte aufzunehmen, auch wenn die Datenbank dadurch schnell größer werden kann (und damit evtl. unübersichtlicher wird). Um nicht den Überblick zu verlieren, liegt der Fokus auf Projekte aus Deutschland. Aber auch andere auf den europäischen Raum bezogene Projekte können mit aufgenommen werden. <br>
 
