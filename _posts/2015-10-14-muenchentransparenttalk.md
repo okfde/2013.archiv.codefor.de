@@ -10,3 +10,4 @@ Der Bernd hat vor ein paar Wochen unseren Münchner Projekt 'München Transparen
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/DHlAfzTK8Tc?rel=0" frameborder="0" allowfullscreen></iframe>
 
+Die Folien dazu kann man auch <a href="http://www.muenchen.de/rathaus/dms/Home/Stadtverwaltung/Direktorium/IT-Beauftragte/opengovtage-2015/DigiEngagement_Oswald_Open_Government_Tage_LHM_2015.pdf">herunterladen</a>.
