@@ -42,8 +42,6 @@ links:
   url: http://lists.devtal.de/mailman/listinfo/opendatal
 - name: GitHub
   url: https://github.com/Opendatal
-- name: Etherpad
-  url: https://utopiastadt.etherpad.mozilla.org/6
 - name: Treffen, jeden 3. Donnerstag im Monat
   url: http://neu.clownfisch.eu/utopia-stadt/
 - name: Location/Netzwerk
