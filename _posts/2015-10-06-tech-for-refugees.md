@@ -38,7 +38,7 @@ Habt ihr Ideen, wie wir die Datenbank besser gestalten können? Dann schreibt mi
 <br>
 
 [Wörterbücher]: http://www.refugeephrasebook.de
-[WG-Zimmervermittlungsbörse]: http://www.fluechtlinge-willkommen.de
+[WG-Zimmer-Vermittlungsbörse]: http://www.fluechtlinge-willkommen.de
 [Berliner OK Lab]: http://codefor.de/berlin
 [https://goo.gl/QGHxGy]: https://goo.gl/QGHxGy
 [Webseite]: http://refugeehackathon.de
