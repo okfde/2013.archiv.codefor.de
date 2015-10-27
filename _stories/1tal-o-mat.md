@@ -18,6 +18,9 @@ links: # first one is used in subline
 - name: Bericht aus 2014
   url: http://www.tal-journal.net/2014/05/tadaaa-ein-talomat-fur-wuppertal.html
 
+- name: Abgeordnetenwatch für Wuppertal
+  url: https://www.abgeordnetenwatch.de/oberb%C3%BCrgermeisterwahl%20nrw/profile?field_user_constituency_tid=19705
+
 header-images: #use 3:2 proportioned image
 - src: /assets/stories/talomat.jpg
   alt: Das Talomat Team

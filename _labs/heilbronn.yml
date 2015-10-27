@@ -30,6 +30,15 @@ members:
 - name: Christian
   username-github: Nachtfux
   username-twitter: AppProjectX
+- name: Steffen Jung
+  username-github: gravima
+  username-twitter: gravima
+- name: Volker Theil
+  username-github: ERVOLKT
+- name: Anna
+  username-github: Rasurel
+- name: Ketoma
+  username-github: Ketoma
 
 links:
 - name: Etherpad

@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Stuttgart
-name: "OK Lab Stuttgart Extra: Lua Programmierkurs"
-date: 2015-08-04
-time: 19:00-21:00 Uhr
-location:  Shackspace, Ulmer Straße 255, Stuttgart
-link-url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/224259824/
+name: "Hack your City, Stuttgart"
+date: 2015-10-10
+time: 09:30 Uhr
+location: Nobelstrasse 12, D-70569 Stuttgart
+link-url: https://www.iao.fraunhofer.de/lang-de/veranstaltungen/eventdetail/323
 ---
