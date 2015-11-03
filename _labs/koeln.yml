@@ -53,6 +53,9 @@ links:
 - name: Twitter
   url: http://twitter.com/codeforcologne
 
+- name: FAQ
+  url: https://github.com/codeforcologne/FAQ/wiki#oklab-k%C3%B6ln---faq
+
 leads:
 - name: Marcel Belledin
   url: mailto:info@codingcologne.de
