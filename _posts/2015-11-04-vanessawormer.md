@@ -1,9 +1,9 @@
 ---
 layout: post
 
-title: Interview mit Vanessa Wormer
+title: Code for Journalism
 author: Eileen
-excerpt: Vanessa Wormer ist Journalistin und kennt sich mit Daten aus.
+excerpt: Interview mit Vanessa Wormer
 
 images:
 - imgname: wormer.png
