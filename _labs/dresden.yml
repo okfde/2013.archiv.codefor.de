@@ -12,7 +12,6 @@ members:
   url: http://spaceboyz.net/~astro/
   username-github: astro
   username-twitter: astro1138
-- name: Fidel
 - name: Thomas Skowron
   username-twitter: thomersch
   username-github: thomersch
@@ -22,9 +21,10 @@ members:
 - name: Erik
   username-github: erikmitk
   username-twitter: erikmitk
-- name: Paul
-  username-github: balzer82
-  username-twitter: balzer82
+- name: Rob
+  url: http://boogiedev.net
+  username-github: robtranquillo
+  username-twitter: robtranquillo
 - name: jklmnn
   username-github: jklmnn
   username-twitter: JK70523
@@ -34,7 +34,8 @@ members:
 - name: kiliankoe
   username-github: kiliankoe
   username-twitter: kiliankoe
-
+- name: Fidel
+- name: und wechselnd viele weitere Menschen
 
 
 links:
