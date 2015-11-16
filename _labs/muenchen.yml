@@ -95,17 +95,18 @@ members:
 
 
 links:
+- name: Meetup
+  url: http://www.meetup.com/code-for-muenchen/
+
+- name: Twitter
+  url: https://twitter.com/codeformuenchen
+  
 - name: Orga-Pad
   url: http://pad.okfn.org/p/oklab-muc
 
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeformunich
 
-- name: Twitter
-  url: https://twitter.com/codeformuenchen
-
-- name: MOGDy Community Site (revive?)
-  url: http://www.muenchen-mogdy.de/
 
 leads:
 - name: Bernd Oswald
