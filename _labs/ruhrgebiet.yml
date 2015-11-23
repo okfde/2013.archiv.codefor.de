@@ -1,0 +1,21 @@
+---
+key: ruhrgebiet
+title: OpenRuhr
+lab: OpenRuhr
+lat: 51.360561
+long: 6.507292
+markerposition: left
+
+members:
+
+- name: Ernesto Ruge
+  username-github: the-infinity
+  username-twitter: the_infinity
+
+links:
+- name: Webseite
+  url: https://openruhr.de
+
+leads:
+- name: Ernesto Ruge
+  url: mailto:info@openruhr.de
