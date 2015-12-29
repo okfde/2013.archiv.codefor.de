@@ -39,6 +39,10 @@ members:
   username-github: Rasurel
 - name: Ketoma
   username-github: Ketoma
+- name: Simon
+  username-github: GityUpNow
+- name: Lukas
+  username-github: lukas-h
 
 links:
 - name: Etherpad
