@@ -1,9 +1,9 @@
 ---
 key: ruhrgebiet
-title: OpenRuhr
-lab: OpenRuhr
-lat: 51.360561
-long: 6.507292
-markerposition: left
+title: OK Lab Ruhrgebiet
+lab: OK Lab Ruhrgebiet
+lat: 51.567426
+long: 6.747534
+markerposition: right
 showsignup: true
 published: false
