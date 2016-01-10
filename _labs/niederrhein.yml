@@ -5,5 +5,36 @@ lab: OK Lab Niederrhein
 lat: 51.481604
 long: 6.640815
 markerposition: left
-showsignup: true
+showsignup: false
 published: false
+
+members:
+- name: Timo Jeske
+  username-github: odadev
+  username-twitter: timojeske
+- name: Claus Arndt
+  username-twitter: derarndt
+- name: Elmar Burke
+  username-github: elmarburke
+  username-twitter: elmarburke
+- name: Alexander Schoog
+  username-github: nitrax95
+  username-twitter: ASchoog
+
+links:
+- name: Meetup
+  url: http://www.meetup.com/de-DE/OK-Lab-Niederrhein/
+- name: Twitter
+  url: https://twitter.com/CodeForNRN
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforniederrhein
+- name: GitHub
+  url: https://github.com/CodeforNiederrhein
+- name: Etherpad
+  url: https://pad.okfn.org/p/codeforniederrhein
+
+leads:
+- name: Timo
+  url: mailto:timo@jeske.info
+- name: Claus
+  url: offenedaten@moers.de
