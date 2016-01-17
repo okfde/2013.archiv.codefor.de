@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Gießen
 name: OK Lab Gießen Treffen
-date: 2015-10-05 #YYYY-MM-DD
+date: 2015-12-21 #YYYY-MM-DD
 time: 18:30-19:30 Uhr
-location: Technische Hochschule Mittelhessen, Wiesenstraße 14, 35390 Gießen, A12.116
+location: JLU Gießen Cafe JuWi, Licher Straße 68, 35394 Gießen, Hörsaalgebäude
 link-url: http://www.meetup.com/OK-Lab-Giessen/
 ---

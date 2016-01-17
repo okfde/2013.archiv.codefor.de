@@ -32,7 +32,7 @@ members:
 - name: Katharina Dort
 
 - name: Julian Schmitt
-  username-github: SteakMcFries
+  username-github: juschmitt
 
 - name: Florian Kolb
   username-github: toxic2302
@@ -51,5 +51,5 @@ leads:
 - name: Prof. Dr. Martin Przweloka
   url: mailto:martin.przewloka@iesy.net
 
-- name: Vincent Elliott Wagner
-  url: mailto:zockerticker%2Bcodeforgi@gmail.com
+- name: Florian Kolb
+  url: mailto:flo%40floriankolb.de
