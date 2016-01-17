@@ -53,6 +53,9 @@ links:
 
 - name: Twitter
   url: http://twitter.com/codeforbonn
+  
+- name: Facebook
+  url: https://www.facebook.com/codeforbonn/
 
 - name: Etherpad
   url: https://pad.okfn.org/p/oklab-bonn
