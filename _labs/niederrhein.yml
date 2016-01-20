@@ -20,12 +20,33 @@ members:
 - name: Alexander Schoog
   username-github: nitrax95
   username-twitter: ASchoog
+- name: Ulrich Greveler
+  username-github: greveler
+  username-twitter: greveler
+- name: Torsten Kannenberg
+  username-github: TorstenKa
+  username-twitter: torstenKa
+- name: David Krystof
+  username-github: dakrys
+  username-twitter: Dakrys
+- name: Manfred Schramm
+  username-github: Hhhhmmmmasch
+  username-twitter: hhhhmmmmasch
+- name: Tobias Hahnen
+  username-github: thahnen
+  username-twitter: Hubblerone
+- name: Marcel Sowade
+- name: Martin Moutarde
+- name: Klaus Stalinski
+- name: Bertram Blumenstein
 
 links:
 - name: Meetup
   url: http://www.meetup.com/de-DE/OK-Lab-Niederrhein/
 - name: Twitter
   url: https://twitter.com/CodeForNRN
+- name: Facebook
+  url: https://www.facebook.com/codeforniederrhein/
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeforniederrhein
 - name: GitHub
