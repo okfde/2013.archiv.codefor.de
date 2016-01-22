@@ -1,3 +1,13 @@
+- title: 'Feinstaub selber messen'
+  url: 'http://www.stuttgarter-zeitung.de/inhalt.luftdaten-in-stuttgart-feinstaub-selber-messen.837ad3fd-d121-4cbe-9d1a-376c98fc1fba.html'
+  date: 11.01.2016
+  media: 'Stuttgarter Zeitung'
+
+- title: 'Die Daten sind frei: Netzaktivisten nutzen öffentliche Daten'
+  url: 'http://www.3sat.de/page/?source=/nano/gesellschaft/184207/index.html'
+  date: 07.12.2015
+  media: '3sat'
+
 - title: '20 Communities, 200 Menschen und ein großes, gemeines Ziel: Open Data für alle.'
   url: 'http://thechanger.org/community/code-for-germany-interview-julia-kloiber'
   date: 02.11.2015
@@ -17,6 +27,11 @@
   url: http://www.sz-online.de/nachrichten/studenten-helfen-bei-der-parkplatzsuche-3128007.html
   date: 17.06.2015
   media: SZ Online
+
+- title: 'Karlsruher Hacker übernehmen das Containerdorf: Hack your city'
+  url: http://karlszeit.de/artikel/hack-your-city-2
+  date: 17.06.2015
+  media: Karlszeit
 
 - title: 'Wie Aktivisten die Stadtplanung transparenter machen'
   url: http://www.tagesspiegel.de/berlin/architekturfestival-makecity-in-berlin-wie-aktivisten-die-stadtplanung-transparenter-machen/11920360.html 
