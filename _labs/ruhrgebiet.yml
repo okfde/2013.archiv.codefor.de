@@ -5,5 +5,19 @@ lab: OK Lab Ruhrgebiet
 lat: 51.567426
 long: 6.747534
 markerposition: right
-showsignup: true
+showsignup: false
 published: false
+
+links:
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforruhrgebiet
+- name: Meetup
+  url: http://www.meetup.com/de-DE/OK-Lab-Ruhrgebiet/
+- name: Twitter
+  url: https://twitter.com/OpenRuhr
+- name: GitHub
+  url: https://github.com/OpenRuhr
+- name: Webseite
+  url: https://openruhr.de
+- name: Etherpad
+  url: https://pad.okfn.org/p/codeforruhrgebiet
