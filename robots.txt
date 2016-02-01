@@ -1,3 +1,4 @@
 # robotstxt.org/
 
 User-agent: *
+Sitemap: http://codefor.de/sitemap.xml
