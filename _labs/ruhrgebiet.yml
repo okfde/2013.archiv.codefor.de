@@ -21,3 +21,11 @@ links:
   url: https://openruhr.de
 - name: Etherpad
   url: https://pad.okfn.org/p/codeforruhrgebiet
+
+members:
+- name: Ernesto Ruge
+  username-github: the-infinity
+  username-twitter: the_infinity
+- name: Martin Schurig
+  username-github: schurig
+  username-twitter: martinschurig
