@@ -22,6 +22,7 @@ paginate: 5
 paginate_path: "blog/:num"
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 collections:
   labs:
   termine:
