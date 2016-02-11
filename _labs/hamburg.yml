@@ -1,7 +1,7 @@
 ---
 key: hamburg
-title: OK Lab Hamburg
-lab: OK Lab Hamburg
+title: Code for Hamburg Lab
+lab: Code for Hamburg
 lat: 53.5476165
 long: 9.9800385
 
@@ -9,9 +9,26 @@ markerposition: right
 
 members:
 
+
+- name: Timo lundelius
+  username-github: lundelius
+  username-twitter: timo_lundelius
+
+- name: Philipp Geisler
+  username-github: philippgeisler
+  username-twitter: zelpst
+
 - name: Marco Maas
   username-github: marcomaas
   username-twitter: themaastrix
+
+- name: Timo Kessler
+  username-github: tike
+  username-twitter: tike10
+
+- name: Hannes
+  username-github: kannes
+  username-twitter: cartocalypse
 
 - name: Patrick Stotz
   username-github: PatrickStotz
@@ -37,52 +54,40 @@ members:
   username-github: felixkqb
   username-twitter: felixkqb
 
-- name: Timo Kessler
-  username-github: tike
-  username-twitter: tike10
-
 - name: Anne Kis
 
-- name: Philipp Geisler
-  username-github: philippgeisler
-  username-twitter: zelpst
 
-- name: Hannes
-  username-github: kannes
-  username-twitter: cartocalypse
 
-- name: Timo lundelius
-  username-github: lundelius
-  username-twitter: timo_lundelius
 
 links:
 #- name: Flyer
 #  url: in progress
 
-- name: Etherpad (Orga, Updates usw.)
-  url: http://pad.opendatacloud.de/p/OK-Lab-HH
 
-- name: Meetup
-  url: http://www.meetup.com/OK-Lab-Hamburg/
+- name: Anmeldungen und Infos auf Meetup
+  url: http://www.meetup.com/codeforhamburg
 
 - name: Twitter
   url: http://twitter.com/codeforhamburg
+
+- name: Etherpad (Orga, Updates usw.)
+  url: http://pad.opendatacloud.de/p/OK-Lab-HH
 
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/subscribe/codeforhamburg
   url: mailto:codeforhamburg@lists.okfn.org
 
 leads:
-- name: Timo
+- name: Timo Lundelius (Orga & Lead) 
   url: mailto:timo@lundelius.com
 
-- name: Marco
+- name: Philipp Geisler (Orga & Lead) 
+  url: mailto:philippgeisler@mailbox.org
+
+- name: Marco Maas
   url: mailto:maas@opendatacity.de
 
-- name: Achim
-  url: mailto:achim.tack@gmail.com
-
-- name: Timo
+- name: Timo Kessler
   url: mailto:timo_kessler@gmx.de
 
 
