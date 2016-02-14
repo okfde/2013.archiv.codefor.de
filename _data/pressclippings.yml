@@ -1,17 +1,47 @@
+- title: 'Feinstaub selber messen'
+  url: 'http://www.stuttgarter-zeitung.de/inhalt.luftdaten-in-stuttgart-feinstaub-selber-messen.837ad3fd-d121-4cbe-9d1a-376c98fc1fba.html'
+  date: 11.01.2016
+  media: 'Stuttgarter Zeitung'
+
+- title: 'Die Daten sind frei: Netzaktivisten nutzen öffentliche Daten'
+  url: 'http://www.3sat.de/page/?source=/nano/gesellschaft/184207/index.html'
+  date: 07.12.2015
+  media: '3sat'
+
+- title: '20 Communities, 200 Menschen und ein großes, gemeines Ziel: Open Data für alle.'
+  url: 'http://thechanger.org/community/code-for-germany-interview-julia-kloiber'
+  date: 02.11.2015
+  media: 'The Changer'
+
 - title: 'Käferforscher & Sternegucker - Unentbehrliches Bürgerwissen'
   url: 'http://www.ardmediathek.de/tv/OZON-unterwegs/K%C3%A4ferforscher-Sternegucker-Unentbehr/rbb-Fernsehen/Video?documentId=31069368'
   date: 12.10.2015
   media: 'RBB Fernsehen, Ozon unterwegs'
+
+- title: 'Der "Talomat" als Entscheidungshilfe'
+  url: http://www.wuppertaler-rundschau.de/lokales/der-talomat-als-entscheidungshilfe-aid-1.5338177
+  date: 24.08.2015
+  media: Wuppertaler Rundschau
 
 - title: 'Studenten helfen bei der Parkplatzsuche'
   url: http://www.sz-online.de/nachrichten/studenten-helfen-bei-der-parkplatzsuche-3128007.html
   date: 17.06.2015
   media: SZ Online
 
+- title: 'Karlsruher Hacker übernehmen das Containerdorf: Hack your city'
+  url: http://karlszeit.de/artikel/hack-your-city-2
+  date: 17.06.2015
+  media: Karlszeit
+
 - title: 'Wie Aktivisten die Stadtplanung transparenter machen'
   url: http://www.tagesspiegel.de/berlin/architekturfestival-makecity-in-berlin-wie-aktivisten-die-stadtplanung-transparenter-machen/11920360.html 
   date: 16.06.2015
   media: Tagesspiegel
+
+- title: 'Hilfe von Hackern: Wie Programmierer das Leben in der Stadt optimieren'
+  url: http://www.musikexpress.de/hilfe-von-hackern-wie-programmierer-das-leben-in-der-stadt-optimieren-275130/
+  date: 28.05.2015
+  media: Musikexpress
 
 - title: 'Feinstaub in Stuttgart: Problem sichtbar machen'
   url: http://www.swr.de/landesschau-aktuell/bw/stuttgart/feinstaub-in-stuttgart-problem-sichtbar-machen/-/id=1592/did=15547586/nid=1592/ey7vjo/index.html

@@ -1,8 +1,8 @@
 ---
-lab: OpenRuhr
-name: 1. OpenRuhr Hackathon
-date: 2015-12-04
-time: 17:00 Uhr
-location: Labor e.V., Alleestraße 50, 44793 Bochum
-link-url: https://openruhr.de/
+lab: OK Lab Ruhrgebiet
+name: Open Data Day - OK Lab Ruhrgebiet + Niederrhein Treffen
+date: 2016-03-05
+time: ab 12 Uhr (Ende offen)
+location:  Das Unperfekthaus, Friedrich-Ebert-Str. 18, 45127 Essen
+link-url: http://www.meetup.com/de-DE/OK-Lab-Niederrhein/events/228132182/
 ---
