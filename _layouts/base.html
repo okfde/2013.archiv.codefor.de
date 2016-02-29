@@ -23,7 +23,7 @@
     {{ site.title }}  ~ {{ site.description }}
   {% endif %}</title>
 
-  <meta name="description" content="{{ page.excerpt }}">
+  <meta name="description" content="{{ page.excerpt | strip_html }}">
   <meta name="viewport" content="width=device-width">
 
   {% include head-social-og.html %}
@@ -65,7 +65,7 @@
     s.parentNode.insertBefore(wf, s);
   })();
 
-  </script> 
+  </script>
 
 </head>
 
