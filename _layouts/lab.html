@@ -214,3 +214,21 @@ $(document).ready(function() {
   $(":checkbox").prettyCheckbox();
 });
 </script>
+
+<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "{{ meta.title }}",
+    {% if page.lang == 'en' %}
+    "url" : "http://codefor.de/{{ meta.key }}/",
+    {% else %}
+    "url" : "http://codefor.de/en/{{ meta.key }}/",
+    {% endif%}
+    "sameAs" : [
+      {% for link in meta.links %}
+        "{{ link.url }}"{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>
