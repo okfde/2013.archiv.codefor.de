@@ -536,6 +536,10 @@ label {
 	}
 }
 
+.project-footer {
+	.m-r-2 { margin-right: 18px; }
+}
+
 .icon-before:before {
 	display: inline-block;
 	content:"";
@@ -716,6 +720,20 @@ $date-circle: 80px;
 			margin-bottom: 26px;
 		}
 	}
+}
+
+.project-labs-box {
+  float: none;
+  width: 100%;
+  .icon-before:before { margin-right: 0; }
+  .m-r-2 { margin-right: 0; }
+}
+
+.project-status-box {
+  margin-top: 8px;
+  float: none;
+  width: 100%;
+  text-align: left;
 }
 
 .loading {

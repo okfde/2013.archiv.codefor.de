@@ -139,7 +139,7 @@ layout: base
 <!-- Projekte -->
 {% assign project_count = 0 %}
 {% for sitepage in site.pages %}
- {% if meta.lab == sitepage.lab %}
+ {% if sitepage.lab contains meta.lab %}
    {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
   {% endif %}
 {% endfor %}
@@ -161,7 +161,7 @@ layout: base
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
       {% for sitepage in site.pages  %}
-        {% if meta.lab == sitepage.lab %}
+        {% if sitepage.lab contains meta.lab %}
           {% if sitepage.layout == 'project' %}
           <div class="packery-item" >
            {% include project-teaser.html type='page' %}
