@@ -6,3 +6,38 @@ lat: 51.227741
 long: 6.773456
 markerposition: left
 showsignup: true
+
+links:
+- name: Blog
+  url: http://codefordus.tumblr.com/
+- name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforduesseldorf
+- name: Meetup
+  url: http://www.meetup.com/de-DE/OK-Lab-Dusseldorf/
+- name: Facebook
+  url: https://www.facebook.com/codefordus/
+- name: Twitter
+  url: https://twitter.com/codefordus
+- name: GitHub
+  url: https://github.com/codefordus
+- name: OpenRuhr.de
+  url: https://openruhr.de
+
+leads:
+- name: Stefan
+  url: mailto:stefan.mueller@gruene-duesseldorf.de
+- name: Phil
+  url: mailto:philninh@gmail.com
+- name: Christian
+  url: mailto:knebel@publicplan.de
+
+members:
+- name: Stefan
+  username-github: ???
+  username-twitter: ???
+- name: Phil
+  username-github: PhilNinh
+  username-twitter: philninh
+- name: Christian
+  username-github: cknebel
+  username-twitter: cknebel79
