@@ -32,12 +32,12 @@ leads:
   url: mailto:knebel@publicplan.de
 
 members:
-- name: Stefan
-  username-github: ???
-  username-twitter: ???
-- name: Phil
+- name: Stefan Müller
+  username-github: stefdus
+  username-twitter: stefdus
+- name: Phil Ninh
   username-github: PhilNinh
   username-twitter: philninh
-- name: Christian
+- name: Dr. Christian Knebel
   username-github: cknebel
   username-twitter: cknebel79
