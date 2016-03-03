@@ -5,7 +5,7 @@ lab: OK Lab Düsseldorf
 lat: 51.227741
 long: 6.773456
 markerposition: left
-showsignup: true
+showsignup: false
 
 links:
 - name: Blog
