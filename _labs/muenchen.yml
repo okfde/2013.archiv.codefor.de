@@ -2,8 +2,8 @@
 key: muenchen
 title: OK Lab München
 lab: OK Lab München
-lat: 48.1442919
-long: 11.5683318
+lat: 48.1238228
+long: 11.6081613
 markerposition: right
 
 ## LMU Oettingenstr
@@ -95,25 +95,25 @@ members:
 
 
 links:
-- name: Meetup
+- name: Unsere nächste Hackathon
+  url: http://www.codefor.de/muenchen/hackathon/
+
+- name: Termine und Mitglieder - Meetup
   url: http://www.meetup.com/code-for-muenchen/
 
-- name: Twitter
+- name: Latest News auf Twitter
   url: https://twitter.com/codeformuenchen
   
-- name: Orga-Pad
+- name: Notizen auf Orga-Pad
   url: http://pad.okfn.org/p/oklab-muc
 
-- name: Mailingliste
+- name: Unsere Mailinglist
   url: https://lists.okfn.org/mailman/listinfo/codeformunich
 
 
 leads:
-- name: Bernd Oswald
-  url: https://twitter.com/berndoswald
+- name: Mario Haim
+  url: https://twitter.com/drfollowmario
 
 - name: Matt Fullerton
   url: mailto:matt.fullerton@gmail.com
-
-- name: Mario Haim
-  url: https://twitter.com/drfollowmario

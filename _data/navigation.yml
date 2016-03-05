@@ -5,8 +5,6 @@ de:
     url: /stadtgeschichten
   - title: Mitmachen
     url: /mitmachen
-  - title: Labs
-    url: /oklabs
   - title: Termine
     url: /termine
   - title: Projekte
@@ -22,8 +20,6 @@ en:
     url: /en/stadtgeschichten
   - title: Join
     url: /en/mitmachen
-  - title: Labs
-    url: /en/oklabs
   - title: Calendar
     url: /en/termine
   - title: Projects

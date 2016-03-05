@@ -1,6 +1,6 @@
 ---
 lab: OK Lab Niederrhein
-name: Open Data Day - OK Lab Ruhr + Niederrhein Treffen
+name: Open Data Day - OK Lab Ruhrgebiet + Niederrhein Treffen
 date: 2016-03-05
 time: ab 12 Uhr (Ende offen)
 location:  Das Unperfekthaus, Friedrich-Ebert-Str. 18, 45127 Essen

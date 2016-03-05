@@ -35,16 +35,6 @@
 	text-align: right;
 }
 
-.project-teaser {
-	.project-status {
-		float: right;
-	}
-
-	.project-lab {
-		float: left;
-	}
-}
-
 .project-teaser-slim .image-crop {
 	height: 245px;
 	overflow: hidden;
@@ -58,6 +48,20 @@
 		margin: auto;
 		height: auto;
 	}
+}
+
+.project-labs-box {
+  float: left;
+  width: 60%;
+  .m-r-2 { margin-right: 18px; }
+  .icon-before:before { margin-right: 18; }
+}
+
+.project-status-box {
+  margin-top: 0;
+  float: right;
+  width: 40%;
+  text-align: right;
 }
 
 /*===============================

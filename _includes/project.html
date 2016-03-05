@@ -6,6 +6,7 @@
     {% assign classColRight = 'col-lg-pull-6' %}
   {% endif%}
 
+
   <div class="row">
     <div class="{{ classCols }} {{ classColLeft }}">
       {% if [include.type]imgname %}
@@ -20,20 +21,21 @@
       <div class="project-footer clearfix">
         <div class="row">
           <div class="additional col-lg-6">
-
-            {% for lab in site.labs %}
-              {% if lab.lab == [include.type]lab %}
-                {% assign laburl = lab.key %}
-                {% break %}
-              {% endif %}
+            {% for project_lab in [include.type]lab %}
+              {% for lab in site.labs %}
+                {% if lab.lab == project_lab %}
+                  {% assign laburl = lab.key %}
+                  {% if page.lang == 'en' %}
+                    {% capture laburl %}en/{{ laburl }}{% endcapture %}
+                  {% endif %}
+                  <div class="event-location icon-before project-lab">
+                    <a href="/{{ laburl }}">{{ project_lab }}</a>
+                  </div>
+                  {% break %}
+                {% endif %}
+              {% endfor%}
             {% endfor%}
-            {% if page.lang == 'en' %}
-              {% capture laburl %}en/{{ laburl }}{% endcapture %}
-            {% endif %}
 
-            <div class="event-location  icon-before project-lab">
-              <a href="/{{ laburl }}">{{ [include.type]lab }}</a>
-            </div>
             <br>
             {% if [include.type]collaborators %}
             <span class="project-collaborators icon-before">Mitglieder</span>
