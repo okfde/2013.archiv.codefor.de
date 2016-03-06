@@ -2,24 +2,26 @@
 key: duesseldorf
 title: OK Lab Düsseldorf
 lab: OK Lab Düsseldorf
-lat: 51.227741
-long: 6.773456
+lat: 51.209478
+long: 6.7784333
 markerposition: left
 showsignup: false
 
 links:
 - name: Blog
   url: http://codefordus.tumblr.com/
+- name: Facebook
+  url: https://www.facebook.com/codefordus/
+- name: GitHub
+  url: https://github.com/codefordus
+- name: Hackpad
+  url: https://codefordus.hackpad.com/
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeforduesseldorf
 - name: Meetup
   url: http://www.meetup.com/de-DE/OK-Lab-Dusseldorf/
-- name: Facebook
-  url: https://www.facebook.com/codefordus/
 - name: Twitter
   url: https://twitter.com/codefordus
-- name: GitHub
-  url: https://github.com/codefordus
 
 leads:
 - name: Stefan
@@ -39,3 +41,5 @@ members:
 - name: Dr. Christian Knebel
   username-github: cknebel
   username-twitter: cknebel79
+- name: Lara Knebel
+  username-twitter: lknebel19
