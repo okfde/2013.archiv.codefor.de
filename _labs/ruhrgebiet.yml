@@ -10,16 +10,23 @@ showsignup: false
 links:
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeforruhrgebiet
+- name: Etherpad
+  url: https://pad.okfn.org/p/codeforruhrgebiet
 - name: Meetup
   url: http://www.meetup.com/de-DE/OK-Lab-Ruhrgebiet/
 - name: Twitter
-  url: https://twitter.com/OpenRuhr
+  url: https://twitter.com/CodeforRuhr
 - name: GitHub
-  url: https://github.com/OpenRuhr
-- name: Webseite
+  url: https://github.com/codeforruhrgebiet
+- name: OpenRuhr.de
   url: https://openruhr.de
-- name: Etherpad
-  url: https://pad.okfn.org/p/codeforruhrgebiet
+
+leads:
+- name: Ernesto
+  url: mailto:info@openruhr.de
+- name: Martin
+  url: mailto:martin@schurig.pw
+
 
 members:
 - name: Ernesto Ruge
@@ -28,3 +35,12 @@ members:
 - name: Martin Schurig
   username-github: schurig
   username-twitter: martinschurig
+- name: Sakander Zirai
+  username-github: suioni
+  username-twitter: suioni
+- name: Simon Wörpel
+  username-github: simonwoerpel
+  username-twitter: simonwoerpel
+- name: Thomas Müller
+  username-github: mullerovsky
+

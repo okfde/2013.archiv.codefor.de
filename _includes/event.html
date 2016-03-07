@@ -1,12 +1,13 @@
-<div class="event-wrapper fond__white clearfix">
+<div class="event-wrapper fond__white clearfix" itemscope itemtype="http://data-vocabulary.org/Event">
   <div class="event-description">
     <span class="event-lab">{{ event.lab }}</span>
 
-    <h4 class="event-title"><a href="{{ event.link-url }}">{{ event.name }}</a></h4>
+    <h4 class="event-title"><a href="{{ event.link-url }}" itemprop="name">{{ event.name }}</a></h4>
     <span class="event-time icon-before">{{ event.time }}</span>
-    <span class="event-location icon-before">{{ event.location }}</span>
+    <span class="event-location icon-before" itemprop="location">{{ event.location }}</span>
+    <span class="hidden" itemprop="startDate">{{ event.date | date: "%Y-%m-%d" }}</span>
   </div>
-  <div class="event-date-cta-wrapper">
+  <div class="event-date-cta-wrapper" datetime="{{ event.date | date: "%Y-%m-%d" }}">
     <div class="event-date">
     {% include functions/getGermanDay.html date = event.date %}
      <span class="event-date-d">{{ event.date | date: "%d" }}</span>
@@ -14,7 +15,7 @@
 
    </div>
    <div class="event-cta">
-    <a href="{{ event.link-url }}">Mehr Info</a>
+    <a href="{{ event.link-url }}" itemprop="url">Mehr Info</a>
   </div>
 </div>
 </div>

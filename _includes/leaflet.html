@@ -43,17 +43,9 @@ $(document).ready(function() {
         {% if lab.lat and lab.long %}
         var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon:
         {% if lab.markerposition == 'left' %}
-            {% if lab.h4c %}
-                new labelLeftH4C(
-            {% else %}
                 new labelLeft(
-            {% endif %}
         {% else %}
-            {% if lab.h4c %}
-                new labelRightH4C(
-            {% else %}
                 new labelRight(
-            {% endif %}
         {% endif %}
             {% if page.lang == 'en' %}
             { labelText:'<a href="/en/{{ lab.key }}/">{{ lab.lab }}</a>'}),
