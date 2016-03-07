@@ -30,11 +30,7 @@ $(document).ready(function() {
     });
 
     var marker = L.marker( [{{ meta.lat }}, {{ meta.long }}], { icon:
-        {% if meta.h4c %}
-            new cityMarkerH4C(
-        {% else %}
             new cityMarker(
-        {% endif %}
             { labelText:'{{ meta.title }}'}) })
     .addTo(map)
 
