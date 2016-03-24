@@ -16,4 +16,4 @@ Dafür hat [@tursics][] vom Berliner OK Lab die Datenwaben gebaut. Sie sollen An
 
 [Datenwaben]: http://daten-waben.tursics.de
 [Github]: http://daten-waben.tursics.de
-[Tursics]: https://twitter.com/tursics
+[@tursics]: https://twitter.com/tursics
