@@ -24,25 +24,44 @@ links:
   url: https://twitter.com/codefordus
 
 leads:
-- name: Stefan
+- name: Stefan Müller
   url: mailto:stefan.mueller@gruene-duesseldorf.de
-- name: Phil
+- name: Phil Ninh
   url: mailto:philninh@gmail.com
-- name: Christian
+- name: Dr. Christian Knebel
   url: mailto:knebel@publicplan.de
 
 members:
-- name: Stefan Müller
-  username-github: stefdus
-  username-twitter: stefdus
-- name: Phil Ninh
-  username-github: PhilNinh
-  username-twitter: philninh
+- name: Agnes Mainka
+  username-twitter: agnieszka_m
+- name: Antje Feil
+  username-twitter: antjefeil
+- name: Arne Lieb
+  username-twitter: arnelieb
+- name: Catrin Boss
 - name: Dr. Christian Knebel
   username-github: cknebel
   username-twitter: cknebel79
+- name: Khalid Karroumi
 - name: Lara Knebel
   username-twitter: lknebel19
 - name: Marcus Weiner
   username-github: mraerino
   username-twitter: mraerino
+- name: Max Schorradt
+  username-github: mechtecs
+  username-twitter: mechtecs
+- name: Oliver Vaupel
+  username-twitter: ovau
+- name: Patrick Schiffer
+  username-github: patrickschiffer
+  username-twitter: pschiffer
+- name: Phil Ninh
+  username-github: PhilNinh
+  username-twitter: philninh
+- name: Stefan Müller
+  username-github: stefdus
+  username-twitter: stefdus
+- name: Steffen Pramel
+- name: Tobias Hübner
+  username-twitter: medienistik
