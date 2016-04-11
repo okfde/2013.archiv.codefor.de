@@ -1,5 +1,5 @@
 <script>
-$(document).ready(function() {
+    $(document).ready(function() {
 
     // initiaize map, set position and zoom level
     var map = L.map('lab-map').setView([51.1642292, 10.4541194], 6);
@@ -10,7 +10,7 @@ $(document).ready(function() {
     var mapboxLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v4/codeforgermany.cc5365b0/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmdlcm1hbnkiLCJhIjoiMVg2ZGdSSSJ9.JsM4S0LZpeNmI1rHQnCxig', {
         attribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">&copy; Mapbox &copy; OpenStreetMap</a> | <a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
         minZoom: 5
-        });
+    });
 
     // define left-aligned and right-aligned labels and icons
     var labelBaseOptions = {
@@ -22,39 +22,41 @@ $(document).ready(function() {
         wrapperAnchor: new L.Point(10, 35)
     };
 
+
+
+
+    // load markers and put on map
+    {% for lab in site.labs %}
+    {% if lab.lat and lab.long %}
+
     var labelRight = L.Icon.Label.extend({
         options: labelBaseOptions
-    });
-
-    var labelRightH4C = labelRight.extend({
-        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }
     });
 
     var labelLeft = labelRight.extend({
         options:  { labelClassName: 'label-left'}
     });
+    
+    {% if lab.special %} 
+        labelRight = labelRight.extend({options:  { iconUrl: '/img/lab_marker_special_home.png' }});
+        labelLeft = labelLeft.extend({ options:  { iconUrl: '/img/lab_marker_special_home.png' }});
+    {% endif %}
 
-    var labelLeftH4C = labelLeft.extend({
-        options:  { iconUrl: '/img/lab_marker_home_h4c.png' }
-    });
-
-    // load markers and put on map
-    {% for lab in site.labs %}
-        {% if lab.lat and lab.long %}
-        var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon:
+    var marker = L.marker( [{{ lab.lat }}, {{ lab.long }}], { icon:
         {% if lab.markerposition == 'left' %}
-                new labelLeft(
+            new labelLeft(
         {% else %}
-                new labelRight(
+            new labelRight(
         {% endif %}
-            {% if page.lang == 'en' %}
+        
+        {% if page.lang == 'en' %}
             { labelText:'<a href="/en/{{ lab.key }}/">{{ lab.lab }}</a>'}),
-            {% else %}
+        {% else %}
             { labelText:'<a href="/{{ lab.key }}/">{{ lab.lab }}</a>'}),
-            {% endif%}
-            riseOnHover: true })
-        .addTo(map)
         {% endif%}
+        riseOnHover: true })
+    .addTo(map)
+    {% endif%}
     {% endfor %}
 
     // load basemaps

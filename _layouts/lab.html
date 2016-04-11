@@ -11,9 +11,13 @@ layout: base
   {% endif %}
 {% endfor %}
 
+
 <!-- Lab Map -->
 <div class="jumbotron fond__gray map-container" style="padding:0px;">
       <div id="lab-map" class="lab-map-city"></div>
+      {% if meta.special %}
+        {% include drl-map-legend.html %}
+      {% endif %}
 </div>
 
 {% if meta.showsignup %}
