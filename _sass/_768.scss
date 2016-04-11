@@ -15,6 +15,7 @@
 	margin-top: 11%;
 	padding: 0;
 	position: absolute;
+	text-align: left; 
 
 	h1 {
 		margin: 0;
@@ -116,7 +117,7 @@
 	left: 50%;
 	padding: 0;
 	-webkit-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
 
 .story-wrapper {
@@ -226,9 +227,74 @@
 ================================*/
 
 .drl-page-wrap {
+
+	padding: 70px;
+
 	.page-title {
 		width: 31%;
 		margin: 50px auto 0 auto;
+		font-size: 60px;
+		word-spacing: normal;
+	}
+
+	.story-wrapper {
+		padding: 50px;
+	}
+
+	.drl-body,
+	.drl-teaser {
+
+	}
+
+	.drl-teaser-wrapper {
+		padding: 60px;
+	}
+
+	.drl-teaser-header a {
+		&::after {
+			top: 45px;
+		}
+
+		}
+
+	.drl-teaser-title {
+		font-size: 40px;
+		float: left;
+
+
+	}
+
+	.drl-teaser-date {
+		float: right;
+		font-size: 26px;
+		margin-right: 85px;
+	}
+
+	.drl-teaser-header {
+		.collapsed {
+			.drl-teaser-date::after {
+			}
+		}
+	}
+
+	.drl-teaser-location {
+	}
+
+	.drl-teaser-space {
+		float: left;
+	}
+
+	.drl-teaser-labs {
+		float: right;
+		margin-top: 0;
+
+		a {
+			display: block;
+		}
+
+	}
+
+	.cta {
 	}
 }
 
