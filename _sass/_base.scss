@@ -448,7 +448,9 @@ label {
 }
 
 .hero-overlay {
-	background: $green2;
+	//background: $green2;
+	background: transparent;
+
 	text-align: center;
 
 	h1 {
@@ -1388,6 +1390,19 @@ $date-circle: 80px;
 		text-decoration: none;
 		margin-top: 2em;
 		display: inline-block;
+	}
+
+	.section-heading {
+		text-align: center; 
+		font-size: 40px;
+		font-family: $leaguespartan;
+		color: $white;
+		margin-top: 100px;
+	}
+
+	.panel-collapse {
+		background: $green2;
+		padding: 10px;
 	}
 
 }
