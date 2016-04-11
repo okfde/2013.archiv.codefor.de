@@ -1,0 +1,98 @@
+---
+layout: base
+title: Digital Refugee Labs
+og-description: Oneliner für Facebook
+og-image: /img/drl-wallpaper-og-img.png
+---
+<div class="drl-page-wrap">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">  
+        <h1 class="page-title">{{ page.title }}</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">  
+        <div class="story-wrapper fond__green2">
+
+          <div class="drl-body clearfix">
+
+            <p>
+              Vier Labs aus dem Code for Germany Netzwerk machen sich dieses Jahr das Thema Flucht und Asyl zum Schwerpunkt. Als ‘Digital Refugee Labs’ wollen wir interdisziplinäre Teams zusammenbringen, die digitale Hilfsmittel und kreative Ansätze nutzen, um Hilfsorganisationen bei ihrer täglichen Arbeit zu unterstützen. In den Labs werden Tech-Skills vermittelt und es wird an der Öffnung von relevanten Informationen und Daten aus der öffentlichen Verwaltung gearbeitet. Ziel ist es, die Zusammenarbeit zwischen technisch versierten Communitys, Ehrenamtlichen im Bereich der Flüchtlingshilfe, Geflüchteten sowie öffentlichen Verwaltungen zu verstetigen und auszubauen. Gefördert wird das Projekt von der Bundeszentrale für politische Bildung.
+            </p>  
+
+            <p>
+              Als Projektauftakt findet in jeder der vier Städte ein Workshop statt, zu dem lokale Hilfsinitiativen und Netzwerke, sowie interessierte BürgerInnen, Geflüchtete als auch städtische VertreterInnen eingeladen werden. Die Workshops dienen dem gegenseitigen Kennenlernen und dem Identifizieren von Problemstellungen. Im Fokus der Arbeit der Labs steht nutzer- und problemorientiertes Vorgehen, sowie die Weiterentwicklung und die Bündelung von bereits existierenden Tech-Projekten. Die daraus entstehenden Arbeitsgruppen arbeiten in den darauffolgenden Monaten weiter an der Umsetzung und Implementierung der Konzepte und Lösungen.  
+            </p> 
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="accordion" class="col-lg-10 col-lg-offset-1">  
+        
+        {% for drl in site.digitalrefugeelabs %}
+
+        <div  class="drl-teaser-wrapper fond__mint">
+
+            
+
+
+          <div class="drl-teaser">
+
+            <div class="drl-teaser-header clearfix">
+              <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed clearfix">
+                <h2 class="drl-teaser-title">{{ drl.title }}</h2>
+                <span class="drl-teaser-date">{{ drl.when }}</span>
+              </a>
+            </div>
+
+            <div id="collapse-{{ forloop.index0 }}" class="collapse">
+              <div class="drl-teaser-location clearfix">
+                <div class="drl-teaser-space">{{ drl.where }}<br>{{ drl.time }}</div>
+
+                <div class="drl-teaser-labs">
+
+                {% for lab in drl.labs %}
+                  <a href="{{ lab.url }}">
+                   {{ lab.name }}
+                  </a>
+                {% endfor %}
+
+                </div>
+              </div>
+
+              {{ drl.content }}
+
+              {% if drl.ctaurl %}
+                <a class="cta" href="{{ drl.ctaurl }}">Jetzt Mitmachen!</a>
+              {% endif %}
+            
+            </div>
+
+          </div>
+        </div>
+
+        {% endfor %}
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+
+  });
+</script>

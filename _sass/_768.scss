@@ -10,6 +10,19 @@
 	max-width: 1320px;
 }
 
+.hero-overlay {
+	width: 20%;
+	margin-top: 11%;
+	padding: 0;
+	position: absolute;
+
+	h1 {
+		margin: 0;
+		font-size: 60px;
+	}
+
+} 
+
 #animation-wrapper {
 	width: 40%;
 	margin-top: 11%;
@@ -21,6 +34,8 @@
 		margin: 0;
 	}
 }
+
+
 
 .jumbotron {
 	padding: 70px;
@@ -205,3 +220,15 @@
 
 
 /*-----  End of Story  ------*/
+
+/*================================
+=  Digital Refugee Labs          =
+================================*/
+
+.drl-page-wrap {
+	.page-title {
+		width: 31%;
+		margin: 50px auto 0 auto;
+	}
+}
+

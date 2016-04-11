@@ -1,6 +1,8 @@
 $red: #FF5449;
 $blue: #00ABFA;
 $green: #22D790;
+$green2: #03A678;
+$mint: #66CC99;
 $cyan: #82E0D9;
 $grey-bright: #F2F2F2;
 $grey-mid: #E7E7E7;
@@ -12,6 +14,8 @@ $white: #FFFFFF;
 .fond__red { background-color: $red;}
 .fond__blue { background-color: $blue;}
 .fond__green { background-color: $green;}
+.fond__green2 { background-color: $green2;}
+.fond__mint { background-color: $mint;}
 .fond__grey { background-color: $grey-bright;}
 .fond__grey-mid { background-color: $grey-mid;}
 .fond__white { background-color: $white;}
@@ -116,6 +120,10 @@ $white: #FFFFFF;
 
 }
 
+$leaguespartan: 'League Spartan',sans-serif;
+$apercu: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+$junction: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+
 body {
 	@extend .fond__grey;
 }
@@ -166,7 +174,7 @@ $body-font-size: 18px;
 body {
 	font-size: $body-font-size;
 	line-height: 1.6em;
-	font-family:"Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
+	font-family: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 	font-weight:normal;
 	font-style:normal;
 }
@@ -425,9 +433,11 @@ label {
 	a {
 		text-decoration: none;
 	}
+
 }
 
-#animation-wrapper {
+#animation-wrapper,
+.hero-overlay {
 
 	background: $blue;
 	padding: 5% 0;
@@ -436,6 +446,16 @@ label {
 	width: 100%;
 
 }
+
+.hero-overlay {
+	background: $green2;
+
+	h1 {
+		font-family: $leaguespartan;
+	}
+	
+}
+
 
 /* Newsletter Signup */
 
@@ -1236,7 +1256,113 @@ $date-circle: 80px;
 
 /*-----  End of Stories  ------*/
 
+/*================================
+=  Digital Refugee Labs          =
+================================*/
 
+.drl-page-wrap {
+	background-color: $green2;
+	background-image: url('/img/digital_refugee_labs.svg');
+	font-family: $junction;
+	padding: 70px;
+
+
+	.page-title {
+		color: $white; 
+		font-family: $leaguespartan;
+	}
+
+	.drl-body,
+	.drl-teaser {
+		color: black;
+		font-family: $junction;
+	}
+
+		.drl-teaser-wrapper {
+			padding: 60px;
+			margin-bottom: 20px;
+		}
+
+
+
+		.drl-teaser-title {
+			font-family: $leaguespartan;
+			font-size: 40px;
+			color: $white;
+			float: left;
+			margin-top: 0;
+			margin-bottom: 0;
+			text-transform: none;
+		}
+
+		.drl-teaser-date {
+			font-size: 26px;
+			float: right;
+			margin-top: 12px;
+			font-family: $junction;
+
+			&:after {
+				content: "";
+				width: 21px;
+				height: 24px;
+				display: inline-block;
+				background: url('/img/arrow_down.svg') no-repeat;
+				margin-left: 35px;
+				transform: rotate(0);
+				transition: transform 0.5s;
+			}
+		}
+
+		.drl-teaser-header {
+			.collapsed {
+				.drl-teaser-date::after {
+					transform: rotate(180deg);
+				}
+			}
+		}
+
+		.drl-teaser-location {
+			margin-top: 2em;
+			margin-bottom: 3em;
+			line-height: 1.5;
+		}
+
+		.drl-teaser-space {
+			font-size: 28px;
+			float: left;
+			font-family: $junction;
+
+		}
+
+		.drl-teaser-labs {
+			float: right;
+
+			a {
+
+				display: block;
+				text-transform: uppercase;
+				margin-bottom: 1em;
+				text-decoration: none;
+				color: $red;
+				background: $white;
+				padding: 0.5em 1em;
+
+			}
+
+
+		}
+
+		.cta {
+			font-family: $apercu;
+			background: $white;
+			text-transform: uppercase;
+			padding: 0.5em 0.75em;
+			text-decoration: none;
+			margin-top: 2em;
+			display: inline-block;
+		}
+
+}
 
 
 /*================================
