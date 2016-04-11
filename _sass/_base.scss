@@ -1080,14 +1080,7 @@ $date-circle: 80px;
 	}
 }
 
-// for digital refugee labs
-.hero-pattern { 
-	&:before {
-		padding-top: 30%;
-	}
-	
-	
-}
+
 
 .hero-pattern-wrap, .story--pattern-wrap {
 	position: absolute;
@@ -1272,6 +1265,20 @@ $date-circle: 80px;
 =  Digital Refugee Labs          =
 ================================*/
 
+// for digital refugee labs
+.hero-pattern__drl { 
+	
+	&:before {
+		padding-top: 30%;
+	}
+
+	svg {
+		stroke: none;
+	}
+}
+
+
+
 .drl-page-wrap {
 	background-color: $green2;
 	background-image: url('/img/digital_refugee_labs.svg');
@@ -1368,7 +1375,6 @@ $date-circle: 80px;
 		margin-top: 1em;
 
 		a {
-
 			display: inline-block;
 			text-transform: uppercase;
 			margin-bottom: 1em;
@@ -1376,10 +1382,7 @@ $date-circle: 80px;
 			color: $red;
 			background: $white;
 			padding: 0.5em 1em;
-
 		}
-
-
 	}
 
 	.cta {
