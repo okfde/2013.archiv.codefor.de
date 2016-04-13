@@ -36,9 +36,11 @@ og-image: /img/drl-wallpaper-og-img.png
         <div  class="drl-teaser-wrapper fond__mint">
           <div class="drl-teaser">
             <div class="drl-teaser-header clearfix">
-              <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed clearfix">
-                <h2 class="drl-teaser-title">{{ drl.title }}</h2>
-                <span class="drl-teaser-date">{{ drl.when }}</span>
+              <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed">
+                <div class="clearfix">
+                  <h2 class="drl-teaser-title">{{ drl.title }}</h2>
+                  <span class="drl-teaser-date">{{ drl.when }}</span>
+                </div>
               </a>
             </div>
 

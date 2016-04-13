@@ -1316,6 +1316,7 @@ $date-circle: 80px;
 
 		&:active, &:focus {
 			text-decoration: none;
+			outline: 0;
 		}
 
 		&::after {
