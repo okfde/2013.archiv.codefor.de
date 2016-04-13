@@ -1314,6 +1314,10 @@ $date-circle: 80px;
 		display: block;
 		position: relative;
 
+		&:active, &:focus {
+			text-decoration: none;
+		}
+
 		&::after {
 
 			content: "";
@@ -1411,6 +1415,13 @@ $date-circle: 80px;
 	}
 
 }
+
+.drl-footer {
+
+	padding: 30px;
+
+}
+
 
 
 /*================================
