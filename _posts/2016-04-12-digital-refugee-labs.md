@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Neuer Schwerpunkt 'Digital Refugee Labs'
+title: Schwerpunkt 2016 'Digital Refugee Labs'
 author: Fiona
 excerpt: Vier Labs arbeiten dieses Jahr verstärkt am Thema Flucht und Asyl und unterstützen Hilfsorganisationen mit ihren Fähigkeiten
-published: false
+published: true
 images:
 - imgname: drl-logo.png
 ---
@@ -28,4 +28,5 @@ images:
 
 <p>Wir freuen uns sehr darüber, das Engagement der Labs und Community aus dem letzten Jahr dieses Jahr weiter unterstützen zu können. Gefördert wird das Projekt von der Bundeszentrale für politische Bildung.</p>
 <br>
-<p>Und hier geht's zum Projekt: <a href="codefor.de/digitalrefugeelabs">http://codefor.de/digitalrefugeelabs</a></p>
+<p>Und hier geht's zum Projekt: <a href="http://codefor.de/digitalrefugeelabs">codefor.de/digitalrefugeelabs</a></p>
+
