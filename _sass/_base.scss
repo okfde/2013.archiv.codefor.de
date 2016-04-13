@@ -1282,6 +1282,11 @@ $date-circle: 80px;
 
 
 .drl-page-wrap {
+
+	p a {
+		text-decoration: underline;
+	}
+	
 	background-color: $green2;
 	background-image: url('/img/digital_refugee_labs.svg');
 	font-family: $junction;
