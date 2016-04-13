@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Schwerpunkt 2016: 'Digital Refugee Labs'
+title: Schwerpunkt 2016 'Digital Refugee Labs'
 author: Fiona
 excerpt: Vier Labs arbeiten dieses Jahr verstärkt am Thema Flucht und Asyl und unterstützen Hilfsorganisationen mit ihren Fähigkeiten
 published: true
