@@ -1,0 +1,38 @@
+---
+layout: project
+lab: OK Lab Düsseldorf
+imgname: duesseldorf/raumamateur.png
+title: Raumamateur
+status: In Progress
+
+links:
+- url: http://www.cycledorf.de/
+  name: cycledorf.de
+- url: https://github.com/codefordus/CycleDorf-iOS
+  name: iOS-App auf GitHub
+- url: https://github.com/codefordus/CycleDorf-Android
+  name: Android-App auf GitHub
+- url: https://codefordus.hackpad.com/collection/FvUzMKdDmvA
+  name: Hackpad
+
+collaborators:
+- name: Antje Feil
+  links:
+    - url: https://twitter.com/antjefeil
+      url-name: Twitter
+- name: Dr. Christian Knebel
+  links:
+    - url: https://twitter.com/cknebel79
+      url-name: Twitter
+    - url: https://github.com/cknebel
+      url-name: GitHub
+- name: Patrick Schiffer
+  links:
+    - url: https://twitter.com/pschiffer
+      url-name: Twitter
+    - url: https://github.com/patrickschiffer
+      url-name: GitHub
+
+---
+
+Der Raumamateur ist eine App, die Dich durch einen Klick, einen Kommentar oder einen visuellen Beitrag (Foto oder Video) am Prozess der Stadtgestaltung teilhaben lässt. Die App stellt die Planungen der Raumexperten (Stadtverwaltung, Politik und Planende) dar und benachrichtigt Dich über Projekte in deinem Lebensumfeld. Als Raumamateur und Liebhaber deiner Alltagsorte kannst Du auf intuitive Art und Weise Einfluss nehmen ohne formelle Stellungnahmen abzugeben, die das Baugesetzbuch vorsieht. So wird eine formelle und reaktive Ausgangslage für Dich als Teil der Stadtgesellschaft, durch eine Möglichkeit zur informellen, proaktiven Teilhabe abgelöst.
