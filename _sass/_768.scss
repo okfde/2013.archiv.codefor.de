@@ -10,6 +10,18 @@
 	max-width: 1320px;
 }
 
+#animation-wrapper {
+	position: absolute;
+	width: 40%;
+	margin-top: 11%;
+	padding: 0;
+
+	h1 {
+		font-size: 26px;
+		margin: 0;
+	}
+}
+
 .hero-overlay {
 	width: 20%;
 	margin-top: 11%;
@@ -21,22 +33,7 @@
 		margin: 0;
 		font-size: 60px;
 	}
-
-} 
-
-#animation-wrapper {
-	width: 40%;
-	margin-top: 11%;
-	padding: 0;
-	position: absolute;
-
-	h1 {
-		font-size: 26px;
-		margin: 0;
-	}
 }
-
-
 
 .jumbotron {
 	padding: 70px;
@@ -45,8 +42,6 @@
 .meta-links-foot {
 	padding: 35px ;
 }
-
-
 
 .highlight-hero {
 	// margin-left: 10px;
