@@ -41,8 +41,15 @@ members:
   username-github: Ketoma
 - name: Simon
   username-github: GityUpNow
-- name: Lukas
+- name: Lukas Himsel
   username-github: lukas-h
+- name: Franz Imschweiler
+- name: Christian (Robotics)
+  username-github: chrisrobotics
+- name: Iris Korn
+  username-twitter: korn_iris
+- name: Henri Chilla
+  username-github: ohrie
 
 links:
 - name: Etherpad
