@@ -1,3 +1,22 @@
+.mobile-menu-toggle {
+  right: 60px;
+  top: 60px;
+}
+
+.nav-wrap {
+  right: -350px;
+  width: 350px;
+  padding: 60px;
+}
+
+.mobile-menu-open .page-wrap {
+  transform: translateX( -350px );
+}
+
+.navbar {
+  padding: 60px;
+}
+
 .nav-meta li {
 	display: inline-block;
 	width: inherit;

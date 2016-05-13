@@ -11,7 +11,6 @@ $black: #000000;
 $white: #FFFFFF;
 $dark-red: #C53C3C;
 
-
 .fond__red { background-color: $red;}
 .fond__dark-red {background-color: $dark-red;}
 .fond__blue { background-color: $blue;}
@@ -131,12 +130,11 @@ body {
 }
 
 .logo {
-	margin-bottom: 20px;
+
 }
 
 .navbar {
 	@extend .fond__white;
-	padding: 20px 0;
 }
 
 .nav > li > a {
@@ -360,9 +358,14 @@ label {
 =   Home
 ============================*/
 
-
 .init-hidden {
 	visibility: hidden;
+}
+
+
+.mobile-menu-toggle {
+	right: 15px;
+  top: 30px;
 }
 
 .navbar {
@@ -370,7 +373,37 @@ label {
 	border-radius: 0;
 	box-shadow: none;
 	margin-bottom: 0;
+	padding: 30px;
 }
+
+.body-wrap {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+// burger itself + margin around
+$keep: 44 + 2 * 15px;
+
+.nav-wrap {
+  position: absolute; 
+  top:0;
+  right: calc(-100% + #{$keep});
+  width: calc(100% - #{$keep});
+  height: 100%;
+  padding: 15px;
+}
+
+.page-wrap {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.mobile-menu-open .page-wrap {
+  transform: translateX(calc(-100% + #{$keep}));
+}
+
 
 .nav-meta li {
 	display: block;
@@ -412,7 +445,7 @@ label {
 }
 
 .main-nav-wrapper {
-	.nav-pills li {
+	.nav-pills>li {
 		border: 2px solid transparent;
 		a {
 			padding: 0 5px;
@@ -422,7 +455,12 @@ label {
 
 	.nav-pills .current {
 		border: 2px solid $red;
+		display: inline-block;
 	}
+}
+
+.nav-pills>li {
+	float:none;
 }
 
 .marker {
@@ -457,6 +495,8 @@ label {
 
 	h1 {
 		font-family: $leaguespartan;
+		letter-spacing: 0.05em;
+
 	}
 	
 }
@@ -1298,6 +1338,8 @@ $date-circle: 80px;
 		font-family: $leaguespartan;
 		font-size: 40px;
 		word-spacing: 100em;
+		letter-spacing: 0.05em;
+
 	}
 
 	.story-wrapper {

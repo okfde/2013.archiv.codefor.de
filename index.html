@@ -53,18 +53,11 @@ footerlogos: yes
 {% include newsletter-form.html %}
 
 <script src="js/lib/jquery.cookie.js"></script>
-<script src="js/lib/prettyCheckbox.min.js"></script>
-
-<script src="js/Application.js"></script>
 
 {% include leaflet.html %}
 
 <script type="text/javascript">
 
-$(document).ready(function() {
-  
-  app = new Application();
-  
   {% if page.lang == 'en' %}
     {% assign homehero = site.data.homehero.en %}
   {% else %} 
@@ -76,8 +69,4 @@ $(document).ready(function() {
     claims: [{% for claim in homehero.claims %}'{{ claim }}',{% endfor %}]
   }
 
-  app.init(herodata);
-  $(":checkbox").prettyCheckbox();
-
-});
 </script>

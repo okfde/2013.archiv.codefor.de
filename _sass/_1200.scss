@@ -1,11 +1,49 @@
+
+.mobile-menu-toggle {
+	display: none;
+}
+
+.nav-meta {
+	text-align: right;
+}
+
+
+.nav-wrap {
+  top: 60px;
+  right: 60px;
+  z-index: 1001;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.page-wrap {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu-open .page-wrap {
+  transform: translateX(calc(-100% + #{$keep}));
+}
+
+
 .main-nav-wrapper {
-	float: right;
+
+	.nav-pills>li {
+		a {
+		}
+	}
+
+		.nav-pills .current {
+		display: block;
+	}
+
 }
 
-.main-nav-wrapper .nav-pills {
+
+.nav-pills>li {
 	float: right;
 }
-
 #animation-wrapper {
 	background: transparent;
 }
