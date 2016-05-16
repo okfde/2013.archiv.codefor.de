@@ -5,6 +5,8 @@ lab: Code for Hamburg
 lat: 53.5476165
 long: 9.9800385
 
+special: true #this lab gets spcecial marker (digital refugee lab)
+
 markerposition: right
 
 members:
@@ -66,30 +68,34 @@ links:
 #- name: Flyer
 #  url: in progress
 
-
-- name: Anmeldungen und Infos auf Meetup
+- name: CODEFORHAMBURG.ORG - NEU
   url: http://www.meetup.com/codeforhamburg
 
-- name: Twitter
+- name: Mailingliste - NEU
+  url: http://codeforhamburg.org/newsletter/
+
+- name: "--------------------------------" 
+  url: 
+
+- name: Termine (Meetup.com)
+  url: http://www.meetup.com/codeforhamburg
+
+- name: Twitter - Neuigkeiten
   url: http://twitter.com/codeforhamburg
 
-- name: Etherpad (Orga, Updates usw.)
+- name: Notizen... (Orga, Updates usw.)
   url: http://pad.opendatacloud.de/p/OK-Lab-HH
-
-- name: Mailingliste
-  url: https://lists.okfn.org/mailman/subscribe/codeforhamburg
-  url: mailto:codeforhamburg@lists.okfn.org
 
 leads:
 
 - name: Solveig Schröder (Orga)
-  url: mailto:timo@lundelius.com
+  url: mailto:solveig@codeforhamburg.org
 
 - name: Timo Lundelius (Orga)
-  url: mailto:timo@lundelius.com
+  url: mailto:timo@codeforhamburg.org
 
 - name: Philipp Geisler (Orga) 
-  url: mailto:philippgeisler@mailbox.org
+  url: mailto:philipp@codeforhamburg.org
 
 - name: Marco Maas (Ehrenpräsident)
   url: mailto:maas@opendatacity.de
