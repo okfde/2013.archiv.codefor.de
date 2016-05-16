@@ -1,14 +1,13 @@
 ---
 key: hamburg
-title: OK Lab Hamburg
-lab: OK Lab Hamburg
+title: Code for Hamburg Lab
+lab: Code for Hamburg
 lat: 53.5476165
 long: 9.9800385
 
 markerposition: right
 
 members:
-
 
 - name: Timo lundelius
   username-github: lundelius
@@ -18,6 +17,18 @@ members:
   username-github: philippgeisler
   username-twitter: zelpst
 
+- name: Solveig Schröder
+  username-github: solveigs
+  username-twitter: SolveigSchroder
+
+- name: Hannes
+  username-github: kannes
+  username-twitter: cartocalypse
+
+- name: Achim Tack
+  username-github: ATack
+  username-twitter: A_Tack
+
 - name: Marco Maas
   username-github: marcomaas
   username-twitter: themaastrix
@@ -26,17 +37,9 @@ members:
   username-github: tike
   username-twitter: tike10
 
-- name: Hannes
-  username-github: kannes
-  username-twitter: cartocalypse
-
 - name: Patrick Stotz
   username-github: PatrickStotz
   username-twitter: PatrickStotz
-
-- name: Achim Tack
-  username-github: ATack
-  username-twitter: A_Tack
 
 - name: Lukasz Plotnicki
   username-github: lplotni
@@ -78,16 +81,20 @@ links:
   url: mailto:codeforhamburg@lists.okfn.org
 
 leads:
-- name: Timo Lundelius (Orga & Lead) 
+
+- name: Solveig Schröder (Orga)
   url: mailto:timo@lundelius.com
 
-- name: Philipp Geisler (Orga & Lead) 
+- name: Timo Lundelius (Orga)
+  url: mailto:timo@lundelius.com
+
+- name: Philipp Geisler (Orga) 
   url: mailto:philippgeisler@mailbox.org
 
-- name: Marco Maas
+- name: Marco Maas (Ehrenpräsident)
   url: mailto:maas@opendatacity.de
 
-- name: Timo Kessler
+- name: Timo Kessler (Immer gern gesehen)
   url: mailto:timo_kessler@gmx.de
 
 
