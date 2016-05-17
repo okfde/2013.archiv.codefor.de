@@ -17,196 +17,164 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>
-  {% if page.title %}
+    {% if page.title %}
     {{ page.title }} | {{ site.title }}
-  {% else %}
+    {% else %}
     {{ site.title }}  ~ {{ site.description }}
-  {% endif %}</title>
+    {% endif %}</title>
 
-  <meta name="description" content="{{ page.excerpt | strip_html }}">
-  <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ page.excerpt | strip_html }}">
+    <meta name="viewport" content="width=device-width">
 
-  {% include head-social-og.html %}
+    {% include head-social-og.html %}
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/animate.css">
-  <link rel="stylesheet" href="/css/main.css?v=1.3">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="alternate" type="application/rss+xml" title="Blog | {{ site.title }}" href="/feed.xml">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/main.css?v=1.3">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/rss+xml" title="Blog | {{ site.title }}" href="/feed.xml">
 
-  <script src="/js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/lib/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="/js/lib/bootstrap.min.js"></script>
+    <script src="/js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/lib/jquery-1.10.1.min.js"><\/script>')</script>
+    <script src="/js/lib/bootstrap.min.js"></script>
 
-  <!-- leaflet map -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
-  <script src='/js/lib/leaflet.iconlabel.js'></script>
+    <!-- leaflet map -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+    <script src='/js/lib/leaflet.iconlabel.js'></script>
 
-  <!-- webfont  -->
-  <script>
+    <!-- webfont  -->
+    <script>
 
-  WebFontConfig = {
-    fontdeck: { id: '41701' },
-    active : function() {
-      if(typeof packery !== 'undefined') packery.layout();
-    }
-  };
+      WebFontConfig = {
+        fontdeck: { id: '41701' },
+        active : function() {
+          if(typeof packery !== 'undefined') packery.layout();
+        }
+      };
 
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
 
-  </script>
+    </script>
 
-</head>
+  </head>
 
-<body>
+  <body>
   <!--[if lt IE 7]>
   <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
 
-<div class="navbar animated">
-  <div class="container">
-    <div class="logo">
-      <a class="" href="/">
-        <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
-      </a>
-    </div>
+  <div class="body-wrap">
+    <div class="page-wrap">
+      <div class="nav-wrap">{% include navigation.html %}</div>
 
-    <div class="main-nav-wrapper">
-      <ul class="nav nav-meta">
-        <li class="text-center">
-        {% if page.lang == 'en' %}
-        <a href="http://2015en.codefor.de" target="_blank">Highlights 2015</a>
-        {% else %}
-        <a href="http://2015de.codefor.de" target="_blank">Rückblick 2015</a>
-        {% endif%}
-        </li>
-        <li class="text-center nav-meta-social"><a href="https://twitter.com/codeforde" >t</a></li>
-        <li class="text-center nav-meta-social"><a href="http://goo.gl/pO9wkS" >g+</a></li>
-        <li class="text-center nav-meta-social"><a href="https://github.com/okfde/codefor.de" ><img src="/img/GitHub-Mark-Light-32px.png" alt="The infamous Octocat" width="32" height="32" ></a></li>
-        <li class="text-center nav-meta-lang">
-        {% if page.lang == 'en' %}
-          <a href="{{page.url | replace:'/en','' | replace:'index.html',''}}">DE</a>
-        {% else %}
-          {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
-          {% assign urllength = page.url | size %}
-	  {% case topdir %}
-          {% when 'blog' or 'presse' or 'impressum' or 'ressourcen' %}
-            <a href="/en/">EN</a>
-          {% when 'projekte' %}
-            {% if urllength > 25 %}
-              <a href="/en/">EN</a>
-            {% else %}
-              <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
-            {% endif %}
-          {% when 'muenchen' %}
-            {% if urllength > 20 %}
-              <a href="/en/">EN</a>
-            {% else %}
-              <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
-            {% endif %}
-          {% else %}
-            <a href="/en{{page.url | replace:'index.html',''}}">EN</a>
-          {% endcase %}
-        {% endif %}
-        </li>
-      </ul>
+      <div class="navbar">
 
-      <ul class="nav nav-pills">
-        {% if page.lang == 'en' %}
-        {% assign navigation = site.data.navigation.en %}
-        {% else %}
-        {% assign navigation = site.data.navigation.de %}
-        {% endif%}
+          <div class="logo">
+            <a class="" href="/">
+              <img class="img-responsive" src="/img/CFG_logo.svg" alt="Code for Germany">
+            </a>
+          </div>
 
-        {% for link in navigation %}
-        {% assign current = nil %}
-        {% if page.url contains link.url %}
-        {% assign current = 'current' %}
-        {% endif %}
-        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+          <button class="mobile-menu-toggle">
+            <span>toggle menu</span>
+          </button>
 
-{{ content }}
-
-<footer>
-
-<div class="jumbotron fond__grey meta-links-foot">
-  <div class="container">
-    <div class="row text-center text-uppercase">
-      <div class="col-lg-12">
-        {% if page.lang == 'en' %}
-        <a href="/impressum">Contact &amp; Imprint (de)</a> &bull; <a href="/en/code-of-conduct">Code of Conduct</a>
-        {% else %}
-        <a href="/impressum">Kontakt &amp; Impressum</a> &bull; <a href="/code-of-conduct">Code of Conduct</a>
-        {% endif%}
       </div>
-    </div>
-  </div>
-</div>
 
-{% if page.footerlogos %}
-<div class="jumbotron fond__white partner">
-  <div class="container">
+      {{ content }}
 
-      <div class="row text-center">
-        <div class="col-xs-12">
-        <ul class="clearfix">
-          <li>
-              <a href="http://www.okfn.de/"><img class="okfn-logo img-responsive" src="/img/OKFN.png" alt="OKFN Logo" /></a>
-          </li>
+      <footer>
 
-          <li>
-              <a href="http://codeforamerica.org/"><img class="cfa-logo img-responsive" src="/img/CFA.png" alt="Code for America Logo" /></a>
-          </li>
+        <div class="jumbotron fond__grey meta-links-foot">
+          <div class="container">
+            <div class="row text-center text-uppercase">
+              <div class="col-lg-12">
+                {% if page.lang == 'en' %}
+                <a href="/impressum">Contact &amp; Imprint (de)</a> &bull; <a href="/en/code-of-conduct">Code of Conduct</a>
+                {% else %}
+                <a href="/impressum">Kontakt &amp; Impressum</a> &bull; <a href="/code-of-conduct">Code of Conduct</a>
+                {% endif%}
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <li>
-              <a href="http://www.bmbf.de/"><img class="bmbf-logo img-responsive" src="/img/bmbf.svg"  alt="Bundesministerium für Bildung und Forschung" /></a>
-          </li>
+        {% if page.footerlogos %}
+        <div class="jumbotron fond__white partner">
+          <div class="container">
+
+            <div class="row text-center">
+              <div class="col-xs-12">
+                <ul class="clearfix">
+                  <li>
+                    <a href="http://www.okfn.de/"><img class="okfn-logo img-responsive" src="/img/OKFN.png" alt="OKFN Logo" /></a>
+                  </li>
+
+                  <li>
+                    <a href="http://codeforamerica.org/"><img class="cfa-logo img-responsive" src="/img/CFA.png" alt="Code for America Logo" /></a>
+                  </li>
+
+                  <li>
+                    <a href="http://www.bmbf.de/"><img class="bmbf-logo img-responsive" src="/img/bmbf.svg"  alt="Bundesministerium für Bildung und Forschung" /></a>
+                  </li>
 
 <!--          <li>
               <a href="https://www.bpb.de/"><img class="bpb-logo img-responsive" src="/img/bpb.svg"  alt="Bundeszentrale für politische Bildung" /></a>
-          </li> -->
-          <li>
+            </li> -->
+            <li>
               <img class="google-logo img-responsive" src="/img/google.png"  alt="Google Logo" />
-          </li>
-        </ul>
+            </li>
+          </ul>
         </div>
 
       </div>
 
       <div class="row text-center foot-note">
         <div class="col-lg-12">
-        {% if page.lang == 'en' %}
+          {% if page.lang == 'en' %}
           <p>* We also mean of course all developers, nerdettes, and people who don't fit the typical gender role :)</p>
-        {% else %}
+          {% else %}
           <p>* Damit meinen wir natürlich auch alle Entwicklerinnen und Nerdettes und Leute, denen die klassischen Geschlechterbilder nicht so passen :)</p>
-        {% endif %}
+          {% endif %}
         </div>
       </div>
+    </div>
   </div>
-</div>
-{% endif %}
+  {% endif %}
 
 </footer>
+</div>
+</div>
+
+<script src="/js/Application.js"></script>
+<script src="/js/lib/prettyCheckbox.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    
+    app = new Application();
+
+    if(typeof(herodata) != 'undefined') {
+      app.init(herodata);
+    }
+
+    app.initMenu();
+    $(":checkbox").prettyCheckbox();
+    
+  });
+</script>
 
 {% include piwik.html %}
-
 </body>
 </html>
