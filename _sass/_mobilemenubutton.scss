@@ -18,7 +18,9 @@ $bckg-color: $red;
   height: $button-height;
   font-size: 0;
   text-indent: -9999px;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   box-shadow: none;
   border-radius: none;
   border: 0;
@@ -71,11 +73,15 @@ $bckg-color: $red;
 }
 
 .mobile-menu-toggle span::before {
+  transition-property: top, -webkit-transform;
   transition-property: top, transform;
+  transition-property: top, transform, -webkit-transform;
 }
 
 .mobile-menu-toggle span::after {
+  transition-property: bottom, -webkit-transform;
   transition-property: bottom, transform;
+  transition-property: bottom, transform, -webkit-transform;
 }
 
 /* active state, i.e. menu open */
@@ -86,12 +92,14 @@ $bckg-color: $red;
 
 .mobile-menu-toggle.is-active span::before {
   top: 0;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .mobile-menu-toggle.is-active span::after {
   bottom: 0;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .mobile-menu-toggle.is-active span::before,

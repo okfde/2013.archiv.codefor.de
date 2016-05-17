@@ -10,7 +10,8 @@
 }
 
 .mobile-menu-open .page-wrap {
-  transform: translateX( -350px );
+  -webkit-transform: translateX( -350px );
+          transform: translateX( -350px );
 }
 
 .navbar {
@@ -18,55 +19,55 @@
 }
 
 .nav-meta li {
-	display: inline-block;
-	width: inherit;
+  display: inline-block;
+  width: inherit;
 }
 
 .partner {
-	img {
-		width: 50%;
-	}
+  img {
+    width: 50%;
+  }
 }
 
 .google-logo {
-	max-width: 50%;
+  max-width: 50%;
 }
 
 .event-description {
-	float: left;
-	max-width: 75%;
+  float: left;
+  max-width: 75%;
 }
 
 .event-date-cta-wrapper {
-	float: right;
-	margin: 0;
-	max-width: 25%;
+  float: right;
+  margin: 0;
+  max-width: 25%;
 }
 
 .post-title {
-	float: left;
-	width: 60%;
+  float: left;
+  width: 60%;
 }
 
 .post-meta {
-	float:right;
-	width: 40%;
-	text-align: right;
+  float:right;
+  width: 40%;
+  text-align: right;
 }
 
 .project-teaser-slim .image-crop {
-	height: 245px;
-	overflow: hidden;
+  height: 245px;
+  overflow: hidden;
 
-	.project-image {
-		position:absolute;
-		left: -100%;
-		right: -100%;
-		top: -100%;
-		bottom: -100%;
-		margin: auto;
-		height: auto;
-	}
+  .project-image {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    height: auto;
+  }
 }
 
 .project-labs-box {
@@ -88,8 +89,8 @@
 ===============================*/
 
 .story--header {
-	//width: 60%;
-	//padding-top: 11%;
+  //width: 60%;
+  //padding-top: 11%;
 }
 
 .story--header--title {
@@ -97,7 +98,7 @@
 
 .story-teaser--title {
     h2 {
-    	font-size: 24px;
+      font-size: 24px;
     }
 }
 

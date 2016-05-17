@@ -18,12 +18,16 @@
 }
 
 .page-wrap {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
 .mobile-menu-open .page-wrap {
-  transform: translateX(calc(-100% + #{$keep}));
+  -webkit-transform: translateX(calc(-100% + #{$keep}));
+          transform: translateX(calc(-100% + #{$keep}));
 }
 
 
