@@ -11,7 +11,6 @@ markerposition: right
 
 members:
 
-
 - name: Timo lundelius
   username-github: lundelius
   username-twitter: timo_lundelius
@@ -19,6 +18,18 @@ members:
 - name: Philipp Geisler
   username-github: philippgeisler
   username-twitter: zelpst
+
+- name: Solveig Schröder
+  username-github: solveigs
+  username-twitter: SolveigSchroder
+
+- name: Hannes
+  username-github: kannes
+  username-twitter: cartocalypse
+
+- name: Achim Tack
+  username-github: ATack
+  username-twitter: A_Tack
 
 - name: Marco Maas
   username-github: marcomaas
@@ -28,17 +39,9 @@ members:
   username-github: tike
   username-twitter: tike10
 
-- name: Hannes
-  username-github: kannes
-  username-twitter: cartocalypse
-
 - name: Patrick Stotz
   username-github: PatrickStotz
   username-twitter: PatrickStotz
-
-- name: Achim Tack
-  username-github: ATack
-  username-twitter: A_Tack
 
 - name: Lukasz Plotnicki
   username-github: lplotni
@@ -65,31 +68,39 @@ links:
 #- name: Flyer
 #  url: in progress
 
-
-- name: Anmeldungen und Infos auf Meetup
+- name: CODEFORHAMBURG.ORG - NEU
   url: http://www.meetup.com/codeforhamburg
 
-- name: Twitter
+- name: Mailingliste - NEU
+  url: http://codeforhamburg.org/newsletter/
+
+- name: "--------------------------------" 
+  url: 
+
+- name: Termine (Meetup.com)
+  url: http://www.meetup.com/codeforhamburg
+
+- name: Twitter - Neuigkeiten
   url: http://twitter.com/codeforhamburg
 
-- name: Etherpad (Orga, Updates usw.)
+- name: Notizen... (Orga, Updates usw.)
   url: http://pad.opendatacloud.de/p/OK-Lab-HH
 
-- name: Mailingliste
-  url: https://lists.okfn.org/mailman/subscribe/codeforhamburg
-  url: mailto:codeforhamburg@lists.okfn.org
-
 leads:
-- name: Timo Lundelius (Orga & Lead) 
-  url: mailto:timo@lundelius.com
 
-- name: Philipp Geisler (Orga & Lead) 
-  url: mailto:philippgeisler@mailbox.org
+- name: Solveig Schröder (Orga)
+  url: mailto:solveig@codeforhamburg.org
 
-- name: Marco Maas
+- name: Timo Lundelius (Orga)
+  url: mailto:timo@codeforhamburg.org
+
+- name: Philipp Geisler (Orga) 
+  url: mailto:philipp@codeforhamburg.org
+
+- name: Marco Maas (Ehrenpräsident)
   url: mailto:maas@opendatacity.de
 
-- name: Timo Kessler
+- name: Timo Kessler (Immer gern gesehen)
   url: mailto:timo_kessler@gmx.de
 
 

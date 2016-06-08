@@ -1,13 +1,16 @@
+.mobile-menu-toggle {
+
+}
+
 .nav-meta {
-	text-align: right;
 }
 
 .logo {
 	float: left;
 }
 
-.navbar .container {
-	max-width: 1320px;
+.main-nav-wrapper {
+	// display: none;
 }
 
 #animation-wrapper {
@@ -32,6 +35,7 @@
 	h1 {
 		margin: 0;
 		font-size: 60px;
+		word-spacing: 100em;
 	}
 }
 
