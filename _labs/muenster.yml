@@ -31,22 +31,28 @@ members:
 
 - name: Steffen Schildknecht
   username-github: stsc3000
+  
+- name: Thomas Werner
+  username-github: tomsrocket
+  username-twitter: toms_rocket
 
 links:
 - name: Webseite
   url: http://codeformuenster.org
-
-- name: Forum
-  url: http://forum.codeformuenster.org
+  
+- name: Twitter
+  url: https://twitter.com/codeformuenster
 
 - name: Meetup
   url: http://meetup.com/OK-Lab-Munster/
 
-- name: Jahresrückblick 2014
-  url: http://codeformuenster.org/blog/2014/12/10/review-2014/
+- name: Jahresrückblick 2015
+  url: http://codeformuenster.org/blog/2016/03/05/rueckblick-2015/
 
 leads:
-- name: Mila Frerichs
-  url: mailto:muenster@codefor.de
 - name: Gerald Pape
+  url: mailto:muenster@codefor.de
+- name: Thomas Werner
+  url: mailto:muenster@codefor.de
+- name: Tobias Bradtke
   url: mailto:muenster@codefor.de
