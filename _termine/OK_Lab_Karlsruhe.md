@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Karlsruhe
-name: Code for Karlsruhe Meetup
+name: Digital Refugee Labs Kick-off
 date: 2016-05-23 #YYYY-MM-DD
-time: 19:00 - 21 Uhr
-location: netzstrategen, Alter Schlachthof 47
-link-url: http://www.meetup.com/de-DE/OK-Lab-Karlsruhe/events/230470594/
+time: 09:30 - 17 Uhr
+location: Fettschmelze, Alter Schlachthof 25
+link-url: http://www.meetup.com/de-DE/OK-Lab-Karlsruhe/events/230817791/
 ---
