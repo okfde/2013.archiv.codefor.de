@@ -45,7 +45,7 @@ Den größten Workshop richtete das OK Lab Berlin aus: 55 Teilnehmende trafen si
 Von starkem lokalem Engagement geprägt war der Workshop in Karlsruhe. In der Fettschmelze auf dem Gelände des alten Schlachthofs kamen am 2. Juli 30 Teilnehmende aus dem Karlsruher OK Lab, aus Behörden, aus Hilfsorganisationen und aus eigenem Antrieb zusammen. Vier Teams entwarfen Lösungen, um Helfende, Verbände und Behörden besser zu vernetzen und den wachsenden Anforderungen standzuhalten, um Integrationsangebote für Geflüchtete zu sammeln und bereitzustellen, oder um Diskriminierung jeder Art sichtbar zu machen und den Betroffenen Ansprechparter*innen zu nennen, die weiterhelfen können. 
 
 ![drl-ws-karlsruhe](/assets/blog/drl-ws-karlsruhe.jpeg)
-*<center>Gut gelaunt in Karlsruhe</center>*
+*<center>Gut gelaunt in Karlsruhe (Bild von Daniel Freytag, <a href="http://karlszeit.de">karlszeit.de</a></center>*
 
 <br>
 
