@@ -69,6 +69,36 @@ og-image: /img/drl-wallpaper-og-img.png
      </div>
    </div>
 
+   {% for sitepage in site.pages %}
+   {% if sitepage.type == 'DRL' AND sitepage.layout == 'project' %}
+   {% assign DRLprojectsExist = true %}
+   {% endif %}
+   {% endfor %}
+
+   {% if DRLprojectsExist == true %}
+   <!-- Projekte -->
+   <div class="row">
+     <div class="col-lg-10 col-lg-offset-1 text__black">
+       <h2 class="section-heading">DRL Projekte</h2>
+       <div class="loading">
+         <i class="fa fa-circle-o-notch fa-spin"></i>
+         <div>...laden...</div>
+       </div>
+       <div class="packery-container">
+         <div class="packery-item-gutter"></div>
+         {% for sitepage in site.pages %}
+         {% if sitepage.type == 'DRL' AND sitepage.layout == 'project' %}
+         <div class="packery-item" >
+           {% include project-teaser.html %}
+         </div>
+         {% endif %}
+         {% endfor %}
+       </div>
+     </div>
+   </div>
+   <!-- Projekte End -->
+   {% endif %}
+
    <div class="row">
     <div class="col-lg-10 col-lg-offset-1 text__black">
 
@@ -86,79 +116,82 @@ og-image: /img/drl-wallpaper-og-img.png
           <div id="collapse-faq-1" class="panel-collapse collapse">
             <div class="panel-body">
               <p>A number of initiatives and projects were launched in recent months to aid refugees arriving in Germany as well as civil society organizations that provide them with the basic necessities. Helpers and refugees have already received support in coordinating volunteers, donations and initiatives from the tech community, for example from the <a href="refugee hackathons">Refugee Hackathons</a>, the <a href="https://it4refugees.noblogs.org">Freifunk Initiative</a>, and the <a href="https://volunteer-planner.org">Volunteer Planner</a>. We want to make sure that those in need of help will continue to be heard both by experienced organizations and the tech community in 2016.<br>
-              To develop effective tools and provide technical assistance, it takes more than isolated events. It takes an open space for exchange, for meetings and trainings, as well as new formats that appeal to different initiatives. Digital Refugee Labs aims to create these spaces and formats.</p>
+                To develop effective tools and provide technical assistance, it takes more than isolated events. It takes an open space for exchange, for meetings and trainings, as well as new formats that appeal to different initiatives. Digital Refugee Labs aims to create these spaces and formats.</p>
               </div>
             </div>
           </div>
-        <div class="panel">
-          <div>
-            <h4>
-              <a class="highlight-red" data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-2">
-                > What do you want to achieve?</a>
-            </h4>
-          </div>
-          <div id="collapse-faq-2" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>We want to use technology where it is needed most. Digital Refugee Labs focuses on the further development of existing initiatives. Websites like <a href="http://metacollect.org">metacollect</a> show how many great projects already exist in this area and need help. We want to build on these projects and also join forces with other civil society organizations to provide technical assistance in their daily work.</p>
-            </div>
-          </div>
-        </div>
-        <div class="panel">
-          <div >
-            <h4>
-              <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-3">
-                > What isn't the goal?</a>
-            </h4>
-          </div>
-          <div id="collapse-faq-3" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>We do not regard digital applications and technologies as a cure-all answer. For us software is a tool that can help make certain tasks easier. It is explicitly not our goal to develop a new go-to app for refugees; we strive to develop solutions for concrete problems. We think that redundancy is a major concern, and therefore encourage redeployment where we can. The needs of the users lie at the center of our work, because usefulness is more important to us than shininess. We want to create open spaces for exchange and collaboration, where people from different areas can meet and work together.<br>
-              We cannot offer technical solutions to all social problems, but we do believe that we can make the work of those who dedicate themselves to those challenges a little easier.</p>
+          <div class="panel">
+            <div>
+              <h4>
+                <a class="highlight-red" data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-2">
+                  > What do you want to achieve?</a>
+                </h4>
+              </div>
+              <div id="collapse-faq-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>We want to use technology where it is needed most. Digital Refugee Labs focuses on the further development of existing initiatives. Websites like <a href="http://metacollect.org">metacollect</a> show how many great projects already exist in this area and need help. We want to build on these projects and also join forces with other civil society organizations to provide technical assistance in their daily work.</p>
+                </div>
               </div>
             </div>
-            </div>
-        <div class="panel">
-          <div >
-            <h4>
-              <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-4">
-                > Who's behind Digital Refugee Labs?</a>
-            </h4>
-          </div>
-          <div id="collapse-faq-4" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>The Digital Refugee Labs are part of the Code for Germany program of the <a href="http://okfn.de">Open Knowledge Foundation Germany</a>. Code for Germany is a civic tech network of volunteers that use their skills in software development, design, urban planning, and communication to improve their cities and neighborhoods. Four of the 25 OK Labs will dedicate their time to Digital Refugee Labs from May to October this year. The project is funded by the Federal Agency for Political Education as part of the "Flight and Asylum" program.</p>
+            <div class="panel">
+              <div >
+                <h4>
+                  <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-3">
+                    > What isn't the goal?</a>
+                  </h4>
+                </div>
+                <div id="collapse-faq-3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>We do not regard digital applications and technologies as a cure-all answer. For us software is a tool that can help make certain tasks easier. It is explicitly not our goal to develop a new go-to app for refugees; we strive to develop solutions for concrete problems. We think that redundancy is a major concern, and therefore encourage redeployment where we can. The needs of the users lie at the center of our work, because usefulness is more important to us than shininess. We want to create open spaces for exchange and collaboration, where people from different areas can meet and work together.<br>
+                      We cannot offer technical solutions to all social problems, but we do believe that we can make the work of those who dedicate themselves to those challenges a little easier.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div >
+                    <h4>
+                      <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-4">
+                        > Who's behind Digital Refugee Labs?</a>
+                      </h4>
+                    </div>
+                    <div id="collapse-faq-4" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <p>The Digital Refugee Labs are part of the Code for Germany program of the <a href="http://okfn.de">Open Knowledge Foundation Germany</a>. Code for Germany is a civic tech network of volunteers that use their skills in software development, design, urban planning, and communication to improve their cities and neighborhoods. Four of the 25 OK Labs will dedicate their time to Digital Refugee Labs from May to October this year. The project is funded by the Federal Agency for Political Education as part of the "Flight and Asylum" program.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div >
+                      <h4>
+                        <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-5">
+                          > How can I contribute?</a>
+                        </h4>
+                      </div>
+                      <div id="collapse-faq-5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>The labs will take place in the cities of Berlin, Hamburg, Leipzig/Dresden, and Karlsruhe in the period from May to October 2016. To kick off the event, we are organising workshops with interested parties in each city. Civil society organizations, developers, and interested citizens are welcome to register on this page.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  More questions? Then send them our way via info[at]codefor.de
+                </div>
               </div>
             </div>
           </div>
-        <div class="panel">
-          <div >
-            <h4>
-              <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-5">
-                > How can I contribute?</a>
-            </h4>
-          </div>
-          <div id="collapse-faq-5" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>The labs will take place in the cities of Berlin, Hamburg, Leipzig/Dresden, and Karlsruhe in the period from May to October 2016. To kick off the event, we are organising workshops with interested parties in each city. Civil society organizations, developers, and interested citizens are welcome to register on this page.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      More questions? Then send them our way via info[at]codefor.de
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 drl-footer">
-      <img class="drl-partner-logo" src="/img/bpb-logo.svg" alt="gefördert durch die Bundeszentrale für politische Bildung" >
-    </div>
-  </div>
-</div>
-<script type="text/javascript">
-  $(document).ready(function () {
-
-  });
-</script>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 drl-footer">
+                <img class="drl-partner-logo" src="/img/bpb-logo.svg" alt="gefördert durch die Bundeszentrale für politische Bildung" >
+              </div>
+            </div>
+          </div>
+          <script src="/js/lib/packery.pkgd.min.js"></script>
+          <script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+          <script src="/js/PackeryGrid.js"></script>
+          <script type="text/javascript">
+            $(document).ready(function() {
+              packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
+            });
+          </script>
