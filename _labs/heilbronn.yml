@@ -58,10 +58,14 @@ members:
   username-github: BinaryCraX
 - name: Christian Holl
   username-github: cyborg-x1
+  username-twitter: Cyborg_X1
 - name: Marie-Luise Queßeleit
 - name: Valentin
+  username-twitter: TheVale98
 - name: Leandro
   username-github: LeoDJ
+- name: Thomas
+  username-twitter: iotopa
 
 links:
 - name: Etherpad
