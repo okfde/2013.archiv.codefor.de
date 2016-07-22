@@ -50,6 +50,18 @@ members:
   username-twitter: korn_iris
 - name: Henri Chilla
   username-github: ohrie
+- name: Jonathan Günz
+  username-github: harmoniemand
+  username-twitter: harmoniemand
+- name: Moritz Gruber
+  username-github: BinaryCraX
+- name: Jan Kaltofen
+- name: Christian Holl
+  username-github: cyborg-x1
+- name: Marie-Luise Queßeleit
+- name: Valentin
+- name: Leandro
+  username-github: LeoDJ
 
 links:
 - name: Etherpad
