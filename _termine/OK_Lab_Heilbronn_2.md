@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Heilbronn
-name: Coding-Abend - Open Data Treff
-date: 2016-08-04 #YYYY-MM-DD
-time: 18-22 Uhr
-location: Coworkingspace HN, Am Wollhaus 1 im 5. Stock, 74072 Heilbronn
-link-url: http://www.meetup.com/de-DE/codeforhn/events/dgnhtlyvlbgb/
+name: Code for Buga 2019 - experimenta Workshop
+date: 2016-08-11 #YYYY-MM-DD
+time: 09:30-15:30 Uhr
+location: Experimenta Heilbronn, Kranenstraße 14, Heilbronn
+link-url: http://www.meetup.com/de-DE/codeforhn/events/232801023/
 ---
