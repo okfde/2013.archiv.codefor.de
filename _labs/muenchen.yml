@@ -23,35 +23,6 @@ markerposition: right
 #long: 11.560801
 
 
-members:
-
-- name: Matt Fullerton
-  username-github: mattfullerton
-  username-twitter: mattfullerton
-
-- name: Birgit Fullerton
-  username-github: birgitfullerton
-  username-twitter: bbfullerton
-
-- name: Andreas Hubel
-  username-github: saerdnaer
-  username-twitter: saerdnaer
-
-- name: Mario Haim
-  username-github: MarHai
-  username-twitter: DrFollowMario
-
-- name: Tobias Hößl
-  username-twitter: tobiasHoessl
-  username-github: catoth
-
-- name: Konstantin Schütze
-  username-twitter: konstinx
-  username-github: konstin
-
-- name: Maximillian Richt
-  username-twitter: robbi5
-  username-github: robbi5
 
 links:
 - name: Termine und Mitglieder - Meetup
