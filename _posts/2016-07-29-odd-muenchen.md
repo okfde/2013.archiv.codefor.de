@@ -7,7 +7,7 @@ tags:
 excerpt: Es ist inzwischen so lange her, aber dafür kann man ein Bisschen mehr über die damals entstandene Projekte erzählen
 ---
 
-Ein ausführliches Bericht zum Open Data Day Hackathon findet ihr hier: https://www.it-muenchen-blog.de/index.php/nachbericht-open-data-hackathon-muenchen/
+Ein ausführliches Bericht zum Open Data Day Hackathon findet ihr [hier](https://www.it-muenchen-blog.de/index.php/nachbericht-open-data-hackathon-muenchen/)
 
 In Sache Raummiete, Essen, Organisation, Podcasting (http://egovernment-podcast.de/egov-uw03-open-data-day-hackathon-in-muenchen-oddmuc/) und Blogschreiben haben wir eine Menge Unterstützung von der Stadt München genossen. Vielen Dank dafür!
 
