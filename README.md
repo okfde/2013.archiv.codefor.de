@@ -130,9 +130,9 @@ Install the following:
 
 And then just execute:
 
-    $ python download_avatars.py
+    $ python update_avatars.py
 
-<!-- ``$ ./download_avatars.py` -->
+<!-- ``$ ./update_avatars.py` -->
 
 > *note* Don't forget to `deactivate` the virtual environment afterwards, if appropriate.
 
