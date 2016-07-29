@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 BLACKLIST = ('blog', '_site',)
 AVATAR_PATH = 'img/avatars/'
 
-def get_github(username, last_modified):
+def get_avatar(username, last_modified):
     """
     Gets the users avatar from the github api whilst using the If-Modified-Since header to work around rate limits.
 
@@ -45,13 +45,6 @@ def get_github(username, last_modified):
 
     return avatar.content
 
-
-avatar_source = [
-    ('github', get_github),
-    # ('twitter', get_twitter)
-]
-
-
 def main():
     # Get date for the If-Last-Modified header
     with open(os.path.join(AVATAR_PATH, 'last_modified.txt')) as fd:
@@ -76,23 +69,19 @@ def main():
                 continue
 
             logging.info('Processing Lab Member %s', member['name'])
-            for source, get_image in avatar_source:
-                logging.info('Checking %s for %s', source, member['name'])
-                key = 'username-%s' % source
-                if key not in member:
-                    continue
 
-                username = member[key]
-                avatar = get_image(username, last_modified)
-                if not avatar:
-                    continue
+            if 'username-github' not in member:
+                continue
 
-                avatar_path = os.path.join(AVATAR_PATH, username + '.jpg')
-                logging.info('Saving image to %s', avatar_path)
-                with open(avatar_path, 'wb') as fd:
-                    fd.write(avatar)
+            username = member['username-github']
+            avatar = get_avatar(username, last_modified)
+            if not avatar:
+                continue
 
-                break
+            avatar_path = os.path.join(AVATAR_PATH, username + '.jpg')
+            logging.info('Saving image to %s', avatar_path)
+            with open(avatar_path, 'wb') as fd:
+                fd.write(avatar)
 
     # Remember the last successful run for the If-Last-Modified header
     with open(os.path.join(AVATAR_PATH, 'last_modified.txt'), 'w') as fd:
