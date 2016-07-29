@@ -17,6 +17,6 @@ Hier eine kurze Zusammenfassung von den Workshops und Projekte und ihren aktuell
 * Toiletten-Daten auslesen und nutzen – NOCH ZU ERGÄNZEN
 * HTTPS Jetzt - ("Redeployment" von [https://pulse.cio.gov/](https://pulse.cio.gov/)) - [https.jetzt](https://https.jetzt/)
 * Feinstaub Bot – [auf Twitter](https://twitter.com/FeinstaubMUC)
-* OParl für [München Transparent]) –(https://www.muenchen-transparent.de/) mehr oder weniger fertig
+* OParl für [München Transparent](https://www.muenchen-transparent.de/) mehr oder weniger fertig
 * Workshop zur Flüchtlingsarbeit - siehe [diese Seite](http://integreat-app.de/)
 * Umweltsensoren Workshop: [GitHub Repo](https://github.com/codeformunich/sensorworkshop)
