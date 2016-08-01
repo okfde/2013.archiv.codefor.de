@@ -2,6 +2,7 @@
 layout: base
 
 ---
+
 <div class="story story__{{ page.color }}">
   <div class="story--head">
     <div class="story--pattern">
@@ -22,22 +23,22 @@ layout: base
       <h1 class="story--header--title">
         {{ page.title }}
       </h1>
-      <p class="story--header--meta"> {{ page.where }} / {{ page.when }} / 
+      <p class="story--header--meta"> {{ page.where }} / {{ page.when }} /
         {% for link in page.links | limit: 1 %}
-          <a href="{{ link.url }}">{{ link.name }}</a>
+        <a href="{{ link.url }}">{{ link.name }}</a>
         {% endfor %}
       </p>
     </div>
     <div class="story--header--hero">
         {% for image in page.header-images | limit: 1 %}
-          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
-          <p class="caption"> {{ image.caption }} </p>
+        <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
+        <p class="caption"> {{ image.caption }} </p>
         {% endfor %}
     </div>
   </div>
   <div class="container story--container">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">  
+      <div class="col-lg-10 col-lg-offset-1">
         <div class="story-wrapper fond__white">
           <div class="text__{{ page.color }} story--lead">
               {{ page.lead | markdownify }}
@@ -68,10 +69,10 @@ layout: base
         {% if page.members %}
           {% assign members = page.members %}
           <div class="story--members">
-            <h3 id="members"> 
+            <h3 id="members">
               {% if page.lang == 'en' %}
                 Members
-              {% else %} 
+              {% else %}
                 Mitglieder
               {% endif %}
             </h3>
@@ -89,23 +90,22 @@ layout: base
 <script src="/js/SVGanim.js"></script>
 
 <script type="text/javascript">
-  $(document).ready(function () {
+$(document).ready(function () {
+  fluidvids.init({
+    selector: ['iframe', 'object'], // runs querySelectorAll()
+    players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+  });
 
-      fluidvids.init({
-        selector: ['iframe', 'object'], // runs querySelectorAll()
-        players: ['www.youtube.com', 'player.vimeo.com'] // players to support
-      });
+  var responsive_viewport = $(window).width();
 
-    var responsive_viewport = $(window).width();
-    
-    if(responsive_viewport >= 481){
-      var svganim = new SVGanim();
-      svganim.init({
-          'svgSelector' : '.story--pattern svg',
-          'iconGroupSelector' : '#Ebene_1 > g',
-          'centerRatioX' : 0.5,
-          'centerRatioY' : 0.22
-        });
-      }
+  if (responsive_viewport >= 481) {
+    var svganim = new SVGanim();
+    svganim.init({
+      'svgSelector' : '.story--pattern svg',
+      'iconGroupSelector' : '#Ebene_1 > g',
+      'centerRatioX' : 0.5,
+      'centerRatioY' : 0.22
     });
+  }
+});
 </script>

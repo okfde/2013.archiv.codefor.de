@@ -4,36 +4,33 @@
 
 These are the source files for the [Code for Germany Website](http://codefor.de).
 
-## Setting up a development environment
+## Setup
 
-First clone this git repository by invoking the following in a terminal
+You can easily do edits and preview changes on github. But if to want to preview
+your edits or do bigger changes, you need a local setup.
+
+For that you first need to install git, Ruby and gem.
+
+Then clone this repository by invoking the following in a terminal,
 presuming you know how to get there:
 
-    $ git clone https://github.com/okfde/codefor.de.git
-
-## Easy setup
-
-First of all you need an up-to-date version of Ruby and gem. Then you install the required gems:
-
-    $ sudo gem install github-pages
-
-Then build the site and serve it:
-
-    $ jekyll serve -w
-    
-This command will give you a link where you can preview your changes in your browser.
-
-## Update avatars
-
-There's a Python script to cache all GitHub avatars into the repository.
+```bash
+git clone https://github.com/okfde/codefor.de.git
+```
+Install Ruby and gem. Then get the dependencies:
 
 ```bash
-virtualenv .pyenv
-source .pyenv/bin/activate
-pip install pyyaml requests
-python update_avatars.py
-deactivate
+sudo gem install bundler
+bundler install
 ```
+
+You can now build the site and serve it:
+
+```bash
+bundler exec jekyll serve
+```
+
+This command will give you a link where you can preview your changes in your browser.
 
 ## Notes
 
@@ -43,3 +40,14 @@ deactivate
 
  * The teaser  for an image can be set with `imgname-teaser: "<[RELATIVE] PATH TO IMAGE>"`.
 
+## Update avatars
+
+There's a python script to save all GitHub avatars into the repository:
+
+```bash
+virtualenv .env
+source .env/bin/activate
+pip install pyyaml requests
+python update_avatars.py
+deactivate
+```

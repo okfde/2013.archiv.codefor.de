@@ -1,5 +1,0 @@
-#!/bin/sh
-
-bundle exec jekyll build | tee output.log
-# fail if there is an error in output.log
-grep -i "error" output.log > /dev/null && exit 1 || exit 0
