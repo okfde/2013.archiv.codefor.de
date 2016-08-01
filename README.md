@@ -9,7 +9,7 @@ These are the source files for the [Code for Germany Website](http://codefor.de)
 You can easily do edits and preview changes on github. But if to want to preview
 your edits or do bigger changes, you need a local setup.
 
-For that, you first need to install git, Ruby and gem.
+For that you first need to install git, Ruby and gem.
 
 Then clone this repository by invoking the following in a terminal,
 presuming you know how to get there:
