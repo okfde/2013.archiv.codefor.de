@@ -2,7 +2,7 @@
 layout: post
 title: Hello Prototype Fund!
 author: Fiona
-excerpt: Los geht's: Heute startet der Prototype Fund!
+excerpt: Los geht's - heute startet der Prototype Fund!
 images:
 - imgname: PrototypeFundLogo.png
 ---
