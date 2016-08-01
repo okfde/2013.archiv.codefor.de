@@ -7,7 +7,7 @@ images:
 - imgname: PrototypeFundLogo.png
 ---
 
-![helloprototype](/assets/blog/helloprototype.jpg)
+![PrototypeFundLogo](/assets/blog/PrototypeFundLogo.png)
 
 Los geht’s: Heute startet der Prototype Fund!
 
@@ -21,3 +21,4 @@ Mit dem Prototype Fund wollen wir das ändern und gezielt Einzelpersonen und kle
 
 Auch das Programm selbst verstehen wir als Prototypen, den wir gemeinsam mit der Community über die nächsten drei Jahre entwickeln wollen. Wir freuen uns sehr darauf eure Ideen zu fördern und zu erforschen, was möglich ist. 
 
+![helloprototype](/assets/blog/helloprototype.jpg)
