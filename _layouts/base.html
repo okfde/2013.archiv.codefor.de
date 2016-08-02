@@ -36,7 +36,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Blog | {{ site.title }}" href="/feed.xml">
 
-  <script src="/js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="/js/lib/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/lib/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="/js/lib/bootstrap.min.js"></script>
@@ -150,6 +150,12 @@
 <script src="/js/Application.js"></script>
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 
+<script src="/js/lib/greensock/TweenMax.min.js"></script>
+<script src="/js/lib/greensock/plugins/DrawSVGPlugin.min.js"></script>
+<script src="/js/lib/logger.min.js"></script>
+<script src="/js/ptfAnimationController.js"></script>
+
+
 <script type="text/javascript">
 $(document).ready(function() {
 
@@ -159,10 +165,15 @@ $(document).ready(function() {
     app.init(herodata);
   }
 
-  app.initMenu();
-  $(":checkbox").prettyCheckbox();
+    app.initMenu();
+    $(":checkbox").prettyCheckbox();
 
-});
+    if( typeof ptfTeaser !== 'undefined') {
+      var aniController = new AnimationController();
+      aniController.init();
+    }
+
+  });
 </script>
 
 {% include piwik.html %}
