@@ -13,12 +13,12 @@
     };
 
     var ref, center, $animationWrap, $animation, $pRed, $pBlue, $applyBorder, $applyBorderBlue, $logoText, $millionText, $apply, timeline,
-        $applyBlue, $applyTextWhite, $applyTextBlack;
+        $applyBlue, $applyTextWhite, $applyTextBlack, initialized;
     function AnimationController(){
         ref = this;
 
         Logger.useDefaults();
-        //Logger.setLevel(Logger.OFF);
+        Logger.setLevel(Logger.OFF);
         
         center = "1000 400";
         
@@ -33,6 +33,8 @@
     };
 
     AnimationController.prototype.load = function(){
+
+
         var preload = [];
         $('.svg-element').each(function(){
             var job = {};
@@ -42,6 +44,10 @@
             preload.push(job);
         });
         ref.loadBatch(preload);
+
+
+
+
     };
 
     AnimationController.prototype.loadBatch = function(preload){
@@ -53,27 +59,28 @@
 
                 job.$elem[0].addEventListener('load', function() {
 
-                    Logger.log("OBJECT loaded: " + job.url);
-
                     promise.resolve();
+                    ref.onBatchLoaded();
                 }, true);
+                job.$elem.each(function() {
+                    if(this.complete) $(this).load();
+                });
                 job.$elem.attr('data',job.url);
 
             })(preload[i], promises[i] = $.Deferred());
         }
-        $.when.apply($, promises).done(function() {
-            ref.onBatchLoaded();
-        });
+
     };
 
     AnimationController.prototype.onBatchLoaded = function(){
 
+        Logger.log("onBatchLoaded");
+
         //set references
+        initialized = true;
 
         var animSVG = document.getElementById("ptf-svg");
         if(animSVG) var svgDoc = animSVG.contentDocument;
-
-        Logger.log("svgDoc -> " + svgDoc);
 
         $animation = $(svgDoc.getElementById("animation"));
 
@@ -88,7 +95,7 @@
         $applyTextWhite = $('#text-white',$animation);
         $applyTextBlack = $('#text-black',$animation);
 
-        timeline = new TimelineMax({delay:0, onComplete:ref.animationFinished})
+        timeline = new TimelineMax({delay:0, paused:true, onComplete:ref.animationFinished})
             .set([$pRed, $pBlue, $logoText, $millionText, $apply, $applyBlue, $applyBorderBlue, $applyTextWhite],{opacity:0})
             .set($pBlue,{svgOrigin:center, scale:0})
             .set($pRed,{svgOrigin:center, x:'-15%', y:'-3%'})
@@ -116,6 +123,7 @@
             .set($applyBorder,{opacity:1})
             .set($applyBorderBlue,{opacity:0})
             .to($apply,0.5,{delay:1, opacity:1, scale:0, ease:Back.easeIn})
+        timeline.play(0);
 
     };
 
