@@ -1,0 +1,26 @@
+---
+key: potsdam
+title: OK Lab Potsdam
+lab: OK Lab Potsdam
+lat: 52.3906
+long: 13.0645
+markerposition: left
+
+
+links:
+
+- name: Homepage
+  url: http://www.oklab-potsdam.de
+  
+- name: Twitter
+  url: https://twitter.com/oklabpdm
+  
+- name: GitHub
+  url: https://github.com/open-data-potsdam
+  
+
+leads:
+
+- name: Martin Koll
+  url: mailto:martin.koll[aet]okfn.org
+

@@ -5,11 +5,11 @@ markdown: kramdown
 exclude:
   - "vendor"
   - "CNAME"
-  - "CONTRIBUTING.md"
   - "Gemfile*"
   - "mission"
   - "README.md"
   - "doc/"
+  - "update_avatars.py"
   #- "projekte" # uncomment line to speed up jekyll build for development
   #- "blog" # uncomment line to speed up jekyll build for development
   #- "termine" # uncomment line to speed up jekyll build for development

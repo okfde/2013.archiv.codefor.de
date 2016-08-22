@@ -67,42 +67,41 @@ layout: base
 {% assign loop_index = 0 %}
 
 {% unless event_count == 0 %}
-
-<div class="jumbotron fond__grey">
-  <div class="container">
-    <h3 id="events">Termine</h3>
+  <div class="jumbotron fond__grey">
+    <div class="container">
+      <h3 id="events">Termine</h3>
       <div class="row">
 
-      {% assign event_count=event_count | minus:1 %}
+        {% assign event_count=event_count | minus:1 %}
 
         {% for event in events %}
-        {% if event.lab == page.lab %}
+          {% if event.lab == page.lab %}
             {% assign date = event.date | date: '%s' %}
             {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
             {% unless date < now %}
-                <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
-                  {% include event.html %}
-                </div>
+              <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
+                {% include event.html %}
+              </div>
 
-                {% comment %} Every second event close row and open new {% endcomment %}
-                {% if 1 == loop_index | modulo:2 %}
-                  {% comment %} Unless it is the last iteration {% endcomment %}
+              {% comment %} Every second event close row and open new {% endcomment %}
+              {% if 1 == loop_index | modulo:2 %}
+                {% comment %} Unless it is the last iteration {% endcomment %}
                   {% if loop_index < event_count %}
-                    </div><div class="row" >
-                  {% endif %}
+                  </div><div class="row" >
                 {% endif %}
+              {% endif %}
 
               {% if loop_index == event_count %}
-              </div>
+                </div>
               {% endif %}
               {% assign loop_index = loop_index | plus:1 %}
             {% endunless %}
 
-    {% endif %}
-    {% endfor %}
+          {% endif %}
+        {% endfor %}
 
-</div>
-</div>
+    </div>
+  </div>
 {%endunless%}
 
 <!-- Termine End -->
@@ -110,8 +109,8 @@ layout: base
 <!-- Projekte -->
 {% assign project_count = 0 %}
 {% for sitepage in site.pages %}
- {% if page.lab == sitepage.lab %}
-   {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
+  {% if page.lab == sitepage.lab %}
+    {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
   {% endif %}
 {% endfor %}
 <!-- remove the ok lab's page -->
@@ -121,17 +120,17 @@ layout: base
   <div class="container">
     <h3 id="projects">Projekte</h3>
     <div class="loading">
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <div>...laden...</div>
-      </div>
+      <i class="fa fa-circle-o-notch fa-spin"></i>
+      <div>...laden...</div>
+    </div>
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
       {% for sitepage in site.pages  %}
         {% if page.lab == sitepage.lab %}
           {% if sitepage.layout == 'project' %}
           <div class="packery-item" >
-           {% include project-teaser.html type='page' %}
-         </div>
+            {% include project-teaser.html type='page' %}
+          </div>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -145,27 +144,26 @@ layout: base
 <!-- Mitglieder-->
 
 {% if meta.members %}
-  {% assign members = meta.members %}
-  <div class="jumbotron fond__greymid">
-    <div class="container">
-        <div class="row">
+{% assign members = meta.members %}
+<div class="jumbotron fond__greymid">
+  <div class="container">
+    <div class="row">
 
-        {% if page.lang == 'en' %}
-        <h3 id="members"> Members </h3>
-        {% else %}
-        <h3 id="members"> Mitglieder </h3>
-        {% endif%}
+      {% if page.lang == 'en' %}
+      <h3 id="members"> Members </h3>
+      {% else %}
+      <h3 id="members"> Mitglieder </h3>
+      {% endif%}
 
-        <div class="col-lg-12">
-          {% include members-list.html %}
-        </div>
+      <div class="col-lg-12">
+        {% include members-list.html %}
       </div>
     </div>
   </div>
+</div>
 {% endif %}
 
 {% endif %}
-
 
 <script src="/js/lib/packery.pkgd.min.js"></script>
 <script src="/js/lib/imagesloaded.pkgd.min.js"></script>

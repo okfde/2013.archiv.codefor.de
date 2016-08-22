@@ -42,7 +42,7 @@ members:
 
 ---
 ## The Idea
-Construction sites open up in Berlin all the time. Whenever that happens in a neighbourhood, residents would no doubt like to learn what exactly is being built. This is what prompted Magdalena Noffke and her fellow activists to inquire into official documents concerning construction plans. But that was not at all simple. Though the information is publicly available, it is buried in official journals that are scanned and uploaded, which means they cannot be searched. Availability unfortunately doens't imply accessibility.
+Construction sites open up in Berlin all the time. Whenever that happens in a neighbourhood, residents take an interest in what exactly is being built. This is what prompted Magdalena Noffke and her fellow activists to inquire into official documents concerning construction plans. But that was not at all simple. Though the information is publicly available, it is buried in official journals that are scanned and uploaded, which means they cannot be searched. Availability unfortunately doesn't imply accessibility.
 
 ## The Insight
 

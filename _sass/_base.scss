@@ -358,6 +358,19 @@ label {
 =   Home
 ============================*/
 
+.ptf-teaser {
+  
+  .ptf-hidden {
+    visibility: hidden;
+  }
+
+  object {
+    pointer-events: none;
+  }
+  
+}
+
+
 .init-hidden {
 	visibility: hidden;
 }

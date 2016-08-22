@@ -25,25 +25,9 @@ markerposition: right
 
 members:
 
-- name: Marcus Dapp
-  username-github: digisus
-  username-twitter: digisus
-
 - name: Matt Fullerton
   username-github: mattfullerton
   username-twitter: mattfullerton
-
-- name: Jan-Christoph Borchardt
-  username-github: jancborchardt
-  username-twitter: jancborchardt
-
-- name: Dora Dzvonyar
-  username-github: dzdora
-  username-twitter: dzdorie
-
-- name: Sebastian Rehm
-  username-github: bastiRe
-  username-twitter: _bastiRe
 
 - name: Birgit Fullerton
   username-github: birgitfullerton
@@ -53,37 +37,9 @@ members:
   username-github: saerdnaer
   username-twitter: saerdnaer
 
-- name: Benedikt Köhler
-  username-github: furukama
-  username-twitter: furukama
-
-- name: Johanna Fulda
-  username-github: jo-fu
-  username-twitter: jofu_
-
 - name: Mario Haim
   username-github: MarHai
   username-twitter: DrFollowMario
-
-- name: Bernd Oswald
-  username-github: nepomunich
-  username-twitter: berndoswald
-
-- name: Gerald Maurer
-  username-github: mwebtechnik
-  username-twitter: mwebtechnik
-
-- name: Maximilian Hackenschmied
-  username-github: mazemilian
-  username-twitter: mazemilian
-
-- name: Steffen Kühne
-  username-github: stekhn
-  username-twitter: stekhn
-
-- name: Oliver Schnuck
-  username-github: schnuko
-  username-twitter: schnuko
 
 - name: Tobias Hößl
   username-twitter: tobiasHoessl
@@ -93,11 +49,11 @@ members:
   username-twitter: konstinx
   username-github: konstin
 
+- name: Maximillian Richt
+  username-twitter: robbi5
+  username-github: robbi5
 
 links:
-- name: Unsere nächste Hackathon
-  url: http://www.codefor.de/muenchen/hackathon/
-
 - name: Termine und Mitglieder - Meetup
   url: http://www.meetup.com/code-for-muenchen/
 
