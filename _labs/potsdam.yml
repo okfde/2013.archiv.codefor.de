@@ -12,6 +12,9 @@ links:
 - name: Homepage
   url: http://www.oklab-potsdam.de
   
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Potsdam
+  
 - name: Twitter
   url: https://twitter.com/oklabpdm
   
@@ -22,7 +25,7 @@ links:
 leads:
 
 - name: Martin Koll
-  url: mailto:martin[aet]potsdam.io
+  url: mailto:martin[aet]oklab-potsdam.de
 
 - name: Florian Köhler
   url: mailto:f.koehler[aet]oklab-potsdam.de
