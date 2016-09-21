@@ -5,4 +5,28 @@ lab: OK Lab Hannover
 lat: 52.366667
 long: 9.716667
 markerposition: left
-showsignup: true
+
+members:
+
+- name: Nicoalj Kirchhof
+  username-github: nicolajkirchhof
+  username-twitter: NicolajKirchhof
+
+links:
+- name: Etherpad
+  url: https://pad.okfn.org/p/Hannover
+
+- name: Twitter
+  url: https://twitter.com/codeforhannover
+
+- name: Meetup
+  url: http://www.meetup.com/de-DE/OK-Lab-Hannovera/
+
+- name: Trello
+  url: https://trello.com/b/1tiyd40T/feinstaub
+
+leads:
+
+- name: Nicoalj Kirchhof
+  url: mailto:nico@mysmalldata.de
+
