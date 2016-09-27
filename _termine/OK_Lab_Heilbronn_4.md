@@ -1,6 +1,6 @@
 ---
 lab: OK Lab Heilbronn
-name: Code Week: Coding-Abend
+name: Code Week - Coding-Abend
 date: 2016-10-20 #YYYY-MM-DD
 time: 18-22 Uhr
 location: Coworkingspace HN, Am Wollhaus 1 im 5. Stock, 74072 Heilbronn
