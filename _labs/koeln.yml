@@ -46,6 +46,10 @@ members:
   username-github: karen-sch
   username-twitter: hi_i_am_karen
 
+- name: Peter Mayr
+  username-github: hatorikibble
+  username-twitter: hatorikibble
+
 links:
 - name: Meetup
   url: http://meetup.com/OKLab-Koln-Meetup
