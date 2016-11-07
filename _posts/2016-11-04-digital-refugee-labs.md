@@ -30,37 +30,37 @@ images:
 
 
 
-Tausend Dank an alle, die das Projekt möglich gemacht haben, vor allem den lokalen Lab Mitgliedern. Euer Einsatz und eure Bereitschaft, euch mit einem beträchtlichen Teil eurer Freizeit für die Belange eurer Mitmenschen einzusetzen, sind immer wieder erstaunlich, bewundernswert und unheimlich wichtig. 
- 
+Tausend Dank an alle, die das Projekt möglich gemacht haben, vor allem den lokalen Lab Mitgliedern. Euer Einsatz und eure Bereitschaft, euch mit einem beträchtlichen Teil eurer Freizeit für die Belange eurer Mitmenschen einzusetzen, sind immer wieder erstaunlich, bewundernswert und unheimlich wichtig.
+
 
 
 <hr>
 <br>
 
-<h4>The Digital Refugee Lab Project is over - but the work continues! </h4>
+<h4>The Digital Refugee Lab project is over - but the work continues! </h4>
 
 
-<i>From March to Octobre 2016 the Code for Germany team and four Open Knowledge Labs conducted the program “Digital Refugee Labs”, support came from the <a href="http://bpb.de">Bundeszentrale für politische Bildung</a>. This is just a small update, a more elaborate report will follow in the next weeks.</i><br>
+<i>From March to October 2016, the Code for Germany team and four Open Knowledge Labs conducted the program “Digital Refugee Labs”, with support from the <a href="http://bpb.de">Federal Institute for Political Education</a>. This is just a small update, a more elaborate report will follow in the next weeks.</i><br>
 
 
-<p>The idea of the program was, to make the OK Labs’ expertise accessible to refugee initiatives. These kind of organiztations often lack the knowledge about technology and useful tools that could facilitate their work. However, they usually have experience in the field of migration and asylum that exceed most of the technologists’ scope. 
-Therefore setting up ties and enabling cooperation between the Labs and projects, institutions and organizations was at the core of the Digital Refugee Labs. We found it important to stress, that we did not want to add new projects to the pool of technology and tools, but rather support and strengthen the existing engagement. </p><br>
+<p>The idea of the program was to make the OK Labs’ expertise accessible to refugee initiatives. These kind of organizations often lack the knowledge about technology and useful tools that could facilitate their work. However, they usually have experience in the field of migration and asylum that exceed most of the technologists’ scope.
+Therefore, setting up ties and enabling cooperation between the Labs and projects, institutions and organizations was at the core of the Digital Refugee Labs. We found it important to stress that we did not want to add new projects to the pool of technology and tools, but rather support and strengthen the existing initiatives. </p><br>
 
 
-<p>We organized four workshops with the OK Labs in Leipzig, Hamburg, Berlin and Karlsruhe, to let the different actors meet in one spot. The workshops were faciliated by <a href="http://zero360innovation.com">Zero360</a> coaches, who helped us identifying challenges that could be tackled by the OK Labs. </p><br>
+<p>We organized four workshops with the OK Labs in Leipzig, Hamburg, Berlin and Karlsruhe to let the different actors meet in one spot. The workshops were facilitated by <a href="http://zero360innovation.com">Zero360</a> coaches, who helped us identify challenges that could be tackled by the OK Labs. </p><br>
 
 
-<p>The workshops served as a kickoff for a collaboration over the past few months. The teams met on a regular basis on the OK Labs to continue their work on the projects - not all of them are activ up until today, some of them were finished, some weren’t. The projects that were started can all be seen here: www.codefor.de/digitalrefugeelabs.
+<p>The workshops served as a kickoff for a collaboration over the past few months. The teams met on a regular basis on the OK Labs to continue their work on the projects. The projects that were started can all be seen here: www.codefor.de/digitalrefugeelabs
 The projects are as diverse as the topics and challenges and people that contributed. We invite you to have a look for yourself. Most of the projects are still in progress - hence the Digital Refugee Labs are not completed! There is still a lot of work to do.</p><br>
 
 
-<p>The Digital Refugee Labs haves upported some project and helped many to gain more team power and visibility. With the help of Zero360, the BpB and the local Lab members, the workshops turned out to be really constructive, informative, nice and fruitful events where local initiatives could connect and exchange with Lab volunteers and some people that have a refugee background. We are positive that these newly created ties will carry more fruits in the future.</p><br>
+<p>The Digital Refugee Labs have supported some project and helped many to gain more team power and visibility. With the help of Zero360, the BpB and the local lab members, the workshops turned out to be really constructive, informative, nice and fruitful events where local initiatives could connect and exchange with lab volunteers and some people that have a refugee background. We are positive that these newly created ties will carry more fruits in the future.</p><br>
 
 
-<p>Some of the projects are still in progress, others are already seeking a way to transfer their project in a sustainable post prototype model. Alas, there are still little suitable ressources available in terms of funding. The Prototype Fund - another project of the Open Knowledge Foundation - seeks to close this gap, but there is still plenty of room for further funds, especially a fund that is directed explicitly at tech projects for refugees is still missing. We hope that this will be acknowledged next year and that more easy financial support will be offered. </p><br>
+<p>Some of the projects are still in progress, others are already seeking a way to transfer their project in a sustainable post-prototype model. Unfortunately, there are still little suitable resources available in terms of funding. The Prototype Fund - another project of the Open Knowledge Foundation - seeks to close this gap, but there is still plenty of room for further funding, especially funding that is directed explicitly at tech projects for refugees is still missing. We hope that this will be acknowledged next year and that easier financial support will be offered. </p><br>
 
 
-<p>Needless to say: Sincere thanks to everyone who made this project possible, especially to the local lab members. Your commitment and willingness to invest your time and knowledge for the needs of others and your city never seize to amaze.</p> <br>
+<p>Needless to say: Sincere thanks to everyone who made this project possible, especially to the local lab members. Your commitment and willingness to invest your time and knowledge for the needs of others and your city never cease to amaze.</p> <br>
 
 
 
