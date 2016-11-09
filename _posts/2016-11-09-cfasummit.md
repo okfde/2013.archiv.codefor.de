@@ -8,7 +8,7 @@ images:
 ---
 ![cfasummit](/assets/blog/cfasummit.jpg)
 
-The sixth Code for America Summit took place November 1-3, 2016 in Oakland, CA. This annual conference is an opportunity for the civic tech community to meet, discuss, and take stock of the year's successes and setbacks. Code for Germany also attended the summit, along with many other allies from the Code for All family. Here's is our digest for those who couldn't be there.
+The sixth Code for America Summit took place November 1-3, 2016 in Oakland, CA. This annual conference is an opportunity for the civic tech community to meet, discuss, and take stock of the year's successes and setbacks. Code for Germany also attended the summit, along with many other allies from the Code for All family. Here is our digest for those who couldn't be there.
 
 # 5 New Ideas
 
