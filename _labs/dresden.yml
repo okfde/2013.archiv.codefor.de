@@ -20,9 +20,6 @@ members:
 - name: Consti
   username-github: ubahnverleih
   username-twitter: ubahnverleih
-- name: Erik
-  username-github: erikmitk
-  username-twitter: erikmitk
 - name: Rob
   url: http://boogiedev.net
   username-github: robtranquillo
