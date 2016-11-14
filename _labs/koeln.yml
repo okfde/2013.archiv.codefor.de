@@ -5,6 +5,7 @@ lab: OK Lab Köln
 lat: 50.9554784
 long: 6.9104529
 markerposition: left
+projectsorder: reverse
 
 members:
 
@@ -45,6 +46,10 @@ members:
 - name: Karen Schwane
   username-github: karen-sch
   username-twitter: hi_i_am_karen
+
+- name: Peter Mayr
+  username-github: hatorikibble
+  username-twitter: hatorikibble
 
 links:
 - name: Meetup

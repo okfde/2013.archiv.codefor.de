@@ -161,7 +161,12 @@ layout: base
       </div>
     <div class="packery-container">
       <div class="packery-item-gutter"></div>
-      {% for sitepage in site.pages  %}
+      {% if meta.projectsorder == 'reverse' %}
+        {% assign sorted = (site.pages | sort: 'date' | reverse) %}
+      {% else %}
+        {% assign sorted = (site.pages | sort: 'date') %}
+      {% endif %}
+      {% for sitepage in sorted %}
         {% if sitepage.lab contains meta.lab %}
           {% if sitepage.layout == 'project' %}
           <div class="packery-item" >

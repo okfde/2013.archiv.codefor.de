@@ -5,4 +5,51 @@ lab: OK Lab Hannover
 lat: 52.366667
 long: 9.716667
 markerposition: left
-showsignup: true
+
+members:
+
+#- name: Sven Pfennig
+#  username-github: 0xE282B0
+#  username-twitter: NicolajKirchhof
+
+- name: Holger Biermann
+  username-github: qompa
+  username-twitter: qompacom
+
+- name: Jan Sauer
+  username-github: jansauer
+  username-twitter: jansauer
+
+- name: Nikolaus Pohle
+  username-github: npohle
+  username-twitter: npohle
+
+- name: Nicolaj Kirchhof
+  username-github: nicolajkirchhof
+  username-twitter: NicolajKirchhof
+
+- name: Björn Vofrei
+  username-github: Typedance
+  username-twitter: Typedance
+
+
+
+
+links:
+- name: Etherpad
+  url: https://pad.okfn.org/p/Hannover
+
+- name: Twitter
+  url: https://twitter.com/codeforhannover
+
+- name: Meetup
+  url: http://www.meetup.com/de-DE/OK-Lab-Hannovera/
+
+- name: Trello
+  url: https://trello.com/b/1tiyd40T/feinstaub
+
+leads:
+
+- name: Nicolaj Kirchhof
+  url: mailto:hannover@gmail.com
+

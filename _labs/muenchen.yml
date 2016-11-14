@@ -2,9 +2,14 @@
 key: muenchen
 title: OK Lab München
 lab: OK Lab München
-lat: 48.1238228
-long: 11.6081613
+lat: 48.14356
+long: 11.55792
 markerposition: right
+
+## LHM Marsstr. 22
+#lat: 48.14356
+#long: 11.55792
+
 
 ## LMU Oettingenstr
 #lat: 48.150638
