@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Heilbronn
-name: Coding-Abend - Open Data Treff
-date: 2016-11-17 #YYYY-MM-DD
+name: Hackday & 33C3-Stream
+date: 2016-12-29 #YYYY-MM-DD
 time: 18-22 Uhr
 location: Coworkingspace HN, Am Wollhaus 1 im 5. Stock, 74072 Heilbronn
-link-url: http://www.meetup.com/de-DE/codeforhn/events/235290969/
+link-url: https://www.meetup.com/de-DE/codeforhn/events/236026981/
 ---
