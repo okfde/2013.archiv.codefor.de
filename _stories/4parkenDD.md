@@ -1,7 +1,7 @@
 ---
 layout: story
-color: red #red, blue, green, cyan
-pattern: 3 #one of: 1, 2, 3, 4 
+color: blue #red, blue, green, cyan
+pattern: 3 #one of: 1, 2, 3, 4
 og-image: /assets/stories/parkendd-hero.jpg # used for facebook & twitter card
 
 
@@ -51,7 +51,7 @@ members:
 
 ---
 
-## Die Idee 
+## Die Idee
 Das Dresdener OK Lab-Team wollte zeigen, wozu offene Daten gut sind. Schließlich sagt das Thema den meisten Menschen nicht viel. Daher suchten sie sich etwas Alltägliches aus: den Personenverkehr.
 Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der Stadt betrifft alle“, sagt der Software-Entwickler Paul Balzer. So kam die Idee einer App auf, die freie Parkplätze in den Parkhäusern der Stadt anzeigt.
 
@@ -61,7 +61,7 @@ Viele Menschen fahren Auto und sind auf Parkplätze angewiesen. „Parken in der
 </blockquote>
 
 
-## Das erste Hindernis 
+## Das erste Hindernis
 Die Stadt veröffentlicht zwar die Zahlen über freie Parkhaus-Plätze auf ihrer Seite, aber nicht in der Form, wie das Team sie brauchte: Die Daten sind nicht maschinenlesbar. „Wir haben ein Programm geschrieben, das diese Zahlen von der Webseite der Stadt runterholt und speichert“, sagt Paul. “Wir haben uns daraus selbst Open Data gemacht.“ Er geht davon aus, dass die Stadt die Datenabfragen einfach duldet. Das Team hat noch mehr geleistet: nicht nur werden die Daten angezeigt, sie werden auch durch ein Programm analysiert und visualisiert. Ihr Vorhersagemodell kann dadurch die Belegung eines Parkhauses in Zukunft sogar vorherzusagen.
 
 ## Guter Tipp

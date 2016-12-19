@@ -1,8 +1,8 @@
 ---
 layout: story
 lang: en
-color: blue #red, blue, green, cyan
-pattern: 1 #one of: 1, 2, 3, 4
+color: red #red, blue, green, cyan
+pattern: 2 #one of: 1, 2, 3, 4
 og-image: /assets/stories/bbs-hero.jpg # used for facebook & twitter card
 
 title: Citizen Builds City - Constructive Criticism

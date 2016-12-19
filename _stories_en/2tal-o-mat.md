@@ -1,12 +1,13 @@
 ---
 layout: story
+lang: en
 color: cyan #one of: red, blue, green, cyan
-pattern: 2 #one of: 1, 2, 3, 4 
+pattern: 2 #one of: 1, 2, 3, 4
 og-image: /assets/stories/talomat.jpg # used for facebook & twitter card
 
 
 title: Tal-O-Mat – Taking Participation Seriously
- 
+
 where: Wuppertal
 when: August, 2015
 links: # first one is used in subline
@@ -27,8 +28,8 @@ lead: Ann-Cathrin Klappert, Christopher Reinbothe and Sam Zeini built a Tal-O-Ma
 
 members:
 - name: Ann-Cathrin Klappert
-  #username-twitter: 
-  #username-github: 
+  #username-twitter:
+  #username-github:
 
 - name: Christopher Reinbothe
   username-twitter: phneutral
@@ -36,18 +37,18 @@ members:
 
 - name: Sam Zeini
   username-twitter: SZeini
-  #username-github: 
+  #username-github:
 
 - name: Ralf Gloerfeld
   username-twitter: sn0wdiver
 
 - name: Dieter Hofmann
   #username-twitter:
-  #username-github: 
+  #username-github:
 
 - name: Jan Niko Kirschbaum
-  #username-twitter: 
-  #username-github: 
+  #username-twitter:
+  #username-github:
 
 ---
 

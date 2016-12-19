@@ -1,8 +1,8 @@
 ---
 layout: story
 lang: en
-color: red #one of: red, blue, green, cyan
-pattern: 2 #one of: 1, 2, 3, 4 
+color: green #one of: red, blue, green, cyan
+pattern: 4 #one of: 1, 2, 3, 4
 og-image: /assets/stories/magdego-hero.jpg # used for facebook & twitter card
 
 

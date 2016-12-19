@@ -1,7 +1,7 @@
 ---
 layout: story
-color: blue #one of: red, blue, green, cyan
-pattern: 2 #one of: 1, 2, 3, 4 
+color: cyan #one of: red, blue, green, cyan
+pattern: 1 #one of: 1, 2, 3, 4
 og-image: /assets/projects/muenchen/Muenchen-Transparent.png # used for facebook & twitter card
 
 
@@ -59,5 +59,3 @@ Doch dann kam eine Überraschung: neue Gesichter aus der Stadtverwaltung besucht
 Das Projekt trägt direkt zu mehr Transparenz in der Kommunalpolitik bei. „Transparenz ist ja die Voraussetzung für effektive Bürgerbeteiligung,“ sagt Tobias. München Transparent wird oft als Quelle verlinkt, gerade in Blogs und Foren, bei denen Sachthemen diskutiert werden – etwa zu Fahrradwegen und zum Erhalt denkmalschutzwürdiger Altbauten. „Ich denke, das alleine ist schon etwas wert, dass solche öffentliche Diskussionen mit besserer Informationslage geführt werden können.“
 
 Für die Zukunft erhoffen sich Tobias und seine MitstreiterInnen einen neuen Standard für die deutschlandweiten RIS. Da wäre unter anderem das Projekt [OParl](http://oparl.org/), das nun bald eine erste Version herausgeben wird.
-
-
