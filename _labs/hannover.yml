@@ -26,18 +26,22 @@ members:
 
 - name: Nicolaj Kirchhof
   username-github: nicolajkirchhof
-  username-twitter: NicolajKirchhof
+  username-twitter: nicolajnirchhof
 
 - name: Björn Vofrei
-  username-github: Typedance
-  username-twitter: Typedance
+  username-github: typedance
+  username-twitter: typedance
 
+- name: Anna Kasprzik
+  username-github: annakasprzik
 
-
+- name: Christoph Banke
+  username-github: christophbanke
+  username-twitter: christophbanke
 
 links:
-- name: Etherpad
-  url: https://pad.okfn.org/p/Hannover
+- name: Slack
+  url: https://openknowledgegermany.slack.com/messages/hannover/
 
 - name: Twitter
   url: https://twitter.com/codeforhannover
