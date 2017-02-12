@@ -26,7 +26,9 @@ Zitat aus dem Antrag:
 
 Ein konkreter Zeitplan wurde noch nicht genannt. Wir freuen uns aber sehr, dass von diesem Antrag ein klares Signal ausgeht: Open Data ist seitens der Stadträte ein erwünschtes Ziel. 
 
-Mit Code for Heilbronn haben wir durch die Organisation von [Infoabenden](http://blog.opendatalab.de/opendata/2015/06/23/open-data-kickoff) und der Vorstellung des Themas bei 3 Fraktionssitzungen einen Teil dazu beigetragen. Unterstützt wurden wir insbesondere von [Mark Siller / iPOL](http://www.i-pol.com/) sowie der Stadträtin [Tanja Sagasser (SPD)](http://www.tanja-sagasser.de/) und dem Stadtrat Thomas Aurich (CDU). Wir hoffen, dass sich nun ein engerer Kontakt mit der Verwaltung entwickelt und sich ein Kulturwandel vollzieht. 
+Die Verwaltung hat zudem auf Bitte der SPD zugesagt, vor der Verabschiedung der Open Data Strategie eine Veranstaltung mit der Open Data Community zu veranstalten, um Anregungen einzuholen.
+
+Mit Code for Heilbronn haben wir durch die Organisation von [Infoabenden](http://blog.opendatalab.de/opendata/2015/06/23/open-data-kickoff) und der Vorstellung des Themas bei 3 Fraktionssitzungen einen Teil dazu beigetragen. Unterstützt wurden wir insbesondere von [Mark Siller / iPOL](http://www.i-pol.com/) sowie der Stadträtin Tanja Sagasser (SPD) und dem Stadtrat Thomas Aurich (CDU). Wir hoffen, dass sich nun ein engerer Kontakt mit der Verwaltung entwickelt und sich ein Kulturwandel vollzieht. 
 
 ## Open Data Day
 
