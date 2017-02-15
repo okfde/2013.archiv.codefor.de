@@ -24,15 +24,15 @@ layout: base
         {{ page.title }}
       </h1>
       <p class="story--header--meta"> {{ page.where }} / {{ page.when }} /
-        {% for link in page.links | limit: 1 %}
+        {% for link in page.links limit: 1 %}
         <a href="{{ link.url }}">{{ link.name }}</a>
         {% endfor %}
       </p>
     </div>
     <div class="story--header--hero">
-        {% for image in page.header-images | limit: 1 %}
+        {% for image in page.header-images limit: 1 %}
         <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-responsive" >
-        <p class="caption"> {{ image.caption }} </p>
+        <p class="caption"> {{ image.caption }} </p>
         {% endfor %}
     </div>
   </div>

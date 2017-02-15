@@ -58,7 +58,7 @@ og-image: /img/drl-wallpaper-og-img.png
              {{ drl.content }}
 
              {% if drl.ctaurl %}
-             <a class="cta" href="{{ drl.ctaurl }}">Register now!</a>
+             <a class="cta" href="{{ drl.ctaurl }}">Register now!</a>
              {% endif %}
 
            </div>
@@ -70,7 +70,7 @@ og-image: /img/drl-wallpaper-og-img.png
    </div>
 
    {% for sitepage in site.pages %}
-   {% if sitepage.type == 'DRL' AND sitepage.layout == 'project' %}
+   {% if sitepage.type == 'DRL' and sitepage.layout == 'project' %}
    {% assign DRLprojectsExist = true %}
    {% endif %}
    {% endfor %}
@@ -87,7 +87,7 @@ og-image: /img/drl-wallpaper-og-img.png
        <div class="packery-container">
          <div class="packery-item-gutter"></div>
          {% for sitepage in site.pages %}
-         {% if sitepage.type == 'DRL' AND sitepage.layout == 'project' %}
+         {% if sitepage.type == 'DRL' and sitepage.layout == 'project' %}
          <div class="packery-item" >
            {% include project-teaser.html %}
          </div>

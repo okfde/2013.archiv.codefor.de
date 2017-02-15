@@ -20,7 +20,7 @@ lang: en
 
       <div class="packery-item-gutter"></div>
       {% for sitepage in site.pages %}
-      {% if sitepage.showcase AND sitepage.layout == 'project' %}
+      {% if sitepage.showcase and sitepage.layout == 'project' %}
         <div class="packery-item" >
           {% include project-teaser.html %}
         </div>
