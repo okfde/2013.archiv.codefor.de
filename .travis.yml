@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - 2.2.2
 script:
-- bundle exec jekyll build | tee output.log
+- bundle exec jekyll build 2>&1 | tee output.log
 - grep -i "error" output.log > /dev/null && exit 1 || exit 0 # fail if there is an error in output.log
 sudo: false
 cache: bundler
