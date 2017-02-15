@@ -84,7 +84,8 @@ layout: base
               </div>
 
               {% comment %} Every second event close row and open new {% endcomment %}
-              {% if 1 == loop_index | modulo:2 %}
+              {% assign loop_index_modulo_2 = loop_index | modulo: 2 %}
+              {% if 1 == loop_index_modulo_2 %}
                 {% comment %} Unless it is the last iteration {% endcomment %}
                   {% if loop_index < event_count %}
                   </div><div class="row" >
