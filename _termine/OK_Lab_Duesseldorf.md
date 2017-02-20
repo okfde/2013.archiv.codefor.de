@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Düsseldorf
-name: Open Data Day - Kick-Off für unser Lab
-date: 2016-03-05
-time: ab 14 Uhr (Ende offen)
-location:  Coworking Space GarageBilk, Bilker Allee 217, 40215 Düsseldorf
-link-url: http://www.meetup.com/de-DE/OK-Lab-Dusseldorf/events/228778916/
+name: Open Data Day Düsseldorf
+date: 2017-03-04
+time: 14:30–17:30 Uhr
+location: Factory Campus, Erkrather Str. 401, Düsseldorf
+link-url: https://www.meetup.com/OK-Lab-Dusseldorf/events/237376006/
 ---
