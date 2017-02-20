@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Niederrhein
-name: Open Data Day - OK Lab Ruhrgebiet + Niederrhein Treffen
-date: 2016-03-05
-time: ab 12 Uhr (Ende offen)
-location:  Das Unperfekthaus, Friedrich-Ebert-Str. 18, 45127 Essen
-link-url: http://www.meetup.com/de-DE/OK-Lab-Niederrhein/events/228132182/
+name: CodeForNiederrhein Treffen
+date: 2017-02-23
+time: 18:30 Uhr
+location: Hochschule Rhein-Waal, IT Sicherheitslabor von Herrn Greveler, Friedrich-Heinrich-Allee 25, Kamp-Lintfort
+link-url: https://www.meetup.com/OK-Lab-Niederrhein/
 ---

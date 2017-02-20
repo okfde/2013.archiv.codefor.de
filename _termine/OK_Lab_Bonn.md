@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Bonn
-name: Treffen und Hacking
-date: 2016-02-17
+name: Treffen inkl. Hacking
+date: 2017-03-15
 time: 19-21 Uhr
-location: BeeKu Bonn, Berliner Freiheit 36, Erdgeschoss, Ladenlokal
+location: Stadtlabor, Zingsheimstraße 2, Erdgeschoss, Bonn
 link-url: http://www.meetup.com/OKLab-Bonn/
 ---
