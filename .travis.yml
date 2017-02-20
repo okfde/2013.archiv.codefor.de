@@ -3,7 +3,7 @@ services:
 
 script:
   - bundle exec jekyll build 2>&1 | tee output.log
-  - grep -i "error" output.log > /dev/null && exit 1 || exit 0 # fail if there is an error in output.log
+  - grep -i "error" output.log > /dev/null ; test $? -ne 0 # fail if there is an error in output.log
   - docker run --rm -it -v $(pwd):/opt/code:ro --workdir=/opt/code --name codefor.de python:3.6 pip install PyYAML==3.12 && ./check_events.py
 
 branches:
