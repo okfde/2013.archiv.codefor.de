@@ -2,8 +2,8 @@
 key: ulm
 title: OK Lab Ulm
 lab: OK Lab Ulm
-lat: 48.424004
-long: 9.953050
+lat: 48.39645
+long: 9.99042
 markerposition: left
 
 
@@ -35,6 +35,11 @@ members:
 
 - name: Henning Kopp
   username-github: hkopp
+
+- name: Juliane Wessalowski
+  username-github: gruenzeug
+  username-twitter: gruenzeug
+
 
 
 links:
