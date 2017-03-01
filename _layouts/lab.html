@@ -13,12 +13,15 @@ layout: base
 
 
 <!-- Lab Map -->
-<div class="jumbotron fond__gray map-container" style="padding:0px;">
-      <div id="lab-map" class="lab-map-city"></div>
-      {% if meta.special %}
-        {% include drl-map-legend.html %}
-      {% endif %}
-</div>
+{% if meta.lat and meta.long %}
+  <div class="jumbotron fond__gray map-container" style="padding:0px;">
+    <div id="lab-map" class="lab-map-city"></div>
+    {% if meta.special %}
+      {% include drl-map-legend.html %}
+    {% endif %}
+  </div>
+{% endif %}
+<!-- Lab Map End -->
 
 {% if meta.showsignup %}
   {% include join-form-lab.html %}
@@ -33,171 +36,105 @@ layout: base
         {{ page.content | markdownify }}
       </div>
       <div class="col-lg-6">
-
         {% if meta.links %}
-
-        {% if page.lang == 'en' %}
-        <h3>Basic Info</h3>
-        {% else %}
-        <h3>Basis Info</h3>
-        {% endif%}
-
-        <ul class="list-unstyled lab-links" >
-          {% for link in meta.links %}
-          <li>
-            <a href="{{ link.url }}">{{ link.name }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-
+          <h3>{% if page.lang == 'en' %}Basic Info{% else %}Basis Info{% endif %}</h3>
+          <ul class="list-unstyled lab-links" >
+            {% for link in meta.links %}
+              <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
+          </ul>
         {% endif %}
 
         {% if meta.leads %}
-
-        {% if page.lang == 'en' %}
-        <h3>Contact</h3>
-        {% else %}
-        <h3>Kontakt</h3>
-        {% endif%}
-
-        <ul class="list-unstyled lab-links" >
-          {% for lead in meta.leads %}
-          <li>
-            <a href="{{ lead.url }}">{{ lead.name }}</a>
-          </li>
-          {% endfor %}
-        </ul>
+          <h3>{% if page.lang == 'en' %}Contact{% else %}Kontakt{% endif %}</h3>
+          <ul class="list-unstyled lab-links" >
+            {% for lead in meta.leads %}
+              <li><a href="{{ lead.url }}">{{ lead.name }}</a></li>
+            {% endfor %}
+          </ul>
         {% endif %}
-
-
       </div>
     </div>
-
   </div>
 </div>
 <!-- Lab Info End -->
 
 
 <!-- Termine  -->
+{% assign now = site.time | date: '%Y-%m-%d' %}
+{% assign events = site.termine | where:"lab",meta.lab | sort: 'date' %}
+{% assign last_date = events.last.date | date: '%Y-%m-%d' %}
 
-{% assign event_count = 0 %}
-{% assign events = site.termine | sort: 'date' %}
-
-{% for event in events %}
-
-  {% if event.lab == meta.lab %}
-    {% assign date = event.date | date: '%s' %}
-    {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-    {% unless date < now %}
-      {% capture event_count %}{{ event_count | plus:1 }}{% endcapture %}
-    {% endunless %}
-  {% endif %}
-
-{% endfor %}
-{% assign loop_index = 0 %}
-
-{% unless event_count == 0 %}
-
-<div class="jumbotron fond__grey">
-  <div class="container">
-    <h3 id="events">Termine</h3>
+{% if last_date >= now %}
+  <div class="jumbotron fond__grey">
+    <div class="container">
+      <h3 id="events">Termine</h3>
       <div class="row">
-
-      {% assign event_count=event_count | minus:1 %}
+        {% comment %} Display one event per row by default {% endcomment %}
+        {% assign item_class = 'col-lg-12' %}
 
         {% for event in events %}
-        {% if event.lab == meta.lab %}
-            {% assign date = event.date | date: '%s' %}
-            {% assign now = site.time | date: '%s' | minus: 86400 | date: '%s'%}
-            {% unless date < now %}
-                <div class="{% if event_count == 0 %}col-lg-12{% else %}col-lg-6{% endif %}" >
-                  {% include event.html %}
-                </div>
-
-                {% comment %} Every second event close row and open new {% endcomment %}
-                {% assign loop_index_modulo_2 = loop_index | modulo: 2 %}
-                {% if 1 == loop_index_modulo_2 %}
-                  {% comment %} Unless it is the last iteration {% endcomment %}
-                  {% if loop_index < event_count %}
-                    </div><div class="row" >
-                  {% endif %}
-                {% endif %}
-
-              {% if loop_index == event_count %}
-              </div>
-              {% endif %}
-              {% assign loop_index = loop_index | plus:1 %}
+          {% assign date = event.date | date: '%Y-%m-%d' %}
+          {% unless date < now %}
+            {% unless forloop.last %}
+              {% comment %} Display two events per row if there is more than one event {% endcomment %}
+              {% assign item_class = 'col-lg-6' %}
             {% endunless %}
+            <div class="{{ item_class }}">
+              {% include event.html %}
+            </div>
 
-    {% endif %}
-    {% endfor %}
-
-</div>
-</div>
-{%endunless%}
-
+            {% unless forloop.last %}
+              {% comment %}
+                Every second event: close the current row and open a new one
+                unless it is the last iteration.
+              {% endcomment %}
+              {% cycle '', '</div><div class="row">' %}
+            {% endunless %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
 <!-- Termine End -->
 
 <!-- Projekte -->
-{% assign project_count = 0 %}
-{% for sitepage in site.pages %}
- {% if sitepage.lab contains meta.lab %}
-   {% capture project_count %}{{ project_count | plus:1 }}{% endcapture %}
-  {% endif %}
-{% endfor %}
+{% assign sorted_projects = site.pages | where_exp:"sitepage","sitepage.lab contains meta.lab" | where:"layout","project" | sort: 'date' %}
+{% if meta.projectsorder == 'reverse' %}
+  {% assign sorted_projects = sorted_projects | reverse %}
+{% endif %}
 
-{% unless project_count == '0' %}
-<div class="jumbotron fond__blue">
-  <div class="container">
-
-    {% if page.lang == 'en' %}
-    <h3 id="projects">Projects</h3>
-    {% else %}
-    <h3 id="projects">Projekte</h3>
-    {% endif%}
-
-    <div class="loading">
+{% if sorted_projects.size > 0 %}
+  <div class="jumbotron fond__blue">
+    <div class="container">
+      <h3 id="projects">{% if page.lang == 'en' %}Projects{% else %}Projekte{% endif%}</h3>
+      <div class="loading">
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <div>...laden...</div>
+        <div>...{% if page.lang == 'en' %}loading{% else %}laden{% endif %}...</div>
       </div>
-    <div class="packery-container">
-      <div class="packery-item-gutter"></div>
-      {% if meta.projectsorder == 'reverse' %}
-        {% assign sorted = (site.pages | sort: 'date' | reverse) %}
-      {% else %}
-        {% assign sorted = (site.pages | sort: 'date') %}
-      {% endif %}
-      {% for sitepage in sorted %}
-        {% if sitepage.lab contains meta.lab %}
-          {% if sitepage.layout == 'project' %}
+      <div class="packery-container">
+        <div class="packery-item-gutter"></div>
+        {% for sitepage in sorted_projects %}
           <div class="packery-item" >
-           {% include project-teaser.html type='page' %}
-         </div>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+            {% include project-teaser.html type='page' %}
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-{% endunless %}
-
+{% endif %}
 <!-- Projekte End -->
 
-<!-- Mitglieder-->
 
+<!-- Mitglieder-->
 {% if meta.members %}
-  {% assign members = meta.members %}
   <div class="jumbotron fond__greymid">
     <div class="container">
-        <div class="row">
-
-        {% if page.lang == 'en' %}
-        <h3 id="members"> Members </h3>
-        {% else %}
-        <h3 id="members"> Mitglieder </h3>
-        {% endif%}
-
+      <h3 id="members">{% if page.lang == 'en' %}Members{% else %}Mitglieder{% endif%}</h3>
+      <div class="row">
         <div class="col-lg-12">
+          {% assign members = meta.members %}
           {% include members-list.html %}
         </div>
       </div>
@@ -213,7 +150,9 @@ layout: base
 <script src="/js/PackeryGrid.js"></script>
 <script src="/js/lib/prettyCheckbox.min.js"></script>
 
-{% include leaflet-city.html %}
+{% if meta.lat and meta.long %}
+  {% include leaflet-city.html %}
+{% endif %}
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -227,11 +166,7 @@ $(document).ready(function() {
     "@context" : "http://schema.org",
     "@type" : "Organization",
     "name" : "{{ meta.title }}",
-    {% if page.lang == 'en' %}
-    "url" : "http://codefor.de/{{ meta.key }}/",
-    {% else %}
-    "url" : "http://codefor.de/en/{{ meta.key }}/",
-    {% endif%}
+    "url" : "http://codefor.de/{% if page.lang == 'en' %}en/{% endif%}{{ meta.key }}/",
     "sameAs" : [
       {% for link in meta.links %}
         "{{ link.url }}"{% unless forloop.last %}, {% endunless %}
