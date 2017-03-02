@@ -41,8 +41,12 @@ members:
   username-github: serofax
 
 links:
+  name: Meetup
+  url: http://www.meetup.com/OK-Lab-Gießen/
 - name: Twitter
   url: https://twitter.com/codeforgi
+  name: Mailingliste
+  url: https://lists.okfn.org/mailman/listinfo/codeforgiessen
 
 leads:
 - name: Marco Schäfer
