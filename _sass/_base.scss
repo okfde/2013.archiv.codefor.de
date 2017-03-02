@@ -11,6 +11,8 @@ $black: #000000;
 $white: #FFFFFF;
 $dark-red: #C53C3C;
 
+$odd-purple: #47334e;
+
 .fond__red { background-color: $red;}
 .fond__dark-red {background-color: $dark-red;}
 .fond__blue { background-color: $blue;}
@@ -1488,6 +1490,22 @@ $date-circle: 80px;
 .drl-footer {
 
 	padding: 30px;
+
+}
+
+
+/*================================
+=  Open Data Day 				         =
+================================*/
+
+.odd-override {
+	background-color: $odd-purple;
+	background-image: none;
+
+	.drl-body,
+	.drl-teaser {
+		color: white;
+	}
 
 }
 

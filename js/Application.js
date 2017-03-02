@@ -65,7 +65,7 @@
     };
 
     Application.prototype.initMenu = function() {
-        console.log('Menu Init');
+
         var toggles = document.querySelectorAll(".mobile-menu-toggle");
 
         for (var i = toggles.length - 1; i >= 0; i--) {
