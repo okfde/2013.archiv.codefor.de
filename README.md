@@ -31,6 +31,7 @@ bundler exec jekyll serve
 ```
 
 This command will give you a link where you can preview your changes in your browser.
+Make sure to call `bundler update` from time to time to keep the dependencies up to date.
 
 ## Notes
 
