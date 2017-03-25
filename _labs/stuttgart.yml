@@ -23,9 +23,13 @@ members:
 - name: Arne Schauf
   username-twitter: asmaps
   username-github: asmaps
-
+  
 - name: Michael Käufl
   username-github: michael-k
+  
+- name: Frank Riedel
+  username-twitter: riedelwerk
+  username-github: riedelwerk  
 
 links:
 - name: Meetup
