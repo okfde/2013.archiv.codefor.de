@@ -1,12 +1,12 @@
 <div class="project-wrapper project-teaser fond__white clearfix">
 
   {% if sitepage.imgname %}
-  <a href="{{ sitepage.url }}">
+  <a href="{{ sitepage.url }}.html">
     <img src="/assets/projects/{{ sitepage.imgname }}" alt="Project Image" class="project-image img-responsive">
   </a>
   {% endif %}
 
-  <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
+  <h4 class="project-title"><a href="{{ sitepage.url }}.html"> {{ sitepage.title }}</a></h4>
   <div class="project-description">
       {% if sitepage.excerpt %}
         {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' | markdownify }}

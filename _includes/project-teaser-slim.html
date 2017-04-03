@@ -8,7 +8,7 @@
       {% endif %}
 
       {% if sitepage.imgname OR sitepage.imgname-teaser %}
-      <a href="{{ sitepage.url }}">
+      <a href="{{ sitepage.url }}.html">
         <div class="image-crop">
           <img src="/assets/projects/{{ imgname }}" alt="Project Image" class="project-image img-responsive">
         </div>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="col-sm-6 col-sm-pull-6">
-      <h4 class="project-title"><a href="{{ sitepage.url }}"> {{ sitepage.title }}</a></h4>
+      <h4 class="project-title"><a href="{{ sitepage.url }}.html">{{ sitepage.title }}</a></h4>
       <div class="project-description">
           {% if sitepage.excerpt %}
             {{ sitepage.excerpt | remove: '<p>' | remove: '</p>' | markdownify }}
