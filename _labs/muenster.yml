@@ -31,7 +31,7 @@ members:
 
 - name: Steffen Schildknecht
   username-github: stsc3000
-  
+
 - name: Thomas Werner
   username-github: tomsrocket
   username-twitter: toms_rocket
@@ -39,12 +39,18 @@ members:
 links:
 - name: Webseite
   url: http://codeformuenster.org
-  
+
 - name: Twitter
   url: https://twitter.com/codeformuenster
 
 - name: Meetup
   url: http://meetup.com/OK-Lab-Munster/
+
+- name: Open Data Day Zusammenfassung 2017
+  url: http://codeformuenster.org/blog/2017/03/07/odd-2017/
+
+- name: Jahresrückblick 2016
+  url: http://codeformuenster.org/blog/2016/03/16/odd-rueckblick/
 
 - name: Jahresrückblick 2015
   url: http://codeformuenster.org/blog/2016/03/05/rueckblick-2015/
