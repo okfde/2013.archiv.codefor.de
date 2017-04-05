@@ -5,9 +5,9 @@ lab: OK Lab Karlsruhe
 lat: 49.013397
 long: 8.404370
 markerposition: left
-h4c: true
+#h4c: true
 
-special: true #this lab gets spcecial marker (digital refugee lab)
+#special: true #this lab gets spcecial marker (digital refugee lab)
 
 links:
 

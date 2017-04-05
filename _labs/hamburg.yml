@@ -5,7 +5,7 @@ lab: OK Lab Hamburg
 lat: 53.5476165
 long: 9.9800385
 
-special: true #this lab gets spcecial marker (digital refugee lab)
+#special: true #this lab gets spcecial marker (digital refugee lab)
 
 markerposition: right
 
