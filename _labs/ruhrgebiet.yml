@@ -22,10 +22,12 @@ links:
   url: https://openruhr.de
 
 leads:
-- name: Ernesto
-  url: mailto:info@openruhr.de
+- name: Benedict
+  url: mailto:lab@openruhr.de
 - name: Martin
-  url: mailto:martin@schurig.pw
+  url: mailto:lab@openruhr.de
+- name: Ernesto
+  url: mailto:lab@openruhr.de
 
 
 members:
