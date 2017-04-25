@@ -1,0 +1,207 @@
+---
+layout: base
+title: Wahlsalons 2017
+og-description: Wahlsalons 2017
+og-image: /img/wahlsalons_og.png
+---
+
+
+<div class="ws-page-wrap">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">  
+        <div class="story-wrapper fond__white fond__border">
+          <div class="ws-body clearfix">
+            <h1 class="text-hide ws-logo">{{ page.title }}</h1>
+            <p class="leadin">
+              Diesen Herbst findet die 19. Bundestagswahl statt, im Vorfeld sind Wahlen im Saarland, in NRW und Schleswig-Holstein. Zu diesem Anlass nehmen wir uns dieses Jahr das Thema Wahldaten und Wahlen als Schwerpunkt vor. Wir wollen nützliche und informative Tools rund um die Wahl entwickeln und mit Offenen Wahldaten arbeiten.
+            </p>  
+            <p>
+             Es gibt zahlreiche Möglichkeiten, Code und Design zum Thema Wahlen einzusetzen: Vom Wahllokalfinder über den Wahl-o-maten bishin zum Faktenchecker. Neue Technologien können dabei helfen, Informationen besser aufzubereiten und zugänglich zu machen. Auf Basis von offenen Daten können Civic-Tech-Tools entstehen, die Wählerinnen und Wähler besser informieren, sie zur Beteiligung anregen und spannende Zusammenhänge und Einblicke aufzeigen.
+            </p> 
+            <p>
+              Für die 19. Bundestagswahl wollen wir in den OK Labs genau daran arbeiten. In Zusammenarbeit mit Google organisieren wir in drei Städten Wahlsalons, um weitere Akteure aus Politik, Journalismus und Zivilgesellschaft mit der Civic Tech Community und weiteren Expertinnen zusammenzubringen. Im ersten Wahlsalon in Berlin findet ein Kickoff statt, im zweiten Salon gibt es ein Bericht über Projekte und Zwischenstände, zum dritten Wahlsalon werden die ausgearbeiteten Projekte und Ergebnisse vorgestellt. 
+
+              Ziel der Wahl-Salons ist es, digitale Werkzeuge rund um die Bundestagswahl 2017 zu entwerfen,  vorhandene Datensätze zu bearbeiten, aufzubessern und zu nutzen, komplexe Fragestellungen aufzubrechen und neue Kollaborationen rund um dieses Thema anzuregen. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+   {% for sitepage in site.pages %}
+     {% if sitepage.type == 'WS' and sitepage.layout == 'project' %}
+      {% assign WSprojectsExist = true %}
+     {% endif %}
+   {% endfor %}
+
+   {% if WSprojectsExist == true %}
+   <!-- Projekte -->
+   <div class="row">
+    <div class="col-lg-10 col-lg-offset-1 text__black">
+      <h2 class="section-heading">Teilnehmende Projekte</h2>
+      <div class="loading">
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <div>...laden...</div>
+      </div>
+      <div class="packery-container">
+        <div class="packery-item-gutter"></div>
+        {% for sitepage in site.pages %}
+        {% if sitepage.type == 'WS' and sitepage.layout == 'project' %}
+        <div class="packery-item fond__border" >
+          {% include project-teaser.html %}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- Projekte End -->
+  {% endif %}
+
+
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1 text__black">
+      <h2 class="section-heading">Veranstaltungen</h2>
+    </div>
+  </div>
+
+    <div class="row">
+      <div id="accordion" class="col-lg-10 col-lg-offset-1">  
+        {% for ws in site.wahlsalons %}
+
+        {% if ws.where or ws.time or ws.content == "" %}
+         {% assign wseventcontent = true %}
+        {% else %}
+         {% assign wseventcontent = false %}
+        {% endif %}
+
+        <div  class="ws-teaser-wrapper fond__white fond__border">
+          <div class="ws-teaser">
+            <div class="ws-teaser-header clearfix">
+              {% if wseventcontent %}
+              <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed">
+              {% endif %}
+                <div class="clearfix">
+                  <h2 class="ws-teaser-title">{{ ws.title }}</h2>
+                  <span class="ws-teaser-date">{{ ws.when }}</span>
+                </div>
+              {% if wseventcontent %}
+              </a>
+              {% endif %}
+            </div>
+
+            {% if wseventcontent %}
+            <div id="collapse-{{ forloop.index0 }}" class="collapse">
+              <div class="ws-teaser-location clearfix">
+                <div class="ws-teaser-space">{{ ws.where }}<br>{{ ws.time }}</div>
+                <div class="ws-teaser-labs">
+                  {% for lab in ws.labs %}
+                  <a href="{{ lab.url }}">
+                   {{ lab.name }}
+                 </a>
+                 {% endfor %}
+               </div>
+             </div>
+
+             {{ ws.content }}
+
+             {% if ws.ctaurl %}
+             <a class="cta" href="{{ ws.ctaurl }}">Jetzt Mitmachen!</a>
+             {% endif %}
+
+           </div>
+            {% endif %}
+
+         </div>
+       </div>
+       {% endfor %}
+     </div>
+   </div>
+
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1 text__black">
+
+      <h2 class="section-heading">FAQ</h2>
+
+      <div class="panel-group" id="accordion-faq">
+        <div class="panel">
+          <div>
+            <h4>
+              <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-1">
+                Warum Wahlsalons?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-faq-1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Vom Wahllokalfinder über den Wahl-o-mat bis hin zum Faktenchecker – rund um Wahlen gibt es eine Vielzahl an nützlichen Einsatzmöglichkeiten für Code und Design. Neue Technologien können dabei helfen, Informationen besser aufzubereiten und zugänglich zu machen. Auf Basis von offenen Daten können Civic-Tech-Tools entstehen, die Wählerinnen und Wähler besser informieren, sie zur Beteiligung anregen und spannende Zusammenhänge und Einblicke</p> 
+              <p>Rund um die US-Wahl gab es eine Vielzahl an digitalen Werkzeugen und Services für BürgerInnen. Für die 19. Bundestagswahl wollen wir solche digitalen Wahlwerkzeuge auch für Deutschland entwickeln. Dazu braucht es interdisziplinäre Teams mit ExpertInnen aus den Bereichen Softwareentwicklung, Design, Journalismus und Politik. Gemeinsam mit Google Deutschland wollen wir das Thema Civic Tech und Wahlen bearbeiten. In Wahl-Salons wollen wir Mitglieder der Civic Tech Community Code for Germany mit Fellows der Digital News Initiative und anderen ExpertInnen rund um die Wahl zusammenbringen.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div>
+              <h4>
+                <a class="highlight-red" data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-2">
+                  Was wollen wir damit erreichen?</a>
+                </h4>
+              </div>
+              <div id="collapse-faq-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Wir wollen der Community und Interessierten die Möglichkeit geben, sich fokussiert mit Wahlen auseinander zu setzen und sie dabei mit weiteren Akteuren vernetzen. So können spannende Anwendungen und Projekte rund um Wahlen, Wahlergebnisse und Politik entwickelt werden. Wir denken, dass es noch viel Potential rund um Wahlen gibt, sei es, Wahldaten besser aufzubereiten oder Bürgerinnen besser über Wahlen und Politik zu informieren. Durch verbesserte Kommunikation und Information kann Partizipation ermöglicht werden.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div >
+                <h4>
+                  <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-3">
+                    Wer steckt dahinter?</a>
+                  </h4>
+                </div>
+                <div id="collapse-faq-3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Die Wahlsalons werden von Code for Germany und Google organisiert. Code for Germany ist ein Netzwerk aus 25 Open Knowledge Labs, in denen Ehrenamtliche ihre Fähigkeiten im Bereich Softwareentwicklung, Design, Stadtplanung, Kommunikation uvm. für ihre Städte und Nachbarschaft einsetzen. Code for Germany ist ein Programm der Open Knowledge Foundation, ein gemeinnütziger Verein mit Sitz in Berlin, der sich für Transparenz, Informationsfreiheit und Civic Tech einsetzt.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div >
+                    <h4>
+                      <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-faq-4">
+                        Wie kann ich mitmachen?</a>
+                      </h4>
+                    </div>
+                    <div id="collapse-faq-4" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <p>Besuche einen der Wahlsalons und bring eine eigene Idee mit ein oder unterstütze die Projekte, die vor Ort entwickelt werden. Falls du nicht zu den Events kommen kannst, gibt es auch die Möglichkeit, die Projekte remote zu unterstützen, entweder direkt auf github oder indem die Teams kontaktiert werden. Welche Projekte rund um Wahlen es gibt, wo der Code liegt und wer Ansprechpartner ist erfährst du hier in der Projektliste.</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    </div>
+<!--                     <p>Noch offene Fragen? Dann kontaktiere uns gerne unter info[at]codefor.de</p>
+ -->                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <script src="/js/lib/packery.pkgd.min.js"></script>
+            <script src="/js/lib/imagesloaded.pkgd.min.js"></script>
+            <script src="/js/PackeryGrid.js"></script>
+
+            <script src="/js/wahlsalonAnimationController.js"></script>
+
+            <script type="text/javascript">
+              $(document).ready(function() {
+                packery = new PackeryGrid('.packery-container','.packery-item', '.packery-item-gutter');
+                wsac = new wsac();
+              });
+            </script>

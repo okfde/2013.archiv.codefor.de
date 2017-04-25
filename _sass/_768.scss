@@ -309,3 +309,119 @@
 	}
 }
 
+/*================================
+=  Wahlsalons  				          =
+================================*/
+
+.ws-page-wrap {
+
+	padding: 70px;
+
+	.page-title {
+		width: 31%;
+		margin: 50px auto 0 auto;
+		font-size: 60px;
+		word-spacing: normal;
+	}
+
+	.ws-logo {
+		height: 105px;
+		width: 538px;
+		margin: 0 auto 50px auto;
+	}
+
+
+	.leadin {
+  	font-size: 28px;
+  }
+
+	.story-wrapper {
+		padding: 50px;
+	}
+
+	#accordion-faq { 
+		
+		h4 > a {
+			font-size: 28px;
+		}
+		
+		.panel-body {
+			padding: 20px;
+			
+			p {
+			}
+		}
+
+	}
+
+	.ws-body,
+	.ws-teaser {
+
+	}
+
+	.ws-teaser-wrapper {
+		padding: 60px;
+	}
+
+	.ws-teaser-header a {
+		&::after {
+			// top: 45px;
+		}
+
+		}
+
+	.ws-teaser-title {
+		font-size: 60px;
+		float: left;
+	}
+
+	.ws-teaser-date {
+		float: right;
+		font-size: 28px;
+	}
+
+	a .ws-teaser-date {
+		margin-right: 85px;
+	}
+
+	.ws-teaser-header {
+		.collapsed {
+			.ws-teaser-date::after {
+			}
+		}
+	}
+
+	.ws-teaser-location {
+	}
+
+	.ws-teaser-space {
+		float: left;
+	}
+
+	.ws-teaser-labs {
+		float: right;
+		margin-top: 0;
+
+		a {
+			display: block;
+		}
+
+	}
+
+	.cta {
+	}
+}
+
+.ws-footer {
+
+	text-align: center;
+
+	.ws-partner-logo {
+
+		width: 150px;
+		height: auto; 
+
+	}
+}
+
+

@@ -33,3 +33,5 @@ collections:
     output: true
     permalink: /en/stadtgeschichten/:path/
   digitalrefugeelabs:
+  wahlsalons:
+
