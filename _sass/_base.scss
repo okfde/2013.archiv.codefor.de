@@ -1565,6 +1565,7 @@ $date-circle: 80px;
 	border: 3px solid black;
 }
 
+
 .ws-page-wrap {
 
 		background-color: RGBA(233,237,243,0.3);
@@ -1573,6 +1574,7 @@ $date-circle: 80px;
 											url('/img/wahlsalons_backgrounds_3.svg'),
 											url('/img/wahlsalons_backgrounds_4.svg');
 		font-family: $junction;
+		background-size: 100%;
 		padding: 0px;
 
 
@@ -1766,6 +1768,23 @@ $date-circle: 80px;
 	}
 
 }
+
+
+@media
+  screen and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+
+  	.chrome .ws-page-wrap {
+  		background-image: url('/img/wahlsalons_backgrounds_1.png'),
+  											url('/img/wahlsalons_backgrounds_2.png'),
+  											url('/img/wahlsalons_backgrounds_3.png'),
+  											url('/img/wahlsalons_backgrounds_4.png');
+  	}
+}
+
+
+
 
 .ws-footer {
 
