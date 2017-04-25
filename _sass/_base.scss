@@ -73,6 +73,13 @@ $odd-purple: #47334e;
 .text__black { color: $black;}
 .text__white { color: $white;}
 
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
 
 @font-face {
 	font-family: 'Junction';
@@ -120,12 +127,42 @@ $odd-purple: #47334e;
 	url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
 	font-weight: bold;
 	font-style: normal;
+}
+
+
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/league-gothic/webfonts/leaguegothic-italic-webfont.eot');
+    src: url('../fonts/league-gothic/webfonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-italic-webfont.woff') format('woff'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
 
 }
 
+/* Italic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/league-gothic/webfonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/league-gothic/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/league-gothic/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+$leaguegothic: 'League Gothic',sans-serif;
 $leaguespartan: 'League Spartan',sans-serif;
 $apercu: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 $junction: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+$roboto: 'Roboto', sans-serif;
 
 body {
 	@extend .fond__grey;
@@ -1506,6 +1543,233 @@ $date-circle: 80px;
 	.drl-teaser {
 		color: white;
 	}
+}
+
+/*================================
+=  Wahlsalons      					     =
+================================*/
+
+// for digital refugee labs
+// .hero-pattern__drl { 
+	
+// 	&:before {
+// 		padding-top: 30%;
+// 	}
+
+// 	svg {
+// 		stroke: none;
+// 	}
+// }
+
+.fond__border {
+	border: 3px solid black;
+}
+
+.ws-page-wrap {
+
+		background-color: RGBA(233,237,243,0.3);
+		background-image: url('/img/wahlsalons_backgrounds_1.svg'),
+											url('/img/wahlsalons_backgrounds_2.svg'),
+											url('/img/wahlsalons_backgrounds_3.svg'),
+											url('/img/wahlsalons_backgrounds_4.svg');
+		font-family: $junction;
+		padding: 0px;
+
+
+
+	.ws-logo {
+		background-image: url('/img/wahlsalons_logo.svg');
+		background-repeat: no-repeat;
+		display: block; 
+		height: 50px;
+		width: 80%;
+		margin: 0 auto 50px auto;
+	}
+
+	.leadin {
+		font-family: $roboto; 
+		font-size: 24px;
+		line-height: 1.3;
+		margin-bottom: 2rem;
+	}
+
+	p a {
+		text-decoration: underline;
+	}
+	
+
+
+	.page-title {
+		color: $black; 
+		font-family: $leaguegothic;
+		font-size: 40px;
+		word-spacing: 100em;
+		letter-spacing: 0.05em;
+
+	}
+
+	.story-wrapper {
+		// padding:0;
+		text-align: center;
+	}
+
+	#accordion-faq { 
+		
+		h4 > a {
+			display: inline-block;
+			padding: 10px;
+		}
+		
+		.panel-body {
+			padding: 10px;
+			
+			p {
+				font-family: $junction;
+			}
+		}
+
+	}
+
+	.ws-body,
+	.ws-teaser {
+		color: black;
+		font-family: $junction;
+	}
+
+	.project-wrapper {
+		margin-bottom:0;
+	}
+
+	.packery-item {
+		margin-bottom: 20px;
+	}
+
+	.ws-teaser-wrapper {
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+
+	.ws-teaser {
+					p {
+				font-family: $junction;
+			}
+	}
+
+	.ws-teaser-header a {
+		display: block;
+		position: relative;
+
+		&:active, &:focus {
+			text-decoration: none;
+			outline: 0;
+			color: $black;
+		}
+
+		&::after {
+
+			content: "";
+
+			width: 21px;
+			height: 24px;
+			display: inline-block;
+			background: url('/img/arrow_down_outline.svg') no-repeat;
+			-webkit-transform: rotate(0);
+			        transform: rotate(0);
+			transition: -webkit-transform 0.5s;
+			transition: transform 0.5s;
+			transition: transform 0.5s, -webkit-transform 0.5s;
+
+			position: absolute; 
+			// top: 0;
+			right: 0;
+			bottom: 12px;
+			margin: auto;
+		}
+
+	}
+
+	.ws-teaser-title {
+		font-family: $leaguegothic;
+		text-transform: uppercase;
+		font-size: 28px;
+		color: $black;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.ws-teaser-date {
+		font-size: 18px;
+		margin-top: 30px;
+		font-family: $roboto;
+		position: relative;
+
+		&:after {
+
+		}
+	}
+
+	.ws-teaser-header {
+		.collapsed::after {
+				-webkit-transform: rotate(180deg);
+				        transform: rotate(180deg);
+			}
+		}
+
+	.ws-teaser-location {
+		margin-top: 2em;
+		margin-bottom: 3em;
+		line-height: 1.5;
+	}
+
+	.ws-teaser-space {
+		font-size: 28px;
+		font-family: $roboto;
+	}
+
+	.ws-teaser-labs {
+
+		margin-top: 1em;
+
+		a {
+			display: inline-block;
+			text-transform: uppercase;
+			margin-bottom: 1em;
+			text-decoration: none;
+			color: $black;
+			background: $white;
+			padding: 0.5em 1em;
+			border: 3px solid black;
+		}
+	}
+
+	.cta {
+		// font-family: $apercu;
+		background: $black;
+		text-transform: uppercase;
+		padding: 0.5em 0.75em;
+		text-decoration: none;
+		margin-top: 2em;
+		display: inline-block;
+	}
+
+	.section-heading {
+		text-align: center; 
+		font-size: 80px;
+		font-family: $leaguegothic;
+		color: $black;
+		margin-top: 100px;
+	}
+
+	.panel-collapse {
+		background: $white;
+		padding: 10px;
+	}
+
+}
+
+.ws-footer {
+
+	padding: 30px;
 
 }
 
