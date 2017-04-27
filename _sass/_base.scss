@@ -1768,6 +1768,23 @@ $date-circle: 80px;
 		padding: 10px;
 	}
 
+	.signup-form {
+		
+		margin-top: 5rem;
+		
+		.form-control {
+			border: 1px solid black;
+			box-shadow: none;
+		}
+
+		.btn {
+			border: 1px solid black;
+			background: black; 
+			color: white;
+		}
+	
+	}
+
 }
 
 

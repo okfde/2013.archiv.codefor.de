@@ -1,0 +1,73 @@
+---
+layout: base
+
+---
+
+<div class="ws-page-wrap">
+  <div class="container">
+
+    <div class="row">
+      <div id="accordion" class="col-lg-10 col-lg-offset-1">  
+
+        <div  class="ws-teaser-wrapper fond__white fond__border">
+          <div class="ws-teaser">
+            <div class="ws-teaser-header clearfix">
+                <div class="clearfix">
+                  <h2 class="ws-teaser-title">Anmeldung {{ page.title }}</h2>
+                  <span class="ws-teaser-date">{{ page.when }}</span>
+                </div>
+            </div>
+
+            <div class="signup-form">
+            <form class="form-horizontal" method="POST" action="https://formspree.io/fiona.krakenbuerger@okfn.de">
+              <div class="form-group">
+                <label for="inputName" class="sr-only control-label">Name</label>
+                <div class="col-xs-12">
+                  <input type="text" name="Name" class="form-control" placeholder="Name" id="inputName" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="inputEmail" class="sr-only control-label">E-Mail</label>
+                <div class="col-xs-12">
+                  <input type="email" name="E-Mail" class="form-control" placeholder="E-Mail" id="inputEmail" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="inputMessage" class="sr-only control-label">Organisation/Projekt</label>
+                <div class="col-xs-12">
+                  <input type="text" name="Organisation" class="form-control" placeholder="Organisation/Projekt" id="inputName" />
+                </div>
+              </div>
+
+              <input type="hidden" name="Event" value="{{ page.title }}" />
+              <input type="hidden" name="_next" value="//codefor.de/ws-signup-thanks" />
+
+              <div class="form-group">
+                <div class="col-sm-8 col-md-10">
+                  <button type="submit" class="btn btn-default">Abschicken</button>
+                </div>
+              </div>
+            </form>
+            </div>
+
+
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+  </div>
+</div>
+
+<script src="/js/wahlsalonAnimationController.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    wsac = new wsac();
+  });
+</script>
