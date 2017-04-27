@@ -35,4 +35,6 @@ collections:
   digitalrefugeelabs:
   wahlsalons:
     output: true
+    permalink: /wahlsalons/:path/
+
 
