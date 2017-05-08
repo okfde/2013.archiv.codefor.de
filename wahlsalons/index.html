@@ -63,62 +63,137 @@ og-image: /img/wahlsalons_og.png
   {% endif %}
 
 
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 text__black">
-      <h2 class="section-heading">Veranstaltungen</h2>
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text__black">
+        <h2 class="section-heading">Veranstaltungen</h2>
+      </div>
     </div>
-  </div>
 
     <div class="row">
       <div id="accordion" class="col-lg-10 col-lg-offset-1">
         {% for ws in site.wahlsalons %}
 
-        {% if ws.where or ws.time or ws.content == "" %}
-         {% assign wseventcontent = true %}
-        {% else %}
-         {% assign wseventcontent = false %}
-        {% endif %}
+        {% if ws.highlight %}
 
-        <div  class="ws-teaser-wrapper fond__white fond__border">
-          <div class="ws-teaser">
-            <div class="ws-teaser-header clearfix">
-              {% if wseventcontent %}
-              <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed">
-              {% endif %}
-                <div class="clearfix">
-                  <h2 class="ws-teaser-title">{{ ws.title }}</h2>
-                  <span class="ws-teaser-date">{{ ws.when }}</span>
-                </div>
-              {% if wseventcontent %}
-              </a>
-              {% endif %}
-            </div>
+          {% if ws.where or ws.time or ws.content == "" %}
+           {% assign wseventcontent = true %}
+          {% else %}
+           {% assign wseventcontent = false %}
+          {% endif %}
 
-            {% if wseventcontent %}
-            <div id="collapse-{{ forloop.index0 }}" class="collapse">
-              <div class="ws-teaser-location clearfix">
-                <div class="ws-teaser-space">{{ ws.where }}<br>{{ ws.time }}</div>
-                <div class="ws-teaser-labs">
-                  {% for lab in ws.labs %}
-                  <a href="{{ lab.url }}">
-                   {{ lab.name }}
-                 </a>
-                 {% endfor %}
+          <div  class="ws-teaser-wrapper fond__white fond__border">
+            <div class="ws-teaser">
+              <div class="ws-teaser-header clearfix">
+                {% if wseventcontent %}
+                <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed">
+                {% endif %}
+                  <div class="clearfix">
+                    <h2 class="ws-teaser-title">{{ ws.title }}</h2>
+                    <span class="ws-teaser-date">{{ ws.when }}</span>
+                  </div>
+                {% if wseventcontent %}
+                </a>
+                {% endif %}
+              </div>
+
+              {% if wseventcontent %}
+              <div id="collapse-{{ forloop.index0 }}" class="collapse">
+                <div class="ws-teaser-location clearfix">
+                  <div class="ws-teaser-space">{{ ws.where }}<br>{{ ws.time }}</div>
+                  <div class="ws-teaser-labs">
+                    {% for lab in ws.labs %}
+                    <a href="{{ lab.url }}">
+                     {{ lab.name }}
+                   </a>
+                   {% endfor %}
+                 </div>
                </div>
+
+               {{ ws.content }}
+
+                <a class="cta" href="{{ ws.url }}" target="_blank" >Jetzt anmelden!</a>
+
              </div>
-
-             {{ ws.content }}
-
-              <a class="cta" href="{{ ws.url }}" target="_blank" >Jetzt anmelden!</a>
+              {% endif %}
 
            </div>
-            {% endif %}
-
          </div>
-       </div>
+       {% endif %}
+
        {% endfor %}
      </div>
    </div>
+
+
+    {% for ws in site.wahlsalons %}
+      {% unless ws.highlight  %}
+       {% assign CommunityEventExist = true %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if CommunityEventExist %}
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text__black">
+        <h2 class="section-heading">Community Events</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="accordion" class="col-lg-10 col-lg-offset-1">
+        {% for ws in site.wahlsalons %}
+
+        {% unless ws.highlight %}
+
+          {% if ws.where or ws.time or ws.content == "" %}
+           {% assign wseventcontent = true %}
+          {% else %}
+           {% assign wseventcontent = false %}
+          {% endif %}
+
+          <div  class="ws-teaser-wrapper fond__white fond__border">
+            <div class="ws-teaser">
+              <div class="ws-teaser-header clearfix">
+                {% if wseventcontent %}
+                <a data-toggle="collapse" href="#collapse-{{ forloop.index0 }}" class="collapsed">
+                {% endif %}
+                  <div class="clearfix">
+                    <h2 class="ws-teaser-title">{{ ws.title }}</h2>
+                    <span class="ws-teaser-date">{{ ws.when }}</span>
+                  </div>
+                {% if wseventcontent %}
+                </a>
+                {% endif %}
+              </div>
+
+              {% if wseventcontent %}
+              <div id="collapse-{{ forloop.index0 }}" class="collapse">
+                <div class="ws-teaser-location clearfix">
+                  <div class="ws-teaser-space">{{ ws.where }}<br>{{ ws.time }}</div>
+                  <div class="ws-teaser-labs">
+                    {% for lab in ws.labs %}
+                    <a href="{{ lab.url }}">
+                     {{ lab.name }}
+                   </a>
+                   {% endfor %}
+                 </div>
+               </div>
+
+               {{ ws.content }}
+
+             </div>
+              {% endif %}
+
+           </div>
+         </div>
+       {% endunless %}
+
+       {% endfor %}
+     </div>
+   </div>
+
+   {% endif %}
 
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 text__black">
