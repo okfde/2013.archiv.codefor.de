@@ -49,14 +49,18 @@ members:
 - name: Tobias Hößl
   username-twitter: tobiasHoessl
   username-github: catoth
+  
+- name: Maximillian Richt
+  username-twitter: robbi5
+  username-github: robbi5
+  
+- name: Rob Ruidisch
 
 - name: Konstantin Schütze
   username-twitter: konstinx
   username-github: konstin
 
-- name: Maximillian Richt
-  username-twitter: robbi5
-  username-github: robbi5
+
 
 links:
 - name: Termine und Mitglieder - Meetup
