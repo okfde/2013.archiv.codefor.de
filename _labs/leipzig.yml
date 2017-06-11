@@ -51,10 +51,14 @@ members:
   username-github: NucsuM
 - name: Sebastian Peters
   username-github: sepe81
+- name: Jörg Reichert
+  username-github: joergreichert
 
 links:
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Leipzig/
+- name: Slack
+  url: https://openknowledgegermany.slack.com/messages/leipzig/
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeforleipzig
 - name: Twitter
