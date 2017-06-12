@@ -28,7 +28,7 @@ links:
   url: https://lists.okfn.org/mailman/listinfo/codeforffm
 
 - name: Etherpad
-  url: http://pad.okfn.org/p/codeforffm
+  url: https://pad.okfn.de/p/codeforfrankfurt
 
 leads:
 
@@ -37,3 +37,6 @@ leads:
 
 - name: Mischa
   url: mailto:mischa@zoeller.biz
+
+- name: aCandidMind
+  url: https://twitter.com/aCandidMind
