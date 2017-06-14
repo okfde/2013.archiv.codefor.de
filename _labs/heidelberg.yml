@@ -1,0 +1,26 @@
+---
+key: heidelberg
+title: OK Lab Heidelberg
+lab: OK Lab Heidelberg
+lat: 49.40768
+long: 8.69079 
+markerposition: left
+
+members:
+- name: Jasper Schmidt
+  username-github: 
+  username-twitter: 
+
+
+links:
+- name: Newsletter
+  url: http://pad.opendatacloud.de/p/OK-Lab-HN
+- name: Pad
+  url: https://pad.okfn.de/p/OKLab_HD_IoT_für_Schulen
+- name: Twitter
+  url: https://twitter.com/OKL_HD
+
+
+leads:
+- name: Jasper Schmidt
+  url: mailto:jasper.schmidt@dai-heidelberg.de
