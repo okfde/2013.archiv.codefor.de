@@ -6,40 +6,55 @@ lat: 48.776540
 long: 9.173700
 markerposition: right
 
-
 members:
-- name: Jan A. Lutz
+- name: Jan Lutz
   username-twitter: Jan_sagt
   username-github: fuergestalten
 
-- name: Benedikt Groß
-  username-twitter: bndktgrs
-  username-github: b-g
+- name: Rajko Zschiegner
+  username-twitter: ricki_z
+  username-github: ricki-z
+  
+- name: David Lackovic
+
+- name: Ewald Thoma
+
+- name: Frank Riedel
+  username-twitter: riedelwerk
+  username-github: riedelwerk
+  
+- name: Martin Weis
+  username-github: Marwe
+  
+- name: Miachel Käufl
+  username-github: michael-k
 
 - name: Andreas Madsack
   username-twitter: mfandreas
   username-github: mfa
 
-- name: Arne Schauf
-  username-twitter: asmaps
-  username-github: asmaps
+- name: rashfael
+  username-github: rashfael
   
-- name: Michael Käufl
-  username-github: michael-k
-  
-- name: Frank Riedel
-  username-twitter: riedelwerk
-  username-github: riedelwerk  
+- name: Fritz Mielert
+  username-twitter: mielert
+  username-github: mielert
+
+- name: Christian Kuhn
+  username-twitter: ChrizKu
+  username-github: ChrizKu
 
 links:
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/
 - name: Twitter
   url: https://twitter.com/codeforS
+- name: Wiki / Protokolle
+  url: https://github.com/opendata-stuttgart/meta/wiki
 - name: Etherpad
   url: http://pad.okfn.org/p/OK-Lab-Stuttgart
 
-leads:
+lead:
 - name: Jan A. Lutz
   url: mailto:jan.lutz@buero-fuer-gestalten.de
   username-twitter: fuergestalten
