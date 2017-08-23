@@ -25,9 +25,9 @@ Das Projekt <a href="https://wahl.tagesspiegel.de/2017/kandidatenbank/">Kandidat
 Der Abend soll vor allem zum Austausch und der Präsentation toller Projekte dienen, es sind daher alle Interessierten herzlich eingeladen! 
 Die Veranstaltung findet von 16 bis 19 Uhr in den Räumlichkeiten von Google <a href="https://www.openstreetmap.org/node/437319332">Unter den Linden 14</a> statt. 
 
-Eure Anmeldung ist dafür erforderlich, das geht ganz einfach unter <a href="https://codefor.de/wahlsalons">codefor.de/wahlsalons</a> oder direkt über diesen <a href="https://codefor.de/wahlsalons/3/">Link</a>x.
+Eure Anmeldung ist dafür erforderlich, das geht ganz einfach unter <a href="https://codefor.de/wahlsalons">codefor.de/wahlsalons</a> oder direkt über diesen <a href="https://codefor.de/wahlsalons/3/">Link</a>.
 
-Falls ihr Fragen habt, schreibt uns einfach eine Mail an <a href="mailto:fiona.krakenbuerger@okfn.de">Fiona Krakenbürger</a>. 
+Falls ihr Fragen habt, schreibt einfach eine Mail an <a href="mailto:fiona.krakenbuerger@okfn.de">Fiona Krakenbürger</a>. 
  
 
 <br>
