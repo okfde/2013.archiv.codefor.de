@@ -1,7 +1,7 @@
 ---
 lab: OK Lab Köln
 name: OpenData Time @ Lokal_K
-date: 2017-07-10
+date: 2017-09-18
 time: 19-22 Uhr
 location: Wikipedia:Lokal K, Hackländerstraße 2, Köln
 link-url: http://www.meetup.com/OKLab-Koln-Meetup
