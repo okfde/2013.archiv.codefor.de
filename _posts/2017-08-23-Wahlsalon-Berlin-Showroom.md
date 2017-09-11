@@ -63,5 +63,4 @@ Insbesondere der intensive und produktive Dialog zwischen Bundeswahlleiter und C
 Wir danken allen Teilnehmerinnen, dem Team vom Bundeswahlleiter, Google für's Hosten und die Zusammenarbeit und richten einen besonderen Dank an die großartigen Projekte! 
 
 
-![wahlsalons-wahltraud-wahlsalons](/assets/blog/wahlsalons-wahltraud-wahlsalons.png)
 
