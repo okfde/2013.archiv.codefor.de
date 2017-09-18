@@ -20,7 +20,8 @@ title: Projekt Showcase
 
 
       <div class="packery-item-gutter"></div>
-      {% for sitepage in site.pages %}
+      {% assign sorted_site_pages = site.pages | sort: 'date' | reverse %}
+      {% for sitepage in sorted_site_pages %}
       {% if sitepage.showcase and sitepage.layout == 'project' %}
         <div class="packery-item" >
           {% include project-teaser.html %}
