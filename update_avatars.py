@@ -74,7 +74,8 @@ def main():
                 continue
 
             username = member['username-github']
-            avatar = get_avatar(username, last_modified)
+            if username is not None:
+                avatar = get_avatar(username, last_modified)
             if not avatar:
                 continue
 
