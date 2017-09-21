@@ -51,6 +51,10 @@ members:
   username-github: hatorikibble
   username-twitter: hatorikibble
 
+- name: Christoph Finke
+  username-github: chfinke
+  username-twitter: chfinke
+
 links:
 - name: Meetup
   url: http://meetup.com/OKLab-Koln-Meetup
