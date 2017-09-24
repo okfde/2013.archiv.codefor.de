@@ -1,0 +1,19 @@
+---
+layout: project
+lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
+imgname: 
+title: Wahlwatching Twitter-Bot
+status: abgeschlossen
+type: WS
+published: true #set to 'true'
+
+links:
+- url: https://twitter.com/WahlwatchingKA
+  name: Bot auf Twitter
+
+collaborators:
+- name: Kai
+
+---
+
+Live sehen, wann neue Wahlergebnisse eingetragen werden! Dieser Bot twittert immer, wenn sich die Live-Ergebnisse aktualisieren.
