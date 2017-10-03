@@ -80,7 +80,7 @@ Start: 1. November 2017<br>
 Zeit: 20h/Woche<br>
 Gehalt: TVL E13 S1<br>
 
-Wenn Du Interesse an der Stelle hast, freuen wir uns über Deine Bewerbung bis zum 15. Oktober! Bewerbungsgespräche sind ab dem 19. Oktober geplant. Von Bewerbungsfotos und Angaben zu Geburtsdatum und Familienstand bitten wir abzusehen. Wenn du Interesse hast, dann schick uns deine Bewerbung bis 13. Oktober per E-Mail an <a href="mailto:jobs@okfn.de">jobs@okfn.de</a>.
+Wenn Du Interesse an der Stelle hast, freuen wir uns über Deine Bewerbung bis zum 15. Oktober! Bewerbungsgespräche sind ab dem 19. Oktober geplant. Von Bewerbungsfotos und Angaben zu Geburtsdatum und Familienstand bitten wir abzusehen. Wenn du Interesse hast, dann schick uns deine Bewerbung bis 15. Oktober per E-Mail an <a href="mailto:jobs@okfn.de">jobs@okfn.de</a>.
  
 Wir freuen uns auf dich!
 <br>
