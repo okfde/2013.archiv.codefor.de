@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Ruhrgebiet
 name: Code for Ruhrgebiet Meetup
-date: 2017-08-17
+date: 2017-09-09
 time: 19 Uhr
 location: Chaospott Essen
-link-url: https://www.meetup.com/OK-Lab-Ruhrgebiet/events/242249202/
+link-url: https://www.meetup.com/OK-Lab-Ruhrgebiet/events/244598362/
 ---
