@@ -5,7 +5,7 @@ author: Sabine
 excerpt: Ein Open-Data-Neuling besucht die Landesdatenschau.
 
 images:
-- imgname: mrmcd-2017-unicorn.jpg
+- imgname: mrmcd17-tagclouds.jpg
 published: true
 ---
 
