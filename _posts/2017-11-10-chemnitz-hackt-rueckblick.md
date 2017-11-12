@@ -13,7 +13,7 @@ Der erste (uns bekannte) Chemnitzer Hackathon vom 28. und 29. Oktober 2017 ist n
 
 Eindrücke und Fotos kann man im offiziellen Twitter-Kanal <a href="https://twitter.com/ChemnitzHackt">@ChemnitzHackt</a> gewinnen. Viele weitere Fotos gibt es zudem in dieser <a href="https://cloud.morrisjobke.de/apps/gallery/s/TwM4C1fM33UMM4q#">Bildergalerie</a>.
 
-Das Teilnehmerfeld kann man durchaus als gemischt bezeichnen, vom-8 jährigen Raphael über den 15-jährigen Alex zu einer größeren Menge Staffbase'lern - die mit 6 Leuten vor Ort waren und an ihren schicken Hoodies gut erkennbar waren - bis hin zu einigen internationalen Studenten. Allerdings gab es ja noch über ein Dutzend andere Leute,  Designer, Entwicklerinnen - die insgesamt eine erstaunlich bunte Mischung an Skills und Kenntnissen mit sich brachten.
+Das Teilnehmerfeld kann man durchaus als gemischt bezeichnen, vom 8-jährigen Raphael über den 15-jährigen Alex zu einer größeren Menge Staffbase'lern - die mit 6 Leuten vor Ort waren und an ihren schicken Hoodies gut erkennbar waren - bis hin zu einigen internationalen Studenten. Allerdings gab es ja noch über ein Dutzend andere Leute,  Designer, Entwicklerinnen - die insgesamt eine erstaunlich bunte Mischung an Skills und Kenntnissen mit sich brachten.
 
 Begonnen hatte alles mit dem Projekte-Pitch und der Zusammenfindung der Teams. Dann wurde konzeptioniert, gebaut, designt und weiter konzeptioniert - unterbrochen nur durch leckeres Curry am Samstag-Mittag, noch leckererer Pizza von <a href="https://www.augusto.pizza/pizzen">Augusto</a> am Abend, Frühstück am Sonntag-Morgen, und auch leckerer Suppe am Mittag. Den leckeren Kuchen zum abschließenden Projekte-Pitch am Sonntag 16 Uhr soll nicht unerwähnt bleiben.
 
