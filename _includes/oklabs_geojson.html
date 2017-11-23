@@ -1,0 +1,11 @@
+	{% for lab in site.labs %}
+	{% if lab.lat and lab.long %}{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [{{ lab.lat }}, {{ lab.long }}]
+		},
+			"properties": {
+			"name": "{{ lab.lab }}"
+		}
+	}{%unless forloop.last%},{%endunless%}{% endif%}{% endfor %}
