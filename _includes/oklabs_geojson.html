@@ -1,0 +1,16 @@
+	{% for lab in site.labs %}
+	{% if lab.lat and lab.long %}{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [{{ lab.long }}, {{ lab.lat }}]
+		},
+		"properties": {
+			"name": "{{ lab.lab }}",
+			"url": "https://codefor.de/{{ lab.key }}"{% if lab.links %},
+			"links": {
+				{% for link in lab.links %}"{{ link.name }}": "{{ link.url }}"{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			}{% endif %}
+		}
+	}{%unless forloop.last%},{%endunless%}{% endif%}{% endfor %}

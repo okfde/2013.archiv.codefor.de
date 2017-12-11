@@ -6,7 +6,7 @@ excerpt: Ende Oktober findet in Chemnitz der erste Hackathon „Chemitz hackt“
 
 published: true
 images:
-- imgname: chemnitz/CodeforChemnitz.png
+- imgname: chemnitz/CodeForChemnitz.png
 ---
 
 
