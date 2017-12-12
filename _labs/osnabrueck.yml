@@ -8,26 +8,48 @@ markerposition: left
 showsignup: false
 
 members:
-- name: 
-  username-github: 
-  username-twitter: 
+- name: Auss Abbood
+  username-github: https://github.com/aauss
+  # username-twitter:
+
+- name: John Berrora
+  username-github: https://github.com/johnberroa
+  # username-twitter:
+
+- name: Rüdiger Frederik Busche
+  username-github: https://github.com/JarnoRFB
+  # username-twitter:
+
+- name: Anton Laukemper
+  username-github: https://github.com/Zaitur
+  # username-twitter:
+
+- name: Jannik Steinmann
+  username-github: https://github.com/DerGut
+  # username-twitter:
+
 
 links:
+- name: Webseite
+  url: http://codeforosnabrueck.org/
+
 - name: Meetup
-  url: https://www.meetup.com/de-DE/OK-Lab-Osnabruck/events/past/?_cookie-check=8j3yIEol1wIVgJDx
-- name: Twitter
-  url: 
-- name: Facebook
-  url: 
-- name: Mailingliste
-  url: 
+  url: https://www.meetup.com/de-DE/OK-Lab-Osnabruck
+
 - name: GitHub
-  url: 
-- name: Etherpad
-  url: 
+  url: https://github.com/codeforosnabrueck
+
+- name: Twitter
+  url: https://twitter.com/OKLabOsnabrueck
+
+# - name: Facebook
+#   url:
+
+
 
 leads:
-- name: 
-  url: 
-- name: 
-  url: 
+- name: Rüdiger Frederik Busche
+  url: https://www.meetup.com/de-DE/members/232667363/?op=&memberId=232667363
+
+# - name:
+#   url:
