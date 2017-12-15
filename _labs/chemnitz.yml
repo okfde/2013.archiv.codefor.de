@@ -17,20 +17,18 @@ members:
 - name: Ronny Hartenstein
   username-twitter: rhflow_de
   username-github: ronnyhartenstein
-- name: PhiBo
-  username-github: phibos
+- name: Benedikt Geißler
+  username-github: benediktg5
 
 links:
 - name: Webseite
   url: http://codeforchemnitz.de/
 - name: Mailingliste
-  url: mailto:oklab@chaoschemnitz.de
+  url: mailto:codeforchemnitz@lists.okfn.org
 - name: Pad
   url: http://pad.okfn.org/p/oklab-chemnitz
 - name: Twitter
   url: http://twitter.com/codeforchemnitz
-- name: Facebook
-  url: https://www.facebook.com/codeforchemnitz
 
 
 leads:
