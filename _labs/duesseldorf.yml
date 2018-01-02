@@ -36,11 +36,17 @@ leads:
 members:
 - name: Agnes Mainka
   username-twitter: agnieszka_m
+- name: Alice Wiegand
+  username-twitter: lyzzy
 - name: Antje Feil
   username-twitter: antjefeil
 - name: Arne Lieb
   username-twitter: arnelieb
 - name: Catrin Boss
+- name: Christina Rentmeister
+  username-twitter: chrire
+- name: Dirk Nagels
+  username-twitter: OpenDirk
 - name: Dr. Christian Knebel
   username-github: cknebel
   username-twitter: cknebel79
@@ -61,9 +67,13 @@ members:
 - name: Phil Ninh
   username-github: PhilNinh
   username-twitter: philninh
+- name: Sabine Manz
+  username-twitter: SabineManz
 - name: Stefan Müller
   username-github: stefdus
   username-twitter: stefdus
 - name: Steffen Pramel
 - name: Tobias Hübner
   username-twitter: medienistik
+- name: Tobias Siebenlist
+  username-twitter: t7l
