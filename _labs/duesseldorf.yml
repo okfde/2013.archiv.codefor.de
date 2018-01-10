@@ -9,21 +9,23 @@ showsignup: false
 
 links:
 - name: Blog
-  url: http://codefordus.tumblr.com/
+  url: https://codefordus.nrw
 - name: Facebook
   url: https://www.facebook.com/codefordus/
 - name: GitHub
   url: https://github.com/codefordus
-- name: Hackpad
-  url: https://codefordus.hackpad.com/
 - name: Mailingliste
-  url: https://lists.okfn.org/mailman/listinfo/codeforduesseldorf
+  url: https://listi.jpberlin.de/mailman/listinfo/codefordus
 - name: Meetup
   url: http://www.meetup.com/de-DE/OK-Lab-Dusseldorf/
 - name: Twitter
   url: https://twitter.com/codefordus
 
 leads:
+- name: Tobias Siebenlist
+  url: mailto:tobias.siebenlist@hhu.de
+- name: Agnes Mainka
+  url: mailto:agnes.mainka@hhu.de
 - name: Stefan Müller
   url: mailto:stefan.mueller@gruene-duesseldorf.de
 - name: Phil Ninh
@@ -34,11 +36,17 @@ leads:
 members:
 - name: Agnes Mainka
   username-twitter: agnieszka_m
+- name: Alice Wiegand
+  username-twitter: lyzzy
 - name: Antje Feil
   username-twitter: antjefeil
 - name: Arne Lieb
   username-twitter: arnelieb
 - name: Catrin Boss
+- name: Christina Rentmeister
+  username-twitter: chrire
+- name: Dirk Nagels
+  username-twitter: OpenDirk
 - name: Dr. Christian Knebel
   username-github: cknebel
   username-twitter: cknebel79
@@ -59,9 +67,13 @@ members:
 - name: Phil Ninh
   username-github: PhilNinh
   username-twitter: philninh
+- name: Sabine Manz
+  username-twitter: SabineManz
 - name: Stefan Müller
   username-github: stefdus
   username-twitter: stefdus
 - name: Steffen Pramel
 - name: Tobias Hübner
   username-twitter: medienistik
+- name: Tobias Siebenlist
+  username-twitter: t7l

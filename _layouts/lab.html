@@ -101,7 +101,7 @@ layout: base
 
 <!-- Projekte -->
 {% assign sorted_projects = site.pages | where_exp:"sitepage","sitepage.lab contains meta.lab" | where:"layout","project" | sort: 'date' %}
-{% if meta.projectsorder == 'reverse' %}
+{% if meta.projectsorder != 'reverse' %}
   {% assign sorted_projects = sorted_projects | reverse %}
 {% endif %}
 

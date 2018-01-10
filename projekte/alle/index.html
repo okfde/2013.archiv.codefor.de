@@ -12,7 +12,8 @@ title: Alle Projekte
       <span class="h4 pull-right"><a href="/projekte">Projekt Showcase …</a></span>
     </div>
 
-    {% for sitepage in site.pages %}
+    {% assign sorted_site_pages = site.pages | sort: 'date' | reverse %}
+    {% for sitepage in sorted_site_pages %}
       {% if sitepage.layout == 'project' %}
         {% include project-teaser-slim.html %}
       {% endif %}
