@@ -157,6 +157,20 @@ $odd-green: #9bc7a8;
 
 }
 
+@font-face {
+  font-family: 'ApercuPro';
+  src: url('../fonts/apercu_regular_pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApercuPro-Mono';
+  src: url('../fonts/apercu_mono_pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 $leaguegothic: 'League Gothic',sans-serif;
