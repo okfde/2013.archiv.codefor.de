@@ -12,6 +12,7 @@ $white: #FFFFFF;
 $dark-red: #C53C3C;
 
 $odd-purple: #47334e;
+$odd-green: #9bc7a8;
 
 .fond__red { background-color: $red;}
 .fond__dark-red {background-color: $dark-red;}
@@ -23,47 +24,47 @@ $odd-purple: #47334e;
 .fond__grey-mid { background-color: $grey-mid;}
 .fond__white { background-color: $white;}
 
-.text__red { 
+.text__red {
 	color: $red;
 	a, a:hover, a:visited, a:focus {
 		color: $red;
 	}
 }
 
-.text__blue { 
+.text__blue {
 	color: $blue;
 	a, a:hover, a:visited, a:focus {
 		color: $blue;
 	}
 }
 
-.text__green { 
+.text__green {
 	color: $green;
 	a, a:hover, a:visited, a:focus {
 		color: $green;
 	}
 }
 
-.text__cyan { 
+.text__cyan {
 	color: $cyan;
 	a, a:hover, a:visited, a:focus {
 		color: $cyan;
 	}
 }
 
-.text__grey-dark { 
+.text__grey-dark {
 	color: $grey-dark;
 	a, a:hover, a:visited, a:focus {
 		color: $grey-dark;
 	}
 }
-.text__grey-mid { 
+.text__grey-mid {
 	color: $grey-mid;
 	a, a:hover, a:visited, a:focus {
 		color: $grey-mid;
 	}
 }
-.text__grey-bright { 
+.text__grey-bright {
 	color: $grey-bright;
 	a, a:hover, a:visited, a:focus {
 		color: $grey-bright;
@@ -161,7 +162,7 @@ $odd-purple: #47334e;
 $leaguegothic: 'League Gothic',sans-serif;
 $leaguespartan: 'League Spartan',sans-serif;
 $apercu: "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
-$junction: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+$junction: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 $roboto: 'Roboto', sans-serif;
 
 body {
@@ -398,7 +399,7 @@ label {
 ============================*/
 
 .ptf-teaser {
-  
+
   .ptf-hidden {
     visibility: hidden;
   }
@@ -406,7 +407,7 @@ label {
   object {
     pointer-events: none;
   }
-  
+
 }
 
 
@@ -438,7 +439,7 @@ label {
 $keep: 44 + 2 * 15px;
 
 .nav-wrap {
-  position: absolute; 
+  position: absolute;
   top:0;
   right: calc(-100% + #{$keep});
   width: calc(100% - #{$keep});
@@ -536,8 +537,8 @@ $keep: 44 + 2 * 15px;
 
 	background: $blue;
 	padding: 5% 0;
-	top: 0; left: 0; right: 0; 
-	margin: 0 auto; 
+	top: 0; left: 0; right: 0;
+	margin: 0 auto;
 	width: 100%;
 
 }
@@ -553,7 +554,7 @@ $keep: 44 + 2 * 15px;
 		letter-spacing: 0.05em;
 
 	}
-	
+
 }
 
 
@@ -1056,7 +1057,7 @@ $date-circle: 80px;
 ===============================*/
 
 .story-teaser--image, .story--head, .hero-pattern {
-	
+
 	a {
 		text-decoration: none;
 	}
@@ -1115,9 +1116,9 @@ $date-circle: 80px;
 
 // IE responsive SVG fix
 .story-teaser--image {
-	
+
 	padding-top: ( 415 / 640 ) * 100%;
-	
+
 	svg {
 		position: absolute;
 		top: 0;
@@ -1127,7 +1128,7 @@ $date-circle: 80px;
 
 
 .story-teaser--title {
-	
+
 	position: absolute;
 	width: 100%;
 	padding: 0 25px;
@@ -1139,7 +1140,7 @@ $date-circle: 80px;
 	color: white;
 
 	h2 {
-		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 		font-size: 18px;
 		line-height: 1.5;
 		text-transform: none;
@@ -1159,7 +1160,7 @@ $date-circle: 80px;
 }
 
 .story--pattern, .hero-pattern {
-	
+
 	overflow: hidden;
 	position: relative;
 
@@ -1172,7 +1173,7 @@ $date-circle: 80px;
 	svg {
 		height: initial;
 		width: 200%;
-		-webkit-transform: translateX(-25%);	
+		-webkit-transform: translateX(-25%);
 		transform: translateX(-25%);
 	}
 }
@@ -1190,7 +1191,7 @@ $date-circle: 80px;
 .hero-pattern-wrap {
 
 	padding-top: ( 415 / 1280 ) * 100%;
-	
+
 	svg {
 		position: absolute;
 		top: 0;
@@ -1201,9 +1202,9 @@ $date-circle: 80px;
 
 // IE responsive SVG fix
 .story--pattern-wrap {
-	
+
 	padding-top: ( 1030 / 1280 ) * 100%;
-	
+
 	svg {
 		position: absolute;
 		top: 0;
@@ -1214,7 +1215,7 @@ $date-circle: 80px;
 
 .story--header {
 	width: 100%;
-	color: white; 
+	color: white;
 }
 
 .story--header--hero {
@@ -1226,7 +1227,7 @@ $date-circle: 80px;
 	.caption {
 		color: white;
 		position: absolute;
-		bottom: 0; 
+		bottom: 0;
 		width: 100%;
 		text-transform: uppercase;
 	}
@@ -1234,7 +1235,7 @@ $date-circle: 80px;
 }
 
 .story--header--title {
-	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 	font-size: 24px;
 	line-height: 1.5;
 	text-transform: none;
@@ -1248,13 +1249,13 @@ $date-circle: 80px;
 	margin-bottom: 0;
 
 	a {
-		color: white; 
+		color: white;
 	}
 }
 
 
 .story--lead p {
-	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+	font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 	line-height: 1.5;
 	font-size: 24px;
 	text-align: center;
@@ -1264,7 +1265,7 @@ $date-circle: 80px;
 .story--embed {
 	margin-top: 80px;
 	margin-bottom: 80px;
-	max-width: 500px; 
+	max-width: 500px;
 	margin: 0 auto;
 }
 
@@ -1274,14 +1275,14 @@ $date-circle: 80px;
 
 .story--body {
 
-	h1, h2, h3, h4, h5 {	
-		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+	h1, h2, h3, h4, h5 {
+		font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 		font-size: 24px;
 		text-transform: none;
 	}
 
 	p {
-		font-family: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+		font-family: 'Junction', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 		margin-bottom: 40px;
 	}
 
@@ -1311,13 +1312,13 @@ $date-circle: 80px;
 
 	blockquote {
 		position: relative;
-		padding: 0; 
+		padding: 0;
 		margin: 0 25px 15px 0;
 
 		border: 0;
-		
+
 		p {
-			font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif; 
+			font-family: 'League Spartan', "Apercu Mono Pro Regular", 'Andale Mono', sans-serif;
 			font-size: 24px;
 			text-indent: 36px;
 			margin: 0;
@@ -1363,8 +1364,8 @@ $date-circle: 80px;
 ================================*/
 
 // for digital refugee labs
-.hero-pattern__drl { 
-	
+.hero-pattern__drl {
+
 	&:before {
 		padding-top: 30%;
 	}
@@ -1381,7 +1382,7 @@ $date-circle: 80px;
 	p a {
 		text-decoration: underline;
 	}
-	
+
 	background-color: $green2;
 	background-image: url('/img/digital_refugee_labs.svg');
 	font-family: $junction;
@@ -1389,7 +1390,7 @@ $date-circle: 80px;
 
 
 	.page-title {
-		color: $white; 
+		color: $white;
 		font-family: $leaguespartan;
 		font-size: 40px;
 		word-spacing: 100em;
@@ -1436,7 +1437,7 @@ $date-circle: 80px;
 			transition: transform 0.5s;
 			transition: transform 0.5s, -webkit-transform 0.5s;
 
-			position: absolute; 
+			position: absolute;
 			top: 0;
 			right: 0;
 			bottom: 0;
@@ -1510,7 +1511,7 @@ $date-circle: 80px;
 	}
 
 	.section-heading {
-		text-align: center; 
+		text-align: center;
 		font-size: 40px;
 		font-family: $leaguespartan;
 		color: $white;
@@ -1536,12 +1537,12 @@ $date-circle: 80px;
 ================================*/
 
 .odd-override {
-	background-color: $odd-purple;
+	background-color: $odd-green;
 	background-image: none;
 
 	.drl-body,
 	.drl-teaser {
-		color: white;
+		color: black;
 	}
 }
 
@@ -1550,8 +1551,8 @@ $date-circle: 80px;
 ================================*/
 
 // for digital refugee labs
-// .hero-pattern__drl { 
-	
+// .hero-pattern__drl {
+
 // 	&:before {
 // 		padding-top: 30%;
 // 	}
@@ -1582,14 +1583,14 @@ $date-circle: 80px;
 	.ws-logo {
 		background-image: url('/img/wahlsalons_logo.svg');
 		background-repeat: no-repeat;
-		display: block; 
+		display: block;
 		height: 50px;
 		width: 80%;
 		margin: 0 auto 50px auto;
 	}
 
 	.leadin {
-		font-family: $roboto; 
+		font-family: $roboto;
 		font-size: 24px;
 		line-height: 1.3;
 		margin-bottom: 2rem;
@@ -1598,11 +1599,11 @@ $date-circle: 80px;
 	p a {
 		text-decoration: underline;
 	}
-	
+
 
 
 	.page-title {
-		color: $black; 
+		color: $black;
 		font-family: $leaguegothic;
 		font-size: 40px;
 		word-spacing: 100em;
@@ -1615,16 +1616,16 @@ $date-circle: 80px;
 		text-align: center;
 	}
 
-	#accordion-faq { 
-		
+	#accordion-faq {
+
 		h4 > a {
 			display: inline-block;
 			padding: 10px;
 		}
-		
+
 		.panel-body {
 			padding: 10px;
-			
+
 			p {
 				font-family: $junction;
 			}
@@ -1681,7 +1682,7 @@ $date-circle: 80px;
 			transition: transform 0.5s;
 			transition: transform 0.5s, -webkit-transform 0.5s;
 
-			position: absolute; 
+			position: absolute;
 			// top: 0;
 			right: 0;
 			bottom: 12px;
@@ -1756,7 +1757,7 @@ $date-circle: 80px;
 	}
 
 	.section-heading {
-		text-align: center; 
+		text-align: center;
 		font-size: 46px;
 		font-family: $leaguegothic;
 		color: $black;
@@ -1769,9 +1770,9 @@ $date-circle: 80px;
 	}
 
 	.signup-form {
-		
+
 		margin-top: 5rem;
-		
+
 		.form-control {
 			border: 1px solid black;
 			box-shadow: none;
@@ -1779,10 +1780,10 @@ $date-circle: 80px;
 
 		.btn {
 			border: 1px solid black;
-			background: black; 
+			background: black;
 			color: white;
 		}
-	
+
 	}
 
 }
