@@ -28,18 +28,7 @@ links:
 - name: Git
   url: https://github.com/codeforpb
 
-- name: Pad
-  url: http://pad.okfn.org/p/codeforpb
-
-- name: Twitter
-  url: https://twitter.com/codeforpb
-
-- name: Meetup
-  url: http://www.meetup.com/OKLab-Paderborn/
 
 leads:
 - name: Jan
-  url: mailto:ljan@mail.upb.de
-
-- name: Mailing-List
-  url: mailto:list@codeforpb.de
+  url: mailto:lippertsjan+oklab@gmail.com
