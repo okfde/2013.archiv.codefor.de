@@ -1,8 +1,8 @@
 ---
 lab: OK Lab Düsseldorf
-name: Feierabendsession X
-date: 2018-02-15
-time: 19:00 - 21:00 Uhr
-location: Factory Campus, Erkrather Str. 401, 40231 Düsseldorf
-link-url: https://www.meetup.com/de-DE/OK-Lab-Dusseldorf/events/246457842/ 
+name: Codingsession I
+date: 2018-02-21
+time: 18:00 - 22:00 Uhr
+location: Super7000, Rather Str. 25, 40476 Düsseldorf
+link-url: https://www.meetup.com/de-DE/OK-Lab-Dusseldorf/events/247877811/
 ---
