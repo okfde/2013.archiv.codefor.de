@@ -2,8 +2,8 @@
 key: dresden
 title: Open Data Dresden
 lab: OK Lab Dresden
-lat: 51.047072
-long: 13.747552
+lat: 51.08113
+long: 13.72858
 #h4c: true
 
 #special: true #this lab gets spcecial marker (digital refugee lab)
@@ -14,9 +14,6 @@ members:
   url: http://spaceboyz.net/~astro/
   username-github: astro
   username-twitter: astro1138
-- name: Thomas Skowron
-  username-twitter: thomersch
-  username-github: thomersch
 - name: Consti
   username-github: ubahnverleih
   username-twitter: ubahnverleih
@@ -33,7 +30,6 @@ members:
 - name: kiliankoe
   username-github: kiliankoe
   username-twitter: kiliankoe
-- name: Fidel
 - name: und wechselnd viele weitere Menschen
 
 
@@ -44,7 +40,9 @@ links:
   url: http://offenesdresden.de
 - name: mailingliste
   url: mailto:all-subscribe@okdd.de
-- name: Treffen, jeden 1 und 3 Mittwoch im Monat
+- name: slack
+  url: https://openknowledgegermany.slack.com/messages/dresden
+- name: am 23. des Monats (bitte immer bei meetup prüfen! oder per Twitter fragen)
   url: http://offenesdresden.de
 
 leads:
