@@ -2,7 +2,7 @@
 layout: post
 title: "Unvereinbarkeitserklärung: Offene Daten und NDAs"
 author: Michael Peters
-excerpt: Die Mitglieder der Open Knowledge Labs nehmen häufig an Hackathons und ähnlichen Veranstaltungen teil, oftmals auch unter dem Schirm ihres Labs. Vor kurzem sollten einige Community Mitglieder auf einem Hackathon eine Nutzungserklärung unterschreiben, dass dort genutzte Daten nicht weiterverwendet werden dürfen. Dies ist unvereinbar mit unserer Vorstellung von offenen Daten und birgt die Gefahr, dass aus bürgerschaftlichen Engagement entstehende Anwendungen nicht für gesamtgesellschaftliche, sondern privatwirtschaftliche Zwecke genutzt würden. 
+excerpt: Die Mitglieder der Open Knowledge Labs nehmen häufig an Hackathons und ähnlichen Veranstaltungen teil, oftmals auch unter dem Schirm ihres Labs. Die Unterschrift von Nutzererklärungen auf solchen Veranstaltungen ist ist unvereinbar mit unserer Vorstellung von offenen Daten und birgt die Gefahr, dass aus bürgerschaftlichen Engagement entstehende Anwendungen nicht für gesamtgesellschaftliche, sondern privatwirtschaftliche Zwecke genutzt würden. 
 images:
 
 published: true
