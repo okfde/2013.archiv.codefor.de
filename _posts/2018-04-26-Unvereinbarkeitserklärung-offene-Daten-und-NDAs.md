@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unvereinbarkeitserklärung: Offene Daten und exklusive Nutzungsbedingungen"
-author: Stefan Kaufmann und Michael Peters
+author: Code for Germany
 excerpt: Die Mitglieder der Open Knowledge Labs nehmen häufig an Hackathons und ähnlichen Veranstaltungen teil, oftmals auch unter dem Schirm ihres Labs. Die Unterschrift von Nutzererklärungen auf solchen Veranstaltungen ist unvereinbar mit unserer Vorstellung von offenen Daten. Um auf diese Problematik hinzuweisen, haben wir eine Unvereinbarkeitserklärung für offene Daten und exklusive Nutzungsbedingungen verfasst.
 images:
 
