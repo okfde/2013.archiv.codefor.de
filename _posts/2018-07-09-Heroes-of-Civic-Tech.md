@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Code for All Global Summit: The Heroes of Tech
-Das wichtigste Civic Tech Event der Welt"
+title: "Code for All Global Summit: The Heroes of Tech"
 author: Michael peters
 excerpt: Code for Germany und das Code for All Netzwerk freuen sich euch "The Heroes of Tech" vorzustellen, den ersten Code for All Global Summit. Die Konferenz findet vom 8. bis 12. Oktober 2018 in Bukarest statt und bringt führende Persönlichkeiten der Zivilgesellschaft zusammen.
 images:
- - imgname: heroes-of-tech.png
+ - imgname: heroes_of_tech.png
 published: true
 ---
 Code for Germany und das Code for All Netzwerk freuen sich euch "The Heroes of Tech" vorzustellen, den ersten Code for All Global Summit. Die Konferenz findet vom 8. bis 12. Oktober 2018 in Bukarest statt und bringt führende Persönlichkeiten der Zivilgesellschaft zusammen.
