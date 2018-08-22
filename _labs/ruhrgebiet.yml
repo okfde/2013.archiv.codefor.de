@@ -9,7 +9,7 @@ showsignup: false
 
 links:
 - name: Mailingliste
-  url: https://lists.okfn.org/mailman/listinfo/codeforruhrgebiet
+  url: https://mlists.okfn.de/cgi-bin/mailman/listinfo/codeforruhrgebiet
 - name: Meetup
   url: http://www.meetup.com/de-DE/OK-Lab-Ruhrgebiet/
 - name: Twitter
