@@ -21,7 +21,7 @@ Install Ruby and gem. Then get the dependencies:
 
 ```bash
 sudo gem install bundler
-bundler install
+bundle install
 ```
 
 You can now build the site and serve it:
