@@ -5,7 +5,7 @@ author: Michael Peters
 excerpt: Am letzten Wochenende fand unser alljährlicher Lab Leads Workshop bei der Open Knowledge Foundation in Berlin statt. Dafür kamen Teilnehmer*innen aus 10 Labs zusammen, um sich mit Offenen Daten, nutzerzentriertem Arbeiten und unserer Themenplanung für das nächste Jahr zu beschäftigen.
 images:
    - imgname: header-design.jpg
-published: false
+published: true
 ---
 
 Am letzten Wochenende fand unser alljährlicher Lab Leads Workshop bei der Open Knowledge Foundation in Berlin statt. Dafür kamen Teilnehmer*innen aus zehn Labs zusammen, um sich mit Offenen Daten, nutzerzentriertem Arbeiten und unserer Themenplanung für das nächste Jahr zu beschäftigen.
