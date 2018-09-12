@@ -8,13 +8,13 @@ images:
 published: false
 ---
 
-Am letzten Wochenende fand unser alljährlicher Lab Leads Workshop bei der Open Knowledge Foundation in Berlin statt. Dafür kamen Teilnehmer*innen aus 10 Labs zusammen, um sich mit Offenen Daten, nutzerzentriertem Arbeiten und unserer Themenplanung für das nächste Jahr zu beschäftigen.
+Am letzten Wochenende fand unser alljährlicher Lab Leads Workshop bei der Open Knowledge Foundation in Berlin statt. Dafür kamen Teilnehmer*innen aus zehn Labs zusammen, um sich mit Offenen Daten, nutzerzentriertem Arbeiten und unserer Themenplanung für das nächste Jahr zu beschäftigen.
 
 Am Freitagabend haben wir es nach langer Anreise gemütlich angehen lassen und uns bei Pizza, Mate und Bier ausgetauscht. Der Samstag startete mit einer internen Update Session, in der wir besprochen haben, was im letzten Jahr so in den Labs passiert ist und wo aktuelle Herausforderungen liegen. 
 
 Thematisch wurde dabei deutlich, dass wir uns neben Hardwarethemen wie LoRaWAN und Feinstaub- und Stickstoff-Sensoren, mit dem Thema Verkehr beschäftigen. Insbesondere Daten zu öffentlichem Nahverkehr, Mietfahrrädern, Elektroautos und Parkplätzen werden gescraped und analysiert. Themen mit denen wir uns schon seit längerem beschäftigen sind außerdem Wahldaten, Ratsinformationssysteme und Haushaltsdaten.
 
-![jenniferpahlka](/assets/blog/maxi-julia.jpg)
+![maxi-julia](/assets/blog/maxi-julia.jpg)
 
 ### Was bedeutet nutzerzentriertes Arbeiten für uns?
 
