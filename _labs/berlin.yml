@@ -123,10 +123,6 @@ members:
   username-github: jabka
   username-twitter: jabka
 
-- name: Sebastian Theophil
-  username-github: stheophil
-  username-twitter: cpp_theo
-
 - name: André Rebentisch
   username-github: agonarch
   username-twitter: agonarch
