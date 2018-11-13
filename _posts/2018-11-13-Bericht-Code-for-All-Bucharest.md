@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Unser Bericht vom Code for All Summit 2018 in Bukarest"
+title: "Civic Tech weltweit! Unser Bericht vom Code for All Summit 2018 in Bukarest"
 author: Michael Peters
 excerpt: 4 Tage, 20 Keynotes, mehr als 40 Workshops und Panels, mindestens 200 Teilnehmer.
-Der Code for All Summit in Bukarest vom 8. - 11. Oktober 2018 brachte nicht nur die CivicTech Community aus aller Welt zusammen sondern auch geballtes Wissen aus mehr als fünf Jahren aktivem CivicTech Engagement. Aus Deutschland waren Anastasia, Karo, Timo und Lukas dabei.
+Der Code for All Summit in Bukarest vom 8. bis 11. Oktober 2018 brachte nicht nur die CivicTech Community aus aller Welt zusammen sondern auch geballtes Wissen aus mehr als fünf Jahren aktivem CivicTech Engagement. Aus Deutschland waren Anastasia, Karo, Timo und Lukas dabei.
 images:
-   - imgname: bucharest1.jpg
-published: false
+   - imgname: bucharest1.JPG
+published: true
 ---
-![header-design](/assets/blog/bucharest1.JPG)
-
 4 Tage, 20 Keynotes, mehr als 40 Workshops und Panels, mindestens 200 Teilnehmer.
 Der [Code for All Summit](https://heroesoftech.com) in Bukarest vom 8. - 11. Oktober 2018 brachte nicht nur die CivicTech Community aus aller Welt zusammen sondern auch geballtes Wissen aus mehr als fünf Jahren aktivem CivicTech Engagement. Aus Deutschland waren Anastasia, Karo, Timo und Lukas dabei.
+
+![bucharest1](/assets/blog/bucharest1.JPG)
 
 ### Am Anfang steht die Frage der Definition...
 
@@ -24,7 +24,7 @@ So unterschiedlich die einzelnen Organisationen in ihren jeweiligen Ländern, so
 Die Finanzierung der jeweiligen Community und die Suche nach Business Modellen ist in allen Ländern omnipräsent. Bei der Neuheit des Themas überrascht dies wenig und kann sicher als gesunder Entwicklungsschritt beobachtet werden. Als Frontrunner kann dazu [‘mySociety’](https://www.mysociety.org/) aus Großbritannien beobachtet werden, die international Software und Tools vervielfachen um die CivicTech Community zu unterstützen.
 In einer intensiven und langen Session betrachteten Vertreter*innen mehrerer Förderinstitutionen Seite an Seite mit CivicTech-Akteuren die existierenden Modelle kritisch und entwickelten alternative Vorgehensweisen. Priorisierung bestimmter Themen, gezielte Förderung bestimmter Regionen, Fairness, Umsetzbarkeit, Skalierbarkeit, Impact und Nachhaltigkeit wurden teilweise kontrovers diskutiert. Als Ergebnis konnten mehrere dutzend Vorschläge dokumentiert werden, die vor allem Förderer als Hausaufgabe verstanden.
 
-### Insights und Best Practices aus der internationalen Community
+### Best Practice der internationalen Community
 Auffällig im Verlauf des Summits war der unterschiedliche Grad an Zusammenarbeit zwischen der jeweiligen CivicTech Community und deren Regierung. Die außerordentlich engagierte CivicTech Community in Rumänien will Einfluss nehmen auf die Politik des Landes, schließt zu aktuellem Zeitpunkt eine Finanzierung von deren Seite jedoch aus. [Code for Canada](https://codefor.ca) hingegen arbeitet aktiv mit dieser zusammen, ob in einem Fellowship Programm oder in der neu eröffneten CivicHall in [Toronto](https://civichallto.ca/).
 
 ![bucharest3](/assets/blog/bucharest3.JPG)
@@ -40,7 +40,7 @@ Durch viele Panels, Keynotes und Sessions hinweg zog sich die Erkenntnis, dass b
 
 Praktisch ist so ein Summit, um sich über den Stand der Entwicklung auszutauschen. Eine große Vielfalt von Projekten, Engagement der Entwickler und hohe Professionalität bei der Umsetzung und Organisation waren beeindruckend, wenn nicht sogar überwältigend. Laut Marnie Webb von [TechSoup](https://www.techsoup.org/) brauchen viele der technisch möglichen oder bereits entwickelten Lösungen noch wesentlich mehr Daten, um einen richtigen Mehrwert zu erzeugen. Auch seien viele Kollaborations-Potenziale noch lange nicht erschöpft. Bibliotheken sind in ihren Augen potenziell wichtige Akteure, bei denen per Definition bereits engagierte Informationsmanagement-Profis im Einsatz sind. Außerdem erinnerte Webb daran, dass die Wirkung von CivicTech in ländlichen Gebieten größer sein kann als in Großstädten, in den sich die meisten Initiativen tummeln.
 
-### Der Blick in die Zukunft: Code for Europe - Ein Actionplan
+### Der Blick in die Zukunft: Code for Europe   
 Im Workshop “Code for Europe” wurde ein Actionplan entwickelt: Die Idee, einen organisatorischen, gemeinsamen “CodeforEU” Layer als europäische Ergänzung und Vernetzungsort zu etablieren.
 
 Wichtigste Actionpoints & Ziele:
