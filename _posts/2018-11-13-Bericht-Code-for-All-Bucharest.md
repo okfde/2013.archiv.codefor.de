@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Civic Tech weltweit! Unser Bericht vom Code for All Summit in Bukarest"
-authors: Code for Germany
+author: Code for Germany
 excerpt: 4 Tage, 20 Keynotes, mehr als 40 Workshops und Panels, mindestens 200 Teilnehmer. Der Code for All Summit in Bukarest vom 8. bis 11. Oktober 2018 brachte nicht nur die CivicTech Community aus aller Welt zusammen sondern auch geballtes Wissen aus mehr als fünf Jahren aktivem CivicTech Engagement. Aus Deutschland waren Anastasia, Karo, Lukas und Timo dabei.
 images:
    - imgname: bucharest1.JPG
