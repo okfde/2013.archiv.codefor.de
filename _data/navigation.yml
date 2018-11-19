@@ -1,34 +1,30 @@
 de:
+  - title: Presse
+    url: /presse
   # - title: Termine
   #   url: /termine
   - title: Über
     url: /ueber
-  - title: Stadtgeschichten
-    url: /stadtgeschichten
   - title: Mitmachen
     url: /mitmachen
-  - title: Termine
-    url: /termine
   - title: Projekte
     url: /projekte
   - title: Blog
     url: /blog
-  - title: Presse
-    url: /presse
+  - title: Stadtgeschichten
+    url: /stadtgeschichten
 en:
+  - title: Press (de)
+    url: /presse
   # - title: Calendar
   #   url: /en/termine
   - title: About
     url: /en/ueber
-  - title: Stories
-    url: /en/stadtgeschichten
   - title: Join
     url: /en/mitmachen
-  - title: Calendar
-    url: /en/termine
   - title: Projects
     url: /en/projekte
   - title: Blog (de)
     url: /blog
-  - title: Press (de)
-    url: /presse
+  - title: Stories
+    url: /en/stadtgeschichten
