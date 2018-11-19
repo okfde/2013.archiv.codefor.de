@@ -1,4 +1,9 @@
-Copyright (c) HTML5 Boilerplate
+MIT License
+
+Copyright for portions of codefor.de are held by
+HTML5 Boilerplate as part of HTML5 Boilerplate.
+All other copyright for codefor.de are held by
+Code for Germany.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
