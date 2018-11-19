@@ -1,4 +1,6 @@
 de:
+  # - title: Termine
+  #   url: /termine
   - title: Über
     url: /ueber
   - title: Stadtgeschichten
@@ -14,6 +16,8 @@ de:
   - title: Presse
     url: /presse
 en:
+  # - title: Calendar
+  #   url: /en/termine
   - title: About
     url: /en/ueber
   - title: Stories
