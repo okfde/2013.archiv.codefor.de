@@ -52,3 +52,10 @@ pip install pyyaml requests
 python update_avatars.py
 deactivate
 ```
+
+
+## License
+
+Source Code: MIT
+
+Blog Posts and Other Content: Creative Commons BY 3.0 DE
