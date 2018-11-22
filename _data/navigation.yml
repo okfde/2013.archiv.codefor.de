@@ -1,8 +1,6 @@
 de:
   - title: Presse
     url: /presse
-  # - title: Termine
-  #   url: /termine
   - title: Über
     url: /ueber
   - title: Mitmachen
@@ -16,8 +14,6 @@ de:
 en:
   - title: Press (de)
     url: /presse
-  # - title: Calendar
-  #   url: /en/termine
   - title: About
     url: /en/ueber
   - title: Join

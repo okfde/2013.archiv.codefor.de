@@ -12,7 +12,6 @@ exclude:
   - "update_avatars.py"
   #- "projekte" # uncomment line to speed up jekyll build for development
   #- "blog" # uncomment line to speed up jekyll build for development
-  #- "termine" # uncomment line to speed up jekyll build for development
   #- "presse" # uncomment line to speed up jekyll build for development
 sass:
     style: :compressed
@@ -25,7 +24,6 @@ gems:
   - jekyll-paginate
 collections:
   labs:
-  termine:
   stories:
     output: true
     permalink: /stadtgeschichten/:path/
