@@ -21,7 +21,7 @@ $( document ).ready(function() {
       "Klein aber Oho!: mit dieser App kannst du herausfinden, an welchen Tagen es am günstigsten ist, mit der Bahn zu fahren.",
       "https://bahn.guru/"
     ], 
-    [ "town//-200",
+    [ "town-200",
       "Politik Bei Uns",
       "Politik bei uns macht die Politik vor Ort transparenter. Dazu werden Informationen und öffentliche Dokumente werden aus den Ratsinformationssystemen der Städte und Kommunen ausgelesen und in einer übersichtlichen und strukturierten Form präsentiert.",
       "https://politik-bei-uns.de/"
