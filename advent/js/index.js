@@ -6,22 +6,22 @@ $( document ).ready(function() {
       "Eine kleine Webapp, mit der man den Münsteraner Weihnachtsmarkt durchsuchen kann.",
       "https://weihnachtsmarkt.ms/"
     ], 
-    [ "2018116-200",
+    [ "tram-200",
       "Rette Deinen Nahverkehr",
       "Eine Aktion der Open Knowledge Foundation Deutschland e.V. zur Förderung Offener ÖPNV-Daten.",
       "https://rettedeinennahverkehr.de/"
     ], 
-    [ "771074-200",
+    [ "kleineanfrage-200",
       "kleine Anfragen",
       "Sogenannte “kleine Anfragen” von Parlamentariern müssen von ihrer jeweiligen Regierung zeitnah und öffentlich beantwortet werden. Diese Seite sammelt solche Anfragen, weil in den Antworten oft interessante Details stecken, und versucht sie auffindbar, durchsuchbar und verlinkbar zu machen.",
       "https://kleineanfragen.de/"
     ],  
-    [ "1417389-200",
+    [ "train-200",
       "Bahn-Preiskalender",
       "Klein aber Oho!: mit dieser App kannst du herausfinden, an welchen Tagen es am günstigsten ist, mit der Bahn zu fahren.",
       "https://bahn.guru/"
     ], 
-    [ "2014873-200",
+    [ "town-200",
       "Politik Bei Uns",
       "Politik bei uns macht die Politik vor Ort transparenter. Dazu werden Informationen und öffentliche Dokumente werden aus den Ratsinformationssystemen der Städte und Kommunen ausgelesen und in einer übersichtlichen und strukturierten Form präsentiert.",
       "https://politik-bei-uns.de/"
@@ -31,22 +31,22 @@ $( document ).ready(function() {
     "farmshops.eu hilft dabei Wochenmärkte, Hofläden, Imker, bäuerlichen Milch, -Eier- oder Essensautomaten und vielen andere Direktvermarktern in Deiner Region zu finden.",
     "https://farmshops.eu/"
     ],
-    [ "X-200",
+    [ "radquartier-200",
     "Radlquartier München",
     "Im Rahmen des Projekts wurden Offene Daten zur Nutzung von Leihrädern in München erfasst, ausgewertet und visualisiert. Ergebnisse von diesem und ähnlichen Studien können für Stadtplanung von Bedeutung sein, zum Beispiel um das Radwegenetz gezielt bedarfsgerecht auszubauen.",
     "https://codeformunich.github.io/radlquartier/"
     ],
-    [ "X-200",
+    [ "leitungswasser-200",
     "Was steckt in meinem Leitungswasser?",
     "Code For Heilbronn entwickelte diese Webanwendung, um die Daten zur Trinkwasserqualität, die von Stadtwerken erhoben werden, den Bürgerinnen und Bürgern verfügbar zu machen. Die Daten sind übersichtlich und ansprechend aufbereitet und nach Einzugsgebieten sortiert. Auch kann man hier den Mineraliengehalt des Leitungswassers mit Mineralwasser aus dem Handel vergleichen.",
     "http://opendatalab.de/projects/trinkwasser/"
     ],
-    [ "X-200",
+    [ "luftdaten-200",
     "luftdaten.info",
     "Inzwischen eins der größten CivicTech Projekte weltweit, geboren im OK Lab Stuttgart. Mithilfe von Sensoren, die auch ein Laie leicht zusammenbauen und an die Seite anschließen kann, werden Daten zur Feinstabbelastung der Luft erfasst und live auf einer Karte visualisiert. Über eine Schnittstelle lassen sich weitere Apps anbinden.",
     "https://luftdaten.info/"
     ],
-    [ "X-200",
+    [ "ernte-200",
     "Ernte teilen",
     "Ernte-teilen.org bietet eine Plattform, die Landwirte und Verbraucherinnen, die sich an Solidarischer Landwirtschaft beteiligen möchten, zusammenfinden lässt.",
     "https://ernte-teilen.org/"
@@ -139,7 +139,7 @@ $( document ).ready(function() {
 
   }  
 
-  // day=25; // uncomment to skip to 25
+// day=25; // uncomment to skip to 25
 
   // Only work in December
   if(month === 12) {
