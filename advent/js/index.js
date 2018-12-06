@@ -6,22 +6,22 @@ $( document ).ready(function() {
       "Eine kleine Webapp, mit der man den Münsteraner Weihnachtsmarkt durchsuchen kann.",
       "https://weihnachtsmarkt.ms/"
     ], 
-    [ "2018116-200",
+    [ "tram-200",
       "Rette Deinen Nahverkehr",
       "Eine Aktion der Open Knowledge Foundation Deutschland e.V. zur Förderung Offener ÖPNV-Daten.",
       "https://rettedeinennahverkehr.de/"
     ], 
-    [ "771074-200",
+    [ "kleineanfrage-200",
       "kleine Anfragen",
       "Sogenannte “kleine Anfragen” von Parlamentariern müssen von ihrer jeweiligen Regierung zeitnah und öffentlich beantwortet werden. Diese Seite sammelt solche Anfragen, weil in den Antworten oft interessante Details stecken, und versucht sie auffindbar, durchsuchbar und verlinkbar zu machen.",
       "https://kleineanfragen.de/"
     ],  
-    [ "1417389-200",
+    [ "train-200",
       "Bahn-Preiskalender",
       "Klein aber Oho!: mit dieser App kannst du herausfinden, an welchen Tagen es am günstigsten ist, mit der Bahn zu fahren.",
       "https://bahn.guru/"
     ], 
-    [ "2014873-200",
+    [ "town//-200",
       "Politik Bei Uns",
       "Politik bei uns macht die Politik vor Ort transparenter. Dazu werden Informationen und öffentliche Dokumente werden aus den Ratsinformationssystemen der Städte und Kommunen ausgelesen und in einer übersichtlichen und strukturierten Form präsentiert.",
       "https://politik-bei-uns.de/"
@@ -139,7 +139,7 @@ $( document ).ready(function() {
 
   }  
 
-  //day=25; // uncomment to skip to 25
+// day=25; // uncomment to skip to 25
 
   // Only work in December
   if(month === 12) {
