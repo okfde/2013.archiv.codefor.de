@@ -51,27 +51,27 @@ $( document ).ready(function() {
     "Ernte-teilen.org bietet eine Plattform, die Landwirte und Verbraucherinnen, die sich an Solidarischer Landwirtschaft beteiligen möchten, zusammenfinden lässt.",
     "https://ernte-teilen.org/"
     ], 
-    [ "X-200",
+    [ "baustelle-200",
     "Bürger baut Stadt",
     "Bei der Stadplanung in Deutschland müssen Bürger mit einbezogen werden. Hierfür müssen geplante Änderungen von Bebauungsplänen veröffentlicht werden, so dass Bürger sich beteiligen können. Diese Plattform versucht, alle verfügbaren Daten zusammenzubringen und die Vorhaben auf einer Karte zu verorten.",
     "https://buergerbautstadt.de/"
     ], 
-    [ "X-200",
+    [ "stolpersteine-200",
     "Stolpersteine App",
     "Stolpersteine sind kleine Gedenktafeln im Straßenpflaster zur Erinnerung an die Opfer des Nationalsozialismus. Mehr als 50.000 davon hat der Künstler Gunter Demnig mittlerweile in ganz Europa verlegt. Mit dieser App haben Sie schnell und einfach Zugriff auf die Daten der rund 6.000 Stolpersteine in Berlin.",
     "https://codefor.de/projekte/2014-04-30-stolpersteine-app.html"
     ], 
-    [ "X-200",
+    [ "moers-200",
     "Mein Moers App",
     "Die aus Offenen Daten basierte mobile App bündelt Informationen zu Geschäftsöffnungszeiten, Parkplätzen, Events und Neuigkeiten aus Moers. Die App kann den Nutzer an Müllabholung erinnern und bietet auch schicke Features wie 360°-Panoramen von Plätzen und Geschäften. Neben der moersfestival-App des selben Entwicklers erfreut sich dieses Werk aus dem OK Lab Niederrhein großer Beliebtheit.",
     "https://itunes.apple.com/de/app/mein-moers/id1305862555?mt=8"
     ], 
-    [ "X-200",
+    [ "weihnachtsmarkt-200",
     "Weihnachtsmärkte in Berlin, Brandenburg, Moers und Krefeld",
     "Finde alle Weihnachtsmärkte in Berlin und Brandenburg: Die großen, die kleinen, die bunten, die lebhaften, die besinnlichen und die Geheimtipps. Alle in einer App.",
     "http://www.tursics.de/xmasmarkets/de/"
     ], 
-    [ "X-200",
+    [ "kastanie-200",
     "KastanienApp",
     "Vor ein paar Monaten hat die Stadt Hamburg auf ihrem Transparenzportal das Baumkataster als Open Data veröffentlicht. Passend zur Zeit der Herbstsparziergänge drängte sich uns bei einem Code For Heilbronn Treff die Idee einer Baum App auf, die einem ermöglicht, unterwegs leicht Kastanienbäume zu finden und deren Früchte zu sammeln. Die App ermöglicht aber auch allgemein, für jeden Baum in Heilbronn Informationen wie Art, lateinischer Name und Alter abzufragen. Somit kann unterwegs die Frage, was für ein Baum vor einem steht, dank Standorterkennung mit dem Smartphone ganz leicht beantwortet werden.",
     "https://codefor.de/projekte/2014-11-29-hn-kastanienapp.html"
@@ -139,7 +139,7 @@ $( document ).ready(function() {
 
   }  
 
-// day=25; // uncomment to skip to 25
+ // day=25; // uncomment to skip to 25
 
   // Only work in December
   if(month === 12) {
