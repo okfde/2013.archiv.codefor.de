@@ -15,3 +15,8 @@
   * Day 8 : Faucet by Lnhi, NO  - https://thenounproject.com/search/?q=tap%20water&i=1944581
   * Day 9: Exhaust Gas By Luis Prado, US - https://thenounproject.com/search/?q=smog&i=597970
   * Day 10: crops By Álvaro Ramis, ES  - https://thenounproject.com/search/?q=crop&i=267092
+  * Day 11: Construction by Becris from the Noun Project - https://thenounproject.com/search/?q=building%20site&i=1036570
+  * Day 12: Auschwitz Concentration Camp By Eliricon, FI - https://thenounproject.com/search/?q=holocaust&i=141672
+  * Day 13: Stadtwappen Moers aus Wikimedia
+  * Day 14: Christmas market By dDara, TH - https://thenounproject.com/search/?q=Christmas%20market&i=1439678
+  * Day 15: Chestnut By Icons Producer - https://thenounproject.com/search/?q=chestnut&i=2010726
