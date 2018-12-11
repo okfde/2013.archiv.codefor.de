@@ -76,47 +76,47 @@ $( document ).ready(function() {
     "Vor ein paar Monaten hat die Stadt Hamburg auf ihrem Transparenzportal das Baumkataster als Open Data veröffentlicht. Passend zur Zeit der Herbstsparziergänge drängte sich uns bei einem Code For Heilbronn Treff die Idee einer Baum App auf, die einem ermöglicht, unterwegs leicht Kastanienbäume zu finden und deren Früchte zu sammeln. Die App ermöglicht aber auch allgemein, für jeden Baum in Heilbronn Informationen wie Art, lateinischer Name und Alter abzufragen. Somit kann unterwegs die Frage, was für ein Baum vor einem steht, dank Standorterkennung mit dem Smartphone ganz leicht beantwortet werden.",
     "https://codefor.de/projekte/2014-11-29-hn-kastanienapp.html"
     ], 
-    [ "X-200",
+    [ "offenerhaushalt-200",
     "OffenerHaushalt",
     "Das Projekt Offener Haushalt visualisiert intuitiv verständlich die Haushalte von Bund, Ländern, Kommunen und anderen Institutionen, soweit sie in maschinenlesbarer Form vorliegen. Checke doch mal, ob dein Wohnort bereits dabei ist!",
     "https://offenerhaushalt.de/"
     ],
-    [ "X-200",
+    [ "treebank-200",
     "Großstadt-Baum",
-    "Text muss noch nachgereicht werden.",
+    "In Berlin stehen über 1 Million Bäume. Thomas Tursics hat den typischen Berliner Baum gesucht und ulterhaltsam in einem Quizz aufbereitet.",
     "https://tursics.github.io/trees-story/"
     ],
-    [ "X-200",
+    [ "school-200",
     "Wie kaputt ist Ihre Schule?",
     "Die Anwendung zeigt das Ergebnis des Gebäudescans, also der gemeldete Sanierungsbedarf bei Schulgebäuden (Stand: 30.06.2016). Die Daten stammen von der Senatsverwaltung für Bildung, Jugend und Wissenschaft.",
     "http://schulsanierung.tursics.de/"
     ],
-    [ "X-200",
+    [ "treebear-200",
     "Bäume-Karte Berlin",
     "Die Bäume-Karte aus Berlin zeigt alle auf der OpenStreetMap kartierten Bäume der Stadt.",
     "https://trees.codefor.de/"
     ],
-    [ "X-200",
+    [ "hexagon-200",
     "Datenwaben",
     "Noch ein Projekt aus der Hand von Thomas Tursics von Code For Berlin. In Form von Waben werden aktuelle Infos aus verschienenen offenen Datenquellen dargestellt.",
     "http://datenwaben.de/?city=vienna&page=cards"
     ],
-    [ "X-200",
+    [ "waiting-200",
     "Wartezeiten in Moers",
     "Die voraussichtlichen Wartezeiten im Bürgerbüro der Stadt Moers sind aus den Erfahrungswerten kalkuliert. So kann man abschätzen, wann es wahrscheinlich am schnellsten vorangeht und entsprechend dann den Rathausgang erledigen.",
     "http://wartezeit.tursics.de/"
     ], 
-    [ "X-200",
+    [ "deutschland-200",
     "Open Data Atlas",
     "Der Open Data Atlas zeigt, welche Länder, Kommunen und andere Institutionen ein Open Data Portal anbieten. Gut für den Überblick alles Datenenthusiasten!",
     "http://opendata.tursics.de/?page=Data&level=all&dataset=portals&country=DE&lat=52.516&lng=13.4795&zoom=6"
     ],
-    [ "X-200",
+    [ "woistmarkt-200",
     "Wo ist Markt",
     "Die Web-App zeigt alle Märkte in deiner Stadt / Region. Auf Basis offener Datensätze der Städte werden die Märkte anschaulich auf einer Karte platziert.",
     "https://wo-ist-markt.de/"
     ],
-    [ "X-200",
+    [ "fragdenstaat-200",
     "FragDenStaat",
     "Jede Person hat das Recht auf Informationen. FragDenStaat hilft Ihnen, Ihr Recht wahrzunehmen. Fragen Sie über diese gemeinnützige Plattform Behörden in Deutschland nach Informationen und Dokumenten! ",
     "https://fragdenstaat.de/"
@@ -139,7 +139,7 @@ $( document ).ready(function() {
 
   }  
 
- // day=25; // uncomment to skip to 25
+ day=25; // uncomment to skip to 25
 
   // Only work in December
   if(month === 12) {
