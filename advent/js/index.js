@@ -139,7 +139,7 @@ $( document ).ready(function() {
 
   }  
 
- day=25; // uncomment to skip to 25
+ //day=25; // uncomment to skip to 25
 
   // Only work in December
   if(month === 12) {
