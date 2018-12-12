@@ -20,3 +20,9 @@
   * Day 13: Stadtwappen Moers aus Wikimedia
   * Day 14: Christmas market By dDara, TH - https://thenounproject.com/search/?q=Christmas%20market&i=1439678
   * Day 15: Chestnut By Icons Producer - https://thenounproject.com/search/?q=chestnut&i=2010726
+  * Day 16: budget By Aneeque Ahmed - https://thenounproject.com/search/?q=budget&i=1266201
+  * Day 17:Park By Luiza Moraes - https://thenounproject.com/search/?q=tree%20city&i=12246
+  * Day 18: School by b farias from the Noun Project, CL - https://thenounproject.com/search/?q=school&i=975011
+  * Day 19:Bear By José Manuel Rodríguez, ES - https://thenounproject.com/search/?q=tree%20bear&i=24071
+  * Day 20: Waiting by Berkah Icon, ID - https://thenounproject.com/search/?q=waiting&i=1672578
+  * Day 21: Germany Map By Bence Bezeredy, HU - https://thenounproject.com/search/?q=germany&i=1088694
