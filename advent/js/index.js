@@ -66,11 +66,11 @@ $( document ).ready(function() {
     "Die aus Offenen Daten basierte mobile App bündelt Informationen zu Geschäftsöffnungszeiten, Parkplätzen, Events und Neuigkeiten aus Moers. Die App kann den Nutzer an Müllabholung erinnern und bietet auch schicke Features wie 360°-Panoramen von Plätzen und Geschäften. Neben der moersfestival-App des selben Entwicklers erfreut sich dieses Werk aus dem OK Lab Niederrhein großer Beliebtheit.",
     "https://itunes.apple.com/de/app/mein-moers/id1305862555?mt=8"
     ], 
-    [ "weihnachtsmarkt-200",
-    "Weihnachtsmärkte in Berlin, Brandenburg, Moers und Krefeld",
-    "Finde alle Weihnachtsmärkte in Berlin und Brandenburg: Die großen, die kleinen, die bunten, die lebhaften, die besinnlichen und die Geheimtipps. Alle in einer App.",
-    "http://www.tursics.de/xmasmarkets/de/"
-    ], 
+    [ "treebank-200",
+    "Großstadt-Baum",
+    "In Berlin stehen über 1 Million Bäume. Thomas Tursics hat den typischen Berliner Baum gesucht und unterhaltsam in einem Quiz aufbereitet.",
+    "http://tursics.de/story/grossstadt-baum/"
+    ],
     [ "kastanie-200",
     "KastanienApp",
     "Vor ein paar Monaten hat die Stadt Hamburg auf ihrem Transparenzportal das Baumkataster als Open Data veröffentlicht. Passend zur Zeit der Herbstsparziergänge drängte sich uns bei einem Code For Heilbronn Treff die Idee einer Baum App auf, die einem ermöglicht, unterwegs leicht Kastanienbäume zu finden und deren Früchte zu sammeln. Die App ermöglicht aber auch allgemein, für jeden Baum in Heilbronn Informationen wie Art, lateinischer Name und Alter abzufragen. Somit kann unterwegs die Frage, was für ein Baum vor einem steht, dank Standorterkennung mit dem Smartphone ganz leicht beantwortet werden.",
@@ -81,11 +81,11 @@ $( document ).ready(function() {
     "Das Projekt Offener Haushalt visualisiert intuitiv verständlich die Haushalte von Bund, Ländern, Kommunen und anderen Institutionen, soweit sie in maschinenlesbarer Form vorliegen. Checke doch mal, ob dein Wohnort bereits dabei ist!",
     "https://offenerhaushalt.de/"
     ],
-    [ "treebank-200",
-    "Großstadt-Baum",
-    "In Berlin stehen über 1 Million Bäume. Thomas Tursics hat den typischen Berliner Baum gesucht und unterhaltsam in einem Quiz aufbereitet.",
-    "http://tursics.de/story/grossstadt-baum/"
-    ],
+    [ "weihnachtsmarkt-200",
+    "Weihnachtsmärkte in Berlin, Brandenburg, Moers und Krefeld",
+    "Finde alle Weihnachtsmärkte in Berlin und Brandenburg: Die großen, die kleinen, die bunten, die lebhaften, die besinnlichen und die Geheimtipps. Alle in einer App.",
+    "http://www.tursics.de/xmasmarkets/de/"
+    ], 
     [ "school-200",
     "Wie kaputt ist Ihre Schule?",
     "Die Anwendung zeigt das Ergebnis des Gebäudescans, also der gemeldete Sanierungsbedarf bei Schulgebäuden (Stand: 30.06.2016). Die Daten stammen von der Senatsverwaltung für Bildung, Jugend und Wissenschaft.",
