@@ -83,8 +83,8 @@ $( document ).ready(function() {
     ],
     [ "treebank-200",
     "Großstadt-Baum",
-    "In Berlin stehen über 1 Million Bäume. Thomas Tursics hat den typischen Berliner Baum gesucht und ulterhaltsam in einem Quizz aufbereitet.",
-    "https://tursics.github.io/trees-story/"
+    "In Berlin stehen über 1 Million Bäume. Thomas Tursics hat den typischen Berliner Baum gesucht und unterhaltsam in einem Quiz aufbereitet.",
+    "http://tursics.de/story/grossstadt-baum/"
     ],
     [ "school-200",
     "Wie kaputt ist Ihre Schule?",
