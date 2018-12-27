@@ -12,6 +12,7 @@
      {% if member.username-github %}<a href="https://github.com/{{ member.username-github }}">github:{{ member.username-github }}</a><br> {% endif %}
      {% if member.username-twitter %}<a href="https://twitter.com/{{ member.username-twitter }}">@{{ member.username-twitter }}</a>{% endif %}
      {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+     {% if member.url %}<a href="{{ member.url }}">{{ member.url }}</a>{% endif %}
      </div>
   </li>
   {% endfor %}
