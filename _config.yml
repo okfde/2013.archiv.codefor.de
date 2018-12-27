@@ -2,6 +2,7 @@ title: "Code for Germany"
 description: "Stadt&lt;entwickler /&gt; nutzen offene Daten um ihre Stadt zu verbessern"
 url: http://codefor.de
 markdown: kramdown
+keep_files: [img, assets]
 exclude:
   - "vendor"
   - "CNAME"
@@ -22,6 +23,7 @@ paginate_path: "blog/:num"
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
 collections:
   labs:
   stories:
