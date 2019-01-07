@@ -7,80 +7,43 @@ long: 9.220404
 markerposition: right
 
 members:
-- name: Felix Ebert
-  username-github: felixebert
-  username-twitter: femeb
 - name: Adrian Stabiszewski
   username-github: grundid
   username-twitter: nitegate
-- name: Vanessa Wormer
-  username-github: vwormer
-  username-twitter: remrow
-- name: Isabelle Müller
-  username-github: isabellemueller
-  username-twitter: isa_mue
-- name: Daniel Stahl
-  username-github: stahlniel
-  username-twitter: stahlniel
-- name: Tom Görner
-  username-github: masterX244
-- name: Detlef Kreuz
-  username-github: implizit
-  username-twitter: dkreuz
-- name: Christian
-  username-github: Nachtfux
-  username-twitter: AppProjectX
-- name: Steffen Jung
-  username-github: gravima
-  username-twitter: gravima
-- name: Volker Theil
-  username-github: ERVOLKT
-- name: Anna
-  username-github: Rasurel
-- name: Ketoma
-  username-github: Ketoma
-- name: Simon
-  username-github: GityUpNow
-- name: Lukas Himsel
-  username-github: lukas-h
-- name: Franz Imschweiler
-- name: Christian (Robotics)
-  username-github: chrisrobotics
-- name: Iris Korn
-  username-twitter: korn_iris
-- name: Henri Chilla
-  username-github: ohrie
 - name: Jonathan Günz
   username-github: harmoniemand
   username-twitter: harmoniemand
-- name: Moritz Gruber
-- name: Jan Kaltofen
-  username-github: BinaryCraX
-- name: Christian Holl
-  username-github: cyborg-x1
-  username-twitter: Cyborg_X1
-- name: Marie-Luise Queßeleit
-- name: Valentin
-  username-twitter: TheVale98
 - name: Leandro
-  username-github: LeoDJ
-- name: Thomas
-  username-twitter: iotopa
+  username-twitter: _LeoDJ
+- name: Franz Imschweiler
+- name: Steffen Jung
+  username-github: gravima
+- name: Felix Ebert
+  username-github: felixebert
+  username-twitter: femeb
+- name: Valentin Fischer
+  username-twitter: TheVale98
+- name: Joas Schilling
+  username-twitter: nickvergessen
+- name: Lukas Himsel
+  username-github: lukas-h
+- name: Patrick Hahn
+  username-twitter: patrick246
 
 links:
-- name: Etherpad
-  url: http://pad.opendatacloud.de/p/OK-Lab-HN
 - name: Meetup
   url: http://www.meetup.com/OK-Lab-Heilbronn/
 - name: Twitter
   url: https://twitter.com/codeforhn
-- name: Coworking Space Heilbronn
-  url: http://coworking-heilbronn.org/
 - name: Code For Heilbronn Website
   url: http://codeforheilbronn.de
+- name: Coworking Space Heilbronn
+  url: http://coworking-heilbronn.org/
 
 leads:
-- name: Felix Ebert
-  url: mailto:felix@opendatalab.de
 - name: Adrian Stabiszewski
   url: mailto:adrian@opendatalab.de
+- name: Jonathan Günz
+  url: https://twitter.com/harmoniemand
+- name: Felix Ebert
+  url: mailto:felix@opendatalab.de
