@@ -9,13 +9,13 @@ layout: base
       <div class="story--pattern-wrap">
         {% case page.pattern %}
             {% when 1 %}
-              {% include inline-svg/story_wallpaper_1.svg %}
+              {% include_cached inline-svg/story_wallpaper_1.svg %}
             {% when 2 %}
-              {% include inline-svg/story_wallpaper_2.svg %}
+              {% include_cached inline-svg/story_wallpaper_2.svg %}
             {% when 3 %}
-              {% include inline-svg/story_wallpaper_3.svg %}
+              {% include_cached inline-svg/story_wallpaper_3.svg %}
             {% else %}
-              {% include inline-svg/story_wallpaper_1.svg %}
+              {% include_cached inline-svg/story_wallpaper_1.svg %}
         {% endcase %}
       </div>
     </div>

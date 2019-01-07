@@ -13,15 +13,15 @@ og-image: /img/stories-wallpaper-og-img.png
       <div class="story-teaser--image">
         {% case story.pattern %}
         {% when 1 %}
-          {% include inline-svg/optimized/story_teaser_1.svg %}
+          {% include_cached inline-svg/optimized/story_teaser_1.svg %}
         {% when 2 %}
-          {% include inline-svg/optimized/story_teaser_2.svg %}
+          {% include_cached inline-svg/optimized/story_teaser_2.svg %}
         {% when 3 %}
-          {% include inline-svg/optimized/story_teaser_3.svg %}
+          {% include_cached inline-svg/optimized/story_teaser_3.svg %}
         {% when 4 %}
-          {% include inline-svg/optimized/story_teaser_4.svg %}
+          {% include_cached inline-svg/optimized/story_teaser_4.svg %}
         {% else %}
-          {% include inline-svg/optimized/story_teaser_1.svg %}
+          {% include_cached inline-svg/optimized/story_teaser_1.svg %}
         {% endcase %}
       </div>
       <div class="story-teaser--title text-center">

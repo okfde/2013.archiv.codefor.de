@@ -8,7 +8,7 @@ lang: en
 <div class="hero-container fond__blue">
     <div class="hero-pattern">
       <div class="hero-pattern-wrap">
-        {% include inline-svg/optimized/stories_header.svg %}
+        {% include_cached inline-svg/optimized/stories_header.svg %}
       </div>
    </div>
     <div id="animation-wrapper" class="text-center">
@@ -58,11 +58,11 @@ lang: en
 
 
 <!-- Newsletter -->
-{% include newsletter-form.html %}
+{% include_cached newsletter-form.html %}
 
 <script src="/js/lib/jquery.cookie.js"></script>
 
-{% include leaflet.html %}
+{% include_cached leaflet.html %}
 
 <script type="text/javascript">
   
