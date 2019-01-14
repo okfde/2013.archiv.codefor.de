@@ -26,6 +26,6 @@ Schickt eure Bewerbung bis zum 14.01.2019 an [info@codefor.de](mailto:info@codef
 
 ### Wahlverfahren
 
-Wahlberechtigt sind alle Mitglieder der Labs, die sich bis zum 31.12.2018 auf der offiziellen Code For Germany [Mailingliste](https://mlists.okfn.de/cgi-bin/mailman/listinfo/codeforde) registriert haben. Die Liste der Wahlberechtigten wird von der Projektleitung der Open Knowledge Labs geprüft, welche sich Ausschlüsse nicht-assoziierter Personen vorbehält. Die Wahl findet ca. ab dem 15.-29. Januar 2019 statt. Der Community Rat ist dann für ein Jahr ab 1. Februar 2019 - 31. Januar 2020 im Amt.
+Wahlberechtigt sind alle Mitglieder der Labs, die sich bis zum 14.01.2018 auf der offiziellen Code For Germany [Mailingliste](https://mlists.okfn.de/cgi-bin/mailman/listinfo/codeforde) registriert haben. Die Liste der Wahlberechtigten wird von der Projektleitung der Open Knowledge Labs geprüft, welche sich Ausschlüsse nicht-assoziierter Personen vorbehält. Die Wahl findet ca. ab dem 15.-29. Januar 2019 statt. Der Community Rat ist dann für ein Jahr ab 1. Februar 2019 - 31. Januar 2020 im Amt.
 
 Für die Wahl nutzen wir das [Borda Verfahren](https://de.wikipedia.org/wiki/Borda-Wahl) hier geben Wähler ihre Präferenzen über eine Rangliste ab. Der/die Kandidat/in den der Wähler auf die höchste Platzierung setzt, bekommt die meisten Punkte. Der zweite Platz einen Punkt weniger als der erste usw, die Punktzahlen werden zusammengezählt und daraus errechnet sich das Endergebnis.
