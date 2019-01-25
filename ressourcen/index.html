@@ -1,21 +1,95 @@
 ---
 layout: base
-
+title: "Ressourcen für Presse, Ok Labs und Interessierte"
 ---
-
-<div class="jumbotron fond__green faq">
-  <div class="container text-center text__white">
+<div class="jumbotron fond__green">
+  <div class="container text__white">
     <div class="row">
-      <div class="col-lg-12">
-        <h3>Resourcen für Presse, Ok Labs und Interessierte</h3>
+      <div class="col-lg-10 col-lg-offset-1">
+
+        <h3>{{ page.title }}</h3>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="http://us5.campaign-archive2.com/?u=929f1e07936386d34833e20d1&id=c6b9c30dd9&e=[UNIQID]">
+              <img src="/img/folder.png" alt="Folder" />
+
+              <h5>Kick-Off Pressemitteilung (2014)</h5>
+            </a>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="/assets/presse/Flyer_Code for Germany.pdf">
+              <img src="/img/folder.png" alt="Folder" />
+            </a>
+
+            <h5>Einseiter zum Programm</h5>
+
+            <a href="/assets/presse/Flyer_Code for Germany.pdf">
+              <h5>Download PDF</h5>
+            </a>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="/assets/presse/Slidedeck_Was ist Code for Germany.pdf">
+              <img src="/img/folder.png" alt="Folder" />
+            </a>
+
+            <h5>Slidedeck: Was ist Code for Germany?</h5>
+
+            <a href="/assets/presse/Slidedeck_Was ist Code for Germany.pdf">
+              <h5>Download PDF</h5>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="https://docs.google.com/uc?authuser=0&id=0By05tjt1Gu2sRHBGeXd3N3o5NUk&export=download">
+              <img src="/img/folder.png" alt="Folder" />
+            </a>
+
+            <h5>Slidedeck: Open Data – Und was hat das mit mir zu tun?</h5>
+
+            <a href="https://docs.google.com/uc?authuser=0&id=0By05tjt1Gu2sRHBGeXd3N3o5NUk&export=download">
+              <h5>Download PDF</h5>
+            </a>
+            <a href="http://de.slideshare.net/codeforde/open-data-und-was-hat-das-mit-mir-zu-tun?">
+              <h5>Auf Slidshare ansehen</h5>
+            </a>
+            <a href="https://www.youtube.com/watch?v=QBSNr6UXIJg">
+              <h5>Re:publica Talk ansehen (youtube)</h5>
+            </a>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="https://docs.google.com/uc?authuser=0&id=0By05tjt1Gu2sRHBGeXd3N3o5NUk&export=download">
+              <img src="/img/folder.png" alt="Folder">
+            </a>
+
+            <h5>Slidedeck: Civic Tech – For the people, by the people, of the people</h5>
+
+            <a href="http://de.slideshare.net/juliakloiber37/savedfiles?s_title=civic-tech-of-the-people-by-the-people-and-for-the-people-44268649&user_login=codeforde">
+              <h5>Download PDF</h5>
+            </a>
+            <a href="http://de.slideshare.net/codeforde/civic-tech-of-the-people-by-the-people-and-for-the-people-44268649">
+              <h5>Auf Slidshare ansehen</h5>
+            </a>
+            <a href="hhttps://www.youtube.com/watch?v=kwmuQwNNJhQ">
+              <h5>Re:publica Talk ansehen (youtube)</h5>
+            </a>
+          </div>
+        </div>
+
+        <h3>Code for Germany in der Presse</h3>
+
+        <ul class="press-clippings">
+          {% for clip in site.data.pressclippings %}
+            {% include pressclipping.html %}
+          {% endfor %}
+        </ul>
+
       </div>
     </div>
-    <div class="row">
-      <div class="panel-group" id="accordion">
-
-        <div class="panel">
-          <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-            <p> <a herf="codefor.de" img /projects/folder.png>Programmbeschreibung [pdf]
-        </div>
+  </div>
 </div>
