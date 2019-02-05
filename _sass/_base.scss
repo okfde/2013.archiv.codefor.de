@@ -839,6 +839,16 @@ $date-circle: 80px;
 =            Projects           =
 ===============================*/
 
+.project-list {
+  column-width: 420px;
+  column-gap: 32px;
+}
+
+
+.project-teaser {
+  display: inline-block;
+  width: 100%;
+}
 
 .project-teaser-slim .image-crop {
 	position: relative;
