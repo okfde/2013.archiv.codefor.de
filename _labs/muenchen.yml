@@ -80,6 +80,11 @@ links:
   url: https://lists.okfn.org/mailman/listinfo/codeformunich
 
 
+feeds:
+- type: ical
+  url: https://www.meetup.com/code-for-muenchen/events/ical/
+
+
 leads:
 - name: Konstantin Schütze
   url: mailto:konstin@mailbox.org 
