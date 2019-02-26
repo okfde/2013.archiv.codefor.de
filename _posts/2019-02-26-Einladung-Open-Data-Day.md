@@ -5,7 +5,7 @@ author: Michael Peters
 excerpt: Am Samstag, 02. März 2019, findet weltweit der Open Data Day statt. Er ist das Ereignis, das von Aktivistinnen und Aktivisten auf der ganzen Welt dazu genutzt wird, um auf die Bedeutung offener Daten hinzuweisen.
 images:
    - imgname: odd-19.png
-published: false
+published: true
 ---
 
 Am Samstag, 2. März 2019, findet weltweit der Open Data Day statt. Weltweit wird dieser von Aktivist*innen auf der ganzen Welt genutzt, um auf die Bedeutung offener Daten hinzuweisen. Auch in diesem Jahr organisieren zahlreiche Ehrenamtliche in den Open Knowledge Labs unseres Netzwerks Code for Germany Veranstaltungen rund um offene Daten.
