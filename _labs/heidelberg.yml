@@ -9,14 +9,15 @@ markerposition: left
 members:
 - name: Jasper Schmidt
   username-github: 
-  username-twitter: 
-
+  username-twitter:
+- name: Mandy Reinhardt
+  username-github: mandyr
 
 links:
-- name: Newsletter
-  url: http://pad.opendatacloud.de/p/OK-Lab-HN
+- name: Meetup
+  url: http://www.meetup.com/OK-Lab-Heidelberg/
 - name: Pad
-  url: https://pad.okfn.de/p/OKLab_HD_IoT_für_Schulen
+  url: https://pad.ccc-mannheim.de/p/OKL-HD_Portal
 - name: Twitter
   url: https://twitter.com/OKL_HD
 
@@ -24,3 +25,5 @@ links:
 leads:
 - name: Jasper Schmidt
   url: mailto:jasper.schmidt@dai-heidelberg.de
+- name: Mandy Reinhardt
+  url: mailto:ok-lab@mandyr.de
