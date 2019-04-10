@@ -4,8 +4,8 @@ title: "Fünf Jahre Code for Germany, fünf Jahre digitales Ehrenamt"
 author: Michael Peters
 excerpt: Seit fünf Jahren engagieren sich ehrenamtliche Bürger*innen mit ihren technischen Fähigkeiten im Code for Germany Netzwerk um gemeinsam nützliche und offene Anwendungen für die digitale Gesellschaft zu entwickeln.
 images:
-   - imgname: odd-karlsruhe.jpg
-og-image: /assets/blog/odd-karlsruhe.jpg
+   - imgname: wikidata-ulm-2017-1.jpg
+og-image: /assets/blog/wikidata-ulm-2017-1.jpg
 og-description: Seit fünf Jahren engagieren sich ehrenamtliche Bürger\*innen mit ihren technischen Fähigkeiten im Code for Germany Netzwerk um gemeinsam nützliche und offene Anwendungen für die digitale Gesellschaft zu entwickeln.
 
 published: true
