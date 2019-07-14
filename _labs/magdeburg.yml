@@ -27,6 +27,9 @@ links:
 - name: Mailingliste
   url: https://mlists.okfn.de/cgi-bin/mailman/listinfo/codeformagdeburg
 
+- name: Slack 
+  url: https://oklabmagdeburg.slack.com/
+  
 leads:
 
 - name: Jens Winter
