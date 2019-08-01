@@ -48,7 +48,7 @@ There's a python script to save all GitHub avatars into the repository:
 ```bash
 virtualenv .env
 source .env/bin/activate
-pip install pyyaml requests
+pip install -r requirements.txt
 python update_avatars.py
 deactivate
 ```
