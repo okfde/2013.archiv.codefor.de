@@ -1,16 +1,12 @@
 ---
 key: bonn
-title: OK Lab Bonn
-lab: OK Lab Bonn
+title: OK Lab Bonn-Rhein-Sieg
+lab: OK Lab Bonn-Rhein-Sieg
 lat: 50.7371974
 long: 7.0947157
 markerposition: right
 
 members:
-
-- name: Stefan Wolfrum
-  username-github: metawops
-  username-twitter: metawops
 
 - name: Sven Hense
   username-github: opendatabonn
@@ -49,7 +45,7 @@ members:
 links:
 
 - name: Homepage
-  url: http://codeforbonn.de
+  url: https://codeforbonnrheinsieg.de
 
 - name: Meetup
   url: http://www.meetup.com/OKLab-Bonn/
@@ -81,5 +77,5 @@ leads:
 - name: Damian Paderta
   url: mailto:paderta@email.de
      
-- name: Stefan Wolfrum
+- name: Caspar Armster
   url: mailto:info@codeforbonn.de
