@@ -12,10 +12,10 @@ def _get_frontmatter(filename):
 
     _, frontmatter, *_ = content.split('---\n', 2)
     try:
-        return yaml.load(frontmatter)
+        return yaml.safe_load(frontmatter)
     except yaml.composer.ComposerError:
         frontmatter, *_ = content.split('\n---', 1)
-        return yaml.load(frontmatter)
+        return yaml.safe_load(frontmatter)
 
 
 def main():
