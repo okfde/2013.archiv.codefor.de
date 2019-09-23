@@ -29,10 +29,14 @@ def main():
 
     for event_file in glob.glob(event_files):
         event_data = _get_frontmatter(event_file)
-        if today > event_data['date']:
-            print('Outdated event on {} in {}'.format(
-                event_data['date'], event_file.rsplit('/')[-1]),
-            )
+        filename = event_file.rsplit('/')[-1]
+        event_date = event_data['date']
+        try:
+            if today > event_date:
+                print(f'❌ Outdated event on {event_date} in {filename}')
+        except TypeError:
+                print(f'⚠️  Could not parse data for {event_date} in {filename}')
+
 
 
 if __name__ == '__main__':
