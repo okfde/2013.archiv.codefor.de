@@ -11,7 +11,7 @@ og-description: Am 8. November ist es wieder soweit das FORUM Offene Stadt finde
 published: true
 ---
 
-Sommer Adieu, <Hello Herbst!>
+Sommer Adieu, Hello Herbst!
 
 Auch wenn der Sommer sich langsam verabschiedet, ist das Jahr noch lange nicht zu Ende! Im Gegenteil - zieht euch warm an, denn neben Kastanien-sammelnden Kindern und verschiedenen Kürbisvariationen, finden diesen November zwei ganz besondere Veranstaltungen von und für die Open Source und Open Knowledge Community, statt.
 
