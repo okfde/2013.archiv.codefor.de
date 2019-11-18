@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code for Germany Summit 2019 - digitales Ehrenamt in Aktion"
-author: Julia Thomaschki
+author: Julia Thomaschki 
 excerpt: Code for Germany (CFG) baut seit 5 Jahren digitale Werkzeuge und Anwendungen, um damit praktisch aufzuzeigen, welche Möglichkeiten Offene Daten und neue Technologien für das gesellschaftliche Miteinander bieten. Beim CFG Summit hat sich unsere deutschlandweite Community getroffen um an gemeinsamen Projekten zu arbeiten.
 images:
    - imgname: cfg-summit-1.jpg
@@ -26,7 +26,7 @@ Hier setzt auch der [Open Data Musterdatenkatalog](https://www.bertelsmann-stift
 ## Trinkwasser, LoRaWan, öffentlicher Nahverkehr und 36c3
 Gemeinsam haben wir uns vorgenommen [unsere Trinkwasser App](https://trinkwasser.codefor.de/) wiederzubeleben. Die App zeigt die Trinkwasserqualität der jeweils zuständigen Grundwasserwerke und vergleicht deren Mineralienwerte für besseres Verständnis mit der Wasserqualität verschiedener handelsüblicher Mineralwasser Anbieter. Sie ist ein tolles Beispiel für Open Data, weil jede Kommune in Deutschland über die Daten verfügt und diese als Open Data bereitstellen könnte. Wer Lust hat mitzumachen kann sich in unserem [OKF Slack](https://openknowledgegermany.slack.com/) unter #trinkwasser melden.
 
-Ein weiteres Projekt das sich zur Ausweitung auf andere Städte anbietet ist das [DigiTransit Projekt aus Ulm](https://digitransit.im.verschwoerhaus.de/). Die Open Source Anwendung ermöglicht die Fahrplanabfrage des öffentlichen Nahverkehrs. Ursprünglich wurde sie in Helsinki entwickelt und auf Ulm angepasst. Es wird daran gearbeitet auch Bikesharingdaten in die App aufzunehmen um verkehrsmittelübergreifende Mobilität zu gewährleisten. Um die App auch auf weitere Städte auszuweiten fehlen vielerorts die notwendigen Daten.
+Ein weiteres Projekt das sich zur Ausweitung auf andere Städte anbietet ist das [DigiTransit Projekt aus Ulm](https://digitransit.im.verschwoerhaus.de/). Die Open Source Anwendung ermöglicht die Fahrplanabfrage des öffentlichen Nahverkehrs. Ursprünglich wurde sie in Helsinki entwickelt und auf Ulm angepasst. Es wird daran gearbeitet auch Bikesharingdaten in die App aufzunehmen um verkehrsmittelübergreifende Mobilität zu gewährleisten. Um die App auch auf weitere Städte auszuweiten fehlen vielerorts die notwendigen Daten, insbesondere wirtschaftliche Akteuren wie Car- und Bikesharing Unternehmen wollen ihre Daten nicht oder nur gegen Gebühr offenlegen.
 
 In einer Session zu LoRaWan (Long Range Wide Area Network) wurden Möglichkeiten für die Entwicklung und Maintenance einer gemeinsame Serverplattform für die Daten verschiedener IoT-Projekte diskutiert. Längerfristig überlegen wir, wie wir eine unabhängige Netzwerkstruktur (momentan TTN) dahinter aufbauen können. Alle Notizen und Zusammenfassungen der Sessions findet ihr [hier](
 https://pad.okfn.de/p/froscon2019-lorawan_community_summit)
