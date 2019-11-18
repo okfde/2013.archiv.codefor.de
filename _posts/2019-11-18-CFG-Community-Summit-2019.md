@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Code for Germany Summit 2019"
-author: Michael Peters
+title: "Code for Germany Summit 2019 - digitales Ehrenamt in Aktion"
+author: Julia Thomaschki
 excerpt: Code for Germany (CFG) baut seit 5 Jahren digitale Werkzeuge und Anwendungen, um damit praktisch aufzuzeigen, welche Möglichkeiten Offene Daten und neue Technologien für das gesellschaftliche Miteinander bieten. Beim CFG Summit hat sich unsere deutschlandweite Community getroffen um an gemeinsamen Projekten zu arbeiten.
 images:
    - imgname: cfg-summit-1.jpg
@@ -10,8 +10,7 @@ og-description: Code for Germany (CFG) baut seit 5 Jahren digitale Werkzeuge und
 
 published: true
 ---
-
-# Die Power von digitalem Ehrenamt in Aktion
+![Summit1](/assets/blog/cfg-summit-1.jpg)
 
 Code for Germany (CFG) baut seit 5 Jahren digitale Werkzeuge und Anwendungen, um damit praktisch aufzuzeigen, welche Möglichkeiten Offene Daten und neue Technologien für das gesellschaftliche Miteinander bieten. Beim CFG Summit hat sich unsere Community aus ganz Deutschland getroffen um an gemeinsamen Projekten zu arbeiten. Zeitlich haben wir den Summit an das [FORUM Offene Stadt 2019](https://offenestadt.info/) - die gemeinsame Konferenz der Körber Stiftung und Open Knowledge Foundation Deutschland e.V. angedockt. So konnten viele Ehrenamtliche sowohl am Summit als auch an der Konferenz teilnehmen.
 
