@@ -12,7 +12,8 @@
       @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 
 body {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/xmas.jpg");
+  background: url("https://advent18.journocode.com/assets/svg/background-snow.svg");
+
   color: #000;
   font-family: 'Oleo Script', cursive;
   padding: 20px;
@@ -36,7 +37,7 @@ ul {
   margin:0 auto 30px auto;
   padding:0;
   list-style-type:none;
-  max-width:900px;
+  max-width:1100px;
   width: 100%;
   text-align: center;
   user-select: none;
@@ -44,14 +45,14 @@ ul {
 
 li {
   font-weight: 400;
-  background-color: #fff;
+  background-color: #33ce86;
   box-sizing: border-box;
   border-radius: 6px;
   display: inline-block;
   color:#111;
   cursor:pointer;
   font-size: 26px;
-  padding:15px;
+  padding:0;
   margin:25px 12px;
   width: 130px;
   height:130px;
@@ -86,18 +87,14 @@ ul li:last-child .revealed {
 
 .door {
   user-select: none;
-  color:#fff;
+  color:#000;
   font-size: 70px;
   position: absolute;
   top:0;
   left:0;
-  background-color: #91c1cc;
+  background-color: #22ac6a;
   box-sizing: border-box;
-  border-top: 2px #eee dashed;
-  border-right: 2px #eee dashed;
-  border-bottom: 2px #eee dashed;
-  border-left: 1px #eee solid;
-  border-radius: 6px;
+  border: 8px solid black;
   padding:15px;
   width: 130px;
   height:130px;
@@ -107,15 +104,18 @@ ul li:last-child .revealed {
 }
 
 .current .door {
-  background-color: #7EAD44;
+  background-color: #e64c5f;
 }
 
 .current .door.open{
-  color: #7EAD44;
+  color: #e64c5f;
 }
 
 .revealed {
   user-select: none;
+  border: 8px solid black;
+  border-left:none;
+  height: 114px;
 }
 
 #message {
@@ -139,7 +139,7 @@ ul li:last-child .revealed {
 
 .open {
   box-shadow: 14px 0px 15px -1px rgba(0,0,0,0.2);
-  color: #91c1cc;
+  color: #22ac6a;
   transform: rotate3d(0, 1, 0, -98deg);
 }
 
@@ -148,7 +148,9 @@ ul li:last-child .revealed {
   transform: rotate(-1deg);
 }
 
-.revealed img {width: 100%}
+.revealed img {
+  margin: 10px 0 0 10px;
+  width: 100px;}
 
 .desc {
   margin:auto;
@@ -173,9 +175,6 @@ ul li:last-child .revealed {
 
 
 @media screen and (min-width: 768px) {
-	body {
-		background-size:150px;
-	}
 	p {
 		right: 6%;
 		top: 20%;
@@ -206,26 +205,31 @@ ul li:last-child .revealed {
 @media screen and (max-width: 581px) {
   .betterplace {
     top: 221px;
+  }
 }
 
 @media screen and (max-width: 551px) {
   .betterplace {
     top: 293px;
+  }
 }
 
 @media screen and (max-width: 437px) {
   .betterplace {
     top: 325px;
+  }
 }
 
 @media screen and (max-width: 384px) {
   .betterplace {
     top: 347px;
+  }
 }
 
 @media screen and (max-width: 327px) {
   .betterplace {
     top: 370px;
+  }
 }
 
     </style>
