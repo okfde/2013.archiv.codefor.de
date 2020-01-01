@@ -32,7 +32,10 @@ links:
   
 - name: GitHub 
   url: https://github.com/code-for-magdeburg
-  
+
+- name: Events
+  url: https://tech-events-magdeburg.de/
+
 leads:
 
 - name: Jens Winter
