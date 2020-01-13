@@ -199,11 +199,5 @@ links:
 
 
 leads:
-- name: Tobi
-  url: mailto:tobias.preuss@googlemail.com
-- name: Jochen
-  url: mailto:jochen.klar@gmail.com
-- name: Thomas
-  url: mailto:thomas@tursics.de
-- name: Knut
-  url: mailto:knut@k-nut.eu
+- name: E-Mail
+  url: mailto:berlin@codefor.de
