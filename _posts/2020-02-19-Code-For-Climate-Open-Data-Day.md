@@ -10,7 +10,7 @@ og-description: Was haben Offene Daten mit Klimaschutz zu tun und wie können Of
 
 published: true
 ---
-Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an diesem Tag Aktivist*innen [weltweit](https://opendataday.org/de/#map) verschiedene Veranstaltungen an, um auf die Bedeutung offener Daten aufmerksam zu machen. Auch in den OK Labs von Code for Germany haben unsere Ehrenamtlichen ein vielfältiges Programm und spannende Projekte zum Mitmachen auf die Beine gestellt, die wir bald hier mit euch teilen werden. Egal, ob du schon Profi bist oder erst in die Open Data Welt eintauchen möchtest - schau doch in einem [OK Lab in deiner Nähe](https://codefor.de/) vorbei!
+Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an diesem Tag Aktivist\*innen [weltweit](https://opendataday.org/de/#map) verschiedene Veranstaltungen an, um auf die Bedeutung offener Daten aufmerksam zu machen. Auch in den OK Labs von Code for Germany haben unsere Ehrenamtlichen ein vielfältiges Programm und spannende Projekte zum Mitmachen auf die Beine gestellt, die wir bald hier mit euch teilen werden. Egal, ob du schon Profi bist oder erst in die Open Data Welt eintauchen möchtest - schau doch in einem [OK Lab in deiner Nähe](https://codefor.de/) vorbei!
 
 ## Daten befreien - Klima retten
 
@@ -29,7 +29,7 @@ Den Open Data Day nutzen wir zum Auftakt für unsere Eventreihe in diesem Jahr. 
 
 ## Warum glauben wir, dass das wichtig ist?
 
-Um unsere Zukunft nachhaltig gestalten zu können, müssen wir über den Zustand unserer Welt Bescheid wissen. Offene (Verwaltungs-)Daten sind dafür eine nützliche Quelle. Sie sind frei für alle zugänglich, können geteilt und von verschiedenen Expert*innen interpretiert, visualisiert und kontextualisiert werden. Dadurch werden aus Offenen Daten Informationen, die wir als Bürger*innen verstehen und nutzen können.
+Um unsere Zukunft nachhaltig gestalten zu können, müssen wir über den Zustand unserer Welt Bescheid wissen. Offene (Verwaltungs-)Daten sind dafür eine nützliche Quelle. Sie sind frei für alle zugänglich, können geteilt und von verschiedenen Expert\*innen interpretiert, visualisiert und kontextualisiert werden. Dadurch werden aus Offenen Daten Informationen, die wir als Bürger\*innen verstehen und nutzen können.
 
 NGOs im Umweltbereich und in der Entwicklungspolitik arbeiten bereits daran, Umweltinformationen einzusetzen, um die Politik zum Umdenken zu bewegen. Mit Code for Climate möchten wir dies unterstützen.
 
@@ -37,4 +37,4 @@ NGOs im Umweltbereich und in der Entwicklungspolitik arbeiten bereits daran, Umw
 
 Deshalb möchten wir auch weiterhin mit lokalen Akteuren, die sich für Umwelt- und Naturschutz einsetzen, zusammenarbeiten und von ihrer teils jahrelangen Expertise auf diesen Gebieten lernen. Organisationen wie BUND, NABU, Greenpeace, die Wasserwacht oder Bewegungen wie Fridays for Future haben das Ohr an unserem Planeten und können uns dabei helfen, Herausforderungen im Klimaschutz zu identifizieren.
 
-Unsere OK Labs wiederum können dafür digitale Soft- und Hardware-Lösungen entwickeln, die über lokale Gegebenheiten hinaus Einsatz finden. Der Kreativität sind dabei keine Grenzen gesetzt. Alles, was unsere Umwelt ausmacht, egal ob Baum, Tier, Luft, Erde oder Mensch, kann im Sinne der Nachhaltigkeit gestaltet werden. Die Errichtung und Bereitstellung digitaler Infrastruktur wie zum Beispiel [LoRaWAN-Technologie](https://media.ccc.de/v/bub2018-140-smart_country_lorawan) kann aber in manchen Fällen überhaupt erst die Grundlage schaffen, diese Projekte zu verwirklichen. Die Teilhabe an der Digitalisierung bestimmt damit auch, wie und wo digitale Maßnahmen zum Klimaschutz erfolgreich umgesetzt werden können. Mit Code for Climate möchten wir dazu einen Beitrag leisten.
+Unsere OK Labs wiederum können dafür digitale Soft- und Hardware-Lösungen entwickeln, die über lokale Gegebenheiten hinaus Einsatz finden. Der Kreativität sind dabei keine Grenzen gesetzt. Alles, was unsere Umwelt ausmacht, egal ob Baum, Tier, Luft, Erde oder Mensch, kann im Sinne der Nachhaltigkeit gestaltet werden. Die Errichtung und Bereitstellung digitaler Infrastruktur wie zum Beispiel [LoRaWAN-Technologie](https://media.ccc.de/v/bub2018-140-smart_country_lorawan) kann aber in manchen Fällen überhaupt erst die Grundlage schaffen, diese Projekte zu verwirklichen. Die Teilhabe an der Digitalisierung bestimmt damit auch, wie und wo digitale Maßnahmen zum Klimaschutz erfolgreich umgesetzt werden können.
