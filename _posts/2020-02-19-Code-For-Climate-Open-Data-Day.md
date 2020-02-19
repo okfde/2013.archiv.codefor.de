@@ -2,13 +2,13 @@
 layout: post
 title: "Code for Climate: Open Data Day am 7. März 2020"
 author: Claudia Jach
-excerpt: Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an diesem Tag Aktivist*innen weltweit verschiedene Veranstaltungen an, um auf die Bedeutung offener Daten aufmerksam zu machen.
+excerpt: Was haben Offene Daten mit Klimaschutz zu tun und wie können Offene Daten Naturschutz begünstigen? Diesen und weiteren Fragen wollen wir uns dieses Jahr unter dem Motto „Code for Climate“ widmen. Kickoff ist der Open Data Day am 7. März!
 images:
-   - imgname: wikidata-ulm-2017-1.jpg
-og-image: /assets/blog/wikidata-ulm-2017-1.jpg
-og-description:
+   - imgname: codeforclimate.jpg
+og-image: /assets/blog/codeforclimate.jpg
+og-description: Was haben Offene Daten mit Klimaschutz zu tun und wie können Offene Daten Naturschutz begünstigen? Diesen und weiteren Fragen wollen wir uns dieses Jahr unter dem Motto „Code for Climate“ widmen. Kickoff ist der Open Data Day am 7. März!
 
-published: false
+published: true
 ---
 Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an diesem Tag Aktivist*innen [weltweit](https://opendataday.org/de/#map) verschiedene Veranstaltungen an, um auf die Bedeutung offener Daten aufmerksam zu machen. Auch in den OK Labs von Code for Germany haben unsere Ehrenamtlichen ein vielfältiges Programm und spannende Projekte zum Mitmachen auf die Beine gestellt, die wir bald hier mit euch teilen werden. Egal, ob du schon Profi bist oder erst in die Open Data Welt eintauchen möchtest - schau doch in einem [OK Lab in deiner Nähe](https://codefor.de/) vorbei!
 
