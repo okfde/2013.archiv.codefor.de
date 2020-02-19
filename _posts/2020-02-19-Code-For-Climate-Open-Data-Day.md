@@ -16,6 +16,8 @@ Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an die
 
 Unter dem Motto Code for Climate widmen wir uns dieses Jahr, auch über den Open Data Day hinaus, schwerpunktmäßig Fragen rund um Klima- und Naturschutz. Wir zeigen auf, wie Offene Daten und Technologien genutzt werden können, um Umweltbelange stärker in den Fokus zu rücken und wie Zivilgesellschaft, Politik und Verwaltung gemeinsam an einem Strang ziehen können, um unser Klima zu schützen.
 
+![CodeforClimate](/assets/blog/codeforclimate.jpg)
+
 Bereits 2018 wurde auf der [Bits und Bäume Konferenz](https://okfn.de/blog/2019/07/bits-und-baeume-publikation/) das Beste von beiden Welten, Digital- und Umweltaktivismus, zusammengebracht und darüber diskutiert, wie unsere Ressourcen nachhaltig geschützt werden können.
 
 Den Open Data Day nutzen wir zum Auftakt für unsere Eventreihe in diesem Jahr. Nicht erst seit Fridays for Future ist es wichtig, sich mit Umwelt- und Klimafragen zu beschäftigen. Wir als Community beschäftigen uns schon länger mit Fragen der Nachhaltigkeit:
