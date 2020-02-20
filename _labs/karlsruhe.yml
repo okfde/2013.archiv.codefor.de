@@ -11,6 +11,9 @@ markerposition: left
 
 links:
 
+- name: Webseite
+  url: https://ok-lab-karlsruhe.de
+
 - name: Twitter
   url: https://twitter.com/codeforka
 
@@ -30,5 +33,3 @@ leads:
 
 - name: Andreas
   url: mailto:andreas.kugel@codefor.de
-- name: Kai
-  url: mailto:post@kai.gs
