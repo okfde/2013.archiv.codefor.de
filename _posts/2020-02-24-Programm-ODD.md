@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Programm für den Open Data Day am 7. März 2020"
+author: Claudia Jach
 excerpt: Zum Open Data Day am 7. März 2020 haben unsere Ehrenamtlichen in Labs deutschlandweit ein vielfältiges Programm auf die Beine gestellt. Von Vorträgen über Workshops ist einiges dabei. Thematisch liegt der Fokus dieses Jahr auf "Code for Climate". Kommt vorbei und macht mit!
 images:
    - imgname: Programmankündigung.jpg
