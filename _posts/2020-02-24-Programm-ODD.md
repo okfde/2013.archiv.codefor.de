@@ -59,7 +59,7 @@ Zeit: 11-17 Uhr
 
 ## Osnabrück
 
-Ort: Mindener Str. 205
+Ort: Chaostreff, Mindener Str. 205, 49084 Osnabrück
 
 Zeit: 10-16 Uhr
 
