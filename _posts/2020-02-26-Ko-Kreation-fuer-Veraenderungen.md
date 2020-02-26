@@ -7,7 +7,7 @@ excerpt: In meiner Masterarbeit im Fach Politik- und Verwaltungswissenschaften h
 images:
    - imgname: geöffnet.jpg
 og-image: /assets/blog/geöffnet.jpg
-og-description: Masterarbeit zur Kollaboration zwischen OK Labs und Stadtverwaltungen. Wie wirkt sich das auf den Umgang mit Offenen Daten aus?
+og-description: Masterarbeit zur Kollaboration zwischen OK Labs und Stadtverwaltungen. Wie wirkt sich diese Zusammenarbeit auf den Umgang mit Offenen Daten aus?
 
 published: true
 ---
