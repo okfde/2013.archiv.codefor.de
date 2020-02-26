@@ -11,8 +11,7 @@ og-description: Masterarbeit zur Kollaboration zwischen OK Labs und Stadtverwalt
 
 published: true
 ---
-## Die Zusammenarbeit zwischen Code for Germany und Verwaltungen
-## Eine wissenschaftliche Untersuchung
+## Die Zusammenarbeit zwischen Code for Germany und Verwaltungen - eine wissenschaftliche Untersuchung
 
 Für meine Masterarbeit im Fach Politik- und Verwaltungswissenschaft an der Universität Konstanz, betreut durch Prof. Dr. Ines Mergel, untersuchte ich im letzten Jahr, wie sich die Kollaborationen von Bürger\*innen und der öffentlichen Verwaltung im Bereich offener Daten auswirken. Das Ziel: Die dadurch entstandenen Veränderungen der Strukturen und Prozesse innerhalb der Verwaltungen herauszustellen. Denn in Deutschland wird das Festhalten an bestehenden Abläufen und Strukturen als Hindernis beim Fortschritt offener Daten im öffentlichen Bereich gesehen. Kollaborationen mit Bürger\*innen werden aber als Auslöser für einen Wandel beschrieben. Dies wurde z.B. bereits in den USA durch das Projekt Code for America untersucht. Aus diesem Grund boten sich hierzulande gerade die Kollaborationen der OK Labs als Untersuchungsgegenstand für die Arbeit an.
 
