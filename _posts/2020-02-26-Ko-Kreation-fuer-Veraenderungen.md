@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Ko-Kreation als Treiber für Veränderungen? Die Zusammenarbeit zwischen Code for Germany und Verwaltungen – eine wissenschaftliche Untersuchung"
+title: "Ko-Kreation als Treiber für Veränderungen?"
 author: Patrick Hamm
-excerpt: In meiner Masterarbeit im Fach Politik- und Verwaltungswissenschaften habe ich Interviews mit Vertreter\*innen aus verschiedenen Stadtverwaltungen und den OK Labs von Code for Germany geführt. Ich wollte herausfinden, ob und wie die Kollaborationen zwischen Ehrenamtlichen in den Labs und den Verwaltungen zu einem internen Wandel geführt haben (u.a. im Umgang mit offenen Daten). Meine Ergebnisse zeigen erste Erfolge und zukünftige Baustellen auf.
+excerpt: In meiner Masterarbeit im Fach Politik- und Verwaltungswissenschaften habe ich Interviews mit Vertreter*innen aus verschiedenen Stadtverwaltungen und den OK Labs von Code for Germany geführt. Ich wollte herausfinden, ob und wie die Kollaborationen zwischen Ehrenamtlichen in den Labs und den Verwaltungen zu einem internen Wandel geführt haben (u.a. im Umgang mit offenen Daten). Meine Ergebnisse zeigen erste Erfolge und zukünftige Baustellen auf.
 
 images:
    - imgname: geöffnet.jpg
@@ -11,6 +11,8 @@ og-description: Masterarbeit zur Kollaboration zwischen OK Labs und Stadtverwalt
 
 published: true
 ---
+## Die Zusammenarbeit zwischen Code for Germany und Verwaltungen – eine wissenschaftliche Untersuchung
+
 Für meine Masterarbeit im Fach Politik- und Verwaltungswissenschaft an der Universität Konstanz, betreut durch Prof. Dr. Ines Mergel, untersuchte ich im letzten Jahr, wie sich die Kollaborationen von Bürger\*innen und der öffentlichen Verwaltung im Bereich offener Daten auswirken. Das Ziel: Die dadurch entstandenen Veränderungen der Strukturen und Prozesse innerhalb der Verwaltungen herauszustellen. Denn in Deutschland wird das Festhalten an bestehenden Abläufen und Strukturen als Hindernis beim Fortschritt offener Daten im öffentlichen Bereich gesehen. Kollaborationen mit Bürger\*innen werden aber als Auslöser für einen Wandel beschrieben. Dies wurde z.B. bereits in den USA durch das Projekt Code for America untersucht. Aus diesem Grund boten sich hierzulande gerade die Kollaborationen der OK Labs als Untersuchungsgegenstand für die Arbeit an.
 
 Um hier Einblicke zu gewinnen, wurden Interviews mit Vertreter\*innen aus Stadtverwaltungen (aus thematisch nahen Bereichen) und OK Labs geführt, bei denen eine Zusammenarbeit bereits stattfindet. Befragt wurde pro Stadt entweder eine Person, die zu beiden Seiten gleichzeitig gehört, oder zwei einzelne Personen, damit beide Sichtweisen abgedeckt werden konnten. Dank der Hilfe und Bereitschaft mehrerer Mitglieder aus den OK Labs und Stadtverwaltungen kamen so letztlich elf Interviews zustande, in denen über Veränderungen in neun Städten gesprochen wurde. Die zentralen Ergebnisse der Arbeit lassen sich in vier Themenblöcke einteilen:
