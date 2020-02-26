@@ -11,8 +11,6 @@ og-description: Masterarbeit zur Kollaboration zwischen OK Labs und Stadtverwalt
 
 published: true
 ---
-## Ko-Kreation als Treiber für Veränderungen? Die Zusammenarbeit zwischen Code for Germany und Verwaltungen – eine wissenschaftliche Untersuchung
-
 Für meine Masterarbeit im Fach Politik- und Verwaltungswissenschaft an der Universität Konstanz, betreut durch Prof. Dr. Ines Mergel, untersuchte ich im letzten Jahr, wie sich die Kollaborationen von Bürger\*innen und der öffentlichen Verwaltung im Bereich offener Daten auswirken. Das Ziel: Die dadurch entstandenen Veränderungen der Strukturen und Prozesse innerhalb der Verwaltungen herauszustellen. Denn in Deutschland wird das Festhalten an bestehenden Abläufen und Strukturen als Hindernis beim Fortschritt offener Daten im öffentlichen Bereich gesehen. Kollaborationen mit Bürger\*innen werden aber als Auslöser für einen Wandel beschrieben. Dies wurde z.B. bereits in den USA durch das Projekt Code for America untersucht. Aus diesem Grund boten sich hierzulande gerade die Kollaborationen der OK Labs als Untersuchungsgegenstand für die Arbeit an.
 
 Um hier Einblicke zu gewinnen, wurden Interviews mit Vertreter\*innen aus Stadtverwaltungen (aus thematisch nahen Bereichen) und OK Labs geführt, bei denen eine Zusammenarbeit bereits stattfindet. Befragt wurde pro Stadt entweder eine Person, die zu beiden Seiten gleichzeitig gehört, oder zwei einzelne Personen, damit beide Sichtweisen abgedeckt werden konnten. Dank der Hilfe und Bereitschaft mehrerer Mitglieder aus den OK Labs und Stadtverwaltungen kamen so letztlich elf Interviews zustande, in denen über Veränderungen in neun Städten gesprochen wurde. Die zentralen Ergebnisse der Arbeit lassen sich in vier Themenblöcke einteilen:
@@ -39,7 +37,7 @@ Bei der Datenbereitstellung haben die Lerneffekte und das Fordern der Bürger\*i
 
 Kollaborationen hatten auch einen Anteil an neu geschaffenen Stellen, welche stets das Fördern offener Daten in der eigenen Verwaltung bzw. Kollaborationen mit den Bürger\*innen abdecken. Auch wechselten einige Mitglieder der OK Labs nach vorheriger Zusammenarbeit in die Verwaltung, wodurch eine noch stärkere Verbindung besteht und sogar Tätigkeiten der OK Labs nun von Verwaltungen aufgegriffen werden (z.B. die Arbeit am The Things Network). Mehrheitlich ist der Kontakt zu den OK Labs jedoch noch von engagierten Einzelpersonen abhängig, die häufig auch an Treffen der OK Labs teilnehmen bzw. Mitglieder sind. Auch wenn dadurch einige Aufgaben einer speziellen Stelle ersetzt werden können (z.B. Ideen in die Verwaltung tragen und Projekte initiieren), verdeutlichte sich bei beiden Seiten der Wunsch nach Kontaktstellen, welche über notwendige Ressourcen verfügen und sich letztlich intensiver mit der Zusammenarbeit auseinandersetzen können.
 
-![Grafik-Zusammenarbeit-Labs-Verwaltungen](assets/blog/Grafik-Zusammenarbeit-Labs-Verwaltungen.png)
+![Grafik-Zusammenarbeit-Labs-Verwaltungen](/assets/blog/Grafik-Zusammenarbeit-Labs-Verwaltungen.png)
 
 ## Fazit
 
