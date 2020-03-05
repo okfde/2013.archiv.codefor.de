@@ -12,7 +12,7 @@ members:
   username-github: zoeller
   username-twitter: zoellerm
 
-- name: Bogomir Engel
+- name: aCandidMind
   username-github: aCandidMind
   username-twitter: aCandidMind
 
@@ -27,7 +27,10 @@ links:
 - name: Mailingliste
   url: https://lists.okfn.org/mailman/listinfo/codeforffm
 
-- name: Etherpad
+- name: hackfrankfurt Pad
+  url: http://pad.hackfrankfurt.de
+
+- name: Full Etherpad
   url: https://pad.okfn.de/p/codeforfrankfurt
 
 leads:

@@ -13,3 +13,4 @@ _site/
 *~
 .jekyll-metadata
 Gemfile.lock
+.env

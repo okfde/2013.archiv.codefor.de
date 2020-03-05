@@ -36,24 +36,34 @@ members:
   username-github: tomsrocket
   username-twitter: toms_rocket
 
+- name: Christian Römer
+  username-github: thunfischtoast
+
+- name: Thomas Terstiege
+  username-github: silberzwiebel
+  username-twitter: krtfflslt
+
 links:
 - name: Webseite
-  url: http://codeformuenster.org
+  url: https://codeformuenster.org/
 
 - name: Twitter
   url: https://twitter.com/codeformuenster
 
 - name: Meetup
-  url: http://meetup.com/OK-Lab-Munster/
+  url: https://meetup.com/OK-Lab-Munster/
+
+- name: Open Data Day Zusammenfassung 2018
+  url: https://codeformuenster.org/blog/2018/03/06/odd-2018/
 
 - name: Open Data Day Zusammenfassung 2017
-  url: http://codeformuenster.org/blog/2017/03/07/odd-2017/
+  url: https://codeformuenster.org/blog/2017/03/07/odd-2017/
 
 - name: Jahresrückblick 2016
-  url: http://codeformuenster.org/blog/2016/03/16/odd-rueckblick/
+  url: https://codeformuenster.org/blog/2016/03/16/odd-rueckblick/
 
 - name: Jahresrückblick 2015
-  url: http://codeformuenster.org/blog/2016/03/05/rueckblick-2015/
+  url: https://codeformuenster.org/blog/2016/03/05/rueckblick-2015/
 
 leads:
 - name: Gerald Pape
@@ -61,4 +71,6 @@ leads:
 - name: Thomas Werner
   url: mailto:muenster@codefor.de
 - name: Tobias Bradtke
+  url: mailto:muenster@codefor.de
+- name: Yannic Schencking
   url: mailto:muenster@codefor.de

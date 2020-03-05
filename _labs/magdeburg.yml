@@ -27,12 +27,12 @@ links:
 - name: Mailingliste
   url: https://mlists.okfn.de/cgi-bin/mailman/listinfo/codeformagdeburg
 
-- name: Slack
+- name: Slack 
   url: https://oklabmagdeburg.slack.com/
-
-- name: Events
-  url: https://tech-events-magdeburg.de/
-
+  
+- name: GitHub 
+  url: https://github.com/code-for-magdeburg
+  
 leads:
 
 - name: Jens Winter

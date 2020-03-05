@@ -1,0 +1,44 @@
+---
+key: bielefeld
+title: Code For Bielefeld
+lab: OK Lab Bielefeld
+
+lat: 52.021088
+long: 8.532800
+markerposition: right
+
+#h4c: true
+#special: true #this lab gets spcecial marker (digital refugee lab)
+
+members:
+
+- name: Helen Bielawa
+  username-github: helenbielawa
+  username-twitter: helenbielawa
+
+- name: Theresa Lampe
+  username-github: theresalampe
+  username-twitter: theresala95
+
+- name: Chris Werner Rau
+  username-github: cwrau
+  username-twitter: cwrau
+
+- name: Florian Gellert
+  username-github: gllrt
+  username-twitter: fgllrt
+
+links:
+
+- name: Meetup
+  url: http://www.meetup.com/Code-For-Bielefeld//
+
+- name: Twitter
+  url: http://twitter.com/codeforbi
+
+- name: Instagram
+  url: https://www.instagram.com/codeforbi/
+
+leads:
+- name: E-Mail
+  url: mailto:bielefeld@codefor.de

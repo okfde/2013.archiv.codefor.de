@@ -9,6 +9,8 @@ de:
     url: /stadtgeschichten
   - title: Blog
     url: /blog
+  - title: Summit
+    url: /summit
 en:
   - title: About
     url: /en/ueber
@@ -20,3 +22,5 @@ en:
     url: /en/stadtgeschichten
   - title: Blog (de)
     url: /blog
+  - title: Summit (de)
+    url: /summit
