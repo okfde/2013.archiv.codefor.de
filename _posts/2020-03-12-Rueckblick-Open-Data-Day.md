@@ -7,7 +7,7 @@ images:
    - imgname: ODD20_Titelbild.jpg
 og-image: /assets/blog/ODD20_Titelbild.jpg
 og-description: Am Open Data Day war in den OK Labs einiges los! Vorherrschendes Thema: Wie können Offene Daten dem Klima nutzen?
-published: false
+published: true
 ---
 In [Berlin](https://www.codefor.de/berlin/) wurde [Open Climate Data](https://openclimatedata.net/) vorgestellt, ein Projekt mit dem durch positive Korrelationen zu offiziellen Klimadaten die Glaubwürdigkeit von Daten aus Citizen Science Projekten gestärkt werden sollen. Als wichtigstes Lebensmittel ist auch die Kontrolle und der Schutz unseres [Trinkwassers](https://trinkwasser.codefor.de/) ein Code for Climate Thema. Dementsprechend haben wir weiter an der Visualisierung passender Daten gearbeitet. Auch die Verkehrswende kam nicht zu kurz: Wie können [sichere Radwege in Open Street Map](https://wiki.openstreetmap.org/wiki/Talk:Berlin/Verkehrswende) sichtbar gemacht werden? Lassen sich Wege zum Beispiel nicht nur anhand von Zeit oder Länge der Strecke aufzeigen, sondern auch danach, wie gefährlich oder [stressig](https://github.com/ckrey/stressmap) die Strecke für die Radfahrenden ist? Und wo gibt es überall Parkplätze für Fahrräder, vor allem im Vergleich zu der Fläche, die für Autos bereitgestellt wird?
 
