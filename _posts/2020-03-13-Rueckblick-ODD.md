@@ -7,7 +7,7 @@ excerpt: Am Open Data Day war in den OK Labs einiges los! In Berlin, Hamburg, Ka
 images:
    - imgname: ODD20_Titelbild.jpg
 og-image: /assets/blog/ODD20_Titelbild.jpg
-og-description: Am Open Data Day wurde intensiv getüftelt, diskutiert und gelernt. Vorherrschendes Thema: Wie können Offene Daten dem Klima nutzen?
+og-description: Am Open Data Day war in den OK Labs einiges los! Vorherrschendes Thema: Wie können Offene Daten dem Klima nutzen?
 
 published: false
 ---
