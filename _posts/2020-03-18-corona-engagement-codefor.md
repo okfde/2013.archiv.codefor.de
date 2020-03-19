@@ -34,6 +34,6 @@ Was sich erst gut anhört, kann aus unterschiedlichen Perspektiven betrachtet un
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tech friends: I get it.<br><br>We’re engineers.<br>We’re stressed.<br>We’re trapped.<br><br>We instinctively want to solve problems.<br><br>HOWEVER: This is not a tech problem.<br><br>Your skills as a developer do not magically imbue you with mystical insight the rest of the world lacks.<br><br>Shut. The fuck. Up.</p>&mdash; Emily Rose ~ Available Now! (@AkashaThorne) <a href="https://twitter.com/AkashaThorne/status/1239968186826493953?ref_src=twsrc%5Etfw">March 17, 2020</a></blockquote>
 
-Ich freue mich auf eine rege Diskussion und Rückmeldungen. Auf Twitter erreicht ihr mich als [@didumdida](https://twitter.com/didumdida). Am #WirvsVirus Hackathon der Bundesregierung vom 20-22. März werde ich ebenfalls teilnehmen.
+Ich freue mich auf eine rege Diskussion und Rückmeldungen. Auf Twitter erreicht ihr mich als [@didumdida](https://twitter.com/didumdida). Am #WirvsVirus Hackathon der Bundesregierung vom 20.-22. März werde ich ebenfalls teilnehmen.
 
 P.S.: Danke an diejenigen, mit denen ich mich gestern und heute kurzfristig dazu austauschen konnte.
