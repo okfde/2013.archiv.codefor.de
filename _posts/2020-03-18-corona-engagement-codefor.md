@@ -2,11 +2,14 @@
 layout: post
 title:  "Ein paar Gedanken zu Civic Tech und Corona"
 author: Ulrike Thalheim
-date:   2020-03-18
-categories: blog
-tags: corona codeforde zivilgesellschaft engagement hackathon
+excerpt: "Was können wir von unseren digitalen Unterstützungsprojekten für Geflüchtete für den Umgang mit dem Coronavirus lernen?"
+images:
+   - imgname: Corona.jpg
+og-image: /assets/blog/Corona.jpg
+og-description: "Was können wir von unseren digitalen Unterstützungsprojekten für Geflüchtete für den Umgang mit dem Coronavirus lernen?"
+published: true
 ---
-Im Sommer 2015 kamen sehr viele Menschen nach Europa, um hier Schutz zu finden. Menschen flüchteten schon in den Jahren zuvor, doch im Sommer 2015 änderte vieles. Im Zuge dessen versuchte eine sehr viel größere Menge an Menschen zu unterstützen. Als Mitglied im OK Lab Berlin sah ich damals die Notwendigkeit, eine Übersicht über digitale Unterstützungsprojekte anzufertigen. Die Projekte waren sehr vielfältig: Es gab Karten und Apps für Geflüchtete, Plattformen zur Organisation von Helfer*innen usw. Sehr viele Menschen saßen an ähnlichen Projekten, in unterschiedlichen Ländern, aber mitunter auch nur 1-2 km voneinander entfernt. Meine Idee war es, diese Menschen zueinander zu bringen, damit sie kooperieren und noch bessere Projekte stemmen können. Es ist jetzt fast unnötig zu erwähnen, dass neben mir auch noch etliche andere die Idee hatten, solche Übersichten zu erstellen. Ich habe mich daraufhin mehrere Jahre ehrenamtlich in der digitalen Flüchtlingshilfe engagiert.
+Im Sommer 2015 kamen sehr viele Menschen nach Europa, um hier Schutz zu finden. Menschen flüchteten schon in den Jahren zuvor, doch der Sommer 2015 änderte vieles. Im Zuge dessen versuchte eine sehr viel größere Menge an Menschen zu unterstützen. Als Mitglied im OK Lab Berlin sah ich damals die Notwendigkeit, eine Übersicht über digitale Unterstützungsprojekte anzufertigen. Die Projekte waren sehr vielfältig: Es gab Karten und Apps für Geflüchtete, Plattformen zur Organisation von Helfer\*innen usw. Sehr viele Menschen saßen an ähnlichen Projekten, in unterschiedlichen Ländern, aber mitunter auch nur 1-2 km voneinander entfernt. Meine Idee war es, diese Menschen zueinander zu bringen, damit sie kooperieren und noch bessere Projekte stemmen können. Es ist jetzt fast unnötig zu erwähnen, dass neben mir auch noch etliche andere die Idee hatten, solche Übersichten zu erstellen. Ich habe mich daraufhin mehrere Jahre ehrenamtlich in der digitalen Flüchtlingshilfe engagiert.
 
 In den letzten Tagen fühle ich mehr sehr an den Sommer 2015 erinnert. Viele wollen unterstützen und überlegen, wie sie ihr informationstechnisches Wissen einbringen können. Ich bin davon überzeugt: Nicht alles lässt sich durch Tech lösen. Viele Situationen können dennoch deutlich durch digitale Unterstützung verbessert werden, in dem sie Prozesse effizienter oder effektiver gestalten. Ich möchte deshalb einige Gedanken und Fragen in den Raum stellen für all diejenigen, die derzeit ein Projekt zum Umgang mit dem neuen Coronavirus SARS-CoV-2 und dessen gesellschaftlichen Folgen initiieren möchten.
 
