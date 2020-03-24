@@ -45,7 +45,7 @@ Make sure to call `bundler update` from time to time to keep the dependencies up
 
 There's a python script to save all GitHub avatars into the repository:
 
-```bash
+```python
 virtualenv .env
 source .env/bin/activate
 pip install -r requirements.txt
