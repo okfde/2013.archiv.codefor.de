@@ -2,11 +2,11 @@
 layout: post
 title: "Coding da Vinci - Hackathon für digitale Kulturangebote"
 author: Claudia Jach
-excerpt: Coding da Vinci Saar-Lor-Lux findet 2020 erstmalig grenzüberschreitend in Europa statt, dezentral und digital, um in Zeiten von Corona, in denen Kulturinstitutionen schließen müssen, alternative Kulturangebote zu schaffen. 
+excerpt: "Coding da Vinci Saar-Lor-Lux findet 2020 erstmalig grenzüberschreitend in Europa statt, dezentral und digital, um in Zeiten von Corona, in denen Kulturinstitutionen schließen müssen, alternative Kulturangebote zu schaffen." 
 images:
    - imgname: cdv-sll-logo.jpg
 og-image: /assets/blog/cdv-sll-logo.jpg
-og-description: Coding da Vinci Saar-Lor-Lux findet 2020 erstmalig grenzüberschreitend in Europa statt: dezentral und digital.
+og-description: "Coding da Vinci Saar-Lor-Lux findet 2020 erstmalig grenzüberschreitend in Europa statt: dezentral und digital."
 published: true
 ---
 ![cdv-sll-logo.jpg](/assets/blog/cdv-sll-logo.jpg)
