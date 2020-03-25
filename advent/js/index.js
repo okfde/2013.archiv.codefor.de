@@ -139,7 +139,13 @@ $( document ).ready(function() {
 
   }  
 
- day=25; // uncomment to skip to 25
+  // check if current day was overridden manually
+  var override = location.search
+  if (override) {
+    var found = override.match(/day=(\d+)/)
+    console.log("Manual override of day:", found[1])
+    month=12;day=parseInt(found[1])
+  }
 
   // Only work in December
   if(month === 12) {
