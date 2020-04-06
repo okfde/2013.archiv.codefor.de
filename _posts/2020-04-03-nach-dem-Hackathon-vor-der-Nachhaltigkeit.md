@@ -13,7 +13,7 @@ published: true
 
 ## Was kann ein Hackathon leisten?
 
-Hackathons – das Format ist in aller Munde und selbst bei denjenigen angekommen, die sich sonst vielleicht eher von Computerkram fernhalten. Bei der [Open Knowledge Foundation](https://okfn.de/) haben wir bei [Jugend Hackt](https://handbuch.jugendhackt.de/) oder Code for Germany bereits viel Hackathon-Erfahrung gesammelt. Ein Hackathon ist ein Veranstaltungsformat, bei dem Menschen unterschiedlicher Hintergründe zusammenkommen und in einem festgelegten Zeitraum zu einem bestimmten Thema arbeiten. Dabei sollen konkrete technologische Anwendungen entstehen oder bestehende weiterentwickelt werden. Diese Idee eignet sich nicht für alle Umstände gleichermaßen gut. In der gegenwärtigen Krisensituation allerdings kann ein Hackathon
+Hackathons – das Format ist in aller Munde und selbst bei denjenigen angekommen, die sich sonst vielleicht eher von Computerkram fernhalten. Bei der [Open Knowledge Foundation](https://okfn.de/) haben wir bei [Jugend hackt](https://handbuch.jugendhackt.de/) oder Code for Germany bereits viel Hackathon-Erfahrung gesammelt. Ein Hackathon ist ein Veranstaltungsformat, bei dem Menschen unterschiedlicher Hintergründe zusammenkommen und in einem festgelegten Zeitraum zu einem bestimmten Thema arbeiten. Dabei sollen konkrete technologische Anwendungen entstehen oder bestehende weiterentwickelt werden. Diese Idee eignet sich nicht für alle Umstände gleichermaßen gut. In der gegenwärtigen Krisensituation allerdings kann ein Hackathon
 
 * in kurzer Zeit viel kreatives Potenzial entfalten,
 * Ideation schaffen,
