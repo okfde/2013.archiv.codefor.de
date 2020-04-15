@@ -11,7 +11,7 @@ published: true
 ---
 ![chiara-f-MI8He1NWPWg-unsplash.jpg](/assets/blog/chiara-f-MI8He1NWPWg-unsplash.jpg)
 
-Wie [angekündigt](https://codefor.de/blog/nach-dem-Hackathon-vor-der-Nachhaltigkeit.html) haben wir im Anschluss an den [WirVsVirus-Hackathon](https://wirvsvirushackathon.org/) ein kurzes [Handbuch](https://codefor.de/assets/presse/CFG-Handbuch-Krisenresilienz-von-Verwaltungen.pdf) dazu verfasst, welche Schritte (kommunale) Verwaltungen gehen müssen, um in Krisen handlungsfähig zu bleiben.
+Wie [angekündigt](https://codefor.de/blog/nach-dem-Hackathon-vor-der-Nachhaltigkeit.html) haben wir im Anschluss an den [WirVsVirus-Hackathon](https://wirvsvirushackathon.org/) ein kurzes [Handbuch](https://codefor.de/assets/presse/20200409-CFG-Handbuch-Krisenresilienz.pdf) dazu verfasst, welche Schritte (kommunale) Verwaltungen gehen müssen, um in Krisen handlungsfähig zu bleiben.
 
 Mit diesem Handbuch richten wir uns an Verwaltungsmitarbeiter\*innen und die digitale Zivilgesellschaft. Unser Ziel ist es, gemeinsam an krisenresilienten Verwaltungsstrukturen zu arbeiten und die dafür erforderlichen Maßnahmen in den Bereichen Offene Daten, Freie und Offene Software und Schnittstellen, Offene Lizenzen hin zu Open Government umzusetzen.
 
