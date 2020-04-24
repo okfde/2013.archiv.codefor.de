@@ -34,6 +34,6 @@ Netzstreik fürs Klima heißt für uns also nicht nur, unseren Protest von der S
 
 Ein gelungenes Beispiel dafür ist das Projekt [Klimawatch](https://klimawatch.de/). Hier werden die Klimaschutzbemühungen von Kommunen visualisiert und in Bezug zum Pariser Abkommen gesetzt. Während die meisten anderen Anwendungen, die es in dem Bereich gibt, auf größere nationale oder internationale Ebenen blicken, schauen wir, was direkt vor unserer Haustür politisch geplant und umgesetzt wird.
 
-Emissionen werden nach verschiedenen Feldern aufgeschlüsselt angezeigt, die Daten erläutert und ihre Quellen transparenz aufgeschlüsselt. Daraus ergeben sich konkrete Sprechpunkte für die Ansprache unserer lokalen Vertreter\*innen.
+Emissionen werden nach verschiedenen Feldern aufgeschlüsselt angezeigt, die Daten erläutert und ihre Quellen transparent aufgeschlüsselt. Daraus ergeben sich konkrete Themen für die Ansprache unserer lokalen Vertreter\*innen.
 
 Je mehr Kommunen mitmachen, desto besser lassen sich die Klimaschutzkonzepte der einzelnen Kommunen miteinander vergleichen. Wie es in deiner Stadt aussieht? Setz dich mit unserem Projektteam in Kontakt und [füge die Daten deiner Kommune hinzu!](https://klimawatch.de/anleitung/) So wird dein Netzstreik fürs Klima noch erfolgsversprechender.
