@@ -14,7 +14,7 @@ Am 7. März feiern wir gemeinsam den Open Data Day! Wie jedes Jahr bieten an die
 
 ## Daten befreien - Klima retten
 
-Unter dem Motto Code for Climate widmen wir uns dieses Jahr, auch über den Open Data Day hinaus, schwerpunktmäßig Fragen rund um Klima- und Naturschutz. Wir zeigen auf, wie Offene Daten und Technologien genutzt werden können, um Umweltbelange stärker in den Fokus zu rücken und wie Zivilgesellschaft, Politik und Verwaltung gemeinsam an einem Strang ziehen können, um unser Klima zu schützen.
+Unter dem Motto Code for Climate widmen wir uns dieses Jahr, auch über den Open Data Day hinaus, schwerpunktmäßig Fragen rund um Klima- und Naturschutz. Wir zeigen auf, wie Offene Daten und Technologien genutzt werden können, um Umweltbelange stärker in den Fokus zu rücken und wie Zivilgesellschaft, Politik und Verwaltung gemeinsam an einem Strang ziehen können, um unser Klima zu schützen. Diese Bemühungen werden aus Mitteln der Deutschen Postcode Lotterie unterstützt.
 
 ![CodeforClimate](/assets/blog/codeforclimate.jpg)
 
