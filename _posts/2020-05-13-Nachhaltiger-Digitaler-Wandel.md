@@ -4,7 +4,7 @@ title: "Nachhaltiger digitaler Wandel – welchen Beitrag kann Civic Tech leiste
 author: Juliane Krüger, Claudia Jach
 excerpt: "Nachhaltigkeit muss beim digitalen Wandel eine zentrale Rolle spielen. Wir schauen uns u. a. die Faktoren Materialaufwand, Reparierbarkeit und Energiebilanz von Anwendungen an." 
 images:
-   - imgname: klimawatch_gruen.png
+   - imgname: unsplash_photo_by_sanni_sahil_1.jpg
 og-image: /assets/blog/unsplash_photo_by_sanni_sahil_1.jpg
 og-description: "Nachhaltiger digitaler Wandel und der Beitrag von Civic Tech"
 published: true
