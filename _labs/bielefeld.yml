@@ -16,6 +16,10 @@ members:
   username-github: helenbielawa
   username-twitter: helenbielawa
 
+- name: Florian Gellert
+  username-github: gllrt
+  username-twitter: fgllrt
+
 - name: Theresa Lampe
   username-github: theresalampe
   username-twitter: theresala95
@@ -24,9 +28,9 @@ members:
   username-github: cwrau
   username-twitter: cwrau
 
-- name: Florian Gellert
-  username-github: gllrt
-  username-twitter: fgllrt
+- name: Meike Wocken
+  username-github: micky-m
+  username-twitter: CountessOfCount
 
 links:
 
