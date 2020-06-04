@@ -34,4 +34,4 @@ Die Veranstaltung endet spätestens um 18.30 Uhr.
 
 Bitte melde dich unter dieser E-Mail Adresse an: krisenresilienz@staedtetag.de. Das Webinar wird als ZOOM-Konferenz veranstaltet werden.
 
-Teil die ![Einladung_Webinar_Krisenresilienz.pdf](/assets/blog/Einladung_Webinar_Krisenresilienz.pdf) auch mit deiner Stadtverwaltung! Die Veranstaltung ist für alle offen.
+Teil die ![Einladung](https://github.com/okfde/codefor.de/blob/gh-pages/assets/blog/Einladung_Webinar_Krisenresilienz.pdf) auch mit deiner Stadtverwaltung! Die Veranstaltung ist für alle offen.
