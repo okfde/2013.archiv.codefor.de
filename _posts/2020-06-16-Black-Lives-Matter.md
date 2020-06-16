@@ -39,7 +39,7 @@ Welche Maßnahmen könnt Ihr ergreifen, um Verbündete zu werden? Black Liberati
 
 ## Bilde dich weiter
 
-[Code for America DEI committee | Anti-racism, accountability, and support resources](https://docs.google.com/document/d/1juQ90h7MXdpBQp57kQ7HT6aDRMFrVGfeG17lvwfqqNY/edit#)
+[Code for America DEI committee, Anti-racism, accountability, and support resources](https://docs.google.com/document/d/1juQ90h7MXdpBQp57kQ7HT6aDRMFrVGfeG17lvwfqqNY/edit#)
 
 [Scaffolded Anti-Racist Resources](https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc/preview?fbclid=IwAR1trlWcz1KUKQGNkLtFYmvKWBUwefpcNDNyiknv1TK3k6W1z6vqDBDHeg4&pru=AAABcp9vA5k*hbeF4QRVVqZdBoxX2Fg-Ug)
 
@@ -75,34 +75,36 @@ Wir danken Code for America und den Aktivist:innen von Black Lives Matter, dass 
 
 Bitte pass auf Dich auf, und wir hoffen, dass Du sicher und gesund bleibst,
 
-Code for Japan
+**Code for Japan**
 
-Codeando México
+**Codeando México**
 
-Code for Germany
+**Code for Germany**
 
-Civic Tech Sweden
+**Civic Tech Sweden**
 
-mySociety
+**mySociety**
 
-Code for America
+**Code for America**
 
-Code for Australia
+**Code for Australia**
 
-ePaństwo Foundation / Code for Poland
+**ePaństwo Foundation / Code for Poland**
 
-Waag
+**Waag**
 
-Code for Canada
+**Code for Canada**
 
-Sinar Project
+**Sinar Project**
 
-Code for Pakistan
+**Code for Pakistan**
 
-Ciudadanía Inteligente
+**Ciudadanía Inteligente**
 
-OpenUp
+**OpenUp**
 
-Code for Africa
+**Code for Africa**
 
-& The Code for All Team
+**& The Code for All Team**
+
+Die Original Erklärung wurde auf Englisch am 15. Juni 2020 [hier](https://medium.com/code-for-all/black-lives-matter-statement-from-code-for-all-e4b78804b54a) veröffentlicht.
