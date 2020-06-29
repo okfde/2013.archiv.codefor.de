@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Webinar: Resiliente Kommunalverwaltungen - wie agieren wir krisenfest und flexibel?"
+title: "Online-Seminar: Resiliente Kommunalverwaltungen - wie agieren wir krisenfest und flexibel?"
 author: Claudia Jach
-excerpt: "Einladung zu einem gemeinsamen Webinar mit dem Deutschen Städtetag am 30. Juni. Wir diskutieren den Aufbau von IT-Kompetenz und -infrastruktur, Open Data, Open Source, interkommunale Vernetzung und die
+excerpt: "Einladung zu einem gemeinsamen online Event mit dem Deutschen Städtetag am 30. Juni. Wir diskutieren den Aufbau von IT-Kompetenz und -infrastruktur, Open Data, Open Source, interkommunale Vernetzung und die
 Einbeziehung der Zivilgesellschaft" 
 images:
    - imgname: Town_Picture_by_john_moeses_bauan_unsplash.jpg
 og-image: /assets/blog/Town_Picture_by_john_moeses_bauan_unsplash.jpg
-og-description: "Einladung zu einem gemeinsamen Webinar mit dem Deutschen Städtetag am 30. Juni zu unserem Handbuch Krisenresilienz."
+og-description: "Einladung zu einer gemeinsamen Veranstaltung mit dem Deutschen Städtetag am 30. Juni zu unserem Handbuch Krisenresilienz."
 published: true
 ---
 ![Town_Picture_by_john_moeses_bauan_unsplash.jpg](/assets/blog/Town_Picture_by_john_moeses_bauan_unsplash.jpg)
