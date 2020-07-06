@@ -7,10 +7,6 @@ long: 9.173700
 markerposition: right
 
 members:
-- name: Jan Lutz
-  username-twitter: Jan_sagt
-  username-github: fuergestalten
-
 - name: Rajko Zschiegner
   username-twitter: ricki_z
   username-github: ricki-z
@@ -42,8 +38,8 @@ members:
   username-github: ChrizKu
 
 links:
-- name: Meetup
-  url: http://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/
+- name: GetTogether
+  url: https://events.sensor.community/ok-lab-stuttgart/
 - name: Twitter
   url: https://twitter.com/codeforS
 - name: Wiki / Protokolle
@@ -52,10 +48,6 @@ links:
   url: http://pad.okfn.org/p/OK-Lab-Stuttgart
 
 leads:
-- name: Jan Lutz
-  url: mailto:jan.lutz@buero-fuer-gestalten.de
-  username-twitter: fuergestalten
-  username-github: fuergestalten
 - name: Rajko Zschiegner
   url: mailto:rajko@codefor.de
   username-twitter: ricki_z
